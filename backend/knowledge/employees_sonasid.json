@@ -1,0 +1,818 @@
+[
+  {
+    "matricule": "309",
+    "nom": "AMDARI",
+    "prenom": "MUSTAPHA",
+    "display_name": "MUSTAPHA AMDARI"
+  },
+  {
+    "matricule": "325",
+    "nom": "LAMRINI",
+    "prenom": "MIMOUN",
+    "display_name": "MIMOUN LAMRINI"
+  },
+  {
+    "matricule": "332",
+    "nom": "RHANJATI",
+    "prenom": "MOHAMED",
+    "display_name": "MOHAMED RHANJATI"
+  },
+  {
+    "matricule": "333",
+    "nom": "BOUAAMAMA",
+    "prenom": "BOUCHTA",
+    "display_name": "BOUCHTA BOUAAMAMA"
+  },
+  {
+    "matricule": "338",
+    "nom": "AKALAI",
+    "prenom": "MIMOUN",
+    "display_name": "MIMOUN AKALAI"
+  },
+  {
+    "matricule": "341",
+    "nom": "ALAOUI",
+    "prenom": "MOULAY MUSTAPHA",
+    "display_name": "MOULAY MUSTAPHA ALAOUI"
+  },
+  {
+    "matricule": "347",
+    "nom": "AOUANE",
+    "prenom": "ABDENBI",
+    "display_name": "ABDENBI AOUANE"
+  },
+  {
+    "matricule": "355",
+    "nom": "ALJI",
+    "prenom": "MAHMOUD",
+    "display_name": "MAHMOUD ALJI"
+  },
+  {
+    "matricule": "356",
+    "nom": "IATISSAMI",
+    "prenom": "MUSTAPHA",
+    "display_name": "MUSTAPHA IATISSAMI"
+  },
+  {
+    "matricule": "357",
+    "nom": "MOUNIB",
+    "prenom": "ABDELATI",
+    "display_name": "ABDELATI MOUNIB"
+  },
+  {
+    "matricule": "364",
+    "nom": "JAOUAL",
+    "prenom": "SAID",
+    "display_name": "SAID JAOUAL"
+  },
+  {
+    "matricule": "367",
+    "nom": "AKAAOUCH",
+    "prenom": "ALI",
+    "display_name": "ALI AKAAOUCH"
+  },
+  {
+    "matricule": "368",
+    "nom": "OUCHNI",
+    "prenom": "HAMID",
+    "display_name": "HAMID OUCHNI"
+  },
+  {
+    "matricule": "372",
+    "nom": "ABDAIM",
+    "prenom": "LAHOUCINE",
+    "display_name": "LAHOUCINE ABDAIM"
+  },
+  {
+    "matricule": "380",
+    "nom": "AZZAMMOURI",
+    "prenom": "LAARBI",
+    "display_name": "LAARBI AZZAMMOURI"
+  },
+  {
+    "matricule": "393",
+    "nom": "TALAA",
+    "prenom": "M'HAMMED",
+    "display_name": "M'HAMMED TALAA"
+  },
+  {
+    "matricule": "455",
+    "nom": "TAHIRI",
+    "prenom": "ABDELKADER",
+    "display_name": "ABDELKADER TAHIRI"
+  },
+  {
+    "matricule": "456",
+    "nom": "ARRAISS",
+    "prenom": "ABDESLAM",
+    "display_name": "ABDESLAM ARRAISS"
+  },
+  {
+    "matricule": "458",
+    "nom": "AZIZI",
+    "prenom": "MUSTAPHA",
+    "display_name": "MUSTAPHA AZIZI"
+  },
+  {
+    "matricule": "459",
+    "nom": "BENOTMANE",
+    "prenom": "JAMAL",
+    "display_name": "JAMAL BENOTMANE"
+  },
+  {
+    "matricule": "462",
+    "nom": "LAAZIBI",
+    "prenom": "MOHAMED",
+    "display_name": "MOHAMED LAAZIBI"
+  },
+  {
+    "matricule": "464",
+    "nom": "MAZOUJI",
+    "prenom": "MIMOUN",
+    "display_name": "MIMOUN MAZOUJI"
+  },
+  {
+    "matricule": "466",
+    "nom": "AARAB",
+    "prenom": "SAID",
+    "display_name": "SAID AARAB"
+  },
+  {
+    "matricule": "467",
+    "nom": "ABARCHI",
+    "prenom": "AHMED",
+    "display_name": "AHMED ABARCHI"
+  },
+  {
+    "matricule": "469",
+    "nom": "ABDESSADKI",
+    "prenom": "AHMED",
+    "display_name": "AHMED ABDESSADKI"
+  },
+  {
+    "matricule": "470",
+    "nom": "ADDAHRI",
+    "prenom": "ABDELOUAHID",
+    "display_name": "ABDELOUAHID ADDAHRI"
+  },
+  {
+    "matricule": "471",
+    "nom": "AGARTIT",
+    "prenom": "JAMAL",
+    "display_name": "JAMAL AGARTIT"
+  },
+  {
+    "matricule": "472",
+    "nom": "AOURAM",
+    "prenom": "AHMED",
+    "display_name": "AHMED AOURAM"
+  },
+  {
+    "matricule": "473",
+    "nom": "ASGHIR",
+    "prenom": "AHMED",
+    "display_name": "AHMED ASGHIR"
+  },
+  {
+    "matricule": "475",
+    "nom": "ATAF",
+    "prenom": "MOHAMED",
+    "display_name": "MOHAMED ATAF"
+  },
+  {
+    "matricule": "476",
+    "nom": "BOUDIOUAN",
+    "prenom": "MOHAMED",
+    "display_name": "MOHAMED BOUDIOUAN"
+  },
+  {
+    "matricule": "477",
+    "nom": "BOUHAITI",
+    "prenom": "CHERKI",
+    "display_name": "CHERKI BOUHAITI"
+  },
+  {
+    "matricule": "479",
+    "nom": "BRIMO",
+    "prenom": "FARID",
+    "display_name": "FARID BRIMO"
+  },
+  {
+    "matricule": "480",
+    "nom": "CHAKKOU",
+    "prenom": "HAMID",
+    "display_name": "HAMID CHAKKOU"
+  },
+  {
+    "matricule": "484",
+    "nom": "FANA",
+    "prenom": "MOHAMED",
+    "display_name": "MOHAMED FANA"
+  },
+  {
+    "matricule": "485",
+    "nom": "HADDOUCHI",
+    "prenom": "SALAH",
+    "display_name": "SALAH HADDOUCHI"
+  },
+  {
+    "matricule": "487",
+    "nom": "ICH CHEN",
+    "prenom": "ABDELLAH",
+    "display_name": "ABDELLAH ICH CHEN"
+  },
+  {
+    "matricule": "490",
+    "nom": "JIYAR",
+    "prenom": "EL MILOUD",
+    "display_name": "EL MILOUD JIYAR"
+  },
+  {
+    "matricule": "492",
+    "nom": "LAGHRABLI",
+    "prenom": "BOUCHTA",
+    "display_name": "BOUCHTA LAGHRABLI"
+  },
+  {
+    "matricule": "493",
+    "nom": "LAZREG",
+    "prenom": "ABDESLAM",
+    "display_name": "ABDESLAM LAZREG"
+  },
+  {
+    "matricule": "494",
+    "nom": "MACHROUT",
+    "prenom": "RACHID",
+    "display_name": "RACHID MACHROUT"
+  },
+  {
+    "matricule": "495",
+    "nom": "OUHADDOU",
+    "prenom": "MOHAMED",
+    "display_name": "MOHAMED OUHADDOU"
+  },
+  {
+    "matricule": "496",
+    "nom": "RADI",
+    "prenom": "ABDELKARIM",
+    "display_name": "ABDELKARIM RADI"
+  },
+  {
+    "matricule": "497",
+    "nom": "ROUMANI",
+    "prenom": "BRAHIM",
+    "display_name": "BRAHIM ROUMANI"
+  },
+  {
+    "matricule": "498",
+    "nom": "TALEB",
+    "prenom": "MOHAMMED",
+    "display_name": "MOHAMMED TALEB"
+  },
+  {
+    "matricule": "504",
+    "nom": "EL BOUJADAYNI",
+    "prenom": "AHMED AZDIN",
+    "display_name": "AHMED AZDIN EL BOUJADAYNI"
+  },
+  {
+    "matricule": "505",
+    "nom": "ET-TAZI",
+    "prenom": "ABDENBI",
+    "display_name": "ABDENBI ET-TAZI"
+  },
+  {
+    "matricule": "507",
+    "nom": "LAOUKILI",
+    "prenom": "AHMED",
+    "display_name": "AHMED LAOUKILI"
+  },
+  {
+    "matricule": "510",
+    "nom": "LAKHAL",
+    "prenom": "HAMID",
+    "display_name": "HAMID LAKHAL"
+  },
+  {
+    "matricule": "511",
+    "nom": "EL FARES",
+    "prenom": "ABDELRHANI",
+    "display_name": "ABDELRHANI EL FARES"
+  },
+  {
+    "matricule": "512",
+    "nom": "ER RAJI",
+    "prenom": "MOHAMED",
+    "display_name": "MOHAMED ER RAJI"
+  },
+  {
+    "matricule": "588",
+    "nom": "JEBBAR",
+    "prenom": "MY ABDELKARIM",
+    "display_name": "MY ABDELKARIM JEBBAR"
+  },
+  {
+    "matricule": "596",
+    "nom": "BEN JILALI",
+    "prenom": "MOHAMED",
+    "display_name": "MOHAMED BEN JILALI"
+  },
+  {
+    "matricule": "597",
+    "nom": "CHAOUCH",
+    "prenom": "RADOAN",
+    "display_name": "RADOAN CHAOUCH"
+  },
+  {
+    "matricule": "819",
+    "nom": "ABDELKHALEK",
+    "prenom": "AMINE",
+    "display_name": "AMINE ABDELKHALEK"
+  },
+  {
+    "matricule": "824",
+    "nom": "ZANIBOU",
+    "prenom": "EL M'FADDAL",
+    "display_name": "EL M'FADDAL ZANIBOU"
+  },
+  {
+    "matricule": "887",
+    "nom": "AZHAF",
+    "prenom": "MOHAMMED",
+    "display_name": "MOHAMMED AZHAF"
+  },
+  {
+    "matricule": "957",
+    "nom": "SLIMANI",
+    "prenom": "MOURAD",
+    "display_name": "MOURAD SLIMANI"
+  },
+  {
+    "matricule": "1078",
+    "nom": "ZAHRAOUI",
+    "prenom": "MOHAMMED",
+    "display_name": "MOHAMMED ZAHRAOUI"
+  },
+  {
+    "matricule": "1081",
+    "nom": "ELHARROUTI",
+    "prenom": "TIJANI",
+    "display_name": "TIJANI ELHARROUTI"
+  },
+  {
+    "matricule": "1082",
+    "nom": "EL BARRAGHI",
+    "prenom": "RACHID",
+    "display_name": "RACHID EL BARRAGHI"
+  },
+  {
+    "matricule": "1195",
+    "nom": "BARAKATE",
+    "prenom": "Oussama",
+    "display_name": "Oussama BARAKATE"
+  },
+  {
+    "matricule": "1198",
+    "nom": "OUJAIDAN",
+    "prenom": "Fadila",
+    "display_name": "Fadila OUJAIDAN"
+  },
+  {
+    "matricule": "1204",
+    "nom": "ENNCEIRI",
+    "prenom": "HOUSNI",
+    "display_name": "HOUSNI ENNCEIRI"
+  },
+  {
+    "matricule": "1208",
+    "nom": "MOUADDINE",
+    "prenom": "MOHAMED",
+    "display_name": "MOHAMED MOUADDINE"
+  },
+  {
+    "matricule": "1271",
+    "nom": "BENBOUAZA",
+    "prenom": "MOHAMED",
+    "display_name": "MOHAMED BENBOUAZA"
+  },
+  {
+    "matricule": "1272",
+    "nom": "EL HADRI",
+    "prenom": "HASSAN",
+    "display_name": "HASSAN EL HADRI"
+  },
+  {
+    "matricule": "1280",
+    "nom": "HACHMI",
+    "prenom": "MUSTAPHA",
+    "display_name": "MUSTAPHA HACHMI"
+  },
+  {
+    "matricule": "1360",
+    "nom": "ADDI",
+    "prenom": "MOHAMED",
+    "display_name": "MOHAMED ADDI"
+  },
+  {
+    "matricule": "1363",
+    "nom": "BENABID",
+    "prenom": "MOHAMED",
+    "display_name": "MOHAMED BENABID"
+  },
+  {
+    "matricule": "1368",
+    "nom": "MARSAK",
+    "prenom": "KANZA",
+    "display_name": "KANZA MARSAK"
+  },
+  {
+    "matricule": "1389",
+    "nom": "BACHIRI",
+    "prenom": "SAMI",
+    "display_name": "SAMI BACHIRI"
+  },
+  {
+    "matricule": "1390",
+    "nom": "AKEBI",
+    "prenom": "ABDELGHANI",
+    "display_name": "ABDELGHANI AKEBI"
+  },
+  {
+    "matricule": "1450",
+    "nom": "OUCHEN",
+    "prenom": "SORAYA",
+    "display_name": "SORAYA OUCHEN"
+  },
+  {
+    "matricule": "1451",
+    "nom": "FEDDAHI",
+    "prenom": "ABDESSAMAD",
+    "display_name": "ABDESSAMAD FEDDAHI"
+  },
+  {
+    "matricule": "1457",
+    "nom": "IRABNE",
+    "prenom": "YASSINE",
+    "display_name": "YASSINE IRABNE"
+  },
+  {
+    "matricule": "1482",
+    "nom": "KHANOUCHI",
+    "prenom": "ABDELILAH",
+    "display_name": "ABDELILAH KHANOUCHI"
+  },
+  {
+    "matricule": "1507",
+    "nom": "AZAMMOR",
+    "prenom": "YOUNES",
+    "display_name": "YOUNES AZAMMOR"
+  },
+  {
+    "matricule": "1508",
+    "nom": "EL BADMOUSSI",
+    "prenom": "ABDELILAH",
+    "display_name": "ABDELILAH EL BADMOUSSI"
+  },
+  {
+    "matricule": "1513",
+    "nom": "BOULMANE",
+    "prenom": "YOUSSEF",
+    "display_name": "YOUSSEF BOULMANE"
+  },
+  {
+    "matricule": "1514",
+    "nom": "EL-MORSLI",
+    "prenom": "MOHAMED",
+    "display_name": "MOHAMED EL-MORSLI"
+  },
+  {
+    "matricule": "1515",
+    "nom": "AMJOUD",
+    "prenom": "ABDELLAH",
+    "display_name": "ABDELLAH AMJOUD"
+  },
+  {
+    "matricule": "1516",
+    "nom": "BOUHASSOUN",
+    "prenom": "MOURAD",
+    "display_name": "MOURAD BOUHASSOUN"
+  },
+  {
+    "matricule": "1525",
+    "nom": "KHLAIF",
+    "prenom": "ABDERRAHMANE",
+    "display_name": "ABDERRAHMANE KHLAIF"
+  },
+  {
+    "matricule": "1532",
+    "nom": "ALLOU",
+    "prenom": "DRISS",
+    "display_name": "DRISS ALLOU"
+  },
+  {
+    "matricule": "1536",
+    "nom": "KABBOUCH",
+    "prenom": "ABDERRAHIM",
+    "display_name": "ABDERRAHIM KABBOUCH"
+  },
+  {
+    "matricule": "1537",
+    "nom": "OUASS",
+    "prenom": "ANAS",
+    "display_name": "ANAS OUASS"
+  },
+  {
+    "matricule": "1538",
+    "nom": "TABARRANT",
+    "prenom": "ABDELHASSIB",
+    "display_name": "ABDELHASSIB TABARRANT"
+  },
+  {
+    "matricule": "1552",
+    "nom": "AZDAD",
+    "prenom": "ABDERRAHMAN",
+    "display_name": "ABDERRAHMAN AZDAD"
+  },
+  {
+    "matricule": "1559",
+    "nom": "BOUHRICHE",
+    "prenom": "Ayoub",
+    "display_name": "Ayoub BOUHRICHE"
+  },
+  {
+    "matricule": "1565",
+    "nom": "BENALI",
+    "prenom": "WASSIM",
+    "display_name": "WASSIM BENALI"
+  },
+  {
+    "matricule": "1571",
+    "nom": "KANDANI",
+    "prenom": "FOUAD",
+    "display_name": "FOUAD KANDANI"
+  },
+  {
+    "matricule": "1578",
+    "nom": "BOUTOUATOU",
+    "prenom": "SIMOHAMED",
+    "display_name": "SIMOHAMED BOUTOUATOU"
+  },
+  {
+    "matricule": "1594",
+    "nom": "OUTAASSOUTE",
+    "prenom": "TAWFIQ",
+    "display_name": "TAWFIQ OUTAASSOUTE"
+  },
+  {
+    "matricule": "1595",
+    "nom": "BUYGAYDAN",
+    "prenom": "MOHAMED",
+    "display_name": "MOHAMED BUYGAYDAN"
+  },
+  {
+    "matricule": "1627",
+    "nom": "MOULAY",
+    "prenom": "HAMZA",
+    "display_name": "HAMZA MOULAY"
+  },
+  {
+    "matricule": "1628",
+    "nom": "ECH-CHAYKH",
+    "prenom": "KARIM",
+    "display_name": "KARIM ECH-CHAYKH"
+  },
+  {
+    "matricule": "1629",
+    "nom": "DAOUDI",
+    "prenom": "ABDESSAMAD",
+    "display_name": "ABDESSAMAD DAOUDI"
+  },
+  {
+    "matricule": "1630",
+    "nom": "DRAOUI",
+    "prenom": "ABDELOUAHID",
+    "display_name": "ABDELOUAHID DRAOUI"
+  },
+  {
+    "matricule": "1632",
+    "nom": "BOUZEGGOU",
+    "prenom": "SALAH-EDDINE",
+    "display_name": "SALAH-EDDINE BOUZEGGOU"
+  },
+  {
+    "matricule": "1633",
+    "nom": "BAHADI",
+    "prenom": "YOUNESS",
+    "display_name": "YOUNESS BAHADI"
+  },
+  {
+    "matricule": "1637",
+    "nom": "EL AMINE",
+    "prenom": "DOUNIA",
+    "display_name": "DOUNIA EL AMINE"
+  },
+  {
+    "matricule": "1672",
+    "nom": "CHIGUER",
+    "prenom": "HOUMMADA",
+    "display_name": "HOUMMADA CHIGUER"
+  },
+  {
+    "matricule": "1673",
+    "nom": "CHAOUQUI",
+    "prenom": "MOHAMED",
+    "display_name": "MOHAMED CHAOUQUI"
+  },
+  {
+    "matricule": "1683",
+    "nom": "TAHIRI",
+    "prenom": "HICHAM",
+    "display_name": "HICHAM TAHIRI"
+  },
+  {
+    "matricule": "1686",
+    "nom": "BARRAHO",
+    "prenom": "ZAKARIAE",
+    "display_name": "ZAKARIAE BARRAHO"
+  },
+  {
+    "matricule": "1687",
+    "nom": "LABRIKI",
+    "prenom": "OUSSAMA",
+    "display_name": "OUSSAMA LABRIKI"
+  },
+  {
+    "matricule": "1695",
+    "nom": "DOUIRI",
+    "prenom": "MOHAMED",
+    "display_name": "MOHAMED DOUIRI"
+  },
+  {
+    "matricule": "1696",
+    "nom": "MAHI",
+    "prenom": "CHAFIK",
+    "display_name": "CHAFIK MAHI"
+  },
+  {
+    "matricule": "1697",
+    "nom": "TOUIL",
+    "prenom": "YOUNESS",
+    "display_name": "YOUNESS TOUIL"
+  },
+  {
+    "matricule": "1698",
+    "nom": "KOUBIY",
+    "prenom": "SAMYA",
+    "display_name": "SAMYA KOUBIY"
+  },
+  {
+    "matricule": "1713",
+    "nom": "OUAHHAB",
+    "prenom": "RACHID",
+    "display_name": "RACHID OUAHHAB"
+  },
+  {
+    "matricule": "1714",
+    "nom": "BOUCHAFRA",
+    "prenom": "IBRAHIM",
+    "display_name": "IBRAHIM BOUCHAFRA"
+  },
+  {
+    "matricule": "1715",
+    "nom": "ZOUINE",
+    "prenom": "LARBI",
+    "display_name": "LARBI ZOUINE"
+  },
+  {
+    "matricule": "1716",
+    "nom": "HABSAOUI",
+    "prenom": "MOHAMED AMINE",
+    "display_name": "MOHAMED AMINE HABSAOUI"
+  },
+  {
+    "matricule": "1717",
+    "nom": "KARROUM",
+    "prenom": "YOUSSEF",
+    "display_name": "YOUSSEF KARROUM"
+  },
+  {
+    "matricule": "1718",
+    "nom": "LAKHDAR",
+    "prenom": "JAOUAD",
+    "display_name": "JAOUAD LAKHDAR"
+  },
+  {
+    "matricule": "1719",
+    "nom": "SABRI",
+    "prenom": "AMINE",
+    "display_name": "AMINE SABRI"
+  },
+  {
+    "matricule": "1720",
+    "nom": "ETTADLAOUY",
+    "prenom": "EL MEHDI",
+    "display_name": "EL MEHDI ETTADLAOUY"
+  },
+  {
+    "matricule": "1738",
+    "nom": "MARCHOUHI",
+    "prenom": "YOUSSEF",
+    "display_name": "YOUSSEF MARCHOUHI"
+  },
+  {
+    "matricule": "1739",
+    "nom": "BOUCHKHACHAKH",
+    "prenom": "Younes",
+    "display_name": "Younes BOUCHKHACHAKH"
+  },
+  {
+    "matricule": "1755",
+    "nom": "KHALIFI",
+    "prenom": "HAMZA",
+    "display_name": "HAMZA KHALIFI"
+  },
+  {
+    "matricule": "1757",
+    "nom": "ZIDAN",
+    "prenom": "TAOUFIK",
+    "display_name": "TAOUFIK ZIDAN"
+  },
+  {
+    "matricule": "1758",
+    "nom": "CHOUDNA",
+    "prenom": "YOUSSEF",
+    "display_name": "YOUSSEF CHOUDNA"
+  },
+  {
+    "matricule": "1759",
+    "nom": "KERMAOUI",
+    "prenom": "HOUSSAM",
+    "display_name": "HOUSSAM KERMAOUI"
+  },
+  {
+    "matricule": "1760",
+    "nom": "BOULGHOUDAN",
+    "prenom": "M'HAMED",
+    "display_name": "M'HAMED BOULGHOUDAN"
+  },
+  {
+    "matricule": "1769",
+    "nom": "HAJJOUBI",
+    "prenom": "ABDELJALIL",
+    "display_name": "ABDELJALIL HAJJOUBI"
+  },
+  {
+    "matricule": "1794",
+    "nom": "ELOUAHABI",
+    "prenom": "ISLAM",
+    "display_name": "ISLAM ELOUAHABI"
+  },
+  {
+    "matricule": "1795",
+    "nom": "RHAZOUANI",
+    "prenom": "MOHAMMED",
+    "display_name": "MOHAMMED RHAZOUANI"
+  },
+  {
+    "matricule": "1796",
+    "nom": "AZIRAR",
+    "prenom": "HAITAM",
+    "display_name": "HAITAM AZIRAR"
+  },
+  {
+    "matricule": "1810",
+    "nom": "TARRAQ",
+    "prenom": "AHMED",
+    "display_name": "AHMED TARRAQ"
+  },
+  {
+    "matricule": "1811",
+    "nom": "OUASS",
+    "prenom": "MOUNIR",
+    "display_name": "MOUNIR OUASS"
+  },
+  {
+    "matricule": "1812",
+    "nom": "ES-SALOUANI",
+    "prenom": "MOHAMED",
+    "display_name": "MOHAMED ES-SALOUANI"
+  },
+  {
+    "matricule": "1821",
+    "nom": "AIT HAQQI",
+    "prenom": "JAOUAD",
+    "display_name": "JAOUAD AIT HAQQI"
+  },
+  {
+    "matricule": "1822",
+    "nom": "LAMSADDER",
+    "prenom": "ABDERRAZEK",
+    "display_name": "ABDERRAZEK LAMSADDER"
+  },
+  {
+    "matricule": "1829",
+    "nom": "ELKADAOUI",
+    "prenom": "SOULAYMANE",
+    "display_name": "SOULAYMANE ELKADAOUI"
+  }
+]

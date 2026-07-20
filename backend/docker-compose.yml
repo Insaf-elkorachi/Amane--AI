@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: amane_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: amane
+      POSTGRES_USER: amane
+      POSTGRES_PASSWORD: amane_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - amane_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  amane_postgres_data:

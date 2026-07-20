@@ -1,0 +1,40 @@
+﻿# Secrets / environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+backend/uvicorn.out.log
+backend/uvicorn.err.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Frontend build/cache
+node_modules/
+dist/
+build/
+.cache/
+
+# Uploaded user/test files
+backend/uploads/
+

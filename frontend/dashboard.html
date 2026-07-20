@@ -1,0 +1,484 @@
+﻿<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="./assets/amane-favicon.svg" />
+    <title>Dashboard HSE - AMANE</title>
+    <style>
+      :root {
+        --ink: #2f3337;
+        --muted: #6f7479;
+        --line: rgba(62, 66, 70, 0.16);
+        --brand: #f58220;
+        --brand-dark: #4a4f54;
+        --mint: #fff1e4;
+        --blue: #6b747c;
+        --amber: #f5a623;
+        --accent: #d94f2b;
+        --panel: rgba(255, 255, 255, 0.9);
+        --shadow: 0 22px 60px rgba(47, 51, 55, 0.13);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at 10% 10%, rgba(245, 130, 32, 0.16), transparent 30%),
+          radial-gradient(circle at 88% 12%, rgba(90, 96, 102, 0.13), transparent 28%),
+          linear-gradient(145deg, #fafafa 0%, #eceff1 48%, #faf7f2 100%);
+      }
+      main { width: min(1260px, calc(100% - 32px)); margin: 0 auto; padding: 24px 0 34px; }
+      header.hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 18px;
+        align-items: end;
+        margin-bottom: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 18px;
+        background: linear-gradient(135deg, rgba(255,255,255,.92), rgba(255,241,228,.82));
+        box-shadow: var(--shadow);
+      }
+      .brand-strip { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+      .sonasid-logo { display: inline-flex; align-items: center; width: 148px; min-height: 48px; }
+      .sonasid-logo img { display: block; width: 148px; height: auto; object-fit: contain; filter: saturate(1.18) contrast(1.12); }
+      .brand-strip strong { display: block; font-size: 15px; }
+      .brand-strip > div span { display: block; color: var(--muted); font-size: 12px; font-weight: 800; text-transform: uppercase; }
+      h1, h2, p { margin-top: 0; }
+      h1 { margin-bottom: 6px; font-size: clamp(32px, 4vw, 52px); line-height: 1; letter-spacing: 0; }
+      h2 { margin: 0; font-size: 17px; }
+      p { color: var(--muted); line-height: 1.45; }
+      a, button, input, select { font: inherit; }
+      a { color: inherit; text-decoration: none; }
+      .actions { display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+      .button { display: inline-flex; align-items: center; justify-content: center; min-height: 40px; border: 1px solid var(--line); border-radius: 8px; padding: 0 13px; background: white; color: var(--ink); font-weight: 900; cursor: pointer; box-shadow: 0 8px 20px rgba(18,32,26,.06); }
+      .button.primary { border-color: var(--brand); background: var(--brand); color: white; }
+      .button:hover, .pdf:hover { transform: translateY(-1px); }
+      .grid { display: grid; gap: 16px; }
+      .kpis { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+      .layout { grid-template-columns: minmax(0, 1.45fr) minmax(330px, 0.55fr); align-items: start; margin-top: 16px; }
+      .card { border: 1px solid var(--line); border-radius: 8px; background: var(--panel); box-shadow: var(--shadow); backdrop-filter: blur(16px); overflow: hidden; }
+      .card-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 15px 16px; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.62); }
+      .card-body { padding: 16px; }
+      .kpi { position: relative; min-height: 132px; padding: 16px; overflow: hidden; }
+      .kpi::after { content: ""; position: absolute; right: -24px; bottom: -34px; width: 112px; height: 112px; border-radius: 50%; background: currentColor; opacity: .09; }
+      .kpi span { display: block; color: var(--muted); font-size: 12px; font-weight: 900; text-transform: uppercase; }
+      .kpi strong { display: block; margin-top: 10px; font-size: 38px; line-height: 1; }
+      .kpi small { display: block; margin-top: 12px; color: var(--muted); font-weight: 800; }
+      .kpi.total { color: var(--brand); border-top: 4px solid var(--brand); }
+      .kpi.open { color: var(--blue); border-top: 4px solid var(--blue); }
+      .kpi.danger { color: var(--accent); border-top: 4px solid var(--accent); }
+      .kpi.sap { color: var(--amber); border-top: 4px solid var(--amber); }
+      .manual-card { display: none; margin-bottom: 16px; }
+      .manual-card.is-open { display: block; }
+      .manual-form { display: grid; gap: 14px; }
+      .form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+      .field { display: grid; gap: 7px; }
+      .field.full { grid-column: 1 / -1; }
+      .field label { color: var(--brand-dark); font-size: 12px; font-weight: 900; text-transform: uppercase; }
+      textarea { min-height: 92px; resize: vertical; border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; background: white; color: var(--ink); font: inherit; outline: none; }
+      textarea:focus { border-color: var(--brand); box-shadow: 0 0 0 3px rgba(245,130,32,.15); }
+      .form-footer { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+      .form-message { color: var(--muted); font-size: 13px; font-weight: 800; }
+      .filters { display: grid; grid-template-columns: minmax(220px, 1fr) 170px 160px 170px; gap: 10px; margin-bottom: 12px; }
+      input, select { min-height: 42px; border: 1px solid var(--line); border-radius: 8px; padding: 0 12px; background: white; color: var(--ink); outline: none; }
+      input:focus, select:focus { border-color: var(--brand); box-shadow: 0 0 0 3px rgba(245,130,32,.15); }
+      table { width: 100%; border-collapse: collapse; background: white; }
+      th, td { padding: 12px 13px; border-bottom: 1px solid rgba(62, 66, 70, 0.1); text-align: left; vertical-align: top; font-size: 13px; line-height: 1.4; }
+      th { color: var(--brand-dark); background: #fff4e8; font-size: 12px; font-weight: 900; text-transform: uppercase; }
+      tbody tr { transition: background .18s ease; }
+      tbody tr:hover { background: #f7fbf9; }
+      td { overflow-wrap: anywhere; }
+      .badge { display: inline-flex; align-items: center; min-height: 26px; border-radius: 999px; padding: 0 9px; background: #fff1e4; color: var(--brand-dark); font-size: 12px; font-weight: 900; white-space: nowrap; text-transform: capitalize; }
+      .badge.danger { background: #fff0e8; color: #c9471f; }
+      .badge.ready, .badge.done, .badge.active { background: #fff1e4; color: var(--brand-dark); }
+      .badge.waiting { background: #fff6df; color: #8a5b13; }
+      .pdf { display: inline-flex; align-items: center; justify-content: center; min-height: 30px; border-radius: 8px; padding: 0 11px; background: var(--brand); color: white; font-size: 12px; font-weight: 900; transition: transform .18s ease; }
+      .bars { display: grid; gap: 13px; }
+      .bar-row { display: grid; gap: 7px; }
+      .bar-label { display: flex; justify-content: space-between; gap: 8px; color: var(--muted); font-size: 13px; }
+      .bar-label strong { color: var(--ink); }
+      .bar-track { height: 11px; border-radius: 999px; background: #e8efeb; overflow: hidden; }
+      .bar-fill { height: 100%; width: 0; background: linear-gradient(90deg, var(--brand), #ffad5f); border-radius: 999px; transition: width 0.25s ease; }
+      .live { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); font-size: 13px; }
+      .pulse { width: 9px; height: 9px; border-radius: 50%; background: #f58220; box-shadow: 0 0 0 0 rgba(245, 130, 32, 0.35); animation: pulse 1.8s infinite; }
+
+      .badge.high, .badge.critical { background: #fff0e8; color: #c9471f; }
+      .badge.medium { background: #fff6df; color: #8a5b13; }
+      .badge.low { background: #eef4f1; color: #4a4f54; }
+      .badge.sap-ready { background: #fff1e4; color: #a85100; }
+      .priority-list { display: grid; gap: 10px; }
+      .priority-item { display: grid; gap: 6px; padding: 12px; border: 1px solid var(--line); border-radius: 8px; background: white; }
+      .priority-item strong { font-size: 13px; }
+      .priority-meta { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; color: var(--muted); font-size: 12px; }
+      .muted-line { color: var(--muted); font-size: 12px; line-height: 1.4; }
+      .table-tools { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
+      .table-count { color: var(--muted); font-size: 13px; font-weight: 800; }
+      .export-actions { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+
+@keyframes pulse { 70% { box-shadow: 0 0 0 10px rgba(245, 130, 32, 0); } 100% { box-shadow: 0 0 0 0 rgba(245, 130, 32, 0); } }
+      @media (max-width: 960px) { .kpis, .layout, header.hero, .form-grid { grid-template-columns: 1fr; } .filters { grid-template-columns: 1fr; } .field.full { grid-column: auto; } .table-wrap { overflow-x: auto; } table { min-width: 1080px; } .actions { justify-content: flex-start; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header class="hero">
+        <div>
+          <div class="brand-strip">
+            <span class="sonasid-logo" aria-label="Sonasid"><img src="/app/assets/sonasid-logo-cropped.png" alt="Sonasid" /></span>
+            <div><strong>HSE Control Room</strong><span>AMANE live operations</span></div>
+          </div>
+          <h1>Dashboard HSE</h1>
+          <p>Suivi interactif temps r&eacute;el des r&eacute;clamations SONASID collect&eacute;es par AMANE.</p>
+
+        </div>
+        <div class="actions">
+          <a class="button" href="/app/">Assistant</a>
+          <a class="button" href="/reports/">Rapports</a>
+          <button class="button" id="manualToggle" type="button">Nouvelle r&eacute;clamation</button>
+          <button class="button primary" id="refreshBtn">Actualiser</button>
+        </div>
+      </header>
+
+      <section class="card manual-card" id="manualCard">
+        <div class="card-head">
+          <h2>Formulaire manuel SAP</h2>
+          <span class="live">Saisie HSE sans assistant vocal</span>
+        </div>
+        <div class="card-body">
+          <form class="manual-form" id="manualReportForm">
+            <div class="form-grid">
+              <div class="field">
+                <label for="manualClassification">Type de signalement</label>
+                <select id="manualClassification" name="classification" required>
+                  <option value="Situation dangereuse">Situation dangereuse</option>
+                  <option value="Acte dangereux">Acte dangereux</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="manualDanger">Danger imm&eacute;diat</label>
+                <select id="manualDanger" name="immediate_danger" required>
+                  <option value="false">Non</option>
+                  <option value="true">Oui</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="manualDeclarant">R&eacute;clamant</label>
+                <input id="manualDeclarant" name="declarant" type="text" required />
+              </div>
+              <div class="field">
+                <label for="manualDate">Date et heure</label>
+                <input id="manualDate" name="event_datetime" type="text" placeholder="13/07/2026 &agrave; 10:30" required />
+              </div>
+              <div class="field full">
+                <label for="manualLocation">Site / localisation SAP</label>
+                <input id="manualLocation" name="location" type="text" placeholder="Site SONASID Nador, atelier..., zone..." required />
+              </div>
+              <div class="field full">
+                <label for="manualDescription">Description</label>
+                <textarea id="manualDescription" name="description" required></textarea>
+              </div>
+              <div class="field">
+                <label for="manualObserved">Personne observ&eacute;e</label>
+                <input id="manualObserved" name="observed_person" type="text" placeholder="Aucune / nom" />
+              </div>
+              <div class="field">
+                <label for="manualUrgency">Niveau d'urgence</label>
+                <select id="manualUrgency" name="urgency">
+                  <option value="MEDIUM">MEDIUM</option>
+                  <option value="HIGH">HIGH</option>
+                  <option value="CRITICAL">CRITICAL</option>
+                </select>
+              </div>
+              <div class="field full">
+                <label for="manualAction">Action imm&eacute;diate</label>
+                <textarea id="manualAction" name="immediate_action" required></textarea>
+              </div>
+              <div class="field full">
+                <label for="manualRisk">Analyse du risque</label>
+                <textarea id="manualRisk" name="risk_analysis" required></textarea>
+              </div>
+              <div class="field full">
+                <label for="manualRecommended">Action recommand&eacute;e SAP / HSE</label>
+                <textarea id="manualRecommended" name="recommended_action"></textarea>
+              </div>
+            </div>
+            <div class="form-footer">
+              <span class="form-message" id="manualFormMessage">Le num&eacute;ro SON-HSE sera g&eacute;n&eacute;r&eacute; automatiquement.</span>
+              <button class="button primary" type="submit">Enregistrer la r&eacute;clamation</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="grid kpis" id="kpis"></section>
+      <section class="grid layout">
+        <div class="grid">
+          <article class="card">
+            <div class="card-head">
+              <h2>R&eacute;clamations</h2>
+              <span class="live"><span class="pulse"></span><span id="updatedAt">Synchronisation...</span></span>
+            </div>
+            <div class="card-body">
+              <div class="table-tools">
+                <span class="table-count" id="tableCount">0 r&eacute;clamation</span>
+                <div class="export-actions"><button class="button" id="csvBtn" type="button">Exporter CSV</button><a class="button" id="pdfExportBtn" href="/reports/dashboard/pdf" target="_blank" rel="noreferrer">Exporter PDF</a></div>
+              </div>
+              <div class="filters">
+                <input id="searchInput" type="search" placeholder="Rechercher num&eacute;ro, r&eacute;clamant, zone, action..." />
+                <select id="dangerFilter">
+                  <option value="all">Tous les dangers</option>
+                  <option value="danger">Danger imm&eacute;diat</option>
+                  <option value="safe">Sans danger imm&eacute;diat</option>
+                </select>
+                <select id="urgencyFilter">
+                  <option value="all">Toutes urgences</option>
+                  <option value="CRITICAL">CRITICAL</option>
+                  <option value="HIGH">HIGH</option>
+                  <option value="MEDIUM">MEDIUM</option>
+                  <option value="LOW">LOW</option>
+                </select>
+                <select id="statusFilter">
+                  <option value="all">Tous statuts</option>
+                </select>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead><tr><th>Num&eacute;ro</th><th>R&eacute;clamant</th><th>Type</th><th>Zone</th><th>Urgence</th><th>Danger</th><th>Statut</th><th>PDF</th></tr></thead>
+                  <tbody id="reportsBody"></tbody>
+                </table>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-head"><h2>R&eacute;partition par type</h2></div>
+            <div class="card-body"><div class="bars" id="charts"></div></div>
+          </article>
+        </div>
+        <aside class="grid">
+          <article class="card"><div class="card-head"><h2>Priorit&eacute;s HSE</h2></div><div class="card-body"><div class="priority-list" id="priorityList"></div></div></article>
+          <article class="card"><div class="card-head"><h2>Types de danger</h2></div><div class="card-body"><div class="bars" id="dangerTypes"></div></div></article>
+          <article class="card"><div class="card-head"><h2>Urgences</h2></div><div class="card-body"><div class="bars" id="urgencies"></div></div></article>
+          <article class="card"><div class="card-head"><h2>Statuts</h2></div><div class="card-body"><div class="bars" id="statuses"></div></div></article>
+          <article class="card"><div class="card-head"><h2>Zones</h2></div><div class="card-body"><div class="bars" id="locations"></div></div></article>
+        </aside>
+      </section>
+    </main>
+
+    <script>
+      const kpisEl = document.querySelector("#kpis");
+      const bodyEl = document.querySelector("#reportsBody");
+      const chartsEl = document.querySelector("#charts");
+      const locationsEl = document.querySelector("#locations");
+      const urgenciesEl = document.querySelector("#urgencies");
+      const statusesEl = document.querySelector("#statuses");
+      const dangerTypesEl = document.querySelector("#dangerTypes");
+      const priorityListEl = document.querySelector("#priorityList");
+      const tableCountEl = document.querySelector("#tableCount");
+      const updatedEl = document.querySelector("#updatedAt");
+      const searchInput = document.querySelector("#searchInput");
+      const dangerFilter = document.querySelector("#dangerFilter");
+      const urgencyFilter = document.querySelector("#urgencyFilter");
+      const statusFilter = document.querySelector("#statusFilter");
+      const csvBtn = document.querySelector("#csvBtn");
+      const manualToggle = document.querySelector("#manualToggle");
+      const manualCard = document.querySelector("#manualCard");
+      const manualReportForm = document.querySelector("#manualReportForm");
+      const manualFormMessage = document.querySelector("#manualFormMessage");
+      let latest = [];
+      let currentRows = [];
+
+      const fmt = (value) => value === null || value === undefined || value === "" ? "Non renseign\u00e9" : String(value);
+      const fold = (value) => fmt(value).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+      const urgencyClass = (value) => String(value || "").toLowerCase();
+
+      function renderKpis(kpis) {
+        const items = [
+          ["Total", kpis.total, "total", "Toutes les r\u00e9clamations"],
+          ["Aujourd'hui", kpis.created_today, "sap", "Cr\u00e9\u00e9es ce jour"],
+          ["Ouvertes", kpis.open_reports, "open", "\u00c0 traiter / suivre"],
+          ["Priorit\u00e9", kpis.high_priority, "danger", "HIGH / CRITICAL"],
+          ["Danger imm\u00e9diat", kpis.immediate_danger, "danger", "Priorit\u00e9 HSE"],
+        ];
+        kpisEl.innerHTML = items.map(([label, value, tone, hint]) => `<article class="card kpi ${tone}"><span>${label}</span><strong>${value || 0}</strong><small>${hint}</small></article>`).join("");
+      }
+
+      function renderRows() {
+        const query = fold(searchInput.value).trim();
+        const danger = dangerFilter.value;
+        const urgency = urgencyFilter.value;
+        const status = statusFilter.value;
+        currentRows = latest.filter((report) => {
+          const text = fold([report.report_number, report.reclamant, report.classification, report.location, report.location_label, report.status, report.urgency, report.recommended_action, report.danger_type].join(" "));
+          const dangerOk = danger === "all" || (danger === "danger" && report.immediate_danger) || (danger === "safe" && !report.immediate_danger);
+          const urgencyOk = urgency === "all" || report.urgency === urgency;
+          const statusOk = status === "all" || String(report.status || "") === status;
+          return text.includes(query) && dangerOk && urgencyOk && statusOk;
+        });
+        tableCountEl.textContent = `${currentRows.length} r\u00e9clamation${currentRows.length > 1 ? "s" : ""}`;
+        bodyEl.innerHTML = currentRows.length ? currentRows.map((report) => `
+          <tr>
+            <td><strong>${fmt(report.report_number)}</strong><div class="muted-line">${fmt(report.event_datetime)}</div></td>
+            <td>${fmt(report.reclamant)}</td>
+            <td>${fmt(report.classification)}<div class="muted-line">${fmt(report.danger_type)}</div></td>
+            <td>${fmt(report.location_label || report.location)}</td>
+            <td><span class="badge ${urgencyClass(report.urgency)}">${fmt(report.urgency)}</span></td>
+            <td><span class="badge ${report.immediate_danger ? "danger" : ""}">${report.immediate_danger ? "Oui" : "Non"}</span></td>
+            <td><span class="badge">${fmt(report.status)}</span></td>
+            <td><a class="pdf" target="_blank" href="${report.pdf_url}">PDF</a></td>
+          </tr>`).join("") : '<tr><td colspan="8">Aucune r\u00e9clamation trouv\u00e9e.</td></tr>';
+      }
+
+      function renderBars(data, target) {
+        const entries = Object.entries(data || {}).sort((a, b) => b[1] - a[1]);
+        const max = Math.max(1, ...entries.map(([, value]) => value));
+        target.innerHTML = entries.length ? entries.map(([label, value]) => `
+          <div class="bar-row">
+            <div class="bar-label"><strong>${fmt(label)}</strong><span>${value}</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:${Math.round(value / max * 100)}%"></div></div>
+          </div>`).join("") : "<p>Aucune donn\u00e9e.</p>";
+      }
+
+      function renderPriorityQueue(items = []) {
+        priorityListEl.innerHTML = items.length ? items.map((report) => `
+          <a class="priority-item" href="${report.pdf_url}" target="_blank">
+            <strong>${fmt(report.report_number)} - ${fmt(report.location_label || report.location)}</strong>
+            <span class="priority-meta"><span class="badge ${urgencyClass(report.urgency)}">${fmt(report.urgency)}</span><span>${fmt(report.classification)}</span><span>${report.immediate_danger ? "Danger imm\u00e9diat" : "Suivi prioritaire"}</span></span>
+            <span class="muted-line">${fmt(report.recommended_action)}</span>
+          </a>`).join("") : "<p>Aucune priorit\u00e9 active.</p>";
+      }
+
+      function updateStatusOptions(statuses = {}) {
+        const current = statusFilter.value;
+        const options = ['<option value="all">Tous statuts</option>'].concat(
+          Object.keys(statuses).map((status) => `<option value="${status}">${status}</option>`)
+        );
+        statusFilter.innerHTML = options.join("");
+        statusFilter.value = Object.keys(statuses).includes(current) ? current : "all";
+      }
+
+      function exportCsv() {
+        const headers = ["numero", "reclamant", "type", "zone", "urgence", "danger_immediat", "sap", "statut", "date"];
+        const lines = currentRows.map((report) => [
+          report.report_number,
+          report.reclamant,
+          report.classification,
+          report.location_label || report.location,
+          report.urgency,
+          report.immediate_danger ? "oui" : "non",
+          report.sap_ready ? "pret" : "attente",
+          report.status,
+          report.event_datetime,
+        ].map((value) => `"${String(value ?? "").replace(/"/g, '""')}"`).join(";"));
+        const blob = new Blob([[headers.join(";"), ...lines].join("\n")], { type: "text/csv;charset=utf-8" });
+        const link = document.createElement("a");
+        link.href = URL.createObjectURL(blob);
+        link.download = `amane-dashboard-${new Date().toISOString().slice(0,10)}.csv`;
+        link.click();
+        URL.revokeObjectURL(link.href);
+      }
+
+      function formValue(formData, key) {
+        return String(formData.get(key) || "").trim();
+      }
+
+      async function submitManualReport(event) {
+        event.preventDefault();
+        const formData = new FormData(manualReportForm);
+        const payload = {
+          classification: formValue(formData, "classification"),
+          immediate_danger: formData.get("immediate_danger") === "true",
+          declarant: formValue(formData, "declarant"),
+          reclamant_name: formValue(formData, "declarant"),
+          event_datetime: formValue(formData, "event_datetime"),
+          location: formValue(formData, "location"),
+          description: formValue(formData, "description"),
+          observed_person: formValue(formData, "observed_person") || null,
+          urgency: formValue(formData, "urgency") || null,
+          immediate_action: formValue(formData, "immediate_action"),
+          risk_analysis: formValue(formData, "risk_analysis"),
+          recommended_action: formValue(formData, "recommended_action") || null,
+          status: "nouveau",
+        };
+
+        manualFormMessage.textContent = "Enregistrement en cours...";
+        const response = await fetch("/reports/manual", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+
+        if (!response.ok) {
+          manualFormMessage.textContent = "Impossible d'enregistrer la r\u00e9clamation.";
+          return;
+        }
+
+        const report = await response.json();
+        manualFormMessage.textContent = `R\u00e9clamation ${report.report_number} enregistr\u00e9e.`;
+        manualReportForm.reset();
+        await loadDashboard();
+      }
+
+      async function loadDashboard() {
+        let data;
+        try {
+          const response = await fetch("/reports/dashboard/data");
+          if (!response.ok) throw new Error("API dashboard indisponible");
+          data = await response.json();
+        } catch (error) {
+          updatedEl.textContent = "Erreur de synchronisation";
+          bodyEl.innerHTML = '<tr><td colspan="8">Impossible de charger les r\u00e9clamations. V\u00e9rifie le backend et la base de donn\u00e9es.</td></tr>';
+          return;
+        }
+        latest = data.latest || [];
+        renderKpis(data.kpis || {});
+        updateStatusOptions(data.charts?.by_status || {});
+        renderRows();
+        renderBars(data.charts?.by_classification, chartsEl);
+        renderBars(data.charts?.by_urgency, urgenciesEl);
+        renderBars(data.charts?.by_status, statusesEl);
+        renderBars(data.charts?.by_danger_type, dangerTypesEl);
+        renderBars(data.charts?.by_location, locationsEl);
+        renderPriorityQueue(data.priority_queue || []);
+        updatedEl.textContent = "Mis \u00e0 jour " + new Date(data.updated_at).toLocaleTimeString();
+      }
+
+      searchInput.addEventListener("input", renderRows);
+      dangerFilter.addEventListener("change", renderRows);
+      urgencyFilter.addEventListener("change", renderRows);
+      statusFilter.addEventListener("change", renderRows);
+      csvBtn.addEventListener("click", exportCsv);
+      document.querySelector("#refreshBtn").addEventListener("click", loadDashboard);
+      manualToggle.addEventListener("click", () => manualCard.classList.toggle("is-open"));
+      manualReportForm.addEventListener("submit", submitManualReport);
+      loadDashboard();
+      setInterval(loadDashboard, 5000);
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

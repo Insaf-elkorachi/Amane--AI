@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="./assets/assistant-logo.svg" />
+    <title>AMANE AI - Assistant vocal HSE</title>
+    <link rel="stylesheet" href="./styles.css?v=lang-choice-20260717-1" />
+  </head>
+  <body>
+    <main class="assistant-shell">
+      <section class="voice-screen" aria-label="Assistant vocal AMANE">
+        <header class="top-bar">
+          <div class="brand-pill">
+            <span class="brand-dot"></span>
+            <div>
+              <strong>AMANE AI</strong>
+              <small id="apiHint">Connexion en cours</small>
+            </div>
+          </div>
+          <div class="top-actions">
+            <span class="status-dot" id="apiDot"></span>
+            <strong id="apiStatus">V&eacute;rification API</strong>
+          </div>
+        </header>
+
+        <div class="assistant-center">
+          <img class="main-sonasid-logo" src="./assets/sonasid-logo-cropped.png" alt="Sonasid" />
+          <p class="eyebrow">Assistant vocal HSE</p>
+          <h1>Comment puis-je vous aider ?</h1>
+
+          <button class="assistant-avatar-card" id="micButton" type="button" aria-label="Parler avec AMANE">
+            <span class="avatar-glow"></span>
+            <img class="assistant-avatar" src="./assets/amane-assistant.png" alt="Avatar de l'assistant vocal AMANE AI" />
+            <span class="helmet-shell" aria-hidden="true"></span>
+            <span class="helmet-brand helmet-amane-logo" aria-hidden="true"><span class="amane-word"><span class="amane-orange">&#1571;</span><span class="amane-gray">&#1605;&#1575;&#1606;</span></span></span>
+            <span class="voice-control" id="voiceOrb">
+              <span class="mic-symbol">MIC</span>
+            </span>
+          </button>
+
+          <div class="voice-copy">
+            <h2 id="voiceState">Pr&ecirc;t &agrave; &eacute;couter</h2>
+            <p id="voiceHint">Clique sur le micro et parle naturellement.</p>
+          </div>
+
+          <div class="live-transcript" aria-live="polite">
+            <span>Voix d&eacute;tect&eacute;e</span>
+            <strong id="liveTranscript">En attente de votre voix...</strong>
+            <p id="assistantReplyPreview">AMANE affichera ici sa r&eacute;ponse.</p>
+          </div>
+
+          <div class="language-panel" aria-label="Choix des langues AMANE">
+            <div class="language-group">
+              <span>Parole</span>
+              <button class="language-button is-active" type="button" data-speech-lang="fr-FR">FR</button>
+              <button class="language-button" type="button" data-speech-lang="ar-MA">Darija</button>
+              <button class="language-button" type="button" data-speech-lang="en-US">EN</button>
+            </div>
+            <label class="analysis-language" for="analysisLanguageSelect">
+              <span>Analyse photo</span>
+              <select id="analysisLanguageSelect">
+                <option value="ar" selected>Arabe classique</option>
+                <option value="fr">Fran&ccedil;ais</option>
+                <option value="en">English</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="risk-photo-bar" aria-label="Analyse photo de risque">
+            <span class="risk-photo-label">Photo risque</span>
+            <button class="secondary-button photo-button" type="button" id="galleryPhotoButton">Importer photo</button>
+            <button class="secondary-button camera-button" type="button" id="cameraPhotoButton">Cam&eacute;ra</button>
+            <input id="photoInput" type="file" accept="image/*" hidden />
+            <input id="cameraInput" type="file" accept="image/*" capture="environment" hidden />
+          </div>
+
+          <div class="quick-actions public-actions">
+            <button class="secondary-button" type="button" id="repeatButton">R&eacute;p&eacute;ter</button>
+            <button class="secondary-button quiet-action" type="button" id="newSessionButton">Nouvelle session</button>
+          </div>
+
+          <div class="session-strip">
+            <span id="sessionLabel">Session active</span>
+            <span class="pill" id="stepPill">start</span>
+          </div>
+        </div>
+
+        <section class="conversation-dock" id="conversationDock" aria-label="Conversation" hidden>
+          <div class="dock-header">
+            <strong>Conversation</strong>
+            <button class="icon-button" type="button" id="conversationCloseButton" aria-label="Fermer la conversation">&times;</button>
+          </div>
+          <div class="messages" id="messages"></div>
+          <form class="composer" id="chatForm">
+            <input
+              id="messageInput"
+              name="message"
+              type="text"
+              autocomplete="off"
+              placeholder="&Eacute;crire au lieu de parler..."
+              required
+            />
+            <button class="send-button" type="submit">Envoyer</button>
+          </form>
+        </section>
+      </section>
+
+      <aside class="report-drawer" id="reportDrawer" aria-label="Rapport HSE" hidden>
+        <section class="drawer-card">
+          <div class="drawer-title">
+            <button class="icon-button drawer-close" type="button" id="reportCloseButton" aria-label="Fermer le rapport">&times;</button>
+            <div>
+              <p class="eyebrow">Formulaire intelligent</p>
+              <h2>Rapport en cours</h2>
+            </div>
+            <span id="completionBadge">En cours</span>
+          </div>
+          <dl class="data-list" id="dataList"></dl>
+        </section>
+
+        <section class="drawer-card reports-card">
+          <div class="drawer-title compact-title">
+            <h2>Rapports sauvegard&eacute;s</h2>
+            <button class="icon-button" type="button" id="reloadReportsButton" aria-label="Actualiser">R</button>
+          </div>
+          <div class="reports-list" id="reportsList"></div>
+          <button class="hidden-action" type="button" id="refreshReportsButton">Actualiser rapports</button>
+        </section>
+      </aside>
+    </main>
+
+    <script src="./app.js?v=lang-choice-20260717-1"></script>
+  </body>
+</html>
