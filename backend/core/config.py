@@ -1,4 +1,4 @@
-from pathlib import Path
+﻿from pathlib import Path
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
@@ -9,6 +9,7 @@ PROJECT_DIR = BACKEND_DIR.parent
 class Settings(BaseSettings):
     APP_NAME: str = "AMAN AI"
     DATABASE_URL: str = f"sqlite:///{(BACKEND_DIR / 'amane_local.db').as_posix()}"
+    PUBLIC_APP_URL: str = ""
 
     OPENAI_API_KEY: str = ""
     OPENAI_MODEL: str = "gpt-4.1-mini"
@@ -24,5 +25,7 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
+
+
 
 

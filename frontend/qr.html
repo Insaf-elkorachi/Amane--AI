@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg+xml" href="./assets/qr-logo.svg" />
-    <title>QR AMANE AI</title>
+    <title>QR AMANE</title>
     <style>
       :root {
         color-scheme: light;
@@ -164,9 +164,9 @@
     <main>
       <section>
         <p class="eyebrow">Acces rapide</p>
-        <h1>Scanner pour ouvrir AMANE AI</h1>
+        <h1>Scanner pour ouvrir AMANE</h1>
         <p>
-          Affiche cette page sur le PC de demonstration. L'utilisateur scanne le QR code avec son telephone et arrive directement sur l'assistant vocal HSE.
+          Affiche cette page sur le PC de demonstration. L'utilisateur scanne le QR code avec son telephone et arrive directement sur l'assistant vocal HSE. Pour telephone, utilise une URL HTTPS publique comme ngrok ou un hebergement cloud.
         </p>
         <label for="serverUrl">
           Adresse de l'assistant
@@ -177,7 +177,7 @@
           <a id="openApp" href="/app/">Ouvrir l'assistant</a>
         </div>
         <p class="note">
-          Si le scan ne marche pas, verifie que FastAPI est lance avec <strong>--host 0.0.0.0</strong>, que le telephone est sur le meme Wi-Fi que le PC, et que le pare-feu Windows autorise le port <strong>8000</strong>.
+          Si le scan ne marche pas, verifie que FastAPI est lance avec <strong>--host 0.0.0.0</strong>. Sur telephone, le micro exige une URL <strong>HTTPS</strong>; utilise ngrok ou un hebergement permanent. En Wi-Fi local, verifie aussi le pare-feu Windows et le port <strong>8010</strong>.
         </p>
       </section>
 
@@ -196,6 +196,11 @@
 
       function defaultAppUrl() {
         return new URL("/app/", window.location.origin).toString();
+      }
+
+      function requestedTargetUrl() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get("target") || params.get("url") || "";
       }
 
       function normalizeAppUrl(value) {
@@ -218,6 +223,13 @@
       }
 
       async function useNetworkUrl() {
+        const requested = requestedTargetUrl();
+        if (requested) {
+          serverUrl.value = requested;
+          renderQr();
+          return;
+        }
+
         serverUrl.value = defaultAppUrl();
         try {
           const response = await fetch("/api/network");
@@ -238,6 +250,7 @@
     </script>
   </body>
 </html>
+
 
 
 

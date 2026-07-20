@@ -247,8 +247,16 @@ function closeReportPanel() {
 }
 
 function openConversationPanel() {
+  if (conversationDock?.hidden) conversationDock.hidden = false;
   togglePanel(conversationDock, true);
-  messageInput?.focus();
+  window.setTimeout(() => messageInput?.focus(), 80);
+}
+
+function openKeyboardFallback(reason = "") {
+  openConversationPanel();
+  const hint = reason || "Le vocal mobile n'est pas disponible dans ce navigateur.";
+  setVoiceMode("error", "Mode clavier", "Ecris ton message dans le champ en bas.");
+  updateLiveVoice("Micro indisponible", hint + " Tu peux continuer la déclaration par écrit.");
 }
 
 function closeConversationPanel() {
@@ -857,13 +865,12 @@ async function startListening() {
   unlockSpeech();
 
   if (!recognition) {
-    setVoiceMode("error", "Micro non supporte", "Utilise Chrome ou Edge avec HTTPS, ou le champ clavier.");
+    openKeyboardFallback("La reconnaissance vocale n'est pas supportée ici. Sur iPhone, ouvre l'application avec Safari/Chrome en HTTPS, ou utilise le clavier.");
     return;
   }
 
   if (!window.isSecureContext && !["localhost", "127.0.0.1"].includes(window.location.hostname)) {
-    setVoiceMode("error", "HTTPS requis", "Sur telephone, la reconnaissance vocale exige une URL HTTPS comme ngrok.");
-    updateLiveVoice("", "Ouvre AMANE avec une URL HTTPS pour activer le micro mobile.");
+    openKeyboardFallback("Adresse non sécurisée: le micro mobile exige HTTPS. Utilise ngrok HTTPS ou un hébergement permanent.");
     return;
   }
 
@@ -1060,6 +1067,8 @@ addMessage(introText, "system");
   setVoiceMode(null, "Prêt à écouter", recognition ? "Clique sur le micro et parle naturellement." : "Reconnaissance vocale non supportée, utilise le clavier.");
 checkApi();
 loadReports();
+
+
 
 
 

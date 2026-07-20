@@ -1,10 +1,11 @@
-import socket
+﻿import socket
 from pathlib import Path
 
 from fastapi import FastAPI, Request
 from fastapi.responses import RedirectResponse
 from fastapi.staticfiles import StaticFiles
 
+from core.config import settings
 from core.database import Base, SessionLocal, engine
 from models.attachment import Attachment
 from models.conversation import Conversation
@@ -78,15 +79,30 @@ def qr_page():
 
 @app.get("/api/network")
 def network_info(request: Request):
+    public_url = settings.PUBLIC_APP_URL.strip().rstrip("/")
+    if public_url:
+        if public_url.endswith("/app"):
+            base_url = public_url[:-4].rstrip("/")
+            app_url = f"{public_url}/"
+        else:
+            base_url = public_url
+            app_url = f"{public_url}/app/"
+        return {
+            "host": request.url.hostname or "",
+            "public": True,
+            "app_url": app_url,
+            "qr_url": f"{base_url}/qr",
+        }
+
     port = request.url.port or 8000
     scheme = request.url.scheme
     host = get_lan_ip()
     return {
         "host": host,
+        "public": False,
         "app_url": f"{scheme}://{host}:{port}/app/",
         "qr_url": f"{scheme}://{host}:{port}/qr",
     }
-
 
 @app.get("/health")
 def health_check():
@@ -94,6 +110,9 @@ def health_check():
         "status": "ok",
         "service": "AMANE API",
     }
+
+
+
 
 
 
