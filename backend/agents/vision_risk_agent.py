@@ -26,7 +26,7 @@ class VisionRiskAgent:
             return "IMPORTANT LANGUE: tous les textes rediges pour l'utilisateur doivent etre en francais professionnel clair. N'utilise pas l'arabe ni l'anglais sauf pour les noms officiels comme SONASID, AMANE, HSE et SAP. "
         if language == "en":
             return "IMPORTANT LANGUAGE: all user-facing text must be in clear professional English. Do not use Arabic or French except official names such as SONASID, AMANE, HSE and SAP. "
-        return "IMPORTANT LANGUE: tous les textes rediges pour l'utilisateur doivent etre en arabe classique clair et professionnel. N'utilise pas la darija, n'utilise pas l'anglais, et n'utilise pas le francais dans les champs textuels sauf pour les noms officiels comme SONASID, AMANE, HSE, SAP et les valeurs metier imposees. "
+        return "IMPORTANT LANGUE: tous les textes rediges pour l'utilisateur doivent etre en arabe classique clair et professionnel. N'utilise pas la darija, n'utilise pas l'anglais, et n'utilise pas le francais dans les champs textuels sauf pour les noms officiels comme SONASID, AMANE, HSE, SAP et les valeurs metier imposees. Les champs scene_summary, risk_items.risk, risk_items.description, risk_items.possible_consequences, main_risks, prevention_measures, global_risk_reason, recommended_action, questions, location_hints et related_sst_rules doivent etre en arabe classique."
 
     def classify(self, image_path: Path, content_type: str | None = None, analysis_language: str = "ar") -> dict[str, Any]:
         language = self._normalize_language(analysis_language)
@@ -252,9 +252,9 @@ class VisionRiskAgent:
     @classmethod
     def _arabic_or_note(cls, text: Any) -> str:
         value = str(text or "").strip()
-        if cls._has_arabic(value):
+        if value:
             return value
-        return "\u0647\u0630\u0627 \u0627\u0644\u0639\u0646\u0635\u0631 \u064a\u062d\u062a\u0627\u062c \u0625\u0644\u0649 \u062a\u0623\u0643\u064a\u062f \u0645\u064a\u062f\u0627\u0646\u064a \u0627\u0639\u062a\u0645\u0627\u062f\u0627 \u0639\u0644\u0649 \u0627\u0644\u0635\u0648\u0631\u0629."
+        return "\u063a\u064a\u0631 \u0645\u062d\u062f\u062f\u060c \u064a\u062c\u0628 \u062a\u0623\u0643\u064a\u062f\u0647 \u0645\u064a\u062f\u0627\u0646\u064a\u0627."
 
     @staticmethod
     def _level_label_latin(level: Any, language: str = "fr") -> str:
