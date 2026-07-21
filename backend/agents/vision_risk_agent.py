@@ -1,6 +1,7 @@
 import base64
 import json
 import re
+import unicodedata
 from pathlib import Path
 from typing import Any
 
@@ -51,7 +52,7 @@ class VisionRiskAgent:
             + "Analyse UNIQUEMENT les elements visibles sur la photographie. Ne jamais inventer un risque. "
             "Ne jamais supposer qu un EPI est absent. Ne jamais supposer qu un harnais, un blindage, une consignation ou un dispositif de securite est absent s il n est pas clairement visible. "
             "Lorsque l image ne permet pas de conclure, ecris clairement: Non confirmable sur cette photographie, ou Aucun element visible ne permet de confirmer. "
-            "Toujours privilegier les faits observables. Ne transforme jamais une hypothese en fait. "
+            "Toujours privilegier les faits observables. Ne transforme jamais une hypothese en fait. Distinction critique: la presence visible d une machine protegee, d une voie de circulation, d un equipement, d un stockage ou d une zone de travail ne constitue pas un risque observe si aucun danger direct n est visible. La liste risk_items/Risques observes est reservee uniquement aux dangers directement perceptibles sur la photo. Les risques theoriques, potentiels ou non confirmables doivent etre mentionnes prudemment dans scene_summary, global_risk_reason ou questions, mais pas comme risques observes. "
             "Analyse systematiquement ces categories meme si certains elements sont non confirmables: "
             "1 EPI: casque, lunettes, gants, chaussures, harnais, gilet, protection auditive, protection respiratoire. "
             "2 Travail en hauteur: garde-corps, harnais, ligne de vie, ouverture, echelle, echafaudage. "
@@ -63,21 +64,21 @@ class VisionRiskAgent:
             "8 Manutention: posture, charge lourde, stockage, stabilite. "
             "9 Sol et environnement: obstacle, huile, eau, poussiere, encombrement, 5S. "
             "10 Produits: fuite, emballage, element saillant, stockage. "
-            "Pour chaque risque detecte, fournir un risk_item avec nom du risque, observation factuelle visible, consequences possibles, gravite LOW/MEDIUM/HIGH/CRITICAL, mesure de prevention et regle SST SONASID concernee. "
+            "Pour chaque risque detecte, fournir un risk_item avec nom du risque, observation factuelle visible, consequences possibles, gravite LOW/MEDIUM/HIGH/CRITICAL, mesure de prevention et regle SST SONASID concernee. Avant d ajouter un risk_item, verifier qu il existe un indice visuel concret de danger: obstacle, proximite dangereuse, charge suspendue, personne exposee, fuite, cable apparent, organe en mouvement accessible, chute possible visible, encombrement, posture dangereuse, ou autre danger directement visible. Ne pas creer de risk_item pour un risque purement theorique. "
             "classification doit etre exactement Acte dangereux, Situation dangereuse, ou Acte dangereux et situation dangereuse. Utilise Acte dangereux et situation dangereuse lorsque la photo montre les deux. "
             "Determiner le niveau global selon cette regle: CRITICAL si presence visible d un risque pouvant provoquer immediatement un accident mortel: charge suspendue, travail en hauteur non protege, metal en fusion, pont roulant, intervention electrique, espace confine, machine dangereuse, incendie important. HIGH si plusieurs risques importants combines. MEDIUM si risques maitrisables. LOW si aucun risque significatif visible. Toujours justifier le niveau. "
             "Ne jamais ecrire absence de casque, absence de harnais, absence de lunettes, absence de gants, absence de chaussures, absence de blindage, absence d extincteur ou absence de consignation si ce n est pas clairement visible. Preferer: Le port du casque ne peut pas etre confirme, ou Non confirmable sur cette photographie. "
             "A la fin, les listes main_risks et prevention_measures doivent prioriser les 3 risques les plus critiques et les mesures associees. Pose UNE seule question pertinente permettant de lever une incertitude importante. Ne jamais poser une question dont la reponse est deja visible sur l image. "
             "Avant de repondre, effectue une double verification: 1 verifier que chaque risque est reellement visible; 2 verifier qu aucun risque majeur visible n a ete oublie. "
             "Retourne uniquement un JSON valide avec exactement ces cles: classification, confidence, scene_summary, risk_items, main_risks, prevention_measures, global_risk_level, global_risk_reason, immediate_danger, recommended_action, questions, location_hints, related_sst_rules. "
-            "risk_items doit etre une liste d objets avec: risk, description, possible_consequences, severity. La description doit etre l observation factuelle visible. possible_consequences doit decrire les consequences possibles. severity doit etre LOW, MEDIUM, HIGH ou CRITICAL. Ajoute la mesure et la regle SST dans description ou possible_consequences si necessaire. "
+            "risk_items doit etre une liste d objets avec: risk, description, possible_consequences, severity. risk_items doit contenir seulement les dangers directement observes, jamais des risques theoriques ni des elements conformes/proteges. La description doit etre l observation factuelle visible qui prouve le danger. possible_consequences doit decrire les consequences possibles. severity doit etre LOW, MEDIUM, HIGH ou CRITICAL. Ajoute la mesure et la regle SST dans description ou possible_consequences si necessaire. "
             "main_risks, prevention_measures, questions, location_hints et related_sst_rules doivent etre des listes de textes dans la langue demandee. questions doit contenir une seule question. "
             "Interdiction de remplir les listes avec des phrases vagues ou repetees. Chaque risque doit etre specifique et base sur un indice visuel."
         )
         user_text = (
             "Contexte RAG SONASID et regles SST disponibles:\n"
             f"{context}\n\n"
-            "Analyse cette photo HSE selon la methode AMANE stricte: uniquement les faits visibles, aucune hypothese transformee en fait, chaque risque doit etre observable. "
+            "Analyse cette photo HSE selon la methode AMANE stricte: uniquement les faits visibles, aucune hypothese transformee en fait, chaque risque doit etre observable. Ne confonds pas un risque theorique avec un risque observe: une machine visible, une voie de circulation visible ou un equipement protege ne suffit pas. Il faut un danger direct clairement perceptible pour remplir Risques observes. "
             "Balaye toutes les categories: EPI, hauteur, levage, circulation, machines, electricite, incendie, manutention, sol/environnement, produits. "
             "Si une categorie ne peut pas etre conclue, utilise une formule non confirmable. Le contenu lisible par l utilisateur doit respecter la langue demandee. "
             "Retourne une analyse precise, non repetitive, avec une seule question finale utile."
@@ -214,6 +215,8 @@ class VisionRiskAgent:
         result["risk_items"] = cls._normalize_risk_items(result.get("risk_items"))
         for key in ["main_risks", "prevention_measures", "questions", "location_hints", "related_sst_rules"]:
             result[key] = [cls._soften_visual_overclaims(str(item)) for item in cls._as_list(result.get(key)) if str(item).strip()]
+        if not result["risk_items"]:
+            result["main_risks"] = []
         level = str(result.get("global_risk_level") or "MEDIUM").upper()
         result["global_risk_level"] = level if level in {"LOW", "MEDIUM", "HIGH", "CRITICAL"} else "MEDIUM"
         result["scene_summary"] = cls._soften_visual_overclaims(str(result.get("scene_summary") or result.get("description") or "Analyse photo HSE."))
@@ -302,6 +305,35 @@ class VisionRiskAgent:
             merged["risk_items"] = translated["risk_items"]
         merged["description"] = merged.get("scene_summary", result.get("description"))
         return merged
+
+    @staticmethod
+    def _strip_accents(text: str) -> str:
+        return "".join(
+            char for char in unicodedata.normalize("NFKD", text)
+            if not unicodedata.combining(char)
+        )
+
+    @classmethod
+    def _is_observed_risk_item(cls, item: dict[str, str]) -> bool:
+        risk = str(item.get("risk") or "").strip()
+        description = str(item.get("description") or "").strip()
+        combined = cls._strip_accents(f"{risk} {description}".lower())
+        non_observed_markers = {
+            "non confirmable",
+            "aucun element visible",
+            "a confirmer",
+            "ne peut pas etre confirme",
+            "ne sont pas confirmables",
+            "risque theorique",
+            "risque potentiel",
+            "hypothese",
+        }
+        if any(marker in combined for marker in non_observed_markers):
+            return False
+        if len(description) < 18:
+            return False
+        return True
+
     @classmethod
     def _normalize_risk_items(cls, value: Any) -> list[dict[str, str]]:
         items = cls._as_list(value)
@@ -326,7 +358,7 @@ class VisionRiskAgent:
                         "severity": "MEDIUM",
                     }
                 )
-        return normalized
+        return [item for item in normalized if cls._is_observed_risk_item(item)]
 
     @staticmethod
     def _level_label(level: Any) -> str:
@@ -384,8 +416,8 @@ class VisionRiskAgent:
             "question": "AMANE question" if is_en else "Question AMANE",
             "consequences": "Possible consequences" if is_en else "Consequences possibles",
             "risk_level": "Level" if is_en else "Niveau",
-            "no_precise": "No precise risk was detected automatically; field confirmation is required." if is_en else "Aucun risque precis detecte automatiquement; confirmation terrain necessaire.",
-            "default_risk": "HSE risk to confirm" if is_en else "Risque HSE a confirmer",
+            "no_precise": "No directly observable danger was detected in the photo; keep standard vigilance and confirm on site if needed." if is_en else "Aucun danger directement observable n a ete detecte sur la photo; maintenir la vigilance standard et confirmer sur terrain si besoin.",
+            "default_risk": "No direct danger observed" if is_en else "Aucun danger direct observe",
             "default_action": "Secure the area and confirm the analysis with the HSE supervisor." if is_en else "Securiser la zone et confirmer l'analyse avec le responsable HSE.",
             "default_question": "Do you confirm whether this is an unsafe act or an unsafe condition?" if is_en else "Confirmez-vous s'il s'agit d'un acte dangereux ou d'une situation dangereuse ?",
         }
@@ -443,9 +475,9 @@ class VisionRiskAgent:
                 f"\u0627\u0644\u0645\u0633\u062a\u0648\u0649: {VisionRiskAgent._level_label(item.get('severity', 'MEDIUM'))}."
             )
         if not risk_lines:
-            risk_lines.append("- " + "\u0644\u0645 \u064a\u062a\u0645 \u062a\u062d\u062f\u064a\u062f \u062e\u0637\u0631 \u062f\u0642\u064a\u0642 \u062a\u0644\u0642\u0627\u0626\u064a\u0627\u061b \u064a\u0644\u0632\u0645 \u062a\u0623\u0643\u064a\u062f \u0645\u064a\u062f\u0627\u0646\u064a.")
+            risk_lines.append("- " + "\u0644\u0645 \u064a\u062a\u0645 \u0631\u0635\u062f \u062e\u0637\u0631 \u0645\u0628\u0627\u0634\u0631 \u0628\u0634\u0643\u0644 \u0648\u0627\u0636\u062d \u0639\u0644\u0649 \u0627\u0644\u0635\u0648\u0631\u0629\u061b \u064a\u062c\u0628 \u0627\u0644\u062d\u0641\u0627\u0638 \u0639\u0644\u0649 \u0627\u0644\u064a\u0642\u0638\u0629 \u0648\u0627\u0644\u062a\u0623\u0643\u064a\u062f \u0645\u064a\u062f\u0627\u0646\u064a\u0627 \u0639\u0646\u062f \u0627\u0644\u062d\u0627\u062c\u0629.")
 
-        main_risks = result.get("main_risks", []) or ["\u062e\u0637\u0631 HSE \u064a\u062d\u062a\u0627\u062c \u0625\u0644\u0649 \u062a\u0623\u0643\u064a\u062f \u0645\u064a\u062f\u0627\u0646\u064a"]
+        main_risks = result.get("main_risks", []) or ["\u0644\u0645 \u064a\u062a\u0645 \u0631\u0635\u062f \u062e\u0637\u0631 \u0645\u0628\u0627\u0634\u0631 \u0639\u0644\u0649 \u0627\u0644\u0635\u0648\u0631\u0629"]
         prevention = result.get("prevention_measures", []) or [result.get("recommended_action", "\u064a\u062c\u0628 \u062a\u0623\u0645\u064a\u0646 \u0627\u0644\u0645\u0646\u0637\u0642\u0629.")]
         rules = result.get("related_sst_rules", [])
         questions = result.get("questions", []) or ["\u0647\u0644 \u062a\u0624\u0643\u062f \u0647\u0630\u0627 \u0627\u0644\u062a\u062d\u0644\u064a\u0644\u061f"]

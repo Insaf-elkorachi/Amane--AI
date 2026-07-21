@@ -759,16 +759,47 @@ function getPhotoSpokenQuestion(payload) {
   return "\u0647\u0644 \u062a\u0624\u0643\u062f \u0623\u0646 \u0627\u0644\u0635\u0648\u0631\u0629 \u062a\u0645\u062b\u0644 \u0641\u0639\u0644\u0627 \u062e\u0637\u064a\u0631\u0627 \u0623\u0645 \u0648\u0636\u0639\u064a\u0629 \u062e\u0637\u064a\u0631\u0629\u061f";
 }
 
+function selectedPhotoAnalysisLanguage() {
+  return analysisLanguageSelect?.value || "ar";
+}
+
+function photoAnalysisUiText() {
+  const language = selectedPhotoAnalysisLanguage();
+  if (language === "fr") {
+    return {
+      detail: "AMANE analyse la photo HSE...",
+      transcript: "Photo risque HSE",
+      reply: "Analyse visuelle en cours...",
+      user: "Photo de risque envoyee a AMANE.",
+    };
+  }
+  if (language === "en") {
+    return {
+      detail: "AMANE is analyzing the HSE photo...",
+      transcript: "HSE risk photo",
+      reply: "Visual analysis in progress...",
+      user: "Risk photo sent to AMANE.",
+    };
+  }
+  return {
+    detail: "AMANE \u064a\u062d\u0644\u0644 \u0627\u0644\u0635\u0648\u0631\u0629 HSE...",
+    transcript: "\u0635\u0648\u0631\u0629 \u062e\u0637\u0631 HSE",
+    reply: "\u0627\u0644\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0628\u0635\u0631\u064a \u0642\u064a\u062f \u0627\u0644\u0625\u0646\u062c\u0627\u0632...",
+    user: "\u062a\u0645 \u0625\u0631\u0633\u0627\u0644 \u0635\u0648\u0631\u0629 \u062e\u0637\u0631 \u0625\u0644\u0649 AMANE.",
+  };
+}
+
 async function sendRiskPhoto(file) {
   if (!file) return;
   unlockSpeech();
-  setVoiceMode("listening", "Analyse photo HSE", "AMANE \u064a\u062d\u0644\u0644 \u0627\u0644\u0635\u0648\u0631\u0629 HSE...");
-  updateLiveVoice("Photo risque HSE", "\u0627\u0644\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0628\u0635\u0631\u064a \u0642\u064a\u062f \u0627\u0644\u0625\u0646\u062c\u0627\u0632...");
-  addMessage("\u062a\u0645 \u0625\u0631\u0633\u0627\u0644 \u0635\u0648\u0631\u0629 \u062e\u0637\u0631 \u0625\u0644\u0649 AMANE.", "user");
+  const uiText = photoAnalysisUiText();
+  setVoiceMode("listening", "Analyse photo HSE", uiText.detail);
+  updateLiveVoice(uiText.transcript, uiText.reply);
+  addMessage(uiText.user, "user");
 
   const formData = new FormData();
   formData.append("session_id", sessionId);
-  formData.append("analysis_language", analysisLanguageSelect?.value || "ar");
+  formData.append("analysis_language", selectedPhotoAnalysisLanguage());
   formData.append("photo", file);
 
   const response = await fetch("/api/vision/classify-risk", {
