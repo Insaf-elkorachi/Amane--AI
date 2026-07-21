@@ -68,7 +68,7 @@ class VisionRiskAgent:
             "classification doit etre exactement Acte dangereux, Situation dangereuse, ou Acte dangereux et situation dangereuse. Utilise Acte dangereux et situation dangereuse lorsque la photo montre les deux. "
             "Determiner le niveau global selon cette regle: CRITICAL si presence visible d un risque pouvant provoquer immediatement un accident mortel: charge suspendue, travail en hauteur non protege, metal en fusion, pont roulant, intervention electrique, espace confine, machine dangereuse, incendie important. HIGH si plusieurs risques importants combines. MEDIUM si risques maitrisables. LOW si aucun risque significatif visible. Toujours justifier le niveau. "
             "Ne jamais ecrire absence de casque, absence de harnais, absence de lunettes, absence de gants, absence de chaussures, absence de blindage, absence d extincteur ou absence de consignation si ce n est pas clairement visible. Preferer: Le port du casque ne peut pas etre confirme, ou Non confirmable sur cette photographie. "
-            "Indice de confiance: 0.95 a 1.0 si tous les elements sont clairement visibles, 0.80 a 0.94 si quelques elements ne sont pas visibles, 0.60 a 0.79 si la photo est partiellement exploitable, moins de 0.60 si la photo est insuffisante. Ne retourne jamais 0 sauf si l image est inutilisable. Exemples de regles SST SONASID a associer seulement aux risques observes: N1 EPI, N2 Balisage, N3 Charge suspendue, N7 Conduite et engins, N8 Travaux en hauteur, N11 Elingage, N13 Manutention manuelle, N19 Circulation des engins, N20 Chargement/dechargement, N23 5S Site propre. A la fin, les listes main_risks et prevention_measures doivent prioriser les 3 risques les plus critiques et les mesures associees. Pose UNE seule question pertinente permettant de lever une incertitude importante. Ne jamais poser une question dont la reponse est deja visible sur l image. Les mesures de prevention doivent etre specifiques, actionnables sur terrain, et adaptees au danger visible. Les regles related_sst_rules doivent etre choisies uniquement si elles correspondent directement a un risque observe; ne pas citer de regle SST pour une categorie seulement theorique. "
+            "Indice de confiance: 0.95 a 1.0 si tous les elements sont clairement visibles, 0.80 a 0.94 si quelques elements ne sont pas visibles, 0.60 a 0.79 si la photo est partiellement exploitable, moins de 0.60 si la photo est insuffisante. Ne retourne jamais 0 sauf si l image est inutilisable. Exemples de regles SST SONASID a associer seulement aux risques observes: N1 EPI, N2 Balisage, N3 Charge suspendue, N7 Conduite et engins, N8 Travaux en hauteur, N11 Elingage, N13 Manutention manuelle, N19 Circulation des engins, N20 Chargement/dechargement, N23 5S Site propre. Ne jamais utiliser N3 Charge suspendue si aucune charge suspendue, crochet, elingue, pont roulant en levage ou personne sous charge n est visible. Pour les couronnes ou bobines posees au sol, ne pas ecrire chute de couronnes ni stabilite insuffisante comme certitude; preferer Stockage des couronnes au sol, Risque de deplacement ou de roulement lors de la manutention, et Aucun dispositif de calage ou de maintien n est clairement visible sur la partie photographiee. Associer plutot N23 5S et/ou N13 Manutention si ces risques sont visibles. A la fin, les listes main_risks et prevention_measures doivent prioriser les 3 risques les plus critiques et les mesures associees. Pose UNE seule question pertinente permettant de lever une incertitude importante. Ne jamais poser une question dont la reponse est deja visible sur l image. Les mesures de prevention doivent etre specifiques, actionnables sur terrain, et adaptees au danger visible. Les regles related_sst_rules doivent etre choisies uniquement si elles correspondent directement a un risque observe; ne pas citer de regle SST pour une categorie seulement theorique. "
             "Avant de repondre, effectue une double verification: 1 verifier que chaque risque est reellement visible; 2 verifier qu aucun risque majeur visible n a ete oublie. "
             "Retourne uniquement un JSON valide avec exactement ces cles: classification, confidence, observations, scene_summary, risk_items, main_risks, prevention_measures, global_risk_level, global_risk_reason, immediate_danger, recommended_action, questions, location_hints, related_sst_rules. "
             "observations doit etre une liste de constats visibles neutres. risk_items doit etre une liste d objets avec: risk, observation, cause, description, possible_consequences, severity, prevention_measure, sst_rule. risk_items doit contenir seulement les dangers directement observes, jamais des risques theoriques ni des elements conformes/proteges. observation et description doivent citer le fait visible qui prouve le danger. cause doit rester prudente et basee sur l observation. possible_consequences doit decrire les consequences possibles. severity doit etre LOW, MEDIUM, HIGH ou CRITICAL. prevention_measure doit etre une action terrain specifique. sst_rule doit citer uniquement la regle SST SONASID directement liee au risque observe, sinon chaine vide. "
@@ -189,6 +189,64 @@ class VisionRiskAgent:
 
 
     @classmethod
+    def _normalize_coil_handling_claims(cls, text: str) -> str:
+        value = cls._soften_visual_overclaims(str(text or ""))
+        lowered = cls._strip_accents(value.lower())
+        has_coil_context = any(word in lowered for word in ["couronne", "couronnes", "bobine", "bobines", "coil", "coils"])
+
+        if has_coil_context:
+            replacements = [
+                (r"\bchute\s+de\s+(couronnes?|bobines?|coils?)\b", "risque de deplacement ou de roulement des couronnes lors de la manutention"),
+                (r"\bchute\s+des\s+(couronnes?|bobines?|coils?)\b", "risque de deplacement ou de roulement des couronnes lors de la manutention"),
+                (r"\b(couronnes?|bobines?|coils?)\s+(peuvent|pourraient|risquent de)\s+chuter\b", "les couronnes pourraient se deplacer ou rouler lors des operations de manutention"),
+                (r"\bstabilit\S*\s+potentiellement\s+insuffisante\b", "aucun dispositif de calage ou de maintien n est clairement visible sur la partie photographiee"),
+                (r"\bstabilit\S*\s+insuffisante\b", "aucun dispositif de calage ou de maintien n est clairement visible sur la partie photographiee"),
+                (r"\binstabilit\S*\s+des\s+(couronnes?|bobines?|coils?)\b", "dispositif de calage ou de maintien non clairement visible sur la partie photographiee"),
+            ]
+            for pattern, replacement in replacements:
+                value = re.sub(pattern, replacement, value, flags=re.IGNORECASE)
+        else:
+            value = re.sub(r"\bstabilit\S*\s+potentiellement\s+insuffisante\b", "non confirmable sur cette photographie", value, flags=re.IGNORECASE)
+            value = re.sub(r"\bstabilit\S*\s+insuffisante\b", "non confirmable sur cette photographie", value, flags=re.IGNORECASE)
+
+        value = value.replace("la risque de deplacement", "le risque de deplacement")
+        value = value.replace("Les les couronnes", "Les couronnes")
+        value = value.replace("les les couronnes", "les couronnes")
+        return value
+
+    @classmethod
+    def _filter_sst_rule(cls, rule: str, item: dict[str, str]) -> str:
+        cleaned = cls._normalize_coil_handling_claims(rule).strip()
+        if not cleaned:
+            return ""
+        context = cls._strip_accents(
+            " ".join(
+                str(item.get(key) or "")
+                for key in ["risk", "observation", "description", "cause", "possible_consequences", "prevention_measure"]
+            ).lower()
+        )
+        mentions_n3 = bool(re.search(r"\bn\s*0?3\b|charge suspendue", cls._strip_accents(cleaned.lower())))
+        has_lifting_evidence = any(
+            token in context
+            for token in [
+                "charge suspendue",
+                "suspendue",
+                "crochet",
+                "elingue",
+                "elingage",
+                "pont roulant",
+                "grue",
+                "personne sous charge",
+            ]
+        )
+        if mentions_n3 and not has_lifting_evidence:
+            if any(token in context for token in ["couronne", "couronnes", "bobine", "bobines", "coil", "coils", "manutention"]):
+                return "N13 Manutention manuelle / N23 5S Site propre"
+            return ""
+        return cleaned
+
+
+    @classmethod
     def _normalize_result(cls, result: dict[str, Any]) -> dict[str, Any]:
         classification = str(result.get("classification") or "A confirmer").strip()
         lowered = classification.lower()
@@ -216,20 +274,36 @@ class VisionRiskAgent:
             result["confidence"] = max(0.0, min(1.0, float(result.get("confidence") or 0.0)))
         except (TypeError, ValueError):
             result["confidence"] = 0.35
-        result["observations"] = [cls._soften_visual_overclaims(str(item)) for item in cls._as_list(result.get("observations")) if str(item).strip()]
+        result["observations"] = [cls._normalize_coil_handling_claims(str(item)) for item in cls._as_list(result.get("observations")) if str(item).strip()]
         result["immediate_danger"] = bool(result.get("immediate_danger"))
         result["risk_items"] = cls._normalize_risk_items(result.get("risk_items"))
         for key in ["main_risks", "prevention_measures", "questions", "location_hints", "related_sst_rules"]:
-            result[key] = [cls._soften_visual_overclaims(str(item)) for item in cls._as_list(result.get(key)) if str(item).strip()]
+            result[key] = [cls._normalize_coil_handling_claims(str(item)) for item in cls._as_list(result.get(key)) if str(item).strip()]
         if not result["observations"] and result["risk_items"]:
             result["observations"] = [item["observation"] for item in result["risk_items"] if item.get("observation")]
         observed_rules: list[str] = []
         for item in result["risk_items"]:
-            rule = str(item.get("sst_rule") or "").strip()
+            rule = cls._filter_sst_rule(str(item.get("sst_rule") or "").strip(), item)
+            item["sst_rule"] = rule
             if rule and rule not in observed_rules:
-                observed_rules.append(cls._soften_visual_overclaims(rule))
+                observed_rules.append(rule)
+        combined_item = {
+            "risk": " ".join(item.get("risk", "") for item in result["risk_items"]),
+            "observation": " ".join(item.get("observation", "") for item in result["risk_items"]),
+            "description": " ".join(item.get("description", "") for item in result["risk_items"]),
+            "cause": " ".join(item.get("cause", "") for item in result["risk_items"]),
+            "possible_consequences": " ".join(item.get("possible_consequences", "") for item in result["risk_items"]),
+            "prevention_measure": " ".join(item.get("prevention_measure", "") for item in result["risk_items"]),
+        }
+        filtered_related_rules: list[str] = []
+        for related_rule in result["related_sst_rules"]:
+            filtered_rule = cls._filter_sst_rule(related_rule, combined_item)
+            if filtered_rule and filtered_rule not in filtered_related_rules:
+                filtered_related_rules.append(filtered_rule)
         if observed_rules:
             result["related_sst_rules"] = observed_rules
+        elif result["risk_items"]:
+            result["related_sst_rules"] = filtered_related_rules
         if result["risk_items"] and not result["main_risks"]:
             result["main_risks"] = [item["risk"] for item in result["risk_items"] if item.get("risk")][:5]
         if result["risk_items"] and not result["prevention_measures"]:
@@ -252,12 +326,12 @@ class VisionRiskAgent:
                 result["global_risk_level"] = next(level for level, rank in severity_order.items() if rank == max_observed_severity)
         level = str(result.get("global_risk_level") or "MEDIUM").upper()
         result["global_risk_level"] = level if level in {"LOW", "MEDIUM", "HIGH", "CRITICAL"} else "MEDIUM"
-        result["scene_summary"] = cls._soften_visual_overclaims(str(result.get("scene_summary") or result.get("description") or "Analyse photo HSE."))
+        result["scene_summary"] = cls._normalize_coil_handling_claims(str(result.get("scene_summary") or result.get("description") or "Analyse photo HSE."))
         if result["confidence"] <= 0.0 and (result["observations"] or result["risk_items"] or result["scene_summary"]):
             result["confidence"] = 0.35
         result["description"] = result["scene_summary"]
-        result["recommended_action"] = cls._soften_visual_overclaims(str(result.get("recommended_action") or "Securiser la zone et confirmer l'analyse avec le responsable HSE."))
-        result["global_risk_reason"] = cls._soften_visual_overclaims(str(result.get("global_risk_reason") or "Niveau etabli selon les risques visibles sur la photo."))
+        result["recommended_action"] = cls._normalize_coil_handling_claims(str(result.get("recommended_action") or "Securiser la zone et confirmer l'analyse avec le responsable HSE."))
+        result["global_risk_reason"] = cls._normalize_coil_handling_claims(str(result.get("global_risk_reason") or "Niveau etabli selon les risques visibles sur la photo."))
         return result
 
     @classmethod
@@ -385,13 +459,13 @@ class VisionRiskAgent:
         for item in items:
             if isinstance(item, dict):
                 severity = str(item.get("severity") or "MEDIUM").upper()
-                observation = cls._soften_visual_overclaims(
+                observation = cls._normalize_coil_handling_claims(
                     str(item.get("observation") or item.get("description") or "Aucun fait visible detaille n a ete fourni.")
                 )
-                cause = cls._soften_visual_overclaims(
+                cause = cls._normalize_coil_handling_claims(
                     str(item.get("cause") or "Cause non confirmable sur cette photographie.")
                 )
-                prevention_measure = cls._soften_visual_overclaims(
+                prevention_measure = cls._normalize_coil_handling_claims(
                     str(
                         item.get("prevention_measure")
                         or item.get("measure")
@@ -399,16 +473,17 @@ class VisionRiskAgent:
                         or "Securiser la zone et confirmer l action avec le responsable HSE."
                     )
                 )
-                sst_rule = cls._soften_visual_overclaims(
-                    str(item.get("sst_rule") or item.get("rule") or item.get("regle_sst") or "")
+                sst_rule = cls._filter_sst_rule(
+                    str(item.get("sst_rule") or item.get("rule") or item.get("regle_sst") or ""),
+                    item,
                 )
                 normalized.append(
                     {
-                        "risk": cls._soften_visual_overclaims(str(item.get("risk") or "Risque observe")),
+                        "risk": cls._normalize_coil_handling_claims(str(item.get("risk") or "Risque observe")),
                         "observation": observation,
                         "description": observation,
                         "cause": cause,
-                        "possible_consequences": cls._soften_visual_overclaims(
+                        "possible_consequences": cls._normalize_coil_handling_claims(
                             str(item.get("possible_consequences") or item.get("consequences") or "Accident potentiel.")
                         ),
                         "severity": severity if severity in {"LOW", "MEDIUM", "HIGH", "CRITICAL"} else "MEDIUM",
