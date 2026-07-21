@@ -1,4 +1,4 @@
-﻿from datetime import datetime
+from datetime import datetime
 from enum import Enum
 import json
 from pathlib import Path
@@ -390,6 +390,17 @@ class ConversationService:
         if tokens.intersection(darija_markers):
             return "darija"
         return "en" if tokens.intersection(english_markers) else "fr"
+
+    @staticmethod
+    def _normalize_preferred_language(language: str | None) -> str | None:
+        value = (language or "").strip().lower()
+        if value in {"fr", "fr-fr", "french", "francais"}:
+            return "fr"
+        if value in {"darija", "ar-ma", "ma", "moroccan", "moroccan-darija"}:
+            return "darija"
+        if value in {"en", "en-us", "english"}:
+            return "en"
+        return None
 
     @classmethod
     def _should_keep_darija(cls, current_language: str, detected_language: str, message: str) -> bool:
@@ -951,14 +962,18 @@ class ConversationService:
         except Exception:
             return fallback
 
-    def process_message(self, session_id: str, message: str, db: Session) -> dict[str, Any]:
+    def process_message(self, session_id: str, message: str, db: Session, preferred_language: str | None = None) -> dict[str, Any]:
         session = self._get_or_create_session(session_id)
         current_step = ConversationStep(session["step"])
-        detected_language = self._detect_language(message)
-        if self._should_keep_darija(session.get("language", "fr"), detected_language, message):
-            detected_language = "darija"
-        if detected_language in {"fr", "darija", "en"}:
-            session["language"] = detected_language
+        selected_language = self._normalize_preferred_language(preferred_language)
+        if selected_language:
+            session["language"] = selected_language
+        else:
+            detected_language = self._detect_language(message)
+            if self._should_keep_darija(session.get("language", "fr"), detected_language, message):
+                detected_language = "darija"
+            if detected_language in {"fr", "darija", "en"}:
+                session["language"] = detected_language
 
         correction = self._extract_user_correction(message)
         if correction:

@@ -48,11 +48,14 @@ async def classify_risk_photo(
     image_path.write_bytes(data)
 
     vision_result = vision_risk_agent.classify(image_path, content_type=content_type, analysis_language=analysis_language)
+    normalized_analysis_language = (analysis_language or "ar").strip().lower()
+    photo_conversation_language = {"fr": "fr", "en": "en", "ar": "darija"}.get(normalized_analysis_language)
     transcript = vision_risk_agent.to_conversation_message(vision_result)
     conversation_result = conversation_service.process_message(
         session_id=session_id,
         message=transcript,
         db=db,
+        preferred_language=photo_conversation_language,
     )
 
     response = vision_risk_agent.format_detailed_response(vision_result, language=analysis_language)

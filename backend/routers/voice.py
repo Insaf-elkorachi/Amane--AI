@@ -1,4 +1,4 @@
-﻿from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
 from core.database import get_db
@@ -23,6 +23,7 @@ def voice_message(
             session_id=payload.session_id,
             transcript=payload.transcript,
             source=payload.source,
+            preferred_language=payload.preferred_language,
             db=db,
         )
 

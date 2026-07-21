@@ -434,6 +434,12 @@ function setRecognitionLanguage(lang) {
   });
 }
 
+function selectedConversationLanguage() {
+  if (activeSpeechLang === "ar-MA") return "darija";
+  if (activeSpeechLang === "en-US") return "en";
+  return "fr";
+}
+
 function pickVoice(lang) {
   refreshSpeechVoices();
   if (speechVoices.length === 0) return null;
@@ -797,6 +803,7 @@ async function sendMessage(message, { silentUser = false, voice = true } = {}) {
       session_id: sessionId,
       transcript: cleanMessage,
       source: recognition ?"browser_speech_recognition" : "keyboard_fallback",
+      preferred_language: selectedConversationLanguage(),
     }),
   });
 

@@ -1,4 +1,4 @@
-﻿from typing import Any
+from typing import Any
 
 from sqlalchemy.orm import Session
 
@@ -21,6 +21,7 @@ class VoicePipelineService:
         transcript: str,
         db: Session,
         source: str = "browser_speech_recognition",
+        preferred_language: str | None = None,
     ) -> dict[str, Any]:
         normalized_transcript = speech_to_text_adapter.accept_transcript(transcript)
 
@@ -57,6 +58,7 @@ class VoicePipelineService:
             session_id=session_id,
             message=normalized_transcript,
             db=db,
+            preferred_language=preferred_language,
         )
 
         report_ai = {"sap_ready": False, "urgency": None, "missing_fields": []}

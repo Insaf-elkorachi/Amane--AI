@@ -116,7 +116,7 @@ class VisionRiskAgent:
                 result = {**fallback, **json.loads(content)}
                 result["source_image"] = str(image_path)
                 result["vision_model"] = model
-                return self._normalize_result(result)
+                return self._ensure_result_language(self._normalize_result(result), language)
             except Exception as exc:
                 errors.append(f"{model}: {exc}")
 
@@ -222,6 +222,86 @@ class VisionRiskAgent:
         result["global_risk_reason"] = cls._soften_visual_overclaims(str(result.get("global_risk_reason") or "Niveau etabli selon les risques visibles sur la photo."))
         return result
 
+    @classmethod
+    def _ensure_result_language(cls, result: dict[str, Any], language: str) -> dict[str, Any]:
+        if language != "ar" or not llm_service.available:
+            return result
+        if not cls._needs_arabic_translation(result):
+            return result
+        return cls._translate_result_to_arabic(result)
+
+    @classmethod
+    def _needs_arabic_translation(cls, result: dict[str, Any]) -> bool:
+        texts: list[str] = []
+        for key in ["scene_summary", "recommended_action", "global_risk_reason"]:
+            value = str(result.get(key) or "").strip()
+            if value:
+                texts.append(value)
+        for key in ["main_risks", "prevention_measures", "questions", "location_hints", "related_sst_rules"]:
+            texts.extend(str(item).strip() for item in cls._as_list(result.get(key)) if str(item).strip())
+        for item in cls._as_list(result.get("risk_items")):
+            if isinstance(item, dict):
+                texts.extend(
+                    str(item.get(key) or "").strip()
+                    for key in ["risk", "description", "possible_consequences"]
+                    if str(item.get(key) or "").strip()
+                )
+        if not texts:
+            return False
+        non_arabic = [value for value in texts if not cls._has_arabic(value)]
+        return len(non_arabic) >= max(1, len(texts) // 3)
+
+    @classmethod
+    def _translate_result_to_arabic(cls, result: dict[str, Any]) -> dict[str, Any]:
+        payload = {
+            "scene_summary": result.get("scene_summary"),
+            "risk_items": result.get("risk_items", []),
+            "main_risks": result.get("main_risks", []),
+            "prevention_measures": result.get("prevention_measures", []),
+            "global_risk_reason": result.get("global_risk_reason"),
+            "recommended_action": result.get("recommended_action"),
+            "questions": result.get("questions", []),
+            "location_hints": result.get("location_hints", []),
+            "related_sst_rules": result.get("related_sst_rules", []),
+        }
+        try:
+            response = llm_service.client.chat.completions.create(
+                model=llm_service.model,
+                messages=[
+                    {
+                        "role": "system",
+                        "content": (
+                            "Translate all user-facing textual values in this JSON to clear professional Modern Standard Arabic. "
+                            "Keep the same JSON keys and list structure. Do not add risks. Do not change classification, severity, booleans, model names, or source data. "
+                            "Preserve official names such as SONASID, AMANE, HSE, SAP and technical acronyms. Return only valid JSON."
+                        ),
+                    },
+                    {"role": "user", "content": json.dumps(payload, ensure_ascii=False)},
+                ],
+                temperature=0.0,
+                response_format={"type": "json_object"},
+            )
+            translated = json.loads(response.choices[0].message.content or "{}")
+        except Exception:
+            return result
+
+        merged = dict(result)
+        for key in [
+            "scene_summary",
+            "main_risks",
+            "prevention_measures",
+            "global_risk_reason",
+            "recommended_action",
+            "questions",
+            "location_hints",
+            "related_sst_rules",
+        ]:
+            if translated.get(key):
+                merged[key] = translated[key]
+        if isinstance(translated.get("risk_items"), list):
+            merged["risk_items"] = translated["risk_items"]
+        merged["description"] = merged.get("scene_summary", result.get("description"))
+        return merged
     @classmethod
     def _normalize_risk_items(cls, value: Any) -> list[dict[str, str]]:
         items = cls._as_list(value)

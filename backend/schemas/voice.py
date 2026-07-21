@@ -1,4 +1,4 @@
-﻿from typing import Any
+from typing import Any
 
 from pydantic import BaseModel, Field
 
@@ -7,6 +7,7 @@ class VoiceMessageRequest(BaseModel):
     session_id: str = Field(min_length=1)
     transcript: str = Field(min_length=1)
     source: str = "browser_speech_recognition"
+    preferred_language: str | None = None
 
 
 class VoicePipelineStep(BaseModel):
