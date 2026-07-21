@@ -1,4 +1,4 @@
-﻿from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException
 from fastapi.responses import Response
 from pydantic import BaseModel
 
@@ -33,9 +33,12 @@ def speak(payload: TTSRequest) -> Response:
         }
         if text_to_speech_adapter.is_darija(payload.text):
             kwargs["instructions"] = (
-                "Lis comme une voix francaise qui lit une phonetique arabe simplifiee. "
-                "N'utilise pas une prononciation anglaise. Prononce ou comme en francais, ch comme chat, kh doucement, et Amane clairement. "
-                "Garde les termes HSE, SONASID et Nador intelligibles."
+                "Le texte fourni est une translitteration phonetique francaise d'arabe/darija. "
+                "Lis-le exactement avec une prononciation francaise, jamais anglaise. "
+                "Regles: ou se prononce comme le son francais ou; ch comme dans chat; kh est un son guttural doux; gh est guttural; "
+                "a, i, e se lisent a la francaise; ne prononce jamais ou comme ao ou ow. "
+                "Prononce Amane court et clair, Sonasid clairement, Nador clairement, H S E lettre par lettre. "
+                "Ne traduis pas, ne reformule pas, lis seulement le texte avec accent francais marocain naturel."
             )
 
         audio = llm_service.client.audio.speech.create(**kwargs)

@@ -6,6 +6,7 @@ from typing import Any
 
 from ai.llm import llm_service
 from ai.rag import rag_service
+from core.config import settings
 
 
 class VisionRiskAgent:
@@ -45,17 +46,18 @@ class VisionRiskAgent:
         )
         system_prompt = (
             "Tu es AMANE AI, agent vision HSE expert pour SONASID Nador. "
-            "Analyse la photo comme un preventeur HSE terrain, avec prudence mais de maniere intelligente. "
+            "Analyse la photo comme un preventeur HSE terrain senior, avec le meme niveau de detail qu une expertise visuelle professionnelle. "
             + self._language_instruction(language)
-            + "Tu dois identifier tous les risques visibles ou fortement probables, les consequences possibles, "
+            + "Tu dois d abord decrire concretement ce qui est visible dans l image, puis identifier tous les risques visibles ou fortement probables, les consequences possibles, "
             "les mesures de prevention, les regles SST SONASID pertinentes et le niveau de risque global. "
             "Tu ne dois jamais affirmer une absence ou une non-conformite qui n'est pas directement visible. Distingue explicitement: visible, probable, non confirmable. Pour les EPI, si casque/gilet sont visibles mais gants/lunettes/chaussures ne sont pas confirmables, ecris que les EPI sont partiellement visibles et que certains EPI ne sont pas confirmables sur la photo. Ne dis pas absence d'EPI sauf si l'absence est clairement visible. Pour une tranchee ou excavation, ne conclus pas a une absence d'etayage/blindage si l'interieur n'est pas visible; ecris que le blindage ou l'etayage n'est pas confirmable sur la photo. Qualifie correctement le risque: chute dans une excavation n'est pas une simple chute de plain-pied. Si un point est incertain, marque-le comme a confirmer. "
+            "Si un point est incertain, marque-le comme a confirmer, mais ne repete jamais une phrase generique. Chaque risk_item doit citer un danger concret visible ou probable: excavation, engin, pieton, charge, cable, outil, rangement, circulation, hauteur, gaz, chimique, electrique, levage, EPI, balisage, zone d evolution. Si la photo est insuffisante, donne quand meme les observations visibles et les questions terrain precises. Interdiction de remplir les listes avec des phrases vagues du type element a confirmer. "
             "Retourne uniquement un JSON valide avec exactement ces cles: "
             "classification, confidence, scene_summary, risk_items, main_risks, prevention_measures, "
             "global_risk_level, global_risk_reason, immediate_danger, recommended_action, questions, "
             "location_hints, related_sst_rules. "
             "classification doit etre exactement 'Acte dangereux', 'Situation dangereuse', 'Acte dangereux et situation dangereuse' ou 'A confirmer'. "
-            "risk_items doit etre une liste d'objets avec: risk, description, possible_consequences, severity. "
+            "risk_items doit etre une liste d'objets avec: risk, description, possible_consequences, severity. Chaque item doit etre specifique, non repetitif, et base sur un indice visuel. "
             "severity doit etre LOW, MEDIUM, HIGH ou CRITICAL. "
             "main_risks, prevention_measures, questions, location_hints et related_sst_rules doivent etre des listes de textes dans la langue demandee. "
             "global_risk_level doit etre LOW, MEDIUM, HIGH ou CRITICAL. "
@@ -65,39 +67,49 @@ class VisionRiskAgent:
         user_text = (
             "Contexte RAG SONASID et regles SST disponibles:\n"
             f"{context}\n\n"
-            "Analyse cette photo HSE comme dans un rapport professionnel. "
+            "Analyse cette photo HSE comme dans un rapport professionnel detaille, avec observations concretes et risques terrain. Evite les reponses pauvres ou generiques. "
             "Le contenu lisible par l'utilisateur doit respecter la langue demandee: observations, risques, consequences, mesures, justification et question de confirmation. "
             "Reste prudent: formule les elements incertains comme des hypotheses a confirmer sur le terrain."
         )
 
-        try:
-            response = llm_service.client.chat.completions.create(
-                model=llm_service.model,
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {
-                        "role": "user",
-                        "content": [
-                            {"type": "text", "text": user_text},
-                            {
-                                "type": "image_url",
-                                "image_url": {
-                                    "url": f"data:{mime};base64,{encoded}",
-                                    "detail": "high",
+        errors: list[str] = []
+        model_candidates = []
+        for model in [settings.OPENAI_VISION_MODEL, llm_service.model]:
+            if model and model not in model_candidates:
+                model_candidates.append(model)
+
+        for model in model_candidates:
+            try:
+                response = llm_service.client.chat.completions.create(
+                    model=model,
+                    messages=[
+                        {"role": "system", "content": system_prompt},
+                        {
+                            "role": "user",
+                            "content": [
+                                {"type": "text", "text": user_text},
+                                {
+                                    "type": "image_url",
+                                    "image_url": {
+                                        "url": f"data:{mime};base64,{encoded}",
+                                        "detail": "high",
+                                    },
                                 },
-                            },
-                        ],
-                    },
-                ],
-                temperature=0.1,
-                response_format={"type": "json_object"},
-            )
-            content = response.choices[0].message.content or "{}"
-            result = {**fallback, **json.loads(content)}
-            result["source_image"] = str(image_path)
-            return self._normalize_result(result)
-        except Exception as exc:
-            return {**fallback, "vision_error": str(exc)}
+                            ],
+                        },
+                    ],
+                    temperature=0.05,
+                    response_format={"type": "json_object"},
+                )
+                content = response.choices[0].message.content or "{}"
+                result = {**fallback, **json.loads(content)}
+                result["source_image"] = str(image_path)
+                result["vision_model"] = model
+                return self._normalize_result(result)
+            except Exception as exc:
+                errors.append(f"{model}: {exc}")
+
+        return {**fallback, "vision_error": " | ".join(errors)}
 
     @staticmethod
     def _fallback(image_path: Path) -> dict[str, Any]:

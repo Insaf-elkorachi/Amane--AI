@@ -1,4 +1,4 @@
-﻿const messagesEl = document.querySelector("#messages");
+const messagesEl = document.querySelector("#messages");
 const chatForm = document.querySelector("#chatForm");
 const messageInput = document.querySelector("#messageInput");
 const dataList = document.querySelector("#dataList");
@@ -291,25 +291,33 @@ function isDarijaText(text) {
 function arabicToFrenchPhonetics(text) {
   if (!text) return text;
   let value = String(text)
-    .replace(/هل تؤكد أن الصورة تمثل فعلا خطيرا أم وضعية خطيرة؟/g, "Hal tou akkid anna ssoura toumattil fiilan khatiran am wadia khatira ?")
-    .replace(/تحليل صورة HSE بواسطة AMANE/g, "Tahlil soura H S E bi wassitat Amane")
-    .replace(/التصنيف المقترح/g, "Attasnif al mouktarah")
+    .replace(/هل تؤكد أن الصورة تمثل فعلا خطيرا أم وضعية خطيرة؟/g, "Hal tou-ak-kid anna ssoura tou-mat-til fi-lan khatiran am wad-iya khatira ?")
+    .replace(/تحليل صورة HSE بواسطة AMANE/g, "Tahlil ssoura H S E bi wassitat Amane")
+    .replace(/التصنيف المقترح/g, "Attasnif al mouk-tarah")
     .replace(/مستوى الخطر العام/g, "Moustawa al khatar al aam")
-    .replace(/ملخص المشهد/g, "Moulakhas al machhad")
+    .replace(/ملخص المشهد/g, "Moulakhas al mach-had")
     .replace(/المخاطر المرصودة/g, "Al makhatir al marsouda")
-    .replace(/المخاطر الرئيسية/g, "Al makhatir arraissiya")
-    .replace(/إجراءات الوقاية الموصى بها/g, "Ijraat al wikaya al moussa biha")
+    .replace(/المخاطر الرئيسية/g, "Al makhatir ar-ra-issiya")
+    .replace(/إجراءات الوقاية الموصى بها/g, "Ijra-at al wikaya al moussa biha")
     .replace(/تبرير مستوى الخطر العام/g, "Tabrir moustawa al khatar al aam")
     .replace(/سؤال AMANE/g, "Soual Amane")
-    .replace(/يحتاج إلى تأكيد/g, "yahtaj ila ta kid")
+    .replace(/يحتاج إلى تأكيد/g, "yahtaj ila ta-akid")
     .replace(/متوسط/g, "moutawassit")
     .replace(/منخفض/g, "mounkhafid")
     .replace(/مرتفع/g, "mourtafaa")
-    .replace(/حرج/g, "harij")
+    .replace(/حرج/g, "haraj")
     .replace(/فعل خطير/g, "fiil khatir")
-    .replace(/وضعية خطيرة/g, "wadia khatira");
+    .replace(/وضعية خطيرة/g, "wad-iya khatira");
 
   value = value.replace(/[\u064b-\u065f\u0670]/g, "").replace(/لا/g, "la");
+  const wordMap = new Map([
+    ["الصورة", "ssoura"], ["الخطر", "al khatar"], ["المنطقة", "al mintaka"],
+    ["الوقاية", "al wikaya"], ["الحواجز", "al hawajiz"], ["الحفرة", "al hofra"],
+    ["السقوط", "as-soukout"], ["الاصطدام", "al istidam"], ["السحق", "as-sahk"],
+    ["الكهرباء", "al kahraba"], ["الرافعة", "ar-rafiaa"], ["الآلات", "al alat"],
+    ["العمال", "al oummal"], ["معدات", "moua-dat"], ["حمولة", "hamoula"], ["معلقة", "mouallaka"],
+  ]);
+  for (const [source, target] of wordMap.entries()) value = value.replaceAll(source, target);
   const table = {
     "ا":"a", "أ":"a", "إ":"i", "آ":"aa", "ء":"", "ؤ":"ou", "ئ":"i",
     "ب":"b", "ت":"t", "ث":"s", "ج":"j", "ح":"h", "خ":"kh",
@@ -525,7 +533,7 @@ async function speak(text) {
   const lang = getSpeechLang(text);
   const spokenText = prepareSpeechText(text, lang);
   const utterance = new SpeechSynthesisUtterance(spokenText);
-  utterance.lang = lang;
+  utterance.lang = isDarijaText(text) ? "fr-FR" : lang;
   utterance.rate = isDarijaText(text) ? 0.84 : (lang.startsWith("ar") ? 0.92 : 0.98);
   utterance.pitch = 1;
   utterance.volume = 1;
