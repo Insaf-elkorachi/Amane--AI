@@ -28,7 +28,7 @@ class VisionRiskAgent:
             return "IMPORTANT LANGUE: tous les textes rediges pour l'utilisateur doivent etre en francais professionnel clair. N'utilise pas l'arabe ni l'anglais sauf pour les noms officiels comme SONASID, AMANE, HSE et SAP. "
         if language == "en":
             return "IMPORTANT LANGUAGE: all user-facing text must be in clear professional English. Do not use Arabic or French except official names such as SONASID, AMANE, HSE and SAP. "
-        return "IMPORTANT LANGUE: tous les textes rediges pour l'utilisateur doivent etre en arabe classique clair et professionnel. N'utilise pas la darija, n'utilise pas l'anglais, et n'utilise pas le francais dans les champs textuels sauf pour les noms officiels comme SONASID, AMANE, HSE, SAP et les valeurs metier imposees. Les champs scene_summary, risk_items.risk, risk_items.description, risk_items.possible_consequences, main_risks, prevention_measures, global_risk_reason, recommended_action, questions, location_hints et related_sst_rules doivent etre en arabe classique."
+        return "IMPORTANT LANGUE: tous les textes rediges pour l'utilisateur doivent etre en arabe classique clair et professionnel. N'utilise pas la darija, n'utilise pas l'anglais, et n'utilise pas le francais dans les champs textuels sauf pour les noms officiels comme SONASID, AMANE, HSE, SAP et les valeurs metier imposees. Les champs scene_summary, risk_items.risk, risk_items.observation, risk_items.cause, risk_items.description, risk_items.possible_consequences, risk_items.prevention_measure, risk_items.sst_rule, main_risks, prevention_measures, global_risk_reason, recommended_action, questions, location_hints et related_sst_rules doivent etre en arabe classique."
 
     def classify(self, image_path: Path, content_type: str | None = None, analysis_language: str = "ar") -> dict[str, Any]:
         language = self._normalize_language(analysis_language)
@@ -64,14 +64,14 @@ class VisionRiskAgent:
             "8 Manutention: posture, charge lourde, stockage, stabilite. "
             "9 Sol et environnement: obstacle, huile, eau, poussiere, encombrement, 5S. "
             "10 Produits: fuite, emballage, element saillant, stockage. "
-            "Pour chaque risque detecte, fournir un risk_item avec nom du risque, observation factuelle visible, consequences possibles, gravite LOW/MEDIUM/HIGH/CRITICAL, mesure de prevention et regle SST SONASID concernee. Avant d ajouter un risk_item, verifier qu il existe un indice visuel concret de danger: obstacle, proximite dangereuse, charge suspendue, personne exposee, fuite, cable apparent, organe en mouvement accessible, chute possible visible, encombrement, posture dangereuse, ou autre danger directement visible. Ne pas creer de risk_item pour un risque purement theorique. "
+            "Pour chaque risque detecte, fournir un risk_item avec nom du risque, observation factuelle visible, cause, consequences possibles, gravite LOW/MEDIUM/HIGH/CRITICAL, mesure de prevention et regle SST SONASID concernee. Avant d ajouter un risk_item, verifier qu il existe un indice visuel concret de danger: obstacle, proximite dangereuse, charge suspendue, personne exposee, fuite, cable apparent, organe en mouvement accessible, chute possible visible, encombrement, posture dangereuse, ou autre danger directement visible. Ne pas creer de risk_item pour un risque purement theorique. "
             "classification doit etre exactement Acte dangereux, Situation dangereuse, ou Acte dangereux et situation dangereuse. Utilise Acte dangereux et situation dangereuse lorsque la photo montre les deux. "
             "Determiner le niveau global selon cette regle: CRITICAL si presence visible d un risque pouvant provoquer immediatement un accident mortel: charge suspendue, travail en hauteur non protege, metal en fusion, pont roulant, intervention electrique, espace confine, machine dangereuse, incendie important. HIGH si plusieurs risques importants combines. MEDIUM si risques maitrisables. LOW si aucun risque significatif visible. Toujours justifier le niveau. "
             "Ne jamais ecrire absence de casque, absence de harnais, absence de lunettes, absence de gants, absence de chaussures, absence de blindage, absence d extincteur ou absence de consignation si ce n est pas clairement visible. Preferer: Le port du casque ne peut pas etre confirme, ou Non confirmable sur cette photographie. "
-            "A la fin, les listes main_risks et prevention_measures doivent prioriser les 3 risques les plus critiques et les mesures associees. Pose UNE seule question pertinente permettant de lever une incertitude importante. Ne jamais poser une question dont la reponse est deja visible sur l image. Les mesures de prevention doivent etre specifiques, actionnables sur terrain, et adaptees au danger visible. Les regles related_sst_rules doivent etre choisies uniquement si elles correspondent directement a un risque observe; ne pas citer de regle SST pour une categorie seulement theorique. "
+            "Indice de confiance: 0.95 a 1.0 si tous les elements sont clairement visibles, 0.80 a 0.94 si quelques elements ne sont pas visibles, 0.60 a 0.79 si la photo est partiellement exploitable, moins de 0.60 si la photo est insuffisante. Ne retourne jamais 0 sauf si l image est inutilisable. Exemples de regles SST SONASID a associer seulement aux risques observes: N1 EPI, N2 Balisage, N3 Charge suspendue, N7 Conduite et engins, N8 Travaux en hauteur, N11 Elingage, N13 Manutention manuelle, N19 Circulation des engins, N20 Chargement/dechargement, N23 5S Site propre. A la fin, les listes main_risks et prevention_measures doivent prioriser les 3 risques les plus critiques et les mesures associees. Pose UNE seule question pertinente permettant de lever une incertitude importante. Ne jamais poser une question dont la reponse est deja visible sur l image. Les mesures de prevention doivent etre specifiques, actionnables sur terrain, et adaptees au danger visible. Les regles related_sst_rules doivent etre choisies uniquement si elles correspondent directement a un risque observe; ne pas citer de regle SST pour une categorie seulement theorique. "
             "Avant de repondre, effectue une double verification: 1 verifier que chaque risque est reellement visible; 2 verifier qu aucun risque majeur visible n a ete oublie. "
             "Retourne uniquement un JSON valide avec exactement ces cles: classification, confidence, observations, scene_summary, risk_items, main_risks, prevention_measures, global_risk_level, global_risk_reason, immediate_danger, recommended_action, questions, location_hints, related_sst_rules. "
-            "observations doit etre une liste de constats visibles neutres. risk_items doit etre une liste d objets avec: risk, description, possible_consequences, severity. risk_items doit contenir seulement les dangers directement observes, jamais des risques theoriques ni des elements conformes/proteges. La description doit citer l observation factuelle visible qui prouve le danger. possible_consequences doit decrire les consequences possibles. severity doit etre LOW, MEDIUM, HIGH ou CRITICAL. Ajoute la mesure et la regle SST dans description ou possible_consequences si necessaire. "
+            "observations doit etre une liste de constats visibles neutres. risk_items doit etre une liste d objets avec: risk, observation, cause, description, possible_consequences, severity, prevention_measure, sst_rule. risk_items doit contenir seulement les dangers directement observes, jamais des risques theoriques ni des elements conformes/proteges. observation et description doivent citer le fait visible qui prouve le danger. cause doit rester prudente et basee sur l observation. possible_consequences doit decrire les consequences possibles. severity doit etre LOW, MEDIUM, HIGH ou CRITICAL. prevention_measure doit etre une action terrain specifique. sst_rule doit citer uniquement la regle SST SONASID directement liee au risque observe, sinon chaine vide. "
             "main_risks, prevention_measures, questions, location_hints et related_sst_rules doivent etre des listes de textes dans la langue demandee. questions doit contenir une seule question. "
             "Interdiction de remplir les listes avec des phrases vagues ou repetees. Chaque risque doit etre specifique et base sur un indice visuel."
         )
@@ -127,7 +127,7 @@ class VisionRiskAgent:
     def _fallback(image_path: Path) -> dict[str, Any]:
         return {
             "classification": "A confirmer",
-            "confidence": 0.0,
+            "confidence": 0.35,
             "observations": [],
             "scene_summary": "\u062a\u0645 \u0627\u0633\u062a\u0644\u0627\u0645 \u0635\u0648\u0631\u0629 HSE\u060c \u0644\u0643\u0646 \u0627\u0644\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0628\u0635\u0631\u064a \u0627\u0644\u0622\u0644\u064a \u063a\u064a\u0631 \u0645\u062a\u0627\u062d \u062d\u0627\u0644\u064a\u0627. \u064a\u062c\u0628 \u062a\u0623\u0643\u064a\u062f \u0627\u0644\u0648\u0636\u0639 \u0645\u064a\u062f\u0627\u0646\u064a\u0627 \u0645\u0646 \u0637\u0631\u0641 \u0627\u0644\u0645\u0635\u0631\u062d \u0623\u0648 \u0645\u0633\u0624\u0648\u0644 HSE.",
             "risk_items": [
@@ -215,14 +215,27 @@ class VisionRiskAgent:
         try:
             result["confidence"] = max(0.0, min(1.0, float(result.get("confidence") or 0.0)))
         except (TypeError, ValueError):
-            result["confidence"] = 0.0
+            result["confidence"] = 0.35
         result["observations"] = [cls._soften_visual_overclaims(str(item)) for item in cls._as_list(result.get("observations")) if str(item).strip()]
         result["immediate_danger"] = bool(result.get("immediate_danger"))
         result["risk_items"] = cls._normalize_risk_items(result.get("risk_items"))
         for key in ["main_risks", "prevention_measures", "questions", "location_hints", "related_sst_rules"]:
             result[key] = [cls._soften_visual_overclaims(str(item)) for item in cls._as_list(result.get(key)) if str(item).strip()]
         if not result["observations"] and result["risk_items"]:
-            result["observations"] = [item["description"] for item in result["risk_items"] if item.get("description")]
+            result["observations"] = [item["observation"] for item in result["risk_items"] if item.get("observation")]
+        observed_rules: list[str] = []
+        for item in result["risk_items"]:
+            rule = str(item.get("sst_rule") or "").strip()
+            if rule and rule not in observed_rules:
+                observed_rules.append(cls._soften_visual_overclaims(rule))
+        if observed_rules:
+            result["related_sst_rules"] = observed_rules
+        if result["risk_items"] and not result["main_risks"]:
+            result["main_risks"] = [item["risk"] for item in result["risk_items"] if item.get("risk")][:5]
+        if result["risk_items"] and not result["prevention_measures"]:
+            result["prevention_measures"] = [
+                item["prevention_measure"] for item in result["risk_items"] if item.get("prevention_measure")
+            ][:8]
         if not result["risk_items"]:
             result["main_risks"] = []
             result["related_sst_rules"] = []
@@ -240,6 +253,8 @@ class VisionRiskAgent:
         level = str(result.get("global_risk_level") or "MEDIUM").upper()
         result["global_risk_level"] = level if level in {"LOW", "MEDIUM", "HIGH", "CRITICAL"} else "MEDIUM"
         result["scene_summary"] = cls._soften_visual_overclaims(str(result.get("scene_summary") or result.get("description") or "Analyse photo HSE."))
+        if result["confidence"] <= 0.0 and (result["observations"] or result["risk_items"] or result["scene_summary"]):
+            result["confidence"] = 0.35
         result["description"] = result["scene_summary"]
         result["recommended_action"] = cls._soften_visual_overclaims(str(result.get("recommended_action") or "Securiser la zone et confirmer l'analyse avec le responsable HSE."))
         result["global_risk_reason"] = cls._soften_visual_overclaims(str(result.get("global_risk_reason") or "Niveau etabli selon les risques visibles sur la photo."))
@@ -266,7 +281,7 @@ class VisionRiskAgent:
             if isinstance(item, dict):
                 texts.extend(
                     str(item.get(key) or "").strip()
-                    for key in ["risk", "description", "possible_consequences"]
+                    for key in ["risk", "observation", "cause", "description", "possible_consequences", "prevention_measure", "sst_rule"]
                     if str(item.get(key) or "").strip()
                 )
         if not texts:
@@ -339,7 +354,8 @@ class VisionRiskAgent:
     def _is_observed_risk_item(cls, item: dict[str, str]) -> bool:
         risk = str(item.get("risk") or "").strip()
         description = str(item.get("description") or "").strip()
-        combined = cls._strip_accents(f"{risk} {description}".lower())
+        observation = str(item.get("observation") or description).strip()
+        combined = cls._strip_accents(f"{risk} {observation} {description}".lower())
         non_observed_markers = {
             "non confirmable",
             "aucun element visible",
@@ -358,7 +374,7 @@ class VisionRiskAgent:
         }
         if any(marker in combined for marker in non_observed_markers):
             return False
-        if len(description) < 18:
+        if len(observation) < 18:
             return False
         return True
 
@@ -369,21 +385,48 @@ class VisionRiskAgent:
         for item in items:
             if isinstance(item, dict):
                 severity = str(item.get("severity") or "MEDIUM").upper()
+                observation = cls._soften_visual_overclaims(
+                    str(item.get("observation") or item.get("description") or "Aucun fait visible detaille n a ete fourni.")
+                )
+                cause = cls._soften_visual_overclaims(
+                    str(item.get("cause") or "Cause non confirmable sur cette photographie.")
+                )
+                prevention_measure = cls._soften_visual_overclaims(
+                    str(
+                        item.get("prevention_measure")
+                        or item.get("measure")
+                        or item.get("recommended_action")
+                        or "Securiser la zone et confirmer l action avec le responsable HSE."
+                    )
+                )
+                sst_rule = cls._soften_visual_overclaims(
+                    str(item.get("sst_rule") or item.get("rule") or item.get("regle_sst") or "")
+                )
                 normalized.append(
                     {
                         "risk": cls._soften_visual_overclaims(str(item.get("risk") or "Risque observe")),
-                        "description": cls._soften_visual_overclaims(str(item.get("description") or "A confirmer sur terrain.")),
-                        "possible_consequences": cls._soften_visual_overclaims(str(item.get("possible_consequences") or item.get("consequences") or "Accident potentiel.")),
+                        "observation": observation,
+                        "description": observation,
+                        "cause": cause,
+                        "possible_consequences": cls._soften_visual_overclaims(
+                            str(item.get("possible_consequences") or item.get("consequences") or "Accident potentiel.")
+                        ),
                         "severity": severity if severity in {"LOW", "MEDIUM", "HIGH", "CRITICAL"} else "MEDIUM",
+                        "prevention_measure": prevention_measure,
+                        "sst_rule": sst_rule,
                     }
                 )
             elif str(item).strip():
                 normalized.append(
                     {
                         "risk": str(item),
+                        "observation": "A confirmer sur terrain.",
                         "description": "A confirmer sur terrain.",
+                        "cause": "Cause non confirmable sur cette photographie.",
                         "possible_consequences": "Accident potentiel.",
                         "severity": "MEDIUM",
+                        "prevention_measure": "Securiser la zone et confirmer l action avec le responsable HSE.",
+                        "sst_rule": "",
                     }
                 )
         return [item for item in normalized if cls._is_observed_risk_item(item)]
@@ -455,8 +498,13 @@ class VisionRiskAgent:
             "reason": "Overall risk justification" if is_en else "Justification du niveau global",
             "rules": "Related SONASID SST rules" if is_en else "Regles SST SONASID liees",
             "question": "AMANE question" if is_en else "Question AMANE",
+            "observation": "Observation" if is_en else "Observation",
+            "cause": "Cause" if is_en else "Cause",
             "consequences": "Possible consequences" if is_en else "Consequences possibles",
-            "risk_level": "Level" if is_en else "Niveau",
+            "risk_level": "Level" if is_en else "Gravite",
+            "prevention_measure": "Prevention measure" if is_en else "Mesure de prevention",
+            "sst_rule": "SONASID SST rule" if is_en else "Regle SST SONASID",
+            "non_confirmable": "Not confirmable from this photograph" if is_en else "Non confirmable sur cette photographie",
             "no_precise": "No directly observable danger was detected in the photo; keep standard vigilance and confirm on site if needed." if is_en else "Aucun danger directement observable n a ete detecte sur la photo; maintenir la vigilance standard et confirmer sur terrain si besoin.",
             "default_risk": "No direct danger observed" if is_en else "Aucun danger direct observe",
             "default_action": "Secure the area and confirm the analysis with the HSE supervisor." if is_en else "Securiser la zone et confirmer l'analyse avec le responsable HSE.",
@@ -465,11 +513,16 @@ class VisionRiskAgent:
         }
         risk_lines = []
         for item in result.get("risk_items", [])[:12]:
-            risk_lines.append(
-                "- "
-                f"{item.get('risk', 'Risque')}: {item.get('description', '')} "
-                f"{labels['consequences']}: {item.get('possible_consequences', '')} "
-                f"{labels['risk_level']}: {VisionRiskAgent._level_label_latin(item.get('severity', 'MEDIUM'), language)}."
+            risk_lines.extend(
+                [
+                    f"- {item.get('risk', 'Risque')}",
+                    f"  {labels['observation']}: {item.get('observation') or item.get('description') or labels['non_confirmable']}",
+                    f"  {labels['cause']}: {item.get('cause') or labels['non_confirmable']}",
+                    f"  {labels['consequences']}: {item.get('possible_consequences') or labels['non_confirmable']}",
+                    f"  {labels['risk_level']}: {VisionRiskAgent._level_label_latin(item.get('severity', 'MEDIUM'), language)}",
+                    f"  {labels['prevention_measure']}: {item.get('prevention_measure') or result.get('recommended_action') or labels['default_action']}",
+                    f"  {labels['sst_rule']}: {item.get('sst_rule') or labels['non_confirmable']}",
+                ]
             )
         if not risk_lines:
             risk_lines.append("- " + labels["no_precise"])
@@ -516,11 +569,16 @@ class VisionRiskAgent:
 
         risk_lines = []
         for item in result.get("risk_items", [])[:12]:
-            risk_lines.append(
-                "- "
-                f"{VisionRiskAgent._arabic_or_note(item.get('risk', "\u062e\u0637\u0631"))}: {VisionRiskAgent._arabic_or_note(item.get('description', ''))} "
-                f"\u0627\u0644\u0639\u0648\u0627\u0642\u0628 \u0627\u0644\u0645\u062d\u062a\u0645\u0644\u0629: {VisionRiskAgent._arabic_or_note(item.get('possible_consequences', ''))} "
-                f"\u0627\u0644\u0645\u0633\u062a\u0648\u0649: {VisionRiskAgent._level_label(item.get('severity', 'MEDIUM'))}."
+            risk_lines.extend(
+                [
+                    f"- {VisionRiskAgent._arabic_or_note(item.get('risk', '\u062e\u0637\u0631'))}",
+                    f"  \u0627\u0644\u0645\u0644\u0627\u062d\u0638\u0629: {VisionRiskAgent._arabic_or_note(item.get('observation') or item.get('description'))}",
+                    f"  \u0627\u0644\u0633\u0628\u0628: {VisionRiskAgent._arabic_or_note(item.get('cause'))}",
+                    f"  \u0627\u0644\u0639\u0648\u0627\u0642\u0628 \u0627\u0644\u0645\u062d\u062a\u0645\u0644\u0629: {VisionRiskAgent._arabic_or_note(item.get('possible_consequences'))}",
+                    f"  \u0627\u0644\u062e\u0637\u0648\u0631\u0629: {VisionRiskAgent._level_label(item.get('severity', 'MEDIUM'))}",
+                    f"  \u0625\u062c\u0631\u0627\u0621 \u0627\u0644\u0648\u0642\u0627\u064a\u0629: {VisionRiskAgent._arabic_or_note(item.get('prevention_measure') or result.get('recommended_action'))}",
+                    f"  \u0642\u0627\u0639\u062f\u0629 SST SONASID: {VisionRiskAgent._arabic_or_note(item.get('sst_rule'))}",
+                ]
             )
         if not risk_lines:
             risk_lines.append("- " + "\u0644\u0645 \u064a\u062a\u0645 \u0631\u0635\u062f \u062e\u0637\u0631 \u0645\u0628\u0627\u0634\u0631 \u0628\u0634\u0643\u0644 \u0648\u0627\u0636\u062d \u0639\u0644\u0649 \u0627\u0644\u0635\u0648\u0631\u0629\u061b \u064a\u062c\u0628 \u0627\u0644\u062d\u0641\u0627\u0638 \u0639\u0644\u0649 \u0627\u0644\u064a\u0642\u0638\u0629 \u0648\u0627\u0644\u062a\u0623\u0643\u064a\u062f \u0645\u064a\u062f\u0627\u0646\u064a\u0627 \u0639\u0646\u062f \u0627\u0644\u062d\u0627\u062c\u0629.")
