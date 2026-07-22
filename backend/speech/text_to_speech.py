@@ -12,13 +12,35 @@ class TextToSpeechAdapter:
 
     @staticmethod
     def is_darija(text: str) -> bool:
-        return TextToSpeechAdapter.contains_arabic(text) or bool(
+        if TextToSpeechAdapter.contains_arabic(text):
+            return False
+        return bool(
             re.search(
                 r"\b(salam|salem|wach|wash|kayn|kayna|bghit|baghi|khatar|daba|dyal|dial|chno|chnou|fin|fayn|hadchi|afak|safi|wakha)\b",
                 text or "",
                 re.IGNORECASE,
             )
         )
+
+    @staticmethod
+    def is_arabic_text(text: str) -> bool:
+        return TextToSpeechAdapter.contains_arabic(text)
+
+    @staticmethod
+    def apply_brand_pronunciation(text: str, lang: str | None = None) -> str:
+        value = text or ""
+        if TextToSpeechAdapter.contains_arabic(value) or (lang or "").lower().startswith("ar"):
+            value = value.replace("AMANE AI", "\u0623\u0645\u0627\u0646")
+            value = value.replace("AMANE", "\u0623\u0645\u0627\u0646")
+            value = value.replace("HSE", "\u0625\u062a\u0634 \u0625\u0633 \u0625\u064a")
+            value = value.replace("SONASID", "\u0633\u0648\u0646\u0627\u0633\u064a\u062f")
+            return value
+        value = value.replace("AMANE AI", "A-mane")
+        value = value.replace("AMANE", "A-mane")
+        value = re.sub(r"\bAmane\b", "A-mane", value)
+        value = value.replace("HSE", "H S E")
+        value = value.replace("SONASID", "Sonasid")
+        return value
 
     @staticmethod
     def arabic_to_french_phonetics(text: str) -> str:
@@ -70,22 +92,69 @@ class TextToSpeechAdapter:
         phonetic = phonetic.replace("3", "aa").replace("9", "k").replace("7", "h")
         return " ".join(phonetic.split())
 
-    def prepare_speech_text(self, text: str) -> str:
+
+    @staticmethod
+    def latin_darija_to_arabic_script(text: str) -> str:
+        """Render common Latin Darija as Arabic script so TTS uses a Moroccan Arabic voice."""
+        value = f" {text or ''} "
+        value = re.sub(r"\b3", "a", value, flags=re.IGNORECASE)
+        value = re.sub(r"\b9", "k", value, flags=re.IGNORECASE)
+        value = re.sub(r"\b7", "h", value, flags=re.IGNORECASE)
+
+        phrases = [
+            ("Salam, ana AMANE", "\u0633\u0644\u0627\u0645\u060c \u0623\u0646\u0627 AMANE"),
+            ("Ana AMANE", "\u0623\u0646\u0627 AMANE"),
+            ("l assistant vocal dyal HSE", "\u0627\u0644\u0645\u0633\u0627\u0639\u062f \u0627\u0644\u0635\u0648\u062a\u064a \u062f\u064a\u0627\u0644 HSE"),
+            ("Ila bghiti tsajli chi khatar oula anomalie", "\u0625\u0644\u0627 \u0628\u063a\u064a\u062a\u064a \u062a\u0633\u062c\u0644\u064a \u0634\u064a \u062e\u0637\u0631 \u0648\u0644\u0627 \u0623\u0646\u0648\u0645\u0627\u0644\u064a"),
+            ("goul lia chnou oukaa", "\u0642\u0648\u0644 \u0644\u064a\u0627 \u0634\u0646\u0648 \u0648\u0642\u0639"),
+            ("Afak chraah lia b tafsil chnou oukaa", "\u0639\u0627\u0641\u0627\u0643 \u0634\u0631\u062d \u0644\u064a\u0627 \u0628\u0627\u0644\u062a\u0641\u0635\u064a\u0644 \u0634\u0646\u0648 \u0648\u0642\u0639"),
+            ("Wach kayne chi khatar daba", "\u0648\u0627\u0634 \u0643\u0627\u064a\u0646 \u0634\u064a \u062e\u0637\u0631 \u062f\u0627\u0628\u0627"),
+            ("aalik oula aala nass li maak", "\u0639\u0644\u064a\u0643 \u0648\u0644\u0627 \u0639\u0644\u0649 \u0627\u0644\u0646\u0627\u0633 \u0644\u064a \u0645\u0639\u0627\u0643"),
+            ("Wach hadchi fiil khatir oula wadiya khatira", "\u0648\u0627\u0634 \u0647\u0627\u062f\u0634\u064a \u0641\u0639\u0644 \u062e\u0637\u064a\u0631 \u0648\u0644\u0627 \u0648\u0636\u0639\u064a\u0629 \u062e\u0637\u064a\u0631\u0629"),
+            ("Fach oukaa had lhadath", "\u0641\u0627\u0634 \u0648\u0642\u0639 \u0647\u0627\u062f \u0627\u0644\u062d\u0627\u062f\u062b"),
+            ("Aatini tarikh ou l waqt", "\u0639\u0637\u064a\u0646\u064a \u0627\u0644\u062a\u0627\u0631\u064a\u062e \u0648\u0627\u0644\u0648\u0642\u062a"),
+            ("Fin oukaa hadchi", "\u0641\u064a\u0646 \u0648\u0642\u0639 \u0647\u0627\u062f\u0634\u064a"),
+            ("Aatini site, atelier, ou zone b dabt", "\u0639\u0637\u064a\u0646\u064a \u0627\u0644\u0645\u0648\u0642\u0639\u060c \u0627\u0644\u0623\u062a\u0644\u064a\u064a\u060c \u0623\u0648 \u0627\u0644\u0632\u0648\u0646 \u0628\u0627\u0644\u0636\u0628\u0637"),
+            ("Chnou smitak", "\u0634\u0646\u0648 \u0633\u0645\u064a\u062a\u0643"),
+            ("Chnou smitak oula matricule dyalek", "\u0634\u0646\u0648 \u0633\u0645\u064a\u062a\u0643 \u0648\u0644\u0627 \u0627\u0644\u0645\u0627\u062a\u0631\u064a\u0643\u0648\u0644 \u062f\u064a\u0627\u0644\u0643"),
+            ("Chnou l action li derto daba bach tseddo l khatar", "\u0634\u0646\u0648 \u0627\u0644\u0625\u062c\u0631\u0627\u0621 \u0644\u064a \u062f\u0631\u062a\u0648 \u062f\u0627\u0628\u0627 \u0628\u0627\u0634 \u062a\u0633\u062f\u0648 \u0627\u0644\u062e\u0637\u0631"),
+            ("Chnou l khatar li momkin youkaa mn baad ila bqat had l wadiya", "\u0634\u0646\u0648 \u0627\u0644\u062e\u0637\u0631 \u0644\u064a \u0645\u0645\u0643\u0646 \u064a\u0648\u0642\u0639 \u0645\u0646 \u0628\u0639\u062f \u0625\u0644\u0627 \u0628\u0642\u0627\u062a \u0647\u0627\u062f \u0627\u0644\u0648\u0636\u0639\u064a\u0629"),
+            ("Jawbni b ah oula la", "\u062c\u0627\u0648\u0628\u0646\u064a \u0628 \u0622\u0647 \u0648\u0644\u0627 \u0644\u0627"),
+            ("Ma kayn mochkil", "\u0645\u0627 \u0643\u0627\u064a\u0646 \u0645\u0634\u0643\u0644"),
+            ("Hadchi kayban fih khatar", "\u0647\u0627\u062f\u0634\u064a \u0643\u0627\u064a\u0628\u0627\u0646 \u0641\u064a\u0647 \u062e\u0637\u0631"),
+            ("Afak ammen zone daba", "\u0639\u0627\u0641\u0627\u0643 \u0623\u0645\u0646 \u0627\u0644\u0632\u0648\u0646 \u062f\u0627\u0628\u0627"),
+            ("ayet l responsable ou service HSE", "\u0639\u064a\u0637 \u0644\u0644\u0645\u0633\u0624\u0648\u0644 \u0623\u0648 \u0633\u064a\u0631\u0641\u064a\u0633 HSE"),
+            ("Mnin tkon situation securisee, nkemlo", "\u0645\u0646\u064a\u0646 \u062a\u0643\u0648\u0646 \u0627\u0644\u0648\u0636\u0639\u064a\u0629 \u0645\u0624\u0645\u0646\u0629\u060c \u0646\u0643\u0645\u0644\u0648"),
+        ]
+        for source, target in phrases:
+            value = re.sub(re.escape(source), target, value, flags=re.IGNORECASE)
+
+        words = {
+            "salam": "\u0633\u0644\u0627\u0645", "ana": "\u0623\u0646\u0627", "afak": "\u0639\u0627\u0641\u0627\u0643", "aafak": "\u0639\u0627\u0641\u0627\u0643",
+            "wach": "\u0648\u0627\u0634", "wash": "\u0648\u0627\u0634", "kayne": "\u0643\u0627\u064a\u0646", "kayn": "\u0643\u0627\u064a\u0646", "kayna": "\u0643\u0627\u064a\u0646\u0629",
+            "chi": "\u0634\u064a", "khatar": "\u062e\u0637\u0631", "daba": "\u062f\u0627\u0628\u0627", "dyal": "\u062f\u064a\u0627\u0644", "dial": "\u062f\u064a\u0627\u0644",
+            "chnou": "\u0634\u0646\u0648", "chno": "\u0634\u0646\u0648", "fin": "\u0641\u064a\u0646", "fayn": "\u0641\u064a\u0646", "oukaa": "\u0648\u0642\u0639", "youkaa": "\u064a\u0648\u0642\u0639",
+            "hadchi": "\u0647\u0627\u062f\u0634\u064a", "had": "\u0647\u0627\u062f", "lhadath": "\u0627\u0644\u062d\u0627\u062f\u062b", "site": "\u0627\u0644\u0645\u0648\u0642\u0639",
+            "atelier": "\u0627\u0644\u0623\u062a\u0644\u064a\u064a", "zone": "\u0627\u0644\u0632\u0648\u0646", "smitak": "\u0633\u0645\u064a\u062a\u0643", "matricule": "\u0627\u0644\u0645\u0627\u062a\u0631\u064a\u0643\u0648\u0644",
+            "dyalek": "\u062f\u064a\u0627\u0644\u0643", "action": "\u0627\u0644\u0625\u062c\u0631\u0627\u0621", "derto": "\u062f\u0631\u062a\u0648", "bach": "\u0628\u0627\u0634", "tseddo": "\u062a\u0633\u062f\u0648",
+            "momkin": "\u0645\u0645\u0643\u0646", "baad": "\u0628\u0639\u062f", "ila": "\u0625\u0644\u0627", "bqat": "\u0628\u0642\u0627\u062a", "wadiya": "\u0648\u0636\u0639\u064a\u0629",
+            "khatira": "\u062e\u0637\u064a\u0631\u0629", "fiil": "\u0641\u0639\u0644", "ah": "\u0622\u0647", "la": "\u0644\u0627", "oula": "\u0648\u0644\u0627", "nass": "\u0627\u0644\u0646\u0627\u0633",
+            "maak": "\u0645\u0639\u0627\u0643", "hse": "HSE", "sonasid": "SONASID", "nador": "Nador", "amane": "AMANE",
+        }
+        for source, target in sorted(words.items(), key=lambda item: len(item[0]), reverse=True):
+            value = re.sub(rf"\b{re.escape(source)}\b", target, value, flags=re.IGNORECASE)
+        value = re.sub(r"\s+", " ", value).strip()
+        return TextToSpeechAdapter.apply_brand_pronunciation(value, "ar-MA")
+
+    def prepare_speech_text(self, text: str, lang: str | None = None) -> str:
         cleaned = (text or "").strip()
         if not cleaned:
             return cleaned
 
-        if self.contains_arabic(cleaned):
-            return self.arabic_to_french_phonetics(cleaned)
+        if self.is_darija(cleaned):
+            return self.latin_darija_to_arabic_script(cleaned)
 
-        replacements = {
-            "AMANE AI": "Amane",
-            "AMANE": "Amane",
-            "HSE": "H S E",
-            "SONASID": "Sonasid",
-        }
-        for source, target in replacements.items():
-            cleaned = cleaned.replace(source, target)
+        cleaned = self.apply_brand_pronunciation(cleaned, lang)
 
         cleaned = re.sub(r"\b3lik\b", "aalik", cleaned, flags=re.IGNORECASE)
         cleaned = re.sub(r"\b3la\b", "aala", cleaned, flags=re.IGNORECASE)

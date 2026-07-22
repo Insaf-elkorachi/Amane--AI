@@ -20,7 +20,7 @@ def speak(payload: TTSRequest) -> Response:
     if not settings.TTS_ENABLED or not llm_service.client:
         raise HTTPException(status_code=503, detail="TTS IA non disponible")
 
-    speech_text = text_to_speech_adapter.prepare_speech_text(payload.text)
+    speech_text = text_to_speech_adapter.prepare_speech_text(payload.text, payload.lang)
     if not speech_text:
         raise HTTPException(status_code=400, detail="Texte vocal vide")
 
@@ -31,14 +31,26 @@ def speak(payload: TTSRequest) -> Response:
             "input": speech_text,
             "response_format": "mp3",
         }
-        if text_to_speech_adapter.is_darija(payload.text):
+        if text_to_speech_adapter.is_arabic_text(payload.text):
             kwargs["instructions"] = (
-                "Le texte fourni est une translitteration phonetique francaise d'arabe/darija. "
-                "Lis-le exactement avec une prononciation francaise, jamais anglaise. "
-                "Regles: ou se prononce comme le son francais ou; ch comme dans chat; kh est un son guttural doux; gh est guttural; "
-                "a, i, e se lisent a la francaise; ne prononce jamais ou comme ao ou ow. "
-                "Prononce Amane court et clair, Sonasid clairement, Nador clairement, H S E lettre par lettre. "
-                "Ne traduis pas, ne reformule pas, lis seulement le texte avec accent francais marocain naturel."
+                "Lis le texte en arabe clair et naturel. "
+                "Ne melange pas avec la darija ni avec le francais, sauf les sigles et noms officiels. "
+                "Prononce \u0623\u0645\u0627\u0646 comme un nom court, sans r final. "
+                "Prononce \u0625\u062a\u0634 \u0625\u0633 \u0625\u064a lettre par lettre. Ne traduis pas et ne reformule pas."
+            )
+        elif text_to_speech_adapter.is_darija(payload.text):
+            kwargs["instructions"] = (
+                "Le texte fourni est une version vocale en darija marocaine. "
+                "Lis-le avec une prononciation marocaine naturelle, comme de l'arabe marocain, pas comme du francais. "
+                "Prononce \u0623\u0645\u0627\u0646 comme un nom court, sans r final. "
+                "Prononce \u0625\u062a\u0634 \u0625\u0633 \u0625\u064a lettre par lettre. Ne traduis pas et ne reformule pas."
+            )
+        else:
+            kwargs["instructions"] = (
+                "Lis le texte en francais clair et professionnel. "
+                "Prononce A-mane en deux syllabes, sans r final. "
+                "Prononce Sonasid clairement, Nador clairement, H S E lettre par lettre. "
+                "Ne prends pas d'accent anglais et ne reformule pas."
             )
 
         audio = llm_service.client.audio.speech.create(**kwargs)
