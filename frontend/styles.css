@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   color-scheme: light;
   --ink: #2f3337;
   --muted: #6f7479;
@@ -958,4 +958,49 @@ h1 {
 .camera-button:hover,
 .photo-button:hover {
   transform: translateY(-1px);
+}
+
+.keyboard-button {
+  border-color: rgba(245, 130, 32, 0.32);
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--brand-dark);
+}
+
+.keyboard-button:hover {
+  border-color: var(--brand);
+  color: var(--brand);
+  transform: translateY(-1px);
+}
+
+.inline-keyboard-form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.inline-keyboard-form input {
+  min-width: 0;
+  min-height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0 12px;
+  background: rgba(255, 255, 255, 0.86);
+  color: var(--ink);
+  outline: none;
+}
+
+.inline-keyboard-form input:focus {
+  border-color: var(--brand);
+  box-shadow: 0 0 0 3px rgba(245, 130, 32, 0.12);
+}
+
+.inline-keyboard-form .send-button {
+  min-width: 92px;
+}
+
+@media (max-width: 520px) {
+  .inline-keyboard-form {
+    grid-template-columns: 1fr;
+  }
 }

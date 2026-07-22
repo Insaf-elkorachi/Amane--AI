@@ -1,4 +1,4 @@
-import base64
+﻿import base64
 import json
 import re
 import unicodedata
@@ -42,7 +42,7 @@ class VisionRiskAgent:
         context = rag_service.format_context(
             rag_service.retrieve(
                 "analyse photo HSE chantier excavation engins charge suspendue EPI balisage circulation pietons consignation SONASID Nador",
-                top_k=8,
+                top_k=4,
             )
         )
         system_prompt = (
@@ -51,6 +51,7 @@ class VisionRiskAgent:
             + self._language_instruction(language)
             + "Analyse UNIQUEMENT les elements visibles sur la photographie. Ne jamais inventer un risque. Applique toujours la logique inspection HSE en cinq etapes: Observer les faits visibles, Deduire les risques uniquement depuis ces faits, Qualifier le niveau de gravite, Prevenir avec des mesures operationnelles, Verifier avec une question ciblee. "
             "Ne jamais supposer qu un EPI est absent. Ne jamais supposer qu un harnais, un blindage, une consignation ou un dispositif de securite est absent s il n est pas clairement visible. "
+            "Rigueur redactionnelle supplementaire: separe toujours observation, interpretation et incertitude. Les observations decrivent uniquement ce qui est visible, sans consequence ni jugement. Les risques sont formules comme des consequences possibles. Les causes et mesures tiennent compte des incertitudes lorsque la photo ne permet pas de conclure avec certitude. Ne commente pas les EPI lorsqu aucun operateur, intervenant ou partie du corps n est visible. Ne conclus pas qu un element saillant, une piece depassante ou une arete constitue un defaut sans contexte d exposition, de circulation, de contact possible ou de non-conformite visible. Lorsque la photo ne permet pas de conclure avec certitude, privilegie des formulations conditionnelles comme pourrait, semble, parait, a confirmer, lorsque cela est necessaire. "
             "Lorsque l image ne permet pas de conclure, ecris clairement: Non confirmable sur cette photographie, ou Aucun element visible ne permet de confirmer. Ajoute une liste observations contenant uniquement des constats factuels visibles, sans interpretation de risque. Chaque risque dans risk_items doit pouvoir etre relie a au moins une observation visible. "
             "Toujours privilegier les faits observables. Ne transforme jamais une hypothese en fait. Distinction critique: la presence visible d une machine protegee, d une voie de circulation, d un equipement, d un stockage ou d une zone de travail ne constitue pas un risque observe si aucun danger direct n est visible. La liste risk_items/Risques observes est reservee uniquement aux dangers directement perceptibles sur la photo. Les risques theoriques, potentiels ou non confirmables doivent etre mentionnes prudemment dans scene_summary, global_risk_reason ou questions, mais pas comme risques observes. "
             "Analyse systematiquement ces categories meme si certains elements sont non confirmables: "
@@ -69,9 +70,10 @@ class VisionRiskAgent:
             "Determiner le niveau global selon cette regle: CRITICAL si presence visible d un risque pouvant provoquer immediatement un accident mortel: charge suspendue, travail en hauteur non protege, metal en fusion, pont roulant, intervention electrique, espace confine, machine dangereuse, incendie important. HIGH si plusieurs risques importants combines. MEDIUM si risques maitrisables. LOW si aucun risque significatif visible. Toujours justifier le niveau. "
             "Ne jamais ecrire absence de casque, absence de harnais, absence de lunettes, absence de gants, absence de chaussures, absence de blindage, absence d extincteur ou absence de consignation si ce n est pas clairement visible. Preferer: Le port du casque ne peut pas etre confirme, ou Non confirmable sur cette photographie. "
             "Indice de confiance: 0.95 a 1.0 si tous les elements sont clairement visibles, 0.80 a 0.94 si quelques elements ne sont pas visibles, 0.60 a 0.79 si la photo est partiellement exploitable, moins de 0.60 si la photo est insuffisante. Ne retourne jamais 0 sauf si l image est inutilisable. Exemples de regles SST SONASID a associer seulement aux risques observes: N1 EPI, N2 Balisage, N3 Charge suspendue, N7 Conduite et engins, N8 Travaux en hauteur, N11 Elingage, N13 Manutention manuelle, N19 Circulation des engins, N20 Chargement/dechargement, N23 5S Site propre. Ne jamais utiliser N3 Charge suspendue si aucune charge suspendue, crochet, elingue, pont roulant en levage ou personne sous charge n est visible. Pour les couronnes ou bobines posees au sol, ne pas ecrire chute de couronnes ni stabilite insuffisante comme certitude; preferer Stockage des couronnes au sol, Risque de deplacement ou de roulement lors de la manutention, et Aucun dispositif de calage ou de maintien n est clairement visible sur la partie photographiee. Associer plutot N23 5S et/ou N13 Manutention si ces risques sont visibles. A la fin, les listes main_risks et prevention_measures doivent prioriser les 3 risques les plus critiques et les mesures associees. Pose UNE seule question pertinente permettant de lever une incertitude importante. Ne jamais poser une question dont la reponse est deja visible sur l image. Les mesures de prevention doivent etre specifiques, actionnables sur terrain, et adaptees au danger visible. Les regles related_sst_rules doivent etre choisies uniquement si elles correspondent directement a un risque observe; ne pas citer de regle SST pour une categorie seulement theorique. "
+            "Objectivite et priorisation: privilegie la precision plutot que l exhaustivite. Ne cherche jamais un nombre minimum de risques. Il vaut mieux un seul risque parfaitement justifie que plusieurs risques hypothetique. Avant d ajouter un risque, verifier: risque directement observable, preuve visuelle claire, observation et non supposition, autre interpretation possible. Si une reponse est non ou incertaine, ne pas ajouter ce risque. Limiter les risques: 1 risque si un seul est clairement identifie, 2 seulement s ils sont independants et visibles, 3 seulement si la scene est complexe. Ne cree jamais un risque supplementaire pour un marquage au sol, une machine ou un objet seul. "
             "Avant de repondre, effectue une double verification: 1 verifier que chaque risque est reellement visible; 2 verifier qu aucun risque majeur visible n a ete oublie. "
             "Retourne uniquement un JSON valide avec exactement ces cles: classification, confidence, observations, scene_summary, risk_items, main_risks, prevention_measures, global_risk_level, global_risk_reason, immediate_danger, recommended_action, questions, location_hints, related_sst_rules. "
-            "observations doit etre une liste de constats visibles neutres. risk_items doit etre une liste d objets avec: risk, observation, cause, description, possible_consequences, severity, prevention_measure, sst_rule. risk_items doit contenir seulement les dangers directement observes, jamais des risques theoriques ni des elements conformes/proteges. observation et description doivent citer le fait visible qui prouve le danger. cause doit rester prudente et basee sur l observation. possible_consequences doit decrire les consequences possibles. severity doit etre LOW, MEDIUM, HIGH ou CRITICAL. prevention_measure doit etre une action terrain specifique. sst_rule doit citer uniquement la regle SST SONASID directement liee au risque observe, sinon chaine vide. "
+            "observations doit etre une liste de constats visibles neutres, sans mots comme risque, danger, accident, chute, blessure, non-conformite ou mesure. risk_items doit etre une liste d objets avec: risk, observation, cause, description, possible_consequences, severity, prevention_measure, sst_rule. Dans risk_items, observation doit rester factuelle et visible; risk et possible_consequences doivent porter l interpretation et les consequences possibles; cause doit rester prudente; prevention_measure doit utiliser si necessaire, verifier, confirmer ou mettre en place lorsque cela est applicable si l image est incertaine. risk_items doit contenir seulement les dangers directement observes, jamais des risques theoriques ni des elements conformes/proteges. observation et description doivent citer le fait visible qui soutient l analyse. severity doit etre LOW, MEDIUM, HIGH ou CRITICAL. sst_rule doit citer uniquement la regle SST SONASID directement liee au risque observe, sinon chaine vide. "
             "main_risks, prevention_measures, questions, location_hints et related_sst_rules doivent etre des listes de textes dans la langue demandee. questions doit contenir une seule question. "
             "Interdiction de remplir les listes avec des phrases vagues ou repetees. Chaque risque doit etre specifique et base sur un indice visuel."
         )
@@ -81,7 +83,8 @@ class VisionRiskAgent:
             "Analyse cette photo HSE selon la methode AMANE stricte: uniquement les faits visibles, aucune hypothese transformee en fait, chaque risque doit etre observable. Ne confonds pas un risque theorique avec un risque observe: une machine visible, une voie de circulation visible ou un equipement protege ne suffit pas. Il faut un danger direct clairement perceptible pour remplir Risques observes. Commence par produire observations: une liste de faits visibles neutres, puis deduis les risques observes a partir de ces observations. "
             "Balaye toutes les categories: EPI, hauteur, levage, circulation, machines, electricite, incendie, manutention, sol/environnement, produits. "
             "Si une categorie ne peut pas etre conclue, utilise une formule non confirmable. Le contenu lisible par l utilisateur doit respecter la langue demandee. "
-            "Retourne une analyse precise, non repetitive, avec une seule question finale utile."
+            "Ne parle des EPI que si une personne est visible. Pour les elements saillants, reste factuel et conditionnel sauf danger direct visible. Separe strictement: observation visible, risque possible, cause prudente, mesure conditionnelle. "
+            "Retourne une analyse courte, precise, non repetitive, avec une seule question finale utile. Ne retiens que les risques significatifs et parfaitement justifies. "
         )
 
         errors: list[str] = []
@@ -104,13 +107,14 @@ class VisionRiskAgent:
                                     "type": "image_url",
                                     "image_url": {
                                         "url": f"data:{mime};base64,{encoded}",
-                                        "detail": "high",
+                                        "detail": "low",
                                     },
                                 },
                             ],
                         },
                     ],
                     temperature=0.05,
+                    max_tokens=1400,
                     response_format={"type": "json_object"},
                 )
                 content = response.choices[0].message.content or "{}"
@@ -189,6 +193,61 @@ class VisionRiskAgent:
 
 
     @classmethod
+    def _normalize_observation_text(cls, text: str) -> str:
+        value = cls._apply_editorial_rigor(cls._normalize_coil_handling_claims(str(text or "")))
+        value = re.sub(r"\b(risque|danger)\s+(de|d[' ]?)\s+", "", value, flags=re.IGNORECASE)
+        value = re.sub(r"\b(peut|pourrait|risque de|susceptible de)\s+[^.;,]+", "", value, flags=re.IGNORECASE)
+        value = re.sub(r"\b(non[- ]?conformite|defaut|accident|blessure|consequence|mesure|prevention)\b.*", "", value, flags=re.IGNORECASE)
+        value = re.sub(r"\b(chute|collision|ecrasement|brulure|glissade|coupure)\b", "element a verifier", value, flags=re.IGNORECASE)
+        value = re.sub(r"\s+(et|ou|avec|pour)\s*$", "", value, flags=re.IGNORECASE)
+        value = re.sub(r"\s+[,.;:]\s*$", "", value).strip()
+        return " ".join(value.split()) or "Observation visible a confirmer."
+
+    @classmethod
+    def _apply_editorial_rigor(cls, text: str) -> str:
+        value = str(text or "")
+        replacements = [
+            (r"\b(element|objet|piece|arete)\s+saillant(e)?\s+(constitue|represente|est)\s+(un\s+)?(defaut|non-conformite)\b", r"\1 saillant\2 pourrait constituer un point a verifier selon le contexte"),
+            (r"\belement\s+saillant\s+dangereux\b", "element saillant potentiellement dangereux si une exposition au contact est confirmee"),
+            (r"\barete\s+saillante\s+dangereuse\b", "arete saillante potentiellement dangereuse si une exposition au contact est confirmee"),
+            (r"\b(absence|manque|sans)\s+(de\s+)?(casque|gants|lunettes|chaussures|harnais|gilet|epi)\b", "EPI non confirmable sur cette photographie"),
+            (r"\bdoit\s+etre\s+(retire|corrige|remplace|supprime)\b", "devrait etre verifie puis traite si necessaire"),
+        ]
+        for pattern, replacement in replacements:
+            value = re.sub(pattern, replacement, value, flags=re.IGNORECASE)
+        uncertainty_markers = [
+            "non confirmable", "a confirmer", "ne peut pas etre confirme", "semble", "pourrait", "peut constituer",
+        ]
+        normalized = cls._strip_accents(value.lower())
+        if any(marker in normalized for marker in uncertainty_markers):
+            value = re.sub(r"\best\s+(un\s+)?danger\b", "pourrait constituer un danger", value, flags=re.IGNORECASE)
+            value = re.sub(r"\bconstitue\s+(un\s+)?danger\b", "pourrait constituer un danger", value, flags=re.IGNORECASE)
+            value = re.sub(r"\bnecessite\s+une\s+action\s+immediate\b", "peut necessiter une action apres confirmation terrain", value, flags=re.IGNORECASE)
+        return " ".join(value.split())
+
+    @classmethod
+    def _has_visible_person_context(cls, result: dict[str, Any]) -> bool:
+        texts: list[str] = []
+        for key in ["scene_summary", "global_risk_reason", "recommended_action"]:
+            texts.append(str(result.get(key) or ""))
+        texts.extend(str(item) for item in cls._as_list(result.get("observations")))
+        for item in cls._as_list(result.get("risk_items")):
+            if isinstance(item, dict):
+                texts.extend(str(item.get(key) or "") for key in ["risk", "observation", "description", "cause"])
+        combined = cls._strip_accents(" ".join(texts).lower())
+        person_markers = {
+            "personne", "personnes", "operateur", "operateurs", "intervenant", "intervenants", "ouvrier", "ouvriers",
+            "salarie", "travailleur", "travailleurs", "agent", "agents", "pieton", "pietons", "worker", "workers",
+            "main visible", "bras visible", "visage", "corps", "silhouette", "personnel visible",
+        }
+        return any(marker in combined for marker in person_markers)
+
+    @classmethod
+    def _is_epi_comment(cls, text: str) -> bool:
+        combined = cls._strip_accents(str(text or "").lower())
+        return any(term in combined for term in ["epi", "casque", "lunettes", "gants", "chaussures", "harnais", "gilet", "protection auditive", "protection respiratoire"])
+
+    @classmethod
     def _normalize_coil_handling_claims(cls, text: str) -> str:
         value = cls._soften_visual_overclaims(str(text or ""))
         lowered = cls._strip_accents(value.lower())
@@ -247,6 +306,60 @@ class VisionRiskAgent:
 
 
     @classmethod
+    def _risk_sort_key(cls, item: dict[str, str]) -> tuple[int, int]:
+        severity_rank = {"CRITICAL": 4, "HIGH": 3, "MEDIUM": 2, "LOW": 1}
+        severity = severity_rank.get(str(item.get("severity") or "MEDIUM").upper(), 2)
+        evidence = len(str(item.get("observation") or "")) + len(str(item.get("description") or ""))
+        return (severity, evidence)
+
+    @classmethod
+    def _has_clear_visual_evidence(cls, item: dict[str, str]) -> bool:
+        observation = cls._strip_accents(str(item.get("observation") or item.get("description") or "").lower())
+        risk = cls._strip_accents(str(item.get("risk") or "").lower())
+        if len(observation) < 18:
+            return False
+        weak_observations = {
+            "observation visible a confirmer", "a confirmer sur terrain", "aucun fait visible detaille n a ete fourni",
+            "localisation a confirmer", "zone visible", "equipement visible", "machine visible", "objet visible",
+        }
+        if observation in weak_observations:
+            return False
+        unsupported_risk_markers = [
+            "frequent", "typique", "possible sans preuve", "theorique", "hypothese", "a confirmer", "non confirmable",
+        ]
+        if any(marker in risk for marker in unsupported_risk_markers):
+            return False
+        object_only_markers = [
+            "marquage au sol visible", "machine visible", "objet visible", "equipement visible", "voie visible", "zone visible",
+        ]
+        if observation in object_only_markers:
+            return False
+        if any(marker in observation for marker in ["marquage au sol", "machine visible", "objet visible", "equipement visible"]):
+            exposure_terms = ["obstacle", "fuite", "cable", "personne", "operateur", "pieton", "proximite", "contact", "bloque", "encombre", "passage reduit"]
+            if not any(term in observation for term in exposure_terms):
+                return False
+        evidence_terms = [
+            "au sol", "flaque", "obstacle", "encombre", "cable", "personne", "operateur", "pieton", "charge suspendue",
+            "crochet", "elingue", "ouverture", "bord", "hauteur", "fuite", "flamme", "fumee", "organe", "mobile",
+            "couronne", "bobine", "stockage", "passage", "voie", "zone", "proximite", "contact", "saillant",
+        ]
+        return any(term in observation for term in evidence_terms)
+
+    @classmethod
+    def _limit_significant_risks(cls, items: list[dict[str, str]]) -> list[dict[str, str]]:
+        filtered = [item for item in items if cls._has_clear_visual_evidence(item)]
+        unique: list[dict[str, str]] = []
+        seen: set[str] = set()
+        for item in sorted(filtered, key=cls._risk_sort_key, reverse=True):
+            key = cls._strip_accents(str(item.get("risk") or "").lower())
+            key = re.sub(r"\b(possible|potentiel|potentiellement|risque de|risque d)\b", "", key).strip()
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            unique.append(item)
+        return unique[:3]
+
+    @classmethod
     def _normalize_result(cls, result: dict[str, Any]) -> dict[str, Any]:
         classification = str(result.get("classification") or "A confirmer").strip()
         lowered = classification.lower()
@@ -274,11 +387,11 @@ class VisionRiskAgent:
             result["confidence"] = max(0.0, min(1.0, float(result.get("confidence") or 0.0)))
         except (TypeError, ValueError):
             result["confidence"] = 0.35
-        result["observations"] = [cls._normalize_coil_handling_claims(str(item)) for item in cls._as_list(result.get("observations")) if str(item).strip()]
+        result["observations"] = [cls._normalize_observation_text(str(item)) for item in cls._as_list(result.get("observations")) if str(item).strip()]
         result["immediate_danger"] = bool(result.get("immediate_danger"))
-        result["risk_items"] = cls._normalize_risk_items(result.get("risk_items"))
+        result["risk_items"] = cls._limit_significant_risks(cls._normalize_risk_items(result.get("risk_items")))
         for key in ["main_risks", "prevention_measures", "questions", "location_hints", "related_sst_rules"]:
-            result[key] = [cls._normalize_coil_handling_claims(str(item)) for item in cls._as_list(result.get(key)) if str(item).strip()]
+            result[key] = [cls._apply_editorial_rigor(cls._normalize_coil_handling_claims(str(item))) for item in cls._as_list(result.get(key)) if str(item).strip()]
         if not result["observations"] and result["risk_items"]:
             result["observations"] = [item["observation"] for item in result["risk_items"] if item.get("observation")]
         observed_rules: list[str] = []
@@ -304,6 +417,19 @@ class VisionRiskAgent:
             result["related_sst_rules"] = observed_rules
         elif result["risk_items"]:
             result["related_sst_rules"] = filtered_related_rules
+        if not cls._has_visible_person_context(result):
+            result["risk_items"] = [
+                item for item in result["risk_items"]
+                if not cls._is_epi_comment(" ".join(str(item.get(key) or "") for key in ["risk", "observation", "description", "cause", "prevention_measure"]))
+            ]
+            result["observations"] = [item for item in result["observations"] if not cls._is_epi_comment(item)]
+            for key in ["main_risks", "prevention_measures", "related_sst_rules"]:
+                result[key] = [item for item in result.get(key, []) if not cls._is_epi_comment(item)]
+        result["risk_items"] = cls._limit_significant_risks(result["risk_items"])
+        observed_risk_names = {cls._strip_accents(str(item.get("risk") or "").lower()) for item in result["risk_items"]}
+        if observed_risk_names:
+            result["main_risks"] = [item.get("risk") for item in result["risk_items"] if item.get("risk")]
+            result["prevention_measures"] = [item.get("prevention_measure") for item in result["risk_items"] if item.get("prevention_measure")]
         if result["risk_items"] and not result["main_risks"]:
             result["main_risks"] = [item["risk"] for item in result["risk_items"] if item.get("risk")][:5]
         if result["risk_items"] and not result["prevention_measures"]:
@@ -326,12 +452,12 @@ class VisionRiskAgent:
                 result["global_risk_level"] = next(level for level, rank in severity_order.items() if rank == max_observed_severity)
         level = str(result.get("global_risk_level") or "MEDIUM").upper()
         result["global_risk_level"] = level if level in {"LOW", "MEDIUM", "HIGH", "CRITICAL"} else "MEDIUM"
-        result["scene_summary"] = cls._normalize_coil_handling_claims(str(result.get("scene_summary") or result.get("description") or "Analyse photo HSE."))
+        result["scene_summary"] = cls._apply_editorial_rigor(cls._normalize_coil_handling_claims(str(result.get("scene_summary") or result.get("description") or "Analyse photo HSE.")))
         if result["confidence"] <= 0.0 and (result["observations"] or result["risk_items"] or result["scene_summary"]):
             result["confidence"] = 0.35
         result["description"] = result["scene_summary"]
-        result["recommended_action"] = cls._normalize_coil_handling_claims(str(result.get("recommended_action") or "Securiser la zone et confirmer l'analyse avec le responsable HSE."))
-        result["global_risk_reason"] = cls._normalize_coil_handling_claims(str(result.get("global_risk_reason") or "Niveau etabli selon les risques visibles sur la photo."))
+        result["recommended_action"] = cls._apply_editorial_rigor(cls._normalize_coil_handling_claims(str(result.get("recommended_action") or "Securiser la zone et confirmer l'analyse avec le responsable HSE.")))
+        result["global_risk_reason"] = cls._apply_editorial_rigor(cls._normalize_coil_handling_claims(str(result.get("global_risk_reason") or "Niveau etabli selon les risques visibles sur la photo.")))
         return result
 
     @classmethod
@@ -439,12 +565,12 @@ class VisionRiskAgent:
             "risque theorique",
             "risque potentiel",
             "hypothese",
-            "غير قابل للتأكيد",
-            "لا يمكن تأكيد",
-            "يحتاج إلى تأكيد",
-            "غير مؤكد",
-            "لا يوجد عنصر مرئي",
-            "لا توجد عناصر مرئية",
+            "ØºÙŠØ± Ù‚Ø§Ø¨Ù„ Ù„Ù„ØªØ£ÙƒÙŠØ¯",
+            "Ù„Ø§ ÙŠÙ…ÙƒÙ† ØªØ£ÙƒÙŠØ¯",
+            "ÙŠØ­ØªØ§Ø¬ Ø¥Ù„Ù‰ ØªØ£ÙƒÙŠØ¯",
+            "ØºÙŠØ± Ù…Ø¤ÙƒØ¯",
+            "Ù„Ø§ ÙŠÙˆØ¬Ø¯ Ø¹Ù†ØµØ± Ù…Ø±Ø¦ÙŠ",
+            "Ù„Ø§ ØªÙˆØ¬Ø¯ Ø¹Ù†Ø§ØµØ± Ù…Ø±Ø¦ÙŠØ©",
         }
         if any(marker in combined for marker in non_observed_markers):
             return False
@@ -479,15 +605,15 @@ class VisionRiskAgent:
                 )
                 normalized.append(
                     {
-                        "risk": cls._normalize_coil_handling_claims(str(item.get("risk") or "Risque observe")),
-                        "observation": observation,
-                        "description": observation,
-                        "cause": cause,
-                        "possible_consequences": cls._normalize_coil_handling_claims(
+                        "risk": cls._apply_editorial_rigor(cls._normalize_coil_handling_claims(str(item.get("risk") or "Risque observe"))),
+                        "observation": cls._normalize_observation_text(observation),
+                        "description": cls._normalize_observation_text(observation),
+                        "cause": cls._apply_editorial_rigor(cause),
+                        "possible_consequences": cls._apply_editorial_rigor(cls._normalize_coil_handling_claims(
                             str(item.get("possible_consequences") or item.get("consequences") or "Accident potentiel.")
-                        ),
+                        )),
                         "severity": severity if severity in {"LOW", "MEDIUM", "HIGH", "CRITICAL"} else "MEDIUM",
-                        "prevention_measure": prevention_measure,
+                        "prevention_measure": cls._apply_editorial_rigor(prevention_measure),
                         "sst_rule": sst_rule,
                     }
                 )
@@ -711,3 +837,5 @@ class VisionRiskAgent:
 
 
 vision_risk_agent = VisionRiskAgent()
+
+

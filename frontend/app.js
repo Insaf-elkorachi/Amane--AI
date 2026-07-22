@@ -1,4 +1,4 @@
-const messagesEl = document.querySelector("#messages");
+﻿const messagesEl = document.querySelector("#messages");
 const chatForm = document.querySelector("#chatForm");
 const messageInput = document.querySelector("#messageInput");
 const dataList = document.querySelector("#dataList");
@@ -17,6 +17,7 @@ const micButton = document.querySelector("#micButton");
 const repeatButton = document.querySelector("#repeatButton");
 const galleryPhotoButton = document.querySelector("#galleryPhotoButton");
 const cameraPhotoButton = document.querySelector("#cameraPhotoButton");
+
 const photoInput = document.querySelector("#photoInput");
 const cameraInput = document.querySelector("#cameraInput");
 const analysisLanguageSelect = document.querySelector("#analysisLanguageSelect");
@@ -101,7 +102,7 @@ const SPEECH_SETTLE_DELAY_MS = 3000;
 let speechVoices = [];
 let speechUnlocked = false;
 let activeTtsAudio = null;
-const introText = "Bonjour. Je suis AMANE, votre assistant vocal HSE. Parlez naturellement pour déclarer une situation HSE.";
+const introText = "Bonjour. Je suis AMANE, votre assistant vocal HSE. Parlez naturellement pour dÃ©clarer une situation HSE.";
 let lastAssistantText = introText;
 
 function createSessionId() {
@@ -109,24 +110,48 @@ function createSessionId() {
 }
 
 function cleanDisplayText(text) {
-  return String(text ?? "")
-    .replace(/Ã©/g, "é")
-    .replace(/Ã¨/g, "è")
-    .replace(/Ãª/g, "ê")
-    .replace(/Ã«/g, "ë")
-    .replace(/Ã /g, "à")
-    .replace(/Ã¢/g, "â")
-    .replace(/Ã®/g, "î")
-    .replace(/Ã¯/g, "ï")
-    .replace(/Ã´/g, "ô")
-    .replace(/Ã¹/g, "ù")
-    .replace(/Ã»/g, "û")
-    .replace(/Ã§/g, "ç")
-    .replace(/Ã‰/g, "É")
-    .replace(/Ã€/g, "À")
-    .replace(/â€™/g, "'")
-    .replace(/Â·/g, "·")
-    .replace(/Â/g, "");
+  let value = String(text ?? "");
+  const replacements = [
+    ["\u00C3\u0192\u00C2\u00A9", "\u00E9"],
+    ["\u00C3\u0192\u00C2\u00A8", "\u00E8"],
+    ["\u00C3\u0192\u00C2\u00AA", "\u00EA"],
+    ["\u00C3\u0192\u00C2\u00AB", "\u00EB"],
+    ["\u00C3\u0192 ", "\u00E0"],
+    ["\u00C3\u0192\u00C2\u00A0", "\u00E0"],
+    ["\u00C3\u0192\u00C2\u00A2", "\u00E2"],
+    ["\u00C3\u0192\u00C2\u00AE", "\u00EE"],
+    ["\u00C3\u0192\u00C2\u00AF", "\u00EF"],
+    ["\u00C3\u0192\u00C2\u00B4", "\u00F4"],
+    ["\u00C3\u0192\u00C2\u00B9", "\u00F9"],
+    ["\u00C3\u0192\u00C2\u00BB", "\u00FB"],
+    ["\u00C3\u0192\u00C2\u00A7", "\u00E7"],
+    ["\u00C3\u00A9", "\u00E9"],
+    ["\u00C3\u00A8", "\u00E8"],
+    ["\u00C3\u00AA", "\u00EA"],
+    ["\u00C3\u00AB", "\u00EB"],
+    ["\u00C3 ", "\u00E0"],
+    ["\u00C3\u00A0", "\u00E0"],
+    ["\u00C3\u00A2", "\u00E2"],
+    ["\u00C3\u00AE", "\u00EE"],
+    ["\u00C3\u00AF", "\u00EF"],
+    ["\u00C3\u00B4", "\u00F4"],
+    ["\u00C3\u00B9", "\u00F9"],
+    ["\u00C3\u00BB", "\u00FB"],
+    ["\u00C3\u00A7", "\u00E7"],
+    ["\u00C3\u2030", "\u00C9"],
+    ["\u00C3\u20AC", "\u00C0"],
+    ["\u00E2\u20AC\u2122", "'"],
+    ["\u00E2\u20AC\u0153", "\""],
+    ["\u00E2\u20AC\u009D", "\""],
+    ["\u00E2\u20AC\u201C", "-"],
+    ["\u00E2\u20AC\u201D", "-"],
+    ["\u00C2\u00B7", "\u00B7"],
+    ["\u00C2", ""]
+  ];
+  for (const [source, target] of replacements) {
+    value = value.split(source).join(target);
+  }
+  return value;
 }
 function stripDiacritics(text) {
   return String(text || "")
@@ -147,7 +172,7 @@ function fixAssistantNameVocative(text) {
     .replace(/\b(bonjour|salut|salam|salem|hello|hey)\s+(?:ahmed|ahmad|amal|amel|amina|amine|amen|amene|aman)\b/gi, "$1 AMANE")
     .replace(/\b(?:ahmed|ahmad|amal|amel|amina|amine|amen|amene|aman)\s*,?\s+(?:bonjour|salam|salem|hello)\b/gi, "AMANE bonjour")
     .replace(/\b(?:hey|ok|allo)\s+(?:ahmed|ahmad|amal|amel|amina|amine|amen|amene|aman)\b/gi, "$1 AMANE")
-    .replace(/\b(?:parle|reponds|réponds|ecoute|écoute)\s+(?:ahmed|ahmad|amal|amel|amina|amine|amen|amene|aman)\b/gi, "$1 AMANE");
+    .replace(/\b(?:parle|reponds|rÃ©ponds|ecoute|Ã©coute)\s+(?:ahmed|ahmad|amal|amel|amina|amine|amen|amene|aman)\b/gi, "$1 AMANE");
 }
 
 function fixDomainTerms(text) {
@@ -253,10 +278,16 @@ function openConversationPanel() {
 }
 
 function openKeyboardFallback(reason = "") {
-  openConversationPanel();
   const hint = reason || "Le vocal mobile n'est pas disponible dans ce navigateur.";
-  setVoiceMode("error", "Mode clavier", "Ecris ton message dans le champ en bas.");
-  updateLiveVoice("Micro indisponible", hint + " Tu peux continuer la déclaration par écrit.");
+  setVoiceMode("error", "Micro indisponible", "Utilise le champ sous la r\u00E9ponse d'AMANE.");
+  updateLiveVoice("Micro indisponible", hint + " Tu peux continuer la d\u00E9claration par \u00E9crit.");
+  focusKeyboardReply();
+}
+
+function focusKeyboardReply() {
+  if (!messageInput) return;
+  messageInput.placeholder = "\u00C9crire une r\u00E9ponse...";
+  window.setTimeout(() => messageInput.focus(), 80);
 }
 
 function closeConversationPanel() {
@@ -275,7 +306,7 @@ function updateLiveVoice(transcript, reply) {
     liveTranscript.textContent = cleanDisplayText(transcript || "En attente de votre voix...");
   }
   if (typeof reply === "string" && assistantReplyPreview) {
-    assistantReplyPreview.textContent = cleanDisplayText(reply || "AMANE affichera ici sa réponse.");
+    assistantReplyPreview.textContent = cleanDisplayText(reply || "AMANE affichera ici sa rÃ©ponse.");
   }
 }
 function refreshSpeechVoices() {
@@ -291,40 +322,40 @@ function isDarijaText(text) {
 function arabicToFrenchPhonetics(text) {
   if (!text) return text;
   let value = String(text)
-    .replace(/هل تؤكد أن الصورة تمثل فعلا خطيرا أم وضعية خطيرة؟/g, "Hal tou-ak-kid anna ssoura tou-mat-til fi-lan khatiran am wad-iya khatira ?")
-    .replace(/تحليل صورة HSE بواسطة AMANE/g, "Tahlil ssoura H S E bi wassitat Amane")
-    .replace(/التصنيف المقترح/g, "Attasnif al mouk-tarah")
-    .replace(/مستوى الخطر العام/g, "Moustawa al khatar al aam")
-    .replace(/ملخص المشهد/g, "Moulakhas al mach-had")
-    .replace(/المخاطر المرصودة/g, "Al makhatir al marsouda")
-    .replace(/المخاطر الرئيسية/g, "Al makhatir ar-ra-issiya")
-    .replace(/إجراءات الوقاية الموصى بها/g, "Ijra-at al wikaya al moussa biha")
-    .replace(/تبرير مستوى الخطر العام/g, "Tabrir moustawa al khatar al aam")
-    .replace(/سؤال AMANE/g, "Soual Amane")
-    .replace(/يحتاج إلى تأكيد/g, "yahtaj ila ta-akid")
-    .replace(/متوسط/g, "moutawassit")
-    .replace(/منخفض/g, "mounkhafid")
-    .replace(/مرتفع/g, "mourtafaa")
-    .replace(/حرج/g, "haraj")
-    .replace(/فعل خطير/g, "fiil khatir")
-    .replace(/وضعية خطيرة/g, "wad-iya khatira");
+    .replace(/Ù‡Ù„ ØªØ¤ÙƒØ¯ Ø£Ù† Ø§Ù„ØµÙˆØ±Ø© ØªÙ…Ø«Ù„ ÙØ¹Ù„Ø§ Ø®Ø·ÙŠØ±Ø§ Ø£Ù… ÙˆØ¶Ø¹ÙŠØ© Ø®Ø·ÙŠØ±Ø©ØŸ/g, "Hal tou-ak-kid anna ssoura tou-mat-til fi-lan khatiran am wad-iya khatira ?")
+    .replace(/ØªØ­Ù„ÙŠÙ„ ØµÙˆØ±Ø© HSE Ø¨ÙˆØ§Ø³Ø·Ø© AMANE/g, "Tahlil ssoura H S E bi wassitat Amane")
+    .replace(/Ø§Ù„ØªØµÙ†ÙŠÙ Ø§Ù„Ù…Ù‚ØªØ±Ø­/g, "Attasnif al mouk-tarah")
+    .replace(/Ù…Ø³ØªÙˆÙ‰ Ø§Ù„Ø®Ø·Ø± Ø§Ù„Ø¹Ø§Ù…/g, "Moustawa al khatar al aam")
+    .replace(/Ù…Ù„Ø®Øµ Ø§Ù„Ù…Ø´Ù‡Ø¯/g, "Moulakhas al mach-had")
+    .replace(/Ø§Ù„Ù…Ø®Ø§Ø·Ø± Ø§Ù„Ù…Ø±ØµÙˆØ¯Ø©/g, "Al makhatir al marsouda")
+    .replace(/Ø§Ù„Ù…Ø®Ø§Ø·Ø± Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠØ©/g, "Al makhatir ar-ra-issiya")
+    .replace(/Ø¥Ø¬Ø±Ø§Ø¡Ø§Øª Ø§Ù„ÙˆÙ‚Ø§ÙŠØ© Ø§Ù„Ù…ÙˆØµÙ‰ Ø¨Ù‡Ø§/g, "Ijra-at al wikaya al moussa biha")
+    .replace(/ØªØ¨Ø±ÙŠØ± Ù…Ø³ØªÙˆÙ‰ Ø§Ù„Ø®Ø·Ø± Ø§Ù„Ø¹Ø§Ù…/g, "Tabrir moustawa al khatar al aam")
+    .replace(/Ø³Ø¤Ø§Ù„ AMANE/g, "Soual Amane")
+    .replace(/ÙŠØ­ØªØ§Ø¬ Ø¥Ù„Ù‰ ØªØ£ÙƒÙŠØ¯/g, "yahtaj ila ta-akid")
+    .replace(/Ù…ØªÙˆØ³Ø·/g, "moutawassit")
+    .replace(/Ù…Ù†Ø®ÙØ¶/g, "mounkhafid")
+    .replace(/Ù…Ø±ØªÙØ¹/g, "mourtafaa")
+    .replace(/Ø­Ø±Ø¬/g, "haraj")
+    .replace(/ÙØ¹Ù„ Ø®Ø·ÙŠØ±/g, "fiil khatir")
+    .replace(/ÙˆØ¶Ø¹ÙŠØ© Ø®Ø·ÙŠØ±Ø©/g, "wad-iya khatira");
 
-  value = value.replace(/[\u064b-\u065f\u0670]/g, "").replace(/لا/g, "la");
+  value = value.replace(/[\u064b-\u065f\u0670]/g, "").replace(/Ù„Ø§/g, "la");
   const wordMap = new Map([
-    ["الصورة", "ssoura"], ["الخطر", "al khatar"], ["المنطقة", "al mintaka"],
-    ["الوقاية", "al wikaya"], ["الحواجز", "al hawajiz"], ["الحفرة", "al hofra"],
-    ["السقوط", "as-soukout"], ["الاصطدام", "al istidam"], ["السحق", "as-sahk"],
-    ["الكهرباء", "al kahraba"], ["الرافعة", "ar-rafiaa"], ["الآلات", "al alat"],
-    ["العمال", "al oummal"], ["معدات", "moua-dat"], ["حمولة", "hamoula"], ["معلقة", "mouallaka"],
+    ["Ø§Ù„ØµÙˆØ±Ø©", "ssoura"], ["Ø§Ù„Ø®Ø·Ø±", "al khatar"], ["Ø§Ù„Ù…Ù†Ø·Ù‚Ø©", "al mintaka"],
+    ["Ø§Ù„ÙˆÙ‚Ø§ÙŠØ©", "al wikaya"], ["Ø§Ù„Ø­ÙˆØ§Ø¬Ø²", "al hawajiz"], ["Ø§Ù„Ø­ÙØ±Ø©", "al hofra"],
+    ["Ø§Ù„Ø³Ù‚ÙˆØ·", "as-soukout"], ["Ø§Ù„Ø§ØµØ·Ø¯Ø§Ù…", "al istidam"], ["Ø§Ù„Ø³Ø­Ù‚", "as-sahk"],
+    ["Ø§Ù„ÙƒÙ‡Ø±Ø¨Ø§Ø¡", "al kahraba"], ["Ø§Ù„Ø±Ø§ÙØ¹Ø©", "ar-rafiaa"], ["Ø§Ù„Ø¢Ù„Ø§Øª", "al alat"],
+    ["Ø§Ù„Ø¹Ù…Ø§Ù„", "al oummal"], ["Ù…Ø¹Ø¯Ø§Øª", "moua-dat"], ["Ø­Ù…ÙˆÙ„Ø©", "hamoula"], ["Ù…Ø¹Ù„Ù‚Ø©", "mouallaka"],
   ]);
   for (const [source, target] of wordMap.entries()) value = value.replaceAll(source, target);
   const table = {
-    "ا":"a", "أ":"a", "إ":"i", "آ":"aa", "ء":"", "ؤ":"ou", "ئ":"i",
-    "ب":"b", "ت":"t", "ث":"s", "ج":"j", "ح":"h", "خ":"kh",
-    "د":"d", "ذ":"z", "ر":"r", "ز":"z", "س":"s", "ش":"ch",
-    "ص":"s", "ض":"d", "ط":"t", "ظ":"z", "ع":"aa", "غ":"gh",
-    "ف":"f", "ق":"k", "ك":"k", "ل":"l", "م":"m", "ن":"n",
-    "ه":"h", "ة":"a", "و":"ou", "ي":"i", "ى":"a", "،":",", "؛":";", "؟":"?"
+    "Ø§":"a", "Ø£":"a", "Ø¥":"i", "Ø¢":"aa", "Ø¡":"", "Ø¤":"ou", "Ø¦":"i",
+    "Ø¨":"b", "Øª":"t", "Ø«":"s", "Ø¬":"j", "Ø­":"h", "Ø®":"kh",
+    "Ø¯":"d", "Ø°":"z", "Ø±":"r", "Ø²":"z", "Ø³":"s", "Ø´":"ch",
+    "Øµ":"s", "Ø¶":"d", "Ø·":"t", "Ø¸":"z", "Ø¹":"aa", "Øº":"gh",
+    "Ù":"f", "Ù‚":"k", "Ùƒ":"k", "Ù„":"l", "Ù…":"m", "Ù†":"n",
+    "Ù‡":"h", "Ø©":"a", "Ùˆ":"ou", "ÙŠ":"i", "Ù‰":"a", "ØŒ":",", "Ø›":";", "ØŸ":"?"
   };
   value = Array.from(value).map((char) => table[char] ?? char).join("");
   return value
@@ -341,40 +372,40 @@ function prepareSpeechText(text, lang) {
   }
   if (isDarijaText(text)) {
     return text
-      .replace(/ÃƒËœÃ‚Â³Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Â¦ÃƒËœÃ…â€™ ÃƒËœÃ‚Â£Ãƒâ„¢Ã¢â‚¬Â ÃƒËœÃ‚Â§ AMANE AIÃƒËœÃ…â€™ ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã¢â‚¬Â¦ÃƒËœÃ‚Â³ÃƒËœÃ‚Â§ÃƒËœÃ‚Â¹ÃƒËœÃ‚Â¯ ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚ÂµÃƒâ„¢Ã‹â€ ÃƒËœÃ‚ÂªÃƒâ„¢Ã…Â  ÃƒËœÃ‚Â¯Ãƒâ„¢Ã…Â ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ HSE\./g, "Salam, ana Amane, l assistant vocal dial H S E.")
-      .replace(/ÃƒËœÃ‚Â¥Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã¢â‚¬Â° ÃƒËœÃ‚Â¨ÃƒËœÃ‚ÂºÃƒâ„¢Ã…Â ÃƒËœÃ‚ÂªÃƒâ„¢Ã…Â  ÃƒËœÃ‚ÂªÃƒËœÃ‚Â³ÃƒËœÃ‚Â¬Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã…Â  ÃƒËœÃ‚Â´Ãƒâ„¢Ã…Â  ÃƒËœÃ‚Â®ÃƒËœÃ‚Â·ÃƒËœÃ‚Â± Ãƒâ„¢Ã‹â€ Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â§ ÃƒËœÃ‚Â£Ãƒâ„¢Ã¢â‚¬Â Ãƒâ„¢Ã‹â€ Ãƒâ„¢Ã¢â‚¬Â¦ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã…Â ÃƒËœÃ…â€™ Ãƒâ„¢Ã¢â‚¬Å¡Ãƒâ„¢Ã‹â€ Ãƒâ„¢Ã¢â‚¬Å¾ Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã…Â ÃƒËœÃ‚Â§ ÃƒËœÃ‚Â´Ãƒâ„¢Ã¢â‚¬Â Ãƒâ„¢Ã‹â€  Ãƒâ„¢Ã‹â€ Ãƒâ„¢Ã¢â‚¬Å¡ÃƒËœÃ‚Â¹\./g, "Ila bghiti tsajli chi khatar oula anomalie, goul lia chnou oukaa.")
-      .replace(/Ãƒâ„¢Ã‹â€ ÃƒËœÃ‚Â§ÃƒËœÃ‚Â´ Ãƒâ„¢Ã†â€™ÃƒËœÃ‚Â§Ãƒâ„¢Ã…Â Ãƒâ„¢Ã¢â‚¬Â  ÃƒËœÃ‚Â´Ãƒâ„¢Ã…Â  ÃƒËœÃ‚Â®ÃƒËœÃ‚Â·ÃƒËœÃ‚Â± ÃƒËœÃ‚Â¯ÃƒËœÃ‚Â§ÃƒËœÃ‚Â¨ÃƒËœÃ‚Â§ ÃƒËœÃ‚Â¹Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã…Â Ãƒâ„¢Ã†â€™ Ãƒâ„¢Ã‹â€ Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â§ ÃƒËœÃ‚Â¹Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã¢â‚¬Â° ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã¢â‚¬Â ÃƒËœÃ‚Â§ÃƒËœÃ‚Â³ ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã…Â  Ãƒâ„¢Ã¢â‚¬Â¦ÃƒËœÃ‚Â¹ÃƒËœÃ‚Â§Ãƒâ„¢Ã†â€™ÃƒËœÃ…Â¸/g, "Wach kayne chi khatar daba aalik oula aala nass li maak?")
-      .replace(/Ãƒâ„¢Ã‹â€ ÃƒËœÃ‚Â§ÃƒËœÃ‚Â´ Ãƒâ„¢Ã¢â‚¬Â¡ÃƒËœÃ‚Â§ÃƒËœÃ‚Â¯ÃƒËœÃ‚Â´Ãƒâ„¢Ã…Â  Ãƒâ„¢Ã‚ÂÃƒËœÃ‚Â¹Ãƒâ„¢Ã¢â‚¬Å¾ ÃƒËœÃ‚Â®ÃƒËœÃ‚Â·Ãƒâ„¢Ã…Â ÃƒËœÃ‚Â± Ãƒâ„¢Ã‹â€ Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â§ Ãƒâ„¢Ã‹â€ ÃƒËœÃ‚Â¶ÃƒËœÃ‚Â¹Ãƒâ„¢Ã…Â ÃƒËœÃ‚Â© ÃƒËœÃ‚Â®ÃƒËœÃ‚Â·Ãƒâ„¢Ã…Â ÃƒËœÃ‚Â±ÃƒËœÃ‚Â©ÃƒËœÃ…Â¸/g, "Wach hadchi fiil khatir oula wadiya khatira?")
-      .replace(/ÃƒËœÃ‚Â¹ÃƒËœÃ‚Â§Ãƒâ„¢Ã‚ÂÃƒËœÃ‚Â§Ãƒâ„¢Ã†â€™ ÃƒËœÃ‚Â´ÃƒËœÃ‚Â±ÃƒËœÃ‚Â­ Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã…Â ÃƒËœÃ‚Â§ ÃƒËœÃ‚Â¨ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚ÂªÃƒâ„¢Ã‚ÂÃƒËœÃ‚ÂµÃƒâ„¢Ã…Â Ãƒâ„¢Ã¢â‚¬Å¾ ÃƒËœÃ‚Â´Ãƒâ„¢Ã¢â‚¬Â Ãƒâ„¢Ã‹â€  Ãƒâ„¢Ã‹â€ Ãƒâ„¢Ã¢â‚¬Å¡ÃƒËœÃ‚Â¹\./g, "Afak chraah lia b tafsil chnou oukaa.")
-      .replace(/Ãƒâ„¢Ã‚ÂÃƒËœÃ‚Â§ÃƒËœÃ‚Â´ Ãƒâ„¢Ã‹â€ Ãƒâ„¢Ã¢â‚¬Å¡ÃƒËœÃ‚Â¹ Ãƒâ„¢Ã¢â‚¬Â¡ÃƒËœÃ‚Â§ÃƒËœÃ‚Â¯ ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â­ÃƒËœÃ‚Â¯ÃƒËœÃ‚Â«ÃƒËœÃ…Â¸ ÃƒËœÃ‚Â¹ÃƒËœÃ‚Â·Ãƒâ„¢Ã…Â Ãƒâ„¢Ã¢â‚¬Â Ãƒâ„¢Ã…Â  ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚ÂªÃƒËœÃ‚Â§ÃƒËœÃ‚Â±Ãƒâ„¢Ã…Â ÃƒËœÃ‚Â® Ãƒâ„¢Ã‹â€ ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã‹â€ Ãƒâ„¢Ã¢â‚¬Å¡ÃƒËœÃ‚Âª\./g, "Fach oukaa had lhadath?Aatini tarikh ou l waqt.")
-      .replace(/Ãƒâ„¢Ã‚ÂÃƒâ„¢Ã…Â Ãƒâ„¢Ã¢â‚¬Â  Ãƒâ„¢Ã‹â€ Ãƒâ„¢Ã¢â‚¬Å¡ÃƒËœÃ‚Â¹ Ãƒâ„¢Ã¢â‚¬Â¡ÃƒËœÃ‚Â§ÃƒËœÃ‚Â¯ÃƒËœÃ‚Â´Ãƒâ„¢Ã…Â ÃƒËœÃ…Â¸ ÃƒËœÃ‚Â¹ÃƒËœÃ‚Â·Ãƒâ„¢Ã…Â Ãƒâ„¢Ã¢â‚¬Â Ãƒâ„¢Ã…Â  ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã¢â‚¬Â¦Ãƒâ„¢Ã‹â€ Ãƒâ„¢Ã¢â‚¬Å¡ÃƒËœÃ‚Â¹ÃƒËœÃ…â€™ ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã‹â€ ÃƒËœÃ‚Â±ÃƒËœÃ‚Â´ÃƒËœÃ‚Â©ÃƒËœÃ…â€™ Ãƒâ„¢Ã‹â€ ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã¢â‚¬Â¦Ãƒâ„¢Ã¢â‚¬Â ÃƒËœÃ‚Â·Ãƒâ„¢Ã¢â‚¬Å¡ÃƒËœÃ‚Â© ÃƒËœÃ‚Â¨ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â¶ÃƒËœÃ‚Â¨ÃƒËœÃ‚Â·\./g, "Fin oukaa hadchi?Aatini site, atelier, ou zone b dabt.")
-      .replace(/Ãƒâ„¢Ã‹â€ ÃƒËœÃ‚Â§ÃƒËœÃ‚Â´ Ãƒâ„¢Ã†â€™ÃƒËœÃ‚Â§Ãƒâ„¢Ã…Â Ãƒâ„¢Ã¢â‚¬Â ÃƒËœÃ‚Â© ÃƒËœÃ‚Â´Ãƒâ„¢Ã…Â  Ãƒâ„¢Ã‹â€ ÃƒËœÃ‚Â­ÃƒËœÃ‚Â¯ÃƒËœÃ‚Â© Ãƒâ„¢Ã‹â€ Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â§ ÃƒËœÃ‚Â´Ãƒâ„¢Ã…Â  Ãƒâ„¢Ã‹â€ ÃƒËœÃ‚Â§ÃƒËœÃ‚Â­ÃƒËœÃ‚Â¯ Ãƒâ„¢Ã†â€™ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Â  Ãƒâ„¢Ã‚Â Ãƒâ„¢Ã‹â€ ÃƒËœÃ‚Â¶ÃƒËœÃ‚Â¹Ãƒâ„¢Ã…Â ÃƒËœÃ‚Â© ÃƒËœÃ‚Â®ÃƒËœÃ‚Â·Ãƒâ„¢Ã…Â ÃƒËœÃ‚Â±ÃƒËœÃ‚Â©ÃƒËœÃ…Â¸/g, "Wach kayne chi wahed oula chi wahda kan f wadiya khatira?")
-      .replace(/ÃƒËœÃ‚Â´Ãƒâ„¢Ã¢â‚¬Â Ãƒâ„¢Ã‹â€  ÃƒËœÃ‚Â³Ãƒâ„¢Ã¢â‚¬Â¦Ãƒâ„¢Ã…Â ÃƒËœÃ‚ÂªÃƒâ„¢Ã†â€™ÃƒËœÃ…Â¸/g, "Chnou smitak?")
-      .replace(/ÃƒËœÃ‚Â´Ãƒâ„¢Ã¢â‚¬Â Ãƒâ„¢Ã‹â€  ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â¥ÃƒËœÃ‚Â¬ÃƒËœÃ‚Â±ÃƒËœÃ‚Â§ÃƒËœÃ‚Â¡ ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã…Â  ÃƒËœÃ‚Â¯ÃƒËœÃ‚Â±ÃƒËœÃ‚ÂªÃƒâ„¢Ã‹â€  ÃƒËœÃ‚Â¯ÃƒËœÃ‚Â§ÃƒËœÃ‚Â¨ÃƒËœÃ‚Â§ ÃƒËœÃ‚Â¨ÃƒËœÃ‚Â§ÃƒËœÃ‚Â´ ÃƒËœÃ‚ÂªÃƒËœÃ‚Â³ÃƒËœÃ‚Â¯Ãƒâ„¢Ã‹â€  ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â®ÃƒËœÃ‚Â·ÃƒËœÃ‚Â±ÃƒËœÃ…Â¸/g, "Chnou l action li derto daba bach tseddo l khatar?")
-      .replace(/ÃƒËœÃ‚Â´Ãƒâ„¢Ã¢â‚¬Â Ãƒâ„¢Ã‹â€  ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â®ÃƒËœÃ‚Â·ÃƒËœÃ‚Â± ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã…Â  Ãƒâ„¢Ã¢â‚¬Â¦Ãƒâ„¢Ã¢â‚¬Â¦Ãƒâ„¢Ã†â€™Ãƒâ„¢Ã¢â‚¬Â  Ãƒâ„¢Ã…Â Ãƒâ„¢Ã‹â€ Ãƒâ„¢Ã¢â‚¬Å¡ÃƒËœÃ‚Â¹ Ãƒâ„¢Ã¢â‚¬Â¦Ãƒâ„¢Ã¢â‚¬Â  ÃƒËœÃ‚Â¨ÃƒËœÃ‚Â¹ÃƒËœÃ‚Â¯ ÃƒËœÃ‚Â¥Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â§ ÃƒËœÃ‚Â¨Ãƒâ„¢Ã¢â‚¬Å¡ÃƒËœÃ‚Â§ÃƒËœÃ‚Âª Ãƒâ„¢Ã¢â‚¬Â¡ÃƒËœÃ‚Â§ÃƒËœÃ‚Â¯ ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã‹â€ ÃƒËœÃ‚Â¶ÃƒËœÃ‚Â¹Ãƒâ„¢Ã…Â ÃƒËœÃ‚Â©ÃƒËœÃ…Â¸/g, "Chnou l khatar li momkin youkaa mn baad ila bqat had l wadiya?")
-      .replace(/ÃƒËœÃ‚Â¬ÃƒËœÃ‚Â§Ãƒâ„¢Ã‹â€ ÃƒËœÃ‚Â¨Ãƒâ„¢Ã¢â‚¬Â Ãƒâ„¢Ã…Â  ÃƒËœÃ‚Â¨ ÃƒËœÃ‚Â¢Ãƒâ„¢Ã¢â‚¬Â¡ Ãƒâ„¢Ã‹â€ Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â§ Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â§\. Ãƒâ„¢Ã‹â€ ÃƒËœÃ‚Â§ÃƒËœÃ‚Â´ Ãƒâ„¢Ã†â€™ÃƒËœÃ‚Â§Ãƒâ„¢Ã…Â Ãƒâ„¢Ã¢â‚¬Â  ÃƒËœÃ‚Â®ÃƒËœÃ‚Â·ÃƒËœÃ‚Â± ÃƒËœÃ‚Â¯ÃƒËœÃ‚Â§ÃƒËœÃ‚Â¨ÃƒËœÃ‚Â§ÃƒËœÃ…Â¸/g, "Jawbni b ah oula la. Wach kayne khatar daba?")
+      .replace(/ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â³ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‹Å“Ãƒâ€¦Ã¢â‚¬â„¢ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ AMANE AIÃƒÆ’Ã‹Å“Ãƒâ€¦Ã¢â‚¬â„¢ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â³ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚ÂµÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚ÂªÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â  ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ HSE\./g, "Salam, ana Amane, l assistant vocal dial H S E.")
+      .replace(/ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â° ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚ÂºÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚ÂªÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â  ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚ÂªÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â³ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â  ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â  ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â·ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â± ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€¦Ã¢â‚¬â„¢ ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â  ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹\./g, "Ila bghiti tsajli chi khatar oula anomalie, goul lia chnou oukaa.")
+      .replace(/ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â  ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â  ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â·ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â± ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€ Ã¢â‚¬â„¢ ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â° ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â³ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â  ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‹Å“Ãƒâ€¦Ã‚Â¸/g, "Wach kayne chi khatar daba aalik oula aala nass li maak?")
+      .replace(/ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â  ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€šÃ‚ÂÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â·ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â± ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¶ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â© ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â·ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â±ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â©ÃƒÆ’Ã‹Å“Ãƒâ€¦Ã‚Â¸/g, "Wach hadchi fiil khatir oula wadiya khatira?")
+      .replace(/ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€šÃ‚ÂÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€ Ã¢â‚¬â„¢ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â±ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â­ ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚ÂªÃƒÆ’Ã¢â€žÂ¢Ãƒâ€šÃ‚ÂÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚ÂµÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â  ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹\./g, "Afak chraah lia b tafsil chnou oukaa.")
+      .replace(/ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€šÃ‚ÂÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â­ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â«ÃƒÆ’Ã‹Å“Ãƒâ€¦Ã‚Â¸ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â·ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â  ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚ÂªÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â±ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â® ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Âª\./g, "Fach oukaa had lhadath?Aatini tarikh ou l waqt.")
+      .replace(/ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â  ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€¦Ã‚Â¸ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â·ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â  ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã‹Å“Ãƒâ€¦Ã¢â‚¬â„¢ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â±ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â©ÃƒÆ’Ã‹Å“Ãƒâ€¦Ã¢â‚¬â„¢ ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â·ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â© ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¶ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â·\./g, "Fin oukaa hadchi?Aatini site, atelier, ou zone b dabt.")
+      .replace(/ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â© ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â  ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â­ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â© ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â  ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â­ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯ ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â  ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€šÃ‚Â ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¶ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â© ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â·ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â±ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â©ÃƒÆ’Ã‹Å“Ãƒâ€¦Ã‚Â¸/g, "Wach kayne chi wahed oula chi wahda kan f wadiya khatira?")
+      .replace(/ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â  ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â³ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚ÂªÃƒÆ’Ã¢â€žÂ¢Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‹Å“Ãƒâ€¦Ã‚Â¸/g, "Chnou smitak?")
+      .replace(/ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â  ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â±ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¡ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â  ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â±ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚ÂªÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â  ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚ÂªÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â³ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â  ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â·ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â±ÃƒÆ’Ã‹Å“Ãƒâ€¦Ã‚Â¸/g, "Chnou l action li derto daba bach tseddo l khatar?")
+      .replace(/ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â  ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â·ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â± ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â  ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â  ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â  ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Âª ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¶ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â©ÃƒÆ’Ã‹Å“Ãƒâ€¦Ã‚Â¸/g, "Chnou l khatar li momkin youkaa mn baad ila bqat had l wadiya?")
+      .replace(/ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â  ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¨ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§\. ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â  ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â·ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â± ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€¦Ã‚Â¸/g, "Jawbni b ah oula la. Wach kayne khatar daba?")
       .replace(/AMANE AI/g, "Amane")
       .replace(/AMANE/g, "Amane")
       .replace(/HSE/g, "H S E")
       .replace(/SONASID/g, "Sonasid")
-      .replace(/ÃƒËœÃ‚Â³Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Â¦/g, "Salam")
-      .replace(/ÃƒËœÃ‚Â£Ãƒâ„¢Ã¢â‚¬Â ÃƒËœÃ‚Â§/g, "ana")
-      .replace(/ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã¢â‚¬Â¦ÃƒËœÃ‚Â³ÃƒËœÃ‚Â§ÃƒËœÃ‚Â¹ÃƒËœÃ‚Â¯ ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚ÂµÃƒâ„¢Ã‹â€ ÃƒËœÃ‚ÂªÃƒâ„¢Ã…Â /g, "l moussa3id sawti")
-      .replace(/ÃƒËœÃ‚Â¯Ãƒâ„¢Ã…Â ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾/g, "dyal")
-      .replace(/ÃƒËœÃ‚Â¨ÃƒËœÃ‚ÂºÃƒâ„¢Ã…Â ÃƒËœÃ‚ÂªÃƒâ„¢Ã…Â /g, "bghiti")
-      .replace(/ÃƒËœÃ‚ÂªÃƒËœÃ‚Â³ÃƒËœÃ‚Â¬Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã…Â /g, "tsajli")
-      .replace(/ÃƒËœÃ‚Â®ÃƒËœÃ‚Â·ÃƒËœÃ‚Â±/g, "khatar")
-      .replace(/Ãƒâ„¢Ã¢â‚¬Å¡Ãƒâ„¢Ã‹â€ Ãƒâ„¢Ã¢â‚¬Å¾ Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ„¢Ã…Â ÃƒËœÃ‚Â§/g, "gol lia")
-      .replace(/ÃƒËœÃ‚Â´Ãƒâ„¢Ã¢â‚¬Â Ãƒâ„¢Ã‹â€  Ãƒâ„¢Ã‹â€ Ãƒâ„¢Ã¢â‚¬Å¡ÃƒËœÃ‚Â¹/g, "chnou oukaa")
-      .replace(/Ãƒâ„¢Ã‹â€ ÃƒËœÃ‚Â§ÃƒËœÃ‚Â´/g, "wach")
-      .replace(/Ãƒâ„¢Ã†â€™ÃƒËœÃ‚Â§Ãƒâ„¢Ã…Â Ãƒâ„¢Ã¢â‚¬Â /g, "kayn")
-      .replace(/ÃƒËœÃ‚Â¯ÃƒËœÃ‚Â§ÃƒËœÃ‚Â¨ÃƒËœÃ‚Â§/g, "daba")
-      .replace(/ÃƒËœÃ‚Â¹ÃƒËœÃ‚Â§Ãƒâ„¢Ã‚ÂÃƒËœÃ‚Â§Ãƒâ„¢Ã†â€™/g, "3afak")
-      .replace(/Ãƒâ„¢Ã‚ÂÃƒâ„¢Ã…Â Ãƒâ„¢Ã¢â‚¬Â /g, "fin")
-      .replace(/Ãƒâ„¢Ã¢â‚¬Â¡ÃƒËœÃ‚Â§ÃƒËœÃ‚Â¯ÃƒËœÃ‚Â´Ãƒâ„¢Ã…Â /g, "hadchi")
-      .replace(/ÃƒËœÃ‚ÂµÃƒËœÃ‚Â§Ãƒâ„¢Ã‚ÂÃƒâ„¢Ã…Â /g, "safi")
-      .replace(/Ãƒâ„¢Ã¢â‚¬Â ÃƒËœÃ‚Â¹Ãƒâ„¢Ã¢â‚¬Â¦/g, "ah")
-      .replace(/Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â§/g, "la")
+      .replace(/ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â³ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦/g, "Salam")
+      .replace(/ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§/g, "ana")
+      .replace(/ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â³ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯ ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚ÂµÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚ÂªÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â /g, "l moussa3id sawti")
+      .replace(/ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾/g, "dyal")
+      .replace(/ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚ÂºÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚ÂªÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â /g, "bghiti")
+      .replace(/ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚ÂªÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â³ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â /g, "tsajli")
+      .replace(/ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â·ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â±/g, "khatar")
+      .replace(/ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§/g, "gol lia")
+      .replace(/ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â  ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹/g, "chnou oukaa")
+      .replace(/ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´/g, "wach")
+      .replace(/ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â /g, "kayn")
+      .replace(/ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§/g, "daba")
+      .replace(/ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€šÃ‚ÂÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€ Ã¢â‚¬â„¢/g, "3afak")
+      .replace(/ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â /g, "fin")
+      .replace(/ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â /g, "hadchi")
+      .replace(/ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚ÂµÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦Ã‚Â /g, "safi")
+      .replace(/ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦/g, "ah")
+      .replace(/ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§/g, "la")
       .replace(/\b3lik\b/gi, "aalik")
       .replace(/\b3la\b/gi, "aala")
       .replace(/\bm3ak\b/gi, "maak")
@@ -391,7 +422,7 @@ function prepareSpeechText(text, lang) {
       .replace(/\bchrah\b/gi, "chraah")
       .replace(/\bsmitk\b/gi, "smitak")
       .replace(/\bkhatar\b/gi, "khatar")
-      .replace(/[ÃƒËœÃ…â€™ÃƒËœÃ…Â¸]/g, ",")
+      .replace(/[ÃƒÆ’Ã‹Å“Ãƒâ€¦Ã¢â‚¬â„¢ÃƒÆ’Ã‹Å“Ãƒâ€¦Ã‚Â¸]/g, ",")
       .replace(/\s+/g, " ")
       .trim();
   }
@@ -481,13 +512,13 @@ async function playServerSpeech(text) {
     await new Promise((resolve, reject) => {
       audio.onplay = () => {
         isAssistantSpeaking = true;
-        setVoiceMode("speaking", "AMANE parle", "Écoute la réponse, puis clique sur le micro.");
+        setVoiceMode("speaking", "AMANE parle", "Ã‰coute la rÃ©ponse, puis clique sur le micro.");
       };
       audio.onended = () => {
         isAssistantSpeaking = false;
         activeTtsAudio = null;
         URL.revokeObjectURL(audioUrl);
-        setVoiceMode(null, "Prêt à écouter", "Clique sur le micro et réponds à voix haute.");
+        setVoiceMode(null, "PrÃªt Ã  Ã©couter", "Clique sur le micro et rÃ©ponds Ã  voix haute.");
         resolve();
       };
       audio.onerror = () => {
@@ -549,15 +580,15 @@ async function speak(text) {
 
   utterance.onstart = () => {
     isAssistantSpeaking = true;
-    setVoiceMode("speaking", "AMANE parle", "Écoute la réponse, puis clique sur le micro.");
+    setVoiceMode("speaking", "AMANE parle", "Ã‰coute la rÃ©ponse, puis clique sur le micro.");
   };
   utterance.onend = () => {
     isAssistantSpeaking = false;
-    setVoiceMode(null, "Prêt à écouter", "Clique sur le micro et réponds à voix haute.");
+    setVoiceMode(null, "PrÃªt Ã  Ã©couter", "Clique sur le micro et rÃ©ponds Ã  voix haute.");
   };
   utterance.onerror = () => {
     isAssistantSpeaking = false;
-    setVoiceMode("error", "Voix bloquée", "Clique sur Répéter ou vérifie le volume du navigateur.");
+    setVoiceMode("error", "Voix bloquÃ©e", "Clique sur RÃ©pÃ©ter ou vÃ©rifie le volume du navigateur.");
   };
 
   window.speechSynthesis.speak(utterance);
@@ -576,7 +607,7 @@ function addMessage(text, type = "system", isEmergency = false) {
 function formatValue(value) {
   if (value === true) return "Oui";
   if (value === false) return "Non";
-  if (value === null || value === undefined || value === "") return "Non renseigné";
+  if (value === null || value === undefined || value === "") return "Non renseignÃ©";
   if (Array.isArray(value)) return value.join(", ");
   if (typeof value === "object") return JSON.stringify(value);
   return cleanDisplayText(value);
@@ -593,7 +624,7 @@ function renderData(data = {}) {
   if (Object.keys(data).length === 0) {
     const empty = document.createElement("p");
     empty.className = "empty-state";
-    empty.textContent = "Les informations du rapport se remplissent pendant l'Ã©change vocal.";
+    empty.textContent = "Les informations du rapport se remplissent pendant l'ÃƒÂ©change vocal.";
     dataList.appendChild(empty);
     return;
   }
@@ -602,21 +633,21 @@ function renderData(data = {}) {
   summary.className = "report-summary";
 
   const reportNumber = document.createElement("strong");
-  reportNumber.textContent = data.report_number || "RÃ©clamation en cours";
+  reportNumber.textContent = data.report_number || "RÃƒÂ©clamation en cours";
 
   const summaryMeta = document.createElement("span");
-  summaryMeta.textContent = `${formatValue(data.classification)} Â· ${formatValue(data.declarant)}`;
+  summaryMeta.textContent = `${formatValue(data.classification)} Ã‚Â· ${formatValue(data.declarant)}`;
 
   const badgeRow = document.createElement("div");
   badgeRow.className = "report-badges";
 
   const statusBadge = document.createElement("span");
   statusBadge.className = "table-badge";
-  statusBadge.textContent = statusLabel(data.status || (data.report_number ? "enregistré" : "en cours"));
+  statusBadge.textContent = statusLabel(data.status || (data.report_number ? "enregistrÃ©" : "en cours"));
 
   const dangerBadge = document.createElement("span");
   dangerBadge.className = `table-badge ${data.immediate_danger ?"danger" : "ok"}`;
-  dangerBadge.textContent = data.immediate_danger ? "Danger immÃ©diat" : "Sans urgence immÃ©diate";
+  dangerBadge.textContent = data.immediate_danger ? "Danger immÃƒÂ©diat" : "Sans urgence immÃƒÂ©diate";
 
   badgeRow.append(statusBadge, dangerBadge);
   summary.append(reportNumber, summaryMeta, badgeRow);
@@ -661,7 +692,7 @@ function renderReports(reports = []) {
   if (reports.length === 0) {
     const empty = document.createElement("p");
     empty.className = "empty-state";
-    empty.textContent = "Aucun rapport sauvegardÃ© pour le moment.";
+    empty.textContent = "Aucun rapport sauvegardÃƒÂ© pour le moment.";
     reportsList.appendChild(empty);
     return;
   }
@@ -671,8 +702,8 @@ function renderReports(reports = []) {
   table.innerHTML = `
     <thead>
       <tr>
-        <th>NumÃ©ro</th>
-        <th>RÃ©clamant</th>
+        <th>NumÃƒÂ©ro</th>
+        <th>RÃƒÂ©clamant</th>
         <th>Type</th>
         <th>Statut</th>
         <th>PDF</th>
@@ -702,12 +733,12 @@ async function checkApi() {
     const response = await fetch("/health");
     if (!response.ok) throw new Error("API indisponible");
     apiDot.className = "status-dot online";
-    apiStatus.textContent = "API connectÃ©e";
-    apiHint.textContent = "FastAPI répond";
+    apiStatus.textContent = "API connectÃƒÂ©e";
+    apiHint.textContent = "FastAPI rÃ©pond";
   } catch (error) {
     apiDot.className = "status-dot offline";
     apiStatus.textContent = "API hors ligne";
-    apiHint.textContent = "VÃ©rifier uvicorn";
+    apiHint.textContent = "VÃƒÂ©rifier uvicorn";
   }
 }
 
@@ -753,7 +784,7 @@ function getPhotoSpokenQuestion(payload) {
   }
 
   const response = String(payload?.response || "");
-  const match = response.match(/(?:Question|سؤال) AMANE\s*:\s*([^\n]+)/i);
+  const match = response.match(/(?:Question|Ø³Ø¤Ø§Ù„) AMANE\s*:\s*([^\n]+)/i);
   if (match?.[1]) return match[1].trim();
 
   return "\u0647\u0644 \u062a\u0624\u0643\u062f \u0623\u0646 \u0627\u0644\u0635\u0648\u0631\u0629 \u062a\u0645\u062b\u0644 \u0641\u0639\u0644\u0627 \u062e\u0637\u064a\u0631\u0627 \u0623\u0645 \u0648\u0636\u0639\u064a\u0629 \u062e\u0637\u064a\u0631\u0629\u061f";
@@ -789,6 +820,36 @@ function photoAnalysisUiText() {
   };
 }
 
+
+async function resizeRiskPhotoForUpload(file) {
+  if (!file || !file.type?.startsWith("image/")) return file;
+  const maxSide = 1280;
+  const quality = 0.82;
+
+  try {
+    const bitmap = await createImageBitmap(file);
+    const scale = Math.min(1, maxSide / Math.max(bitmap.width, bitmap.height));
+    if (scale >= 1 && file.size <= 1200 * 1024) return file;
+
+    const canvas = document.createElement("canvas");
+    canvas.width = Math.max(1, Math.round(bitmap.width * scale));
+    canvas.height = Math.max(1, Math.round(bitmap.height * scale));
+    const context = canvas.getContext("2d", { alpha: false });
+    context.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+    bitmap.close?.();
+
+    const blob = await new Promise((resolve) => canvas.toBlob(resolve, "image/jpeg", quality));
+    if (!blob) return file;
+
+    return new File([blob], (file.name || "photo").replace(/.[^.]+$/, "") + "-amane.jpg", {
+      type: "image/jpeg",
+      lastModified: Date.now(),
+    });
+  } catch (error) {
+    return file;
+  }
+}
+
 async function sendRiskPhoto(file) {
   if (!file) return;
   unlockSpeech();
@@ -800,7 +861,8 @@ async function sendRiskPhoto(file) {
   const formData = new FormData();
   formData.append("session_id", sessionId);
   formData.append("analysis_language", selectedPhotoAnalysisLanguage());
-  formData.append("photo", file);
+  const uploadFile = await resizeRiskPhotoForUpload(file);
+  formData.append("photo", uploadFile);
 
   const response = await fetch("/api/vision/classify-risk", {
     method: "POST",
@@ -814,17 +876,19 @@ async function sendRiskPhoto(file) {
 
   const payload = await response.json();
   stepPill.textContent = payload.step;
-  completionBadge.textContent = payload.completed ? "TerminÃ©" : "En cours";
+  completionBadge.textContent = payload.completed ? "TerminÃƒÂ©" : "En cours";
   completionBadge.classList.toggle("done", payload.completed);
   addMessage(payload.response, "system", payload.emergency);
   const spokenQuestion = getPhotoSpokenQuestion(payload);
   updateLiveVoice("\u062a\u0645 \u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0635\u0648\u0631\u0629", payload.response);
   renderData(payload.collected_data);
+  focusKeyboardReply();
+
   speak(spokenQuestion);
 }
-async function sendMessage(message, { silentUser = false, voice = true } = {}) {
+async function sendMessage(message, { silentUser = false, voice = true, source = null } = {}) {
   const cleanMessage = fixDomainTerms(message);
-  updateLiveVoice(cleanMessage, "AMANE analyse votre dÃ©claration...");
+  updateLiveVoice(cleanMessage, "AMANE analyse votre dÃƒÂ©claration...");
   if (!silentUser) addMessage(cleanMessage, "user");
 
   const response = await fetch("/api/voice/message", {
@@ -833,7 +897,7 @@ async function sendMessage(message, { silentUser = false, voice = true } = {}) {
     body: JSON.stringify({
       session_id: sessionId,
       transcript: cleanMessage,
-      source: recognition ?"browser_speech_recognition" : "keyboard_fallback",
+      source: source || (recognition ?"browser_speech_recognition" : "keyboard_fallback"),
       preferred_language: selectedConversationLanguage(),
     }),
   });
@@ -844,7 +908,7 @@ async function sendMessage(message, { silentUser = false, voice = true } = {}) {
 
   const payload = await response.json();
   stepPill.textContent = payload.step;
-  completionBadge.textContent = payload.completed ? "TerminÃ©" : "En cours";
+  completionBadge.textContent = payload.completed ? "TerminÃƒÂ©" : "En cours";
   completionBadge.classList.toggle("done", payload.completed);
   addMessage(payload.response, "system", payload.emergency);
   updateLiveVoice(cleanMessage, payload.response);
@@ -853,7 +917,7 @@ async function sendMessage(message, { silentUser = false, voice = true } = {}) {
   if (voice) speak(payload.response);
 
   if (payload.completed) {
-    setVoiceMode(null, "Déclaration enregistrée", "Merci. La réclamation est transmise à l'équipe HSE.");
+    setVoiceMode(null, "DÃ©claration enregistrÃ©e", "Merci. La rÃ©clamation est transmise Ã  l'Ã©quipe HSE.");
   }
 
   return payload;
@@ -871,7 +935,7 @@ function resetUi({ speakIntro = true } = {}) {
   renderData({});
   addMessage(introText, "system");
   updateLiveVoice("", "");
-  setVoiceMode(null, "Prêt à écouter", recognition ? "Clique sur le micro et parle naturellement." : "Reconnaissance vocale non supportée, utilise le clavier.");
+  setVoiceMode(null, "PrÃªt Ã  Ã©couter", recognition ? "Clique sur le micro et parle naturellement." : "Reconnaissance vocale non supportÃ©e, utilise le clavier.");
   if (speakIntro) speak(introText);
 }
 
@@ -883,8 +947,8 @@ async function flushFinalTranscript() {
   if (!transcript || isProcessingVoice) return;
 
   isProcessingVoice = true;
-  setVoiceMode(null, "Voix transcrite", "Texte reçu, AMANE prépare sa réponse.");
-  updateLiveVoice(transcript, "AMANE analyse votre déclaration...");
+  setVoiceMode(null, "Voix transcrite", "Texte reÃ§u, AMANE prÃ©pare sa rÃ©ponse.");
+  updateLiveVoice(transcript, "AMANE analyse votre dÃ©claration...");
   addMessage(transcript, "user");
   messageInput.value = transcript;
 
@@ -892,9 +956,9 @@ async function flushFinalTranscript() {
     await sendMessage(transcript, { silentUser: true, voice: true });
     messageInput.value = "";
   } catch (error) {
-    updateLiveVoice(transcript, "Erreur API. Vérifie le backend et la base de données.");
-    addMessage("Erreur API. Vérifie le backend et la base de données.", "system", true);
-    setVoiceMode("error", "Erreur API", "Le texte est affiché, mais l'envoi a échoué.");
+    updateLiveVoice(transcript, "Erreur API. VÃ©rifie le backend et la base de donnÃ©es.");
+    addMessage("Erreur API. VÃ©rifie le backend et la base de donnÃ©es.", "system", true);
+    setVoiceMode("error", "Erreur API", "Le texte est affichÃ©, mais l'envoi a Ã©chouÃ©.");
   } finally {
     isProcessingVoice = false;
   }
@@ -911,12 +975,12 @@ async function startListening() {
   unlockSpeech();
 
   if (!recognition) {
-    openKeyboardFallback("La reconnaissance vocale n'est pas supportée ici. Sur iPhone, ouvre l'application avec Safari/Chrome en HTTPS, ou utilise le clavier.");
+    openKeyboardFallback("La reconnaissance vocale n'est pas supportÃ©e ici. Sur iPhone, ouvre l'application avec Safari/Chrome en HTTPS, ou utilise le clavier.");
     return;
   }
 
   if (!window.isSecureContext && !["localhost", "127.0.0.1"].includes(window.location.hostname)) {
-    openKeyboardFallback("Adresse non sécurisée: le micro mobile exige HTTPS. Utilise ngrok HTTPS ou un hébergement permanent.");
+    openKeyboardFallback("Adresse non sÃ©curisÃ©e: le micro mobile exige HTTPS. Utilise ngrok HTTPS ou un hÃ©bergement permanent.");
     return;
   }
 
@@ -992,19 +1056,19 @@ if (recognition) {
       isListening = false;
       micButton.setAttribute("aria-label", "Parler avec AMANE");
       if (!voiceOrb.classList.contains("speaking")) {
-        setVoiceMode(null, "Prêt à écouter", "Clique sur le micro et parle naturellement.");
+        setVoiceMode(null, "PrÃªt Ã  Ã©couter", "Clique sur le micro et parle naturellement.");
       }
       return;
     }
 
     if (errorType === "not-allowed") {
-      setVoiceMode("error", "Micro bloqué", "Autorise le micro dans le navigateur, puis réessaie.");
-      updateLiveVoice("", "Le navigateur bloque l'accès au micro.");
+      setVoiceMode("error", "Micro bloquÃ©", "Autorise le micro dans le navigateur, puis rÃ©essaie.");
+      updateLiveVoice("", "Le navigateur bloque l'accÃ¨s au micro.");
       return;
     }
 
-    setVoiceMode(null, "Prêt à écouter", "Je n'ai pas reçu de transcription. Clique sur le micro et parle à nouveau.");
-    updateLiveVoice("En attente de votre voix...", "AMANE affichera ici sa réponse.");
+    setVoiceMode(null, "PrÃªt Ã  Ã©couter", "Je n'ai pas reÃ§u de transcription. Clique sur le micro et parle Ã  nouveau.");
+    updateLiveVoice("En attente de votre voix...", "AMANE affichera ici sa rÃ©ponse.");
   };
 
   recognition.onend = () => {
@@ -1014,7 +1078,7 @@ if (recognition) {
     isListening = false;
     micButton.setAttribute("aria-label", "Parler avec AMANE");
     if (!isProcessingVoice && !voiceOrb.classList.contains("speaking") && !voiceOrb.classList.contains("error")) {
-      setVoiceMode(null, "Prêt à écouter", "Clique sur le micro et réponds à voix haute.");
+      setVoiceMode(null, "PrÃªt Ã  Ã©couter", "Clique sur le micro et rÃ©ponds Ã  voix haute.");
     }
   };
 }
@@ -1031,12 +1095,12 @@ async function runDemo() {
   try {
     for (const message of demoMessages) {
       await new Promise((resolve) => setTimeout(resolve, 500));
-      setVoiceMode("listening", "Simulation voix dÃ©clarant", message);
+      setVoiceMode("listening", "Simulation voix dÃƒÂ©clarant", message);
       addMessage(message, "user");
       await sendMessage(message, { silentUser: true, voice: true });
     }
   } catch (error) {
-    addMessage("Erreur pendant la dÃ©mo. VÃ©rifie que l'API et PostgreSQL sont lancÃ©s.", "system", true);
+    addMessage("Erreur pendant la dÃƒÂ©mo. VÃƒÂ©rifie que l'API et PostgreSQL sont lancÃƒÂ©s.", "system", true);
   } finally {
     isRunningDemo = false;
     demoButton.disabled = false;
@@ -1053,9 +1117,9 @@ chatForm.addEventListener("submit", async (event) => {
 
   messageInput.value = "";
   try {
-    await sendMessage(message, { voice: true });
+    await sendMessage(message, { voice: true, source: "keyboard_fallback" });
   } catch (error) {
-    addMessage("Erreur API. Vérifie le backend et la base de données.", "system", true);
+    addMessage("Erreur API. VÃ©rifie le backend et la base de donnÃ©es.", "system", true);
   }
 });
 
@@ -1075,6 +1139,7 @@ languageButtons.forEach((button) => {
 micButton?.addEventListener("click", startListening);
 galleryPhotoButton?.addEventListener("click", () => photoInput?.click());
 cameraPhotoButton?.addEventListener("click", () => cameraInput?.click());
+
 
 async function handleRiskPhotoInput(input) {
   const file = input?.files?.[0];
@@ -1110,9 +1175,11 @@ renderData({});
 renderReports([]);
 addMessage(introText, "system");
   updateLiveVoice("", "");
-  setVoiceMode(null, "Prêt à écouter", recognition ? "Clique sur le micro et parle naturellement." : "Reconnaissance vocale non supportée, utilise le clavier.");
+  setVoiceMode(null, "PrÃªt Ã  Ã©couter", recognition ? "Clique sur le micro et parle naturellement." : "Reconnaissance vocale non supportÃ©e, utilise le clavier.");
 checkApi();
 loadReports();
+
+
 
 
 
