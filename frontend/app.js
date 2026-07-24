@@ -384,13 +384,20 @@ function latinDarijaToArabicSpeech(text) {
 
 
 function prepareSpeechText(text, lang) {
+  const requestedLang = String(lang || "");
+  if (requestedLang.startsWith("fr") || requestedLang.startsWith("en")) {
+    return applySpeechPronunciation(text, requestedLang);
+  }
+  if (requestedLang.startsWith("ar")) {
+    return isDarijaText(text) ? latinDarijaToArabicSpeech(text) : applySpeechPronunciation(text, "ar-MA");
+  }
   if (containsArabicScript(text)) {
     return applySpeechPronunciation(text, "ar-MA");
   }
   if (isDarijaText(text)) {
     return latinDarijaToArabicSpeech(text);
   }
-  return applySpeechPronunciation(text, lang);
+  return applySpeechPronunciation(text, requestedLang || getSpeechLang(text));
 }
 function getSpeechLang(text) {
   if (containsArabicScript(text)) return "ar-MA";
@@ -435,12 +442,12 @@ function pickVoice(lang) {
   refreshSpeechVoices();
   if (speechVoices.length === 0) return null;
 
-  const baseLang = lang.split("-")[0];
+  const normalizedLang = String(lang || "").toLowerCase();
+  const baseLang = normalizedLang.split("-")[0];
   return (
-    speechVoices.find((voice) => voice.lang.toLowerCase() === lang.toLowerCase()) ||
+    speechVoices.find((voice) => voice.lang.toLowerCase() === normalizedLang) ||
     speechVoices.find((voice) => voice.lang.toLowerCase().startsWith(`${baseLang}-`)) ||
-    speechVoices.find((voice) => voice.default) ||
-    speechVoices[0]
+    null
   );
 }
 

@@ -29,7 +29,8 @@ class TextToSpeechAdapter:
     @staticmethod
     def apply_brand_pronunciation(text: str, lang: str | None = None) -> str:
         value = text or ""
-        if TextToSpeechAdapter.contains_arabic(value) or (lang or "").lower().startswith("ar"):
+        requested_lang = (lang or "").lower()
+        if requested_lang.startswith("ar") or (not requested_lang.startswith(("fr", "en")) and TextToSpeechAdapter.contains_arabic(value)):
             value = value.replace("AMANE AI", "\u0623\u0645\u0627\u0646")
             value = value.replace("AMANE", "\u0623\u0645\u0627\u0646")
             value = value.replace("HSE", "\u0625\u062a\u0634 \u0625\u0633 \u0625\u064a")
