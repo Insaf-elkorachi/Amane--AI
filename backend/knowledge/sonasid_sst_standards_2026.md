@@ -153,6 +153,52 @@ Si danger immédiat confirmé, AMANE doit prioriser la sécurité avant le formu
 - Quelles conséquences auraient pu se produire ?
 - Faut-il déclencher une alerte HSE ou hiérarchique ?
 
+## Politique SST SONASID - Excellence sante securite au travail
+
+Source utilisateur : photo de l'affiche "Notre Politique" SONASID, ajoutee a la base de connaissance AMANE le 24 juillet 2026.
+
+### Politique generale
+Faire de SONASID un lieu sur pour le travail, avec un niveau d'excellence pour la sante securite au travail.
+
+### Vision
+La vision SONASID est de faire de l'entreprise un lieu sur pour le travail, avec un niveau d'excellence pour la sante securite au travail.
+
+### Valeurs securite
+- Arreter : on ne peut pas arreter un accident, mais on peut l'empecher.
+- Reflechir : penser aux risques, comprendre et appliquer les controles.
+- Agir en securite : agir en securite tous les jours, sans exception.
+
+### Engagements
+- Zero accident : objectif zero accident pour proteger les personnes, les actifs et l'environnement.
+- Risques maitrises : identifier tous les risques et mettre des controles efficaces pour les maitriser durablement.
+- Tous responsables : la securite est l'affaire de chacun, partout, chaque jour.
+- Parler ouvertement : encourager le signalement et les retours pour prevenir les incidents.
+- Amelioration continue : apprendre en permanence et mettre en oeuvre de meilleures pratiques.
+
+### Feuille de route et priorites
+- S'appuyer sur les Foreman pour ancrer les fondamentaux du SAS en parallele au programme Take Care.
+- Mettre les FPS comme bouclier contre les accidents, avec un Niveau 5 sur le terrain.
+- Realiser une analyse de risque solide et exhaustive.
+- Augmenter de 10 % par an les Oumana Salama.
+- Augmenter de 15 % par an les pompiers volontaires.
+- Rendre la donnee securite accessible pour tout le monde, en s'appuyant notamment sur la remontee securite, la vigilance partagee, les PSIF, le tracking pour poste isole, le training et la gestion des habilitations.
+- Couvrir l'ensemble du site par un systeme LCI, fiabiliser l'existant et assurer la centralisation de l'information au niveau du groupe.
+
+### Leviers cles
+- Leadership visible : les leaders montrent l'exemple et s'impliquent sur le terrain.
+- Competences et formation : developper des competences adaptees et des formations regulieres pour tous.
+- Donnees et digital : rendre les systemes fiables, accessibles et exploitables pour des decisions eclairees.
+- Systemes et outils : utiliser des systemes robustes et des outils digitaux pour soutenir la securite au quotidien.
+- Collaboration : travailler ensemble avec les partenaires pour ameliorer en continu.
+
+### Utilisation par AMANE
+- Relier les reponses HSE aux trois reflexes SONASID : arreter, reflechir, agir en securite.
+- En cas de doute ou de danger possible, recommander l'arret de l'activite et la securisation avant toute analyse detaillee.
+- Valoriser le signalement ouvert, la remontee securite et la vigilance partagee.
+- Rappeler que chaque personne est responsable de la securite, chaque jour et partout.
+- Utiliser l'objectif "zero accident" comme orientation generale, sans promettre l'absence totale de risque.
+- Pour les analyses photo, citer cette politique uniquement comme cadre de prevention, et continuer a baser les observations sur ce qui est reellement visible.
+
 ## Utilisation par AMANE
 
 ### Pour classification
