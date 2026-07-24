@@ -795,7 +795,7 @@ class VisionRiskAgent:
         for item in result.get("risk_items", [])[:12]:
             risk_lines.extend(
                 [
-                    f"- {VisionRiskAgent._arabic_or_note(item.get('risk', '\u062e\u0637\u0631'))}",
+                    f"- {VisionRiskAgent._arabic_or_note(item.get('risk', 'خطر'))}",
                     f"  \u0627\u0644\u0645\u0644\u0627\u062d\u0638\u0629: {VisionRiskAgent._arabic_or_note(item.get('observation') or item.get('description'))}",
                     f"  \u0627\u0644\u0633\u0628\u0628: {VisionRiskAgent._arabic_or_note(item.get('cause'))}",
                     f"  \u0627\u0644\u0639\u0648\u0627\u0642\u0628 \u0627\u0644\u0645\u062d\u062a\u0645\u0644\u0629: {VisionRiskAgent._arabic_or_note(item.get('possible_consequences'))}",
