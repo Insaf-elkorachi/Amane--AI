@@ -31,7 +31,23 @@ def speak(payload: TTSRequest) -> Response:
             "input": speech_text,
             "response_format": "mp3",
         }
-        if text_to_speech_adapter.is_arabic_text(payload.text):
+        requested_lang = (payload.lang or "").lower()
+        if requested_lang.startswith("fr"):
+            kwargs["instructions"] = (
+                "Lis le texte en francais clair et professionnel. "
+                "Ne melange pas avec l'arabe ni avec la darija. "
+                "Prononce A-mane en deux syllabes, sans r final. "
+                "Prononce Sonasid clairement, Nador clairement, H S E lettre par lettre. "
+                "Ne prends pas d'accent anglais et ne reformule pas."
+            )
+        elif requested_lang.startswith("en"):
+            kwargs["instructions"] = (
+                "Read the text in clear professional English. "
+                "Do not mix with Arabic, Darija, or French. "
+                "Pronounce A-mane in two syllables, without a final r. Pronounce H S E letter by letter. "
+                "Do not translate or rephrase."
+            )
+        elif requested_lang.startswith("ar") or text_to_speech_adapter.is_arabic_text(payload.text):
             kwargs["instructions"] = (
                 "Lis le texte en arabe clair et naturel. "
                 "Ne melange pas avec la darija ni avec le francais, sauf les sigles et noms officiels. "

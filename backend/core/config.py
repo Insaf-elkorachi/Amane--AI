@@ -14,6 +14,8 @@ class Settings(BaseSettings):
     OPENAI_API_KEY: str = ""
     OPENAI_MODEL: str = "gpt-4.1-mini"
     OPENAI_VISION_MODEL: str = "gpt-4.1-mini"
+    OPENAI_VISION_IMAGE_DETAIL: str = "high"
+    OPENAI_VISION_MAX_TOKENS: int = 1800
     OPENAI_EMBEDDING_MODEL: str = "text-embedding-3-small"
     OPENAI_TTS_MODEL: str = "gpt-4o-mini-tts"
     OPENAI_TTS_VOICE: str = "alloy"

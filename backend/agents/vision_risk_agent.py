@@ -80,7 +80,7 @@ class VisionRiskAgent:
         user_text = (
             "Contexte RAG SONASID et regles SST disponibles:\n"
             f"{context}\n\n"
-            "Analyse cette photo HSE selon la methode AMANE stricte: uniquement les faits visibles, aucune hypothese transformee en fait, chaque risque doit etre observable. Ne confonds pas un risque theorique avec un risque observe: une machine visible, une voie de circulation visible ou un equipement protege ne suffit pas. Il faut un danger direct clairement perceptible pour remplir Risques observes. Commence par produire observations: une liste de faits visibles neutres, puis deduis les risques observes a partir de ces observations. "
+            "Analyse cette photo HSE selon la methode AMANE stricte: uniquement les faits visibles, aucune hypothese transformee en fait, chaque risque doit etre observable. Commence par identifier la scene concrete: personnes visibles ou non, type de lieu, objets principaux, activite visible, texte/affiche/document si la photo montre surtout un document. Si la photo montre une affiche, une politique, un document, un ecran ou un panneau sans situation de travail exposee, dis-le clairement et ne fabrique pas un risque terrain. Ne confonds pas un risque theorique avec un risque observe: une machine visible, une voie de circulation visible ou un equipement protege ne suffit pas. Il faut un danger direct clairement perceptible pour remplir Risques observes. Commence par produire observations: une liste de faits visibles neutres, puis deduis les risques observes a partir de ces observations. "
             "Balaye toutes les categories: EPI, hauteur, levage, circulation, machines, electricite, incendie, manutention, sol/environnement, produits. "
             "Si une categorie ne peut pas etre conclue, utilise une formule non confirmable. Le contenu lisible par l utilisateur doit respecter la langue demandee. "
             "Ne parle des EPI que si une personne est visible. Pour les elements saillants, reste factuel et conditionnel sauf danger direct visible. Separe strictement: observation visible, risque possible, cause prudente, mesure conditionnelle. "
@@ -107,14 +107,14 @@ class VisionRiskAgent:
                                     "type": "image_url",
                                     "image_url": {
                                         "url": f"data:{mime};base64,{encoded}",
-                                        "detail": "low",
+                                        "detail": settings.OPENAI_VISION_IMAGE_DETAIL,
                                     },
                                 },
                             ],
                         },
                     ],
                     temperature=0.05,
-                    max_tokens=1400,
+                    max_tokens=settings.OPENAI_VISION_MAX_TOKENS,
                     response_format={"type": "json_object"},
                 )
                 content = response.choices[0].message.content or "{}"
@@ -134,29 +134,18 @@ class VisionRiskAgent:
             "confidence": 0.35,
             "observations": [],
             "scene_summary": "\u062a\u0645 \u0627\u0633\u062a\u0644\u0627\u0645 \u0635\u0648\u0631\u0629 HSE\u060c \u0644\u0643\u0646 \u0627\u0644\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0628\u0635\u0631\u064a \u0627\u0644\u0622\u0644\u064a \u063a\u064a\u0631 \u0645\u062a\u0627\u062d \u062d\u0627\u0644\u064a\u0627. \u064a\u062c\u0628 \u062a\u0623\u0643\u064a\u062f \u0627\u0644\u0648\u0636\u0639 \u0645\u064a\u062f\u0627\u0646\u064a\u0627 \u0645\u0646 \u0637\u0631\u0641 \u0627\u0644\u0645\u0635\u0631\u062d \u0623\u0648 \u0645\u0633\u0624\u0648\u0644 HSE.",
-            "risk_items": [
-                {
-                    "risk": "\u062e\u0637\u0631 \u064a\u062d\u062a\u0627\u062c \u0625\u0644\u0649 \u062a\u0623\u0643\u064a\u062f",
-                    "description": "\u0644\u0627 \u064a\u0645\u0643\u0646 \u062a\u0623\u0643\u064a\u062f \u0637\u0628\u064a\u0639\u0629 \u0627\u0644\u062e\u0637\u0631 \u0645\u0646 \u0627\u0644\u0635\u0648\u0631\u0629 \u0622\u0644\u064a\u0627 \u0641\u064a \u0647\u0630\u0647 \u0627\u0644\u0644\u062d\u0638\u0629. \u064a\u062c\u0628 \u0645\u0631\u0627\u062c\u0639\u0629 \u0627\u0644\u0635\u0648\u0631\u0629 \u0645\u064a\u062f\u0627\u0646\u064a\u0627 \u0642\u0628\u0644 \u0627\u062a\u062e\u0627\u0630 \u0642\u0631\u0627\u0631 \u0646\u0647\u0627\u0626\u064a.",
-                    "possible_consequences": "\u0642\u062f \u064a\u0642\u0639 \u062d\u0627\u062f\u062b \u0625\u0630\u0627 \u0643\u0627\u0646 \u0627\u0644\u062e\u0637\u0631 \u0645\u0648\u062c\u0648\u062f\u0627 \u0648\u0644\u0645 \u064a\u062a\u0645 \u0639\u0632\u0644\u0647 \u0623\u0648 \u0645\u0639\u0627\u0644\u062c\u062a\u0647 \u0628\u0633\u0631\u0639\u0629.",
-                    "severity": "MEDIUM",
-                }
-            ],
-            "main_risks": ["\u062e\u0637\u0631 HSE \u064a\u062d\u062a\u0627\u062c \u0625\u0644\u0649 \u062a\u0623\u0643\u064a\u062f \u0645\u064a\u062f\u0627\u0646\u064a"],
+            "risk_items": [],
+            "main_risks": [],
             "prevention_measures": [
                 "\u0627\u0644\u062a\u062d\u0642\u0642 \u0645\u0646 \u0627\u0644\u0635\u0648\u0631\u0629 \u0645\u0639 \u0627\u0644\u0645\u0635\u0631\u062d \u0623\u0648 \u0645\u0633\u0624\u0648\u0644 HSE.",
                 "\u062a\u0623\u0643\u064a\u062f \u0645\u0627 \u0625\u0630\u0627 \u0643\u0627\u0646 \u0627\u0644\u0623\u0645\u0631 \u064a\u062a\u0639\u0644\u0642 \u0628\u0641\u0639\u0644 \u062e\u0637\u064a\u0631 \u0623\u0648 \u0628\u0648\u0636\u0639\u064a\u0629 \u062e\u0637\u064a\u0631\u0629.",
                 "\u062a\u0623\u0645\u064a\u0646 \u0627\u0644\u0645\u0646\u0637\u0642\u0629 \u0648\u0648\u0636\u0639 \u0627\u0644\u062d\u0648\u0627\u062c\u0632 \u0623\u0648 \u0627\u0644\u062a\u0634\u0648\u064a\u0631 \u0625\u0630\u0627 \u0643\u0627\u0646 \u0647\u0646\u0627\u0643 \u062e\u0637\u0631 \u0642\u0627\u0626\u0645.",
             ],
-            "global_risk_level": "MEDIUM",
-            "global_risk_reason": "\u0627\u0644\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0628\u0635\u0631\u064a \u0627\u0644\u0622\u0644\u064a \u063a\u064a\u0631 \u0645\u062a\u0627\u062d\u061b \u0644\u0630\u0644\u0643 \u064a\u062c\u0628 \u062a\u0623\u0643\u064a\u062f \u0645\u0633\u062a\u0648\u0649 \u0627\u0644\u062e\u0637\u0631 \u0641\u064a \u0627\u0644\u0645\u064a\u062f\u0627\u0646.",
+            "global_risk_level": "LOW",
+            "global_risk_reason": "\u0627\u0644\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0628\u0635\u0631\u064a \u0627\u0644\u0622\u0644\u064a \u063a\u064a\u0631 \u0645\u062a\u0627\u062d\u061b \u0644\u0630\u0644\u0643 \u0644\u0627 \u064a\u0645\u0643\u0646 \u062a\u0623\u0643\u064a\u062f \u0645\u0633\u062a\u0648\u0649 \u0627\u0644\u062e\u0637\u0631 \u0645\u0646 \u0627\u0644\u0635\u0648\u0631\u0629.",
             "immediate_danger": False,
-            "recommended_action": "\u062a\u0623\u0643\u064a\u062f \u0627\u0644\u062a\u062d\u0644\u064a\u0644 \u0645\u0639 \u0627\u0644\u0645\u0635\u0631\u062d\u060c \u062b\u0645 \u062a\u0637\u0628\u064a\u0642 \u0625\u062c\u0631\u0627\u0621\u0627\u062a \u0627\u0644\u0648\u0642\u0627\u064a\u0629 \u0627\u0644\u0645\u0646\u0627\u0633\u0628\u0629 \u062d\u0633\u0628 \u0642\u0648\u0627\u0639\u062f HSE.",
-            "questions": [
-                "\u0647\u0644 \u062a\u0624\u0643\u062f \u0623\u0646 \u0627\u0644\u0635\u0648\u0631\u0629 \u062a\u0645\u062b\u0644 \u0641\u0639\u0644\u0627 \u062e\u0637\u064a\u0631\u0627 \u0623\u0645 \u0648\u0636\u0639\u064a\u0629 \u062e\u0637\u064a\u0631\u0629\u061f",
-                "\u0645\u0627 \u0647\u064a \u0645\u0646\u0637\u0642\u0629 SONASID Nador \u0627\u0644\u0645\u0639\u0646\u064a\u0629\u061f",
-                "\u0647\u0644 \u062a\u0648\u062c\u062f \u0623\u0634\u062e\u0627\u0635 \u0645\u0639\u0631\u0636\u0648\u0646 \u0644\u0644\u062e\u0637\u0631 \u0628\u0634\u0643\u0644 \u0641\u0648\u0631\u064a\u061f",
-            ],
+            "recommended_action": "\u0623\u0639\u062f \u0625\u0631\u0633\u0627\u0644 \u0635\u0648\u0631\u0629 \u0623\u0648\u0636\u062d \u0623\u0648 \u062a\u062d\u0642\u0642 \u0645\u0646 \u0625\u0639\u062f\u0627\u062f\u0627\u062a \u0627\u0644\u0646\u0645\u0648\u0630\u062c \u0627\u0644\u0628\u0635\u0631\u064a \u0642\u0628\u0644 \u0627\u062a\u062e\u0627\u0630 \u0642\u0631\u0627\u0631 HSE.",
+            "questions": ["\u0647\u0644 \u064a\u0645\u0643\u0646\u0643 \u0625\u0639\u0627\u062f\u0629 \u0625\u0631\u0633\u0627\u0644 \u0635\u0648\u0631\u0629 \u0623\u0648\u0636\u062d \u0644\u0644\u0648\u0636\u0639\u064a\u0629\u061f"],
             "location_hints": [],
             "related_sst_rules": [],
             "source_image": str(image_path),
@@ -462,11 +451,22 @@ class VisionRiskAgent:
 
     @classmethod
     def _ensure_result_language(cls, result: dict[str, Any], language: str) -> dict[str, Any]:
-        if language != "ar" or not llm_service.available:
+        if not llm_service.available:
             return result
-        if not cls._needs_arabic_translation(result):
-            return result
-        return cls._translate_result_to_arabic(result)
+        if language == "ar":
+            if not cls._needs_arabic_translation(result):
+                return result
+            return cls._translate_result_text(result, language)
+        if language in {"fr", "en"} and cls._needs_latin_translation(result):
+            return cls._translate_result_text(result, language)
+        return result
+
+    @classmethod
+    def _has_meaningful_latin_text(cls, text: Any) -> bool:
+        value = str(text or "")
+        value = re.sub(r"\b(AMANE|SONASID|HSE|SST|SAP|LOW|MEDIUM|HIGH|CRITICAL|N[0-9]+)\b", " ", value, flags=re.IGNORECASE)
+        value = re.sub(r"[0-9%.,:;()/\-]+", " ", value)
+        return bool(re.search(r"[A-Za-z]{3,}", value))
 
     @classmethod
     def _needs_arabic_translation(cls, result: dict[str, Any]) -> bool:
@@ -486,11 +486,28 @@ class VisionRiskAgent:
                 )
         if not texts:
             return False
-        non_arabic = [value for value in texts if not cls._has_arabic(value)]
-        return len(non_arabic) >= max(1, len(texts) // 3)
+        return any(cls._has_meaningful_latin_text(value) for value in texts)
 
     @classmethod
-    def _translate_result_to_arabic(cls, result: dict[str, Any]) -> dict[str, Any]:
+    def _needs_latin_translation(cls, result: dict[str, Any]) -> bool:
+        texts: list[str] = []
+        for key in ["scene_summary", "recommended_action", "global_risk_reason", "observations"]:
+            value = str(result.get(key) or "").strip()
+            if value:
+                texts.append(value)
+        for key in ["main_risks", "prevention_measures", "questions", "location_hints", "related_sst_rules"]:
+            texts.extend(str(item).strip() for item in cls._as_list(result.get(key)) if str(item).strip())
+        for item in cls._as_list(result.get("risk_items")):
+            if isinstance(item, dict):
+                texts.extend(
+                    str(item.get(key) or "").strip()
+                    for key in ["risk", "observation", "cause", "description", "possible_consequences", "prevention_measure", "sst_rule"]
+                    if str(item.get(key) or "").strip()
+                )
+        return any(cls._has_arabic(value) for value in texts)
+
+    @classmethod
+    def _translate_result_text(cls, result: dict[str, Any], language: str) -> dict[str, Any]:
         payload = {
             "observations": result.get("observations", []),
             "scene_summary": result.get("scene_summary"),
@@ -510,7 +527,7 @@ class VisionRiskAgent:
                     {
                         "role": "system",
                         "content": (
-                            "Translate all user-facing textual values in this JSON to clear professional Modern Standard Arabic. "
+                            f"Translate all user-facing textual values in this JSON to {('clear professional Modern Standard Arabic' if language == 'ar' else 'clear professional French' if language == 'fr' else 'clear professional English')}. "
                             "Keep the same JSON keys and list structure. Do not add risks. Do not change classification, severity, booleans, model names, or source data. "
                             "Preserve official names such as SONASID, AMANE, HSE, SAP and technical acronyms. Return only valid JSON."
                         ),
@@ -565,6 +582,12 @@ class VisionRiskAgent:
             "risque theorique",
             "risque potentiel",
             "hypothese",
+            "\u063a\u064a\u0631 \u0642\u0627\u0628\u0644 \u0644\u0644\u062a\u0623\u0643\u064a\u062f",
+            "\u0644\u0627 \u064a\u0645\u0643\u0646 \u062a\u0623\u0643\u064a\u062f",
+            "\u064a\u062d\u062a\u0627\u062c \u0625\u0644\u0649 \u062a\u0623\u0643\u064a\u062f",
+            "\u063a\u064a\u0631 \u0645\u0624\u0643\u062f",
+            "\u0644\u0627 \u064a\u0648\u062c\u062f \u0639\u0646\u0635\u0631 \u0645\u0631\u0626\u064a",
+            "\u0644\u0627 \u062a\u0648\u062c\u062f \u0639\u0646\u0627\u0635\u0631 \u0645\u0631\u0626\u064a\u0629",
             "ØºÙŠØ± Ù‚Ø§Ø¨Ù„ Ù„Ù„ØªØ£ÙƒÙŠØ¯",
             "Ù„Ø§ ÙŠÙ…ÙƒÙ† ØªØ£ÙƒÙŠØ¯",
             "ÙŠØ­ØªØ§Ø¬ Ø¥Ù„Ù‰ ØªØ£ÙƒÙŠØ¯",

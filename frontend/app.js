@@ -453,13 +453,13 @@ function unlockSpeech() {
   speechUnlocked = true;
 }
 
-async function playServerSpeech(text) {
+async function playServerSpeech(text, forcedLang = null) {
   if (!text || !window.fetch || !window.Audio) return false;
   try {
     const response = await fetch("/api/tts/speak", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text, lang: getSpeechLang(text) }),
+      body: JSON.stringify({ text, lang: forcedLang || getSpeechLang(text) }),
     });
     if (!response.ok) return false;
     const blob = await response.blob();
@@ -512,10 +512,10 @@ function stopRecognitionWhileSpeaking() {
   }
   micButton?.setAttribute("aria-label", "Parler avec AMANE");
 }
-async function speak(text) {
+async function speak(text, forcedLang = null) {
   lastAssistantText = text;
 
-  const serverSpeechOk = await playServerSpeech(text);
+  const serverSpeechOk = await playServerSpeech(text, forcedLang);
   if (serverSpeechOk) return;
 
   if (!window.speechSynthesis) {
@@ -527,7 +527,7 @@ async function speak(text) {
   stopRecognitionWhileSpeaking();
   window.speechSynthesis.cancel();
 
-  const lang = getSpeechLang(text);
+  const lang = forcedLang || getSpeechLang(text);
   const spokenText = prepareSpeechText(text, lang);
   const utterance = new SpeechSynthesisUtterance(spokenText);
   utterance.lang = lang;
@@ -744,14 +744,24 @@ function getPhotoSpokenQuestion(payload) {
   }
 
   const response = String(payload?.response || "");
-  const match = response.match(/(?:Question|Ø³Ø¤Ø§Ù„) AMANE\s*:\s*([^\n]+)/i);
+  const match = response.match(/(?:Question AMANE|AMANE question|\u0633\u0624\u0627\u0644 AMANE)\s*:\s*([^\n]+)/i);
   if (match?.[1]) return match[1].trim();
 
-  return "\u0647\u0644 \u062a\u0624\u0643\u062f \u0623\u0646 \u0627\u0644\u0635\u0648\u0631\u0629 \u062a\u0645\u062b\u0644 \u0641\u0639\u0644\u0627 \u062e\u0637\u064a\u0631\u0627 \u0623\u0645 \u0648\u0636\u0639\u064a\u0629 \u062e\u0637\u064a\u0631\u0629\u061f";
+  const language = selectedPhotoAnalysisLanguage();
+  if (language === "fr") return "Confirmez-vous cette analyse photo HSE ?";
+  if (language === "en") return "Do you confirm this HSE photo analysis?";
+  return "\u0647\u0644 \u062a\u0624\u0643\u062f \u0647\u0630\u0627 \u0627\u0644\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u062e\u0627\u0635 \u0628\u0635\u0648\u0631\u0629 HSE\u061f";
 }
 
 function selectedPhotoAnalysisLanguage() {
   return analysisLanguageSelect?.value || "ar";
+}
+
+function photoSpeechLang() {
+  const language = selectedPhotoAnalysisLanguage();
+  if (language === "fr") return "fr-FR";
+  if (language === "en") return "en-US";
+  return "ar-MA";
 }
 
 function photoAnalysisUiText() {
@@ -783,13 +793,13 @@ function photoAnalysisUiText() {
 
 async function resizeRiskPhotoForUpload(file) {
   if (!file || !file.type?.startsWith("image/")) return file;
-  const maxSide = 1280;
-  const quality = 0.82;
+  const maxSide = 1600;
+  const quality = 0.88;
 
   try {
     const bitmap = await createImageBitmap(file);
     const scale = Math.min(1, maxSide / Math.max(bitmap.width, bitmap.height));
-    if (scale >= 1 && file.size <= 1200 * 1024) return file;
+    if (scale >= 1 && file.size <= 1800 * 1024) return file;
 
     const canvas = document.createElement("canvas");
     canvas.width = Math.max(1, Math.round(bitmap.width * scale));
@@ -840,11 +850,11 @@ async function sendRiskPhoto(file) {
   completionBadge.classList.toggle("done", payload.completed);
   addMessage(payload.response, "system", payload.emergency);
   const spokenQuestion = getPhotoSpokenQuestion(payload);
-  updateLiveVoice("\u062a\u0645 \u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0635\u0648\u0631\u0629", payload.response);
+  updateLiveVoice(uiText.transcript, payload.response);
   renderData(payload.collected_data);
   focusKeyboardReply();
 
-  speak(spokenQuestion);
+  speak(spokenQuestion, photoSpeechLang());
 }
 async function sendMessage(message, { silentUser = false, voice = true, source = null } = {}) {
   const cleanMessage = fixDomainTerms(message);
