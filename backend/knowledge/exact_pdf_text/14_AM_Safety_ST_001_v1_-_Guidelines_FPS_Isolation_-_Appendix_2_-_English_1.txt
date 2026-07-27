@@ -1,0 +1,967 @@
+AM Safety ST 001 v1 - Guidelines FPS Isolation - Appendix 2 - English 
+ 
+ 
+ENVIRONMENTAL HEALTH AND SAFETY 
+ 
+ 
+ 
+ 
+ 
+ 
+ELECTRICAL SAFETY GUIDELINE
+June 2010 
+University of Northern Colorado 
+Electrical Safety Guidelines 
+Table of Contents 
+I. General 
+II. General Electrical Safety 
+A. Definitions 
+B. Circuit Breaker Loads 
+C. Electrical Grounding 
+D. Electrical Panels 
+E. Electrical Safety Guidelines 
+III. Lockout/Tagout  
+A. Applying Lockout/Tagout Devices 
+B. Removing Lockout/Tagout Devices 
+C. Lockout/Tagout Training 
+D. Contractors 
+IV. High Voltage  
+A. Minimum Clear Working Space 
+V. Electrical Arc 
+A. Definitions 
+B. Flash Hazard Analysis 
+C. Flash Protection Boundary 
+D. Arc Flash Personal Protective Equipment 
+E. Training Requirements 
+ 
+VI. Electrical Emergency Response 
+A. Electrical Shock Emergency 
+B. Electrical Fire Emergency 
+Appendices 
+A. Lockout/Tagout Checklist  
+2
+B. Hazard and Risk Personal Protective Equipment Matrix 
+ 
+I. General 
+Electrical Safety Guidelines have been developed and implemented for faculty, staff, 
+and students of the University of Northern Colorado (UNC).  This guidance applies to all 
+University employees and students. It is the purpose of this plan to provide a practical 
+safe working area relative to the hazards that arise from the use of electricity.  
+The National Fire Protection Association  (NFPA) 70E was developed by the Technical 
+Committee on Electrical Safety in the Workplace, released by the Technical Correlating 
+Committee on National Electric Code and acted on by NFPA. The NFPA 70E committee 
+was formed to assist Occupational Safety and Health Administration in preparing 
+electrical safety standards that would meet OSHAs requirements of Section (6)b of the 
+OSH Act of 1970. 
+This guideline does not cover all regulatory requirements regarding electrical safety in 
+the workplace, but should be considered as minimum requirements in order to provide a 
+safe working environment. Anyone using this plan should rely on his or her own 
+personal judgment or seek the advice of a competent professional in determining the 
+course of action for a given circumstance.  
+II. General Electrical Safety 
+Electrical safety is important in every work environment.  The danger of injury due to 
+electrical shock is possible whenever electrical power is present.  When a person's body 
+completes a circuit connecting a power source with the ground, an electrical burn or 
+injury is imminent.  Most fatal injuries result from high-voltage exposure; however, 
+people can sustain severe injuries from low voltage power, if it has a high current flow.  
+The purpose of this section is to provide basic safety guidance to those who work with 
+electricity or electrical equipment.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3
+ 
+ 
+ 
+A. Definitions  
+Amps:  The standard unit for measuring electrical current. 
+ 
+Watt:  A unit of electrical power, equal to the power developed in a circuit by a 
+current of amp flowing through a potential difference of one volt. 
+ 
+Voltage:  Electromotive force expressed in volts. 
+ 
+Circuit Breaker:  A device that automatically interrupts the flow of an electrical 
+current. 
+ 
+Electrical Panel:  An insulated panel on which electrical wires are mounted. 
+ 
+Current Flow:  The rate of flow of an electrical charge, generally expressed in 
+amps. 
+ 
+Electrical Load:  The amount of power delivered by a generator or carried by a 
+circuit or a device to which the power is delivered. 
+ 
+Ground-Fault Circuit Interrupter (GFCI):  A GFCI detects grounding problems 
+and shuts electricity off to prevent a possible accident. 
+ 
+High Voltage:  The term high voltage applies to electrical equipment that 
+operates at more than 600 Volts (for terminal to terminal operations) or more 
+than 300 Volts (for terminal to ground operation).  Low voltage, high current AC 
+or DC power supplies are also considered to be high voltage. 
+ 
+Hazardous Energy Sources:  This term applies to stored or residual energy 
+such as that in capacitors, springs, elevated machine members, rotating 
+flywheels, hydraulic systems, and air, gas, steam, or water pressure. 
+ 
+Lockout:  The placement of a lock on an energy-isolating device.  This act 
+prevents workers from operating a piece of equipment until the lock is removed. 
+ 
+Tagout:  The placement of a tag on an energy-isolating device.  A tagout device 
+is a prominent warning device of a lockout and should contain the employee's 
+name. 
+ 
+Energy-Isolating Device:  A mechanical device that prevents the transmission 
+or release of energy.  Examples include manually operated circuit breakers, 
+disconnect switches, and line or block valves.  Push buttons, selector switches, 
+and other control circuit devices do not isolate energy.  Energy-isolating devices 
+should be lockable by means of a hasp or other type of attachment.  It should not 
+4
+be necessary to dismantle or reassemble a device to lock it.  However, where a 
+lockout mechanism device is not available, removal of a handle or valve may be 
+necessary. 
+ 
+Authorized Employee: A person who locks out or tags out equipment for 
+service or maintenance. Authorized employees have received formal training in 
+proper lockout/tagout procedures.  
+B. Circuit Breaker Loads  
+20 amp circuit breakers that serve two or more outlets are common in workplace 
+locations. These breakers can handle most office equipment; however, the 
+widespread use of personal computers and associated hardware can create an 
+electrical overload. If necessary, determine your current electrical load by 
+following these steps:  
+ 
+Check workplace equipment for a manufacturer's rating label that 
+indicates total watts or amps.  
+ Convert the watts (P) rating to amps to get current (I):  
+ 
+ (typically 120 Volts)  
+ Total the amps for each circuit.  
+ If the total equals more than 15 amps per 20 amp circuit, you may be 
+overloading the circuit.  
+ Move equipment to a different circuit to reduce the circuit load.  
+C. Electrical Grounding  
+ 
+Proper electrical grounding can help prevent electrical injury. Most electrical 
+equipment is grounded with either a three-prong plug or a two-prong plug and 
+insulation. GFCIs are required in moist or damp environments and near water 
+sources. 
+ 
+D. Electrical Panels  
+ 
+Electrical panels or breaker boxes require special safety considerations, 
+including the following:  
+ Ensure breaker switches or blanks are present in all locations within the panel 
+box. 
+ Do not tape circuit switches to keep a breaker from tripping.  
+5
+ Ensure that breaker circuits are accurately labeled within panel boxes.  
+ Ensure that panel box doors are securely attached.  
+ Do not block panel boxes. There should be at least 30 inches of clear space 
+in front of a panel box.  
+ Make sure there are no missing knock-outs on the electrical panel.  
+ Report tripped breakers and refer any electrical questions to the Facilities 
+Management Department.  
+E. Electrical Safety Guidelines  
+Follow these guidelines for general electrical safety:  
+ Be familiar with the electrical hazards associated with your workplace.  
+ Unplug electrical equipment before repairing or servicing it.  
+ If a prong breaks off inside an outlet, do not attempt to remove it yourself. Call 
+for assistance.  
+ Ensure that outlets are firmly mounted. Report loose outlets. 
+ Report all electrical problems, including tripped breakers, broken switches, 
+and flickering lights. 
+ All appliances used in UNC buildings must be UL (Underwriters Laboratories) 
+or FM (Factory Mutual) labeled.  
+ Do not use an appliance that sparks, smokes, or becomes excessively hot, 
+unless the appliance is specifically designed to exhibit these characteristics.  
+ Keep electrical equipment away from water, unless the appliance is 
+specifically designed for use around water, such as a wet-dry shop vacuum.  
+ Be aware of overhead power lines when working with tall equipment (e.g., 
+bucket trucks, crane, etc.). 
+ Follow lockout/tagout procedures, as appropriate. (Refer to section III)  
+ 
+Follow these guidelines for electrical plug and cord safety:  
+ 
+ Do not remove the prongs of an electrical plug. If plug prongs are missing, 
+loose, or bent, replace the entire plug or the cord and plug.  
+6
+ Do not use an adapter or extension cord to defeat a standard grounding 
+device. (i.e., only place three-prong plugs in three-prong outlets; do not alter 
+them to fit in a two-prong outlet.)  
+ Use extension cords only when necessary and only on a temporary basis. Do 
+not use extension cords in place of permanent wiring. Request new outlets if 
+your work requires equipment in an area without an outlet.  
+ Use extension cords that are the correct size or rating for the equipment in 
+use. The diameter and conductor of the extension cord should be the same or 
+greater than the cord of the equipment in use.  
+ Do not run electrical cords above ceiling tiles or through walls.  
+ Keep electrical cords away from areas where they may be pinched and areas 
+where they may pose a tripping or fire hazard (e.g., doorways, walkways, 
+under carpet, etc.)  
+ Avoid plugging more than one appliance in each outlet. If multiple appliances 
+are necessary, use an approved power strip with surge protector and circuit 
+breaker. Do not overload the circuit breaker.  
+ Do not plug a power strip into another power strip and/or extension cord. 
+Appliances should be plugged directly into the power strip and power strip 
+should be directly plugged into the wall outlet. 
+ Discard damaged cords, cords that become hot, or cords with exposed wiring.  
+ Never unplug an appliance by pulling on the cord; pull on the plug.  
+ Always unplug and secure an extension cord when not in use.  
+7
+ 
+III. Lockout/Tagout 
+Lockout/tagout procedures are used to isolate hazardous energy sources, typically 
+electricity.  However, hazardous energy can also be in the form of hydraulic or 
+pneumatic systems, pressurized airlines, steam or other thermal systems, chemical 
+lines, or it may even be present in strictly mechanical systems.  Apart from stored 
+energy sources, lockout/tagout should be used to protect employees from unintended 
+releases of hazardous substances such as natural gas, CO2 or Halon in automated fire-
+extinguishing systems, and hot or large-volume water systems during maintenance and 
+repair.  When service or maintenance work is required, lockout and tagout devices help 
+ensure that employees are safe from possible energy releases.  All employees whose 
+work involves hazardous energy sources must be formally trained in lockout/tagout 
+procedures. 
+Before performing service or maintenance work on systems or machines, turn 
+equipment off and disconnect it from energy sources.  To further ensure employee 
+safety use lockout and tagout energy-isolating devices. A lockout/tagout checklist can 
+be used to ensure proper steps are taken during shutdown and startup (Refer to 
+Appendix A). The following provides information on lockout/tagout procedures in 
+accordance with OSHA.  
+A. 
+Applying Lockout/Tagout Devices 
+Only authorized employees may apply lockout/tagout devices. The 
+following steps provide a brief outline of approved application procedures: 
+ Notify affected employees and/or departments that the equipment requires 
+service or maintenance and is scheduled for shutdown. 
+ 
+ Use established procedures to identify the type, magnitude, and hazards of 
+the equipment's energy source.  Make sure you know the proper methods for 
+controlling the energy source. 
+ 
+ If the equipment is operating, shut it down using normal shutdown 
+procedures. 
+ 
+ Isolate the equipment from its energy source by activating the energy-
+isolating device(s).   
+ 
+Lockout and tagout the energy-isolating device(s).  Each authorized 
+employee will be given their own lock and key in order to eliminate the 
+possibility of others inadvertently unlocking an isolation device when it is 
+being worked on by another.  When isolating devices are not lockable, tagout 
+will be used instead of lockout.  When isolating devices are lockable, lockout 
+along with tagout should be employed. 
+8
+ 
+Every authorized employee working on a system shall independently 
+lockout and tagout the system using his or her own lock and tag or by use of 
+a lockout hasp(at no time should any employee depend on the lock and tag of 
+another worker to protect them during their service activities.  Use your own 
+lock and tag.)  
+ Dissipate or restrain stored and residual energy using methods such as 
+grounding, repositioning, blocking, bleeding, etc.  (Capacitors, springs, 
+hydraulic systems, and air/gas/water pressure systems may contain stored or 
+residual energy.) 
+ 
+ Ensure that all employees are clear from the equipment.  Then, test the 
+equipment for successful isolation by attempting to operate it.  Return the 
+operating control to off or neutral after verifying the isolation. 
+ 
+ The machine or equipment is now locked/tagged out. 
+ 
+B. Removing Lockout/Tagout Devices 
+When service and maintenance are complete, authorized employees may 
+remove their lockout/tagout devices and return equipment to normal 
+operations.  The following steps provide a brief outline of approved 
+removal procedures: 
+ Inspect the work area and remove any nonessential items.  Make sure the 
+isolation equipment is intact and in good working condition. 
+ 
+ Ensure that all employees are safely removed from the equipment and that 
+they have been informed that the system will be turned on. 
+ 
+ Verify that the equipment controls are in neutral or off. 
+ 
+ Remove the lockout/tagout devices and re-energize the equipment (You 
+should only remove your own lockout/ tagout device.  It is the responsibility of 
+each authorized employee to remove his or her own lock and tag). 
+ 
+ Note:  The removal of some forms of blocking may require the equipment 
+to be re-energized before safe removal. 
+ Notify affected employees and departments that the service is complete and 
+the equipment is ready for operation. 
+ 
+If it is necessary to remove a lock of an authorized employee that is not present, 
+the following procedures should be employed along with the normal lock/tag 
+removal procedures previously described (see section III-B). Only the Foreman 
+9
+of the work crew involved can remove the lock of the authorized employee and 
+only under the following conditions: 
+ 
+A thorough visual inspection of the work site must be performed to ensure 
+that the work area is clear and the authorized employee is not present; 
+ 
+ 
+The foreman or authorized employer representative shall verify that the 
+authorized employee is not on campus (under no circumstance should any 
+lockout or tagout device be removed unless it is confirmed that the 
+authorized employee is not on campus); 
+ 
+ 
+All reasonable efforts to contact the authorized employee shall be made to 
+inform the employee that his/her lockout/tagout device has been removed;   
+ 
+ 
+The employer shall ensure that the authorized employee is aware that the 
+device has been removed before he/she resumes work on campus. 
+The focus of these removal procedures is to ensure that the authorized employee 
+is not in the work area, and that they will not return to the work area assuming 
+that the equipment is still locked/tagged out. 
+C. Lockout/Tagout Training 
+Employees whose work requires them to service systems containing any of the 
+potentially hazardous energy sources described above (Section III) must receive 
+documented training on proper lockout/tagout procedures.  This initial training 
+must be supplemented by documented annual refresher training.  Only those 
+employees who have received proper training will be authorized to work on 
+systems containing hazardous energy sources.  New Facility Management 
+employees must receive a copy of this procedural document, documented 
+training, and their own lock, tag and key before they are allowed to work alone on 
+systems containing recognized hazardous energy sources. 
+All employees working with the equipment or at the work site must receive 
+awareness training on lockout/tagout procedures. 
+D. Contractors 
+Due to the added risk of both contractors and UNC Facilities Management 
+employees working on a given system, the requirements for lockout/tagout 
+should receive special emphasis. Contractors shall notify UNC Facilities 
+Management whenever working around campus energy sources. Whenever 
+possible, campus systems are to be operated only by UNC Facilities 
+Management staff.  
+ 
+10
+ 
+ 
+ 
+ 
+IV. High Voltage Procedures  
+ 
+In addition to the guidelines associated with general electrical safety and lockout/tagout 
+procedures, there are more stringent safety requirements for high voltage systems.  
+ 
+The following list provides high-voltage safety guidelines. For more information, please 
+refer to Title 29 Section 1910.269 of the Code of Federal Regulations or NFPA 70E.  
+ 
+ Ensure that only authorized employees work around high voltage equipment.  
+ 
+ Provide a High Voltage warning sign when necessary. 
+ 
+ Ensure that terminal voltage ratings can withstand surges caused by electrical 
+faults or switching transients.  
+ 
+ Be careful around output circuits even when the input power is off. Parallel 
+power sources and energy storage devices can still be dangerous.  
+ 
+ Be careful when working with power supplies that serve more than one area.  
+ 
+ Before working in a high voltage area, inspect the power supply and check all 
+protective devices.  
+ 
+ Do not work alone near high voltage.  
+ 
+ Label equipment to identify power sources. Label input power sources to 
+identify connected power supply loads.  
+ 
+ Attach emergency shutdown instructions and phone numbers to equipment 
+that is remotely controlled or unattended while energized.  
+ 
+Before entering a power supply or associated equipment enclosure to work on 
+hazardous energy sources, complete the following:  
+ De-energize the equipment. 
+ 
+ 
+ Lockout/tagout the main input power circuit breaker.  
+ 
+11
+ Check for auxiliary power circuits that could still be energized.  
+ 
+ Inspect automatic shorting devices for proper operation.  
+ 
+ Short the power supply with grounding hooks.  
+ 
+ 
+A. Minimum Clear Working Space  
+ 
+The following table from the National Electric Code provides minimum depth of 
+clear working space in front of electrical equipment:  
+   
+Minimum Clear Distance [NEC Table 110.34(A)] 
+Normal Voltage to 
+Ground 
+Condition 1 
+Condition 2 
+Condition 3 
+601-2,500 V 
+900 mm (3 ft) 
+1.2 m (4 ft) 
+1.5 m (5 ft) 
+2,501-9,000 V 
+1.2 m (4 ft) 
+1.5 m (5 ft) 
+1.8 m (6 ft) 
+9001-25,000 V 
+1.5 m (5 ft) 
+1.8 m (6 ft) 
+2.8 m (9 ft) 
+25,001-75 kV 
+1.8 m (6 ft) 
+2.5 m (8 ft) 
+3.0 m (10 ft) 
+Above 75 kV 
+2.5 m (8 ft) 
+3.0 m (10 ft) 
+3.7 m (12 ft) 
+ 
+Where conditions (1), (2), and (3) are as follows:  
+(1) Exposed live parts on one side and no live or grounded parts on the other 
+side of the working space, or exposed live parts on both sides effectively 
+guarded by suitable wood or other insulating materials. Insulated wire or 
+insulated bus bars operating at not over 300 volts shall not be considered 
+live parts.  
+ 
+(2) Exposed live parts on one side and grounded parts on the other side. 
+Concrete, brick, or tile walls will be considered as grounded surfaces.  
+ 
+(3) Exposed live parts on both sides of the workspace [not guarded as 
+provided in condition (1)] with the operator between.  
+12
+ 
+V. Electrical Arc 
+An arc flash occurs when a vast amount of concentrated radiant energy explodes 
+outwards from electrical equipment creating a high-intensity flash that can damage 
+eyesight, may damage hearing, and send damage equipment or objects through the air. 
+A ball of gas may severely burn a worker’s body and melt metals.  
+A. Definitions 
+Arc Flash Hazard: A dangerous condition associated with the possible release 
+of energy caused by an electric arc.  
+Arc Flash Hazard Analysis: A study investigating a workers potential exposure 
+to arc-flash energy, conducted for the purpose of injury prevention and the 
+determination of safe work practices, arc flash protection boundary, and the 
+appropriate levels of PPE. 
+Boundary, Arc Flash Protection: When an arc flash hazard exists, an approach 
+limit at a distance from prospective arc source within which a person could 
+receive a second degree burn if an electrical arc flash were to occur. 
+Deenergized: Free from any electrical connection to a source of potential 
+difference and from electrical charge; not having a potential different from that of 
+the earth.  
+Electrical Hazard: A dangerous condition such that contact or equipment failure 
+can result in electric shock, arc flash burn, thermal burn, or blast. 
+Energized: Electrically connected to, or is, a source of voltage. 
+Shock Hazard: A dangerous condition associated with the possible release of 
+energy caused by contact or approach to energized electrical conductors or 
+circuit parts. 
+B. Flash Hazard Analysis  
+The NFPA 70E requires facilities to perform flash hazard analysis before workers 
+are allowed to work with energized equipment. A flash hazard analysis shall be 
+done by a qualified consultant or authorized employee in order to protect 
+personnel from the possibility of being injured by an arc flash. The analysis shall 
+determine the Flash Protection Boundary and the personal protective equipment 
+that people within the Flash Protection Boundary shall use. 
+ 
+ 
+ 
+13
+ 
+C. Flash Protection Boundary 
+For systems that are 600 volts or less, the Flash Protection Boundary shall be 
+4.0 ft, based on the product of clearing times of 2 cycles (0.033 second) and the 
+available bolted fault current of 50 kA or any combination not exceeding 100 kA 
+cycles (1667 ampere seconds). For clearing times and bolted fault currents other 
+than 100 kA cycles, or under engineering supervision, the Flash Protection 
+Boundary shall be calculated based on this formula: 
+ 
+or 
+ 
+ 
+ Dc = distance in feet from an arc source for a curable burn  
+ MVAbf = bolted fault Mega Volt Amps at point involved 
+ MVA = rating of transformer. (For transformers with MVA ratings below 0.75 
+MVA, multiply the  transformer MVA rating by 1.25.) 
+ t = time of arc exposure (in seconds). 
+ 
+At voltage levels above 600 volts, the Flash Protection Boundary is the distance 
+at which the incident energy equals 5 J/cm2(1.2 cal/cm2). For situations where 
+fault clearing time is equal to or less than 0.1 sec, the Flash Protection Boundary 
+is the distance at which the incident energy level equals 6.24 J/cm2(1.5 cal/cm2). 
+ 
+Note:  J/cm2 describes the units of energy, given in Joules, per square 
+centimeter, cal/cm2 describes the units of incident energy that the PPE 
+can withstand and expressed in calories per cubic centimeter squared 
+ 
+Refer to the NFPA 70E, Standard for Electrical Safety in the Workplace T130.2(C)-
+Approach Boundaries to Energized Electrical Conductors for additional approach 
+boundary information. 
+ 
+ 
+D. Personal Protective Equipment  
+ 
+In accordance with the NFPA 70E, employees working in areas where electrical 
+hazards are present shall be provided with, and shall use, protective equipment 
+that is designed and constructed for the specific part of the body to be protected 
+and for the work to be perform. 
+ 
+14
+Protective equipment shall be maintained in a safe, reliable condition. Protective 
+equipment shall be visually inspected before each use and shall be stored in a 
+manner to prevent damage from physically damaging conditions and from 
+moisture, dust and other deteriorating agents. When an employee is working 
+within the Flash Protection Boundary he/she shall wear protective clothing and 
+other personal protective equipment. 
+ 
+Movement and Visibility  
+ When flame-resistant (FR) clothing is worn to protect an employee, it shall 
+cover all ignitable clothing and shall allow for movement and visibility. 
+Head, Face, Neck, and Chin (Head Area) Protection 
+ Employees shall wear nonconductive head protection wherever there is a 
+danger of head injury from electric shock or burns due to contact with 
+energized electrical conductors or circuit parts or from flying objects resulting 
+from electrical explosion.  
+ 
+ Employees shall wear nonconductive protective equipment for the face, neck, 
+and chin whenever there is a danger of injury from exposure to electric arcs 
+or flashes or from flying objects resulting from electrical explosion. If 
+employees use hairnets and/or beard nets, these items must be non-melting 
+and flame resistant.  
+ 
+Face Protection 
+ Face shields shall have an arc rating suitable for the arc flash exposure. Face 
+shields without an arc rating shall not be used.  
+ 
+ Face shields made with energy-absorbing formulations that can provide 
+higher levels of protection from the radiant energy of an arc flash are 
+available, but these shields are tinted and can reduce visual acuity and color 
+perception. Additional illumination of the task area might be necessary when 
+these types of arc protective face shields are used. 
+ 
+Eye Protection 
+ Employees shall wear protective equipment for the eyes whenever there is 
+danger of injury from electric arcs, flashes, or from flying objects resulting 
+from electrical explosion. 
+ 
+ Eye protection (safety glasses or goggles) shall always be worn under face 
+shields or hoods. 
+ 
+ 
+15
+ 
+ 
+ 
+Body Protection 
+ Employees shall wear FR clothing wherever there is possible exposure to an 
+electric arc flash above the threshold incident-energy level for a second-
+degree burn, 5 J/cm2 (1.2 cal/cm2). 
+ 
+ Such clothing can be provided as an arc flash suit jacket and arc flash suit 
+pants, shirt and pants or as coveralls, or a combination of jacket and pants or 
+for increased protection, as coveralls with jacket and pants. Various weight 
+fabrics are available.  
+ 
+ The higher degree of protection is provided by heavier weight fabrics and/or 
+by layering combinations of one or more layers of FR clothing. In some cases 
+one or more layers of FR clothing are worn over flammable, non-melting 
+clothing. 
+Arc Flash Suits 
+ Arc Flash suit design shall permit easy and rapid removal by the wearer. The 
+entire flash suit, including the hood’s face shield, shall have an arc rating that 
+is suitable for the arc flash exposure.  
+ 
+ When exterior air is supplied into the hood, the air hoses and pump housing 
+shall be either covered by FR materials or constructed of non-melting and 
+nonflammable materials. 
+ 
+Hand and Arm Protection 
+ Employees shall wear rubber insulating gloves with leather protectors where 
+there is danger of hand and arm injury from electric shock due to contact with 
+energized electrical conductors or circuit parts.  
+ 
+ Employees shall wear rubber insulating gloves with leather protectors and 
+rubber insulating sleeves where there is a danger of hand and arm injury from 
+electric shock due to contact with energized electrical conductors or circuit 
+parts. Rubber insulating gloves shall be rated for the voltage for which the 
+gloves will be exposed.  
+Hand Protection 
+ Leather or FR gloves shall be worn where required for arc flash protection. 
+Where insulating rubber gloves are used for shock protection, leather 
+protectors shall be worn over the rubber gloves. 
+16
+ 
+ 
+ 
+ 
+Foot and Leg Protection 
+ Where insulated footwear is used as protection against step and touch 
+potential, dielectric overshoes shall be required. Insulated soles shall not be 
+used as primary electrical protection. 
+ 
+ Heavy-duty leather work shoes provide some arc flash protection to the feet 
+and shall be used in all tasks in Hazard/Risk Category 2 and higher and in all 
+exposures greater than 4 cal/cm2. 
+ 
+Refer to Appendix B for Table 130.7(C)(10) Protective Clothing and Personal 
+Protective Equipment (PPE) 
+ 
+ 
+E. Training Requirements 
+ 
+The training requirements apply to employees who face a risk of electrical hazard 
+that is not reduced to a safe level by the applicable electrical installation 
+requirements. Employees shall be trained to understand the specific hazards 
+associated with electrical energy. Employees shall be trained in safety-related 
+work practices and procedural requirements as necessary to provide protection 
+from the electrical hazards associated with their respective job or task 
+assignment, and be able to identify and understand the relationship between 
+electrical hazards and possible injury. 
+ 
+(1) Training  
+ The training shall be classroom or on-the-job type training as required by 
+the NFPA 70E. 
+ 
+ Employees exposed to shock hazards shall be trained in methods of release 
+of victims from contact with exposed energized electrical conductors or 
+circuit parts. 
+ 
+ Employees shall be regularly instructed in methods of first aid and 
+emergency procedures such as approved methods of resuscitation.  
+ 
+(2) Retraining 
+Employees must receive additional training or retraining under any of the 
+following conditions: 
+ 
+17
+ If the supervision or annual inspections indicate that the employee is not 
+complying with the safety-related work practices. 
+ 
+ If new technology, new types of equipment, or changes in procedures 
+necessitate the use of safety-related work practices that are different from 
+those that the employee would normally use.  
+ 
+ If he or she must employ safety-related work practices that are not normally 
+used during his or her job duties. 
+ 
+ Annual refresher training must supplement the initial training. 
+ 
+ 
+(3) Training Documentation 
+ The employer shall document that each employee has received proper 
+training. 
+ 
+ This documentation, including name and dates of training, shall be made 
+when the employee demonstrates proficiency in the work practices involved 
+and shall be maintained for the duration of the employee’s employment. 
+ 
+VI. Electrical Emergency Response 
+ 
+The following instructions provide guidelines for handling two types of electrical 
+emergencies: 
+ 
+A. 
+Electric Shock Emergency 
+ 
+When someone suffers serious electrical shock, he or she may be knocked 
+unconscious.  If the victim is still in contact with the electrical current, immediately 
+turn off the electrical power source.  If the power source cannot be disconnected, 
+try to separate the victim from the power source with a non-conductive object, 
+(such as a wood handled broom). 
+ 
+Important:  Do not touch a victim that is still in contact with a power source; you 
+could electrocute yourself. 
+ 
+Call 911 for emergency medical assistance immediately.  Administer first-aid, as 
+appropriate, once the individual is free from the live power source. 
+ 
+B. Electrical Fire Emergency 
+ 
+If an electrical fire occurs, try to disconnect the electrical power source, if 
+possible.  Call 911.  If the fire is small, you are not in immediate danger, and you 
+18
+have been trained in fire extinguisher use, use a type C fire extinguisher to 
+extinguish the fire. 
+ 
+Important:  Do not use water on an electrical fire. 
+Appendices  
+Appendix A—Lockout/Tagout Checklist 
+ 
+INSPECTION CHECKLIST FOR CONTROL OF HAZARDOUS ENERGY 
+Employee Name: 
+ 
+Equipment: 
+ 
+Date: 
+ 
+Procedure: 
+ 
+Location: 
+ 
+    Hazardous Energies Involved: 
+    a) Electrical       Voltage:____ 
+    b) Chemical  
+    c) Pressure (pneumatic/hydraulic) 
+    d) Vacuum 
+    e) Thermal: High Temp:_____ Cyrogenics:_____ 
+   f) Ionizing Radiation 
+   g) Non-Ionizing Radiation: 
+           Ultraviolet____ Infrared____ 
+           RF/Microwave____ Laser____ 
+           Magnetic Fields____ 
+   h) Stored                           i) Mechanical 
+Procedural Steps 
+YES 
+NO 
+Comments 
+TO LOCK OUT THE EQUIPMENT 
+1. Notified affected employees and/or outside contractors 
+of LOTO. 
+ 
+2. Identified all power disconnect points:________ 
+ 
+3. Stopped or powered down equipment. 
+ 
+4. Isolated equipment from all hazardous energies 
+sources. Number of isolation points:____ 
+ 
+5. Applied LOTO device(s) energy isolating device 
+locked in OFF position.  
+ 
+6. Attached LOTO Tag to Lock. 
+ 
+7. Dissipated, drained, or safely released stored or 
+residual energy. 
+ 
+8. Blocked mechanical parts or removed mechanical 
+links. 
+ 
+9. Attempted to re-start machinery or re-energize 
+equipment through normal means. 
+Returned switch to OFF position. 
+ 
+10. Verified no hazardous energies present or isolated. 
+Identify test equipment/meters. 
+ 
+TO RE-ENERGIZE THE EQUIPMENT 
+1. Inspected work zone to ensure it is clear of equipment, 
+workers, tools and test equipment. 
+ 
+2. Unlocked and removed any blocking devices 
+and replaced mechanical linkages. 
+ 
+3. Repositioned safety valve(s) left open to 
+prevent re-buildup of pressure. 
+ 
+4. Checked all guarding and safety controls properly 
+replaced. 
+ 
+5. Warned workers to stay clear of area. 
+ 
+6. Removed all locks and tags from energy control 
+points. 
+ 
+19
+7. Verified area clear of personnel. 
+ 
+8. Restarted/re-energized equipment. 
+ 
+9. Notified Affected Employees and/or contractors LOTO 
+completed. 
+ 
+Appendix B—Hazard and Risk Personal Protective Equipment Matrix 
+ 
+Table 130.7(C)(10) Protective Clothing and Personal Protective Equipment (PPE) 
+Hazard/Risk Category 
+Protective Clothing and PPE 
+Hazard/Risk Category 0 
+Protective Clothing, Nonmelting (according to 
+ASTM F 1506-00) or Untreated Natural Fiber 
+ 
+FR Protective Equipment 
+ 
+ 
+  
+Shirt (long sleeve) 
+Pants (long) 
+ 
+Safety glasses or safety goggles (SR) 
+Hearing protection (ear canal inserts) 
+Leather gloves (AN) Note 2 
+Hazard/Risk Category 1 
+FR Clothing, Minimum Arc Rating of 4 (Note 1) 
+ 
+ 
+ 
+ 
+ 
+FR Protective Equipment 
+ 
+ 
+ 
+ 
+ 
+Arc-rated long-sleeve shirt (Note 3) 
+Arc-rated pants (Note 3) 
+Arc-rated coverall (Note 4) 
+Arc-rated face shield or arc flash suit hood (Note 7) 
+Arc- rated jacket, parka, or rainwear (AN) 
+ 
+Hard hat 
+Safety glasses or safety goggles (SR) 
+Hearing protection (ear canal inserts) 
+Leather gloves (Note 2) 
+Leather work shoes (AN) 
+Hazard/Risk Category 2 
+FR Clothing, Minimum Arc Rating of 8 (Note 1) 
+ 
+ 
+ 
+ 
+ 
+FR Protective Equipment 
+ 
+ 
+ 
+ 
+ 
+Arc-rated long-sleeve shirt (Note 5) 
+Arc-rated pants (Note 5) 
+Arc-rated coverall (Note 6) 
+Arc-rated face shield or arc flash suit hood (Note 7) 
+Arc rated jacket, parka, or rainwear (AN) 
+ 
+Hard hat 
+Safety glasses or safety goggles (SR) 
+Hearing protection (ear canal inserts) 
+Leather gloves (Note 2) 
+Leather work shoes 
+Hazard/Risk Category 2* 
+FR Clothing, Minimum Arc Rating of 8 (Note 1) 
+ 
+ 
+ 
+ 
+ 
+FR Protective Equipment 
+ 
+ 
+ 
+ 
+Arc-rated long-sleeve shirt (Note 5) 
+Arc-rated pants (Note 5) 
+Arc-rated coverall (Note 6) 
+Arc-rated face shield or arc flash suit hood (Note 10) 
+Arc rated jacket, parka, or rainwear (AN) 
+ 
+Hard hat 
+Safety glasses or safety goggles (SR) 
+Hearing protection (ear canal inserts) 
+Leather gloves (Note 2) 
+Leather work shoes 
+ 
+ 
+ 
+20
+ 
+ 
+ 
+ 
+Table 130.7(C)(10) Continued 
+Hazard/Risk Category 3 
+FR Clothing, Minimum Arc Rating of 25 (Note 1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FR Protective Equipment 
+ 
+ 
+ 
+ 
+ 
+ 
+Arc-rated long-sleeve shirt (AR) (Note 8) 
+Arc-rated pants (AR) (Note 8) 
+Arc-rated coverall (AR) (Note 8) 
+Arc-rated flash suit jacket (Note 8) 
+Arc-rated flash suit pants (Note 8) 
+Arc-rated flash suit hood (Note 8) 
+Arc rated jacket, parka, or rainwear (AN) 
+ 
+Hard hat 
+FR hard hat liner (AR) 
+Safety glasses or safety goggles (SR) 
+Hearing protection (ear canal inserts) 
+Arc-rated gloves (Note 2) 
+Leather work shoes 
+Hazard/Risk Category 4 
+FR Clothing, Minimum Arc Rating of 40 (Note 1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FR Protective Equipment 
+ 
+ 
+ 
+ 
+ 
+Arc-rated long-sleeve shirt (AR) (Note 9) 
+Arc-rated pants (AR) (Note 9) 
+Arc-rated coverall (AR) (Note 9) 
+Arc-rated flash suit jacket (Note 9) 
+Arc-rated flash suit pants (Note 9) 
+Arc-rated flash suit hood (Note 9) 
+Arc rated jacket, parka, or rainwear (AN) 
+ 
+Hard hat 
+FR hard hat liner (AR) 
+Safety glasses or safety goggles (SR) 
+Hearing protection (ear canal inserts) 
+Arc-rated gloves (Note 2) 
+Leather work shoes 
+AN = As needed (optional) 
+AR = As required 
+SR = Selection required 
+Notes: 
+1. See Table 130.7(C)(11) Arc rating for a garment or system of garments is expressed in cal/cm2. 
+2. If rubber insulating gloves with leather protectors are required by Table 130.7(C)(9), additional leather or arc-rated 
+gloves are not required. The combination of rubber insulating gloves with leather protectors satisfies the arc flash 
+protection requirement. 
+3. The FR shirt and pants used for Hazard/Risk Category 1 shall have a minimum arc rating of 4. 
+4. Alternate is to use FR coveralls (minimum arc rating of 4) instead of FR shirt and FR pants.  
+5. FR shirt and FR pants used for Hazard/ Risk Category 2 shall have a minimum arc rating of 8. 
+6. Alternate is to use FR coveralls (minimum arc rating of 8) instead of FR shirt and FR pants.  
+7. A face shield with a minimum arc rating of 4 for Hazard/Risk Category 1 or a minimum arc rating of 8 for 
+Hazard/Risk Category 2, with wrap-around guarding to protect not only the face, but also the forehead, ears and neck 
+(or, alternatively, an arc-rated arc flash suit hood), is required.  
+8. An alternate is to use a total FR clothing system and hood, which shall have a minimum arc rating of 25 for 
+Hazard/Risk Category 3. 
+9. The total clothing system consisting of FR shirt and pants and/or FR coveralls and/or arc flash coat and pants and 
+hood shall have a minimum arc rating of 40 for Hazard/Risk Category 4. 
+21
+22 
+ 
+10. Alternate is to use a face shield with a minimum arc rating of 8 and a balaclava (sock hood) with a minimum arc 
+rating of 8 and which covers the face, head and neck except for the eye and nose areas.

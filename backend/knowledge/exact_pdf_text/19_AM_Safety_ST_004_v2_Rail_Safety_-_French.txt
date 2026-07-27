@@ -1,0 +1,217 @@
+ 
+ 
+ 
+Santé & Sécurité 
+STANDARDS 
+ 
+REF : AM Sécurité  ST 004 
+Sécurité Rails 
+Date de publication : 20.12.2007 
+Version : 2 
+Date de révision : 08.05.2012 
+ 
+Sécurité Rails 
+ 
+Circuit de vérification : 
+Rédigé par : 
+Vérifié par : 
+Approuvé par : 
+Nom : 
+Johan 
+Remmery, 
+Bernard 
+Bonvier, 
+Klaus Niemeyer 
+HSLT 
+Frank HAERS 
+ 
+ 
+ 
+1. Domaine d’application 
+ 
+1.1. Concernant les travaux effectués à côté ou sur les rails, notre Groupe veut, au minimum, 
+se conformer à la réglementation locale qui prévaut. Lorsque les préconisations AM sont plus 
+exigeantes, ce sont elles qui doivent être appliquées. 
+ 
+1.2. Cette procédure doit être appliquée pour tous les travaux s’effectuant sur ou à proximité 
+des équipements de chemins de fer et des voies. 
+ 
+2. Opérations 
+ 
+2.1. Une identification et évaluation des risques (HIRA) documentée doit être effectuée afin 
+d'identifier tous les dangers et les risques associés aux opérations ferroviaires et au matériel 
+roulant en particulier ceux liés et ne se limitant pas à: : 
+ 
+- vitesses maximales de sécurité 
+- opérations de triage 
+- opérations d’accrochage et de décrochage 
+- garage de matériel roulant 
+- chargement et déchargement (des marchandises particulièrement dangereuses comme 
+les substances liquides chaudes, la ferraille, ...) 
+- accéder à ou descendre des véhicules (locomotives et wagons) 
+- pénétrer dans les bâtiments 
+- les zones à gabarit réduit 
+- travailler sur ou à proximité des voies ferrées 
+-............................ Etc 
+ 
+Sur ces sujets, des règles de sécurité claires doivent être écrites. 
+ 
+2.2. Toutes les personnes impliquées dans le fonctionnement des opérations ferroviaires et du 
+matériel roulant doivent être formées et compétentes. Seule une personne autorisée est 
+autorisé à conduire ou voyager sur les voitures, wagons ou locomotives ou effectuer des 
+opérations ferroviaires. Toutes les tâches, responsabilités et formations doivent être 
+correctement documentées. 
+ 
+ 
+Santé& Sécurité 
+ 
+Page 1 de4
+ 
+2.3. L'évaluation des risques doit également identifier toutes les zones à gabarit réduit autour 
+des voies. Celles-ci doivent être identifiées et signalées. 
+ 
+2.4. Un intervalle adéquat (également appelé gabarit de libre passage), soit vertical ou 
+horizontal, est nécessaire pour assurer la sécurité ferroviaire et constitue une partie intégrante 
+de toute l'ingénierie du système ferroviaire. Là où l’intervalle libre adéquat n'est pas présent, 
+on parle de zone à gabarit réduit. 
+ 
+2.5. Il doit y avoir une procédure d’inspection afin d’établir que le matériel est en bon état de 
+fonctionnement avant utilisation. Cette inspection doit englober tous les équipements mis en 
+évidence dans l’évaluation des risques, en particulier tous les dispositifs de sécurité. Des 
+enregistrements doivent être conservés (rails, passages à niveau, signalisation et matériel 
+roulant) et les anomalies détectées doivent être corrigés rapidement au sein d’un système 
+formalisé. 
+ 
+2.6. Les locomotives doivent être équipées d’un éclairage frontal et de dispositif sonore tel 
+qu’un un klaxon de train. Le dispositif sonore doit être activé avant de déplacer la locomotive, 
+lors de l'entrée dans un bâtiment, lors d’un franchissement de passage à niveau ou de passages 
+pour piétons Les phares doivent être allumés pendant que la locomotive est en mouvement. 
+ 
+2.7. Avant d'entrer dans un bâtiment, les freins doivent être testés, l'alerte doit être donnée et 
+la vitesse adaptée. 
+ 
+2.8. Les Procédures pour monter et descendre des trains doivent inclure l'utilisation de 
+marchepieds, poignées et des échelles/marches conçus et placés de façon à prévenir les 
+blessures aux jambes, pieds et mains. Il n'est jamais permis de monter, descendre ou passer 
+sur un équipement en mouvement. Lorsque cela n’est pas réalisable, une analyse des risques 
+doit être menée pour définir la meilleure pratique possible. Pour monter à bord ou descendre 
+d’un équipement ferroviaire, trois points de contact doivent être utilisées à tout moment. 
+ 
+2.9. Les Plans d'intervention d'urgence doivent intégrer les questions ferroviaires. 
+ 
+2.10. Toutes les fins de voies doivent être équipées de heurtoirs conçus de manière 
+appropriée, de dispositifs d'arrêt ou de murs d'impact. 
+ 
+2.11. Des cales doivent être utilisées pour empêcher le matériel roulant garé de se déplacer. 
+ 
+ 
+3. Travailler sur le train et les voies 
+ 
+3.1. Toute personne amenée à travailler sur ou à moins de 3 mètres d'une voie ferrée doit être 
+protégée des mouvements ferroviaires en consignant la voie par taquets dérailleurs ou par 
+blocage d’un aiguillage. Ceci doit être décrit dans une procédure. 
+ 
+3.2. Pour tout travail sur ou dans les 3 mètres (distance du plus proche des rails) d'une voie 
+ferrée, une autorisation écrite de la personne désignée pour les activités ferroviaires, basée sur 
+une analyse des risques et associée à un plan de réduction du risque, est nécessaire avant que 
+le travail ne commence. 
+ 
+ 
+Santé& Sécurité 
+ 
+Page 2 de4
+ 
+3.3. Avant de commencer les travaux où la consignation de la voie ferrée est nécessaire, le 
+superviseur, ou son représentant, doit en aviser les responsables des opérations ferroviaires et  
+les alerter du travail à effectuer. Des enregistrements doivent être réalisés et conservés. 
+ 
+3.4. Les personnes travaillant sur ces zones doivent porter les EPI requis par l'analyse des 
+risques. 
+ 
+ 
+3.5. Lorsqu’une barrière de sécurité conforme est installée pendant les travaux, tout le monde 
+doit rester à plus de 1,50 mètres (distance du plus proche des rails) de la voie ferrée. Si une 
+barrière de sécurité est utilisée en tant qu’élément contribuant à la sécurité du travail, on ne 
+doit pas s'appuyer contre elle ou y appuyer des outils ou des équipements. 
+ 
+3.6. Lorsque la consignation de la voie n'est réalisable en pratique, un dispositif de détection 
+de l’approche d’un train peut être utilisé comme protection de la voie. Une analyse des risques 
+doit être effectuée pour définir les conditions spécifiques où un tel dispositif est autorisé (par 
+exemple lorsque l’exploitation ne peut pas être arrêtée ou ralentie, cas du besoin de transport 
+de métal chaud entre un haut-fourneau et une aciérie, raisons d'urgence, ..) et doit inclure les 
+conditions suivantes : 
+ 
+•Tous les travaux sur les voies ferrées nécessitent la permission écrite de la personne 
+désignée de l'exploitation ferroviaire. 
+ 
+•Une personne n’a le qualificatif de surveillant ou de vigie qu’en suivant avec succès 
+une formation et doit avoir la connaissance des caractéristiques physiques de la zone et 
+des opérations ferroviaires. 
+ 
+•Les travailleurs sur les voies / la chaussée font des inspections de routine ou des 
+réparations mineures qui n'affectent pas le déplacement des trains en toute sécurité. 
+ 
+•La voie doit être libre de tout équipement. 
+ 
+•La personne surveillant / vigie doit pouvoir voir l'arrivée d'un train, d’une loco, ou autre 
+matériel roulant ferroviaire approchant à la vitesse maximale autorisée. Toutes les 
+personnes présentes (vigie et travailleurs) doivent pouvoir se déplacer et se mettre en 
+sécurité dans un lieu prédéterminé au moins 15 secondes avant que le train, la loco autre 
+matériel roulant ferroviaire n’arrive. 
+ 
+•Cela peut nécessiter, selon la géométrie de la voie, de limiter la vitesse du train ou de la 
+loco, accompagné d'une information adéquate aux conducteurs et de la signalisation 
+appropriée de la vitesse maximum en local 
+ 
+•Fournir suffisamment d'avertissements visuels et sonores aux employés qu'un train ou 
+un autre équipement mobile se rapproche 
+ 
+•Les employés doivent s'engager à réagir sans délai à tous les signaux donnés par le 
+surveillant / vigie 
+ 
+•...................Etc 
+ 
+ 
+Santé& Sécurité 
+ 
+Page 3 de4
+ 
+ 
+Santé& Sécurité 
+ 
+Page 4 de4 
+ 
+ 
+ 
+ 
+4. Piétons et véhicules 
+ 
+4.1. Les équipements roulants doivent avoir la priorité à tout moment. Les véhicules doivent 
+marquer un arrêt complet avant de traverser toute voie ferrée. 
+ 
+Des formations appropriées ainsi que des panneaux de signalisation doivent être mis en place 
+notamment aux entrées du site afin de s’assurer que tout le personnel, les sous traitants et 
+visiteurs soient alertés de cette règle. 
+ 
+4.2. Un plan / carte du trafic ferroviaire doit être défini et affiché (avec toutes les voies de 
+circulation, garage et triage, les passages à niveau et les passages piétons, les équipements 
+ferroviaires). 
+ 
+4.3. Seuls les passages approuvés peuvent être utilisés pour traverser les voies. Ces passages 
+désignés doivent être signalés, éclairés de manière adéquate et libres de tout obstacle qui 
+pourrait diminuer la visibilité des voies. 
+ 
+4.4. Lors du franchissement d’une voie (à moins que la voie soit consignée); il faut être à une 
+distance minimum de 3 mètres des locomotives, wagons/voitures stationnant, des heurtoirs ou 
+de tout autre objet fixe sur la voie. 
+ 
+4.5. Marcher sur les voies est interdit. Pendant les opérations ferroviaires, personne n'est 
+autorisé sur les voies. 
+ 
+4.6. Aucune personne ou véhicule n’est autorisé dans les zones de gabarit réduit à moins que 
+la voie soit consignée. Les zones à gabarit réduit et dans de nombreux cas « zone n’ayant pas 
+d’intervalle libre » sont celles où la dimension faible de l’intervalle libre est source d’un 
+problème de sécurité, c'est-à-dire lorsque il y a peu ou pas d’espace pour passer en sécurité 
+entre le wagon et un obstacle fixeTout accès à ces zones de gabarit réduit ne peut être fait 
+qu’en application d’une procédure documentée élaborée à partir d'une évaluation des risques 
+et les personnes entrant dans ces zones à gabarit réduit doivent être autorisées.

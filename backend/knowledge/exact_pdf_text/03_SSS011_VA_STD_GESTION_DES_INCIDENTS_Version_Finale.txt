@@ -1,0 +1,1588 @@
+Gestion des incidents
+Sonasid Safety Standard
+SSS-011-A
+Gestion des incidents
+Sonasid Safety Standard
+SSS-011-A
+Version
+Date 
+Motif de la révision 
+A
+31/03/2026
+Création du standard et ses annexes
+Gestion des incidents
+SSS-011-A
+Sonasid Safety Standard
+Nom & Prénom
+Site
+Sokaina Elbouaazaoui
+SONASID GROUPE
+Yazid EL Jaouhari
+SONASID NADOR
+Wijdane Nouioura
+LONGOMETAL
+AFRIQUE
+Rachid ElKord
+Hamza Jadoual
+Ali El Hachimi
+Yassine Jaafari
+Atifa Redouane
+LONGOMETAL
+ARMATURES
+Nom & Prénom
+Site
+Imane Mtibat
+SONASID JORF
+Abdelkarim Omari
+Lahcen Benharouga
+Adnane Amraoui
+Faysal Nadori
+Mohamed Amine Bazar
+SONASID PFC & 
+SIEGE
+Abdelghani Bouabdalli
+Mohamed Jouaoudi
+Résumé Exécutif: 
+ Le présent Standard définit l’approche globale, adoptée par le groupe Sonasid, relative à la
+gestion des Incidents SST en conformité avec les réglementations en vigueur et les exigences des
+parties prenantes concernées et les bonnes pratiques des secteurs industriels de haut niveau.
+ Son objectif est de prévenir leur récurrence à travers des processus de collecte des données,
+d’analyse des causes, de mise en place des plans d’action pertinents et d’audit régulier de leur
+efficacité.
+ Il définit également les rôles responsabilités de l’ensemble des niveaux et fonctions concernées
+par la gestion des accidents et incidents au sein du groupe Sonasid.
+« Nous exprimons notre gratitude aux contributeurs cités ci-dessous pour leur expertise et leur
+engagement dans l'élaboration de ce standard : »
+01/20
+1
+Risk
+2
+Culture
+3
+Gouvernance
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+1. 
+Généralité 
+1.1
+1.2 
+1.3
+1.4
+Objectif  
+Domaine d’application
+Références
+Définitions et abréviations
+4. 
+Prescriptions et règles de gestion
+4.1
+4.2.
+4.3.
+4.3.1.
+4.3.2.
+4.3.3.
+4.3.4.
+4.3.5.
+4.3.6.
+4.3.7.
+4.3.8.
+4.3.9.
+4.3.10.
+4.3.11.
+4.4.
+4.5.
+4.6.
+4.7.
+Formation 
+Classification des Incidents 
+Processus de gestion interne des accidents et des incidents
+           Survenance ou Détection de Incident
+           Sécurisation de la Scène et Premiers Secours
+           Alerter et Signaler Immédiatement
+           Collecte des Faits
+           Élaboration du Flash Incident
+           Diffusion du Flash Incident
+           Analyse / Rapport REX Incident
+           Validation du Rapport REX Incident
+           Diffusion du REX Incident
+           Suivi des plans d’actions
+           Qualité du Processus d'Enquête Incidents
+Gestion administrative des accidents survenus aux collaborateurs SONASID 
+Bonnes pratiques
+Audit, analyse et amélioration continue 
+Conservation et archivage
+2. 
+Rôles et responsabilités
+3. 
+Logigramme
+5. 
+Indicateurs de performance
+6. 
+Annexes
+Sommaire 
+......................................................................
+......................................................................
+......................................................................
+......................................................................
+...................................................................
+...................................................................
+...................................................................
+...................................................................
+.......................................................................
+...................................................................
+...................................................................
+.......................................................................
+.....................................
+............
+.......................................................................
+.......................................................................
+.......................................................................
+.........................................................
+................................................
+...................................................................
+.......................................................................
+......................................................................
+...................................................................
+.......................................................................
+...............................................................
+.......................................................................
+...............................................................
+02/20
+3
+3
+3
+3
+3
+6
+9
+11
+11
+11
+13
+13
+13
+14
+19
+20
+13
+13
+14
+15
+15
+15
+16
+17
+17
+18
+19
+1
+Risk
+2
+Culture
+3
+Gouvernance
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+.......................................................... 16
+  1 )  G E N E R A L I T E S
+1.3 Références 
+1.1 Objectif 
+1.2 Domaine d’application 
+Le présent standard a pour objectif d’établir une approche systémique et cohérente pour la
+gestion des incidents de tout type dès leur survenance jusqu’à leur clôture afin de prévenir
+leur récurrence et par conséquent assurer une amélioration continue des conditions
+globales relative à la santé et sécurité au travail au sein du Groupe Sonasid.
+Les exigences de ce standard s’appliquent à toutes les entités du Groupe Sonasid, y compris
+Nador, Jorf, le Port de Jorf, la PFC, le Siège, LMAr, LMAf et toute entité gérée ou exploitée par
+l’un de ces sites.
+Il s’applique, également, sur les entreprises externes directes et leurs sous-traitants
+intervenants dans l’ensemble des sites mentionnés ci-avant, garantissant ainsi une application
+uniforme et une couverture plus large de toutes les opérations sous le contrôle du groupe
+Sonasid.
+Les accidents de trajet des collaborateurs avec leurs voitures personnelles ou avec tout autre
+moyen (personnel ou public) sont comptabilisés à des fins statistiques et réglementaires, mais
+ne sont pas inclus dans le processus d'analyse des causes (RCA) ni de rapport REX.
+Le domaine d'application de ce standard inclut l'ensemble du personnel SONASID, les
+entreprises extérieures, les stagiaires, les clients, les visiteurs et les travailleurs intérimaires,
+ou toute autre personne interne/externe ayant subi ou été impliquée dans un incident sur les
+sites.
+Les dispositions du présent standard ne s’appliquent pas aux :
+Incidents dont l’impact est exclusivement environnemental ;
+Maladies professionnelles dont leur traitement est géré suivant les procédures RH en
+vigueurs ;
+AM Safety ST 010 ( Safety Metrics);
+AM Safety ST 011 ( Incident Investigation);
+Loi 65-99 relative au Code du Travail Marocain, notamment les dispositions relatives à la
+santé et sécurité au travail (Art. 281 à Art. 344) ;
+Loi 18.12 relative à la réparation des accidents de travail et des maladies professionnelles ;
+Arrêté n° 1137.15 du 11 décembre 2015 fixant les modèles de déclaration d'accident de
+travail;
+Arrêté n° 2059.15 du 11 décembre 2015 fixant les mesures particulières de protection des
+travailleurs ;
+03/20
+1
+Risk
+2
+Culture
+3
+Gouvernance
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+1.4 Définitions & Abréviations 
+1.4.1. Défintions
+Site : Un des sites opérationnels de production, de Développement Industriel, le Siège
+Social ou toute autre Direction du Groupe SONASID;
+Victime : Toute personne ayant subi des lésions ou atteintes physique à la suite d’un accident de
+travail.
+Témoin : Toute personne ayant assistée à la survenance réelle d’un accident ou d’un incident.
+Incident : Événement soudain et indésirable qui a causé des dégâts corporels ou matériels, ou qui
+aurait pu les causer dans des circonstances légèrement différentes. Les incidents incluent les
+accidents (toute catégorie), les presqu’accidents et les incidents matériels.
+Accident de Trajet: Accident qui survient au collaborateur sur le parcours habituel entre son lieu
+de travail et sa résidence principale ou secondaire. Les déplacements effectués en dehors des
+horaires normaux de travail doivent faire l'objet d'une validation préalable du responsable
+hiérarchique (ordre de mission, appel, message WhatsApp, SMS ou e-mail, etc.).
+Accident de Travail: Événement soudain et indésirable qui a donné lieu à des dommages /
+conséquences corporels.
+Accident de Travail Fatal (ATF): Accident du travail entraînant le décès de un ou de plusieurs
+collaborateur(s), que ce soit immédiatement ou ultérieurement des suites directes de la
+lésion.
+Accident de Travail Avec Arrêt (ATAA): Accident entraînant une lésion corporelle qui rend la
+victime incapable de reprendre son poste de travail habituel dans le J+1 suivant l’évènement
+(hors jours fériés et jours de repos).
+Accident de Travail avec Poste Adapté (ATPA): Accident suite auquel le collaborateur,
+temporairement inapte à son poste habituel, maintient son activité dans l'entreprise en
+reprenant le travail au plus tard à J+1 (hors repos et jours fériés) sur un poste
+temporairement aménagé et validé par le Médecin du Travail en concertation avec le
+Médecin traitant de l’accidenté.
+Accident de Travail Sans Arrêts (ATSA - Aide Médicale): Accident nécessitant des soins
+médicaux professionnels externes (consultation d'un médecin, soins spécialisés, etc.), mais
+qui n'entraîne pas d'arrêt de travail (hors jours fériés et jours de repos). Le collaborateur
+peut reprendre ses fonctions normales le jour même ou J+1 suivant l'événement.
+Accident de Travail Type Premier Soin (ATPS) :  Accident nécessitant des soins médicaux
+internes (consultation d'un médecin, infirmerie, secouristes habilités, etc.), mais qui
+n'entraîne pas d'arrêt de travail (hors jours fériés et jours de repos). Le collaborateur peut
+reprendre ses fonctions normales le jour même ou J+1 suivant l'événement. Sont également
+inclus dans cette catégorie les examens complémentaires ou de vérification externes (tels
+que les radiographies, ...) lorsque les résultats sont négatifs.
+Incident Matériel: Accident matériel qui a causé exclusivement des dommages aux équipements
+ou aux installations, sans avoir entraîné ou pu entraîner des conséquences potentielles à l’humain.
+Presque Accident: Événement soudain et indésirable qui, dans des circonstances légèrement
+différentes, aurait pu donner lieu à un Accident de Travail, mais qui n'a pas entraîné de
+conséquences corporelles réelles.
+Situation Dangereuse (SD): Toute situation anormale non maîtrisée et non traitée de
+l'environnement de travail (matériel, lieu, ambiance) qui expose les personnes et/ou les
+installations à un risque potentiel d'incident (exemple: Absence de garde corps, armoire électrique
+non vérrouillée,...)
+04/20
+1
+Risk
+2
+Culture
+3
+Gouvernance
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+Acte Dangereux (AD): Tout comportement ou action humaine qui contrevient aux règles de
+sécurité établies et qui peut entraîner un risque potentiel d’accident de Travail.
+Potentiel de gravité (PSIF): désigne un événement (accident, presqu’accident, situation
+dangereuse, acte dangereux ou incident matériel) qui, en raison de son potentiel de gravité
+maximal, aurait pu entraîner des conséquences plus grave que ce qui a été réellement enregistrés,
+tel, une lésion irréversible ou le décès d'une ou de plusieurs personnes. 
+PSIF Réactif (Indicateur du Sommet de la Pyramide): Indicateur mesurant le nombre d'accidents,
+de presqu'accidents ou d'incidents matériels survenus qui, dans d'autres circonstances, auraient pu
+avoir des conséquences mortelles ou irréversibles pour l'humain et/ou le matériel (Voire Annexe
+SSS-011-06-A).
+PSIF Proactif (Indicateur de la Base de la Pyramide): Indicateur mesurant le nombre d'actes
+dangereux (AD) et de situations dangereuses (SD) qui, s'ils s'étaient transformés en accident,
+auraient pu avoir des conséquences mortelles ou irréversibles pour l'humain et/ ou pour le
+matériel. Il reflète l'engagement de la culture d'entreprise à analyser et traiter ces dérives critiques
+avant qu'un événement indésirable ne se produise (Voire Annexe SSS-011-06-A).
+ITT (Incapacité Temporaire Totale) : Incapacité médicalement reconnue mettant la personne dans
+l’impossibilité complète de se livrer à son activité professionnelle;
+Lésions Irréversibles : Blessures ayant menées à des séquelles définitives, à un handicap, perte de
+fonction d’un organe (ex. une amputation, perte d’un œil, …);
+Investigation (ou Enquête): Processus formel et structuré visant à identifier les faits, déterminer
+les causes directes, les causes racines et les facteurs contributifs ayant mené à la survenance d’un
+incident quelque soit son potentiel de gravité (PSIF et Non PSIF). L'objectif de l'investigation n'est
+pas de déterminer une culpabilité, mais de dégager des leçons et de recommander des actions
+correctives et préventives efficaces pour empêcher la récurrence de l'événement.
+Flash Incident: Notification préliminaire et urgente d'un incident, SD ou AD qui, en raison de sa
+gravité réelle ou de son potentiel (lésion grave ou mortalité), visant l’information et le partage
+immédiat au sein du groupe en attendant le rapport REX incident final.
+Rapport REX incident (Retour d'Expérience): Document de synthèse produit après l'analyse
+complète d'un incident quelque soit son type, sa classe et son potentiel de gravité (PSIF). Son
+objectif est de capitaliser sur les leçons apprises en détaillant l'événement, l'analyse des causes
+racines, les actions correctives et préventives mises en œuvre, et de diffuser ces informations au
+sein du Groupe pour éviter la récurrence de l'événement et renforcer la culture de sécurité.
+ATF: Accident au Travail Fatal;
+ATAA: Accident au Travail Avec Arrêt;
+ATSA: Accident au Travail Sans Arrêt;
+ATPA: Accident au Travail avec Poste Adapté;
+ATPS: Accident au Travail Premier Soin 
+AD: Acte Dangereux;
+SD: Situation Dangereuse;
+ITT: Incapacité Temporaire Totale;
+1.4.2. Abréviations
+PSIF: Potential d’Accident Mortel ou Grave;
+SST: Santé et Sécurité au Travail.
+RPI: Rapport de Passage à l’Infirmerie.
+REX: Rapport de Retour d’Expérience
+Incident
+RCA: Analyse par Arbre des Causes
+CHS: Comité d'Hygiène et de Sécurité 
+05/20
+1
+Risk
+2
+Culture
+3
+Gouvernance
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+2 )
+R O L E S
+&
+R E S P O N S A B I L I T E S
+Direction Générale
+Allouer les ressources nécessaires (financières, humaines, matérielles) pour l'application
+effective du standard;
+S'assurer que le présent standard est appliqué et respecté de manière effective dans
+l'ensemble de son périmètre de responsabilité.
+Examiner régulièrement les performances en matière de gestion des incidents et prendre
+les décisions stratégiques d’amélioration.
+Présider les réunions d’analyse des accidents mortels.
+Direction Santé et Sécurité au Travail (SST) du Groupe
+Assurer la révision et la mise à jour régulières du présent standard afin d'intégrer les
+évolutions réglementaires, les meilleures pratiques et les retours d'expérience en matière de
+gestion des incidents.
+Fournir l'expertise et l'accompagnement nécessaire aux équipes SST et aux opérationnels
+pour garantir une application optimale du standard.
+S'assurer de l'application et du respect effectif de ce standard par l'ensemble des entités et
+des sites du Groupe.
+Capitaliser et diffuser les leçons apprises et les bonnes pratiques issues des investigations
+d'incidents pour renforcer la culture de sécurité.
+Valider les fiches d'alerte et les Retours d'Expérience (REX) avant leur diffusion au niveau du
+Groupe.
+Vérifier la mise en œuvre effective des plans d’actions découlant des incidents et des leçons
+retenues.
+Direction de Site 
+S'assurer que les dispositions du présent standard et les exigences réglementaires
+applicables sont entièrement respectées sur son Site.
+S'assurer que toutes les investigations sont menées conformément à la méthodologie
+prescrite par le standard.
+Présider les réunions d’analyse des incidents de type AT avec arrêt et ATPA et incidents
+matériel supérieur à 1 MMAD.
+Valider toutes les fiches d’alerte et les REX de son Site.
+Surveiller régulièrement les KPI liés à la gestion des incidents, des plans d’actions associés
+et des leçons retenues.
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+06/20
+1
+Risk
+2
+Culture
+3
+Gouvernance
+Direction des Ressources Humaines (DRH)
+Assurer la gestion administrative des accidents du travail et des maladies
+professionnelles, en conformité avec la législation en vigueur et les procédures définies
+par le standard.
+Déclarer les accidents du travail aux autorités compétentes dans les délais légaux, en
+s'appuyant sur les informations issues du processus d'investigation du standard.
+Assurer les formations nécessaires relative à la gestion des incidents ( légales et
+techniques)
+Communiquer les Certificats/ Rapports Médicaux à la Direction Site et à la Direction SST
+dans les délais impartis.
+SST Site (=Pilote FPS)
+Développer et maintenir les procédures et outils associés au présent standard, sous la
+coordination de la Direction SST du Groupe, pour leur application sur Site;
+Fournir l'expertise et le support technique aux équipes opérationnelles chargées des
+investigations sur leur Site, pour assurer la conformité au standard;
+Assurer la formation du personnel impliqué dans la gestion et l'investigation des incidents
+sur leur site, conformément aux exigences du standard;
+Assurer la conformité de son périmètre au présent standard.
+Ligne Hiérarchique ( Responsable d'Unité, Chef de Poste, Chef d'Équipe)
+S'assurer que les incidents sont signalés immédiatement, conformément aux disposition
+du présent standard.
+Assurer l'accompagnement immédiat de la victime vers l'infirmerie ou, si nécessaire, les
+structures médicales à l'extérieur du site.
+Organiser et s'assurer que les investigations des incidents survenant dans leur zone de
+responsabilité sont menées selon la méthodologie définie par le standard.
+Le Responsable d'Unité préside les réunions d'investigation concernant les incidents de
+Travail (ATSA, ATPS, PA, SD, AD) et les incidents matériels inférieurs à 1 MMAD.
+Mettre en œuvre les actions correctives et préventives validées issues des REX.
+Communiquer les résultats des investigations et les leçons apprises à leurs équipes, tel
+que requis par le standard pour le partage d'information.
+Collaborateurs (Personnel de SONASID et des Entreprises Extérieures)
+Signaler immédiatement tout incident, presqu'accident, situation dangereuse ou acte
+dangereux à leur superviseur ou à la personne compétente, conformément aux
+exigences de rapport du standard;
+Coopérer pleinement aux investigations d'incidents, en fournissant des informations
+précises et factuelles pour faciliter l'application du standard.
+Appliquer les dispositions du présent standard. 
+07/20
+1
+Risk
+2
+Culture
+3
+Gouvernance
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+Médecine du Travail 
+Dispenser les Premiers Soins aux victimes d'incidents survenus sur le Site et fournir une
+évaluation médicale initiale.
+Prendre la décision d'orientation médicale de la victime (soins sur site ou
+évacuation/transfert externe) après évaluation initiale.
+Établir le Rapport de Passage à l'Infirmerie (RPI) selon l’annexe SS-011-04 pour chaque
+intervention, documentant l'état de la victime, les soins prodigués et la décision
+d'orientation ou d'évacuation.
+Assurer la communication du Rapport de Passage à l'Infirmerie (RPI) aux Ressources
+Humaines (DRH), Direction, Direction SST, SST Site et SST Unité.
+Contribuer à l'analyse des tendances des incidents corporels mineurs pour l'amélioration
+des mesures préventives.
+08/20
+1
+Risk
+2
+Culture
+3
+Gouvernance
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+  3 )  L O G I G R A M M E
+Victime
+Témoin
+SST Unité / SST Site
+Resp. Zone / Resp. Unité
+Eléments
+déterminants
+Etape du 
+standard
+Eléments
+sortants /
+Remarques
+Survenance ou
+Détection de
+Incident
+Sécurisation de la
+Scène et Premièrs
+Secrours
+R
+R
+P
+Schéma d’alerte
+Alerter et Signaler
+Immédiatement
+R
+P
+Collecte des faits
+Visites terrain,
+temoignage,
+Faits relevés, ...etc
+Direction RH
+Direction Site
+G
+R
+Les Premiers Secours sont
+donnés seulement par les
+personnes habilitées
+proches en cas d’accident
+Direction SST
+Direction Générale
+P
+I
+P
+R
+Schéma d’alerte respecté
+I
+P
+G
+R
+P
+Elaboration du
+Flash Incident
+Flash Incident 
+Circonstances à Chaud
+Circonstances à
+Chaud
+09/20
+1
+Risk
+2
+Culture
+3
+Gouvernance
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+Victime
+Témoin
+Eléments
+déterminants
+Etape du 
+standard
+Eléments
+sortants /
+Remarques
+Analyse / Rapport
+REX Incident
+Direction RH
+Direction Site
+Direction SST
+Direction Générale
+Si Classe 1.4.1. /
+1.4.0. / 1.3.1. / 1.3.0. /
+5.3.1 /5.3.0 / 5.2.1. /
+5.2.0.
+P
+P
+P
+I
+R
+G: Garant de l’action; R: Responsable de l’exécution de l’action; P: Participe; I: Informé
+Si Classe 1.2.1. / 1.2.0. /
+1.1.1./
+1.1.0. / 2.0.1 / 2.0.0. /
+3.0.1. / 3.0.0. / 4.0.1. /
+4.0.0. / 5.1.1. / 5.1.0.
+Analyse / Rapport
+REX Incident
+Validation du Rapport
+REX Incident
+Diffusion du Rapport
+REX Incident
+Rapport REX
+Incident
+R
+P
+P
+P
+Rappport REX
+Incident Validé
+R
+R
+G
+P
+I
+G
+I
+I
+I
+R
+I
+Suivi des plans
+d’actions
+R
+G
+Resp. Zone / Resp. Unité
+SST Unité / SST Site
+G
+I
+P
+I
+I
+I
+I
+I
+Rappport REX
+Incident Diffusé
+Rappport REX
+Incident Validé
+Rapport REX
+Incident
+Rappport REX
+Incident Diffusé
+Base des Plans
+d’Actions ( SAP, Excel )
+Analyse / Rapport
+REX Incident
+P
+P
+P
+Si Classe 1.5.1.
+R
+P
+P
+P
+I
+R
+Diffusion du Flash
+Incident
+I
+Flash Incident 
+I
+I
+I
+I
+Ou
+Ou
+Ou
+Rapport REX
+Incident
+Rapport REX
+Incident
+10/20
+1
+Risk
+2
+Culture
+3
+Gouvernance
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+  4 ) P R E S C R I P T I O N S  &  R E G L E S  D E  G E S T I O N
+4.1. Formation
+Le Plan de Formation SONASID doit intégrer des formations spécifiques et ciblées sur
+l’analyse des incidents et les techniques d’identification des causes racines (RCA, 5
+Pourquoi, 5M , .....) avec des fréquences définies au moins une fois par deux ans et à
+chaque fois où on juge que c’est nécessaire.
+Chaque Site doit désigner et actualiser systématiquement une liste de personne
+pluridisciplinaire couvrant l’ensemble de ses zones et les former comme équipe
+référente de l’analyse des incidents (par exemple: Responsable Zone, Equipe SST, Chef
+d’équipe, Responsable Métier, ...) afin de permettre l’analyse de l’ensemble des classes
+des différents incidents ( Voir paragraphe 4.2. Classification des incidents).
+Des formations de qualification de l’équipe doivent se faire en externe et les formation
+de recyclage peuvent être efectuées en interne par des personnes compétentes dont la
+désignation revient à la Direction du Site ( Equipe SST Site, responsable d’exploitation,
+....)
+La classification des incidents au sein du Groupe SONASID est une étape essentielle pour
+évaluer la gravité réelle ou potentielle d'un événement, et pour déterminer le niveau
+d'investigation, de réponse et de suivi approprié.
+Pour les incidents matériels, ce standard ne traite pas les pannes de fiabilité des
+équipements. Il se concentre exclusivement sur les incidents matériels liés au processus
+ou autres événements incluant le risque d'exposition des collaborateurs.
+La décision de qualifier un Incident par le critère PSIF ou Non PSIF relève de la
+responsabilité et coordination conjointe entre la Direction SST, la Direction Site, le SST
+Site et le Responsable d’Unité.
+Pour classifier précisément chaque incident corporel, veuillez vous référer à l'arbre de
+décision figurant en annexe SSS-011-05-A.
+Pour tout reclassification d'un Accident de Travail vers un ATPA, une concertation
+préalable entre le médecin traitant et le médecin du travail interne est
+systématiquement requise afin de définir également l'ITT finale.
+Les incidents sont classifiés selon leur type, leur catégorie et leur potentiel de gravité sur
+les personnes et les installations  comme indiqué dans le Tableau suivant:
+4.2. Classification des Incidents
+11/20
+1
+Risk
+2
+Culture
+3
+Gouvernance
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+Type
+Catégorie
+PSIF
+Non PSIF
+Accident de Travail
+ATF Accident de Travail Fatal
+1.5.1.
+-
+ATAA Accident de Travail Avec Arrêt
+1.4.1.
+1.4.0.
+ATPA Accident de Travail avec Poste Adapté
+1.3.1.
+1.3.0.
+ATSA Accident de Travail Sans Arrêt
+1.2.1.
+1.2.0.
+ATPS Accident de Travail Premiers Soins
+1.1.1.
+1.1.0.
+Presque Accident
+-
+2.0.1
+2.0.0.
+Situation Dangereuse
+-
+3.0.1.
+3.0.0.
+Acte Dangereux
+-
+4.0.1.
+4.0.0.
+Incident Matériel
+Incident Matériel avec perte financière > 5 MMAD
+5.3.1.
+5.3.0.
+Incident Matériel avec perte financière entre 1 et 5
+MMAD
+5.2.1.
+5.2.0.
+Incident Matériel avec perte financière < 1 MMAD
+5.1.1.
+5.1.0.
+Accident de Trajet
+Accident de Trajet
+6.1.1.
+6.1.0.
+1.5.1.
+Ce tableau de catégorisation exhaustif qui répertorie toutes les situations possibles et
+imaginables d'incidents, d'accidents et d'événements à potentiel de gravité, afin de garantir
+une gestion sans ambiguïté.
+Potentiel de Gravité ( Si PSIF = 1 , Si Non PSIF= 0)
+Type (  Si AT= 1, PA=2, SD=3, AD=4, IM=5,
+Accident de Trajet =6)
+Catégorie (  Pour ATF= 5, ATAA =4, ATPA=3, ATSA=2, ATPS=1; 
+                       Pour PA,SD, AD =0;
+                       Pour Incident Matériel, Si Perte >5MMAD= 3:, Si 1< = Perte <= 5 MMAD= 2, Si Perte < 1 MMAD= 1
+                       Pour Accident de Trajet : Si avec arrêt = 1, Si sans arrêt = 2
+Analyse de l’Incident Présidée par le Directeur Général
+Analyse de l’Incident Présidée le Directeur de Site
+Analyse de l’Incident Présidée par le Chef /
+Responsable d’exploitation
+Analyse de l’Incident Présidée par le
+Responsable RH
+12/20
+1
+Risk
+2
+Culture
+3
+Gouvernance
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+4.3. Processus de gestion interne des incidents
+Les étapes et les exigences de gestion (incluant l’alerte, l'analyse et le suivi) varient
+significativement en fonction de la classification de l'incident (corporel ou matériel) et de sa
+gravité. 
+Les tableaux suivants, résument pour chaque classe d'événement les principales étapes et le
+niveau d'intervention requis au sein du Groupe SONASID.
+4.3.1. Survenance ou Détection de Incident
+Cette étape marque le moment où un événement indésirable (Accident, Presqu’Accident,
+Situation Dangereuse, Acte Dangereux ou Incident Matériel) se produit sur le lieu de travail
+où est identifié. Elle est caractérisée par la prise de conscience immédiate, par un témoin ou
+par la victime, de l'évènement ou du risque potentiel. C'est la phase de constatation qui rend
+nécessaire le déclenchement du processus d'urgence et d'investigation.
+4.3.2. Sécurisation de la Scène et Premiers Secours
+Cette étape vise à prioriser la vie humaine et la sécurité du lieu.
+Sécurisation : Le premier intervenant (ou le responsable alerté) doit immédiatement
+sécuriser la zone de l'incident pour prévenir tout sur-accident (risque électrique, chute
+d'objet, fuite de produit, etc.). La scène doit être isolée et figée pour préserver les
+preuves en vue de l'enquête.
+Premiers Secours : Si l'incident a entraîné des blessures, le personnel habilité
+(Sauveteurs Secouristes ou infirmier Site) doit intervenir pour dispenser les Premiers
+Soins d'urgence. La victime est ensuite évacuée vers l'infirmerie ou une structure
+médicale externe si nécessaire.
+4.3.3. Alerter et Signaler Immédiatement
+L'objectif primordial est d'assurer la prise en charge rapide des personnes affectées et de
+limiter l'étendue des dommages. Dès la constatation d'un accident de Travail ou d’un
+incident matériel, le témoin (ou Chef de poste, Superviseur, Responsable Zone,... ) ou bien la
+victime doit alerter immédiatement les personnes concernées selon le schéma d’alerte en
+annexe SSS-011-03.
+4.3.4. Collecte des Faits
+L'équipe d'investigation doit se rendre sur les lieux le plus rapidement possible pour
+recueillir des données objectives et non-interprétées. Elle procède au figement de la scène, à
+la prise de photos et vidéos avant toute modification, à la collecte de pièces à conviction
+(outils, équipements, procédures), et à la réalisation des interviews, à chaud, des témoins et
+de la victime (si son état le permet) tout en s'assurant de la confidentialité des échanges.
+13/20
+1
+Risk
+2
+Culture
+3
+Gouvernance
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+DeadLine ( Jours Ouvrables )
+Etape
+Responsable
+Contributeurs
+ATF (1.5.1.)
+ATAA
+(1.4.1./1.4.0.)
+/ ATPA
+(1.3.1./1.3.0.)
+Autres
+classes
+Collecte des faits
+à chaud
+Responsable
+Zone
+Témoins, SST Site
+ou son équipe,
+Chef de poste,
+CHS,...
+6 Heures
+24 Heures
+48 Heures
+Elaboration du
+Flash Incident
+SST Unité /
+SST Site
+Responsable
+Zone,
+Responsable
+d’Exploitation
+Validation du
+Flash Incident
+SST Site
+Direction Site,
+Direction SST
+Diffusion du Flash
+Incident
+SST Site
+-
+4.3.6. Diffusion du Flash Incident
+Cette étape garantit la diffusion ciblée et rapide du Flash Incident pour capitaliser sur
+l'événement. 
+Le SST Site est responsable de la diffusion du flash incident aux destinataires prédéfinis .
+Cela inclut le Top Management, l’ensemble des Sites et le Siège Social. 
+Cette diffusion est essentielle pour alerter l'organisation sur le danger identifié et initier
+les vérifications immédiates dans les zones similaires.
+Le tableau ci-dessous synthétise tous les délais applicables, selon la gravité, à chaque
+étape de l'établissement du Flash Incident pour l'ensemble des parties prenantes:
+La diffusion du Flash Incident au Groupe ArcelorMittal est assurée par la Direction SST
+Groupe selon les délais exigés.
+4.3.5. Élaboration du Flash Incident
+Cette phase est dédiée à l’élaboration à chaud d’une synthèse des premiers constats
+pour information immédiate et diffusion au sein du Groupe. Le Responsable de Zone et
+le SST Site travaillent ensemble pour rédiger un "Flash Incident" selon l’annexe SSS-011-
+01. 
+Ce document contient les informations de base (ce qui s'est passé, où, quand, et les
+conséquences réelles et potentielles) et rappelle les actions immédiatement prises. 
+14/20
+1
+Risk
+2
+Culture
+3
+Gouvernance
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+4.3.7. Analyse / Rapport REX Incident
+Cette étape fondamentale consiste à mener l'Analyse des Causes Racines selon la
+méthodologie définie pour identifier les causes profondes (Techniques, Humaines,
+organisationnelles) qui ont permis à l'événement de se produire. Sur la base de cette
+analyse, un Rapport de Retour d'Expérience (REX) est rédigé, lequel inclut le détail de
+l'événement, les causes identifiées et un Plan d'Actions Correctives et Préventives  
+visant à éliminer ou maîtriser durablement le risque.
+Présidence de l'Investigation : La personne chargée de présider la réunion
+d'investigation est désignée en fonction de la gravité de l'événement, afin d'assurer un
+niveau de décision adéquat :
+Présidé par le Directeur Général : Uniquement pour les Accidents de Travail
+Fatales (ATF).
+Présidé par le Directeur de Site : Pour les AT avec Arrêt (ATAA), les AT avec
+Poste Adapté (ATPA), et les Incidents Matériels avec perte financière supérieure
+ou égale à 1 Million MAD quelque soit leurs potentiels de gravité (PSIF et non
+PSIF).
+Présidé par le Responsable de l’Unité: Pour les Accidents de Travail Sans Arrêt
+(ATSA), les Accidents de Travail Premiers Soins (ATPS), les Presqu'accidents, les
+Situations Dangereuses, les Actes Dangereux, et les Incidents Matériels avec
+perte financière inférieure à 1 Million MAD quelque soit leurs potentiels de
+gravité (PSIF ou non PSIF).
+Présidé par le Responsable des Ressources Humaines (DRH) : Pour les Accidents
+de Trajet (Transport de l’Entreprise), avec ou sans arrêt quelque soit leurs
+potentiels de gravité (PSIF ou non PSIF).
+4.3.8. Validation du Rapport REX Incident
+Cette étape représente l'approbation formelle et l'engagement de l'Entreprise. 
+La Direction de Site et la Direction SST procèdent conjointement à l'examen critique du
+Rapport REX et du Plan d'Actions. 
+Elles valident la pertinence de l’analyse des causes et l'adéquation des actions
+proposées, tout en s'assurant que les ressources seront allouées pour les mettre en
+œuvre. 
+Le SST Site participe activement à cette revue, apportant les précisions opérationnelles
+nécessaires. 
+4.3.9. Diffusion du REX Incident
+Cette étape assure la diffusion finale du rapport validé et la transition vers le suivi du
+Plan d'Actions. 
+Le SST Site diffuse le Rapport REX Incident au sein du Groupe SONASID et à tous les sites
+et équipes concernés. 
+La participation de la victime (si son état le permet) et des représentants du personnel
+est obligatoire lors des analyses pour consolider les faits. 
+La Direction de Site garantit la disponibilité des collaborateurs durant leurs horaires
+habituels de travail, assurant ainsi la qualité des enquêtes et le respect des délais.
+15/20
+1
+Risk
+2
+Culture
+3
+Gouvernance
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+4.3.10. Suivi des plans d’actions
+Le SST Site est responsable de vérifier, par des audits terrains, la mise en place effective
+des actions sur le terrain, du suivi de leur avancement et de l’évaluation de leur
+éficacité. 
+La Direction SST est tenue de mener, par échantillonnage, des vérifications terrains de la
+mise en oeuvre effective des plans d’actions issus des incidents enregistrés sur le site
+ainsi que ceux provenant des autres processus préventifs (quarantaine, close-loop, etc).
+La Direction SST Groupe et la Direction de Site sont conjointement les garants de la
+pertinence et de l'efficacité des mesures mises en place. Leur rôle est de s'assurer que
+les actions ne se limitent pas à des solutions temporaires, mais traitent bien les causes
+profondes identifiées, permettant ainsi la maîtrise définitive de la situation.
+Etape
+Responsable
+Contributeurs
+DeadLine ( Jours
+Ouvrables )
+Collecte des faits à
+chaud
+Responsable Zone
+Témoins, SST Site ou son équipe, Chef de
+poste, Superviseur, Représentant du
+Personnel, Expert métier, ...
+J0 <-> J1
+Analyse par arbres des
+cause
+Président du Comité
+d'Analyse (selon la
+classe de l'incident)
+Témoins, SST Site ou son équipe, Chef de
+poste, Superviseur,
+Responsables,Représentant du Personnel,
+Expert métier, Medecine de Travail, RH ...
+J1 <-> J7
+Elaboration des plans
+d'action
+Vérification du REX
+Revue du Rex
+SST Site
+Responsable d'Exploitation, SST Unité, Expert
+métier
+J7 <-> J8
+Validation du Rex
+Direction Site +
+Direction SST
+SST Site, Responsable d'Exploitation
+J8<->J9
+Diffusion Rex
+SST Site
+-
+J10
+Les délais de chaque étape, cruciaux pour la collecte des faits, l’analyse, l'établissement
+du Rapport REX, sa revue, sa validation et sa diffusion sont synthétisés dans le tableau
+ci-dessous, assurant ainsi la diligence requise par les différentes parties prenantes:
+La diffusion du rapport REX Incident au Groupe ArcelorMittal est assurée par la Direction
+SST Groupe selon les délais exigés.
+16/20
+1
+Risk
+2
+Culture
+3
+Gouvernance
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+4.3.11. Qualité du Processus d'Enquête Incidents
+La qualité du processus d'enquête incidents s'apprécie par un contrôle réalisé par
+échantillonnage, par la Direction SST et/ou le SST Site, sur la base de critères tels que la
+gravité (par exemple: les AT fatals (ATF), les AT avec poste adapté (ATPA) ou les AT avec
+arrêt de travail (ATAA), ou d'autres critères comme les tendances observées sur les
+incidents, à l'aide de la grille en Annexe SSS-011-08-A.
+4.4. Gestion administrative des accidents survenus aux collaborateurs SONASID 
+La gestion administrative, le suivi légal et le contact avec les organismes d'assurances
+sont de la responsabilité exclusive de la Direction des Ressources Humaines (DRH). 
+La DRH est garante de la conformité du signalement et de l'archivage rigoureux. À cet
+effet, elle est tenue de transmettre tous les documents administratifs et légaux
+nécessaires à l'équipe SST Site et à la Direction Site (Si nécessaire).
+17/20
+1
+Risk
+2
+Culture
+3
+Gouvernance
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+Le contrôle qualité se focalise sur les points suivants :
+Analyse des causes: L'arbre des causes doit être complet, sans cause non démontrée, et
+relu par une seconde personne avant validation.
+Actions correctives: Chaque action corrective doit être évaluée selon le risque, puis
+vérifiée sur le terrain avant la clôture du dossier.
+Partage d'expérience: Les enseignements de chaque enquête doivent être étendus aux
+activités similaires et partagés avec les autres sites du Groupe.
+Audit du processus: Le processus d'enquête doit lui-même faire l'objet d'un audit
+annuel, avec des dossiers archivés et accessibles.
+Amélioration continue: La direction SST doit organiser des revues périodiques pour
+améliorer en continu l'efficacité du processus d'enquête.
+4.5. Bonnes pratiques
+Ce chapitre formalise les pratiques opérationnelles essentielles à la robustesse du système
+d'alerte et à la capitalisation efficace du Retour d'Expérience pour renforcer la culture de
+sécurité.
+Gestion de l'Alerte et de l'Information Immédiate:
+1.Le Schéma d'alerte complet et à jour (incluant les numéros de secours internes, le
+médecin du travail, et les responsables d'astreinte) doit être affiché dans tous les lieux
+de travail et zones fréquentées. La ligne hiérarchique directe est responsable de la
+vérification de l'affichage et de sa mise à jour régulière.
+2.Chaque Chef de poste ou Responsable de zone doit s'assurer que l'ensemble des agents
+internes/externes 
+sous 
+sa 
+responsabilité 
+connaissent 
+les 
+numéros 
+d'alerte,
+l'emplacement de la fiche et la procédure à suivre en cas d'incident. Cette connaissance
+doit être vérifiée périodiquement.
+3.Les chefs d'équipe doivent communiquer largement et régulièrement sur l'importance
+du schéma d'alerte, son utilisation et les procédures d'urgence.
+Capitalisation et Partage du Retour d'Expérience (REX)
+1.Les Retours d'Expérience des incidents (REX) doivent être intégrés systématiquement
+dans les séances d’intégration et de sensibilisation de toute nouvelle personne arrivant
+sur le site (nouvelle recrue, stagiaire, prestataire, visiteur), afin d'inculquer la culture de
+prévention dès le premier jour.
+2.Les flashs d’alerte doivent être affichés dans les zones les plus fréquentées par les
+collaborateurs et communiquées dans les minutes sécurités pour un maximum de
+partage.
+18/20
+1
+Risk
+2
+Culture
+3
+Gouvernance
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+Communication élargie au sein des différents sites autour de l’accident ;
+Renforcement de la présence du management et des leaders sur le terrain ;
+Renforcement des séances de sensibilisation axées sur la thématique liée à
+l’accident ;
+Orientation des interactions terrain (SFI, LE, etc.) vers la thématique concernée ;
+Orientation des routines de coaching Sécurité vers les points de vigilance liés à
+l’accident ;
+Mise à jour des analyses des risques (HIRA) et des modes opératoires (SOP)
+associés ;
+Activation d’inspections ciblées sur les points de contrôle en lien avec la maîtrise
+des causes de l’accident.
+Processus Quarantaine
+1.Le processus de "Quarantaine" constitue un ensemble d’actions activé à la suite d’un
+accident du travail de type ATF, ATAA ou ATPA. Il s’applique aussi bien au site concerné
+par l’accident qu’à l’ensemble des autres sites du Groupe au Maroc.
+2.La durée de la "Quarantaine" est fixée à 30 jours calendaires à compter de la date de
+l’accident (avec un déploiement opérationnel effectif sous un délai maximal de 7 jours
+après la survenance de l’accident).
+3.Les actions associées au processus de Quarantaine ne se limitent pas à la liste suivante,
+mais comprennent notamment :
+À l’issue de la période de "Quarantaine", le Directeur de Site doit présenter un débriefing
+des résultats obtenus lors de ses instances de gouvernance internes et Groupe.
+Pour garantir une évaluation rigoureuse et exhaustive, le plan d'audit doit être conforme
+au standard Audit et Amélioration Continue SSS.021. L'auditeur doit impérativement
+utiliser la checklist SSSA-011-01, l'outil de référence officiel;
+Les écarts, les non-conformités et les retours d'expérience identifiés lors de l'audit sont
+essentiels. Ils constituent la base de l'amélioration continue en matière de sécurité,
+permettant d'adapter les opérations et les pratiques aux nouvelles exigences ou
+technologies.
+Chaque site doit réaliser une analyse périodique des tendances relatives aux incidents.
+Cette analyse doit viser les familles des risques majeurs (ex: électrique, travail en
+hauteur, etc.), les causes racines (T.H.O.). Les résultats de ces analyses doivent
+impérativement constituer le socle décisionnel de l'élaboration des plans d'actions
+annuels et de la stratégie SST globale du site.
+La Direction SST doit mener une analyse systématique des tendances relatives aux
+incidents et se servir des résultats obtenus pour définir les plans d’actions et strétagie
+SST du Groupe.
+4.6. Audit, Analyse et amélioration continue 
+3.Le SST Site et la Direction SST doivent s'assurer du partage actif et de l'analyse des
+Retours d'Expérience (REX) provenant des autres sites du Groupe SONASID et des
+entités du Groupe ArcelorMittal.
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+19/20
+1
+Risk
+2
+Culture
+3
+Gouvernance
+Documents clés
+Conservés par
+Flash Incident, (Formulaire SSS011-01)
+Rapports de simulation
+Rapports d'audits internes (SSSA-011-01)/externes(FPA)
+Rapport REX Incident
+SST Site / Direction SST / Direction Site
+Rapport de Passage Infirmerie (RPI)
+Infirmerie / Medecine de Travail
+Registres de formation
+Certificats Médicaux
+Déclarations d'accident à l'autorité compétente
+Direction RH 
+4.7. Conservation et archivage
+La gestion rigoureuse des documents est essentielle pour assurer la traçabilité, la
+conformité légale et l'amélioration continue des processus de sécurité;
+Le tableau ci-dessous résume tous les documents clés à conserver, afin de garantir leur
+intégrité, disponibilité et lisibilité:
+  5 ) I N D I C A T E U R S  D E  P E R F O R M A N C E
+Pour évaluer et améliorer notre performance SST, SONASID utilise des Indicateurs Clés de
+Performance (KPI).
+Nombre d’incidents par classe
+=
+Taux de fréquence par classe
+=
+Taux de gravité
+=
+Nombre d’incidents par classe
+Nombre d’incidents de
+la classe
+Nombre Total des
+Heures Travaillées
+_______________________
+x
+1 000 000
+Nombre de Journées
+Perdues
+Nombre Total des
+Heures Travaillées
+_______________________
+x
+1 000
+20/20
+1
+Risk
+2
+Culture
+3
+Gouvernance
+SONASID SAFETY STANDARD 
+Gestion des incidents
+Santé & Sécurité au Travail 
+Réf. doc : SSS-011-A
+Taux des incidents enregistrés =
+Taux de conformité au STD
+=
+Nombre de Critères
+Respectés
+Nombre Total des
+critères Applicables
+_______________________
+x
+1 000
+Nombre Total des Heures
+Travaillées
+__________________________
+x
+Σ
+1 000 000
+ATF + ATAA + ATPA + ATSA
+Ces KPI sont analysés régulièrement par les Responsables SST Site, la Direction SST du
+Groupe et le management pour fixer des objectifs, identifier les tendances, adapter les
+stratégies et communiquer les progrès. L'objectif est de renforcer proactivement notre
+performance SST.
+  6 ) A N N E X E S
+Titre
+Codification
+FLASH INCIDENT SST
+SSS-011-01-A
+Rapport REX analyse des incidents
+SSS-011-02-A
+Schéma d’alerte
+SSS-011-03-A
+Rapport de passage à l’infirmerie
+SSS-011-04-A
+Arbre de décision pour calassification des incidents corporels
+SSS-011-05-A
+Pyramide des PSIF
+SSS-011-06-A
+Méthodologie d’analyse par arbre des causes (RCA)
+SSS-011-07-A
+Evaluation de la qualité des REX
+SSS-011-08-A
+Gestion des incidents 
+  Santé & Sécurité au Travail
+Réf : SSS-011-01-A
+FLASH INCIDENT SST
+Gestion des incidents 
+  Santé & Sécurité au Travail
+Réf : SSS-011-02-A
+Rapport REX analyse des incidents
+Gestion des incidents 
+  Santé & Sécurité au Travail
+Réf : SSS-011-02-A
+Rapport REX analyse des incidents
+SCHÉMA D’ALERTE 
+Gestion des incidents 
+  Santé & Sécurité au Travail
+Réf : SSS-011-03-A
+SI TÉMOIN
+Responsable de Zone
+2
+Equipe SST Site
+3
+Direction SST
+1
+Responsable Unité
+2
+Poste de Garde
+1
+Direction Site
+SI ACCIDENT DE TRAVAIL
+Poste de Garde
+1
+Sauveteurs Secouristes
+2
+Médecin de Travail
+3
+Chef de Poste / Res. Zone
+4
+Direction Site
+5
+Equipe SST Site
+6
+Direction SST
+Responsable Unité
+SI VICTIME
+Chef de Poste / Res. Hiérarchique
+SI INCIDENT MATÉRIEL
+Cas: Alerte Incident Matériel par
+Témoin
+Cas: Alerte AT par Victime
+Cas: Alerte AT par Témoin
+1
+2
+1/1
+RAPPORT DE PASSAGE À L’INFIRMERIE (RPI)
+Gestion des incidents 
+  Santé & Sécurité au Travail
+Réf : SSS-011-04-A
+Ce Rapport doit être rempli par l’infirmier pour tout passage de collaborateur
+(Interne, Sous-traitant ou autre ) à la suite d’une atteinte corporelle et partagé
+avec les entités concernées ( Direction Site, Direction SST, RH Site, SST Site,
+Supérieur Hiérarchique, Responsable Unité )
+Matricule / C.I.N.
+Nom & Prénom
+Fonction
+Entrprise
+Accompagnateur
+Nature des blessures
+Traitement (premier soins)
+Action prise (après 1er soins)
+Observations
+Date de rapport:
+Rapport effectué par :
+1/1
+ARBRE DE DÉCISION POUR CALASSIFICATION
+DES INCIDENTS CORPORELS
+Gestion des incidents 
+  Santé & Sécurité au Travail
+Réf : SSS-011-05-A
+1/1
+ATPS
+ATSA
+ATPA
+ATAA
+ATF
+Gravité croissante
+Décès lié au travail
+ATF
+OUI
+Y a-t-il eu un ou plusierus décès ?
+ 
+La Victime est Absent plus d'un jour ?
+Au moins 1 jour d'absence après le jour J (Jour de
+l’accident)
+ 
+ 
+Travail adapté possible ?
+ 
+ 
+Poste modifié par le médecin et retour en J+1*
+Accident sans arrêt — soins/Analyses le jour J
+L'accident a causé la mort d'une personne ?
+Soins simples sur place ou bien
+résultats négatifs des radios ...
+Le médecin prescrit un poste aménagé*
+OUI
+OUI
+OUI
+ATSA - Aide Médicale
+Travail en Poste Adapté (ATPA)
+Premiers Soins (ATPS)
+NON
+OUI
+Absence confirmée après le jour J
+Accident avec arrêt (ATAA)
+NON
+Absent uniquement le jour J ?
+Consultation/analyses le jour J, avec arrêt prescrit
+OUI
+OUI
+NON
+Absent uniquement le jour J ?
+Consultation/analyses le jour J, sans arrêt prescrit
+La Victime a nécessite de faire des soins à
+l’externe par un professionnel ?
+OUI
+NON
+La Victime a nécessité de faire des soins à
+l’interne ?
+OUI
+OUI
+*NB : Pour tout reclassement d'un Accident de Travail vers un ATPA, une concertation préalable entre le médecin traitant
+et le médecin du travail interne est systématiquement requise afin de définir également l'ITT finale.
+Pyramide des risques H&S — PSIF Reactif vs Proactif
+ATPA — Travail en Poste Adapté
+ 
+ATPS — Premiers secours
+ 
+ATAA — Accident avec arret
+ 
+ATSA — Accident sans arret
+ 
+Actes / situations dangereuses
+ 
+Presque-accidents / Incident Matériel
+ 
+Absent au moins 1 jour apres le jour J
+Soins simples sur place, sans consultation
+externe (sauf radiologie)
+Poste modifie sur prescription medicale
+Consultation le jour J, sans arret prescrit
+Sans blessure — aurait pu blesser / Dégâts Matériels
+Precurseurs — risque identifié, pas encore d'évenement
+Accident
+Fatal
+(ATF)
+Le 
+PSIF 
+réactif 
+est 
+un
+événement 
+déjà 
+survenu
+(accident ou presqu'accident)
+qui, 
+dans 
+d'autres
+circonstances, 
+aurait 
+pu  
+causer 
+une 
+blessure
+irréversible 
+(exemple:
+amputaion, brûlure troisème
+degré, etc) ou une fatalité.
+PSIF Reactif
+Le PSIF proactif est un acte ou
+une situation dangereuse à haut
+risque : porté par sa culture de
+sécurité, le Groupe SONASID
+encourage 
+vivement 
+à 
+les
+identifier et à les traiter à la source
+afin d'éliminer le danger avant
+qu'un accident ne survienne.
+PSIF Proactif
+ATF
+Tout Accident de Travail
+Fatal (ATF) est
+automatiquement classé
+comme PSIF Réactif, car
+la gravité maximale
+absolue est déjà atteinte.
+PYRAMIDE DES PSIF
+Gestion des incidents 
+  Santé & Sécurité au Travail
+Réf : SSS-011-06-A
+Types de liaisons :
+Questions clés à poser :
+ENCHAÎNEMENT — A cause B
+CONJONCTION — A ET B → C (plusieurs) 
+→ 
+Exemple simplifié d'Arbre des Causes
+DISJONCTION — A → B ET C (plusieurs)
+Cause racine
+Cause directe
+Fait ultime
+FRACTURE DU COUDE
+DE L’OPERATEUR
+CHUTE DE L'OPÉRATEUR
+CONJONCTION (ET)
+ENCHAÎNEMENT
+SOL GLISSANT
+OPERATEUR NE PORTE PAS DE
+CHAUSSURES ANTI-DÉRAPANTES
+Fuite d'huile
+non signalée
+Pas de procédure
+nettoyage sol
+EPI non fourni
+ou indisponible
+Consigne non
+connue / respectée
+MÉTHODOLOGIE D’ANALYSE PAR ARBRE DES
+CAUSES (RCA)
+Gestion des incidents 
+  Santé & Sécurité au Travail
+Réf : SSS-011-07-A
+QUI ?
+QUOI ?
+OÙ ?
+QUAND ?
+COMMENT ?
+POURQUOI ?
+RECUEIL DES FAITS — MÉTHODE QQOCP
+Victime,
+témoins
+encadrement
+Événement,
+nature &
+description
+Lieu, zone
+poste de
+travail
+Date, heure
+durée,
+fréquence
+Séquence
+chronologiq
+ue
+1res
+explications à
+approfondir
+MAIN-D'ŒUVRE
+MATÉRIEL
+MÉTHODE
+MILIEU
+COLLECTE DES FAITS — MÉTHODE 4M
+• Opérateur, témoins
+• Formation, expérience
+• État physique/mental
+• Comportement observé
+• EPI, outillage, machines
+• État de maintenance
+• Défaillances techniques
+• Conformité & certification
+• Procédures existantes
+• Permis de travail
+• Instructions données
+• Planification de la tâche
+• Environnement physique
+Éclairage, météo, bruit
+• Sol, espace de travail
+• Facteurs externes
+CONSTRUCTION DE L'ARBRE DES CAUSES
+1.Qu'a-t-il fallu pour que cela arrive ?
+2.Est-ce NÉCESSAIRE ? 
+3.Est-ce SUFFISANT ? 
+→ 
+→ 
+Remonter jusqu'aux causes organisationnelles
+ACTIONS CORRECTIVES & RÈGLES D'OR
+Ne pas
+chercher un
+coupable
+Viser les causes
+organisationnelles
+Ne pas tarder
+à élaborer le
+REX
+Communiquer
+les leçons
+Suivi, clôture &
+contrôle de
+l’efficacité des
+actions
+Diffusion
+transverse à
+l’échelle du
+Groupe
+I-
+II-
+III-
+IV-
+N°
+Question
+C
+NC
+1. Description (15%)
+1
+La description de l'incident est claire et compréhensible : contexte, séquence des faits, croquis ou photos illustrant
+l'histoire.
+2
+Le risque principal est clairement identifié et le scénario de gravité potentielle est explicitement décrit.
+3
+La classification est correcte.
+2. Analyse des causes (arbre des causes) (25%)
+4
+L'arbre des causes est complete et logique
+5
+Les causes profondes et les facteurs contributifs (humains et organisationnels) sont clairement identifiés et classifiés.
+6
+L'arbre des causes a été relu et validé par une seconde personne formée à la méthode.
+3. Plan d'actions (25%)
+7
+Les actions sont clairement liées aux causes profondes et aux facteurs contributifs ; la correspondance est explicite
+et les actions sont mesurables et vérifiables.
+8
+Les actions couvrent les facteurs techniques, organisationnels et humains identifiés.
+9
+Chaque action a une personne responsable désignée (nominatif) et une date d'échéance définie.
+4. Mise à jour de la HIRA (20%)
+10
+L'incident implique-t-il une revue et une mise à jour de la HIRA ? → Si Non : la section est automatiquement créditée
+de 20 % (N/A).
+11
+Le plan d'action prévoit-il explicitement la revue et la mise à jour de la HIRA ?
+12
+Le site prévoit-il, si nécessaire, une mise à jour du SOP / Mode Opératoire (MO) associé ?
+5. Partage et capitalisation du retour d'expérience (15%)
+13
+Le retour d'expérience a été partagé avec d'autres sites ou entités du Groupe exposés à un risque similaire.
+RECOMMANDATION DE L'AUDITEUR SST SITE
+Au regard des constats de cet audit, je recommande de remonter des points à la prochaine revue de direction SST.
+Si oui, points proposés pour l'ordre du jour de la revue de direction :
+Evaluation de la qualité des REX
+Gestion des incidents 
+  Santé & Sécurité au Travail
+Réf : SSS-011-08-A
+Site : 
+Type d'incident :  
+Evalué par :
+Secteur / Atelier :
+Incident (réf.) :
+Date de l'évaluation:
+____________
+____________
+____________
+____________
+__________
+__________

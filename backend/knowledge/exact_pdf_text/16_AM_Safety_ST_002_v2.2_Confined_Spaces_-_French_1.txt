@@ -1,0 +1,288 @@
+ 
+ 
+ 
+Santé et sécurité 
+ 
+STANDARDS 
+ 
+Réf. : AM Sécurité ST 002 
+Espaces confinés 
+Émission : 12.10.2007 
+Version : v2.2 
+Révision :  5 juillet 2012 
+ 
+Espaces Confinés 
+ 
+Diffusion 
+contrôlée 
+Élaboré par : 
+Vérifié par : 
+Approuvé par : 
+ 
+Nom : 
+Frank Haers 
+Comité de santé et de sécurité 
+AM 
+Frank Haers 
+ 
+ 
+ 
+1. Domaine d’application 
+ 
+1.1 Les entreprises du groupe devront, à minima, observer la réglementation locale en vigueur 
+pour tout type de travail effectué dans un espace confiné. La présente norme d’ArcelorMittal 
+devra être appliquée lorsqu’elle sera plus contraignante. 
+ 
+1.2 Lors de l’identification des espaces confiné, il faut également vérifier si l’endroit 
+comporte des dangers dus aux gaz (norme AM 012), car ces deux normes sont inter-reliées 
+(voir le diagramme ci-dessous relativement à leur utilisation simple ou combinée). 
+ 
+ 
+ 
+ 
+N AM 012 
+N AM 002 
+Espace confiné 
+Zone de 
+dangers dus 
+aux gaz 
+Zone de 
+dangers 
+dus aux 
+gaz 
+non 
+non 
+oui 
+Permis 
+d’entrée 
+non requis 
+N AM 012 
+Zone à 
+accès 
+restreint 
+Aucune de 
+ces normes ne 
+s’applique 
+N AM 002 
+non 
+oui 
+oui 
+oui 
+oui 
+Permis 
+d’entrée  
+requis 
+ Départ 
+Corporate : Santé & Sécurité 
+Page 1de 5
+ 
+Corporate : Santé & Sécurité 
+Page 2de 5
+ 
+Espace assez large pour y pénétrer tout le 
+corps, le torse ou la tête et
+ et
+Classification de l’espace de travail
+Une entrée ou sortie limitée ou restreinte
+N’est pas désigné pour être occupé en 
+permanence par des travailleurs
+Espace confiné
+Atmosphère dangereuse
+Danger d’enfouissement
+Danger de configuration
+(cf. AM002 1.3.1 et 1.3.3.3)
+Tout autre danger reconnu 
+comme grave
+Permis 
+requis 
+pour 
+entrer 
+dans un 
+espace 
+confiné
+Pas de 
+permis 
+requis 
+pour 
+entrer 
+dans un 
+espace 
+confiné
+Zone gaz
+Mise en place 
+Signalétique 
+appropriée de  
+dangers 
+Installation 
+d’un système 
+de contrôle 
+d’accès
+Zone de 
+travail 
+normal
+Pas
+Espace confiné
+Risque gaz
+Ou
+Manque d’oxygène
+en plus, il contient un ou 
+plusieurs de ce qui suit
+OUI
+OUI
+NON
+NON
+OUI
+OU
+OU
+OU
+NON
+ET
+ET
+ET
+ 
+1.3 On entend généralement par espace confiné (voir le schéma de classification de l’espace 
+confiné ci-dessous) : 
+ 
+un lieu partiellement ou entièrement fermé 
+ou 
+un espace où le mouvement est limité ou physiquement restreint 
+et qui : 
+ 
+1.3.1 a été identifié comme tel lors d’une évaluation des risques ou d’un processus de 
+réglementation local ; 
+ 
+1.3.2 n’est pas surtout prévu ou conçu comme lieu de travail, c.-à-d. dont l’occupation 
+permanente n’est pas prévue ; et qui 
+ 
+1.3.3 peut avoir une entrée et une sortie limitée ou restreinte (nécessitant parfois un 
+système mécanique) et peut présenter les dangers suivants : 
+ 
+1.3.3.1 une atmosphère qui renferme des niveaux potentiellement nocifs de 
+contaminants ; ou 
+1.3.3.2 une teneur en oxygène non sécuritaire, par ex., à la suite d’une purge à 
+l’azote ; ou 
+1.3.3.3 un risque d’emprisonnement ou d’engouffrement.
+ 
+1.4 Les espaces confiné comprennent notamment : 
+ 
+1.4.1 les réservoirs, silos ou aires de stockage, cuves de traitement, chaudières, 
+appareils sous pression, compartiments semblables à des réservoirs munis d’un seul trou 
+d’accès, vides de plafond ou sous le plancher, espaces occupés par les tuyaux et les câbles (en 
+particulier les galeries) ; 
+ 
+1.4.2 les espaces découverts tels que fosses, séparateurs de graisse ou excavations de 
+plus de 1,5 mètre de profondeur ; 
+ 
+1.4.3 les tuyaux, pompes, égouts, puits, gaines, drains, tunnels, caves, espaces situés 
+sous des pièces d’équipement ou installations, sous-sols et structures semblables ; 
+ 
+ 
+1.4.4 le convertisseur à oxygène, le four électrique à arcs, etc., étant donné que l’entrée 
+et la sortie sont difficiles et/ou qu’il peut y avoir présence de gaz. 
+ 
+1.5 Voici certains points dont il faut notamment tenir compte lors de l’établissement des 
+conditions d’accès : 
+ 
+1.5.1 lorsqu’une atmosphère renferme des niveaux potentiellement nocifs de 
+contaminants (poussière, fumées, brouillard, vapeur, gaz ou autre substance liquide ou 
+solide) qui pourraient être néfastes pour la santé et la sécurité ; 
+ 
+1.5.2. lorsque la teneur en oxygène n’est pas sécuritaire, en raison surtout de la 
+présence de CO, CO2, Ar, N2 (après une purge à l’azote, par exemple). Il faut 
+obligatoirement vérifier l’atmosphère d’un espace confiné avant d’y pénétrer ; cette 
+vérification peut exiger le port d’un appareil respiratoire (à faire au cas par cas) ; 
+ 
+1.5.3 lorsqu’il y a risque de combustion ou d’explosion dû à la présence de O2, de CO 
+ou de produits organiques chimiques (par ex., graisse/huile + O2) ; 
+ 
+1.5.4 lorsqu’il y a risque d’emprisonnement ou d’engouffrement causé par le 
+déplacement d’appareils, un mouvement des sols, des travaux de démolition ou de 
+construction, du travail dans des canalisations, l’abattage du roc dans les mines ; 
+ 
+1.5.5 lorsque la présence de véhicules dans ces espaces pose des risques 
+supplémentaires (par ex., dans les fosses à scories ou de coulée, de coulée continue...). 
+ 
+1.6 Il y a introduction lorsque le corps entier, le buste ou la tête se trouve à l’intérieur de 
+l’espace confiné. Il ne s’agit pas ici d’empêcher quelqu’un d’y entrer la main ou le bras en 
+tenant un instrument d’essai ou une sonde aux fins d’évaluation, pourvu que cette méthode 
+soit dûment autorisée et exercée. 
+ 
+1.7 Il faut constamment s’efforcer de réduire et d’éliminer les risques associés aux espaces 
+confiné. 
+ 
+ 
+2. Identification 
+ 
+Corporate : Santé & Sécurité 
+Page 3de 5
+ 
+Les espaces confinés doivent être identifiés et inventoriés ; des affiches doivent être posées à 
+toutes les entrées des espaces confinés ou à proximité de celles-ci. 
+ 
+2.1 Espace confiné nécessitant un permis 
+ 
+On entend par « espace confiné nécessitant un permis (espace avec permis) » un espace qui 
+renferme un ou plusieurs des dangers suivants : 
+- présence possible d’une atmosphère dangereuse (norme AM 012) ; 
+- taux d’oxygène non sécuritaire, par ex., après une purge à l’azote ; 
+- risque d’engouffrement de la personne qui y pénètre ; 
+- configuration susceptible de causer l’emprisonnement ou l’asphyxie de la personne en raison 
+de parois rentrantes ou d’un plancher incliné vers le bas dont la section diminue 
+progressivement ; 
+- tout autre risque connu grave pour la sécurité ou la santé qui ne peut être éliminé, et 
+impossibilité de maintenir l’état sécuritaire de l’espace confiné en permettant l’accès. 
+Une affiche placée à chaque point d’entrée doit alors indiquer qu’il faut détenir un permis 
+pour entrer. 
+ 
+2.2 Espace confiné ne nécessitant aucun permis 
+ 
+On entend par « espace confiné ne nécessitant aucun permis » un espace qui, en matière de 
+dangers atmosphériques, ne renferme pas ou ne risque pas de renfermer un danger susceptible 
+de causer la mort ou un dommage physique grave. 
+La décision concernant ces deux cas doit être prise sur place après évaluation des risques. 
+ 
+ 
+3. Régime de permis (espace confiné nécessitant un permis) 
+ 
+3.1 L’accès à un espace confiné ne doit être autorisé qu’après évaluation complète des risques 
+et application des mesures appropriées d’isolement et d’atténuation, ainsi qu’après délivrance 
+d’une approbation écrite, sous forme de permis, par une personne habilitée à émettre un tel 
+permis (c.-à-d. la personne qui est responsable de la coordination des tâches à effectuer dans 
+cet espace confiné et qui a participé à l’évaluation des risques). 
+ 
+3.2 Le processus d’émission de permis doit prendre en compte les éléments suivants : 
+l’évaluation des risques, dont la présence d’une personne qualifiée pour évaluer notamment 
+les taux d’oxygène, les contaminants, les températures extrêmes ainsi que les concentrations 
+des substances inflammables ; les méthodes d’isolement pour les contaminants et autres 
+sources d’énergie ; les besoins en ventilation, la nécessité de porter un appareil respiratoire ; 
+la signature à l’entrée et à la sortie de toute personne qui pénètre dans l’espace confiné ; 
+l’éclairage interne et la signalisation ; les lampes de secours et d’appoint ; les conditions de 
+protection de l’atmosphère ; l’affichage du permis ; le matériel de communication ; les 
+normes de sécurité sur le matériel à emporter dans l’espace confiné ; l’installation de barrières 
+; le plan et le matériel de sauvetage ; le surveillant ; l’établissement d’une procédure de 
+travail. 
+L’évaluation des risques peut exiger que les personnes travaillant dans des espaces confiné 
+portent un harnais de sécurité attaché à un câble ou à une corde qui se prolonge à l’extérieur 
+afin de permettre une évacuation rapide en cas d’urgence. 
+ 
+ 
+Corporate : Santé & Sécurité 
+Page 4de 5
+ 
+Corporate : Santé & Sécurité 
+Page 5de 5
+ 
+4. Autres exigences 
+ 
+4.1 Toute personne travaillant dans un espace confiné nécessitant un permis ou agissant à titre 
+de surveillant doit posséder la formation et la compétence requises sur les plans technique et 
+médical. 
+ 
+4.2 Des procédures de travail sécuritaire particulières doivent être élaborées à l’égard des 
+tâches jugées plus dangereuses lorsqu’elles sont exécutées dans des espaces confiné plutôt 
+qu’ailleurs, notamment le travail à chaud (découpage et soudage), le nettoyage chimique, le 
+nettoyage à la vapeur et le décapage par projection d’abrasif. 
+Déterminer l’équipement de protection collective et individuelle selon le travail exécuté. 
+ 
+4.3. Le surveillant ne doit effectuer aucune autre tâche et doit rester constamment à l’extérieur 
+du point d’entrée de l’espace confiné pendant que le personnel est à l’intérieur.

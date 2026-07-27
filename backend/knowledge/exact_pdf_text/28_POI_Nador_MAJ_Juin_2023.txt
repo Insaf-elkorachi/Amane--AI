@@ -1,0 +1,3827 @@
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 1/53 
+    
+ 
+  
+  
+  
+   
+Plan d'opération interne 
+ 
+ 
+ 
+ 
+Ce Document N°  :   SHN/M/2023 
+Est remis à  
+ 
+:    
+• Diffusion Interne  :                                    
+ 
+• Diffusion Externe :             
+ 
+Titre - Nom 
+Signature 
+Mise à jour 
+Pilote FPS Emergency     : M. EL MANSORI Badr  
+Vérification 
+Animateur Sécurité          : M. TOUFIK Abdelilah 
+ 
+Approbation 
+Directeur du Site              : M. EL KANDOUSSI 
+Mohamed 
+ 
+ 
+ 
+POI -version M – Juin 2023 
+Qualité, Sécurité, Environnement 
+Au cœur de notre développement
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 2/53 
+EVOLUTION DU POI 
+                     
+Ind. 
+Date 
+Motif – Observations 
+A 
+25/10/05 
+• Création du document. 
+B 
+06/11/06 
+• Mise à jour de la numérotation téléphonique. 
+• Actualisation des listes EPI - ESI – SST. 
+• Actualisation des listes du matériel de lutte contre l’incendie. 
+C 
+Avril 2008 
+• Mise à jour de la numérotation téléphonique et des acteurs déclencheurs du plan 
+d‘intervention. 
+• Mise à jour des listes des EPI, ESI, SST. 
+• Actualisation de l’organisation. 
+D 
+Octobre 
+2011 
+• Mise à jour de la numérotation téléphonique et des acteurs déclencheurs du plan 
+d‘intervention. 
+• Mise à jour des listes des EPI, ESI, SST. 
+• Actualisation de l’organisation. 
+E 
+Octobre 
+2012 
+• Mise à jour de la numérotation téléphonique et des acteurs déclencheurs du plan 
+d‘intervention. 
+• Mise à jour des listes des EPI, ESI, SST. 
+• Actualisation de l’organisation. 
+F 
+Mai 2013 
+• Ajout des Scénarios d’urgences. 
+G 
+Octobre 
+2016 
+• Intégration de la station de traitement des huiles usagées. 
+• Mise à jour de la numérotation téléphonique et des acteurs déclencheurs du plan 
+d‘intervention. 
+• Mise à jour des listes des EPI, ESI, SST. 
+• Actualisation de l’organisation. 
+H 
+Octobre 
+2017 
+• Mise à jour de la numérotation téléphonique et des acteurs déclencheurs du plan 
+d‘intervention. 
+I 
+Décembre 
+2018 
+• Mise à jour du schéma de déclenchement du plan chronologique des 
+interventions. 
+• Mise à jour de la numérotation téléphonique et des acteurs déclencheurs du plan 
+d‘intervention. 
+• Mise à jour des listes des EPI, ESI, SST & Ambulanciers. 
+J 
+Décembre
+2019 
+• Insertion de la disposition du site. 
+• Mise à jour de la numérotation téléphonique et des acteurs déclencheurs du plan 
+d‘intervention. 
+• Mise à jour des listes des EPI, ESI, SST & Ambulanciers. 
+K 
+Juin 2021 
+• Mise à jour de la numérotation téléphonique et des acteurs déclencheurs du plan 
+d‘intervention. 
+• Mise à jour des listes des EPI, ESI, SST & Ambulanciers. 
+• Actualisation de l’organisation. 
+L 
+Janvier 
+2022 
+• Mise à jour de la numérotation téléphonique et des acteurs déclencheurs du plan 
+d‘intervention. 
+• Mise à jour des listes des EPI, ESI, SST & Ambulanciers. 
+• Actualisation de l’organisation. 
+M 
+Juin 2023 
+• Mise à jour de la numérotation téléphonique et des acteurs déclencheurs du plan 
+d‘intervention. 
+• Mise à jour des listes des EPI, ESI, SST & Ambulanciers. 
+• Actualisation de l’organisation.
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 3/53 
+                             
+ 
+ 
+SOMMAIRE 
+Page 
+Libellé 
+4 
+Abréviation 
+5 
+Disposition du site 
+6 
+Schéma du déclenchement du POI – Chronologie des interventions  
+8 
+Déclenchement de l’alerte – 1ère intervention 
+9 
+Déclenchement de l’alerte – 2ème intervention 
+11 
+Déclenchement de l’alerte – 3ème intervention 
+12 
+Composition des équipes 
+13 
+Lieu de ralliement 
+14 
+Plans (Approche du Site - Schéma de pompage - Acheminement des secours) 
+15 
+Répertoire téléphonique 
+16 
+Fonction / affectations 
+18 
+Equipe d’intervention 
+20 
+Données de calcul  
+21 
+Moyens de pompage et de distribution d’eau 
+22 
+Schéma d’alimentation en eau & Gestion de l’eau 
+23 
+Les extincteurs 
+24 
+Moyens de détection – Détecteurs de chaleur 
+25 
+Moyens de détection – Détecteurs fumée 
+26 
+Brise-Glace (déclencheur mural d’alarme) 
+27 
+Les moyens d’extinction automatique 
+28 
+Directeur des secours (missions générales) 
+29 
+Directeur des secours (guide de réflexion) 
+30 
+Directeur des secours (check-list stratégique) 
+32 
+Directeur des secours (check-list tactique) 
+34 
+Chef d’intervention 
+35 
+Section logistique 
+36 
+Gardiennage 
+37 
+Gardiennage – Message d’appel des secours 
+38 
+Section transmission 
+39 
+Section transmission – Message d’appel des secours 
+40 
+Section relation extérieure 
+41 
+Section observation 
+42 
+Les équipes d’intervention 
+43 
+Personnel non désigné & Pompiste 
+44 
+Protection civile 
+45 
+Exemples de scénarios
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 4/53 
+ 
+ABREVIATIONS : 
+ 
+• P.O.I  
+: Plan d'opération interne 
+• P.C  
+: Poste de Commandement 
+• E.P.I  
+: Equipier de Première Intervention 
+• E.S.I  
+: Equipier de Seconde Intervention 
+• SST  
+: Sauveteur Secouriste au Travail 
+• ONEE 
+: Office National de l’Electricité et de l’Eau Potable 
+• CPN  
+: Centre de Production Nador 
+• CMN  
+: Centre de Maintenance Nador 
+• RHN  
+: Ressources Humaines Nador 
+• APN  
+: Administration du Personnel Nador 
+• SHN  
+: Sécurité, Hygiène Nador 
+• SGN  
+: Service Généraux Nador
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 5/53 
+Vers Nador 
+Vers Taourirt 
+Vers 
+Al Aroui 
+DISPOSITION DU SITE 
+ 
+Adresse : 
+SONASID NADOR 
+Route Nationale n°2, km 18, Al Aroui ; B.P. 551 
+Tél 
+: (+212) 5 38 90 11 00 
+Fax : (+212) 5 36 60 94 40 
+Fax : (+212) 5 36 35 89 53 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Voie ferrée 
+Vers expédition 
+Vers Direction 
+& Usine 
+Vers Parc à 
+billettes & 
+Tank fuel 
+Vers Magasin 
+Station 
+Afriquia 
+Station Oil Libya 
+Vers Aroui 
+Vers Nador 
+Vers Taourirt
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 6/53 
+SCHEMA DE DECLENCHEMENT DU POI 
+CHRONOLOGIE DES INTERVENTIONS 
+G6.  RÔLEENIE 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TEMOIN 
+➢ Attaque initiale 
+➢ Secours victime 
+ALERTE     
+SECURITE 
+P.C. (555) 
+UTILISATION DES MOYENS 
+MOBILES / SECURITE 
+APPEL DES SECOURS 
+EXTERIEURS 
+INCIDENT 
+OU 
+INCENDIE 
+OU 
+ACCIDENT 
+INFORMATION 
+DIRECTION 
+GENERALE 
+PAR DIRECTEUR 
+DES SECOURS 
+INCENDIE 
+INCIDENT 
+ACCIDENT 
+1ère INTERVENTION 
+2ème INTERVENTION     
+3ème INTERVENTION 
+(Déclenchement du POI) 
+LUTTE 
+CONTRE 
+INCENDIE 
+APPEL DES SECOURS 
+INTERIEURS (EPI, ESI, SST…)
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 7/53 
+N.B. Au site Nador, le poste de garde (PG) est le poste de Commandement (PC). 
+Voir aussi : 
+➢ Procédure d’identification des situations d’urgence QSE S640PG001C. 
+➢ Plan d’évacuation. 
+➢ Procédures, Modes opératoires et scénarios des situations d’urgence. 
+ 
+Il est à noter que : 
+• La première et la deuxième intervention doivent être à actions immédiates 
+et ne nécessitent aucun accord hiérarchique. 
+• Le déclenchement du P.O.I ainsi que l’appel des secours extérieurs 
+nécessitent un accord hiérarchique. (Directeur des secours, ou intérim ou 
+Responsable Sécurité). 
+• Respectivement le déclenchement du P.O.I est sous l’autorité du chef de 
+poste, tandis que l’appel des secours extérieurs doit être autorisé par le 
+directeur des secours. 
+ 
+ 
+ACTIONS  
+IMMEDIATES          
+ 
+ 
+ 
+ 
+APPELS SUR ORDRES : 
+ 
+CHEF DE POSTE 
+ 
+ 
+ 
+ 
+DIRECTEUR DES  
+    SECOURS 
+ 
+ 
+SECOURS 
+INTERIEURS 
+SECOURS 
+EXTERIEURS 
+ 
+➢ Mise en œuvre des moyens 
+fixes et/ou mobiles 
+ 
+ 
+ 
+ 
+ 
+➢ Personnel de l’usine 
+désigné dans le P.O.I et /ou 
+à aptitude sécurité 
+ 
+ 
+➢ Protection civile, sûreté 
+nationale, Gendarmerie, 
+CNRP (Le Centre 
+National de 
+Radioprotection)…. 
+PERSONNEL HABILITE (EPI/ESI)
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 8/53 
+DECLENCHEMENT DE L’ALERTE 
+La première intervention 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. ATTAQUER IMMEDIATEMENT LE FOYER :  
+                       « Si cette action peut se révéler efficace » 
+➢ Mettre en œuvre les moyens de première intervention en vue d’obtenir l’extinction, ou au 
+moins le contrôle du feu en assurant le refroidissement des zones exposées. 
+ 
+2. SECOURIR LES VICTIMES EVENTUELLES :  
+➢ Prendre des dispositions visant à faire sortir la victime du danger, et la secourir selon les 
+consignes particulières de secourisme en attendant l’arrivée du personnel spécialisé qui la 
+prendra en charge. 
+ 
+3. ALERTER LE POSTE DE COMMANDEMENT (555) :  
+➢ Si la situation prend plus d'ampleur, il faut appeler le poste de commandement pour 
+déclencher la deuxième intervention. 
+ 
+N.B : Il est à souligner que l’ordre réel d’exécution des actions dépend des circonstances. 
+Le service sécurité doit être obligatoirement alerté même si l’incident ou l’incendie a été 
+neutralisé au niveau de l’intervention du personnel opérateur. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PERSONNEL OPERATEUR 
+(TEMOIN) 
+SECOURS  
+VICTIMES 
+APPEL 
+SECURITE 
+P.C (555) 
+ATTAQUE 
+INCENDIE
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 9/53 
+ 
+ 
+DECLENCHEMENT DE L’ALERTE 
+La deuxième intervention 
+ 
+             
+                         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Poste de Commandement 
+Poste de garde (555) 
+Application des 
+consignes d’alerte 
+MISE EN ŒUVRE 
+DES MOYENS MOBILES 
+DE LUTTE CONTRE 
+L’INCENDIE 
+Chef de Poste 
+Pupitre Principal 
+Alarme 1ère Intervention 
+ATTAQUE 
+INCENDIE
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 10/53 
+ 
+DECLENCHER OU FAIRE DECLENCHER L’ALERTE :  
+• Si la 1ère Intervention n’est pas efficace, l’intervenant doit immédiatement déclencher 
+l’alarme en appelant :  
+• Le N° 555 - Poste de Commandement (PC). 
+• Le N° 333 - Animateur de sécurité. 
+• Le N° 300 - Poste de garde (PG).           Si le Poste de Commandement est injoignable 
+• Le N° 403 - Pupitre principal OP3. 
+(En cas de difficulté d’appel, joindre immédiatement le PC ou le pupitre principal, pour 
+communiquer sur l’incident). 
+ 
+Préciser clairement : 
+• Son nom et prénom 
+• La nature de l’incident 
+• Le lieu exact (unité, zone, local, niveau, etc. …) 
+• Les blessés éventuels et la nature des blessures 
+Ne pas raccrocher le premier, donner votre numéro, et n’ajouter aucun 
+commentaire. 
+ 
+➢ Dès la réception d’un appel d’urgences, le P. C / sécurité doit : 
+ 
+• Bien s’informer sur l’incident (nature, lieu, ampleur, victimes éventuelles). 
+• Appeler immédiatement le chef de poste afin de répercuter l’alarme aux endroits 
+concernés. 
+➢ Le Chef de poste doit déclencher immédiatement la deuxième intervention en 
+appliquant les consignes de mise en œuvre des moyens de lutte en cas d’incident 
+et /ou d’incendie. 
+ 
+NB :  
+ 
+Le chef de poste (ou son intérim), EPI/ESI et l’animateur sécurité veillent à l’application des 
+consignes particulières dictées dans ce document. 
+ Dans le cas où le chef de poste se trouve dans l’impossibilité de déclencher l’alerte par 
+téléphone ou par talkie-walkie, il doit actionner l’alarme par le bouton poussoir le plus proche. 
+ Le PC assure la communication des informations avec le pupitre principal et le CP (ou son 
+intérim) pour lancer l’intervention : 
+• Le PC appelle le pupitre principal par téléphone ou par talkie-walkie (Le PC appelle 
+directement le chef de poste en cas de force majeure ou si le pupitre principal est 
+injoignable). 
+• Le pupitre principal appelle le chef de poste par talkie-walkie ou par la sirène du 
+pupitre, et lui transmet le message reçu du poste de commandement. 
+• Le chef de poste se dirige immédiatement vers le lieu de l’incident. 
+• Le chef de poste appelle par talkie-walkie le pupitre principal, pour demander les EPI 
+/ESI et secouristes au lieu du sinistre. 
+• L’opérateur du pupitre principal appel les EPI/ESI & secouristes en activant la sirène 
+(02 coups interrompus) et via le talkie-walkie. 
+• Le chef de poste est le coordinateur de l’équipe EPI/ESI & Secouristes, il dirige les 
+activités de l’équipe d’intervention de l’unité.
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 11/53 
+DECLENCHEMENT DE L’ALERTE 
+La troisième intervention 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+❖ Afin de pouvoir conduire l’intervention en cas de sinistre avec des chances de succès, une 
+réorganisation de l’ensemble du personnel de l’usine s’impose. 
+❖ Déclencher le P.O.I (Plan d'opération interne) ou déclencher la 3ème intervention, veut dire tout 
+simplement s’organiser à l’échelle de l’usine pour bien combattre le sinistre qui risque de 
+prendre de l’ampleur. 
+❖ Le déclenchement du P.O.I est matérialisé par un coup de klaxon continu. 
+Comment :  
+Le chef de poste demande à l’opérateur du pupitre de déclencher la sirène d’évacuation 
+d’urgence : Un coup de klaxon continu : ……………… = To To To To To To To 
+❖ Dès le déclenchement de la sirène, il faut évacuer l’ensemble du personnel vers les Points de 
+rassemblement (PR). 
+❖ Les serre-files & Guides assurent l’évacuation des personnes. 
+❖ Un agent du poste de garde, équipé d'un talkie-walkie, rejoint les PR (Point de rassemblement) 
+avec la liste des visiteurs, sous-traitants. 
+❖ Au PR, regrouper les personnes par entité et par EE pour faciliter la vérification des absences.  
+❖ Le Chef de Poste assure la communication entre le PR, PC et Equipe d’intervention. 
+❖ Sous ordre du DS ou son intérim, le PC Appelle les secours externes au cas où la situation 
+échappe aux équipes d’intervention interne. 
+❖ Le PR principal est au niveau du parc à billettes. 
+NB. Afin d’éviter toute aggravation, il faut sécuriser les Equipements & Installations
+Si le chef de poste estime que la situation échappe aux EPI/ESI & Secouristes, il 
+doit : 
+ Déclencher le POI après accord du directeur des secours ou son intérim et 
+respecter ses directives en attendant son arrivée (en cas de difficulté de 
+communication, le chef de poste prend la décision convenable). 
+ L’équipe EPI/ESI doit se mettre à la disposition du service de protection 
+civile pour collaboration. 
+INCENDIE 
+(SITUATION 
+INCONTROLABLE) 
+Déclenchement éventuel du POI 
+(Evacuation) 
+Par le Chef de poste ou son 
+intérimaire 
+Alarme 2ème Intervention
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 12/53 
+COMPOSITION DES EQUIPES 
+La troisième intervention 
+ 
+Après le déclenchement du P.O.I, le personnel de l’usine doit s’organiser comme il est 
+indiqué dans le tableau ci-après. 
+Chaque mission est assurée par la personne désignée et qui doit être présente sur les lieux. 
+L’ordre de prise de commandement est comme suit. 
+ 
+EQUIPE 
+FONCTION HABITUELLE
+Directeur 
+Des secours 
+Directeur du Site ou Intérimaire (Permanencier, animateur de 
+sécurité), en cas de problème de communication avec le directeur 
+de secours (ou son intérim), le chef de poste de Laminage doit 
+déclencher le POI et essayer de contacter le directeur de secours. 
+Responsable de l’équipe 
+incendie 
+Chef de poste ou son Intérimaire (superviseur). 
+Animateur de sécurité  
+Responsable de la permanence 
+Responsable de l’équipe 
+production 
+Responsable d’exploitation 
+Responsable de Production ou son Intérimaire 
+Responsable de l’équipe 
+maintenance 
+Responsable de la Maintenance. 
+Responsable de Maintenance Mécanique ou son Intérimaire 
+Responsable de Maintenance Electrique ou son Intérimaire 
+Responsable de l’équipe 
+administration 
+Responsables des Fonctions supports 
+Responsable du Département des Ressources Humaines ou son 
+Intérimaire 
+ 
+D’une manière générale, et à l’exception des équipes incendie et renforts, chaque équipe est 
+composée par du personnel du secteur considéré. 
+ 
+ 
+ 
+EQUIPE 
+ 
+ 
+COMPOSITION 
+Incendie 
+• Chef de poste avec Equipe de première et seconde intervention (EPI-ESI) * 
+Production 
+• Personnel du service Exploitation 
+Maintenance 
+•    Personnel du secteur maintenance. 
+Administration 
+• Personnel du secteur administration. 
+Renforts 
+• Personnel rappelé ou ralliant l’usine. 
+ 
+(*) Est considéré comme (E.P.I) tout agent de l’usine ayant suivi une formation d’intervention 
+/ sécurité incendie. 
+ 
+L’équipe d’intervention, appelée aussi équipe incendie, est composée par : 
+• 
+Chef de poste                                                :       01   par poste 
+• 
+Equipe de première et seconde intervention :       04 à 05 personnes par poste 
+ 
+NB : Le chef de poste ou son intérimaire (superviseur) informe dès son entrée en poste, 
+le pupitre principal, le poste de garde & l’infirmerie des noms des EPI/ESI et 
+secouristes. 
+ 
+❖ 
+La fin de l’événement est matérialisée par un coup de klaxon interrompu.
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 13/53 
+ 
+Déclaration de la fin de l’événement :   
+Si le directeur de secours ou son intérim décide le retour aux postes de travail, l’opérateur du pupitre 
+principal (OP3), rejoint le Pupitre Principal pour déclencher la sirène de retour (Coups de klaxon 
+interrompus) et chaque personne doit rejoindre son poste de travail en respectant les points suivants : 
+- Suivre les chemins sécuritaires menant aux postes de travail et indiqués sur le plan 
+d’évacuation de chaque zone. 
+- Eviter la panique. 
+- Ne pas courir. 
+- Eviter de se rapprocher du lieu d’incident. 
+ 
+Reprise opérationnelle des activités : 
+Le directeur de secours ou son intérim en présence des responsables des zones évalueront les dégâts 
+afin de statuer sur : 
+- L’analyse des causes et le plan de prévention validé. 
+- Le plan de remise en état (avec actions, pilote, délai). 
+- Le plan de démarrage de production (réception, essais, démarrage) 
+ 
+LIEU DE RALLIEMENT 
+ 
+ 
+ 
+Dès le déclenchement du P.O.I, l’ensemble du personnel rappelé ou 
+ralliant spontanément l’usine et dont les missions n’ont pas été 
+préalablement définies dans le cadre du P.O.I, doivent se regrouper au 
+Point de Rassemblement (En respectant le plan d’évacuation 
+d’urgence), et attendre les instructions éventuelles les concernant, et 
+qui leur seront transmises par la personne désignée comme 
+responsable du P.C / Sécurité.
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 14/53 
+ 
+PLANS 
+ 
+ 
+PLAN D’APPROCHE DU SITE 
+ 
+ 
+Voir Plan N° :  
+1K00A18005-B Annexe 02 
+ 
+ 
+SCHEMA DE POMPAGE ET DISTRIBUTION DE L’EAU 
+INCENDIE : 
+ 
+Voir Plan N° :  
+1K96F13910C Annexe 01 
+ 
+ 
+CHEMINEMENTS DES SECOURS 
+ 
+Voir Plans N° : 
+1K00A18006-A Annexe 03 
+1K00A18006-B Annexe 04
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 15/53 
+REPERTOIRE TELEPHONIQUE 
+ 
+Direction 
+ 
+NOM 
+TELEPHONE 
+FIXE 
+Poste 
+interne 
+GSM 
+Direction  
+M. 
+EL 
+KANDOSSI 
+Mohamed 
+0538 90 10 01 
+501 
+0646291047 
+Poste de garde (Ligne Rouge) 
+Poste de garde (Standard 1) 
+Poste de garde (Standard 2) 
+Sécurité 
+Agent poste de garde 
+Agent poste de garde  
+Agent poste de garde 
+M. ABD EL ILAH 
+0538 90 10 00 
+---------------- 
+---------------- 
+0538 90 10 17 
+555 
+300 / 9 
+326 
+333 
+---------------- 
+---------------- 
+---------------- 
+0646291061 
+Maintenance 
+M. EL HALFA 
+0538 90 10 13 
+513 
+0702034468 
+Maintenance Électrique 
+Maintenance Mécanique 
+M. EL OUALI 
+M. EL HALFA 
+0538 90 10 00 
+406 
+513 
+0602820469 
+0702034468 
+Ressources Humaines  
+M. EL MANSORI 
+0538 90 10 08 
+508 
+0608867935 
+             
+Protection Civile       
+Code Tel 
+FIXE 
+GSM 
+NADOR 
+ 
+Commandant Provincial 
+8548 
+8406 
+----- 
+0536 33 40 39 
+0536 60 51 63 
+---------------- 
+---------------- 
+---------------- 
+0661 34 56 06 
+ 
+Gendarmerie       
+Code Tel 
+FIXE 
+GSM 
+NADOR 
+Mont AROUIT 
+SELOUANE                           
+8543 
+8545 
+8544 
+0536 60 72 08 
+0536 36 20 18 
+0536 35 85 98 
+---------------- 
+---------------- 
+---------------- 
+ 
+Police       
+Code Tel 
+FIXE 
+GSM 
+Commissariat de Mont AROUIT 
+8022 
+0536 36 29 26 
+---------------- 
+ 
+Administrations       
+Code Tel 
+FIXE 
+GSM 
+ONE SELOUANE 
+ONEP: Chef exploitation (El Morsli) 
+ 
+ONEP: Chef exploitation (Redouane) 
+----- 
+8133 
+8148 
+8050 
+0536 60 90 03 
+---------------- 
+---------------- 
+---------------- 
+---------------- 
+0661 05 50 37 
+0661 13 04 01 
+0668 42 81 65 
+ 
+Préfecture – Autorités 
+Code Tel 
+FIXE 
+GSM 
+Province NADOR 
+Commune SELOUANE 
+Municipalité Mont AROUIT 
+Kiada SELOUANE 
+Cercle SELOUANE - KALAIA 
+8266 
+8994 
+8993 
+8992 
+8988 
+0536 60 26 23 
+0536 60 90 26 
+0536 36 21 04 
+0536 60 90 75 
+0536 35 89 96 
+---------------- 
+---------------- 
+---------------- 
+---------------- 
+---------------- 
+ 
+Hôpitaux – Cliniques 
+Code Tel 
+FIXE 
+GSM 
+Polyclinique du Nord 
+Polyclinique RIF 
+Clinique ELWAHDA 
+Clinique ELWAHDA 
+Clinique EL FALLAH 
+Clinique AL MATAR 
+8648 
+8166 
+8496 
+8623 
+8622 
+8028 
+0536 60 74 90 
+0536 60 02 03 
+0536 32 00 00 
+0536 32 02 75 
+0536 33 44 33 
+0536 60 63 63 
+---------------- 
+---------------- 
+---------------- 
+---------------- 
+---------------- 
+---------------- 
+ 
+Médecin de travail 
+Code Tel 
+FIXE 
+GSM 
+Dr. AL AISSAMI 
+8442 
+---------------- 
+06 61 36 47 06
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 16/53 
+ 
+ 
+FONCTIONS/ AFFECTATIONS 
+ 
+ 
+MISSION 
+FONCTION 
+NOM 
+Directeur des secours 
+Directeur du Site 
+M. EL KANDOUSSI 
+Chef équipe intervention 
+Animateur sécurité site de 
+Nador 
+M. ABD EL ILAH 
+Chef équipe logistique et 
+Répartition des moyens 
+Responsable Maintenance 
+M. EL HALFA 
+Chef équipe Production 
+Responsable Production 
+M. KANDIL 
+Chef équipe logistique et 
+Répartition électrique 
+Responsable Maintenance 
+Electrique 
+M. EL OUALI 
+Chef équipe logistique et 
+Répartition mécanique 
+Responsable Maintenance 
+Mécanique 
+M. EL HALFA 
+Responsable Section 
+Relations Extérieures  
+Responsable des Ressources 
+Humaines site de Nador 
+M. EL MANSORI 
+Local des pompes incendie 
+Responsable SGN 
+M. MOUADDINE 
+Transmission 
+Standardiste 
+Poste de Garde 
+Gardiennage 
+Responsable Gardiennage 
+M. LAHRAOUI 
+Evaluation médicale 
+Médecin de travail 
+Dr. AL AISSAMI 
+Accueil des Pompiers 
+Agent Sécurité 
+Poste de Garde
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 17/53 
+ 
+ 
+Postes I – II - III & 4° équipe 
+ 
+ 
+ 
+MISSION 
+ 
+ 
+FONCTION 
+ 
+NOM 
+ 
+EVACUATION PERSONNEL : 
+ 
+ 
+➢ SECTEUR Production 
+ 
+➢ SECTEUR Maintenance 
+ 
+➢ SECTEUR Supports 
+ 
+ 
+ 
+ 
+ 
+ 
+• GUIDE 
+• SERRE FILE 
+ 
+Chef de poste de la 
+zone sinistrée 
+ 
+• GUIDE 
+• SERRE FILE 
+ 
+Chef de poste. 
+ 
+• GUIDE 
+• SERRE FILE 
+ 
+ 
+Responsable de la zone  
+ 
+ 
+ 
+DEMARAGE DES POMPES CIRCUIT 
+INCENDIE 
+ 
+ 
+* 
+ 
+* Les pompes du circuit incendie démarrent automatiquement après ouverture des robinets 
+d’incendie. 
+ 
+N.B : Pour le bâtiment administratif & bureaux techniques, M. LAHRAOUI Ali est désigné 
+comme guide.
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 18/53 
+ 
+ 
+EQUIPE D’INTERVENTION 
+ 
+NOM 
+PRENOM SERVICE POSTE EPI 
+ESI 
+SST 
+Conducteur 
+D’ambulance 
+AABKARI 
+MOUAD 
+ 
+358 
+1 
+1 
+  
+ABDELKHALEK 
+AMINE 
+ 
+400 
+1 
+1 
+1  
+ADDAHRI 
+ABDELOUAHID 
+ 
+403 
+1 
+  
+  
+AISSAOUI 
+RACHID 
+ 
+406 
+1 
+1 
+  
+AKAAOUCH 
+ALI 
+ 
+317 
+1 
+  
+ 1 
+AKOUDAD 
+ABDELMONAIM 
+ 
+406 
+1 
+  
+ 1 
+ALAOUI MOULAY 
+MUSTAPHA 
+ 
+497 
+  
+1 
+  
+AMDARI 
+MUSTAPHA 
+ 
+403 
+1 
+1 
+ 1 
+ASBAI 
+ILYAS 
+ 
+358 
+1 
+1 
+  
+AZZAMMOURI 
+LAARBI 
+ 
+441 
+  
+1 
+  
+BACHIRI 
+SAMI 
+ 
+406 
+1 
+  
+  
+BAJJA 
+JAMAL 
+ 
+400 
+1 
+1 
+  
+BARAKATE 
+OUSSAMA 
+ 
+403 
+1 
+1 
+  
+BEN BOUAZZA 
+MOHAMED 
+ 
+513 
+1 
+1 
+  
+BEN OTMAN 
+JAMAL 
+ 
+403 
+  
+1 
+  
+BENABID 
+MOHAMED 
+ 
+513 
+1 
+1 
+  
+BOUANZA 
+BRAHIM 
+ 
+513 
+1 
+1 
+  
+BOUBAOUCH 
+AYMAN 
+ 
+  
+1 
+1 
+ 1 
+BOUDIOUAN 
+MOHAMED 
+ 
+403 
+1 
+  
+  
+BOUHAITI 
+CHERKI 
+ 
+403 
+1 
+  
+  
+BRIMO 
+FARID 
+ 
+403 
+1 
+  
+  
+CHAKKOU 
+HAMID 
+ 
+403 
+  
+1 
+  
+CHAOUCH 
+RADOAN 
+ 
+403 
+1 
+1 
+  
+CHOURI 
+ALI 
+ 
+513 
+  
+1 
+  
+DARRAZ 
+ABDELHAMID 
+ 
+346 
+  
+1 
+  
+EL AAZOUZI 
+EL HASSAN 
+ 
+358 
+  
+1 
+  
+EL AMRANI 
+MOHAMMED 
+ 
+513 
+1 
+1 
+  
+EL BAROUDI 
+ABDESSADEQ 
+ 
+403 
+  
+1 
+ 1 
+EL BARRAGHI 
+RACHID 
+ 
+513 
+1 
+1 
+  
+EL FARES 
+ABDELRHANI 
+ 
+403 
+1 
+1 
+  
+EL HADDIOUI 
+BENAISSA 
+ 
+513 
+  
+1 
+  
+EL HADRI 
+HASSAN 
+ 
+513 
+1 
+1 
+ 1
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 19/53 
+ 
+ 
+EQUIPE D’INTERVENTION 
+ 
+ 
+NOM 
+PRENOM 
+SERVICE POSTE EPI 
+ESI 
+SST 
+Conducteur 
+D’ambulance 
+EL HALFA 
+AMINE 
+ 
+  
+  
+1 
+ 1 
+EL KADAOUI 
+HASSAN 
+ 
+403 
+1 
+  
+  
+EL OUALI 
+MOHAMMED 
+ 
+406 
+  
+1 
+ 1 
+ELHARROUTI 
+TIJANI 
+ 
+403 
+1 
+1 
+ 1 
+FANA 
+MOHAMED 
+ 
+512 
+  
+1 
+  
+HATTABI 
+M'HAMMED 
+ 
+356 
+  
+1 
+  
+ICH CHEN 
+ABDELAH 
+ 
+403 
+1 
+  
+  
+JAOUAL 
+SAID 
+ 
+403 
+1 
+  
+  
+KOUBAA 
+HASSAN 
+ 
+403 
+1 
+  
+  
+LAAZIBI 
+MOHAMED 
+ 
+  
+1 
+1 
+ 1 
+LAGHRABLI 
+BOUCHTA 
+ 
+513 
+1 
+1 
+  
+LAHRAOUI 
+AALI 
+ 
+505 
+1 
+  
+ 1 
+LAKHAL 
+HAMID 
+ 
+400 
+1 
+  
+  
+MACHROUT 
+RACHID 
+ 
+362 
+1 
+1 
+  
+MARSAK 
+KANZA 
+ 
+492 
+  
+1 
+  
+MAZOUJI 
+MIMOUN 
+ 
+512 
+  
+1 
+  
+MOUADDINE 
+MOHAMED 
+ 
+  
+  
+1 
+ 1 
+MOUNIB 
+ABDELATI 
+ 
+406 
+1 
+1 
+  
+OUCHEN 
+HAJAR 
+ 
+364 
+1 
+1 
+  
+OUJAIDAN 
+FADILA 
+ 
+509 
+1 
+1 
+  
+RADI 
+ABDELKRIM 
+ 
+406 
+1 
+1 
+  
+RAHOUTI 
+YAHYA 
+ 
+406 
+  
+1 
+  
+RHADOUANI 
+ABDELHAK 
+ 
+317 
+  
+1 
+  
+RHANJATI 
+MOHAMED 
+ 
+317 
+  
+1 
+  
+ROUMANI 
+BRAHIM 
+ 
+497 
+  
+1 
+  
+SAKHIR 
+MANAL 
+ 
+  
+  
+1 
+  
+SLIMANI 
+MOURAD 
+ 
+403 
+1 
+1 
+  
+SLIMANI 
+ABDELHAFID 
+ 
+513 
+1 
+  
+  
+TALAA 
+M'HAMMED 
+ 
+403 
+1 
+1 
+  
+TALEB 
+MOHAMMED 
+ 
+513 
+  
+1 
+  
+TAZIOUEN 
+MUSTAPHA 
+ 
+406 
+  
+1 
+  
+ZAHRAOUI 
+MOHAMMED 
+ 
+513 
+  
+1 
+ 1 
+ZANIBOU 
+EL M'FADDAL 
+ 
+403 
+  
+1 
+  
+ZIDANE 
+AAZIZA 
+ 
+  
+1 
+1 
+  
+TOTAL SUR SITE 
+ 
+42 
+52 
+14
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 20/53 
+ 
+ 
+DONNEES DE CALCUL 
+ 
+ 
+ 
+ 
+Transformateur N°1 225/20 kV  
+ 40/50 MVA 
+ 
+ 
+    41 pulvérisateurs 15 L/mn à 3,5 bars  
+    Débit :    41 x15   =       615 l/mn 
+                                 =       36,9 m3/h 
+                                 =       73,8 m3/2h    
+ 
+Transformateur TSA 20KV/380V  
+ 
+   7 pulvérisateurs 15 L/mn à 3,5 bars 
+    Débit :     7 x15   =       105 l/mn 
+                                =       6,3 m3/h 
+                                =       12,6 m3/2h   
+ 
+Capacité du réservoir : 6000 litres 
+Pression de service : 8 bars
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 21/53 
+ 
+MOYENS DE POMPAGE ET 
+DE DISTRIBUTION D’EAU 
+RESEAU D’EAU : 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+POMPES INCENDIE : 
+ 
+ 
+ 
+ 
+ 
+ 
+DISTRIBUTION CENTRE : 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                                           
+ 
+                                                                           
+   
+                                                                                                         
+Réserve = 
+Bassin 
+Alimentation à partir du réseau 
+public ONEP 20 - 30 m3/h 
+ARMOIRE 
+INCENDIE 
+(43) ROBINETS 
+D’INCENDIE 
+ORDINAIRES   45 mm 
+- 04 Réduction 45/70 
+- 04 Réduction 70/100 
+(17) ARMOIRES 
+INCENDIE 
+EXTINCTION AUTOMATIQUE 
+S / S 225KV, 
+Système à 
+sprinklers : 6000L 
+d’eau 
+1 Groupe motopompe diesel 270 m3/h à 07 bar 
+1 Groupe électropompe 270 m3/ h à 07 bar 
+2 Pompes Jockey (Maintien de pression dans le 
+circuit) 
+(11) ROBINETS 
+INCENDIE ARME (RIA) 
+4 lances monitor 
+pok 
+ 
+Clé de barrage 
+pour bouche 
+d’incendie 
+ (02) 
+Système automatique de 
+détection et extinction à 
+GAZ IG55
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 22/53 
+ 
+SCHEMA D’ALIMENTATION EN EAU 
+ 
+Voir Plans N° : 
+ 
+Circuit d’eau potable : 1K95F13911C - Annexe 06 
+Circuit d’eau de refroidissement indirecte : 1K92F16776B – Annexe 07 
+Circuit d’eau de refroidissement directe : 1K92F16765 – Annexe 08 
+Circuit d’eau de refroidissement directe (Cages 1 à 17) : 1K92F13221 
+Annexe 09 
+Circuit d’eau de refroidissement directe (Trains finisseurs) : 1K92F13222 
+Annexe 10 
+Circuit d’eau de refroidissement directe (Boites à eau) : 1K92F13223 
+Annexe 11 
+ 
+GESTION DE L’EAU 
+ 
+ 
+MOTOPOMPE : 
+ 
+Débit motopompe  
+: 270 m3/h 
+ 
+Réserves  
+ 
+: 45 000 m3 
+ 
+Réservoir  
+ 
+: 45 000 m3 
+ 
+Approvisionnement  : 20 à 30 m3/h (Bassin) 
+ 
+Consommation sur la base d’un approvisionnement minimal de 20 m3/h 
+ 
+ 
+Consommation eau 
+(en m3) à T = 
+Approvisionnement 
+(en m3) Eau à T = 
+Réserves en eau 
+disponibles (en m3) 
+T0 
+0 
+20 
+45000 
+T0 +1h 
+270 
+20 
+44750 
+T0 +2h 
+540 
+40 
+44500 
+T0 + 3h 
+810 
+60 
+44250
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 23/53 
+LES EXTINCTEURS  
+ 
+ 
+ 
+POUDRE 
+CO2 
+Lance à 
+mousse 
+LIEU 
+6 Kg 
+2 Kg 
+45Kg 
+10 Kg 
+5 Kg 
+02Kg 
+S/S 225KV / TDR 
+- 
+- 
+10 
+- 
+3 
+- 
+ 
+Salle 20Kv/S. Câbles / G. Electro/ 
+Salle de commande 
+1 
+- 
+2 
+6 
+14 
+- 
+ 
+Pupitres De Commande 
+- 
+- 
+- 
+1 
+5 
+ 
+ 
+Chariots /camions/Ambulance  
+- 
+1 
+- 
+- 
+2 
+3 
+ 
+Laminoir/S.SOL / PAB/C. GAZ 
+3 
+- 
+12 
+6 
+14 
+- 
+ 
+Ateliers 
+- 
+- 
+- 
+- 
+7 
+- 
+ 
+FOUR/ WTP 
+1 
+- 
+2 
+2 
+15 
+ 
+ 
+FEN/DER/Ferraille 
+1 
+- 
+4 
+6 
+17 
+- 
+ 
+Atelier outillage 
+2 
+- 
+- 
+4 
+2 
+- 
+ 
+Garage 
+1 
+- 
+- 
+ 
+- 
+- 
+ 
+Tanks journaliers huile usagé 
+- 
+- 
+- 
+- 
+- 
+- 
+2 
+Réservoir principal d’huile usagée 
+et fuel 
+- 
+- 
+- 
+- 
+- 
+- 
+ 
+2 
+Réserve SHN 
+11 
+- 
+6 
+5 
+18 
+6 
+- 
+Magasins 
+4 
+- 
+ 
+ 
+1 
+2 
+- 
+Bureaux techniques 
+/administratifs/ Club 
+15 
+- 
+- 
+- 
+14 
+5 
+- 
+TOTAL 
+39 
+1 
+36 
+30 
+112 
+16 
+4
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 24/53 
+   ALARME 
+MOYENS DE DETECTION – DETECTEURS DE 
+CHALEUR 
+ 
+ 
+ALARME 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOMBRE 
+SECTEUR 
+EMPLACEMENT 
+02 
+MEN 
+GROUPES 
+ELECTROGENES 1/2 
+08 
+RMN 
+CAVES A HUILE n°1 
+18 
+RMN 
+CAVES A HUILE n°2 
+05 
+RMN 
+CAVES A HUILE n°3 
+01 
+RMN 
+SYS. DE LUBRI. N°1 
+06 
+RMN 
+SYS. DE LUBRI. N°5-9 
+14 (à fusion) 
+MEN 
+TR1 S/S225 KV 
+06 
+MEN 
+20KV 
+10 
+MEN 
+Salle de contrôle 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TABLEAU DE SIGNALISATION
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 25/53 
+   ALARME 
+ 
+MOYENS DE DETECTION – DETECTEURS FUMEE 
+ 
+ 
+ 
+ 
+ALARME 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOMBRE 
+SECTEUR 
+EMPLACEMENT 
+27 
+MEN 
+S/S 225 Kv BATIMENT DE 
+CONTROLE 
+18 
+MEN 
+SALLE DE CONTRÖLE 
+20 
+MEN 
+TUNNEL DES CABLES 
+18 
+MEN 
+GALLERIE DE CABLES 
+24 
+MEN 
+CELLULES 20 KV 
+06 
+LMN 
+PUPITRES DE COMMANDE « OP3 » 
+09 
+MEN 
+LOCAUX TD3 -10 /TD7 
+01 
+FON
+SALLE DE PROJECTION 
+24 
+MEN-FMN-
+RMN-OTN 
+ATELIERS 
+06 
+Détecteurs 
+Linéaires 
+de fumée 
+MEN-FMN-
+RMN-OTN 
+ATELIERS 
+ 
+TABLEAU DE SIGNALISATION
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 26/53 
+ 
+BRISE-GLACE (DECLENCHEUR MURAL 
+D’ALARME) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOMBRE 
+SECTEUR 
+EMPLACEMENT 
+15 
+CMN 
+SOUS SOL 
+17 
+CPN 
+LAMINOIR 
+08 
+MEN 
+CELLULES 20 kV 
+11 
+MEN 
+SALLE 20 kV/GM80/GROUPES 
+10  
+FEN 
+FINISSAGE 
+09 
+MGN 
+MAGASINS 
+08 
+FEN 
+DEROULAGE 
+09 
+MEN 
+TUNNELS CABLES 
+07 
+FON 
+CENTRE FORMATION 
+06 
+RMN/FMN/ OTN 
+ATELIERS 
+08 
+SGN 
+SALLES 
+DOSAGE/POMPES/COMPRESSEURS 
+04 
+SGN 
+EAU BRUTE 
+05 
+MEN 
+TD3/TD10 
+10 
+MEN 
+LOCAUX S/S225 kV 
+05 
+GEN 
+GARAGE 
+02 
+CLN 
+ACCES AU LABORATOIRE 
+02 
+MEN 
+GALERIE DES CABLES
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 27/53 
+LES MOYENS D’EXTINCTION AUTOMATIQUE 
+ 
+TYPE 
+SECTEUR EMPLACEMENT/CARACTERISTIQUE 
+Système déluge à arrêt manuel, 
+Pression 8 bar 
+Sous Station 
+225 kV 
+Transformateur TR1 
+Système déluge à arrêt manuel, 
+Pression 8 bar 
+Cellules 20 kV 
+Transformateurs 20 kV LAMINOIR 
+Décharge totale 2 X 5 bouteilles 
+de 45 Kg CO2 
+Déroulage 
+Transformateurs 20 kV  
+TD3-TRD10 
+Décharge totale 5 bouteilles de 45 
+Kg CO2 
+Groupe 
+Eclairage et 
+Bâtiment  
+Transformateur 20 kV  
+TD7  
+Mousse à haut foisonnement 
+Sous 
+bassement 
+Le système de lubrification des deux trains 
+finisseurs / Taux de concentration de l'émulseur 
+(%) 3 
+Volume de la réserve d'émulseur (L) 166,5 
+Mousse à haut foisonnement 
+Sous 
+bassement  
+Le système hydraulique du four / Taux de 
+concentration de l'émulseur (%) 3 
+Volume de la réserve d'émulseur (L) 166,5 
+Mousse à haut foisonnement 
+Sous 
+bassement 
+Les 02 Systèmes hydrauliques 1 & 6/ Taux de 
+concentration de l'émulseur (%) 3 
+Volume de la réserve d'émulseur (L) 166,5 
+Gaz IG55 
+Salle de 
+contrôle 
+Salle de contrôle / GAZ IG55 
+Gaz IG55 
+Salle de 
+contrôle 
+Salle 20KV / GAZ IG55 
+Système à Mousse bas 
+foisonnement d’autonomie 30 min  
+Centrales 
+hydrauliques 
+CTI 
+Centrales hydraulique Sundco H/V /Agent 
+extincteur MOUSSE Synthétique AFFF 3% 
+Système Sprinkler à arrêt manuel, 
+Pression 8 bar 
+Groupes 
+Electrogènes 
+Groupes Electrogènes 1 & 2
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 28/53 
+DIRECTEUR DES SECOURS (MISSIONS 
+GENERALES) 
+ 
+Le Directeur des Secours est le responsable de la mise en 
+œuvre du Plan d'opération interne 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+En cas d’absence du Directeur, il est remplacé par ordre de priorité par : 
+• Son intérimaire ; 
+• Le Responsable de l’exploitation. 
+• Le Responsable de la maintenance. 
+• Le Responsable des Fonctions supports. 
+• L’animateur de sécurité. 
+A ce titre, il assure la direction de l’ensemble des opérations : 
+ Se rend immédiatement sur le lieu du sinistre ; 
+ Transmet les consignes d’action à l'animateur de sécurité ; 
+ Synchronise les actions de mise en œuvre avec l'animateur de sécurité ; 
+ Gère l’ensemble des actions de communication ; 
+ Décide de l’évacuation du personnel ; 
+ Décide de l’appel du renfort externe ; 
+ Veille à la disponibilité en eau ; 
+ Assure les relations :  
+- 
+Avec les autorités 
+- 
+Avec les médias 
+ 
+En utilisant les supports d’information ; 
+ Décide de l’arrêt de l’intervention ; 
+ Dès l’arrivée des secours extérieurs, il informe le commandant des sapeurs-
+pompiers de la situation afin de définir la stratégie de l’intervention.
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 29/53 
+ 
+1. 
+Qui dirige les secours actuellement ? 
+ 
+2. 
+Pourquoi a-t-on déclenché le POI ? 
+➢ 
+Type de sinistre, son volume et son importance ? 
+➢ 
+Existe-il un risque de nappe non enflammée et explosible ? 
+ 
+3. 
+Comment a évolué le sinistre jusqu'à maintenant ? 
+ 
+4. 
+Quelles sont les actions encours ? 
+ 
+5. 
+Quels secours ont été demandés ? 
+➢ 
+Protection civile de NADOR ? 
+➢ 
+Gendarmerie / Police ? 
+➢ 
+Ambulance SONASID ou Ambulance privée ? 
+➢ 
+A quelle heure ont-ils été demandés ? 
+➢ 
+Quand seront-ils sur les lieux ? 
+ 
+6. 
+Quelles informations ont été données ? 
+➢ 
+Au siège de la Direction Générale ? 
+➢ 
+A la Préfecture ? 
+➢ 
+A la Commune ? 
+ 
+DIRECTEUR DES SECOURS (GUIDE DE 
+REFLEXION) 
+ 
+ 
+GUIDE POUR LE DIRECTEUR DES SECOURS A SON ARRIVEE
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 30/53 
+DIRECTEUR DES SECOURS (CHECK-LIST 
+STRATEGIQUE) 
+ 
+Check List 
+OUI 
+NON Observation 
+ 
+PERSONNEL 
+ 
+Victimes :            - Blessées…………………………… 
+- Manquantes………………………. 
+- Mortes……………………………. 
+ 
+Sont-elles :          - Dégagées…………………………. 
+- Evacuées…………………………. 
+- Identifiées………………………… 
+ 
+Quels centres hospitaliers ? 
+ 
+Le médecin est-il prévu ? (Infirmier présent) 
+ 
+Evacuation par : -   Ambulances pompiers …………… 
+- Ambulances privées…………. 
+- Autres moyens ………………. 
+ 
+ 
+ 
+ 
+……… 
+……… 
+……… 
+ 
+……… 
+……… 
+……… 
+ 
+……… 
+ 
+……… 
+ 
+………. 
+………. 
+……… 
+ 
+ 
+ 
+……….. 
+……… 
+……… 
+ 
+……… 
+……… 
+……… 
+ 
+……… 
+ 
+……… 
+ 
+……….. 
+………. 
+………. 
+ 
+ 
+ 
+INTERVENTION 
+Equipe secteur/Opération - Nombre……………………… 
+                                          -  En poste depuis……………. 
+Equipe incendie :              - Nombre……………………… 
+                                          -  Depuis………………………. 
+Aide Mutuelle :                 -   Demandées à (h)…………… 
+• Arrivée à (h)………………… 
+• Engagée à (h)………………. 
+Sapeurs-pompiers :         - Demandées à (h)……………. 
+• Arrivée à (h)………………… 
+• Engagés à (h)………………... 
+Logistique :                       - Nombre……………………… 
+                                           -  En place à (h)………………. 
+Relève à prévoir :              - Qui ? … 
+• Combien……………………. 
+• Par qui………………………. 
+Ravitaillement :                 - Prévu………………………… 
+• A prévoir……………………. 
+• Quoi………………………… 
+• Combien ? 
+ 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+ 
+……… 
+……… 
+……… 
+……… 
+……… 
+ 
+……… 
+……… 
+……… 
+ 
+ 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+ 
+……… 
+……… 
+……… 
+……… 
+……… 
+ 
+……… 
+……… 
+………
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 31/53 
+ 
+ 
+Check List 
+OUI 
+NON 
+Observation 
+ 
+INTERVENTION PROCESS : 
+Installations voisines en danger……………………. 
+                                  Doit-on les arrêter ………………. 
+Si extension quelles installations menacées……………. 
+Doit-on renforcer leur personnel……………………… 
+Doit-on couper/rétablir les fluides - utilitaires, l’électricité 
+ 
+ 
+……… 
+……… 
+……… 
+……… 
+ 
+ 
+ 
+……… 
+……… 
+……… 
+……… 
+ 
+INTERVENTION INCENDIE (voir scénario en cours) 
+ 
+ 
+ 
+ 
+P.C  
+Liaisons :                 Qui ? ………………………………….. 
+                                Quels moyens ? … 
+Journal de bord :     Qui ? 
+Documents :  Photos/Vidéo……………………………… 
+  Collecte documents process…………. 
+   Collecte témoignages…………………. 
+   Préparation info médias………………. 
+                  Qui ? 
+                  Où ? … 
+                  Quoi ? 
+ 
+ 
+ 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+ 
+ 
+ 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+ 
+INFORMATIONS  
+ 
+Préfecture……………………………………………………  
+Protection civile……………………………………………. 
+Gendarmerie/police………………………………………… 
+Commune…………………………………………………... 
+Voisins   …………………………………………………… 
+Presse / Médias……………………………………………… 
+Direction hiérarchique……………………………………… 
+Sécurité siège………………………………………………. 
+Juridique…………………………………………………… 
+Assurances………………………………………………… 
+ 
+ 
+ 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+ 
+ 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+……… 
+………
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 32/53 
+ 
+DIRECTEUR DES SECOURS (CHECK-LIST 
+TACTIQUE) 
+     
+    LE SINISTRE 
+ 
+ 
+ Quel est le type et le volume du feu ? 
+ Quelle implantation ? Y a-t-il des accès ? 
+ Le feu est-il en structure ? Contenu, alimenté ? 
+ Quelles sont les installations voisines exposées au feu ? 
+ Quelles sont celles qui le seront en cas d’extension ? 
+ Les installations voisines sont-elles isolées ? 
+ Quelle est la source ? Est-elle visible, accessible ? 
+ Quelles étaient les conditions opératoires ? 
+ 
+ 
+    L’ATTAQUE  
+ 
+ 
+ Radiation, fumée, produits toxiques ?    
+ Direction et force du vent ? 
+ Direction du nuage de gaz ? 
+ Accès possibles et interdits ? 
+ Equipements du site, réseau d’eau ? 
+ Points d’eau pour engins ? 
+ 
+ 
+ 
+       PROCESS  
+ 
+ 
+ Existe-t-il des flexibles en service ? 
+ Y a-t-il une circulation de produit ? 
+ Accès aux vannes instrumentation ?
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 33/53 
+ 
+    OPERATIONS  
+ 
+ 
+ Nombre de pompes en service, débit, pression ? 
+ Priorités de refroidissement, quels moyens ? 
+ Lignes électriques/matériel électriques dans la zone de feu ? 
+ Structures et équipements en élévation à protéger ? 
+ Le drainage est-il suffisant ? direction de l’écoulement au sol ? 
+ Est-il nécessaire de faire des barrages ? canaliser ? 
+ Comment éloigner les curieux ? 
+ Possibilités de reprise de feu ? 
+ Les sources de fuite sont-elles isolées ? 
+ Autres mesures à prendre après extinction ?
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 34/53 
+      
+MISSION 
+ 
+➢ 
+Les moyens d’intervention de l’usine 
+➢ 
+La réserve d’eau de l’usine 
+➢ 
+Les moyens de la protection civile 
+ 
+➢ Diriger sur les lieux, les équipes 
+d’intervention  
+➢ Attaquer le sinistre avec les moyens 
+disponibles dans l’attente des Sapeurs-
+pompiers. 
+ 
+MISSIONS : CHEF D’INTERVENTION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  MOYENS MIS À DISPOSITION                               ACTIONS REFLEXES 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+➢ 
+L’équipe d’intervention ; 
+➢ 
+Vérifier son armement. 
+ 
+➢ Faire 
+exécuter 
+toutes 
+les 
+manœuvres opératoires ; 
+➢ S’assurer de la mise en sécurité 
+des personnes et des installations 
+voisines. 
+ 
+➢ Selon un des scénarios déjà 
+près établis. 
+Se tenir en liaison permanente 
+avec le PC. 
+ 
+Rassembler : 
+Définir la tactique selon 
+l’évolution du sinistre : 
+Choisir un plan d’attaque :
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 35/53 
+ 
+➢ Véhicules (transports personnel et 
+matériels) 
+➢ Eclairage 
+➢ Matériels d’intervention de l’entreprise 
+ 
+➢ Rassembler les effectifs disponibles 
+➢ Préparer les points d’accueil, rassemblement 
+➢ Diriger les secours vers la zone d’intervention 
+ 
+MISSIONS : SECTION LOGISTIQUE 
+ 
+ 
+ 
+MISSION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+MOYENS MIS À DISPOSITION             
+          ACTIONS REFLEXES 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+➢ En hommes (prévoir les relèves) 
+➢ En matériels. 
+ 
+ 
+➢ Ceux   engagés 
+➢ Ceux   disponibles. 
+ 
+ 
+➢ Nourriture et boisson 
+➢ Equipement   individuel de 
+protection 
+➢ Approvisionnement en 
+carburants pour les engins. 
+ 
+➢ Contrôle des entrées et sorties 
+➢ Surveillance générale 
+➢ Coordination avec police/gendarmerie. 
+ 
+➢ Le centre opérationnel 
+➢ Le centre de répartition des moyens. 
+Obtenir les moyens demandés 
+par le directeur des secours : 
+Localiser et comptabiliser tous 
+les moyens en distinguant : 
+Assurer l’intendance : 
+Assurer la police de l’établissement : 
+Être en liaison permanente avec :
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 36/53 
+ 
+➢ Moyens de communication : Talkies-
+walkies et ligne téléphonique directe. 
+ 
+MISSIONS : GARDIENNAGE 
+ 
+ 
+ 
+          MISSION 
+  
+                         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                              
+                              MOYENS MIS A DISPOSITION  
+     
+                              
+ 
+ 
+ 
+ 
+ 
+Accueillir les secours externes 
+ 
+➢ Vers le responsable de 
+l’intervention. 
+➢ Vers la zone sinistrée. 
+ 
+➢ Interdire l’accès aux curieux et 
+toute personne non appelée pour 
+les secours. 
+ 
+Diriger les secours 
+ 
+Filtrer les personnes arrivant 
+sur le site :
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 37/53 
+ 
+En cas de constat d’effraction ou d’intrusion, 
+il faut appeler la sureté Nationale ; 
+ 
+➢ Se tenir prêt à accueillir les forces de 
+l’ordre 
+et 
+les 
+orienter 
+dans 
+leurs 
+recherches ; 
+➢ Enregistrer la chronologie des événements.   
+ 
+ 
+Allo Sapeurs-pompiers NADOR 
+ 
+➢ Ici Etablissement SONASID 
+➢ Signalons Feu/Fuite/Accident 
+➢ Déclenchons le POI, Scénario N°…. 
+➢ Nous avons…blessés ou pas de blessés 
+➢ Il est …H ……mn 
+➢ Votre nom SVP.  
+ 
+Dès le constat d’une situation anormale, Le 
+gardien appelle : 
+ 
+➢ Le directeur ou le chef de sécurité 
+➢ Et suivra les instructions qui lui seront 
+données.  
+MESSAGE D'ALERTE : 
+GARDIENNAGE 
+ 
+ 
+ 
+                                                           SITUATION ANORMALE                           
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                               
+                  SAPEURS-POMPIERS                           
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                            
+                                                          
+                                                       EFFRACTION ou INTRUSION
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 38/53 
+ 
+➢ Journal de bord du PC 
+➢ Téléphone et Fax 
+➢ Mégaphone (Hautparleur) 
+ 
+➢ Rassembler 
+le 
+personnel 
+administratif disponible ;  
+➢ Répercuter tout renseignement à la 
+hiérarchie ; 
+➢ Préparer l’accueil des renforts au 
+point d’accueil. 
+MISSIONS : SECTION TRANSMISSSIONS 
+ 
+ 
+                                                          MISSION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MOYENS MIS A DISPOSITION                               
+ACTIONS REFLEXES 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Assurer la liaison  
+Permanente entre  
+ 
+ 
+➢ Le directeur 
+ 
+➢ Le chef de sécurité 
+ 
+➢ La mise en place des 
+moyens extérieurs 
+Assurer les autres 
+Liaisons 
+ 
+➢ Avec direction générale 
+ 
+➢ Les appels extérieurs du 
+poste de commandement 
+Conserver une trace 
+Des communications 
+ 
+➢ Tenir un registre des appels 
+ 
+➢ Les messages transmis 
+seront répertoriés et 
+conservés
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 39/53 
+ 
+Allo Sapeurs-pompiers NADOR 
+➢ Ici Etablissement SONASID 
+➢ Signalons Feu/Fuite/Accident 
+➢ Déclenchons le POI, Scénario N°…. 
+➢ Nous avons…blessés ou pas de blessés 
+➢ Il est …H ……mn 
+➢ Votre nom SVP.  
+ 
+Allo Direction Générale 
+➢ Ici   USINE   SONASID NADOR 
+➢ Appel de M. …………. 
+➢ Signalons Feu/Fuite/Accident 
+➢ Déclenchons le POI  
+➢ Il est …H ……mn 
+➢ Votre nom SVP 
+MESSAGE D'ALERTE : 
+SECTION TRANSMISSION 
+ 
+ 
+ 
+ 
+                 SAPEURS-POMPIERS                           
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                                      
+                                                              DIRECTION GENERALE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+➢ Répéter le message 2 fois 
+➢ Préciser qui lance l’appel 
+➢ Noter le nom du correspondant 
+➢ Noter l’heure de la communication
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 40/53 
+ 
+MOYENS MIS A DISPOSITION 
+ 
+ACTIONS REFLEXES 
+MISSIONS : SECTION RELATION EXTERIEURE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MISSION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+❖ Préparer les communiqués de presse avec le 
+directeur des secours. Diffuser ces communiqués 
+de presse selon les directives ; 
+❖ Assurer l’accueil et les relations avec les médias ; 
+❖ Assurer les relations avec les services publics ; 
+❖ Tenir au courant les services centraux de la société ; 
+❖ Prendre des nouvelles des blessés ; 
+❖ Conserver 
+une 
+trace 
+des 
+communiqués 
+et 
+communication. 
+❖ PC commandement ; 
+❖ Bureau administratif ; 
+❖ Coursier ; 
+❖ Lignes téléphoniques et fax. 
+ 
+❖ Accueillir les médias, leur expliquer 
+l’activité de l’établissement et le 
+déroulement des opérations ; 
+❖ Proposer des actions de presse.
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 41/53 
+ 
+➢ Magnétophone ; 
+➢ Appareil photos ; 
+➢ Caméra vidéo. 
+ 
+➢ Observer le déroulement des 
+opérations ; 
+➢ Préserver les documents 
+MISSIONS : SECTION OBSERVATION 
+ 
+ 
+        MISSION 
+ 
+ 
+ 
+ 
+ 
+     TENIR CARNET DE BORD                                                PREPARER              
+      DE L’OPERATION                                                 L’APRES SINISTRE 
+             
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                       ETABLIR UNE BANQUE IMAGE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MOYENS MIS A DISPOSITION                       ACTIONS REFLEXES 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+➢ Déroulement des opérations ; 
+➢ Heures engagement des moyens  
+➢ Les opérations en cours ; 
+➢ L’évolution du sinistre ; 
+➢ Etat des lieux après sinistre. 
+ 
+➢ Du sinistre en cours d’évolution ; 
+➢ Des opérations en cours ; 
+➢ De l’état des lieux après la fin du 
+sinistre. 
+ 
+➢ Préservation des pièces à conviction ; 
+➢ Collecter les témoignages ; 
+➢ Rassembler les plans et registre de 
+sécurité ; 
+➢ Tenir ces documents à la disposition 
+des enquêteurs.
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 42/53 
+LES EQUIPES D’INTERVENTION 
+ 
+CHAQUE EQUIPE D’INTERVENTION EST CONSTITUEE DE : 
+ 
+➢ Un chef de Manœuvre, responsable de l’équipe ; 
+➢ 2 servants chargés de la mise en place, de maintien et du déplacement des moyens 
+de protection ; 
+➢ Un préposé au vêtement anti-feu qui s’équipe systématiquement avant le départ 
+de l’équipe. 
+ 
+SUR ORDRE DU CHEF DE MANŒUVRE DE L’EQUIPE : 
+ 
+➢ L’équipe d’intervention se rend, muni de leurs protections individuelles, sur les 
+lieux du sinistre pour le circonscrire le plus rapidement possible à l’aide 
+d’extincteurs portatifs situés à proximité, ou des moyens hydrauliques mis en 
+œuvre ; 
+➢ Assure la mise en œuvre de tous moyens hydrauliques ou autres sous l’autorité 
+du chef de sécurité ; 
+➢ Rend compte de l’évolution de la situation au chef de sécurité et au directeur. 
+ 
+LE STANDARDISTE : 
+ 
+➢ Libère les lignes téléphoniques ;  
+➢ Sur ordre du chef d’établissement ou de son remplaçant, lance les appels ; 
+❖ Aux secours extérieurs constitués par les sapeurs-pompiers de NADOR, par 
+lignes directes : 05.36.60.51.63/ 05.36.32.04.87 ou le 150. 
+❖ La Direction Générale en énonçant clairement et sans affolement le message de 
+la fiche mission M9. 
+➢ Enregistre l’heure et l’ordre chronologique des appels extérieurs suivant le 
+schéma d’alerte et tout événement ayant à l’intervention ; 
+➢ Se tient prêt à procéder à toute communication téléphonique complémentaire 
+formulée par le chef d’établissement ou son remplaçant ; 
+➢ Rend compte de sa mission au chef d’établissement ou à son remplaçant.
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 43/53 
+ 
+PERSONNEL NON DESIGNE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+POMPISTE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+➢ Evacuent leurs postes de travail après avoir opéré les manœuvres de sécurité qui 
+s’imposent. 
+➢ Rejoignent le point de ralliement. 
+➢ Attendent les instructions du chef de l’établissement ou de son remplaçant. 
+➢ Ne quittent l’établissement que sur ordre du chef d’établissement ou de son 
+remplaçant. 
+CHAUFFEURS DES CAMIONS : 
+➢ Opèrent les manœuvres de sécurité qui s’imposent (mise en sécurité du véhicule). 
+➢ Se placent sous l’autorité d’un collaborateur SONASID. 
+➢ Ne quittent l’établissement que sur ordre du chef des opérations ou de son 
+remplaçant. 
+VISITEURS : 
+➢ Restent sous l’autorité de l’accompagnateur. 
+➢ Suivent les instructions qui leur seront données. 
+ 
+L’OPERATEUR DU TRAITEMENT DES EAUX : 
+➢ Se rend, dans les meilleurs délais, à la pomperie incendie ; 
+➢ Procède ou s’assure de la mise en service du groupe 
+motopompe d’incendie et son bon fonctionnement durant 
+l’intervention.
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 44/53 
+ 
+ 
+PROTECTION CIVILE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+➢ En cas d’alerte pour feu à la SONASID, il faut suivre l’itinéraire 
+d’accès indiqué dans le plan d’approche du site pour entrer dans 
+l’établissement ; 
+ 
+➢ Ne rentre aucun véhicule dans l’établissement avant d’y avoir été 
+autorisé par le directeur d’établissement ou son remplaçant et 
+sans avoir, au préalable, effectuer une reconnaissance à pied (cas 
+hors heures d’ouvertures) ; 
+ 
+➢ Le chef de détachement se rend au P.C situé dans le bâtiment 
+administratif et examine avec le directeur d’établissement si les 
+circonstances permettent de maintenir le P.C en ce lieu, sinon, 
+décident d’un nouveau lieu ; 
+ 
+➢ Assure sous la conduite du directeur des secours les manœuvres 
+complémentaires nécessitées par la situation ; 
+ 
+➢ Les 
+véhicules 
+se 
+présentent 
+à 
+l’entrée 
+principale 
+de 
+l’établissement.
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 45/53 
+ 
+Exemples de Scénarios  
+FEU ELECTRIQUE 
+ 
+Description : 
+ 
+         Apparition d’une anomalie, au départ elle est sans gravité et ne perturbe pas le 
+fonctionnement de l’ensemble. Puis l’anomalie s’amplifie, cela peut mettre une semaine à un 
+mois. Des phénomènes d’arc et de grésillement peuvent apparaître. Ces symptômes peuvent 
+évoluer vers une panne de l’installation ou à un début d’incendie.                                           
+ 
+ Causes possibles : 
+ 
+➢ Surintensités produisant des échauffements anormaux de canalisations ; 
+➢ Echauffement anormaux dans les appareils ou de l’appareillage ; 
+➢ Echauffement anormaux des connexions ; 
+➢ Amorçage d’arcs. 
+ 
+Effet : 
+ 
+➢ Pyrolyse : dégagement de vapeurs inflammables sous l’effet de l’élévation de 
+température ; 
+➢ Les températures élevées favorisent la combustion des isolants ; 
+➢ Fusion de la matière plastique, augmentation de l’émanation de vapeurs 
+inflammables.            
+Risque : 
+ 
+➢ Propagation par convection des fumées qui peuvent atteindre des températures 
+élevées. 
+➢ Propagation de l’incendie par les modes de propagation 
+ 
+MODE D’INTERVENTION :        
+ 
+➢ Un agent témoin d’un début d’incendie électrique, procède à l’extinction en moyen 
+d’extincteur à neige carbonique (CO²) et alerte le PC de sécurité même si le feu est 
+éteint. ; 
+➢ En cas de feu dans la salle électrique, L’installation de détection initiera le processus 
+de déclenchement de l’installation d’extinction automatique et donnera une alarme ; 
+➢ Une fois le service de sécurité alerté. Les agents de sécurité se dirigent vers le lieu et 
+vérifient si l’extinction automatique s’est déclenchée, que le local est isolé et que 
+personne n’est à l’intérieur ; sinon ils procèdent au mode manuel. 
+➢ Si l’extinction n’a pas fonctionnée, il faut s’assuré qu’il n’y a plus de courant 
+électrique et commencer à l’extinction en moyen d’extincteurs à CO² pour un petit feu 
+si non procédé à l’extinction en moyen de lance à eau avec jet diffuseur.
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 46/53 
+ 
+Exemples de Scénarios  
+FEU AU NIVEAU DU FOUR 
+Description : 
+ 
+        Défaillance d’un brûleur provoquant naissance d’un feu. 
+ 
+Causes possibles : 
+ 
+➢ Bouchage d’un brûleur. 
+ 
+Effet : 
+ 
+➢ Pression augmente à l’intérieur de la tuyauterie. 
+➢ Retour de la flamme. 
+            
+Risque : 
+ 
+➢ Explosion de la tuyauterie au niveau du brûleur entraînant un feu. 
+➢ Retour de flamme dans la tuyauterie si le clapet anti-retour ne 
+fonctionne pas. 
+         
+        MODE D’INTERVENTION :        
+ 
+➢ L’opérateur procède à la source à la fermeture de l’alimentation du 
+fuel et de l’air d’atomisation. 
+➢ L’opérateur ou un autre agent sur place, alerte le PC sécurité en 
+précisant la nature de l’incident et l’endroit exacte et procède à 
+l’extinction du feu.  
+➢ En cas d’échauffement des tuyauteries seulement, les agents de 
+sécurité procèdent au refroidissement de la tuyauterie et d’isoler le 
+fuel du four.
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 47/53 
+Exemples de Scénarios 
+INCENDIE SUR STOCKAGE DU FUEL LOURD OU HUILE 
+USAGE 
+ 
+Description : 
+ 
+          Incendie au niveau des tanks de stockage du fuel lourd. 
+ 
+          
+ 
+Causes possibles : 
+ 
+➢ Fuite de fuel en présence de source de chaleur 
+ 
+Risque : 
+ 
+➢ Incendie important du stockage fuel 
+➢ Pollution du sol, du sous-sol et de l’air 
+         
+         
+MODE D’INTERVENTION :        
+➢ Dès l’apparition du feu Couper le courant électrique de traçage de la ligne.  
+➢ Arrêter la pompe de dépotage si elle est en service. 
+➢ Fermer toutes les vannes d’aspiration de ces pompes. 
+➢ Commencer à éteindre le feu. 
+➢ Arroser de part et d’autre la citerne en feu, utiliser le camion anti-incendie pour 
+éteindre le feu (la mousse). 
+➢ Utiliser les lances anti-incendie. 
+➢ Être toujours munis du matériel EPI (gants, masques, bottes.) 
+➢ Si le feu devient incontrôlable, mettre en application le Plan d’évacuation et 
+faire appel aux services extérieur. 
+ 
+MESURES COMPLEMENTAIRES : 
+➢ S’assurer que les bouches d’égout sont bien bloquées. 
+➢ Se munir des moyens pour faire face à l’incident (absorbants, futs vides, pelles, 
+pompe, flexibles, sac en plastique etc..). 
+➢ Trier bien les déchets banals des déchets spéciaux. 
+➢ Stocker dans les locaux appropriés.
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 48/53 
+Exemples de Scénarios 
+DEBORDEMENT DU FUEL LOURD OU HUILE USAGE 
+ 
+          Débordement accidentel du fuel lourd 
+ 
+          La défaillance de l’indicateur de niveau ou la présence d’une fuite au niveau de tank de 
+stockage peuvent provoquer l’épandage du fuel lourd. 
+ 
+Causes possibles : 
+ 
+➢ Défaillance de l’indicateur de niveau ; 
+➢ Fuite au niveau de tank de stockage par présence de corrosion 
+ 
+Effet : 
+ 
+➢ Epandage du fuel. 
+            
+Risque : 
+ 
+➢ Pollution du sol 
+➢ Nocif pour les organismes aquatiques, peut entraîner des effets néfastes à long 
+terme pour l'environnement aquatique.         
+         
+MODE D’INTERVENTION :        
+➢ Mesures après fuite/épandage :  
+1. Ne pas laisser pénétrer dans les égouts, les cours d'eau et les 
+nappes phréatiques.  
+2. Utilisation des absorbants adéquats 
+3. En cas d'épandage, prévenir les autorités compétentes lorsque la 
+situation ne peut pas être maîtrisée rapidement et efficacement. 
+ 
+➢ Méthodes de nettoyage :  
+1.  Récupération : Contenir le produit, récupérer et sabler si 
+nécessaire les surfaces concernées Conserver les déchets dans 
+des récipients clos et étanches. 
+2. Elimination : Remettre les matières souillées à un ramasseur 
+agréé. 
+ 
+MESURES COMPLEMENTAIRES : 
+Prévention des risques secondaires : Eliminer toutes les sources d'inflammation.
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 49/53 
+Exemples de Scénarios  
+COLLISION ENTRE LE TRAIN ET UN ENGIN A 
+L’INTERIEUR DU SITE 
+Description des faits : 
+ 
+              Pendant le refoulement des wagons de la zone d’aiguillage vers la zone de 
+déchargement des billettes à ce moment le chariot FMN arrive juste au croisement a niveau 
+sans barrières (coté traitement des eaux) .il s’arrête puis il se précipite pour passer avant le 
+tain qui est à 2 mètres du croisement (à noter que la chaine de balisage pour interdire le 
+passage n’était pas en place). Malheureusement. Pendant l’arrivée du camion sur la voie le 
+dernier wagon a heurté le camion en le poussant à quelque mètre sur la voie.  L’agent ONCF 
+chargée des opérations des mouvements du train averti immédiatement le chauffeur de 
+s’arrêter. Heureusement le conducteur de l’engin a subi des légères blessures car la vitesse du 
+train était à 5Km/h. le conducteur de l’engin est secouru par l’équipe de secoure et transporter 
+vers l’hôpital le plus proche pour un bilan général à l’aide d’une ambulance et le chariot est 
+tiré avec tracteur pour libérer la voie pour le train.  
+  
+Moyens utilisés de sauvetage  
+• Ambulance 
+• Chariot 20t 
+• Camion LCI 
+• Matériel du premier secoure   
+• Nacelle 
+• Lot de sauvetage (Brancard – corde – poulie – Harnais …) 
+                               
+Comment procéder pour passer le message d’alerte en cas de situation d’urgence : 
+ 
+1. Déclencher ou faire déclencher l’alerte en appelant le poste de garde au 555 pour 
+communiquer sur l’incident et/ou l’opérateur du pupitre principal au 403 ou par 
+Talkie-walkie en cas de non-disponibilité du téléphone plus proche, en donnant : 
+- Lieu exact de l’incident  
+- Heure de l’incident 
+- Nombre de blessés et la nature des blessures 
+- Ne pas raccrocher le premier 
+ 
+Actions immédiates par l’opérateur principal (ou le Chef de poste de Laminage en cas 
+d’absence de l’opérateur) : 
+ 
+1. Aviser le superviseur le chef de poste de Laminage. 
+2. Appeler le poste de garde au 555 pour communiquer sur l’incident  
+3. Alerter l’équipe secouristes et aviser l’infirmier du poste au N° : 444 ou par 
+Talkie-walkie et l’animateur sécurité pour ramener le camion de lutte contre 
+l’incendie
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 50/53 
+Actions immédiates par l’animateur de sécurité posté et les secouristes du site : 
+ 
+Toute personne habilitée aux travaux de secourisme doit : 
+1. Assister l’A/S et/ou le chef de poste de Laminage. 
+2. Secourir la(les) victimes, vu les difficultés d’accès, l’évacuation doit se faire de la 
+manière suivante en respectant les mesures de sécurité : 
+- Donner les 1ers soins nécessaires à la (les) victime(s) 
+- Se mettre à la disposition des renforts externes pour collaboration.  
+ 
+Actions immédiates par l’infirmier et l’ambulancier du site : 
+ 
+1. Déplacer l’ambulance vers le lieu de l’incident 
+2. Donner coup de main aux secouristes si c’est possible en respectant les consignes 
+de sécurité  
+3. Après l’évacuation de la (les) victime(s) au sol, l’infirmier doit contacter le 
+médecin du travail en communiquant sur l’incident et décider si l’évacuation doit 
+se faire vers l’infirmerie du site ou la (les) victimes va être évacuée (s) directement 
+vers la clinique (selon la gravité de l’incident) 
+ 
+Actions immédiates par l’animateur de sécurité posté (le chef de poste de Laminage) : 
+ 
+4. Demander au poste de garde (555) d’avertir l’animateur sécurité du site. 
+5. Diriger les activités de l’équipe d’intervention du site (Secouristes) et rester en 
+communication avec le poste de garde.  
+6. Recueillir tous les faits et circonstances de l’incident et élaborer le compte rendu 
+d’incident avec le chef de poste de Laminage en respectant la procédure 
+« TRAITEMENT 
+DES 
+ACCIDENTS 
+DE 
+TRAVAIL 
+ET 
+DES 
+NON 
+CONFORMITES S642PO002 ».    
+7. Et la règle d’or Emergency     
+                                                                                                                                                                   
+Actions immédiates par le poste de garde (PC) :  
+1. Aviser immédiatement l’infirmerie du site. 
+2. Respecter les directives de directeur de secours (DS) ou son intérim 
+ 
+         NB : La mise en œuvre du POI dépend du niveau de gravité et de l’évolution de la 
+situation
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 51/53 
+Exemples de Scénarios  
+FEU SUR LA MACHINE DU TRAIN 
+Description des faits : 
+ 
+              Pendant l’opération de déchargement du train et afin de faire déplacer les wagons 
+vides un début de feu est constaté au niveau de la machine du train, des fumées noires 
+sortent du train, le conducteur du chariot de déchargement des billettes a constaté le 
+début de feu et il a avisé le chef de poste parc à billette qui a déclenché l’alerte au feu, 
+dans le même cadre le conducteur du train a agi en appliquant son protocole 
+d’intervention en cas de feu, la disponibilité des équipement de première intervention 
+ONCF/SONASID ont permis l’extinction du feu et éviter la propagation du feu.    
+  
+Moyens utilisés de sauvetage :  
+• Ambulance 
+• Camion LCI 
+• Matériel du premier secoure   
+• Extincteurs. 
+ 
+Comment procéder pour passer le message d’alerte en cas de situation d’urgence : 
+ 
+2. Déclencher ou faire déclencher l’alerte en appelant le poste de garde au 555 pour 
+communiquer sur l’incident et/ou l’opérateur du pupitre principal au 403 ou par 
+Talkie-walkie en cas de non-disponibilité du téléphone plus proche, en donnant : 
+- Lieu exact de l’incident  
+- Heure de l’incident 
+- Nombre de blessés et la nature des blessures 
+- Ne pas raccrocher le premier 
+ 
+Actions immédiates par l’opérateur principal (ou le Chef de poste de Laminage en cas 
+d’absence de l’opérateur) : 
+ 
+4. Aviser le superviseur le chef de poste de Laminage. 
+5. Appeler le poste de garde au 555 pour communiquer sur l’incident  
+6. Alerter l’équipe secouristes et aviser l’infirmier du poste au N° : 444 ou par 
+Talkie-walkie et l’animateur sécurité pour ramener le camion de lutte contre 
+l’incendie 
+ 
+Actions immédiates par l’animateur de sécurité posté et les secouristes du site : 
+ 
+Toute personne habilitée aux travaux de secourisme doit : 
+3. Assister l’A/S et/ou le chef de poste de Laminage. 
+4. Secourir la(les) victimes, vu les difficultés d’accès, l’évacuation doit se faire de la 
+manière suivante en respectant les mesures de sécurité : 
+- Donner les 1ers soins nécessaires à la (les) victime(s) 
+- Se mettre à la disposition des renforts externes pour collaboration.  
+ 
+Actions immédiates par l’infirmier et l’ambulancier et l’agent de sécurité du site : 
+ 
+8. Déplacer l’ambulance vers le lieu de l’incident
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 52/53 
+9. Donner coup de main aux secouristes si c’est possible en respectant les consignes 
+de sécurité  
+10. Après l’évacuation de la (les) victime(s) au sol, l’infirmier doit contacter le 
+médecin du travail en communiquant sur l’incident et décider si l’évacuation doit 
+se faire vers l’infirmerie du site ou la (les) victimes va être évacuée (s) directement 
+vers la clinique (selon la gravité de l’incident) 
+ 
+Actions immédiates par l’animateur de sécurité posté (le chef de poste de Laminage) : 
+ 
+11. Demander au poste de garde (555) d’avertir l’animateur sécurité du site. 
+12. Diriger les activités de l’équipe d’intervention du site (Secouristes) et rester en 
+communication avec le poste de garde.  
+13. Recueillir tous les faits et circonstances de l’incident et élaborer le compte rendu 
+d’incident avec le chef de poste de Laminage en respectant la procédure 
+« TRAITEMENT 
+DES 
+ACCIDENTS 
+DE 
+TRAVAIL 
+ET 
+DES 
+NON 
+CONFORMITES S642PO002 ».    
+14. Et la règle d’or Emergency     
+                                                                                                                                                                   
+Actions immédiates par le poste de garde (PC) :  
+3. Aviser immédiatement l’infirmerie du site. 
+4. Respecter les directives de directeur de secours (DS) ou son intérim 
+ 
+         NB : La mise en œuvre du POI dépend du niveau de gravité et de l’évolution de la 
+situation
+  
+POI – SONASID – Site Nador 
+POI - Site Nador - version M - Juin 2023    
+ 
+Reproduction Interdite                    Page 53/53 
+Exemples de Scénarios  
+SAUVETAGE EN HAUTEUR 
+ 
+FICHE REFLEXE SAUVETAGE EN HAUTEUR 
+Mission 
+- 
+Assurer la sécurité du personnel et des équipes d’intervention. 
+- 
+Evaluation de la situation et définir la stratégie d’intervention. 
+- 
+Coordonner la communication interne et externe. 
+- 
+Demander des renforts si nécessaire. 
+- 
+S’assurer de prévenir contre toute paralysie. 
+- 
+Préparer le stade d’après accident avec le responsable d’observation. 
+ 
+Moyens 
+- 
+Nacelle 18 mètres 
+- 
+Ambulance 
+- 
+Lot de sauvetage complet 
+- 
+Jeu de 3 cordes de 30 mètres  
+- 
+Harnais de sécurité 
+- 
+Kit d’immobilisation de colonne vertébrale (SED) 
+- 
+Plan dur avec mobilisateur de tête. 
+- 
+Civière de montagne. 
+ 
+Actions reflexes 
+- 
+Bilan, analyse de la situation et mise en sécurité de la victime et des intervenants. 
+- 
+Lancer l’appel au 555 pour l’appel de l’équipe GRIMP et 444 pour l’ambulance. 
+- 
+Stabilisation de la victime (collier cervical, attelles à dépression, hémorragie). 
+- 
+Choix de l’immobilisation : si la victime couchée utiliser le plan dur complet 
+- 
+Choix de l’immobilisation : si la victime assise, utiliser le SED         
+- 
+Choix de la méthode d’évacuation : 
+1. Par escalier 
+2. Par nacelle 
+3. Par cordage 
+ 
+La victime une fois descendue doit être transportée sur la civière de l’ambulance avec 
+matelas coquille.

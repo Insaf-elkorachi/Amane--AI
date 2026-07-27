@@ -10,6 +10,11 @@ from core.config import settings
 
 
 KNOWLEDGE_DIR = Path(__file__).resolve().parent.parent / "knowledge"
+SUMMARY_FILES_REPLACED_BY_EXACT_PDF_TEXT = {
+    "am_gppm_safety_standards_poi_nador.md",
+    "sonasid_sst_standards_2026.md",
+}
+
 
 
 @dataclass
@@ -51,9 +56,38 @@ class RagService:
     def __init__(self, knowledge_dir: Path = KNOWLEDGE_DIR) -> None:
         self.knowledge_dir = knowledge_dir
 
+    @staticmethod
+    def _split_plain_text(text: str, max_chars: int = 3500) -> list[str]:
+        chunks: list[str] = []
+        for page in text.split("\f"):
+            cleaned_page = page.strip()
+            if not cleaned_page:
+                continue
+            if len(cleaned_page) <= max_chars:
+                chunks.append(cleaned_page)
+                continue
+
+            current: list[str] = []
+            current_len = 0
+            for paragraph in re.split(r"\n\s*\n", cleaned_page):
+                paragraph = paragraph.strip()
+                if not paragraph:
+                    continue
+                if current and current_len + len(paragraph) + 2 > max_chars:
+                    chunks.append("\n\n".join(current))
+                    current = []
+                    current_len = 0
+                current.append(paragraph)
+                current_len += len(paragraph) + 2
+            if current:
+                chunks.append("\n\n".join(current))
+        return chunks
+
     def _load_chunks(self) -> list[RagChunk]:
         chunks: list[RagChunk] = []
         for path in sorted(self.knowledge_dir.rglob("*.md")):
+            if path.name in SUMMARY_FILES_REPLACED_BY_EXACT_PDF_TEXT:
+                continue
             text = path.read_text(encoding="utf-8")
             sections = re.split(r"\n(?=#{2,3}\s+)", text)
             for section in sections:
@@ -61,6 +95,12 @@ class RagService:
                 if cleaned:
                     source = path.relative_to(self.knowledge_dir).as_posix()
                     chunks.append(RagChunk(source=source, text=cleaned))
+
+        for path in sorted(self.knowledge_dir.rglob("*.txt")):
+            text = path.read_text(encoding="utf-8")
+            source = path.relative_to(self.knowledge_dir).as_posix()
+            for section in self._split_plain_text(text):
+                chunks.append(RagChunk(source=source, text=section))
         return chunks
 
     @lru_cache(maxsize=1)

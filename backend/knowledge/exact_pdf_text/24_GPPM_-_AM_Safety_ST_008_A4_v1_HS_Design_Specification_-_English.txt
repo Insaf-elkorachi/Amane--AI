@@ -1,0 +1,3694 @@
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 1 of 52 >
+  
+ 
+ 
+Document Information 
+Short description: AM Health and Safety Design Specification 
+ 
+Scope: AM Health and Safety Design Specification 
+ 
+Business Owners: 
+Frank HAERS 
+Creation date (first version): 
+16.03.2009 
+Writer (prepared by): 
+Frank HAERS 
+Review date (new version): 
+10.10.2013 
+Unchanged 
+Reviewed by : 
+Frank HAERS 
+Implementation Date: 
+16.03.2009 
+ 
+Version History 
+ 
+Version 
+Date 
+Person 
+Description 
+0 
+16.03.2009 
+Frank HAERS 
+Creation 
+1 
+10.10.2013 
+Frank HAERS 
+Review 
+  
+Reference Documents 
+ 
+Reference or date 
+Title 
+/ 
+/ 
+ 
+Validation 
+Validated by 
+Position 
+Validation Date 
+Signature 
+Health and Safety Committee 
+ 
+ 
+10.05.2010 
+ 
+ 
+Approval 
+Approved by 
+Position 
+Approval date 
+Signature 
+Frank HAERS 
+VP, Head Corporate Health 
+and Safety  
+10.10.2013
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 2 of 52 >
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Please print recto/verso
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 3 of 52 >
+  
+ 
+ 
+HEALTH AND SAFETY DESIGN SPECIFICATION 
+ 
+ 
+Table of Contents 
+ 
+ 
+PURPOSE .................................................................................................................................................. 6 
+SCOPE ....................................................................................................................................................... 6 
+RESPONSIBILITY ...................................................................................................................................... 6 
+METHOD OF USE ...................................................................................................................................... 6 
+DEVIATIONS .............................................................................................................................................. 6 
+REVISIONS ................................................................................................................................................ 6 
+DEFINITIONS ............................................................................................................................................. 7 
+STANDARDS AND CODES ............................................................................................................................ 7 
+GENERAL PRINCIPLES FOR SAFE DESIGN .................................................................................................... 7 
+DESIGN AND LAYOUT .............................................................................................................................. 9 
+SAFE DESIGN FOR EMERGENCIES AND FIRE PREVENTION............................................................................. 9 
+FUNDAMENTALS OF SAFE BUILDING AND PROCESS DESIGN .......................................................................... 9 
+Means of Egress .................................................................................................................................. 9 
+Emergency Eyewash Fountains and Showers ................................................................................... 10 
+Accessibility in Case of a Rescue ...................................................................................................... 10 
+Shelter in place .................................................................................................................................. 10 
+HUMAN INTERACTION, GENERAL PROCESS REQUIREMENTS (BUILDING DESIGN & LAYOUT) ............................ 11 
+Vertical Clearance Requirements ...................................................................................................... 11 
+Access to Equipment and Processes ................................................................................................ 11 
+Fixed Ladders .................................................................................................................................... 12 
+Access To and Through the Area (Walkways) ................................................................................... 12 
+Width of Walkways ............................................................................................................................ 12 
+Pedestrian Doors ............................................................................................................................... 13 
+Truck Doors ....................................................................................................................................... 13 
+SHOWERS, TOILETS AND CHANGE ROOMS ................................................................................................ 13 
+Sanitary Fixture ................................................................................................................................. 13 
+Toilet Bowls ....................................................................................................................................... 13 
+Provision of Sanitary Fixtures ............................................................................................................ 13 
+Hygiene of Personnel ........................................................................................................................ 13 
+Lighting and Ventilation ..................................................................................................................... 13 
+CANTEEN ................................................................................................................................................ 14 
+Premises and Structures ................................................................................................................... 14 
+Storage, Distribution and Transportation ........................................................................................... 14 
+Specific Requirements – Storage........................................................................................................................ 14 
+Hygiene of Personnel ........................................................................................................................ 15 
+Lighting and Ventilation Requirements for Canteens and Dining Rooms ........................................... 15 
+FALL PREVENTION ................................................................................................................................... 15 
+Protection of floor opening and holes ................................................................................................ 16 
+Protection of wall opening and holes ................................................................................................. 16 
+Guardrail Design ................................................................................................................................ 17
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 4 of 52 >
+  
+ 
+ 
+Permanent guardrails ........................................................................................................................ 17 
+CONFINED SPACES .................................................................................................................................. 17 
+EQUIPMENT AND CONTROLS ............................................................................................................... 19 
+SAFEGUARDING OF MACHINERY ............................................................................................................... 19 
+Selection of Safeguards ..................................................................................................................... 19 
+Safeguarding Devices and Circuits .................................................................................................... 19 
+Safeguarding of mechanical hazards (Physical guard design ............................................................ 20 
+Guardrails used as Guards ................................................................................................................ 21 
+Swing Gates and Other Access to Guarded Areas ............................................................................ 24 
+Guarding of Portable Power Tool ....................................................................................................... 25 
+CONTROL OF HAZARDOUS ENERGY (ISOLATIONS AND INTERRUPTS) ............................................................ 25 
+Control Interrupts ............................................................................................................................... 26 
+EMERGENCY STOP (E-STOP) DESIGN ....................................................................................................... 27 
+Emergency stop device design .......................................................................................................... 27 
+ELECTRICAL EQUIPMENT .......................................................................................................................... 27 
+REQUIREMENTS FOR ELEVATORS ............................................................................................................. 27 
+PULPIT LAYOUT ....................................................................................................................................... 28 
+General Requirements ....................................................................................................................... 28 
+General Desk Layout ......................................................................................................................... 28 
+Computer and Video Monitor Considerations .................................................................................... 29 
+Lighting .............................................................................................................................................. 29 
+Windows ............................................................................................................................................ 29 
+Surfaces ............................................................................................................................................ 30 
+Floor .................................................................................................................................................. 30 
+Location ............................................................................................................................................. 30 
+Work Stations Control Panels ............................................................................................................ 30 
+Dimensions for control panels............................................................................................................ 31 
+Suggested Alternate Profiles ............................................................................................................. 32 
+Dimensions for sitting control panels ................................................................................................. 32 
+Guidelines for User Interfaces ........................................................................................................... 32 
+Colours .............................................................................................................................................. 33 
+Colour coding .................................................................................................................................... 33 
+Backgrounds...................................................................................................................................... 34 
+Font ................................................................................................................................................... 34 
+Text ................................................................................................................................................... 34 
+Labels and Alignment ........................................................................................................................ 34 
+Navigation/Icons ................................................................................................................................ 35 
+ALARMS .................................................................................................................................................. 35 
+CODING .................................................................................................................................................. 35 
+FLASHING ............................................................................................................................................... 36 
+DYNAMIC INFORMATION UPDATING ........................................................................................................... 36 
+INPUT ..................................................................................................................................................... 36 
+GENERAL CONSIDERATIONS ..................................................................................................................... 36 
+Keyboards ......................................................................................................................................... 36 
+Mouse ................................................................................................................................................ 36 
+Track balls ......................................................................................................................................... 37 
+Touch screens ................................................................................................................................... 37 
+PRE-START HEALTH & SAFETY REVIEW /REPORT ............................................................................ 38 
+INDUSTRIAL HYGIENE ........................................................................................................................... 39 
+CHEMICAL AND BIOLOGICAL EXPOSURE .................................................................................................... 39
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 5 of 52 >
+  
+ 
+ 
+APPROVALS FOR CHEMICALS ................................................................................................................... 39 
+IONIZING RADIATION ................................................................................................................................ 39 
+ISOTOPE DEVICES ................................................................................................................................... 39 
+X-RAY DEVICES ...................................................................................................................................... 39 
+LASERS .................................................................................................................................................. 40 
+NOISE .................................................................................................................................................... 41 
+Equipment and Processes ................................................................................................................. 41 
+Control Rooms, Pulpits and Offices ................................................................................................... 41 
+VENTILATION SYSTEM .............................................................................................................................. 42 
+General Dilution ................................................................................................................................. 42 
+Local Exhaust System ....................................................................................................................... 42 
+STORAGE OF FLAMMABLE AND COMBUSTIBLE LIQUID .................................................................... 43 
+STORAGE REQUIREMENTS ....................................................................................................................... 43 
+HANDLING AND DISPENSING ..................................................................................................................... 43 
+STORAGE OF GASES ................................................................................................................................ 45 
+COMPRESSED GAS STORAGE, HANDLING AND TRANSPORTATION ............................................................... 45 
+DEFINITIONS ........................................................................................................................................... 45 
+STORAGE OF COMPRESSED GAS CYLINDERS ............................................................................................ 46 
+STORAGE OF CHEMICALS ......................................................................................................................... 47 
+Hazard Identification of Chemicals .................................................................................................... 47 
+Toxicity of the Chemicals ................................................................................................................... 48 
+Oxidizing Chemicals .......................................................................................................................... 48 
+Combustible Chemicals ..................................................................................................................... 48 
+Radioactive material .......................................................................................................................... 48 
+MAINTENANCE OF BUILDING AND EQUIPMENT ................................................................................. 49 
+ACCESS REQUIREMENTS ......................................................................................................................... 49 
+GENERAL GUIDELINES FOR ACCESS PORTS .............................................................................................. 49 
+CLEARANCE REQUIREMENTS .................................................................................................................... 51 
+HANDLES ................................................................................................................................................ 51
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 6 of 52 >
+  
+ 
+ 
+ 
+ 
+Purpose 
+ 
+This Health and Safety Design Specification provides standards for the design, modification, and 
+installation of equipment, processes, and facilities at ArcelorMittal.  These standards are minimum 
+requirements. The ArcelorMittal Asset Risk Management Standards are also to be used 
+concurrently with this H&S Design Specification.  Where there is a Health and Safety Standard it will 
+take priority over the Asset Risk Management Standard.  In all cases the national and local laws 
+shall be complied with. 
+ 
+Scope 
+ 
+This document applies to all new and newly modified installations of equipment, processes and 
+facilities at ArcelorMittal. Relevant information may be provided to vendors, construction 
+contractors, and other internal ArcelorMittal functions. 
+ 
+Responsibility 
+ 
+The Vice President Health and Safety is responsible for preparing, issuing, and maintaining the 
+Health and Safety Design Specification. The Corporate Health and Safety Department will perform 
+the following activities with respect to the Specifications: 
+ 
+Maintain awareness of developments related to Health and Safety Standards and 
+technology that could require revisions to the Specification 
+ 
+Request and coordinate feedback from users regarding proposed revisions and additions to 
+the specifications 
+ 
+Issue revisions to the specifications 
+ 
+Control the electronic master of this document 
+ 
+Method of Use 
+ 
+The Project Manager shall use this document to prepare a “job specification” for each specific 
+project, by extracting sections applicable to the scope of work to create a document that contains 
+only the Health and Safety Design Specifications required for the job. 
+ 
+Deviations 
+ 
+Deviations from these specifications must be approved in writing by the Vice President, Health and 
+Safety Department, or designate. A request for a deviation will be reviewed with all parties involved, 
+and a consensus decision will be made. A deviation will be job-specific and will not apply to any 
+other jobs unless specifically reviewed again and approved in writing. It is intended that deviations 
+be kept to a minimum. 
+ 
+Revisions 
+ 
+Feedback regarding potential revisions to the Health and Safety Design Specification is encouraged 
+on a continuing basis. Revisions will be issued on a regular basis, when warranted by changes in 
+the legislation and/or ArcelorMittal standards and practices.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 7 of 52 >
+  
+ 
+ 
+Section A 
+ 
+ 
+1. Definitions 
+ 
+“Shall”: When used to describe design requirements, the word “shall” indicates mandatory 
+requirements, according to applicable legislation, regulations, and/or ArcelorMittal standards. 
+ 
+“Should”: When used to describe design requirements, the word “should” indicates non-
+mandatory requirements. However, these requirements are considered best practices. 
+ 
+2. Standards and Codes 
+ 
+In addition to standards outlined in this document, any equipment, processes and facilities 
+supplied to ArcelorMittal shall comply, at minimum, with the Occupational Health and Safety 
+Regulations that prevail in the country. 
+ 
+A code is a law or regulation that sets forth minimum requirement and in particular, a building 
+code is a law or regulation that sets forth minimum requirement for the design and construction 
+of building and structures. These minimum requirements established to protect the health and 
+safety of society, attempt to represent society’s compromise between optimum safety and 
+economic feasibility.  
+ 
+Standards and codes must be followed during the design. In countries, such as Brazil, United 
+States, Canada, Australia, Western Europe, New Zealand, the design can follow the countries 
+code and regulation. However, in less developed countries, the design must at the minimum 
+follow the more stringent codes and regulations established in countries such as EU, United 
+States or Canada. 
+ 
+In this document, there are specifics referencing to guidelines from NFPA (National Fire 
+Protection Association) and ANSI (American National Standard Institute). These are provided as 
+world recognized standards, and shall be used as minimum requirement in safe design. 
+ 
+Although ArcelorMittal will comply with specific minimum legal requirements of each country, the 
+purpose of this Specification is to identify and incorporate best practice design standards into all 
+of our operations. 
+ 
+3. General Principles for Safe Design 
+ 
+To provide a safe design, the priorities are: 
+ 
+Life Safety 
+ 
+Property protection 
+ 
+Continuity of operations 
+ 
+Environment Protection 
+ 
+Heritage Conservation
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 8 of 52 >
+  
+ 
+ 
+ 
+In order to achieve these priorities, you must understand: 
+ 
+The process that is being designed 
+ 
+The level of risks associated with the process, equipment, layout, material, building, codes 
+and regulation. 
+ 
+Design with compromise between optimum health, safety and economic feasibility with 
+an understanding that life safety shall never be compromised. 
+ 
+General rules in safe designs are:      
+ 
+Eliminate high risks at the design stage when possible 
+ 
+Control the high risk when elimination not feasible 
+ 
+Design effective and safe proof controls when hazard can not be eliminated: 
+ 
+Apply safeguards and safety devices 
+ 
+Allow for easy energy lock ability. Consider residual energies as storage banks of 
+capacitors, hydraulic power, pressure of gases and fluids in general. 
+ 
+Working at height elimination to the extent possible, and then sufficient and effective fall 
+prevention devices when working at height can not be eliminated 
+ 
+Confined spaces elimination or reduction 
+ 
+Effective and dual (when necessary) machine guarding 
+ 
+Effective ventilation system to protect the employee health and prevent fire and 
+explosion 
+ 
+Sufficient and effective fire detection and suppression system to protect life and property 
+ 
+Chemical exposure control 
+ 
+Health controls (avoid material used in building, process, equipment such as asbestos, 
+lead, etc). 
+ 
+Radiation 
+ 
+Temperature fatigue 
+ 
+Environmental impact 
+ 
+Use Personal protective equipment (PPE) only as a last resort. 
+ 
+Inputs from competent operations and maintenance personnel, who will ultimately be 
+responsible for the process, are essential in recognizing and addressing hazards in day-
+to-day work. 
+ 
+Minimize direct employee handling of materials being processed. 
+ 
+As much as possible, reduce the need for human interaction with physical, mechanical, 
+and chemical hazards. This may be accomplished by increasing the level of automation 
+for a task. 
+ 
+Consider the consequences of increased automation: 
+o Will the task now require the operator to control the equipment from a distance? 
+o How will the operator see the task? 
+o If cameras are provided, is there enough room in the pulpit to accommodate 
+these monitors in an acceptable location? (Refer to design guidelines for pulpit 
+layout for further information) 
+ 
+Consider the tasks that operators and maintainers are required to perform on the 
+equipment and processes. Are there hazards associated with the tasks? Can they be 
+designed out of the equipment or process?
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 9 of 52 >
+  
+ 
+ 
+Section B 
+ 
+Design and Layout 
+ 
+1. Safe Design for Emergencies and Fire Prevention 
+When designing a facility, emergency situations must be taken into account. 
+Different types of emergencies depending on the location of the building being designed must 
+be taken into consideration: 
+ 
+ 
+Fire 
+ 
+Explosion 
+ 
+Earthquake 
+ 
+Tornado 
+ 
+Storm 
+ 
+Flood 
+ 
+Chemical releases 
+ 
+Biological releases 
+ 
+Bomb Threat 
+ 
+Radioactivity 
+ 
+2. Fundamentals of Safe Building and Process Design 
+Following NFPA 550, a systematic approach to the principal fire safety strategies are: 
+ 
+Prevent fire ignition 
+ 
+Control combustion process 
+ 
+Control fire by construction 
+ 
+Detect fire early and provide notification 
+ 
+Automatic suppression system 
+ 
+Manual suppression system 
+ 
+Manage houskeeping 
+ 
+There are specific controls that can be chosen in each strategy selection process.   Below are 
+some guidelines: 
+ 
+Means of Egress 
+The ability of building occupants to quickly and efficiently exit the building is often the 
+difference between life and death. Model building codes have detailed provisions that 
+address emergency egress. The means of egress that are needed depend primarily on 
+the number of people who can occupy the space. Any building or structure design for 
+human occupancy shall be provided with exits sufficient to permit the prompt escape of 
+occupants in case of fire or other emergencies. The design of exits or other safe guards 
+shall be such that reliance for safety to life in case of fire or other emergencies will not 
+depend solely on any single safeguard. Additional safeguards shall be provided for life 
+safety in case any single safeguard is ineffective due to some human or mechanical 
+failure. 
+ 
+Every exit shall be clearly visible or the route to reach it shall be conspicuously indicated 
+in such a manner that every occupant of every building will readily know the direction of 
+escape from any point, and each path of escape in its entirety shall be so arranged or
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 10 of 52 >
+  
+ 
+ 
+marked that a way to a place of safety outside is unmistakable. A sign reading “Exit “or 
+similar designation with an arrow indicating the directions shall be placed in every 
+location where the direction of travel to reach the nearest exit is not immediately 
+apparent 
+ 
+In every building, equipped for artificial illumination, adequate and reliable illumination 
+shall be provided for all exit facilities. 
+ 
+Every building thereof such a size, occupancy and arrangement that the reasonable 
+safety of occupant may be endangered by the blocking of any single means of egress 
+due to fire or smoke, or other emergencies such as chemical release, vapour, shall have 
+at least two means of egress remote from each other, so arranged as to minimize any 
+possibility that both may be blocked by any one fire or other emergency conditions. 
+ 
+Emergency Eyewash Fountains and Showers 
+Eyewash fountains shall be provided where there is risk of injury to the eyes. 
+ 
+Eye/face wash fountains shall be provided where there is risk of injury to the eyes and 
+face.  (When used in combination with a safety shower, it is not necessary to provide an 
+eye and face wash unit; an eyewash unit only is acceptable.) 
+ 
+A safety shower shall be provided where there is risk of injury to the skin. 
+ 
+Additionally, 
+ 
+Water temperature shall be 21°C to 32°C (70°F to 90°F), with an optimum 
+temperature of 27°C (80°F). 
+ 
+When tempered water is supplied by hot water tanks, the set temperature shall be 
+60°C (140°F), and there shall be a double mixing valve or sensor on the mixing valve 
+discharge. 
+ 
+Safety showers must have the capacity of providing minimum 20 minutes continuous 
+running water 
+ 
+Specific water pipes have to be installed preventing stagnant water (prevention of 
+Legionella). 
+ 
+Safety showers face wash and eyewash stations shall be within 23 m or 75 feet from 
+the hazard and on the same level. 
+ 
+Accessibility in Case of a Rescue 
+The rescue may be from fall, confined spaces, chemical releases, or medical. 
+The accessibility to each area for rescue should be part of the design.  
+The responders, their vehicles and equipment should have sufficient space and 
+accessibility for a timely rescue. 
+ 
+Shelter in place 
+Depending on the location of the facility, the shelter in place for employees should also 
+be taken into consideration for events such as tornado, bomb, weather, etc.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 11 of 52 >
+  
+ 
+ 
+3. Human Interaction, General Process Requirements (building design & layout) 
+ 
+Process design shall minimize tripping hazards. Cables, cable trays, pipes, hoses and 
+conduits shall be covered, preferably contained within a trench or elevated to pass over 
+walkways. The electrical cables between trays and electric rooms must have active 
+protection against spread of fire and smoke, also at the entrance to electrical panel. 
+ 
+Provisions shall be made to capture fluids or other substances that may contribute to slips 
+and falls. 
+ 
+Pass line height, equipment location, and orientation should allow operations and 
+maintenance personnel to perform work in upright postures, without excessive reaching, 
+twisting or bending. 
+ 
+Shutoff valves, controls, monitoring equipment, maintenance service apparatus and similar 
+items shall be located at readily accessible floor or grade levels, to reduce the need to 
+repetitively climb stairs, especially while carrying objects. 
+ 
+Piping Identification - Process piping shall be identified and colour code as per the AM 
+Technology Engineering Standards – Recommendations for Piping Identification. 
+ 
+a. Vertical Clearance Requirements 
+The minimum head clearance between the floor and a stationary “bump hazard” is 2.1m 
+or 7 feet. If the hazard is significant (such as with a moving overhead crane), then this 
+clearance shall be at least 3m or10 feet. 
+ 
+b. Access to Equipment and Processes 
+The following access methods are presented in order of preference: 
+1. Permanent fixed stairs 
+2. Vertical ladders 
+ 
+Ship’s ladders are not permitted. (Ship’s ladders are also known as non-vertical ladders, 
+which usually rises at an angle of 68° from the horizontal.) 
+ 
+Stairs are preferable to ladders. Vertical ladders should be provided as a last resort, and 
+only when the area is infrequently accessed. Walkways between elevated equipment 
+should be provided in order to reduce the requirement to repeatedly climb stairs. 
+ 
+Stairs to maintenance locations shall be provided; ladders shall be installed only after a 
+risk assessment has deemed this acceptable. This risk assessment will consider the 
+elevation difference, frequency of access, and tool requirements. 
+ 
+The use of portable ladders, portable stairs, or powered elevating work platforms to 
+access equipment or processes shall only be considered if absolutely necessary. 
+Adequate clearance for these devices shall be provided. 
+ 
+The facility and equipment shall be designed to avoid the requirement for maintenance 
+or operations personnel to work from a ladder.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 12 of 52 >
+  
+ 
+ 
+Stairs, platforms, ladders and walkways shall be constructed of material suitable for the 
+environment and hazards.  
+ 
+c. Fixed Ladders 
+An access ladder in a fixed position shall: 
+ 
+Be vertical 
+ 
+Have rest platforms at no more than 9 metre intervals 
+ 
+Be offset at each platform 
+ 
+Where the ladder extends over 2.5 metres above ground, floor, or landing, have 
+a safety cage (360 degree protection for the person) commencing not more than 
+2.2 metres above ground and continuing at least 90 centimetres above the top 
+landing with openings to permit access by a person to rest platforms or to the top 
+landing 
+ 
+Have rungs which are at least 15 cm from the wall and spaced at regular 
+intervals. 
+ 
+Have rungs that are a minimum of 41 cm or 16” wide. 
+ 
+Ladders should be affixed to the platform such that the user can step forward, directly 
+onto the platform, rather than sideways. 
+ 
+ 
+d. Access To and Through the Area (Walkways) 
+A safe access route to the equipment and through the area for operations and 
+maintenance purposes shall be provided. 
+ 
+ The following shall be considered when determining walkway location: 
+ 
+ 
+Emergency egress and assembly areas 
+ 
+Current pedestrian and equipment traffic patterns. 
+ 
+Anticipated changes to the current patterns when new equipment is installed. Will 
+traffic volume increase? Can it be conveniently rerouted? 
+ 
+Location of lunch rooms, pulpits, meeting rooms, change houses, and parking 
+lots. These are common destinations, and may affect compliance with 
+designated walkways. 
+ 
+Consider paths through buildings to adjacent areas  
+ 
+Distance between equipment, chemical storage, chemical baths and walk ways 
+ 
+Walkways shall be clearly distinguished from operational areas. This may be 
+accomplished by the installation of guardrails to control pedestrian flow, or by painting 
+areas on the floor. 
+Walkways should generally be straight and convenient, with no unnecessary bends or 
+detours. 
+ 
+e. Width of Walkways 
+Walkways should be a minimum of 92 cm or 36” wide indoors, and 153 cm or 60” wide 
+outdoors. Allowance may need to be made for obstructions (such as doors) that protrude 
+into the walkway.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 13 of 52 >
+  
+ 
+ 
+f. Pedestrian Doors 
+Pedestrian Doors shall be installed beside every truck door (or set of truck doors) within 
+a reasonable distance. 
+ 
+g. Truck Doors 
+The minimum dimensions of truck doors are 4.9m or 16’ wide x 550m or 18’ high. 
+ 
+4. Showers, Toilets and Change Rooms 
+ 
+a. Sanitary Fixture 
+ 
+Any sanitary fixture shall be made of impermeable, non-corrosive material, shall 
+have a smooth and readily cleanable surface and shall be so constructed and fitted 
+as to discharge through a trap, into a soil pipe or waste pipe, as the case may be. 
+ 
+The water supply outlet to any waste fixture shall be situated not less than 20mm 
+above the flood-level rim of such fixture: Provided that this requirement shall not 
+apply to any bidet. 
+ 
+b. Toilet Bowls (TB) 
+TB shall be a pedestal type shall be manufactured as a single unit and where such pan 
+is installed in a position so that the joint between its outlet spigot and the soil pipe into 
+which it discharges, is concealed, such pan shall be installed in such a manner that 
+there is ready access to such joint. 
+ 
+c. Provision of Sanitary Fixtures 
+In any occupancy where personnel are exposed to high risk substance, dirt, filth, dust, 
+soot, oil, grease or any similar substance, exposure to which is such that showers are 
+necessary, at least one shower per 15 persons shall be provided separately for each sex 
+and such showers shall be located in, or have direct access to, a change room. 
+d. Hygiene of Personnel 
+Lockers should ideally have sloped tops, or should be built into walls, to facilitate 
+cleaning. 
+ 
+ 
+ 
+ 
+ 
+ 
+There should be segregated areas for keeping clean and soiled protective clothing. 
+e. Lighting and Ventilation 
+ 
+Change rooms shall be provided with a means of lighting and ventilation, which will 
+enable such room to be used, without detriment to health or safety or causing any 
+nuisance, for the purpose of which it is designed. 
+ 
+Change rooms to be fitted with adequate extraction facilities to allow for effective 
+removal of damp. 
+ 
+Adequate ventilation required as per table below.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 14 of 52 >
+  
+ 
+ 
+ 
+5. Canteen 
+ 
+a. Premises and Structures 
+ 
+Care should be taken into designing ceiling heights, since low ceilings can lead to 
+condensation and high ceilings are difficult to keep clean. 
+ 
+Access to outside roofs and structures from inside the plant should be avoided, since 
+roods often contain bird droppings that can be contaminated with Salmonella or other 
+food-poisoning micro-organisms. 
+ 
+Windows in processing areas should either be double-glazed or should be double 
+windows to prevent condensation, and they should be mounted flush to the internal 
+wall surface to avoid ledges. 
+ 
+Shatterproof material should be used instead of glass in areas where broken glass 
+could contaminate the food. 
+ 
+Personnel entrances to processing areas should have two doors [that do not require 
+use of the hands to open] with a lobby between the two doors.  The lobby should 
+contain hand-washing facilities and storage facilities for clean protective clothing. 
+ 
+The use of wall tiles is not recommended, since the area behind the tiles can serve 
+as a breeding ground for insects if there is a failure of the tile grouting.  
+ 
+There should be a path of width at least 1 metre around the area.  Trees, particularly 
+deciduous trees, should be avoided, since rotting leaves can be a source of mould 
+and the trees can give harbourage to birds. 
+ 
+b. Storage, Distribution and Transportation  
+The storage, distribution and transportation of foodstuffs shall be such as to prevent 
+damage, contamination or deterioration of the foodstuffs or of materials that come into 
+contact with it. 
+ 
+ 
+Specific Requirements – Storage 
+ 
+There shall be adequate storage facilities for raw materials, in-process materials, 
+where applicable, and finished product. 
+ 
+Unprocessed food shall not be stored in the same store as processed food, 
+unless it can be shown that there is no risk of cross-contamination.  Raw, 
+unprocessed food shall be effectively separated from processed food, either 
+physically or by time. 
+ 
+Stores shall be proofed against rodents, insects and birds, and shall be kept in a 
+hygienic condition. 
+ 
+There shall be a passageway of width at least 0.5m around the walls or 
+partitions of all stores, to preclude the establishment of breeding sites for 
+rodents, to enable cleaning (e.g. vacuum cleaning) and to aid hygienic 
+inspections.  Where racks are used against walls, there shall be a clearance of 
+at least 0.3m between the floor and the bottom of the rack. 
+ 
+Storage tanks, bins and silos used for the storage of food shall be constructed of 
+suitable materials.  They shall be fitted with suitable, close-fitting covers that 
+shall be kept in place at all times and, if vented, the venting shall be so designed 
+and maintained as not to contaminate the contents.  The inlet valves and pipe 
+work shall be kept in a hygienic condition and precautions shall be taken to 
+preclude access to the pipe work by rodents, birds and insects.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 15 of 52 >
+  
+ 
+ 
+ 
+c. Hygiene of Personnel  
+ 
+The doors that lead to the toilet lobby and to toilets should be fitted with push plates 
+on the inside an on the outside of each door. 
+ 
+The toilet lobby should be of size adequate to enable personnel using the toilets to 
+hang up their protective clothing before entering the toilet.  This will prevent possible 
+contamination of the protective clothing. 
+ 
+Lockers should ideally have sloped tops, or should be built into walls, to facilitate 
+cleaning. 
+ 
+There should be segregated areas for keeping clean and soiled protective clothing. 
+ 
+A room with adequate first-aid facilities should be provided. 
+ 
+Wash-hand basins should be located close to work stations, or close to personnel 
+entrances to the processing area [or close to both].  The recommended number of 
+wash-hand basins required is one for every fifteen people in clean processing areas. 
+ 
+Showers should be provided, but are of little use if they are not used.  Hence, the 
+shower area should be heated, if appropriate, and should make provision for 
+personnel to undress and dress in private. 
+ 
+Any fasteners used for protective clothing should be metal and of extremely secure 
+design.  The use of buttons on garments should never to acceptable in food 
+factories. 
+ 
+d. Lighting and Ventilation Requirement for Canteens and Dining Rooms 
+ 
+Canteens and dining rooms shall be provided with a means of lighting and 
+ventilation which will enable such room to be used, without detriment to health or 
+safety or causing any nuisance, for the purpose of which it is designed. 
+ 
+Where any canteen contains an extraction facility for the purpose of extracting heat 
+or vapour such facility shall, where it is to be subjected to an atmosphere containing 
+grease in suspension, be fitted with a means which will filer the air entering such 
+facility to prevent such grease being carried into the system: Provided that where 
+such means cannot be fitted, an easily accessible trap or settling chamber shall be 
+installed in the duct leading from such facility. 
+ 
+Provision shall be made at every change in direction of such duct for easy 
+inspection and for cleaning of the interior of the duct. 
+ 
+Any such extraction facility and the artificial ventilation system required therefore 
+shall be constructed or lined throughout with a non-combustible material. 
+ 
+Any such extraction facility shall not be connected to any other extraction facility or 
+artificial ventilation system. 
+ 
+ 
+6. Fall Prevention 
+ 
+The goal is to design new equipment and facilities that do not require the use of personal 
+protective equipment (i.e. harnesses and life lines). A risk assessment shall consider operating 
+and maintenance tasks that will involve working at heights and designs of new equipment and 
+facilities should be done in such a way that does not require the use of personal protective 
+equipment (i.e. harness and life lines). i.e. design for fall prevention, not fall protection.  
+Accessibility that requires the use of man-lifts shall also be considered in the design process.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 16 of 52 >
+  
+ 
+ 
+The use of ladders shall be minimized by ensuring that equipment maintenance is possible from 
+floor level or platforms. 
+ 
+Guard rails shall be provided: 
+ 
+Around the perimeter of an uncovered opening in a floor, roof or other surface to which a 
+person has access; 
+ 
+At an open side of: 
+ 
+A raised floor, mezzanine, balcony, gallery, landing, platform, walkway, ramp or 
+other surface, or; 
+ 
+A vat, bin or tank top of which is less than 107 centimetres (42 inches) above the 
+surrounding floor, ground, platform or other surface. 
+ 
+Where there is a risk of falling into operating machinery, hazardous substances, water or 
+other liquids or into any place or thing that is likely to pose a hazard to anyone; and 
+ 
+Where any work is performed at the top of a staircase or vertical ladder and a danger of 
+falling exists, a self-closing swing gate shall be installed at the top. 
+ 
+When there is a need of harness or life line, design sufficient attachment points ( which 
+will be identified on “as built” drawings) and allow for effective rescue of the employee in 
+case of a fall. 
+ 
+a. Protection of floor opening and holes 
+ 
+Every stairway floor opening shall be guarded by standard railing. The railing shall be 
+provided on all exposed sides (except at the entrance). For infrequently used stairways, 
+where traffic across the opening prevents the use of fixed standard railing, the guard 
+shall consist of the hinged floor opening cover of standard strength and construction and 
+removable standard railing on all exposed sides. The railing must be in-place before the 
+floor cover is capable of being opened. 
+ 
+ 
+Where doors or gates open directly on a stairway, a platform shall be provided and 
+the swing of the door shall not reduce the effective width to less than 20 inches.  
+ 
+Every hatchway and chute floor opening shall be guarded by one of the following: 
+ 
+Hinged floor opening cover of standard strength and construction equipped with 
+standard railing or permanently attached thereto so as to leave only one exposed 
+side. When the opening is not in use, the cover shall be closed or the exposed 
+side shall be guarded at both top and intermediate position by removable 
+standard railing.  
+ 
+A removable railing with toeboard on not more than two sides of the opening and 
+fixed standard railing with toeboards on all other exposed sides. The removable 
+railing shall be kept in place when the opening is not in use. 
+ 
+Every manhole floor opening shall be guarded by a standard manhole cover which 
+need not be hinged in place.  
+ 
+Every floor hole into which a person can accidentally walk shall be guarded by: 
+ 
+Standard railing with standard toe board on all exposed sides, or 
+ 
+Floor hole cover of standard strength and construction.  
+ 
+b. Protection of wall opening and holes 
+Every wall opening from which there is a drop of more than 1.22 m (4 feet) shall be 
+guarded by one of the following:  rail, roller, picket fence half door, or equivalent barriers.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 17 of 52 >
+  
+ 
+ 
+Where there is exposure below to falling material, a removable toe board or the 
+equivalent shall be provided. When the opening is not in use, the guard shall be kept in 
+position regardless of a door on the opening. In addition, a grab handle shall be provided 
+on each side of the opening with its centre approximately 4 feet above the floor level and 
+of standard strength and mounting. 
+ 
+Extension platforms onto which materials can be hoisted for handling shall have side 
+rails or equivalent guards of standard specifications. 
+ 
+c. Guardrail Design 
+ 
+The minimum design of guardrails shall include the following: 
+ 
+A top rail, mid rail and toe board (if tools or other objects may fall on a person). 
+ 
+The top rail shall be located 107 centimetres (42 inches) above the floor surface, 
+ground or platform on which it is installed. 
+ 
+The mid rail shall be approximately half way between the top rail and the floor 
+ 
+The end of the rails shall not overhang the terminal post except where such a 
+overhang does not constitute a projection hazard 
+ 
+The toe-board shall be securely fastened to the vertical posts extending from the 
+surface, floor, ground or platform to a height of not less than 12.5 centimetres (5 
+inches) and no more than 6.4 mm (1/4 inch) from the surface. 
+ 
+d. Permanent guardrails  
+Permanent guardrails shall be installed whenever possible. Where a permanent 
+guardrail cannot be installed, a removable guardrail which is typically affixed to their 
+supports by insertion into sockets may be installed 107 cm (42 inches) above the 
+surface on which it is installed to prevent falls to another level.  Fall Protection (which 
+may include engineered tie-off points) is required when installing or repairing a 
+removable guardrail. 
+ 
+Swing gates that allow access through a guardrail shall be: 
+ 
+Self closing. 
+ 
+Installed so that a deliberate action (pulling on the gate) is required to open the 
+swing gate, to access the hazard contained by the guardrail.  It shall not be 
+possible to access the hazard by pushing or leaning on the gate. 
+ 
+Installed at the top of a staircase or vertical ladder when work is performed at the 
+top and a danger of falling exists. 
+ 
+Floor surfaces should be selected such as non-slip flooring or coating for oily areas or if 
+it is likely to become wet or dusty due to work processes. 
+ 
+ 
+ 
+ 
+7. Confined Spaces 
+ 
+ A confined space is an enclosed or partially enclosed space that:
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 18 of 52 >
+  
+ 
+ 
+ 
+Has been identified as such in a risk assessment and/or in a local regulatory process; 
+ 
+Is large enough and so configured that any employee can bodily enter and perform assigned 
+work 
+ 
+Is not designed for continuous employee occupancy, 
+ 
+Has limited or restricted means for entry or exits (tanks, vessels, silos, storage bins, pits, 
+etc) 
+ 
+Confined spaces which require permit for entry:   
+ 
+Have an atmosphere which contains potentially harmful levels of contaminant;  
+ 
+Not have a safe level of oxygen e.g. following a nitrogen purge; or  
+ 
+Cause entrapment or engulfment.  
+ 
+The goal is to design equipment, processes, and facilities that do not have any confined spaces. 
+Hazards (other than atmospheric) shall be designed out of the confined space to the extent 
+possible e.g. chemical release, steam, moving parts etc 
+ 
+When not possible, effective controls shall be designed for energy isolation, ventilation, fall 
+protection, and rescue. Energy isolation for confined spaces must be easily achievable for 
+confined spaces by proper identification, and effective lock ability. Energy control devices shall 
+be located outside the confined space and located within easy reach. 
+ 
+If it is not possible to design a process or facility without confined spaces, an opening of at least 
+76 cm or 30 inch diameter or equivalent shall be provided.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 19 of 52 >
+  
+ 
+ 
+Section C 
+ 
+Equipment and Controls  
+ 
+1. Safeguarding of Machinery 
+The machine design and construction, in particular electric, hydraulic and pneumatic equipment 
+whose operation is controlled by a Control System, shall incorporate a documented risk 
+assessment, which shall be reviewed and approved by appropriate ArcelorMittal staff.  Such an 
+assessment shall lead to the selection of appropriate safeguards, as well as the appropriate 
+level of performance of the safety control system.   
+At the minimum, one or more method of machine guarding shall be provided to protect the 
+operator and other employees in the machine area from hazards such as those created by point 
+of operation, ingoing nip points, rotating parts, flying chips and sparks. Examples of guarding 
+methods are: 
+ 
+barrier guards 
+ 
+two hand tripping devices 
+ 
+electronic safety devices 
+ 
+a. Selection of Safeguards 
+The choice of safeguarding methodology shall be in the following order of priority: 
+ 
+Eliminate or reduce the hazard (usually through changing the machine design) 
+ 
+Eliminate or change the task (consider providing a tool to eliminate the need to 
+access the danger zone, change the location of the person to outside the danger 
+zone when they perform the task, add automation to eliminate the task),  
+ 
+Apply safeguarding technology (devices, circuits and engineering controls) to 
+reduce the likelihood of harm (barriers, interlocks, etc.) 
+ 
+Apply awareness means and warnings 
+ 
+Develop and apply procedures and training (administrative controls) 
+ 
+Use Personal Protective Equipment 
+ 
+The selection of an appropriate safeguarding method shall consider the access required 
+to the equipment for the purposes of operations and maintenance activities, such as 
+visual inspection, lubrication, testing and trouble shooting, and maintenance activities 
+that are performed under full energy isolation conditions. Simply installing a guardrail 
+and a sign indication “restricted access” is not sufficient – these are considered 
+awareness methods, which do not provide sufficient personnel protection against 
+machine hazards. 
+The guards must not introduce another health or safety hazard such as awkward 
+positioning of the operator. 
+ 
+ 
+b. Safeguarding Devices and Circuits 
+Safeguarding devices and circuits shall be used in a manner consistent with the 
+manufacturer’s instructions, and shall be applied, using a risk assessment process, to 
+the machinery to: 
+ 
+Prevent access to the hazard 
+ 
+Cause the hazard to cease before access 
+ 
+Prevent unintended operation 
+ 
+Contain loose objects, flying projectiles etc.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 20 of 52 >
+  
+ 
+ 
+ 
+Control other process hazards (e.g. noise, lasers, radiation) 
+ 
+Isolate and dissipate energy for machine shut-down 
+ 
+Safeguarding devices and circuits shall be designed, selected, constructed, and 
+assembled using basic safety principles for the intended application and shall be able to 
+withstand: 
+ 
+The expected operating stresses 
+ 
+The influence of the materials being processed, agents used in their processing 
+and the processing environment 
+ 
+Reasonably foreseeable misuse 
+ 
+Efforts to bypass safety devices or circuits 
+ 
+Abnormal situations 
+ 
+Other relevant external influences. 
+ 
+Safety devices and circuits shall be designed and installed such that if they do fail, the 
+associated hazard is left in a safe state. 
+ 
+The equipment, process and workplace shall be designed to enable personnel to 
+conveniently accomplish their tasks in a safe manner, removing the motivation to bypass 
+safety controls. 
+ 
+ 
+c. Safeguarding of mechanical hazards (Physical guard design) 
+The permissible gaps in a guard are based on the distance from the danger zone.  
+These gaps apply to both openings in the guard (such as those in expanded metal mesh 
+or woven wire mesh) as well as gaps between the guard and the equipment to which the 
+guard is attached.  Guards shall be designed to the dimensions provided in the Table 
+below: 
+ 
+ 
+Table 1 - Maximum Permissible Gap in a Guard 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Metric units 
+Distance from the 
+danger point (d)
+Maximum gap size 
+(g)
+mm 
+mm 
+6-38 
+6 
+39-64 
+10 
+65-89 
+13 
+90-140 
+16 
+141-165
+19
+1661
+22
+192-318 
+32 
+319-394 
+38 
+395-445 
+48 
+446-800 
+54 
+Over 800 
+152
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 21 of 52 >
+  
+ 
+ 
+Imperial Units 
+Distance from the 
+danger point (d) 
+Maximum gap size 
+(g) 
+Inches 
+Inches 
+¼ -1½ 
+¼ 
+1½ -2½ 
+⅜ 
+2½ - 3½ 
+½ 
+3½ - 5½
+⅝
+5½ - 6½ 
+¾ 
+6½ - 7½ 
+⅞ 
+7½ -12½ 
+1¼ 
+12½ - 15½ 
+1½ 
+15½ - 17½ 
+1⅞ 
+17½ - 31½ 
+2⅛ 
+Over 31½ 
+6 maximum 
+ 
+If the exact size of mesh is not available, the next smaller available size shall be used. 
+ 
+If it is a requirement to clearly view equipment inside a mesh guard, the mesh should be 
+painted black, and the frame of the guard should be painted safety yellow.  For large 
+floor mounted fences, the mesh and frame may be painted black and the supporting 
+posts painted safety yellow. 
+ 
+ 
+d. Guardrails used as Guards 
+ 
+ 
+Guardrails have been used to prevent people from reaching the danger zone(s) 
+associated with moving equipment.  Typically, guardrails for this application serve as 
+perimeter guards to prevent people from accessing a large area and are permanent.  
+The decision to use a guardrail as a guard shall consider access requirements for 
+operations and maintenance activities (including visual inspection, lubrication, and 
+trouble shooting), and the requirement to have approved written energy control 
+procedures when people must enter into the area within the guardrails or when the 
+guardrails are removed. 
+ 
+Vendor designs that use the philosophy of “restricted areas” (guarding through the use 
+of guardrails and a sign) shall only be used after review and approval by ArcelorMittal.  
+The approval process will consider the tasks required to be performed in this area, 
+frequency of access, and the need for energy control, among other factors.  If removable 
+guardrails are used then they shall be secured in place with bolts or chains.  Access 
+swing gate shall be secured. 
+ 
+The design of guardrails shall include the following: 
+ 
+A top rail, mid rail and toe-board (if tools or other objects may fall on a person). 
+ 
+The top rail shall be located 107 centimetres (42 inches) above the floor surface, 
+ground or platform on which it is installed.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 22 of 52 >
+  
+ 
+ 
+ 
+The toe-board shall be securely fastened to the vertical posts extending from the 
+surface, floor, ground or platform to a height of not less than 12.5 centimetres (5 
+inches) and no more than 6.4mm (1/4 inch) from the surface. 
+ 
+Note: Chains or ropes are not acceptable substitutes for a guardrail. 
+ 
+If the guardrail is to be removed and handled by one person, the recommended 
+maximum mass for safe handling is 40lbs. (18kg). 
+ 
+The distance the guardrail must be placed from the danger zone is dependent on the 
+height of the danger zone. 
+ 
+If the guardrail cannot be placed to satisfy these requirements, it does not adequately 
+safeguard the hazard.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 23 of 52 >
+  
+ 
+ 
+ 
+Table 2 - Distance that a Standard Guardrail (42”)  
+Must Be Place From the Danger Zone 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Imperial Units 
+Height of the 
+danger zone (“H”) 
+Minimum distance from 
+the danger zone (“D”) 
+inches 
+inches 
+98 ⅜ 
+- 
+94 ½ 
+4 
+86 ⅝ 
+23 ¾ 
+78 ¾ 
+43 ¼ 
+70 ⅞ 
+43 ¼ 
+63 
+51 ⅛ 
+55 
+51 ⅛ 
+47 ¼ 
+55 
+39 ⅜ 
+55 
+31 ½ 
+51 ⅛ 
+23 ¾ 
+47 ¼ 
+15 ¾ 
+47 ¼  
+7 ⅞ 
+43 ¼ 
+0 
+43 ¼ 
+Metric Units 
+Height of the 
+danger zone (“H”) 
+Minimum distance from 
+the danger zone (“D”) 
+cm 
+cm 
+250 
+- 
+240 
+10 
+220
+60
+200 
+110 
+180 
+110 
+160 
+130 
+140 
+130 
+120 
+140 
+100 
+140 
+80 
+130 
+60 
+120 
+40 
+120 
+20 
+110 
+0 
+110
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 24 of 52 >
+  
+ 
+ 
+ 
+ 
+ 
+ 
+e. Swing Gates and Other Access to Guarded Areas 
+ 
+Swing gates and other access gates shall only be provided when there is a 
+demonstrated need to access the area. Swing gates and other accesses are an integral 
+part of the guarding system. 
+ 
+Swing gates shall be: 
+ 
+Self closing. 
+ 
+Installed so that a deliberate action (pulling on the gate) is required to open the swing 
+gate, to access the hazard contained by the guardrail.  It shall not be possible to 
+access the hazard by pushing or leaning on the gate. 
+ 
+All swing gates and/or access gates, when guardrails or fences are used as a guard, 
+shall be secured.  Secured is defined as “requiring a tool to remove”. 
+ 
+Securing a swing gate or access gate shall involve: 
+ 
+Installing a fastener such as a bolt that can only be removed by a tool, or  
+ 
+Installing a lock to secure the swing gate to the guardrail.  A single key is used to 
+open the lock, or 
+ 
+Installing a chain around the swing gate and guardrail.  A single key is used to 
+open the lock and chain, or 
+ 
+Having an interlocking mechanical or electrical safety device that stops the 
+moving equipment (thus eliminating the hazard inside the guardrail) when the 
+swing gate is opened. 
+ 
+The installation of an interlocking mechanical or electrical safety device requires 
+a Pre-Start Health and Safety review (PSR). 
+ 
+When determining the best method of securing a swing gate, operations and 
+maintenance access shall be considered.  An interlocking mechanical or electrical safety 
+device on the access gate that stops all moving hazards within the area surrounded by
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 25 of 52 >
+  
+ 
+ 
+the guardrail may not be a practical method, as this may create operational issues for a 
+process if maintenance personnel need to access the area for regular inspection or 
+lubrication activities. 
+ 
+Energy isolations shall be located outside of the perimeter guarding, for all equipment 
+inside the perimeter guarding which poses a hazard. 
+ 
+f. Guarding of Portable Power Tool 
+ 
+All portable power driven circular saws having a blade diameter greater than 2 inches 
+shall be equipped with guards above and below the base plate or shoe. The upper guard 
+shall cover the saw to the depth of the teeth except to the minimum arc required to 
+permit the base to be tilted for bevel cuts. The lower guard shall cover the saw to the 
+depth of the teeth, except for the minimum arc required to allow proper retraction and 
+contact with the work. When the tool is withdrawn from the work, the lower guard shall 
+automatically and instantly return to covering position.  
+All hand held power drills tapers, fastener drivers, horizontal, vertical and angle grinders 
+with wheels greater than 2 inches in diameter, disc sanders with disc greater than 2 
+inches in diameter,  belt sanders, reciprocating saws, saber, scroll, and jig saw with 
+blade shanks greater than a nominal one forth (1/4) inch and other similarly operating 
+tools shall be equipped with a constant pressure switch or control and may have a lock 
+on control provided that turnoff can be accomplished by a single motion of the same 
+finger or fingers that turn them on.  
+All other hand held power tools such as but not limited to, platen sanders, grinders with 
+wheels 2 inches or less, disc sanders with 2 inches or less disc, routers, planers, 
+laminate trimmers, shears, sabres, scroll and jig saw with blade shanks nominal ¼ of an 
+inch wide or less may be equipped with either a positive “on-off” control.  
+ 
+ 
+ 
+2. Control of Hazardous Energy (Isolations and Interrupts) 
+ 
+There are two primary ways to control hazardous energy when access to the danger zone of 
+equipment is required: 
+ 
+a) Solution: uses a mechanical energy isolation device to physically prevent or restrain the 
+energy flow (e.g. circuit breaker, disconnect switch, valve, block or pin). A lock is applied 
+to the energy isolating device. 
+ 
+b) Control Interrupt: uses control power to interrupt the flow of energy to a process, 
+equipment, machine or device.  Control power typically prevents the energy isolating 
+device from operating. 
+ 
+ArcelorMittal will work with the vendor to determine the most appropriate means of controlling 
+hazardous energy for each task/hazard combination. When physical isolation and lockout is not 
+possible to be performed for a task/hazard combination, a risk assessment will be conducted 
+(based on ANSI B11-TR3) and various risk reduction methods evaluated. These activities will 
+be done jointly by the vendor and ArcelorMittal (Health and Safety, Maintenance, Operations
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 26 of 52 >
+  
+ 
+ 
+and Engineering) during the design stage. Copies of the completed risk assessment will be 
+forwarded to the PSR Engineer(s), Vendor, and ArcelorMittal. 
+ 
+Generally, maintenance activities that occur in the danger zone require isolation.    Exceptions 
+could include troubleshooting and commissioning activities.   Lockout points should be in close 
+proximity to the work area to be isolated and readily identifiable. 
+ 
+Isolating devices such as breakers, valves and switches shall: 
+ 
+Be uniquely identified with a permanent tag or sign; 
+ 
+Be capable of being locked; and 
+ 
+Not be able to be re-energized without the removal of the lock. 
+ 
+Electrical disconnect switches should be equipped with windows to allow a person to visually 
+confirm isolation. 
+ 
+Mechanical stops such as pins and blocks shall be properly engineered to withstand the load 
+under power (not just support the mass), and require a Pre-Start Health and Safety Review 
+(PSR) before being placed into service. If the mechanical stop is the only means of energy 
+control, then pins and blocks must have the ability to be locked. Note that this requirement does 
+not apply if gravity provides adequate force to prevent their removal. 
+ 
+A captive key system may be used to isolate primary electrical energy for the purposes of 
+personnel protection under the following conditions: 
+ 
+Engaging the key must itself physically disconnect the primary electrical circuit (i.e. not 
+control power). 
+ 
+There must be either a manual or automatic means of dissipating stored energy.  (It is 
+acceptable to take no action when it has been determined that there is no stored 
+energy). 
+ 
+There must be a means of verifying isolation effectiveness. 
+ 
+a. Control Interrupts 
+ 
+For bidding and estimating purposes, any control interrupt circuit used for the purposes 
+of facilitating operational tasks shall be control reliable.  ‘Control Reliable’ is a specific 
+type of Control Interrupt Circuit.  It is an engineered safety circuit using safety rated 
+devices that has redundancy and continuous self checking. 
+ 
+Control interrupt circuits which operate “automatically” (such as an interlocked gate, light 
+curtain, or laser scanning presence sensing device) are preferable to those which rely on 
+a person to activate them (such as a switch or other control on a desk). 
+ 
+All control interrupt circuits used for personnel safety shall be engineered by competent 
+people and shall have a Pre-Start Health and Safety Review (PSR) completed before 
+being placed into service. 
+ 
+The person(s) whose safety is protected by a control interrupt circuit shall have sole 
+control over the operation of the device.  Since this is done by applying a personal safety 
+lock to the disabling device, such devices must be capable of being locked.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 27 of 52 >
+  
+ 
+ 
+ 
+Any key used in conjunction with a Control Interrupt circuit and device shall be unique.  
+All devices that are used to safeguard people by interrupting control power shall be 
+labelled as “Control Interrupt”. 
+ 
+For higher risk tasks, circuits shall be hard wired and safety rated devices employed. 
+ 
+3. Emergency Stop (E-Stop) Design 
+ 
+An Emergency Stop is intended to avert arising or to reduce existing hazards to persons, 
+machinery, or work in progress. 
+ 
+Each operator control station, including pendants, capable of initiating machine motion shall 
+have a manually initiated emergency stop device. 
+ 
+Emergency stop devices shall be located where they can be readily identified and quickly 
+reached. However, their location should not be such that accidental use or inadvertent contact 
+can easily occur, especially if there is potential for injury to personnel and/or significant system 
+malfunction or damage. 
+Emergency Stop buttons are not considered replacement for energy isolation process.  
+ 
+a. Emergency stop device design 
+Push buttons that activate an emergency stop circuit shall be: 
+ 
+Red in colour with a yellow background 
+ 
+Unguarded 
+ 
+Palm or mushroom head type 
+ 
+The type requiring manual resetting and 
+ 
+Installed such that resetting the button shall not initiate a restart. 
+ 
+ 
+ 
+4. Electrical Equipment 
+ 
+All installation, design, and utilization of electrical equipments, wiring, and control panels must 
+be in accordance to country code, NEC (National Electric Code) and NFPA70. 
+ 
+5. Requirements for Elevators 
+ 
+Consider several factors when assessing whether or not to install an elevator. 
+ 
+It may not be unreasonable to expect a person to climb a set of stairs once or twice a shift.  
+However, the nature of the work and conditions may dictate that an elevator be considered: 
+ 
+Slippery surface 
+ 
+Environmental factors: cold, wind, rain 
+ 
+Rate of ascent or descent (i.e. the urgency with which the stairs must be climbed) 
+ 
+The number of trips that may be required in a relatively short period of time 
+ 
+Whether urgent responses are required at the top of the stairs 
+ 
+Whether or not the person must also carry equipment or tools
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 28 of 52 >
+  
+ 
+ 
+ 
+Other heavy physical work that may have been done during that shift 
+ 
+Whether or not there are time constraints on the work 
+ 
+In a very hot environment, the physical requirements of stair climbing (or any type of 
+work) will be greatly increased. 
+ 
+Use the checklist provided below to determine when the installation of an elevator may be 
+appropriate. 
+ 
+Table 3 - Criteria to Assist with the Determination of Elevator Requirements 
+ 
+Criteria 
+Yes 
+No 
+A.   Mandatory Criteria 
+ 
+ 
+1.   Are there at least 4 storeys (50’ vertical)? 
+ 
+ 
+2.   Must an employee climb these stairs at least 3 times per 
+shift? 
+ 
+ 
+If both of these questions have been answered “yes”, proceed 
+to the next section: 
+ 
+ 
+B.   Optional Criteria 
+ 
+ 
+3.   Must tools and equipment be carried to the destination at 
+the top of the stairs? 
+ 
+ 
+4.   Is the total mass carried greater than 25 pounds? 
+ 
+ 
+5.   Are the employees required to perform other physically 
+demanding work (such as shovelling, working in hot 
+environments, repetitive lifting) during the same shift? 
+ 
+ 
+6.   Are there environmental factors that could create hazards 
+for employees using stairs? (i.e. rain, ice, wind) 
+ 
+ 
+7.   Have other options been seriously investigated and 
+rejected? 
+ 
+ 
+ 
+If both mandatory criteria are met, and at least 2 of the 5 optional criteria have been answered 
+“yes”, the installation of an elevator should be considered. 
+ 
+6. Pulpit Layout 
+ 
+a. General Requirements 
+ 
+Ensure adequate storage space is available for materials 
+ 
+Wall space for bulletin boards, evacuation maps, emergency procedures, etc. should be 
+available. 
+ 
+Determine the functionality of the pulpit.  The pulpit should not be designed to also be a 
+rest area or lunch room. This may be distracting for the operator, and may be more 
+difficult to keep clean. 
+ 
+Determine the noise attenuation requirements and capabilities of the pulpit.  Seals on 
+the windows and doors shall be properly designed. 
+ 
+HVAC units should be placed on the side of a pulpit, not the roof.  If the units are placed 
+on the roof, access ladders, guard rails, and swing gates shall be provided. 
+ 
+b. General Desk Layout
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 29 of 52 >
+  
+ 
+ 
+ 
+A sit/stand workstation is generally preferred. The height of this surface allows operators 
+to either sit in a pulpit chair or stand to perform their tasks 
+ 
+A sitting workstation is preferred when sight lines outside the pulpit are below the level of 
+the desk.  This lower surface will enable the operator to have a wider field of vision when 
+they stand and look outside the pulpit. 
+ 
+Consider providing rolling shelf surfaces beneath the desk for printers, etc., since desk 
+surface space is usually at a premium.  The height should be such that the operator 
+does not need to bend.  For example, placing a zebra printer on a 22” high roll out shelf 
+allows the labels to be retrieved easily, and the printer may be pulled out to allow the 
+paper and ribbon to be changed. 
+ 
+Consider providing a recessed (lowered) section of the desk (approximate height 31”) if 
+fax machines are placed on the surface of a standing workstation, where operators 
+cannot see the numeric keypad on the top. 
+ 
+An ergonomic study by a capable person using physical or numerical simulation should 
+be done for layout of the desks. 
+ 
+c. Computer and Video Monitor Considerations 
+ 
+Do not suspend place monitors from near the ceiling.  (Neck pain is a common complaint 
+among operators) 
+ 
+Place monitors directly on the surface of the desk, and relocate the CPU to a shelf below 
+ 
+Tilt monitors downward on their swivel base to reduce glare (the monitor should be 
+facing the operator, not the ceiling) 
+ 
+Ideally, the monitor portion of a desk is a flat surface, so that the keyboard and pointing 
+devices may be placed on the desk surface.  This surface could also be used as a 
+writing surface. 
+ 
+Place large (21”) monitors farther from the operator than smaller monitors.  They are 
+also a major source of light in the pulpit.  Font size, colours, and the amount of 
+information displayed are important considerations. 
+ 
+If keyboard trays are required, they must be wide enough to accommodate a keyboard 
+and a mouse (28 – 30”) 
+ 
+The keyboard try must not interfere with vertical knee clearance beneath the desk 
+ 
+d. Lighting 
+ 
+Ambient illumination: 300-500 lux 
+ 
+Recommended method of illumination: incandescent track lighting on a dimmer switch, 
+positioned behind the control desk. 
+ 
+Provide supplemental task lightning (desk lamp) for paper work; paper work requires 
+more illumination (up to 1100 lux) than computer work (300 – 500 lux). 
+ 
+Task light (desk lamp) should be adjustable (i.e. gooseneck), and positioned directly 
+over paper source/writing area, not to be directed over the computer screen 
+ 
+Fluorescent ceiling fixtures shall be available for maintenance and cleaning purposes 
+ 
+Pot lights positioned directly over the desk are not recommended; they generate glare, 
+and will reflect on the monitors. 
+ 
+e. Windows 
+ 
+Supports between windows should be as narrow as possible to reduce interference with 
+sight lines
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 30 of 52 >
+  
+ 
+ 
+ 
+Consider lowering the windows (or extending them downward) if the operator is required 
+to see  downward 
+ 
+Angling the windows is usually not necessary, as angled windows tend to generate 
+reflected glare from the ceiling luminaries in the pulpit 
+ 
+Consider leaving an 18” space between the back of the desk and the windows if the 
+control panels or desks do not need to be positioned directly against the windows.  This 
+will allow adequate access for cleaning the windows and retrieving articles that may 
+have fallen between the desk and the windows. 
+ 
+f. Surfaces 
+ 
+Matte finishes reduce glare and should be used 
+ 
+Brushed stainless may be an appropriate choice for desk surfaces 
+ 
+g. Floor 
+ 
+Shall be smooth to allow for safe rolling of pulpit chairs on casters 
+ 
+Place absorbent mats outside the pulpits to reduce the likelihood of tracking grease into 
+the pulpit in areas where floors are slippery.  These mats shall not present additional 
+tripping hazards. 
+ 
+Coat the floor with an anti-slip paint (or equivalent), if slip hazards cannot be eliminated.  
+This feature must not interfere with chair movement in the pulpit. 
+ 
+Floor should be a subdued colour with a matte surface to reduce glare 
+ 
+Floors should be all one level; no steps, stairs or platforms inside the pulpit 
+ 
+Anti-fatigue mats may be provided at standing workstations, with the following 
+provisions: 
+ 
+Edges of the mat must be angled to reduce tripping hazards 
+ 
+Mats must not be placed beneath chairs (chairs my tip) 
+ 
+Usually, the best approach is to provide a foot rail and chair to reduce the fatigue which 
+may be associated with prolonged periods of standing 
+ 
+h. Location 
+ 
+Consider the path that the operator will need to travel to access the line or any points in 
+the process. 
+ 
+Consider sight lines to the process – can the operator really see what they need to see? 
+Can direct sight lines be replaced with camera images? Is this acceptable? Is there 
+enough room in the pulpit to accommodate these new monitors? 
+ 
+If the operator will need to frequently access the area outside the pulpit, consider 
+installing a ramp instead of stairs. 
+ 
+If the operator will need to open the doors to enter or exit the pulpit with something in 
+their hands, consider installing an automatic door opener (this would be appropriate in a 
+laboratory, for example) 
+ 
+7. Work Stations Control Panels  
+ 
+The following guidelines should be used when designing a control panel:
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 31 of 52 >
+  
+ 
+ 
+a. Dimensions for control panels
+ 
+ 
+Label 
+Description 
+Minimum (cm) 
+Maximum (cm)
+A 
+Height of surface 
+97 
+102 
+B 
+Vertical knee clearance 
+89* 
+97 
+C 
+Knee clearance (depth) 
+30 
+- 
+D 
+Surface thickness 
+5 
+8 
+E 
+Functional reach¹ 
+- 
+70 
+F 
+Height for viewing over top² 
+- 
+142* 
+G 
+Foot rail height (1” round bar) 
+15 
+20 
+H 
+Position of rail 
+15 
+20 
+I 
+“Arm rest”
+8
+15
+J 
+Angle of panel
+10
+70
+ 
+ 
+Notes: 
+*: Critical value 
+Control panel buttons should be located less than 28” (70cm) from the front edge of the 
+panel. If the control must be grasped (i.e. joystick), then the reach must be less than 24” 
+(60cm). Frequently used controls must be placed less than 18” (45cm) from the front edge of 
+the desk. This value will be even lower if the operator needs to see below the horizontal line 
+of sight.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 32 of 52 >
+  
+ 
+ 
+ 
+b. Suggested Alternate Profiles 
+ 
+ 
+ 
+ 
+Notes: 
+ 
+ 
+The angle of the desk surface may be increased (up to 70° maximum) to reduce 
+horizontal reach requirements. 
+ 
+The flat front edge of the desk is useful to provide operators a place to rest their 
+forearms without activating buttons.  For this purpose, a 3 - 4” (7-10cm) ledge is 
+usually sufficient. If a keyboard and/or mouse are placed in this location, the depth 
+must be at least 18” (45cm). If the surface is to be used for writing, it must be at least 
+12” (30cm) deep. 
+ 
+Vertical knee clearance beneath the desk is critical if operators are expected to pull 
+the chair into the panel. If vertical knee clearance is not adequate, the maximum 
+depth of the desk (dimension “E”) must be reduced. 
+ 
+c. Dimensions for sitting control panels 
+ 
+Label 
+Description 
+Minimum (cm) 
+Maximum (cm) 
+A 
+Height of surface 
+74 
+81 
+B 
+Vertical knee clearance 
+ 68* 
+- 
+C 
+Knee clearance (depth) 
+30 
+- 
+D 
+Surface thickness 
+5 
+8 
+E 
+Functional reach¹ 
+- 
+70 
+F 
+Height for viewing over top² 
+- 
+125* 
+I 
+“Arm rest” (optional) 
+8 
+15 
+J 
+Angle of panel 
+10 
+70 
+ 
+*: Critical value 
+ 
+ 
+d. Guidelines for User Interfaces 
+Human-computer interfaces must incorporate the way that people perceive and process 
+information, in order to enable them to make correct decisions in a timely manner. 
+Mismatches between display and control design and human capabilities can result in errors,
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 33 of 52 >
+  
+ 
+ 
+training difficulties, increased response time, eyestrain, and frustration. Some of these 
+mismatches (particularly those attributed to “human error”) may have catastrophic effects. 
+ 
+Incorporation of these basic guidelines into interface design will result in enhances operator 
+performance and fewer errors. 
+ 
+e. Colours 
+ 
+Do not use more than 4 – 7 different colours 
+ 
+Avoid extreme colour contrasts 
+ 
+Avoid these colour combinations: 
+ 
+Saturated Red and Blue 
+Saturated Blue and Green 
+ 
+Yellow on Purple 
+ 
+Yellow on Green 
+ 
+Magenta on Green 
+ 
+ 
+Magenta on Black 
+ 
+Saturated Red and Green 
+Saturated Yellow and Green  
+Green on White 
+ 
+Blue on Black  
+ 
+Red on Black  
+ 
+ 
+Yellow on White 
+ 
+f. Colour coding 
+For safety usage, colour code should be explicated. 
+ 
+Red should mean “alarm” or “error” or “stopped”. 
+ 
+Green should mean “safe” or “go” or “run”. These colours should not be used 
+elsewhere, nor be used for any other meaning. 
+ 
+Use colour coding sparingly. Not every piece of information should be separately 
+colour coded.  Less is more. 
+ 
+Consider using strategies other than colour to code information.  Flashing, reverse 
+text and sound could be used effectively. 
+  
+A combination of colour and shape could also be used:
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 34 of 52 >
+  
+ 
+ 
+Table 4 - Example of Colour and Shape Coding 
+ 
+Symbol       Colour 
+ 
+ 
+             Condition 
+ 
+ 
+ 
+ 
+ 
+g. Backgrounds 
+ 
+Black backgrounds are usually sources of glare, and can create contrast problems 
+ 
+Grey or blue backgrounds are preferred 
+ 
+Avoid textured or patterned backgrounds. Simple hatching patterns are acceptable. 
+ 
+Avoid multidimensional effects 
+ 
+h. Font 
+ 
+Use a “sans serif” font such as Arial 
+ 
+The minimum recommended font size is usually 3m (assuming 18 – 24” from the 
+operator). 
+ 
+Use a combination of upper and lower case letters. 
+ 
+Use bold for strong emphasis only. 
+ 
+i. 
+Text 
+ 
+Every screen should have a title or header at the top that is separate and distinguishable 
+from the body of the screen. 
+ 
+Avoid unnecessary details. Use concise wording. 
+ 
+Use short, simple sentences. 
+ 
+The wording and grammatical structure of displayed data and labels should be 
+consistent throughout an application and between related applications. 
+ 
+j. 
+Labels and Alignment 
+ 
+When lists of data are provided on the screen, the following conventions for alignment 
+should be followed: 
+ 
+Alphanumeric data: left-justify 
+ 
+Integer numerical data: right-justify 
+ 
+Decimal numerical data: decimal justify 
+ 
+Label locations (e.g. for icons) and formats should be consistent 
+ 
+Labels should normally be placed above the item it describes. 
+Red 
+ 
+ 
+Off / Stopped / Unavailable / Failed 
+ 
+Green  
+ 
+On / Running / Control on / Sequence complete 
+ 
+ 
+ 
+Orange  
+ 
+Available / Control Available / Ready / Waiting 
+ 
+Blue (flash) 
+ 
+Active / in progress 
+ 
+ 
+Yellow  
+ 
+Ready (But inhibited) / Hold
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 35 of 52 >
+  
+ 
+ 
+ 
+Labels should be made distinct from other information, by using a different font or size. 
+Do not place a box around a label, as it could be interpreted as a button. 
+ 
+k. Navigation/Icons 
+ 
+Use simple icons that are “universally” understood 
+ 
+Use animated icons only when necessary 
+ 
+Use the conventions for back “←” and forward “→” to switch between screens. These 
+should be in the same position relative to each other.  Up “↑” and down “↓” should be 
+used to change levels. 
+ 
+Allow easy reversal of actions 
+ 
+8. Alarms 
+ 
+Equally important is the ability for the user to detect abnormal or unusual conditions, obtain 
+information about the problem, and correct the condition. Alarms are used to draw the user’s 
+attention. Often, the user may access an alarm screen for additional information or a history or 
+alarm messages. 
+ 
+ 
+Alarm messages should also be shown in the same place on the  monitor, regardless of 
+which screen is being used 
+ 
+Alarm messages can flash to draw the user’s attention, but should remain steady once 
+acknowledged 
+ 
+Alarm screens should be easy to read – consider colour, font, and alignment 
+ 
+Error messages should be constructive: Tell the user what needs to be done. 
+ 
+Messages should be consistent in grammar, terminology, and abbreviations 
+ 
+Use auditory signals sparingly to add emphasis for important events. Consider the 
+environment (background noise and other alarms) before adding auditory cues. 
+ 
+Auditory signals should not startle the user 
+ 
+Auditory signals should be intermittent, not continuous (i.e. use a beeping signal rather 
+than a continuous tone) 
+ 
+The means of acknowledging alarms should be consistent 
+ 
+When the alarm is not critical, the acknowledgement action should also turn the auditory 
+signal off. 
+ 
+ 
+9. Coding 
+ 
+Coding is used to create meaning, or an association between items. Examples of coding include 
+the use of colour, shape, or flashing. 
+a) Coding should be used to: 
+ 
+Differentiate items of information 
+ 
+Call a user’s attention to important information, unusual situations, or potential problems 
+that require user action, 
+ 
+Indicate changes in the state of a system. 
+b) Coding should be: 
+ 
+Meaningful 
+ 
+Used for functional, not decorative purposes
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 36 of 52 >
+  
+ 
+ 
+ 
+Consistent within an application, and between similar applications. 
+ 
+10. Flashing 
+ 
+ 
+Do not use flashing for data or text when the user must read the information. Consider using 
+a flashing symbol beside the item rather than flashing the item itself. 
+ 
+Use flashing to draw the user’s attention but avoid overuse 
+ 
+Only a small area of the screen should flash at one time 
+ 
+Users should have a means of acknowledging the flashing. If appropriate, this 
+acknowledgement should stop the flashing. 
+ 
+The rate of flashing should be in the range of 3 -5 flashes per second, with an equal on and 
+off duration. When two flash rates are used, the higher rate should apply to the more critical 
+information, and the lower rate should be less than 2 flashes per second. 
+ 
+11. Dynamic Information Updating 
+ 
+When a task requires a user to read changing data, the individual data items should be 
+displayed long enough for the user to read them reliably and accurately. (Not more often than 
+once per second). 
+ 
+12. Input 
+ 
+Interaction with computers usually requires the user to input some information. This may include 
+data input (numbers), selection of options on the screen, or manipulation of controls on the 
+screen. The type of interaction required will usually dictate the type of input device 
+ 
+13. General Considerations 
+ 
+ 
+Space available at the workstation 
+ 
+Environment (especially dust) 
+ 
+Characteristics of the users (and familiarity with input devices) 
+ 
+How the location and movement requirements affect the operator’s postures (especially 
+wrist and shoulder) 
+ 
+Consistent and/or complementary input devices across the system 
+ 
+a. Keyboards 
+ 
+Standard keyboards for the country should be used, where applicable 
+ 
+Allow a space of at least 24” wide and 8” deep on the desk to accommodate a 
+keyboard. If the key board is accompanied by a mouse, allow at least 30” width. 
+ 
+Keep typing input requirements to a minimum 
+ 
+b. Mouse 
+ 
+This device has low error rates for large targets, and is familiar to mouse users 
+ 
+Additional flat space will be required on the surface of the desk  
+ 
+Provide a non-slip surface for the mouse 
+ 
+Eliminate awkward postures by properly locating the mouse relative to the user 
+ 
+Consider using optical mice in dusty environments
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 37 of 52 >
+  
+ 
+ 
+ 
+c. Track balls 
+ 
+Ball control is an efficient use of space 
+ 
+May require additional training time for unfamiliar users 
+ 
+Do not typically require a flat surface 
+ 
+Review the size and orientation of the ball and buttons to ensure that awkward 
+postures will not be required to operate it 
+ 
+d. Touch screens 
+ 
+Touch screens have the advantage of not requiring a separate input device, which 
+requires physical space on the desk 
+ 
+Do not use touch screens when the user will be required to input large amounts of 
+data, as the arms will tire easily 
+ 
+Do not use a touch screen for the selection of small items 
+ 
+Not recommended for ‘busy’ screens, where fingers can  partially block the view of 
+the display 
+ 
+Locate a touch screen no more than 24” from the user, and below shoulder height 
+ 
+The active areas on a touch screen panel should conform  to the following: 
+ 
+ 
+Figure 1 Recommended Touch Screen Dimensions 
+ 
+The figure below shows a method that reduces the likelihood of accidental touching of 
+those cells, by separating the touch areas by a “dead zone”, part of which is the image 
+itself. This allows the images to be close together if required, but still maintains a touch 
+zone separation.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 38 of 52 >
+  
+ 
+ 
+ 
+Figure 2 Suggested Method for Decreasing the Risk of Touching More than One 
+Area 
+ 
+ 
+Section D 
+ 
+Pre-Start Health & Safety Review /Report 
+ 
+Equipment vendors are required to provide a Pre-Start Health and Safety Review (PSR) report for 
+the equipment they are supplying to ArcelorMittal. The Pre-Start Health and Safety Review report 
+shall confirm that the design of the equipment meets the requirements of applicable regulations, 
+codes and standards.  A competent person e.g. a Professional Engineer shall prepare and sign the 
+report. 
+ 
+The completed Pre-Start Health and Safety Review Report, confirming compliance with 
+applicable codes and standards shall be submitted by the equipment vendors to ArcelorMittal 
+prior to the commissioning of the equipment or process.  The date shall be identified in the 
+purchase agreement. Equipment vendors are also required to provide training manual and actual 
+training for selected employees. In addition a safe work practice must be provided electronically. 
+ 
+When several suppliers are involved in the same area, ArcelorMittal must insure the coordination 
+and confirm compliance with the applicable codes, standards and rules, or ask an engineering 
+service to assess compliance.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 39 of 52 >
+  
+ 
+ 
+Section E 
+ 
+Industrial Hygiene  
+ 
+1. Chemical and Biological Exposure 
+ 
+All new processes and equipment shall not exceed the ArcelorMittal or legal limits for exposure.  
+Engineering controls shall be applied at the design phase to ensure that these limits are not 
+exceeded. 
+ 
+Efforts should be made to reduce employee exposures to as low as reasonably achievable. 
+ 
+The Health and Safety Department should be involved in the planning stages of new (or altered) 
+processes/equipment which will expose employees to Regulated Substances. 
+ 
+2. Approvals for Chemicals 
+ 
+All chemicals required for the process and maintenance purposes shall be approved by the 
+Health and Safety and Environment Departments.  Material Safety Data Sheets (MSDS) for 
+recommended chemicals shall be part of the official documentation required by contract. 
+ 
+3. Asbestos Containing Materials 
+ 
+Although certain asbestos containing building materials have been banned in many countries, 
+some asbestos materials, such as gaskets, seals, and friction products, are still being sold.  
+ArcelorMittal does not permit the use of new asbestos containing materials. 
+ 
+4. Ionizing Radiation 
+ 
+All radiation devices shall be installed such that normally occupied areas have radiation 
+exposures as low as possible and in any event do not exceed 0.5 uSv/hr. 
+A radiation survey must be conducted when any radiation device is installed.  If the radiation 
+levels produced by the device (with the shutter closed), are above those considered acceptable, 
+the vendor shall provide appropriate shielding material to reduce levels. 
+ 
+5. Isotope Devices 
+ 
+All isotope devices shall: 
+ 
+Have a “Danger” identification tag that identifies the manufacturer, model number, serial 
+number, isotope, quantity, date, radiation trefoil, and name of nuclear substance.   
+ 
+Be equipped with a shutter that is capable of being locked. 
+ 
+Be certified by an authorised body and listed on ArcelorMittal’s radioisotope license(s) 
+before shipping to ArcelorMittal. 
+ 
+Leak tests shall be performed when devices are received on site, and following installation. 
+ 
+ 
+ 
+6. X-Ray Devices
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 40 of 52 >
+  
+ 
+ 
+ 
+All X-ray devices shall comply with the requirements of appropriate X-Ray Safety regulations. 
+ 
+The control panel shall have an indicator that clearly indicates when x-rays are being 
+produced in the x-ray tube. 
+ 
+Warning lights shall be mounted near the x-ray tube(s) in such a way as to be clearly visible, 
+that indicate when x-rays are being produced and the position of the shutter (open or 
+closed).  The lights shall be redundant, such that the failure of one bulb will not affect the 
+operation of the other bulb(s). 
+ 
+The x-ray device shall be equipped with a shutter that is capable of being locked. 
+ 
+ArcelorMittal should be provided with an isodose curve. 
+ 
+7. Lasers 
+ 
+All laser and laser systems shall be in accordance with the American National Standards 
+Institute (ANSI) standard for the Safe Use of Lasers (ANSI Z136.1-2000) or equilavent.  Pre-
+start Health and Safety Reviews (PSRs) should be completed for laser installations of lasers 
+classed 3b and 4. 
+ 
+a) Designs which limit beam access (by enclosing the beam path) are preferred. 
+b) Lasers shall be equipped with a protective housing to prevent access to laser radiation 
+c) This housing shall be interlocked for Class 3b and 4 lasers. 
+d) Class 3b and 4 lasers shall be equipped with a fail safe system to prevent emission if 
+scanning ceases (Classes 2a/2, 3a, 3b, 4). 
+e) There shall be a remote interlock connector for electrical connections to a master 
+emergency disconnect (Classes 3b, 4). 
+f) An alarm, visual warning and/or a verbal countdown should be activated upon start up of 
+Class 3b lasers, and shall be activated upon start up of Class 4 lasers. 
+g) All lasers (regardless of Class) shall carry a product certification label indicating compliance 
+with 21 CFR 1040.10 and 1040.11, or equivalent. 
+ 
+The “Laser Information Form” found below shall be submitted to ArcelorMittal.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 41 of 52 >
+  
+ 
+ 
+Table 5 - LASER INFORMATION FORM 
+ 
+Name/Location of Laser 
+ 
+ 
+Number of units 
+ 
+Manufacturer 
+ 
+ 
+Supplier Name and 
+Address 
+ 
+ 
+Contact name 
+ 
+ 
+Phone 
+ 
+ 
+Model number 
+ 
+ 
+Serial number 
+ 
+Product Classification 
+ 
+Installation 
+Classification 
+(if applicable) 
+ 
+Type of Laser Medium 
+(He-Ne, etc) 
+ 
+Mode of 
+operation 
+ 
+Continuous 
+   Pulsed 
+Maximum output power 
+(mW) 
+ 
+Wavelength (nm) 
+ 
+Beam diameter (cm) 
+ 
+Beam Expander? 
+ 
+ 
+Yes 
+    No 
+Line projecting 
+Collimator? 
+ 
+Yes 
+    No 
+ 
+ 
+Laser use 
+(Brief Description) 
+ 
+ 
+ 
+8. Noise 
+ 
+a. Equipment and Processes 
+The limit for noise exposure over an 8 hour shift is 85 dBA. 
+ 
+The installation of new equipment in an existing operation should be such that it does 
+not increase employee exposures.  The feasibility of noise controls shall be investigated 
+when an increase in noise levels will result in an increase in employee exposures. 
+ 
+For new operations, equipment should meet a noise level of 80 dBA (Measured at a 
+distance of 1 metre from the source), to allow average exposures to meet 85 dBA.  The 
+feasibility of controls shall be investigated when installing new equipment that exceeds 
+this level and will result in personal noise exposures that exceed the regulated limits. 
+ 
+b. Control Rooms, Pulpits and Offices 
+The overall maximum allowable noise level for Offices is fifty-five (55) dBA and for Plant 
+Offices and Pulpits is sixty-five (65) dBA.  The sound levels in the speech frequencies 
+(500, 1000, 2000 and 4000 Hz) should be such that they do not interfere with voice 
+communication.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 42 of 52 >
+  
+ 
+ 
+9. Ventilation System 
+ 
+In many cases ventilation system is the best way of keeping contaminants down to a safe level. 
+Two types of exhaust ventilation system exist: General and Local. 
+General Dilution works by supplying outside air to be mixed with the contaminants to safe 
+levels.  
+ 
+Local Exhaust systems work by capturing the contaminants at its point of generation and 
+exhausting it outdoors (example: fume hood). This method is far more effective at removing 
+airborne contaminants from the source and should always be used unless it is impractical for 
+the work area. A combination of both systems may be necessary for the work area.  
+All Ventilation systems should be engineer-designed. The following points should be noted 
+when choosing a new ventilation system. 
+ 
+Local Exhaust systems are preferred over general dilution. They allow less contaminant to be 
+released into the work area. General dilution should only be used when local exhaust system 
+are not practical. Also operational costs of dilution systems are usually much higher.  
+Ventilation systems should be evaluated frequently to ensure their effectiveness. 
+ 
+a. General Dilution 
+ 
+Exhaust intakes should be placed near the point of contamination if possible air 
+supply and exhaust systems should be placed so that air flow moves from the 
+supply, past the worker, through the zone of contamination and into the exhaust. 
+This orientation will reduce the amount of chemicals that can enter the worker’s 
+breathing zone.  
+ 
+Outlet discharging exhaust should be far away from any outside air intake or 
+windows. Exhaust should be discharged high above the roof line. 
+ 
+The recirculation for the contaminated air must be prevented. 
+ 
+The amount of chemical being released and its toxicity should be considered when 
+establishing adequate air flow rate ventilation. 
+ 
+b. Local Exhaust System 
+ 
+A contaminant’s point of entry into a local exhaust system is known as a hood. Two 
+types of hoods exist: enclosing and exterior. Enclosing hood systems completely or 
+partially enclose the process or source of contamination. Exterior hoods are located 
+adjacent to the source of contamination and do not enclose it. Enclosing hoods are 
+more effective at removing contaminant, and should be used whenever feasible. 
+Enclose a process releasing hazardous chemicals as much as possible. 
+ 
+The hood should be oriented so that contaminated air is removed close to the point 
+of release. 
+ 
+Do not place the hood near the floor assuming the contaminant is “heavier than air.” 
+ 
+Contaminated air should be drawn away from the individual, rather than past the 
+individual’s breathing area. 
+ 
+Ventilation air-flow should be sufficiently high as to effectively remove the 
+contaminant. This will depend on many factors, including the speed at which the 
+contaminant is released, the physical properties of the chemical, and the motion of 
+the surrounding air. Commonly used airflows, like those used in chemical 
+laboratories, are 80-120 fpm (feet per minute)
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 43 of 52 >
+  
+ 
+ 
+ 
+Square meter of room area, with a minimum of 250 cubic meters per hour. 
+Prevention of toxic exposure may require higher air-flow rates. Your ventilation rate 
+must be sufficiently high to reduce the exposure down to the action level (50 percent 
+of the OEL) for that chemical. 
+ 
+Ventilation systems must be constructed of compatible materials. Some chemicals, 
+such as perchloric acid, require a special dedicated fume hood. 
+ 
+Strong air currents (cross currents) can disrupt the movement of air into the hood, 
+and should therefore be eliminated or minimized. Common sources of cross currents 
+include free-standing fans, open windows and doors, and poorly placed supply air 
+ducts. 
+ 
+The recirculation of contaminated air must be prevented. 
+ 
+Ensure the ventilation system is working properly before each use. 
+ 
+ 
+Section F 
+  
+Storage of Flammable and Combustible Liquid 
+ 
+1. Storage Requirements  
+ 
+Flammable and/or combustible liquids stored in the open in a laboratory work area or inside 
+any building shall be kept to the minimum necessary for the work being done.  
+ 
+Maximum quantity permitted in labs and other areas of use is limited to a total of 10 gallons, 
+all classifications combined, outside of a flammable storage cabinet or approved flammable 
+storage room. Please refer to Table 1.  
+ 
+Quantities stored in flammable storage cabinets shall be limited to 60 gallons of class I or II 
+liquids and the total of all liquids shall not exceed 120 gallons. Please refer to Table 1 for 
+maximum allowable container size for each class. Not more than three cabinets shall be 
+located in the same room.  
+ 
+Quantities exceeding the above must be stored in an approved flammable storage room 
+meeting the requirements of the International Building and Fire Codes.  
+ 
+Flammable and combustible liquids shall not be stored near exit doorways, stairways, in exit 
+corridors, or in a location that would impede egress from the building.  
+ 
+Flammable aerosols and unstable liquids shall be treated as class I-A liquids. Please refer to 
+Table 1.  
+ 
+Materials which will react with water or other liquids to produce a hazard shall be segregated 
+from flammable and/or combustible liquids.  
+2. Handling and Dispensing 
+ 
+Class I liquids shall not be transferred from one vessel to another in any exit passageway.  
+Transfer of flammable liquids from 5 gallon containers (or less) to smaller containers shall be 
+done in a laboratory fume hood or in an approved flammable liquid storage room. 
+TABLE 1
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 44 of 52 >
+  
+ 
+ 
+CLASS 
+IA 
+IB 
+IC 
+II 
+Flash point 
+less than 73 F (22.8 
+C) 
+less than 73F (22.8 
+C) 
+73 - 100 F (22.8C 
+– 37.8C) 
+100 - 140F (37.8 
+– 60C  
+Boiling point 
+less than 100F 
+(37.8) 
+greater than 100F 
+(37.8C) 
+   
+   
+Flammability Potential 
+Extremely High 
+Very High 
+High 
+Moderate  
+EXAMPLES OF COMMONLY 
+USED MATERIALS 
+acetaldehyde  
+benzoyl peroxide  
+ethyl ether  
+pentane  
+methyl formate 
+acetone  
+ethanol  
+butylamine  
+gasoline  
+methanol  
+isopropanol 
+amyl acetate  
+butanol  
+chlorobenzene  
+turpentine  
+xylene 
+formaldehyde  
+hydrazine  
+kerosene 
+NFPA 704 HAZARD RATINGS*  
+ 
+ 
+ 
+MAXIMUM CONTAINER SIZE 
+Glass 
+1 pint (500 ml) 
+1 quart ( 1 liter) 
+1 gallon ( 4 liters) 
+1 gallon(4 liters) 
+Metal or approved plastic 
+1 gallon 
+(4 liters) 
+5 gallons 
+( 20 liters) 
+5 gallons 
+(20 liters)  
+5 gallons 
+(20 liters) 
+Safety cans 
+2 gallons 
+( 8 liters) 
+5 gallons 
+5 gallons 
+5 gallons 
+Metal drums (DOT) 
+N/A 
+5 gallons 
+5 gallons 
+60 gallons 
+(240 liters)
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 45 of 52 >
+  
+ 
+ 
+ 
+NFPA is the acronym for the National Fire Protection Association. NFPA 704, Standard System for the 
+Identification of the Fire Hazards of Materials, provides planning guidance to fire departments for safe tactical 
+procedures in emergency operations, and gives on-the-spot information to safeguard the lives of fire fighting 
+personnel and the others who may be exposed. The Hazard Identification System is not intended to identify the 
+non emergency health hazards of chemicals.  
+ 
+3. Storage of Gases 
+ 
+Fire protection safe guards for gas storage reflect (1) the hazards of the container/gas 
+combination and (2) the hazards of the gas when it escapes from the container. Discussion 
+of basic hazards of the gases, gas emergency control, and specific gases are especially 
+pertinent to the safe storage of gases and must be evaluated and assessed prior to the 
+design of the storage area and layout. The containers must be gas tight for both the range of 
+temperature and pressure conditions present at the storage site as well as condition of 
+transportation environment prior to arrival there. 
+  
+4. Compressed Gas Storage, Handling and Transportation 
+ 
+Compressed gas cylinders are used in many workplaces to store gases that vary from 
+extremely flammable (acetylene) to extremely inert (helium). Many compressed gas cylinders 
+are stored at extremely high pressures (up to 2,500 pounds per square inch gauge or PSIG). A 
+sudden release of these gases can cause a cylinder to become a missile-like projectile. 
+Cylinders have been known to penetrate concrete-block walls. If handled properly compressed 
+gas cylinders are safe. If handled improperly, the same cylinders can present a severe hazard 
+to you and the surrounding area. 
+  
+Types of Hazards: 
+ 
+Physical Damage: Cylinders are very hazardous when exposed to damage from falling 
+over, tipping, heat, electric circuits, motion, vibration, or anything that can cause a weakness 
+or crack in the cylinder wall or shell. Such damage can cause the cylinder to rupture and 
+explode sending sharp metal pieces, like shrapnel, blasting through the area.  
+ 
+Tipping and Falling: The most common hazard associated with cylinders occurs when 
+cylinders tip or fall over. Since cylinders are heavy and awkward to handle, they require 
+special care and equipment in handling and securing so they do not fall or tip over and 
+cause injury.  
+ 
+Valve Leakage: Cylinder valves can leak, causing their contents to discharge. To minimize 
+hazards from leaks, use proper ventilation and storage.  
+5. Definitions 
+ 
+Combustible material: Any liquid, solid mixture, substance, or compound that emits a 
+flammable vapor at temperatures between 100 degrees Fahrenheit and 300 degrees 
+Fahrenheit when tested in a Tagliabue open cup tester (E.g. fuel oil). 
+ 
+Compressed Gas: A material in a container with an absolute pressure greater than 276 
+kilopascals (kPa), or 40 psi (pounds per square inch) at 21 degrees Celsius or an absolute 
+pressure greater than 717 kPa (104 psi) at 54 degrees Celsius, or both, or any liquid
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 46 of 52 >
+  
+ 
+ 
+flammable material having a Reid vapor pressure greater than 276 kPa (40 psi) at 38 
+degrees Celsius. 
+ 
+Fire: A chemical reaction known as combustion. It involves the rapid oxidation of a 
+combustible material and the release of energy in the form of heat and light. Oxygen, heat, 
+and fuel in proper proportions create a fire. 
+ 
+Flammable gas: Flammable gases may be ignited when mixed with air in certain 
+concentrations (i.e. acetylene, methane, hydrogen). 
+ 
+Ignition Source: For a flammable gas within its flammable limits (or oxidizing gas to ignite), 
+an ignition source must be present. There are many possible ignition sources including open 
+flames, sparks, and hot surfaces. 
+ 
+PSI: The pressure of a gas inside a cylinder. The letters PSI stand for pounds per square 
+inch. 
+6. Storage of Compressed Gas Cylinders 
+The rules listed below will minimize hazards when storing compressed gas cylinders. Please 
+see figures for examples of proper compressed gas cylinder storage.  
+ 
+Store cylinders upright and secure them with a chain, strap, or cable to a stationary building 
+support (i.e. Structural Beam) or to a cylinder cart to prevent cylinders from tipping or falling.  
+ 
+Liquefied flammable gas cylinders should be stored in an upright position, or such that the 
+pressure relief valve is allowed to remain in the gas phase. Cylinders loaded with liquefied 
+gas are not completely filled; a small vapor space is left to allow for expansion if the cylinder 
+is heated.  
+ 
+Use only approved containers to store and transport liquid nitrogen. Containers should have 
+vented-lids to prevent spillage when carried.  
+ 
+Oxygen cylinders storage shall be designed to be away at a minimum of 25 feet away from 
+fuel-gas cylinders, such as acetylene and combustible materials, or separated by a non-
+combustible barrier (such as a wall) at least 5 feet high with a fire-resistance rating of at 
+least one-half hour.  
+ 
+Flammable gas cylinders should not be stored with oxygen, or nitrous oxide cylinders, or 
+adjacent to oxygen charging facilities.  
+ 
+Storage area for cylinders shall be design to be in a dry, well-ventilated area away from 
+flames, sparks, or any source of heat or ignition.  
+ 
+Mark the cylinder storage areas with proper precautionary signs, such as “Storage of 
+flammable, oxidizer, or toxic materials.”  
+ 
+Cylinders storage shall be designed so that they will not be subject to mechanical or 
+physical damage, heat, or electrical circuits to prevent possible explosion or fire.  
+ 
+Separate location for empty cylinders and full cylinders.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 47 of 52 >
+  
+ 
+ 
+ 
+Cylinders should not be exposed to continuous dampness, stored near salt or other 
+corrosive chemicals or fumes. Corrosion may damage cylinders and cause their valve 
+protection caps to stick. 
+Storage example: 
+ 
+              Proper Compressed Gas Cylinder Storage in Lab  
+  
+ 
+Proper Compressed Gas Cylinder Storage at a Construction Site, warehouse 
+7. Storage of Chemicals 
+ 
+The first principal of good storage of chemicals is segregation including separation from other 
+materials in storage, from processing and handling operation, and from incompatible materials. 
+Segregation can take the form of isolation in a separate detached structure or building. 
+Segregation can also be achieved by separating chemicals within the same building by an 
+intervening empty area or by intervening storage of inert or non hazardous materials. The extent 
+of segregation depends on the quantity of the materials being stored, the physical state of the 
+chemicals and their degree of in-compatibility.  
+In addition, the known behaviour of materials under fire condition will affect the extent and type 
+of segregation needed. Rupture of vessels and possible mixing of incompatible materials under 
+fire condition must be considered.  
+ 
+a. Hazard Identification of Chemicals
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 48 of 52 >
+  
+ 
+ 
+All storage area shall be conspicuously display signs to identify the materials stored and 
+handled in the area. 
+ 
+b. Toxicity of the Chemicals 
+Before selecting the chemical, evaluate information about its toxicity. When the toxicity 
+problem appears to be severed, an effort should be made to find a suitable less toxic 
+substitute. If there is no practical way to eliminate the chemical, protection should be 
+provided for those subject to daily exposure and for fire department. Automatic fire 
+protection system should always be designed when fire hazard in conjunction with toxicity 
+hazard exist.  
+ 
+c. Oxidizing Chemicals 
+The oxidizers shall not be stored in the same storage area as flammable and combustible 
+liquids. Storage building shall be of non-combustible or fire-resistance construction. 
+Combustible packaging and wood or plastic pallets represent a sever hazard and shall be 
+eliminated. Because certain oxidizing materials undergo dangerous reactions with specific 
+non-combustible materials, the possibility of dangerous reactions shall be considered when 
+designing storage areas. Chlorates shall not be stored with acids or combustible materials. 
+Inorganic peroxides also react with acids yielding hydrogen peroxide. A suitable storage 
+facility for inorganic peroxides would be a dry fire resistance storage room in which there are 
+no combustible or acids.  
+ 
+d. Combustible Chemicals 
+Essentially all organic chemicals are combustible. Storage practices for such chemicals 
+closely follow those for the more common solid combustible materials.  
+ 
+e. Radioactive material 
+Radioactive elements and compounds have fire and explosion hazards identified to those of 
+the same material when not radioactive. An additional hazard is introduced by the various 
+types of radiation emitted all of which are capable of causing damage to living tissues. 
+Under fire conditions, vapour and dust can be formed that could contaminate the building of 
+origin, but also neighbouring buildings and outdoor areas. The main concern is to prevent 
+the release or loss of control of those materials by fire during fire extinguishing.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 49 of 52 >
+  
+ 
+ 
+Section G 
+ 
+Maintenance of Building and Equipment 
+  
+1. Access Requirements 
+ 
+Provide adequate access routes for maintenance personnel to safely access their working 
+areas.  Locate shutoff valves, controls, monitoring equipment, maintenance service apparatus 
+and similar items at readily accessible floor or grade levels. 
+ 
+The ability to maintain equipment is equally as important as the functioning of the equipment.  
+Equipment shall be designed to allow for safe and efficient maintenance.  Designing for 
+accessibility includes visual access as well as reach access.  The maintainer must be able to 
+see their work, and must be able to reach it with the appropriate tool or their hands, as required.  
+The most common practice is to include ports or spaces to allow clearance during maintenance 
+tasks. 
+ 
+General requirements: 
+ 
+The recommended maximum mass of an object to be lifted by one person is 40lbs (18.2 
+kg) 
+ 
+Locate items to be maintained between shoulder and waist height, approximately 81 – 
+142cm (32 – 56”) from the standing surface 
+ 
+Identification of/labels for equipment and access ports should be clear and concise 
+ 
+Design safe access to roof, attic area, tanks, boiler and engine rooms 
+ 
+Design appropriate escape routs in case of the emergency 
+ 
+Consider temperature and ventilation in spaces both inside and outside where 
+maintenance crew need to work 
+ 
+2. General Guidelines for Access Ports 
+ 
+ 
+Consider the maintenance task requirements, including the design of the tool, forces 
+applied, and reach 
+ 
+Ensure that ports are large enough to allow for access with both hands, and allow visibility 
+ 
+Locate access ports so that they do not expose the maintainer to hazards such as hot 
+surfaces, sharp edges, or pinch points 
+ 
+Provide ports on equipment surfaces that are accessible when the equipment is in its normal 
+position 
+ 
+Where appropriate, provide one large opening rather than several smaller ones 
+ 
+Locate the port and/or an associated display to allow for the maintainer to adopt neutral 
+postures, if the maintainer must observe a display while making adjustments 
+ 
+A cover with a hinged design (not spring loaded) allows for easy access and ensures that it 
+cannot be misplaced.  Allow for “swinging” space. 
+ 
+If covers are hinged, ensure that they are safe in an open position, and can stay open during 
+maintenance.  It may be necessary to provide a latch to keep the cover 
+ 
+Covers should be as light weight as possible while ensuring adequacy 
+ 
+Fasteners for the covers should be easy to operate with gloved hands (e.g. tongue and slot 
+design)
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 50 of 52 >
+  
+ 
+ 
+ 
+Minimize the number of turns required to remove components 
+ 
+Mount doors so that there is no risk of injury to the hand when the doors are opened 
+ 
+Equip sliding doors with door stops to prevent the hand from being pinched.  At least 1.5” of 
+clearance is required to provide finger protection 
+ 
+The recommended dimensions of ports depend upon the type of maintenance activity, as shown 
+in the following table. 
+ 
+ 
+Table 6 
+ 
+Recommended Minimum Openings for Access with One Hand,  
+Without Visual Access 
+ 
+Task 
+Height 
+Width
+ 
+Using common 
+screwdriver with freedom 
+to move hand 180° 
+12cm 
+11cm 
+ 
+Using pliers and similar 
+tools 
+12cm 
+13cm 
+ 
+Using T-handle wrench 
+with freedom to move 
+hand 180° 
+16cm 
+14cm 
+ 
+Using crescent wrench 
+with freedom to turn 
+wrench 60° 
+20cm 
+27cm 
+ 
+Using hex wrench (Allen 
+key) with freedom to turn 
+wrench 60° 
+16cm 
+12cm 
+ 
+ 
+Using test probe 
+9cm 
+8cm 
+ 
+Clenched hand, inserted 
+to wrist 
+Bare hand: 9.5cm 
+Gloves: 11.5cm 
+Bare hand: 12.5cm 
+Gloves: 15cm
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 51 of 52 >
+  
+ 
+ 
+ 
+Hand holding an object 
+of dimension “X” 
+Bare hands: “X” + 4.5cm around object 
+Gloves: “X” + 6.5cm around object 
+Reference: Helander, 1995. FAA, 1996. 
+  
+ 
+3. Clearance Requirements 
+ 
+Maintenance tasks should allow the person to adopt an upright position. 
+ 
+Allow for maintenance activities around equipment.  The size, location/arrangement of the 
+equipment, and related maintenance tasks dictate space requirements (clearance).  Use the 
+following as a guideline when designing clearance around equipment: 
+ 
+Table 7 - Guidelines for Clearance around Equipment 
+ 
+Position 
+Vertical 
+Horizontal 
+Prone position (lying on back) 
+Minimum dimensions 
+Inspect the underside of an object 
+46 cm 
+193 cm 
+Restricted space for small tools 
+(not necessary to extend elbows to exert force)
+61 cm 
+193 cm 
+Space for reasonable arm extension 
+(could use a 20 cm power tool) 
+81 cm 
+193 cm 
+Standing position 
+Minimum dimensions 
+Upright, arms at shoulder height 
+203 cm 
+76 cm 
+Standing, legs braced (leaning slightly forward) 
+203 cm 
+102 cm 
+Kneeling, arms at shoulder height 
+122 cm 
+117 cm 
+ 
+ 
+ 
+Minimum breadth (width) for all dimensions 
+61 cm 
+Source: Kodak, 1983 
+ 
+4. Handles 
+ 
+Provide handles for equipment that will be manually lifted or moved. Properly designed handles 
+enable safe, strong gripping with minimal effort.  Handles should be constructed of round or oval 
+pipe/rod and be smooth.  Finger grooves are not permitted.  Characteristics of properly 
+designed handles are provided in the table below.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST008 A4 v1  
+AM Health and Safety 
+Design Specifications 
+AM Health and Safety 
+Design Specification  
+Instructions 
+ 
+ 
+ 
+< Page 52 of 52 >
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 8 - Handle Characteristics       
+  
+ 
+Characteristic 
+Minimum 
+Dimension 
+Clearance between the handle and the object (inside) 
+“X” 
+6.5 cm 
+Length of handle (inside dimension, one hand on handle) 
+“Y” 
+12 cm 
+Diameter of handle (if object weighs less than 2.3kg) 
+“D” 
+1.5 – 2 cm 
+Diameter of handle (if object weighs more than 2.3kg) 
+“D” 
+2 – 5 cm 
+Diameter of handle (for guards and infrequently handled objects) 
+“D” 
+1.25 cm 
+Horizontal separation distance between 2 handles (2 handed lifting) 
+60 cm 
+Source: Kodak, 1983. FAA, 1996 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+---- End of Document ----

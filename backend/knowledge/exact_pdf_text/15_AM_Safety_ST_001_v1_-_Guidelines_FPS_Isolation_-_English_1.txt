@@ -1,0 +1,1689 @@
+ 
+1
+AM Safety ST 001 v1 - Guidelines FPS Isolation - English 
+October 2011 
+ 
+Guideline for 
+ 
+ Implementation of  
+ 
+ 
+ 
+ 
+AM  
+ 
+Safety ST001 - 
+Isolation
+ 
+2
+Guideline for implementation of AM Safety ST001 - Isolation 
+ 
+Table of contents  
+1 
+Purpose.................................................................................................................................. 3 
+2 
+Scope/related requirements ................................................................................................. 3 
+3 
+General Approach to positive lock out.................................................................................. 4 
+4 
+Definitions ............................................................................................................................. 5 
+5 
+Basics & pre requisites .......................................................................................................... 8 
+5.1 
+Organization: roles & responsibilities................................................................... 8 
+5.2 
+Assessment to identify & to inventory all types of energy................................ 9 
+5.3 
+List / inventory all isolation points......................................................................... 9 
+5.4 
+Assessment to build a respective isolation work instruction............................ 9 
+5.5 
+A permit to work procedure and lock out permit .............................................. 10 
+6 
+Training to achieve competency on isolation process........................................................ 11 
+6.1 
+Employee Training................................................................................................ 11 
+6.2 
+Employee Retraining ............................................................................................ 11 
+7 
+Planning and preparation of equipment............................................................................. 12 
+8 
+Emergency procedures........................................................................................................ 13 
+9 
+Isolation methods & their use............................................................................................. 14 
+9.1 
+Lock Out ................................................................................................................. 14 
+9.2 
+Tag out.................................................................................................................... 14 
+9.3 
+Failures................................................................................................................... 14 
+9.4 
+Controlling changes.............................................................................................. 14 
+9.5 
+Exception................................................................................................................ 15 
+10 
+Isolation process.................................................................................................................. 17 
+10.1 Securing isolations................................................................................................ 17 
+10.2 Detailed Isolation Procedure Steps (example)................................................. 17 
+11 
+Audits/Evaluation and Records ........................................................................................... 24 
+11.1 Periodic Program Evaluation/ Audits ................................................................. 24 
+11.2 Record Keeping..................................................................................................... 24 
+11.3 Example Program Evaluation ............................................................................. 24 
+12 
+Design, engineering and new, revamped or modified equipment..................................... 25 
+13 
+Computer Support for the Isolation Process....................................................................... 26 
+14 
+Practical guidance’s............................................................................................................. 27 
+14.1 Shift or personnel changes.................................................................................. 27 
+14.2 One person, One lock .......................................................................................... 27 
+14.3 One lock, One key ................................................................................................ 27 
+14.4 Multiple energy sources....................................................................................... 28 
+14.5 Locks....................................................................................................................... 28 
+14.6 Long term lockout ................................................................................................. 31 
+14.7 Permanent Lockout............................................................................................... 31 
+14.8 Out of service tag.................................................................................................. 31 
+14.9 Removal of lockout by another person.............................................................. 31 
+14.10 Complex group process (e.g. shared lockout) ................................................. 32 
+14.11 Example; Positive Lockout of fluids ................................................................... 33 
+14.12 Example; High Voltage Procedures................................................................... 34 
+15 
+References........................................................................................................................... 36
+ 
+3
+ 
+1 Purpose 
+ 
+The purpose of the isolation guidelines is to comply with the standard AM Safety ST001 - 
+Isolation: 
+ 
+• 
+to provide work instructions to establish and operate a system for the safe removal and 
+isolation of hazardous energy sources (electrical, mechanical, stored,..) whenever any 
+work is performed on an installation / equipment or systems, to prevent accidents and 
+injury through accidental start-up or re - energization.  
+• 
+to provide good practices which today are available within the AM group 
+• 
+these Isolation guidelines will help sites to implement the FPS of isolation and help them 
+to reach level 3 or more on the FPA in the near future. These guidelines can be used as 
+basis for a review of the site isolation procedure. 
+ 
+Training of the guidelines: 
+ 
+• 
+An associated training will be available on these guidelines including good practices 
+which are available today within the AM group. 
+2 Scope/related requirements 
+ 
+The FPS on Isolation is mandatory and is to be completely implemented and executed in all 
+premises of ArcelorMittal. 
+ 
+Tag Out is temporarily tolerated as a form of transition to lockout, an action plan must be 
+developed to guide this transformation in the shortest possible delay. 
+ 
+Besides the isolation standard and the respective Golden Rule and Isolation Work Instructions 
+are mandatory as well due to legal requirements: 
+ 
+OSHA directive US 1910.147; 
+You must have a lockout program if any of your employees perform maintenance work on 
+installation or equipment that either: 
+• exposes them to injury if the equipment were to accidentally be started, or 
+• exposes them to injury if an unexpected release of hazardous energy were to occur, such as a 
+blast of steam, corrosive chemical, or an electrical arc flash. 
+ 
+EU directive 89/655; 
+Employers must establish a program and utilize procedures for affixing appropriate lockout 
+devices or tag-out devices to energy isolating devices, and to otherwise disable machines or 
+equipment to prevent unexpected energizing, start up or release of stored energy in order to 
+prevent injury to employees. 
+The employer must take appropriate measures to reduce risks to a minimum. All work equipment 
+must have clearly identifiable means to isolate it from all its energy sources. Maintenance work 
+should take place when the equipment is shut down and maintenance workers must be able to 
+achieve all necessary equipment under constant conditions of security. 
+ 
+Not in the scope of the Lockout standard nor this guideline: 
+- Normal operating procedures those are “routine, repetitive, and integral to the use of the 
+equipment”. For instance, lockout is not required each time material is added to a baler. 
+Guards or interlocks should adequately protect the employees during such operations. 
+- Machine guards and safety interlocks: those are to protect employees during normal 
+operation. Lockout on the contrary is intended to protect employees during maintenance and 
+jam clearing when safety guards often have to be removed or be overridden. If a safety guard 
+is being removed or overridden from a piece of equipment, it is a powerful clue that lockout 
+may be necessary (do HIRA)!
+ 
+4
+3 General Approach to positive lock out 
+ 
+We must install the highest level of security, the positive lockout = is installing a locking 
+device which physically blocks an energy isolation device and which is identifiable.  
+ 
+ 
+ 
+ 
+ 
+• Identify and understand the differences that can facilitate the compliance with this FPS (e.g. 
+having lockable isolation devices by construction – work under total rather then partial 
+isolation) 
+• Identify the possible consequences of the compliance (e.g. lengthen the stoppage for 
+maintenance – equip the isolation devices with lockable system) 
+LOCKS 
+TAGS 
+START
+Isolation Work 
+Instructions
+Amount of used isolation points
+ 
+5
+4 Definitions 
+ 
+Isolation 
+• Taking a piece of equipment or installation and temporarily or permanently placing it into a 
+condition (or state) of zero power supply (and Zero Energy State) and of zero dangerous 
+substance. 
+• Also making sure that the equipment or installation can not move or cycle due to stored or 
+potential energy. 
+ 
+Isolation procedure 
+An isolation procedure is a written document describing a set of predetermined steps that has to 
+be followed to keep an installation and/or equipment and its components from being energized or 
+being set in motion or to prevent the release of stored energy, and avoid the release of hazardous 
+substances in order to protect the safety of persons during services and/or maintenance and/or 
+total productive maintenance tasks and/or tasks in degraded situations and/or inspections, which 
+take place during normal production operations. 
+ 
+Energy sources 
+Any one or combination of (but not limited to) Electrical, Pneumatic, Hydraulic, Stored energy 
+(accumulators, pressure vessels, batteries, springs, capacitors), Potential energy by virtue of 
+position that needs to be support, heat such a hot water or steam and radiation (for example from 
+reheating furnaces), hazardous substances, gases, … .  
+ 
+Listed next are short definitions of the types of energy sources. 
+- Chemical Energy: Power created by the reaction between two or more substances e.g. 
+petroleum, natural gas, and propane.    
+- Electrical energy: A form of power created by the movement of electrons. Electrical energy, or 
+electricity, can cause electric shock. 
+- Hydraulic energy: Power created by the compressive force or movement of a liquid in a 
+confined area e.g. Machines that lift objects often use hydraulic energy. 
+- Mechanical energy: A combination of kinetic and potential energy resulting from the force of 
+gravity, stored or the movement or release of a machine component e.g. such as a spring, 
+clamp, wheel, counterweight, table (falling or moving), …..etc. 
+- Pneumatic energy: Power created by the compressive force or movement of air or gas in a 
+confined area e.g. assembly tools often use pneumatic energy to force parts together. 
+- Potential energy: Power that is stored or suppressed or that exists because of its position and 
+the effects of gravity e.g. machines that have large components that rise and lower, such as a 
+press, contain potential energy that becomes kinetic energy when it is released. Stored energy 
+are water, air, fluids, steam or another gas, liquid or vapour, … etc. 
+- Thermal energy: Power created by or in the form of heat. Heat can be retained in machine 
+parts and cause burns. 
+- Radiation: Refers to any radiation process in which chemical changes can damage biological 
+tissues and structural materials e.g. radiation sources. 
+- Kinetic Energy/ Stored Energy: is the extra energy which it possesses due to its motion. It is 
+defined as the work needed to accelerate a body of a given mass from rest to its current 
+velocity. 
+- Hazardous substances are any toxic, corrosive or flammable material, which has the potential 
+to cause injury or illness, e.g. gases, vapours, steam, liquids and dust. 
+ 
+Energy isolating device (isolation point or switching item) 
+A device (included are blank flanges and bolted slip blinds) that physically prevents the 
+transmission or release of energy, including but not limited to the following: a manually operated 
+electrical circuit breaker; a disconnect switch; a manually operated switch by which the 
+conductors of a circuit can be disconnected from all underground supply conductors, and, in 
+addition no pole can be operated independently; a line valve; a block; and any similar device 
+used to block or isolate energy to which either a lock or key or combination type can be attached 
+to avoid unwanted movement of the switching element.
+ 
+6
+Push buttons, selector switches and other control circuit type of devices are not energy isolating 
+devices, unless they are safety devices designed to securely drop out energy source power. 
+ 
+ 
+Positive lockout 
+Is installing a lockout device which physically blocks an energy isolation device and which is 
+identifiable. 
+ 
+Interlock system 
+Is a system with devices, especially one operated electromechanically, used in a logic circuit or 
+electrical safety system to prevent an activity being initiated unless preceded by certain events 
+(e.g. safety gate systems; a safety device that disables or prevents a machine start-up if a guard 
+or door remains open.) This is NOT the same as a lock-out! 
+ 
+Tag out device 
+A prominent warning device, such as a tag and a means of substantial attachment, which can be 
+securely fastened to an energy isolating device in accordance with an established procedure, to 
+indicate that the energy isolating device and the equipment being controlled will not be operated 
+until the tag out device is removed. Tags must forbid hazardous actions at the energy isolating 
+device, and be treated/respected as though it were a physical lock. 
+ 
+Energy isolation verification 
+Verification performed to ensure that the equipment has been isolated, e.g by operating the 
+machine start-up controls, control lamps and displays taking measurements at bleed points, 
+taking measurements to check the absence of power in the case of work involving electrical 
+hazards  
+ 
+Zero potential energy 
+This means that the equipment/machine/device/system or any part of it has zero potential energy 
+stored within it after isolation. 
+ 
+Live equipment 
+Live equipment is considered machines or equipment not disconnected or isolated from the main 
+energy source/s. 
+ 
+Capable of being locked out 
+An energy isolating device is capable of being locked out if it has a hasp or other means of 
+attachment to which or through which a lock can be affixed, or it has a locking mechanism built 
+into it. Other energy isolating devices are capable of being locked out if lockout can be achieved 
+without the need to dismantle, rebuild, or replace the energy isolating device or permanently alter 
+its energy control capability. 
+ 
+HIRA 
+Hazard Identification and Risk Assessment 
+ 
+Isolation Inventory (II) 
+Is a general plant inventory of all equipment on a site / in a department which records all isolation 
+points of a machine or process which will or can be used during isolation depending on the tasks 
+to perform.  These inventories are the basis of a task Isolation Work Instruction (IWI). 
+ 
+Isolation Work Instruction (IWI) 
+Is a document which describes how an installation for a specific job must be isolated from his 
+energy sources. Including; energy sources, lockout points, locations, methods, verifications, 
+checks, emergency control information, lockout application steps and release steps. 
+ 
+Affected employee (all members of the work execution team) 
+An employee whose job requires him/her to operate or use a machine or equipment on which 
+servicing or maintenance is being performed under isolation, or whose job requires him/her to 
+work in an area in which such servicing or maintenance is being performed (cleaners, crane 
+driver, forklift driver,….).
+ 
+7
+ 
+Individual Isolation operator (‘own isolation’) 
+Is a person who only locks out energy sources for his own safety (‘own isolation’) and is declared 
+competent to do so on selective equipment. Must undergo training and be assessed as 
+competent; e.g.  mobile equipment isolation, routine operational tasks, etc  
+ 
+ 
+ 
+Individual lock identification label 
+Is a label with all necessary information of the owner of the individual lock and attached to the 
+lock when performing the lock out. 
+ 
+General Isolation operator (authorized person) 
+A person who locks out machines or equipment in order to perform servicing or maintenance on 
+that machine or equipment. One familiar with the equipment and hazards involved who 
+possesses the skills and techniques necessary to execute a safe isolation. Must undergo training 
+and be assessed as competent. 
+ 
+General lock identification label 
+Is a label that is used with relevant information during a general lockout by a general isolation 
+operator e.g. in combination with department locks or service locks. 
+ 
+ 
+Isolation coordinator 
+He coordinates and checks follow-up activities between all parties during safety execution phase, 
+mostly during maintenance days. This role could be dispatched through to several persons if 
+business does not want to put a dedicated person in place for this activity. Must undergo training 
+and be assessed as competent. Isolation coordinator normally doesn’t perform the lock out. 
+ 
+Maintenance Department/Division Safety Manager/Supervisor 
+He is responsible for maintenance and safety for his perimeter. He has to define the 
+risks/protective actions linked to the functional locations of the installation tree. He has to do the 
+safety studies for proper isolation in each area. He is responsible to see that isolation inventories 
+and task IWI’s are in place and followed. 
+ 
+Work control system 
+All documents, procedures and installation schemes related with the lock out of equipment.
+ 
+8
+Workflow authorized isolation 
+ 
+5 Basics & pre requisites 
+ 
+Major basics & prerequisites for an appropriate isolation process are:  
+• A well defined organization with clearly defined roles and responsibilities  
+• A detailed Assessment  
+- 
+to identify and to inventory all types of energy  
+- 
+to inventory all isolations points  
+- 
+to carry out a respective isolation work instruction 
+• A work permit procedure  
+• Training to achieve competency on isolation process for all persons involved  
+ 
+Lockout pre requirements 
+ 
+• Consideration must be given to wear the correct PPE while lockout is being done, e.g. when 
+electrical switchgear must be switched for lockout purposes. 
+• Plants must issue specific instructions regarding the required PPE when switching and lockout 
+of specific equipment is performed. This is to be spelled out in the isolation work instruction 
+(IWI) of each plant. 
+ 
+5.1 
+Organization: roles & responsibilities 
+ 
+Roles such as ‘Affected employee’, ‘Individual Isolation operator’, ‘General Isolation operator’, 
+‘Isolation coordinator’, ‘Maintenance Department Safety Manager’, ‘Safety Work Order Approver’, 
+‘Planner’ do not necessarily mean dedicated functions. Depending on the plant and organization, 
+one person can often be in charge for several single activities. Roles must be described in detail 
+and persons nominated and listed.
+ 
+9
+5.2 
+Assessment to identify & to inventory all types of energy 
+ 
+• Every plant must conduct an assessment of all energy sources present on the plant; that 
+assessment must include the following: 
+– Chemical energy (gases, petroleum, steam, etc.) 
+– Electrical energy (AC, DC, batteries, capacitors, etc.) 
+– Hydraulics (systems, accumulators, etc) 
+– Mechanical energy (kinetic and potential energy) 
+– Pneumatics  
+– Thermal energy 
+– Radiation 
+– ……. 
+• The assessment should include the potential for, and consequences of, human errors. 
+• Once the energy sources are determined, an isolation inventory must be set up. 
+• Define a working area that must be clearly delimited to avoid interference with any 
+neighbouring not isolated energy source  
+• Consider risk reduction measures such as (but not restricted to): 
+– reducing pressure and/or temperature; 
+– reducing inventory; 
+– detailed planning of the work: 
+• 
+to minimize the duration of exposure to broken containment; 
+• 
+to reduce the duration of the isolation; and 
+• 
+to ensure that the correct type and quantity of PPE is immediately available; 
+– restricting incompatible or non-essential work nearby; 
+– restricting access around the worksite by barriers; 
+– reducing the number of people working on the plant; 
+– monitoring the isolation more frequently; 
+– having an operator in attendance throughout the isolation; and/or increasing supervision. 
+– … 
+5.3 
+List / inventory all isolation points 
+ 
+• The plant must be divided into areas and the machines listed in each area. For each of the 
+equipments the types of energy sources present are to be listed. The isolation point of each 
+energy source must be determined and listed. When listing these energy source isolation 
+points, the following must be included: 
+– Upstream or downstream impact of isolation (safety related impact) 
+– PPE required during isolation 
+• A labelling policy for the isolation points should be defined for the whole plant. 
+• The isolation inventory can then be used to determine all the energy sources that need to be 
+isolated and locked out when work needs to be done on a specific machine, regardless the 
+type of task that will be performed.  
+• When working on machines, the machine must be locked out, taking into account as well the 
+other machines / equipment in the area that could endanger the safety of workers and as a 
+consequence those machines / equipment must be isolated and locked out as well. 
+ 
+5.4 
+Assessment to build a respective isolation work instruction 
+ 
+• Appointing a person (Isolation coordinator and/or maintenance manager/supervisor) who 
+through supervision ensures isolation procedures are rigorously applied. 
+• Defining and appointing responsibilities for isolation activities. 
+• The development of the written isolation work instruction should be done in consultation with 
+relevant health and safety representatives, operators, people who are doing adjustments, 
+cleaning, maintenance, repairs or inspections of the plant and, if possible, with plant 
+manufacturers, suppliers and people who designed and installed the plant. If the appropriate 
+expertise does not exist at the workplace for the development of procedures, the employer 
+should engage the services of a suitably qualified person or persons.
+ 
+10
+• Isolation work instructions are written documents which are accessible to the relevant 
+employees at the workplace. 
+• The isolation procedures must require isolation work instructions for all situations under which 
+the isolation procedure is to be implemented. 
+• All equipment must have written isolation work instructions developed from a risk assessment. 
+These procedures will set out how the equipment is to be made safe and kept safe. It will 
+include, for example: decontamination; venting of stored energy; securing of rotors or fan 
+blades; chocking of vehicles, disconnecting, blocking or bleeding of equipment, cables, pipes 
+and vessels. It will also show the isolation points for lockout and test procedures as well as the 
+procedure to remove another person’s lock/tag. 
+ 
+Written Isolation Work Instructions  
+. 
+Written isolation work instruction must be developed and revised by a competent person with 
+knowledge of the equipment, area, process and task, and must include: 
+• Description of tasks or areas made safe by the procedure, including the means and sequence 
+by which the isolation will be achieved and the checks that are to be performed prior to the 
+commencement of work 
+• The identification/description of equipment, devices or items requiring energy control. 
+• Identification of isolation devices. 
+• Identification of all temporary connections or back feeds planned during the isolation. 
+• The method used to isolate (e.g., open electrical breaker, physical disconnection, blocking, 
+pinning, pressure release) will be included when required for clarity 
+• The identification of possible sources of stored energy, and a description of how to dissipate 
+or restrain the energy will be included when isolation is complex and the nature of the stored 
+energy is not readily apparent. 
+• A description of how to verify the energy control effectiveness will be included for all isolations. 
+• Date, author and approver is required on IWI 
+• Revision history 
+ 
+5.5 
+A permit to work procedure and lock out permit  
+ 
+Permit-to-work (PTW) systems are used within safe systems of work to authorize work of a 
+hazardous or non-routine nature on a plant as well as for people working in an area to which 
+they are not familiar.  
+The PTW system supports a range of permit types including access permits, isolation permits, 
+confined space permits, hot work & welding permit, critical installation permit, digging permit, 
+……etc. A PTW system can impose a detailed step functionality which reduces significantly the 
+risk of human error in the application and restoration of isolations.  
+ 
+Therefore tasks that require isolation are described in an Isolation Work Instruction (IWI); the 
+isolation procedure should require a Permit-to-Work system which ensures the necessity of an 
+IWI for isolation tasks (pre-planned standard isolation lists). 
+This PTW will include an extract of the HIRA’s (Job related and related to the work environment).  
+PTW should also be used by own personnel when doing a job in an area that is not familiar to 
+them to make sure they are informed of and acquainted with the risks of the area. 
+In general IWI are sufficient for routine activities; define when PTW must be used e.g.; 
+ 
+• Contractors 
+• Multiple 
+Lockouts 
+& 
+Areas 
+(ensure 
+adequate 
+control, 
+security, 
+monitoring 
+and 
+communication!!) 
+• Non-production work (e.g. maintenance, inspection, testing, construction, dismantling, 
+adaptation, modification,…etc) 
+• Plant access permit 
+• Non–routine operations 
+• Transfer of work from one team to an other 
+• …..
+ 
+11
+6 Training to achieve competency on isolation process 
+ 
+6.1 
+Employee Training 
+ 
+• Own employees 
+– Initially training and motivational training on the why, who, when and how of lockout 
+– When new equipment or energy sources are added to the workplace or changes are made 
+– For the purpose of discussion only, we distinguish between 3 types of employees (see also 
+definitions in paragraph 4 of this guideline) : 
+• 
+Affected employee (do not do any lockout themselves); 
+– Your job requires you to operate or use installation or equipment on which servicing 
+or maintenance is being performed under LOTO or if your job requires you to work in 
+an area in which servicing or maintenance is being performed.* 
+– Must be trained in; recognition of lockout equipment, the dangers of overriding 
+lockout, prohibitions against attempting to operate any equipment that they have 
+been notified is locked out, or appears to be locked out and must be tested to make 
+sure they have the required knowledge 
+• 
+Individual isolation operator (own lockout); 
+– You apply LOTO for yourself one to installation or equipment in order to perform 
+servicing or maintenance on installation or equipment  
+– Must be trained in full detail of the lockout procedure, hazards associated with 
+uncontrolled energy, written lockout program, proper techniques for applying lockout 
+and must have been tested to make sure they have the required knowledge and 
+skills 
+• 
+General isolation operator (authorized person); 
+– You apply LOTO for yourself and for others to installation or equipment in order to 
+perform servicing or maintenance on installation or equipment 
+– Must be trained in full detail of the lockout procedure, hazards associated with 
+uncontrolled energy, written lockout program, proper techniques for applying lockout 
+and must have been tested to make sure they have the required knowledge and 
+skills 
+ 
+• Contractors 
+– Information / training must be given to all contractors and or other employers 
+– Require them to respect the lockout procedures and locked out equipment in all related 
+aspects 
+– Contractors can be ‘authorized’; this requires a detailed training, testing of their knowledge 
+and they must be sufficiently acquainted with the equipment and environment. 
+ 
+• Visitors 
+– Information about the general isolation procedure must be given as is appropriate for the 
+visit they will be making to the plant and equipment. 
+ 
+6.2 
+Employee Retraining 
+ 
+Retraining will be provided whenever one of these situations occur: 
+ 
+• Change in job assignments; 
+• Change in machines, equipment or process present a new hazard; 
+• Change in the energy lockout/energy control procedures; 
+• Whenever a periodic inspection reveals, or there is a reason to believe, that there are 
+deviations from or inadequacies in the knowledge or use of the energy lockout procedures; 
+• 
+Annual program evaluations; 
+• Accidents, near hits or dangerous acts or dangerous situations whereby the effectiveness of 
+the lockout program is in doubt; after written procedures are revised.
+ 
+12
+7 Planning and preparation of equipment 
+ 
+Adequate planning requires: 
+ 
+• enabling task-specific risk assessments and/or pre-planned standard isolation lists (IWI)  to be 
+made and mitigation actions put in place; 
+• identifying whether a larger section of the plant might need to be shut down or the work 
+deferred; 
+• identifying interaction with other sections of plant subject to temporary isolation; 
+• involving sequencing and co-ordination of intrusive work with other plant operations; 
+• including a ‘walk-the-plant’ step, to check that the installation matches with what is described 
+and, especially, that all isolation points have been identified and are accessible/ can be 
+operated, etc; 
+• ensuring preparation and co-ordination of job documentation such as risk assessments, 
+method statements, permits and isolation permits; 
+• ensuring cross-referencing of relevant permits; and 
+• enabling all necessary tools, equipment, materials, etc (including any additional personal 
+protective equipment required for those installing and removing positive isolations) to be 
+available at the worksite at the start of the job. 
+• listing any additional unplanned or ad-hoc tasks and lockouts that may be required during a 
+planned maintenance. These can be important tasks that came up after final planning the 
+previous day(s). If possible, avoid those tasks because they will always create supplementary 
+hazards and risks. 
+• the deferent responsibilities for the planning preparation must be defined into a procedure
+ 
+13
+8 Emergency procedures 
+ 
+• Consider also in the risk reduction measures the easy way to allow workers to escape in an 
+emergency due to a failure of a lock out put in place. In this respect: make sure any 
+mechanical blockage applied if failsafe in it’s own! 
+• During an emergency where (a) person(s) is (are) involved in an incident of electrical burns 
+(flash) or electric shock , the normal electric shock  first aid procedures must be followed. 
+These are displayed prominently inside all electrical switch rooms, control rooms and sub-
+stations and must be followed and applied by trained first aiders, including requesting 
+assistance from the medical emergency services. 
+• The required response during an emergency is captured in the emergency procedures 
+document of each plant or department with all required details; mock drills must be done with 
+specific reference to incorrect isolation and lockout procedures. All such incidents must be 
+captured on an occurrence safety management system for formal investigation and corrective 
+actions.
+ 
+14
+9 Isolation methods & their use 
+ 
+9.1 
+Lock Out 
+ 
+Lock out is the best way of working and must systematically according to the standard as 
+described in standard AM Safety ST 001.  
+9.2 
+Tag out 
+ 
+When lockout doesn’t yet exist and as a consequence tag out systems are temporarily used 
+during the transitions phase, employees shall be trained (apart from the proper application of the 
+procedure) on the following limitations of tags: 
+  
+• Tags are essentially warning devices affixed to energy isolating devices, and do not provide 
+the physical restraint on those devices that is provided by a lock and thus not the same 
+level of safety.  
+• When a tag is attached to an energy isolating means, it is not to be removed without 
+authorization of the authorized person responsible for it, and it is never to be bypassed, 
+ignored, or otherwise defeated.  
+• Tags must be legible and understandable by all authorized employees, affected employees, 
+and all other employees whose work operations are or may be in the area, in order to be 
+effective.  
+• Tags and their means of attachment must be made of materials which will withstand the 
+environmental conditions encountered in the workplace.  
+• Tags may evoke a false sense of security, and their meaning needs to be understood as part 
+of the overall energy control program.  
+• Tags must be securely attached to energy isolating devices so that they cannot be 
+inadvertently or accidentally detached during use.  
+ 
+9.3 
+Failures 
+ 
+The greater the potential hazard, the more effective, secure and controlled the isolation should 
+be.  
+Where a number of options for risk exclusions exist, you must use the lowest-final-risk option that 
+is reasonably practicable. Engineering solutions are preferred to procedural controls or to reliance 
+on the use of personal protective equipment (PPE). 
+ 
+All isolation methods can fail (even positive isolations – particularly during installation and plant 
+reinstatement activities). The potential for human failure is a major factor affecting the overall 
+reliability of an isolation method. The performance of an isolation depends not only on the 
+integrity of the isolation hardware, but also on the adequacy of the arrangements to identify each 
+isolation point, secure the isolation, prove/monitor the isolation and maintain overall control of the 
+work. When selecting an isolation method, you should consider the potential for technical and 
+human failure.  
+ 
+9.4 
+Controlling changes 
+ 
+Any change to isolation arrangements should be reviewed, reassessed and authorized. When 
+an isolation deviation occurs, whether controlled by isolation work permit or a safe work isolation 
+instruction, stop the task and re-evaluate it and take appropriate actions before continuing the 
+execution of the task(s) !
+ 
+15
+9.5 
+Exception 
+ 
+A. Work on small cord and plug equipped equipment where the plug can remain under the 
+control of the employee performing the work and unplugging the cord completely isolates all 
+hazardous energy. EXAMPLE: Changing the bit in a portable drill. 
+ 
+An acceptable approach to rendering the equipment inoperative for the worker doing the work 
+is to : 
+1. disconnect the plug from its electrical supply, 
+2. keep the plug in sight and within reach so that no one else can accidentally plug in the 
+equipment, and 
+3. keep the plug under his or her exclusive and immediate control at all times while working 
+on the equipment. 
+ 
+If the worker leaves the equipment unattended and the work is incomplete, then the worker 
+must verify that the plug is disconnected from its supply before the worker resumes work on 
+the equipment. 
+ 
+In the case of permanently connected equipment, the worker must lock out the equipment’s 
+energy isolating device(s) e.g. circuit breaker, disconnect switch, etc. before proceeding with 
+the work. 
+ 
+ 
+B. Working on live equipment  
+ 
+No person is allowed to do maintenance and repairs on live equipment. After faultfinding, 
+lockout must be performed to carry out the necessary repairs.  
+ 
+However, some tasks such as lubricating or adjusting moving equipment or machines are 
+done on live equipment and as a consequence (a) specific task procedure(s) must be in place, 
+personnel must be trained, tested and declared competent to perform such tasks and they 
+must furthermore be equipped with supporting tools to mitigate risk. Risks must be analyzed 
+and the safety of employees may not be compromised. 
+• Nobody shall permit or require any person other than a competent person or a person who 
+has been trained to the satisfaction of an inspector to do any task on or near any live 
+installation if such task may endanger him … 
+• When performing a task on live equipment there must be a second person in the area who 
+has visual control on the performer.
+ 
+16
+C. Temporarily activation 
+ 
+On certain occasions it is necessary to activate equipment that was locked out for a short 
+period to move a piece of equipment or to test a part of the machine. Despite the fact that 
+lifting isolation through the process as described in this document and then to request isolation 
+and to perform it again, could, and in many cases, will take a very long time, the procedure as 
+spelled out below must be followed in all such cases to ensure the safety of all workers 
+involved and those not involved in the specific task and on the specific machine. 
+ 
+Different steps: 
+ 
+1. The person in charge of the task will ensure that all team members and other present 
+people vacate the installation/ area of danger. 
+2. All team members as well as other people present will remove their personal isolation locks 
+from the key safe / lock box. This action states that they are not locked out anymore and 
+may not enter the machine.  
+3. The person in charge of the task, must post “guards or watch man” in adequately 
+structured places or secure the area to ensure that no person is able to enter the machine / 
+danger area. These watch persons must remain on guard until the equipment is locked out 
+again. 
+4. The person in charge of the task will request for the part / piece of equipment to be 
+activated and will make available the key/s. The rest of the keys of the equipment that 
+remains locked out, must be protected by locking it out again with his/her lock on the key 
+safe / lock box of the team. 
+5. After completion of the test / movement of equipment, the energy source/s must be locked 
+out again and the keys returned and locked out on the key safe / lock box. 
+6. All team members will again lock out with their personal isolation locks on the key safe / 
+lock box. 
+7. The “guards” may be removed and the team may enter the machine and continue to work.
+ 
+17
+ 
+10 Isolation process 
+ 
+10.1 
+Securing isolations 
+ 
+Isolations must remain secure through the full duration of the intrusive task. The degree of 
+security required for isolation will be proportionate to the risks resulting from isolation failure. 
+Use locking arrangements to physically prevent accidental or unauthorized removal of the 
+isolation. 
+ 
+All plant and equipment relating to each specific isolation should be clearly identified on the 
+worksite. Permanent labelling for this purpose is required. All isolation points, including bleeds, 
+spades and main electrical, pneumatic and hydraulic switches/ valves etc. should be fully 
+documented, identified and referenced within the work control system to ensure the correct 
+position and sequencing of all the components associated with an isolation scheme. This is in 
+addition to full checks at the worksite.  
+ 
+10.2 
+Detailed Isolation Procedure Steps (example) 
+ 
+i. 
+Request for isolation 
+ 
+• 
+The request for isolation should be the result of a work permit for a planned or non-
+planned activity on equipment. Traceability of all the involved persons and their 
+responsibilities should be clear and signed off. There must be a written document which 
+shall be recorded during a defined time. 
+• 
+Who can request for isolation : 
+- After the completion of lockout training and being declared competent, one may be 
+appointed as authorized to request lockout that must be performed by the General 
+Isolation Operator.  
+• 
+When an Individual and General Isolation Operator requests lockout, he/she must follow 
+the procedures as set out in the training manual. 
+• 
+An Individual Isolation Operator can become a General Isolation Operator for a 
+specified task after having been trained and tested. He/see will put locks on the 
+equipment for him/herself and those working with him; the following will apply: 
+- Isolate and lock out the equipment with his/her personal isolation lock. 
+- Attach his/her lock identification tag on the lock. 
+- The isolation lock key goes into a lock box or key safe if a team is working with 
+him/her. 
+- Other team members lock out on the same lock box or key safe using their personal 
+isolation locks. 
+- There must be a proper transfer of responsibility. Lock can stay on the isolation point 
+but there must be a transfer with a lock somewhere e.g. at the isolation coordinator 
+and on the lock-box between the users of the lockout. 
+ 
+ii. 
+Identify all energy sources and other hazards, Risk assessment and selection of 
+isolation practice (HIRA) 
+ 
+• 
+All energy sources likely to re-activate the plant, and places where people doing the 
+work at risk, should be identified in an assessment (IWI, inventory, check lists,…). 
+• 
+If original designer and installer “as built” diagrams of plant installations are not 
+available, new diagrams/photographs showing location and details of various plant 
+components, isolation points, switches, valves, energy lines, pipes, power sources, and 
+control points (including computers) need to be developed as part of the isolation 
+procedures. These diagrams/photographs can then also be used, along with the IWI’s, 
+for information and training of workers.
+ 
+18
+• 
+Shutting the plant down may require other hazards to be identified and the risk of injury 
+eliminated or minimized. For example, associated equipment may need to be locked-
+out to prevent re-activation, or valves on pipes and lines carrying gases or fluids may 
+need to be locked shut or blanked off. 
+• 
+Depending on the type of plant, other hazards may include: hazardous substances, 
+such as gases, acids, alkalis and solvents, falls, burns, asphyxiation, impact……..  
+• 
+Risk can be different when the equipment is charged with material or if it is free of 
+material. 
+ 
+The IWI needs to be completed whenever a new task/hazard combination is identified. It 
+should be reviewed and revised when appropriate, which may include a change to the task, 
+procedure, or equipment design; anyway a regular review of documents is needed (e.g. 
+once per year). 
+ 
+iii. 
+Identify all isolation points 
+ 
+• 
+All plants and equipment of a type that could require an isolation procedure should be 
+designed with appropriate isolation points for all energy sources to enable work on the 
+plant or equipment to be carried out safely. 
+• 
+It is important to identify all isolation points in a system, as it may be necessary to use a 
+local isolator to shut down a specific part of the machine (e.g. a motor) while the 
+remainder of the associated plant or equipment remains in operation. 
+• 
+Emergency stop buttons and similar stop devices on their own will not achieve isolation. 
+It is extremely dangerous and therefore not allowed to rely solely on emergency 
+stopping devices, as they are not designed for frequent use, cannot be locked out in all 
+cases and may allow energy to be inadvertently re-activated. They may also allow 
+control circuits to remain live. Remote control rooms and process computers should be 
+considered when identifying isolation points. 
+• 
+Consider secondary power supplies as well as the primary supplies. 
+ 
+iv. 
+Preparation for shut down 
+ 
+• 
+During planned maintenance days, the available time is of critical importance and 
+must be utilized in an effective manner. Lockout of equipment on a planned 
+maintenance stop could take a long time. Define rules and guidelines to ensure that 
+lockout commences as soon as the plant or equipment has been stopped and the 
+execution is done in an efficient way. 
+• 
+Notify affected employees that the equipment is being locked out for maintenance. 
+• 
+Plants or equipment that has a single energy source can usually be shut down by the 
+operation of a single control such as a switch or valve. More complex plants or 
+equipment may have to be shut down in a certain sequence, e.g. one conveyor before 
+another, or by shutting down several energy sources, e.g. electricity, hydraulics, 
+pneumatics, petrol, oil, steam, LPG, LNG, coal etc. 
+• 
+Unscheduled repairs need special attention: the use of a PTW or prepared work orders 
+(repair works that are foreseen but not planned) must include a risk assessment and 
+appropriate explanation to the person(s) performing the task prior to the start of the 
+task. 
+ 
+v. 
+Machine or equipment shutdown 
+ 
+General Isolation Operators or Individual Isolation Operators must shut down the 
+equipment, installation, or other system components, placing them in a zero-energy state. 
+All potential energy (mechanical, electrical, gas, hydraulic, pneumatic, hydrostatic, 
+suspended mass, rolling stock on a slope, etc.) must be eliminated, purged, relieved, 
+discharged or blocked out in a safe manner. Persons responsible for isolation must test for 
+zero potential before tasks on the plant or equipment commences. The person, who is 
+executing the work, must perform a test to confirm effective lockout.
+ 
+19
+Trace all systems to locate and lockout energy sources. The main source may be 
+electrical, for instance, but pneumatic and other forms of energy may also be present. 
+Always look for other possible energy sources. 
+ 
+All equipment capable of being energized or activated electrically, pneumatically, or 
+hydraulically etc must be de-energized or de-activated by physically disconnecting or 
+otherwise making the apparatus inoperable. Make sure that any blockage used is secure 
+on its own (e.g. against gravity etc). 
+ 
+Always ensure that the operators are aware of the plan to shut down and lock out 
+equipment, installation, or other system components.  
+ 
+In some cases, operations personnel or equipment operators may be required to shut 
+down components because of their special qualifications or knowledge of the system 
+before lock-out can be done by the Individual or General Isolation Operators. 
+ 
+All contractors who are permanently on site, trained on the isolation procedures and 
+demonstrate competency according to approved procedures, can be appointed by the 
+management to execute isolation 
+ 
+ 
+vi. 
+Isolate all energy sources 
+ 
+All plant and equipment relating to isolation should be clearly identified and labelled on the 
+worksite. Permanent labelling, attached to the isolation point, for this purpose is required. 
+All isolation points, including bleeds and spades, should be fully documented and 
+referenced within the IWI to ensure the correct position and sequencing of all the 
+components associated with an isolation scheme (e.g. the position of vents, the removal of 
+physical isolations). This is in addition to full checks at the worksite. 
+ 
+Attach an isolation point identification label to each component of an isolation scheme, 
+including bleeds and spades. This allows to check that all necessary isolations are in place 
+and gives a visual indication that a device is in active use as a means of isolation. Lock 
+numbers should match the line diagrams in the isolation documentation. 
+ 
+ 
+vii. 
+De–energize all stored energies 
+ 
+Take any of the following steps that are necessary to guard against energy left in the plant 
+after it has been isolated from its energy sources: 
+• 
+Inspect the plant to make sure all parts have stopped moving  
+• 
+Install ground wires  
+• 
+Relieve available pressure  
+• 
+Release the tension on springs, or block the movement of spring-driven parts  
+• 
+Block or brace parts that could fall because of gravity and make sure the blocking is 
+stable on its own in all conditions 
+• 
+Block parts in hydraulic and pneumatic systems that could move from the loss of 
+pressure and make sure the blocking it stable on its own in all conditions 
+• 
+Bleed the lines and leave vent valves open  
+• 
+Drain process piping systems and close valves to prevent the flow of hazardous 
+material  
+• 
+If a line must be blocked where there is no valve, use a blank flange  
+• 
+Purge reactor tanks and process lines  
+• 
+Dissipate extreme cold or heat, or provide protective clothing  
+• 
+If stored energy can re-accumulate, monitor it to make sure it stays below hazardous 
+levels.  
+• 
+Etc.
+ 
+20
+ 
+viii. 
+Applying lockout devices 
+ 
+• 
+All relevant energy – isolating devices are to be locked. 
+• 
+Only standardized devices can be used and they are not to be used for anything else. 
+• 
+Use a lockout device if your lock cannot be placed directly on the energy control.  
+• 
+Every employee in the work crew must attach his personal lock and identification label 
+on the energy control. If this would not be possible, than the keys of the locks which are 
+directly on the energy controls will be locked by all workers using their personal lock 
+(e.g. by use of a lock box). There must be a system where the equipment cannot be 
+restarted without the removal of each person’s lock/tag. 
+• 
+When several workers or trades are working on a machine, you can add additional 
+locks by using e.g. a lockout bar or similar. One can add any number of locks by 
+inserting another lockout bar into the last hole of the previous bar. 
+• 
+The competent person must first Lock out the energy source(s) and add also his/her 
+Individual Lock Identification Tag or general lock identification tag. This will always be 
+the first lock on and the last lock off. 
+• 
+Where isolation involves only one person, that person must be deemed competent by 
+site. 
+• 
+Personal Locks may never be removed except by the person to whom they belong. 
+• 
+No isolation procedure is deemed as meeting the requirements of this standard if it 
+relies on shutting off emergency stops or control power; isolation of electrical sources 
+shall be at the primary power source or through the use of a positive lock out device. 
+• 
+A record, as part of the IWI, must be kept of all equipment locked out or otherwise 
+rendered inoperable so that all of these devices can be reactivated once the work is 
+complete. 
+ 
+ix. 
+Locking 
+ 
+ 
+• 
+Each worker involved in a lockout operation must attach a durable lock identification 
+label to his or her personal lock. The individual lock identification label must identify the 
+worker’s name, in addition some other information can be mentioned e.g. ; the worker’s 
+employer (contractors) and/or the date and time of lockout, the telephone number, 
+work area involved, and the reason for the lockout. A lock identification label in itself 
+offers no guarantee that a machine or system is locked out. It simply provides 
+information. 
+ 
+x. 
+Verification of isolation/ de-energizing 
+ 
+• 
+After locking and tagging, make sure all danger areas are clear of personnel before 
+doing a trial. 
+• 
+After plant or equipment has been shut down, locked out and tagged, all isolated power 
+sources should be tested first with appropriate instruments (pressure, high voltage, 
+voltage,..) and then by trying to activate the plant, before any person attempts to start 
+work on the plant. This should be done by a person who understands the complexity of 
+the plant or equipment (or parts of the plant or equipment, including control stations and 
+computers remote from the plant or equipment). 
+• 
+Verification shall be made that all live circuits, parts, and other sources of hazardous 
+energies and products, have been disconnected, released and/or restrained. A general 
+isolation operator who is qualified shall operate the equipment operating controls, 
+perform voltage verification, inspect open switches and draw out breakers to ensure 
+that energy sources are isolated. 
+• 
+Specific standards must be put in place which describes how qualified General Isolation 
+Operators must perform the Voltage verification test and application of grounding. The 
+calibration of all instruments required to test isolation procedure should be checked 
+before use. 
+• 
+Press all start buttons and other activating controls on the equipment itself and return 
+controls to the off position when testing is complete.
+ 
+21
+• 
+It is not safe to assume an isolator has locked out an electricity source simply because 
+it is in an open position. While normally this should open an air gap between contact 
+points, it is possible for contact points to become welded together by the passage of 
+electricity, and remain so even when the isolator appears to be open. 
+• 
+Work on the plant should not begin until tests have confirmed it is safe to do so.  
+ 
+xi. 
+Perform the task 
+ 
+Each worker who is working under isolation must assure his own safety by means of a 
+personal lock on the isolation point or by means of his personal lock on a lock-box. This 
+lock must be added before starting the job.
+ 
+22
+xii. 
+Re-energizing  
+ 
+• 
+Tests and visual inspections; 
+ 
+A General Isolation Operator or an Individual Isolation Operator shall conduct tests and 
+visual inspections to verify that all personnel are in the clear and that all tools, electrical 
+jumpers, shorts, grounds, and other such devices have been removed so that the 
+circuits and equipment can be safely energized.  
+• 
+Put the safety guards back in the original position; 
+• 
+Warning employees; 
+ 
+Employees exposed to the hazards associated with reenergizing the circuit or 
+equipment shall be warned to stay clear of circuits and equipment. 
+• 
+Each worker has to remove his own lock 
+• 
+Removing Lock: 
+ 
+Each lockout device shall be removed from each energy-isolating device by the General 
+Isolation Operator or by a Individual Isolation Operator (competent for the specific task), 
+i.e. by the one who applied the lockout device. 
+• 
+Return system to operational status and the switches to power ON. Have qualified 
+personnel restart installation or equipment. 
+ 
+ 
+xiii. 
+Return control to operations 
+ 
+When all work is completed, the person in charge of the lockout operation should formally 
+return control of the equipment or system to plant personnel. 
+ 
+xiv. 
+Record date/time lockout removed and system restored 
+ 
+This last step is important. It saves valuable information that may be lost if not recorded. 
+Staff involved in the shutdown may not remain at the same jobsite. Owners or operators 
+may require this information to help plan future shutdowns.
+ 
+23
+ 
+Verification of 
+isolation 
+Risk Assessment 
+Request for isolation
+PTW
+Equipment shutdown
+Identify energy 
+Identify isolation 
+points 
+IWI 
+Preparation for shutdown
+Isolate all energy sources
+De-energize all stored energy
+Apply lockout devices
+Perform the task
+Re-energizing
+Return control to operating
+Record 
+date/time 
+lockout
+Hazardous energy not controlled
+Extra work 
+required?
+Lock and label
+Y
+Y
+N
+N
+ 
+24
+ 
+11 Audits/Evaluation and Records 
+ 
+11.1 
+Periodic Program Evaluation/ Audits 
+ 
+• Interviews with authorized and affected employees 
+• Inspections to ensure that the equipment has been properly locked out 
+• Inspection to ensure that all equipment used in lockout is appropriate for your written lockout 
+program 
+ 
+11.2 
+Record Keeping 
+ 
+• Traceability of the isolation performance 
+• Employees training records 
+• Periodic program evaluations and follow-up 
+• Accident and near hit reports, dangerous acts and dangerous situations 
+• Documentation of employee lock removal by others, when inadvertently left on (see 14.9.). 
+ 
+11.3 
+Example Program Evaluation 
+ 
+• Are all employees conducting work on the equipment properly trained and defined competent 
+on the lockout procedure?
+ 
+25
+12 Design, engineering and new, revamped or modified 
+equipment 
+ 
+Suitable isolation arrangements on the plant should be clearly specified at the design stage. 
+ 
+The opportunity to achieve an inherently safer design is greatest for new plant and equipment; 
+the same approach should be followed for plant modifications and revamps. These opportunities 
+must be used to assure the installation is capable of being locked out and in line with the 
+company standards and legal requirements, i.e. it is obligatory that the construction of new 
+installation or revamp must include the implementation of the state of art isolation system, 
+allowing lock out in compliance with AM Safety ST 001. 
+ 
+Consider the reduction of isolation points per isolation so this will simplify the execution of the 
+isolation. Also consider isolating on a higher level, global isolation, since it will reduce the 
+execution time. 
+The potential for human failure, including error, should be addressed and, wherever possible, 
+minimized in the design (less isolation points/ technical solutions).
+ 
+26
+ 
+13 Computer Support for the Isolation Process 
+ 
+• A good isolation process requires many information transactions. These transactions come in 
+the form of paperwork, electronic data or a combination of both. Good LOTO software can 
+help to have a better process and a safer process. If integrated into the existing maintenance 
+software, it will reduce the workload significantly. Before considering the many benefits of 
+computer support of the LOTO process you must ask yourself if this support for LOTO is the 
+right thing to do (now)? 
+– Technical aspect: IT support, integration in the existing software, it is a safety tool,… 
+– Financial feasibility: ROI, great payback potential, reducing the overall time to complete the 
+work,  
+– Process improvement: change of the process and commitments of all participants 
+ 
+• Benefits : how can LOTO software make the equipment lock-out and workers safer? 
+– Reduce human errors? 
+– Less space for changes; restrictive environment, not allowing additional work to be 
+assigned to open or active work orders, …. 
+– Restricted work flow 
+– Shared lockout; only one lock/tag on the isolation point; this feature significantly reduces 
+the workload and simplifies a complex procedure. 
+– Time reduction 
+– Safer planning 
+– Integration into the Maintenance Management System (Work permits and orders) 
+– Conflict checks 
+– Maximum communication 
+– Recording the LOTO activities 
+– Coordination
+ 
+27
+14 Practical guidance’s 
+  
+14.1 
+Shift or personnel changes 
+ 
+In order to ensure the continuity of lockout protection, this section contains a provision for the 
+orderly transfer of lockout device protection between off going and oncoming employees, to 
+minimize exposure to hazards from the unexpected energizing or start up of the machine or 
+equipment, or release of stored energy: 
+• The off going employee shall communicate with the oncoming employee as to the machine or 
+equipment status and compliance with the lockout procedures prior to leaving shift. 
+• The off going employee shall in the case of e.g. a lock box closed with an individual 
+department lock of the General Isolation Operator, remove his personal lock affixed to the lock 
+box and the oncoming employee add his/her own personal lock to the existing previous shift’s 
+lock box; the individual department lock of the general isolation operator must be appropriately 
+changed face to face with the oncoming general isolation operator. OR 
+• If only involving a single locking device (personal lock), the off going employee shall 
+accompany the oncoming employee to the affected equipment or machine where isolation 
+devices (locks) will be appropriately changed (face to face) over without energizing. 
+ 
+ 
+14.2 
+One person, One lock 
+ 
+• All persons who are working on the same plant or equipment shall attach their own lock to 
+prevent the isolator being opened before all locks have been removed or opened. The 
+isolation procedure should identify common lock out points to ensure energy cannot be 
+restored while someone is still working on the plant. 
+• If two or more people are working on plant that is isolated through several lockout points, each 
+person should attach a lock to each lockout point. 
+• As an alternative, to avoid the need for multiple locks on each lockout point, a lock box may be 
+used. Under this system each lockout point is locked by only one lock and the key(s) to the 
+locks of the plant’s resp. equipment lockout points are placed inside a box which is locked by 
+all the individual locks of all persons working on the same plant resp. equipment. 
+• In case of an IT supported isolation system the related permit to work has to be put into or 
+fixed to a lock box (must be visual and readable). The keys connected to the permits have to 
+be kept by a nominated responsible person in the organization. The signed off of the permit to 
+work at the end of the work is necessary before you de-isolating.  
+ 
+14.3 
+One lock, One key 
+ 
+• Each person working on the plant should have his / her own individual lock and key. There 
+should be no duplicate key available for any lock, except a master or duplicate key for use in 
+an emergency that is secured and not readily available (See 13.6. for detailed explication). 
+• During inspection, repair, maintenance, cleaning or adjustment of the plant, the one key to 
+each person’s lock should be held only by that person, who is responsible for both locking and 
+unlocking the lockout device.
+ 
+28
+14.4 
+Multiple energy sources 
+ 
+• If more than one energy source or hazard has to be locked out to enable safe shutdown of the 
+plant, the single key to each lockout device or lock sets should be held by the same person. 
+ 
+14.5 
+Locks 
+ 
+Different locks can be used to apply to the isolation procedure, the use must be described and in 
+line with the principal of one key, one lock and one person. Locks and keys must always be 
+traceable up to one responsible nominated person who is the owner of them. 
+ 
+Locks can be made traceable in at least two ways: 
+ 
+• they can bear a marking unique to each worker e.g. engraved name, identification code, 
+colour code, symbol code, etc., or 
+ 
+• incorporate an lock identification tag; individual lock identification tag or general lock 
+identification tag that identifies the worker or service/department to whom the lock is assigned. 
+If this method is used, the lock identification tag must be secured to the lock in such a way that 
+the tag cannot fall off. 
+ 
+The practical use of locks will be explained more in detail in the training on these guidelines. 
+Nevertheless we can give some overview of the different types of locks that are available in our 
+sites.  
+ 
+ 
+Securing individual workers :  
+ 
+Personal Safety Locks / individual locks 
+ 
+Each worker involved must attach his or her own personal lockable securing device, typically a 
+keyed padlock, to the energy isolating device. 
+ 
+A worker who has placed a lock is also responsible for verifying that the energy source has been 
+effectively isolated. 
+ 
+In the case where more than one worker is working at the same isolation point, each worker must 
+attach his or her own personal lockable securing device, typically a keyed padlock, to the energy 
+isolating device. 
+ 
+When using personal locks and in the case where the worker is reassigned before the work is 
+completed, or the work is extended from one shift to another, continuity of hazardous energy 
+control must be maintained. 
+ 
+A safety lock used for individual safety (1 person, 1 lock and 1 key principle) is : 
+• Supplied with one unique key 
+• Used only by person identified on the label 
+ 
+ 
+Securing groups 
+ 
+When multiple workers are involved or multiple energy isolating devices must be secured, a 
+group process must be used. 
+ 
+A GIO or a competent IIO (declared responsible for a defined task and responsible for a team of 
+workers) must then;
+ 
+29
+• 
+place a securing device (typically a keyed padlock) on each energy isolating device,  
+• 
+put the key to each securing device in a lockable key securing device (lock box, key ring, 
+etc.) an apply his or her personal lock 
+• 
+complete, sign, and post a list identifying the machinery or equipment included in the 
+procedure, and 
+• 
+confirm and document that all hazardous energy sources in the group lockout situation 
+are effectively isolated. 
+ 
+Documenting this step provides a record of the activity having been completed. This is not 
+confirming that the locks were placed in the correct locations. This is making sure that placement 
+of the locks has resulted in the energy sources being effectively isolated. Having a worker confirm 
+that locks are physically placed in the correct location is not the same as verifying that all energy 
+sources are effectively isolated. 
+ 
+Once effective isolation has been verified and before starting the work activity, each worker 
+involved in the work then applies his or her own lock to the key securing device. This ensures that 
+the master key(s) cannot be removed from the key securing device until each worker removes his 
+or her personal lock. This prevents the equipment from being returned to operation until each 
+personal lock is removed. 
+ 
+In the case where a worker is reassigned before the work is completed, or the work is extended 
+from one shift to another, continuity of hazardous energy control must be maintained. 
+ 
+Upon completing the work, each worker removes his or her lock from the key securing device. 
+When the last lock is removed, the worker authorized by the employer to do so then removes his 
+or her lock from the energy isolating device and verifies that no worker will be in danger due to 
+removal of the lock. 
+ 
+ 
+Equipment Safety Locks  
+ 
+Used onto the energy source and fitted by a General Isolation Operator or a competent Individual 
+Isolation Operator used for the purposes of locking equipment out of service and must be: 
+• Identified with the name of the department/service and user of the locks must be traceable.  
+• Supplied with only one unique key; 
+• Accompanied by a system to log which locks have been applied, the reason for application 
+and to transfer authority for the lock (e.g., from shift to shift).  
+• These locks are not to be used as personal safety locks. 
+ 
+ 
+Multiple safety lock sets  
+ 
+Multiple safety lock sets are typically used when several pieces of equipment must be locked out 
+and a lock box is used. Mostly installed by a General Isolation Operator or a competent Individual 
+Isolation Operator on the equipment : 
+• Keyed alike in multiple sets; 
+• Supplied with one unique key only per set; 
+• Equipped with a suitable lock identification tag on the key to identify the lock set and the 
+number of locks that the key opens. Identified with the name of the department on the lock or 
+on a lock identification tag*, and identified as a set. 
+ 
+*(Lock identification tags can be permanently attached or of a temporary nature as long as they 
+identify the lock.)
+ 
+30
+ 
+The Use of Multiple Safety Lock Sets 
+ 
+The use of multiple safety lock sets shall meet the following conditions: 
+• Multiple safety lock sets are installed by the Isolation Coordinator or the General Isolation 
+Operator and must be installed first prior to work commencing and removed last, when the job 
+is complete. 
+• Once the multiple safety lock set is applied, there must be a signature of the Isolation 
+Coordinator or the General Isolation Operator on or the IWI or the PTW or the equipment lock 
+out list (completed and signed by nominated responsible person of the department confirming 
+that the procedure has been followed, energy has been dissipated or restrained and isolation 
+effectiveness checked) is to be added. 
+• The signed and dated IWP or IWI document must be secured in the appropriate lock box so it 
+is visible and readable. The document must indicate which IWI has been used for the isolation 
+or what specifically has been isolated. 
+• The key(s) to the multiple safety lock set(s) must be locked in the same lock box and be 
+visible, when the lockbox is in use. 
+• The Isolation Coordinator or the General Isolation Operator applies his / her own personal 
+safety lock to the box. 
+• All other personnel working in the area apply their personal safety lock to the box, after 
+ensuring that their specific job procedure isolation requirements are satisfied. 
+ 
+Multiple safety lock sets may be used as an extension of one person’s personal safety lock, if all 
+of the following conditions are met: 
+• The use and user of a multiple lock set must be identified and recorded 
+• The key remains in the control of the person relying on the locks. 
+ 
+ 
+Equipment Locks for "Out Of Service" or long term lock out (see 14.6) 
+ 
+Locks may be used for purposes other than protecting personal safety, such as locking a piece of 
+equipment out of service. Accompanied by a system to log which locks have been applied, the 
+reason for application e.g. a motor is out of service and the new one is not yet arrived.  
+ 
+ 
+Lock Boxes 
+ 
+Lock boxes are used in conjunction with multiple safety lock sets and where teams are working 
+under the same isolation. Lock boxes must be visible, and clearly labelled If more than one lock 
+box is used in an area, they may be colour-coded to differentiate between the boxes. 
+Lock boxes should be located so that they are easily accessible to all those working on the job. 
+The key(s) to the multiple safety lock set(s) must be locked in the lock box and be visible, when 
+the lockbox is in use. 
+The completed IWI or PTW which include a equipment lock out list must be secured in the 
+appropriate lock box so it is visible for anyone to review prior to the start of their work. The posted 
+document must also include a location for a signature so that those performing the isolation can 
+indicate that all isolation points have been isolated and locked, that energy has been dissipated 
+or restrained, and that the isolation effectiveness has been verified. The document must indicate 
+which procedure has been used for the isolation or what specifically has been isolated.
+ 
+31
+ 
+14.6 
+Long term lockout 
+ 
+• If a task takes a long period, then we do not talk about long term lockout because people are 
+working on the equipment. Long term lockout may be for other reasons, examples of which 
+could be: 
+- 
+A machine taken out of operation for a long period for whatever reason, but will be used 
+again. 
+- 
+A machine or equipment locked out for repairs but money only available at a later stage. 
+- 
+A machine or equipment locked out for a long period as spares will take a long time to 
+arrive. 
+- 
+A machine or equipment locked out for a long period due to economical reasons. 
+• In situations like these, the responsible superintendent must complete a lockout register and a 
+danger card and an isolation lock must be attached to the supply energy source/s. A note 
+must be made on the lockout register and back of the danger card as to the reason for long 
+term lockout. 
+• The responsible superintendent will keep the lockout register and isolation lock/s key/s in 
+his/her possession until such time that the equipment is to be put in operation again. The 
+supervisor will then sign off the IWP or the lockout register and make the isolation lock key/s 
+available to set the equipment back into operation. So basically the same lockout procedures 
+must be followed but the person in charge (authorized person) will be the responsible 
+supervisor. 
+ 
+14.7 
+Permanent Lockout 
+ 
+• There is no such practice as permanent lockout. Good engineering practices dictate that 
+where a machine or equipment is taken out of use permanently, the supply energy sources 
+are removed permanently and the plant drawings updated accordingly. The original electrical 
+power source (feeder, panel, etc.) is then marked “Spare” with electrical cables disconnected 
+and removed. Mechanical power sources must likewise be stripped out / blanked off 
+permanently. 
+ 
+14.8 
+Out of service tag 
+ 
+• 
+If equipment is faulty labeled, place an out of service tag on it and report to your 
+supervisor.  This equipment should not be used or operated while an out of service tag is 
+attached. 
+14.9 
+Removal of lockout by another person 
+ 
+• This procedure must be followed when the physical removal of a lockout lock is required by 
+any other person than the one who placed it on the equipment originally. 
+• Remember, removing a lockout lock from a piece of equipment is a serious act and must be 
+treated as such.  Every precaution must be taken to protect the person who originally placed 
+the lock or tag on the equipment and have him or her return and remove the lockout device. 
+• The following procedure must be completed before a lockout lock is removed by anyone other 
+than the person who originally placed it. When the authorized employee who applied the 
+lockout or tagout device is not available to remove it, the device may be removed under the 
+direction of another authorized employee provided that (all steps to be fulfilled before 
+removing) : 
+– It has been decided it is absolutely necessary to remove the lockout at this time. 
+– It is determined who placed the lock on the equipment. 
+– that person is contacted to find out if he or she is (still) present in the plant.
+ 
+32
+– If the person can not be reached, that person's department is contacted to determine if he 
+or she is (still) present in the plant. 
+– If the employee is in the plant, he/she is asked to remove the lock.  
+– If the employee is at home, it is first determined if there is enough time for him/her to come 
+to the site to remove the lockout lock. 
+– If the lock has to be removed immediately, the person is informed that it is being removed, 
+and he / she upon next arrival at the site must personally talk to the department head or his 
+designee before returning to work and similarly the department has to assure the person is 
+seen and spoken to before he/she resumes any work (in order to assure there is no 
+confusion on the situation, since such a confusion may put the person at risk). 
+• If the employee cannot be reached at all, nor in the plant or at home, the person desiring to 
+remove the lock will contact the following people (in all cases, at least two persons are 
+necessary, incl. the chief of the department): 
+– A maintenance mechanical or electrical person etc, depending on the kind of isolation to be 
+taken away; 
+– An operating person if one is assigned to the area; 
+– Chief of the department. 
+• These persons will : 
+– determine why the lock was originally placed on the equipment. They will search the area 
+for person/persons or equipment that may be in danger if the power is restored or the 
+equipment started.  They will watch the equipment to keep people from entering the area 
+while the lock is removed and power restored. 
+– Verify that the employee has left the plant or is not able to remove his own lock. 
+– Determine if the job is complete and equipment is ready to be put into service and 
+everyone is in the clear. 
+– If the lock has to been removed (immediately) without the person being informed, assure 
+the person is seen and spoken to before he/she resumes any work (in order to assure 
+there is no confusion on the situation, since such confusion may put the person at risk). 
+– Assure these actions are documented in writing and signed by all involved 
+ 
+ 
+ 
+ 
+14.10 
+ Complex group process (e.g. shared lockout) 
+ 
+In some cases it may not be reasonably practicable to use an individual or group lock out 
+process. To maintain worker safety, normal group lock out practices may need to be adapted or 
+modified. A complex group control process allows an employer to do this. The complex group 
+control process relies on written procedures and a work permit or master lockout procedure to 
+ensure the safety of workers. These two elements replace the traditional approach of each worker 
+placing a personal lock on each energy isolating device. 
+• Identical isolation requests of different demanders on the same installation or equipment, or 
+parts of it, can be coordinated and performed only once by a qualified person. This specific 
+practice must be coordinated by a competent person in the organization and under specific 
+conditions which must be described in the isolation procedure. Clear communication will be 
+established. 
+• The isolation coordinator can group different isolation requests into a mother isolation, one per 
+technical specialty (electrical, hydraulic, mechanical, ….etc). In general the mother isolation 
+will be on a high level, i.e. shutdown of a whole installation.  
+• A risk assessment shall be done to identify if supplementary risks will occur due to this 
+practice.  
+ 
+This method is not to be used as an ‘easy escape’, but applies only in very well 
+investigated cases.
+ 
+33
+ 
+14.11 
+ Example; Positive Lockout of fluids 
+ 
+ 
+ 
+Example blanking!                                
+ 
+ 
+ 
+ 
+Example of a selection tool to establish the ‘baseline standard’ for a final isolation.  
+HSE\Selection 
+Isolation class.pdf   
+Appendix 1: AM Safety ST 001 v1 - Guidelines FPS Isolation - Appendix 1 - English.pdf
+ 
+34
+ 
+14.12 
+ Example; High Voltage Procedures  
+ 
+In addition to the guidelines for lockout, there are more stringent safety requirements for 
+high voltage systems. As an example take the following information into account : 
+ 
+• Ensure that only authorized employees work around high voltage equipment.  
+• Provide a High Voltage warning sign when necessary. 
+• Ensure that terminal voltage ratings can withstand surges caused by 
+electrical faults or switching transients.  
+• Be careful around output circuits even when the input power is off. Parallel 
+power sources and energy storage devices can still be dangerous.  
+• Be careful when working with power supplies that serve more than one area.  
+• Before working in a high voltage area, inspect the power supply and check all 
+protective devices. 
+• Do not work alone near high voltage.  
+• Label equipment to identify power sources. Label input power sources to 
+identify connected power supply loads.  
+• Attach emergency shutdown instructions and phone numbers to equipment 
+that is remotely controlled or unattended while energized.  
+ 
+Before entering a power supply or associated equipment enclosure to work on 
+hazardous energy sources, complete the following:  
+• De-energize the equipment. 
+ 
+• Lockout/ the main input power circuit breaker.  
+• Check for auxiliary power circuits that could still be energized.  
+• Inspect automatic shorting devices for proper operation.  
+• Short the power supply with grounding hooks.  
+ 
+Minimum Clear Working Space  
+ 
+The following table from the National Electric Code provides minimum depth of clear 
+working space in front of electrical equipment:  
+   
+Minimum Clear Distance [NEC Table 110.34(A)] 
+Normal 
+Voltage to 
+Ground 
+Condition 1 
+Condition 2 
+Condition 3 
+601-2,500 V 
+900 mm (3 
+ft) 
+1.2 m (4 ft) 
+1.5 m (5 ft) 
+2,501-9,000 
+V 
+1.2 m (4 ft) 
+1.5 m (5 ft) 
+1.8 m (6 ft) 
+9001-25,000 
+V 
+1.5 m (5 ft) 
+1.8 m (6 ft) 
+2.8 m (9 ft) 
+25,001-75 
+kV 
+1.8 m (6 ft) 
+2.5 m (8 ft) 
+3.0 m (10 ft) 
+Above 75 kV 
+2.5 m (8 ft) 
+3.0 m (10 ft) 
+3.7 m (12 ft) 
+ 
+Where conditions (1), (2), and (3) are as follows:
+ 
+35
+(1)  Exposed live parts on one side and no live or grounded parts on the other 
+side of the working space, or exposed live parts on both sides effectively 
+guarded by suitable wood or other insulating materials. Insulated wire or 
+insulated bus bars operating at not over 300 volts shall not be considered 
+live parts.  
+ 
+(2)  Exposed live parts on one side and grounded parts on the other side. 
+Concrete, brick, or tile walls will be considered as grounded surfaces.  
+ 
+(3)  Exposed live parts on both sides of the workspace [not guarded as 
+provided in condition (1)] with the operator between.  
+ 
+ 
+ 
+C:\Documents and 
+Settings\johan.remme 
+Appendix 1: AM Safety ST 001 v1 - Guidelines FPS Isolation - Appendix 2 - English.pdf
+ 
+36
+15 References 
+ 
+ 
+1. 
+Metal Industry Guidelines for Safe Work; section 5 Machine Guarding and Lockout 
+2. 
+Lockout; Safe practices for isolation of all sources of energy in Sawmills; 1 Timber 
+Processing Information Sheet 
+3. 
+Guidance on Safe Isolation Procedures; HSE Select 
+4. 
+http://www.ohsa.gov. Occupational Safety and Health Administration 
+5. 
+http://www.bgsu.edu/offices/envhs/page18446.html ; Bowling Green Stat University 
+6. 
+Brady; 22 april 2009 BEMAS Studieavond 
+7. 
+Smart Staff International ABN 11 078 040 016; Isolation and Permit to Work 
+8. 
+Champs software Inc. Computerized Maintenance Management System and 
+Lockout/tagout Automating the system 
+9. 
+European Power-Semiconductor and Electronics Company; Using integrated NTC with 
+reliable isolation 
+10. Electrical Safety Guideline; University of Northern Colorado June 2010 
+11. Different isolation procedures of AM site; Cadenassage AM Montréal; Dofasco, 
+Asturias, Newcastle, Lazaro Cardenas, Ostrava, Vanderbijltpark, Zaragosa,…. 
+12. Procedures for the isolation of machinery; Monash Iniversity may 2009 
+13. HSE Books; The safe isolation of plant and equipment 2006 
+14. HSE Books; Guidance on permit-to-work systems 2005  
+15. Maine Municipal Association Risk Management Services; Best Practices Guide for 
+Lockout Programs 3/28/2005 
+16. Maine Gov. Control of Hazardous Energy (lockout/tagout) 29 CFR 1910.47 
+17. EHS University of California, Irvine; Hazardous Energies Control and LO/TO Program 
+18. Alternative Lockout Tagout ANSI Z244.1-2003 
+19. Guidance Note Lockout and Tagging of plant;www.Worksafe.Victoria.gov.06/06/2005 
+20. East Caroline University; Control  of Hazardous energy(LOTO) Training program 
+21. DHHS Policies and Procedures Lockout/Tagout 5/1/2009 
+22. www.enr.state.nc.us/SP2003/chapter7SP; Safety Policy LOTO 
+23. Torus Risk Engineering; Best Practice Centre; Positive isolation 2010 
+24. Pilz Safe Automation; Emergency Stops – make sure yours comply 
+25. Master Lock; Leaflet Worldwide 2011

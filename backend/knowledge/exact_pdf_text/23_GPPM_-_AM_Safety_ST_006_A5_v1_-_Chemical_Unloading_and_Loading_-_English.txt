@@ -1,0 +1,736 @@
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A5 v1 – 
+Chemical Unloading and 
+Loading 
+Appendix 5 
+Chemical Unloading 
+and Loading 
+Instructions 
+ 
+ 
+ 
+< Page 1 of 9 >
+  
+ 
+ 
+Document Information 
+Short description: Instructions for all operations handle, load and unload chemicals within the premises of 
+the ArcelorMittal plants. 
+ 
+ 
+Scope: This Procedure is applicable to all ArcelorMittal employees involved in operations with load and 
+unload chemicals. 
+ 
+ 
+Business Owners: 
+Frank HAERS 
+Creation date (first version): 
+08.05.2012 
+Writer (prepared by): 
+AM Health and Safety Lead Team 
+Review date (new version): 
+08.05.2012 
+Reviewed by : 
+Not applicable 
+Implementation Date: 
+08.05.2012 
+ 
+Version History 
+ 
+Version 
+Date 
+Person 
+Description 
+1 
+08.05.2012 
+Frank HAERS 
+Creation 
+ 
+Reference Documents 
+ 
+Reference or date 
+Title 
+/ 
+/ 
+ 
+Validation 
+Validated by 
+Position 
+Validation Date 
+Signature 
+Frank HAERS 
+VP, Head Corporate Health 
+and Safety 
+08.05.2012 
+ 
+ 
+Approval 
+Approved by 
+Position 
+Approval date 
+Signature 
+Health and Safety Committee 
+/
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A5 v1 – 
+Chemical Unloading and 
+Loading 
+Appendix 5 
+Chemical Unloading 
+and Loading 
+Instructions 
+ 
+ 
+ 
+< Page 2 of 9 >
+  
+ 
+ 
+ 
+1. 1.  Scope 
+ 
+The scope of these standards applies to all operations and personnel that use, handle, load 
+and unload chemicals within the premises of the ArcelorMittal plants. 
+ 
+These basic standards must be enforced and affect own personnel, contractors, 
+subcontractors, truck drivers, vendors, as well as those who represent them.     
+ 
+These rules must be adapted in the plants taking into account the specificity of the plants, 
+environment and organization and the applicable plant can raise the level of requirements in 
+case of jurisdiction and/or necessity.  
+ 
+Wherever local law would be more stringent than this standard, local law must be followed. In 
+other cases this standard is to be adhered to strictly. 
+ 
+It is the intent of this standard to provide information on the safe loading and unloading of 
+chemicals and afford employee protection from potential health and physical hazards 
+associated with accidentally mixing incompatible chemicals. 
+ 
+ 
+2.  
+Other relevant documents to be respected  
+ 
+This standard has to be applied taking into account as well: 
+- AM Safety ST 006 :  Vehicles and Driving 
+- AM Safety ST 008 :   Contractors 
+- AM Safety ST 013 : Emergency preparedness 
+- AM Safety ST 003 : Working at Height (e.g. reducing risk of falls from vehicles during the 
+unloading and loading process 
+- AM Health PL 001 :  Substance Abuse Policy  
+- AM Health ST 002 : Hazardous Substances Exposure Control 
+ 
+3.  
+Responsibilities 
+ 
+ 
+Only trained and qualified personnel shall be allowed to handle certain hazardous chemicals. 
+Supervisors are responsible for ensuring that personnel are trained to handle chemicals, that 
+they wear the PPE and that all chemicals are stored in a safe manner.   
+The chemical incompatibilities discussed below are by no means exhaustive. As a result, it is 
+important for laboratory and also all concerned personnel to thoroughly research the 
+properties of the chemicals they are using.   
+Material Safety Data Sheets (MSDS) or Safety Data Sheets (SDS) or extended Safety Data 
+Sheets (eSDS) and/or Globally harmonised System of Classification and Labelling of 
+Chemicals (GHS) have sections on chemical incompatibility.  The label on container's, tanks, 
+..  should also provide storage guidelines 
+ 
+4.  
+Definitions 
+ 
+4.1. Pyrophoric Substance : 
+ Liquids / Solids:
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A5 v1 – 
+Chemical Unloading and 
+Loading 
+Appendix 5 
+Chemical Unloading 
+and Loading 
+Instructions 
+ 
+ 
+ 
+< Page 3 of 9 >
+  
+ 
+ 
+Pyrophoric liquid / solid means a liquid / solid substance or mixture which, even in 
+small quantities, is liable to ignite within five minutes after coming into contact with 
+air. 
+ 
+ 
+E.g., white phosphorus. 
+ 
+4.2. Oxidising Agent : 
+Reactive material that oxidizes another substance and is reduced. 
+ 
+4.3. Acid : 
+Any of a class of compounds that form hydrogen ions when dissolved in water, and whose 
+aqueous solutions react with bases and certain metals to form salts. Acids turn blue litmus 
+paper red and have a pH of less than 7.  
+ 
+4.4. Base: 
+Any of a class of compounds that form hydroxyl ions (OH) when dissolved in water, and 
+whose aqueous solutions react with acids to form salts. Bases turn red litmus paper blue and 
+have a pH greater than 7.  
+ 
+4.5. Flammable  
+A flammable material can be a solid, liquid or gas 
+ 
+Flammable liquids (according to GHS Flammable Liquid Criteria): 
+o Flammable liquid means a liquid having a flash point of not more than 60° C. 
+A flammable liquid shall be classified in one of the three categories for this 
+class in accordance with: 
+Category 1:  Flash point < 23°C and initial boiling point ≤ 35°C 
+Category 2 : Flash point < 23°C and initial boiling point > 35°C 
+Category 3 : Flash point ≥ 23°C and ≤ 60°C 
+ 
+ 
+Flammable solids (according to GHS Flammable Solid Criteria):   
+o A flammable solid means a solid which is readily combustible, or may cause 
+or contribute to fire through friction. 
+Readily combustible solids are powdered, granular, or pasty substances or 
+mixtures which are dangerous if they can be easily ignited by brief contact 
+with an ignition source, such as a burning match, and if the flame spreads 
+rapidly. 
+ 
+Classification criteria (on the basis of the outcome of the UN Test N.1) 
+  
+Category 1:   Burning rate test   
+Substances and mixtures other than metal powders: 
+(a) wetted zone does not stop fire and 
+(b) burning time < 45 seconds or burning rate > 2,2 mm/s 
+Metal powders 
+burning time ≤ 5 minutes 
+Category 2 :  Burning rate test 
+Substances and mixtures other than metal powders: 
+(a) wetted zone stops the fire for at least 4 minutes and
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A5 v1 – 
+Chemical Unloading and 
+Loading 
+Appendix 5 
+Chemical Unloading 
+and Loading 
+Instructions 
+ 
+ 
+ 
+< Page 4 of 9 >
+  
+ 
+ 
+(b) burning time < 45 seconds or burning rate > 2,2 mm/s 
+Metal powders 
+burning time > 5 minutes and ≤ 10 minutes 
+ 
+ 
+Spontaneously combustible 
+o Substance that ignites itself, without the presence of a flame, due to : 
+1:  heat retained from processing,  
+2 : reaction with air resulting in ignition temperature, and/or  
+3 : reaction with water or moisture resulting in ignition temperature. 
+(CaC2) 
+ 
+4.6. Gas  
+See local laws for the definition of mobile vessel, warehouse, closed warehouse, open 
+warehouse, storage area capacity, storage surface, safety area, safety distance, safety 
+shield. 
+Generally, the local laws often also take into account different storage area categories 
+depending of the capacity: below 2500 l, from 2500 to 10000 l, above 10000 l. 
+ 
+4.6.1 Gas classification: 
+ 
+Only flammable gas: LPG, hydrogen, acetylene 
+ 
+Flammable and toxic gas: carbon monoxide, ethylene oxide 
+ 
+Flammable and very toxic gas: arsine, phosphine 
+ 
+Inert gas: Nitrogen, argon, helium, carbon dioxide 
+ 
+Toxic or injurious gas: hydrogen chloride 
+ 
+Only toxic gas: phosgene, boron trichloride 
+ 
+Only oxidizing gas: oxygen, nitrogen protoxide, compressed air 
+ 
+Oxidizing and toxic or oxidizing and very toxic gas: chlorine, fluorine, nitrogen  
+ 
+dioxide 
+ 
+4.6.2 Storage location (legal requirement requests): 
+ 
+See minimum distance with roads, other storage areas, building … 
+ 
+No closed storage area in a building. 
+ 
+Minimum height of the walls: 2 m 
+ 
+See gas detector 
+ 
+4.6.3 Storage of different kind of gas : 
+ It is mandatory to divide the warehouse (open and closed area) in different areas if 
+storage of different kind of gas, and to separate them with safety shield. 
+Only one kind of gas in each storage area 
+The safety distance to separate the different areas depends of the local laws. 
+It is mandatory to clearly identify the storage areas, as the hazards of the gas. 
+ 
+ 
+4.7. Safety Data Sheet (SDS) according to the GHS:  
+ 
+A typical SDS consists of 16 sections.  Each section contains specific information 
+regarding the chemical.  The SDS contains the following information:
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A5 v1 – 
+Chemical Unloading and 
+Loading 
+Appendix 5 
+Chemical Unloading 
+and Loading 
+Instructions 
+ 
+ 
+ 
+< Page 5 of 9 >
+  
+ 
+ 
+1. Identification of the product and of the company 
+2. Composition/information on ingredients 
+3. Hazards identification 
+4. First aid measures 
+5. Fire-fighting measures 
+6. Accidental release measures 
+7. Handling and storage 
+8. Exposure control / personal protection 
+9. Physical and chemical properties 
+10. Stability and reactivity 
+11. Toxicological data 
+12. Ecological data 
+13. Disposal considerations 
+14. Transport data 
+15. Regulatory data 
+16. Other information 
+ 
+ 
+5. 
+Discharging bulk liquid chemicals and dry powder chemicals procedure 
+ 
+5.1 
+Receiving of bulk liquid chemicals by rail track (tank car) or roadway (tank truck) or truck, 
+shall be coordinated by the receiving department’s persons responsible for receiving such 
+goods. Only those persons trained and authorized shall make the required chemical 
+identification and perform or supervise the unloading of hazardous chemicals. 
+ 
+5.2 
+Prior to unloading, the authorized person shall make an inspection of the accompanying 
+papers, check the load and ascertain its identity. He will also check if the carrier and 
+discharging equipment is fully in order before starting any unloading operation: the 
+certificate of conformity of the tanks must be available with the transport. 
+ 
+5.3 
+If necessary for identification, chemical testing shall be accomplished prior to acceptance 
+and prior to discharge. 
+ 
+5.4 
+The authorized person shall direct the driver to the proper unloading area and will check the 
+use of the needed PPE’s, defined by the specific work Risk Assessments. 
+ 
+5.5 
+At the receiving area, where chemicals are unloaded:  
+ 
+ Use (M)SDS’s to identify those chemicals that are dangerous. The (M)SDS should tell 
+you if the potential hazard requires proximity of an emergency shower and/or eye wash 
+unit. 
+ The unloading operator should verify the location of all fittings before unloading 
+ The storage tanks shall be secured behind a locked fence enclosure or all receiving. 
+connections shall be under lock and key or made secure by other positive means.  
+ All the filling lines must also be identified. 
+ Connection hoses must be regularly checked by a competent person. 
+ Appropriate (PPE) must be worn during the discharging time.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A5 v1 – 
+Chemical Unloading and 
+Loading 
+Appendix 5 
+Chemical Unloading 
+and Loading 
+Instructions 
+ 
+ 
+ 
+< Page 6 of 9 >
+  
+ 
+ 
+ 
+E.g.: Splash-proof chemical goggles, rubber boots and gloves, or other chemical-
+resistant materials. Refer to safe operating procedure (SOP), safe work instruction (SWI) 
+and the Material Safety Data Sheet (MSDS) (or Safety Data Sheets (SDS) or extended 
+Safety Data Sheets (eSDS)) for further information. 
+ A safety shower and eyewash fountain must be located on the same level as the 
+unloading area, must have unobstructed access (required not more than 10 seconds to 
+reach) and clearly marked. People to identify the position of such showers before start of 
+the unloading. 
+ The storage tank and the (un)loading points must be properly identified by a label 
+explaining the hazards of chemicals and its name and / or the chemical abbreviation. 
+ Suitable warning signs and the corresponding Material Safety Data Sheet (MSDS (or 
+SDS or eSDS)) or the simplified (M)SDS must be properly posted at the point of use. 
+Everybody must know where to get hold of the (M)SDS (e.g. at the point of use, crisis 
+room, medical station, and in the vehicle which is used for the transportation of the 
+chemical).. 
+ No combustible materials should be stored close to the chemical storage or unloading 
+area.  
+ Extinguishers (the used extinguisher class must be defined by the MSDS – or SDS), and 
+for and if the chemical product required, a source of water must be available close to the 
+unloading area for safety purposes. 
+ Where receiving areas are adjacent to roads and walkways, the road or part there-off 
+must be locked, where required, by means of positive barrier and demarcation warning 
+pedestrians of off-loading process hazard. E.g. Acid – offloading stay clear. 
+ 
+5.6 
+The authorized person shall be responsible for control of keys or combination to locking 
+devices. 
+ 
+5.7 
+The unloading rail track (train, tank car) or roadway (tank truck) driver must set the 
+handbrake, chock the wheels and perform the grounding of the truck before starting the 
+unloading. 
+ 
+5.8 
+Tank cars and tank trucks should be connected, unloaded, and disconnected in daylight, if 
+possible. Adequate lighting should be provided if these operations must be done when dark. 
+ 
+5.9 
+Before unloading, personnel should confirm the storage tank is properly vented, the vent 
+line is clear and open, and that the storage tank(s) will hold the entire contents to be 
+unloaded.      Before the unloading always test (activate) the safety shower and/or eye wash 
+unit to flush the lines in order to verify the condition of them. 
+ 
+5.10 Tank cars and tank trucks should be unloaded over an appropriately designed spill 
+containment area 
+ 
+5.11 The driver may make connection to the tank truck. Only an authorized person shall make 
+connection to company receiving connections and supervise the unloading into storage. 
+The tank truck driver may make both connections provided an authorized person is present 
+to identify, check and supervise the connection and unloading. In receiving areas where 
+more than one (1) chemical is stored, the tank connection shall be individually keyed with 
+locks having different keys. Connection to different chemical receiving systems shall be
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A5 v1 – 
+Chemical Unloading and 
+Loading 
+Appendix 5 
+Chemical Unloading 
+and Loading 
+Instructions 
+ 
+ 
+ 
+< Page 7 of 9 >
+  
+ 
+ 
+locked by separated keying arrangement. Due caution shall be made to prevent spills and 
+to assure that the receiving tank is not overfilled. Prior arrangements shall be made to 
+assure that inadvertent overflow is controlled without exposing employees. (As a best 
+environmental practice and /or required by jurisdiction protect storm or sewer drains.) 
+ 
+5.12 Wash off all spillage from the tank car or tank truck thoroughly with water before return to 
+sender. Wash water should be collected and properly disposed. 
+ 
+5.13 Upon completion of unloading, the receiving device or the enclosure shall be locked and the 
+key returned to its designated security location or other equivalent action be taken to secure 
+the chemical inventory. 
+ 
+5.14 Emergency personal protective equipment for the body, eyes, face, etc., and / or 
+appropriate respiratory gear shall be immediately available in case of emergency. 
+ 
+5.15 Proper storage and labelling is needed to minimize the hazards associated with accidentally 
+mixing incompatible chemicals. 
+ 
+ 
+ 
+6. 
+Charging bulk liquid chemicals and dry powder chemicals procedure 
+ 
+6.1 
+Charging of bulk liquid chemicals by rail track (tank car) or roadway (tank truck) or truck, 
+shall be coordinated by the trained and authorized department’s persons responsible for 
+sending out such goods. 
+E.g. of goods: used acids, contaminated (dirty) dry chemicals, unusable chemicals, .. 
+ 
+ 
+6.2 
+Prior to loading, the authorized person shall also check if the carrier and charging 
+equipment is fully in order before starting any loading operation. 
+ 
+6.3 
+Before loading, personnel should confirm the storage tank is properly vented and that the 
+storage tank(s) or containers will hold the entire contents to be loaded. 
+ 
+6.4 
+Concerning the charging procedure in the previews chapters ( 5.4; 5.5; 5.6; 5.7; 5.8 and 
+5.10 ) unloading becomes loading. 
+ 
+6.5 
+Concerning the charging procedure the previews chapters ( 5.11; 5.12; 5.13; 5.14 and 5.15 
+) remain unchanged. 
+ 
+ 
+7. 
+Pre-Delivery 
+ 
+Before delivery of new and actual chemical products and/or by a new and actual vendor / 
+suppliers in a chemical truck or tank, a Hazard Identification and Risk Assessment (HIRA) 
+should be made in corporation with the supplier to determine the necessary actions for a safe 
+unloading e.g.: weather conditions, grounding, approved material, ……. etc. 
+An update of the substances inventory must be done at all new chemicals deliveries on site.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A5 v1 – 
+Chemical Unloading and 
+Loading 
+Appendix 5 
+Chemical Unloading 
+and Loading 
+Instructions 
+ 
+ 
+ 
+< Page 8 of 9 >
+  
+ 
+ 
+For European sites, Purchasers/Suppliers/Customers have to be in compliance with REACH 
+regulation (pre-registration & registration numbers, process under strictly controlled 
+conditions…) 
+ 
+ 
+8. 
+ Training 
+ 
+8.1 
+Authorized persons responsible for the acceptance of potentially hazardous chemicals shall 
+have an understanding of the particular hazards associated with those chemicals 
+individually and in combination. 
+ 
+E.g.: Only unloading personnel who have been properly trained in the required safe 
+handling and first aid procedures for caustic soda solution should be assigned to caustic 
+soda solution service. 
+ 
+8.2 
+The written operating procedures for all unloaded chemical products and especially for 
+Calcium Carbide (CAC2) and Magnesium (Mg) have to be known by all the concerned staff, 
+contractors and truck drivers. A special training in these loading and unloading procedures 
+shall be realized. 
+ 
+8.3 
+Employees subject to exposure in the storage area requiring the use of respirators shall be 
+fitted for and trained in their use, all in accordance with AM Safety Standards. 
+ 
+8.4 
+Truck, forklift, .. drivers (ArcelorMittal and/or Contractor) should be declared competent for 
+transporting chemicals e.g. in Europe ADR drivers and ADR equipped vehicles. 
+ 
+8.5 
+Maintenance personnel should be trained to test and serviced all showers and eye wash 
+units in accordance with procedure or standard. Report missing, blocked or clogged 
+nozzles, improper water pressure (too low or too high), activation valve out of order, etc, 
+for corrective actions. 
+ 
+ 
+9. 
+Emergency procedures  
+ 
+ 
+Determine what type of chemical emergencies can happen on site. 
+ 
+ 
+Information as set out in the (M)SDS must be used during emergency drill exercises. 
+ 
+ 
+Written emergency evacuation plans and special first aid procedures have to be known and 
+practiced by all potentially affected employees.  
+ 
+ 
+Location of emergency showers and eye wash fountains demarcated and signposted. 
+ 
+ 
+Fellow employees must know how to assist and contact medical help whether they  work 
+directly with chemicals or not. If a fellow employee becomes contaminated while assisting an 
+injured worker, he or she may use the shower with the victim to flush the effected area.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A5 v1 – 
+Chemical Unloading and 
+Loading 
+Appendix 5 
+Chemical Unloading 
+and Loading 
+Instructions 
+ 
+ 
+ 
+< Page 9 of 9 >
+  
+ 
+ 
+ 
+Reporting of spillages: Spillages of chemicals must be reported for clean-up operations.  
+Preventative measures to be taken to minimise the risks of human exposure and release to 
+the environment (e.g. soil and water pollution). 
+ 
+ 
+ 
+10. 
+ATTACHMENTS and REFERENCE FORMS 
+The following incompatibility matrix and table contains examples of incompatible chemicals:  
+Chemical Incompatibility Matrix  
+  
+Acids, 
+Inorganic  
+Acids, 
+Oxidizing  
+Acids, 
+Organic 
+Alkalis 
+(Bases) 
+Oxidizers  Poisons, 
+inorganic  
+Poisons, 
+organic  
+Water 
+reactives  
+Organic 
+solvents  
+Acids, 
+Inorganic    
+  
+X  
+X  
+  
+X  
+X  
+X  
+X  
+Acids, 
+Oxidizing    
+  
+X  
+X  
+  
+X  
+X  
+X  
+X  
+Acids, 
+Organic  
+X  
+X  
+  
+X  
+X  
+X  
+X  
+X  
+  
+Alkalis 
+(Bases)  
+X  
+X  
+X  
+  
+  
+  
+X  
+X  
+X  
+Oxidizers    
+  
+X  
+  
+  
+  
+X  
+X  
+X  
+Poisons, 
+inorganic  
+X  
+X  
+X  
+  
+  
+  
+X  
+X  
+X  
+Poisons, 
+organic  
+X  
+X  
+X  
+X  
+X  
+X  
+  
+  
+  
+Water 
+reactives  
+X  
+X  
+X  
+X  
+X  
+X  
+  
+  
+  
+Organic 
+solvents  
+X  
+X  
+  
+X  
+X  
+X  
+  
+  
+  
+X = Not compatible – do not store together  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+---- End of Document ----

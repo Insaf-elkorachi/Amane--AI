@@ -1,0 +1,305 @@
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 003 A2 v2 
+Fix ladders 
+Appendix 2 
+Fixed Ladders 
+Instruction 
+ 
+ 
+ 
+ 
+< Page 1 of 8 > 
+  
+ 
+ 
+Document Information 
+Short description: Instructions for fixed ladders. 
+ 
+Scope: These instructions are applicable to all fixed ladders on the territory of ArcelorMittal facilities, 
+except for the ladders identified as emergency ladders, and used exclusively for emergency 
+purposes. 
+ 
+Business Owners: 
+Robin PAULMIER 
+Creation date (first version): 
+06/07/2022 
+Writer (prepared by): 
+Robin PAULMIER 
+Eduard BALUCH 
+Review date (new version): 
+19/09/2024 
+Reviewed by: 
+Eduard BALUCH 
+Implementation Date: 
+19/09/2024 
+ 
+Version History 
+ 
+Version 
+Date 
+Person 
+Description 
+1 
+06/07/2022 
+Robin PAULMIER 
+Review 
+2 
+19/09/2024 
+Eduard BALUCH 
+§ 2.2 “Increase the height limit for “fixed ladder” from 3m to 5m 
+ 
+Reference Documents 
+ 
+Reference or date 
+Title 
+AM Safety ST 003 
+(GPPM procedure) Working at Height 
+ 
+Validation 
+Validated by 
+Position 
+Validation date 
+Signature 
+Robin PAULMIER 
+Head Corporate Health and 
+Safety 
+19/09/2024 
+ 
+ 
+Approval
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 003 A2 v2 
+Fix ladders 
+Appendix 2 
+Fixed Ladders 
+Instruction 
+ 
+ 
+ 
+ 
+< Page 2 of 8 > 
+  
+ 
+ 
+Approved by 
+Position 
+Approval date 
+Signature 
+Bradley DAVEY 
+Head of Corporate Business 
+Optimization  
+19/09/2024
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 003 A2 v2 
+Fix ladders 
+Appendix 2 
+Fixed Ladders 
+Instruction 
+ 
+ 
+ 
+ 
+< Page 3 of 8 > 
+  
+ 
+ 
+1. Definitions:  
+ 
+A fixed ladder is a vertical ladder mounted permanently to a structure. These ladders are 
+primarily used to access roofs or other structures for industrial purposes. The fix ladder(s) 
+should be designed with two stiles. In exceptional cases (e.g., insufficient space), ladder(s) with 
+one central stile may be foreseen.  
+ 
+ 
+2. Requirements 
+ 
+Fixed ladders should comply with local legal regulations, as well as the below requirements. In 
+case of conflict, the local regulations prevail.  
+ 
+2.1 General requirements applicable to all fixed ladders  
+• 
+The use of fixed ladders is only permitted if the installation of a staircase is impossible or 
+not reasonable considering the very low frequency of use.  
+• 
+Certification of the ladder’s carrying capacity should be displayed on site. 
+ 
+2.2 Requirements specific to fixed ladders of lengths between 3000 and 5000 mm 
+• 
+for fixed ladders between 3 m and 5 m, it is mandatory that users clip alternatively on ladder 
+rungs with their double lanyard. This requirement must be indicated with a sign at the foot of 
+the ladder. 
+ 
+2.3 Requirements specific to fixed ladders with overall length ≥ 5000 mm  
+• 
+Ground access to the vertical ladder must be controlled.  
+• 
+User must have received a specific training for using fixed ladders.  
+• 
+User must wear a safety harness.
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 003 A2 v2 
+Fix ladders 
+Appendix 2 
+Fixed Ladders 
+Instruction 
+ 
+ 
+ 
+ 
+< Page 4 of 8 > 
+  
+ 
+ 
+• 
+Ladder should end above horizontal level to allow user’s body to be above the exit level. 
+• 
+Certified Anchor point(s) must be present at ladder’s entrance/exit accesses (when at 
+height), to guarantee a safe access to it.  
+• 
+A safety gate at ladder’s entrance/exit accesses (when at height) must prevent people to fall 
+inadvertently into the ladder.  
+• 
+When the ladder’s bottom part is landing on an elevated platform, the platform guardrail must be 
+vertically extended in front of the ladder, to prevent the person falling backward above the guardrail. 
+ 
+  
+ 
+ 
+And one of the following features:  
+ 
+• 
+Option A (preferred): a ladder-mounted fall arresting system (FAS), with a rail or cable 
+system, to which the user is connected through his frontal D-ring (safety harness must have 
+a frontal D-ring, preferably sternal). In case the climber uses a lanyard to connect to the rail 
+trolley or cable sleeve, it must be appropriate and short (length < 0.5 m) to minimize the 
+fall factor, always refer to the FAS manufacturer for selection and proper use. User must 
+carry an additional lanyard to perform transition between vertical axis (ladder) to the 
+anchor point’(s) at the ladder’s entrance/exit. FAS must be inspected by a competent 
+person on a yearly basis or less.   
+A ladder cage by itself (alone), is not considered as a FAS.
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 003 A2 v2 
+Fix ladders 
+Appendix 2 
+Fixed Ladders 
+Instruction 
+ 
+ 
+ 
+ 
+< Page 5 of 8 > 
+  
+ 
+ 
+Examples of rail FAS systems:
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 003 A2 v2 
+Fix ladders 
+Appendix 2 
+Fixed Ladders 
+Instruction 
+ 
+ 
+ 
+ 
+< Page 6 of 8 > 
+  
+ 
+ 
+Examples of cable FAS systems, usually cheaper than the rails systems:
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 003 A2 v2 
+Fix ladders 
+Appendix 2 
+Fixed Ladders 
+Instruction 
+ 
+ 
+ 
+ 
+< Page 7 of 8 > 
+  
+ 
+ 
+ 
+• 
+Option B: a self-retracted lifeline (SRL), connected to an anchorage point at the top of the fix ladder, 
+with a tag line (rope) to allow to grab it from the bottom of the ladder, and also to slowly let the cable 
+rewinding up itself when leaving from the bottom). User connects himself directly to the self-retracted 
+lifeline, using his safety harness dorsal or frontal D-Ring. In any case, user must carry a lanyard to 
+perform transition between vertical axis (ladder) to the anchor point’(s) at the ladder’s entrance/exit.  
+ 
+ 
+ 
+• 
+ Option C, by default, only allowed as a temporary solution while waiting for implementation of 
+option A or B, which has to be planned: a procedure, displayed at ladder’s entrance and exit, requiring 
+usage of a double lanyard, to connect alternatively to the ladder rungs while climbing/descending.
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 003 A2 v2 
+Fix ladders 
+Appendix 2 
+Fixed Ladders 
+Instruction 
+ 
+ 
+ 
+ 
+< Page 8 of 8 > 
+  
+ 
+ 
+Consideration on ladder cages: there has been wide recognition that cages do little to protect the worker 
+when they fall since it’s the worker’s body that arrests the fall. Cages lead to workers getting tangled up 
+in them after a fall, and they can make rescues quite difficult. They can mislead users to wrongly believe 
+that they will be protected from falling or make their fall less severe, which there is no evidence of. 
+ 
+ 
+Reminders:  
+• 
+for ladders shorter than 3m, if the person is above 1.8 m, there must be a fall protection 
+or prevention system, such as e.g., the ones described in options A, B, C above.  
+ 
+• 
+In all situations where a lanyard with shock absorbing system is 
+used, always check the manufacture’s report regarding fall factor 
+vs. shock absorbing system activation, in order to make sure the 
+available clearance is enough prevent hitting the ground or other 
+obstacles if the fall would happen. 
+ 
+ 
+3. Inventory & regular inspections: 
+ 
+ 
+An inventory and identification of all fix ladders must be carried out including the determination 
+of the ladder owner as well as the inspection status. 
+A competent person must inspect fix ladders for visible defects annually and after any incident 
+that could affect their safe use.  
+Inspection check lists or specific documents need to be recorded and kept at minimum over 2 
+inspection periods.   
+ 
+ 
+4. Training Requirements 
+ 
+ 
+Own employees as well as employees from service providers regularly involved in working at 
+height jobs must be trained to the appropriate use. Regular retraining must be considered. 
+ 
+ 
+---- End of Document ----

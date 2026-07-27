@@ -1,0 +1,1183 @@
+Standard Circulation
+SSS-002-A
+Sonasid Safety Standard
+Version
+Date 
+Motif de la révision 
+A
+31/03/2026
+Création du standard et ses annexes
+Standard Circulation
+SSS-002-A
+Sonasid Safety Standard
+Circulation
+Santé & Sécurité au Travail 
+Réf. doc : SSS-002-A
+SONASID SAFETY STANDARD
+Nom & Prénom
+Site
+Sokaina Elbouaazaoui
+SONASID Groupe
+Aymane Boubaouch
+SONASID NADOR
+Toufik Abdelilah
+Dounia ElAmine
+Yazid EL Jaouhari
+Mohamed Amine Bazar
+SONASID PFC & SIEGE
+Abdelghani Bouabdalli
+Mohamed Jouaoudi
+Mousab El Boustani
+Youssef Chraibi
+Ahmed Dannane
+LONGOMETAL
+ARMATURES
+Khadija Ifizig
+Abderrahmane ElKhder
+Nom & Prénom
+Site
+Aymane Grich
+SONASID JORF
+Yassine Ryouni
+Abdelkarim Omari
+Lahcen Benharouga
+Adnane Amraoui
+Faysal Nadori
+Imane Mtibat
+Wijdane Nouioura
+LONGOMETAL
+AFRIQUE
+Kamal El Azhari
+Hamza Jadoual
+Yassine Jaafari
+Thami Bentabete
+Abdelouahid Jeguad
+Résumé Exécutif: 
+ Le présent standard définit les exigences et obligations minimales du groupe SONASID relatives à
+la gestion des risques liés à la circulation. Il couvre les aspects techniques et réglementaires des
+véhicules et engins, la qualification et habilitation des chauffeurs et conducteurs ainsi que les
+aspects relatifs à l’infrastructure et à l’organisation des opérations au sein des sites et entités.
+ Il est, également, d’application obligatoires sur les entreprises externes opérant à l’intérieur du
+périmètre du groupe SONASID.
+« Nous exprimons notre gratitude aux contributeurs cités ci-dessous pour leur expertise et leur
+engagement dans l'élaboration de ce standard : »
+01/18
+1
+Risk
+2
+Culture
+3
+Gouvernance
+Sommaire 
+1. 
+Généralité 
+1.1
+1.2 
+1.3
+1.4
+Objectif 
+Domaine d’application
+Références
+Définitions et abréviations
+3. 
+Prescriptions et règles de gestion
+3.1
+3.2
+3.3
+3.4.
+3.4.1.
+3.4.2.
+3.4.3.
+3.4.4.
+3.4.5.
+3.4.6.
+3.4.7.
+3.4.8.
+3.4.9.
+3.4.10.
+3.4.11.
+3.4.12.
+3.4.13.
+3.5. 
+3.6.
+3.7.
+3.8.
+3.9.
+Achat et acquisition
+Formation et habilitation
+Accès des véhicules/engins
+Exploitation et utilisation
+          Identification et Inventaire des Véhicules et Engins
+          Plan de circulation
+           Voies de circulation et parkings     
+           Passages piétons    
+           Éclairage des voies et parkings
+          Vérifications avant démarrage 
+          Gestion des Clés
+          Gonflage des pneux
+          Ravitaillement en Carburant
+          Port de la Ceinture de Sécurité
+          Limitations de Vitesse
+          Téléphones Mobiles et Communications
+           Alcool, drogue, stupéfiants et médicaments somnifères
+Inspection, contrôle réglementaire et maintenance 
+Mise hors Service et Retrait 
+Situation d’urgence
+Audit et amélioration continue 
+Conservation et archivage
+2. 
+Rôles et responsabilités
+4. 
+Indicateurs de performance
+5. 
+Annexes
+02/18
+...............................................................................
+........................................................................
+..............................................................
+....................................................................
+................................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................
+...............................................................
+...............................................................
+..........................................................
+.......................................................................
+...................................................................
+.......................................
+.......................................................
+.........................................
+...........................
+............................................................................
+.....................................................
+..................................................
+...........................................................
+........................................................................
+................................................................................
+.............................................................
+.............................................................
+.......................................................
+.............................................................
+...................
+3
+3
+3
+3
+4
+6
+8
+8
+8
+9
+9
+9
+10
+11
+11
+12
+12
+12
+12
+13
+13
+13
+14
+14
+16
+16
+16
+16
+18
+18
+.....................................................
+9
+................................
+Circulation
+Santé & Sécurité au Travail 
+Réf. doc : SSS-002-A
+SONASID SAFETY STANDARD
+1
+Risk
+2
+Culture
+3
+Gouvernance
+  1 )  G E N E R A L I T E S
+1.2 Domaine d’application 
+Définir et harmoniser les exigences du groupe SONASID relatives à la circulation, et ce, à
+travers la mise en place de spécifications simples, claires et réalistes portant sur :
+L’infrastructure routière internes et les zones de circulation ;
+Les véhicules et engins ;
+Les chauffeurs et conducteurs;
+L'organisation et la gestion des données relatives à la circulation.
+Les exigences de ce standard s’appliquent à toutes les entités du Groupe Sonasid, y compris
+Nador, Jorf, le Port de Jorf, la PFC, le Siège, LMAr, LMAf toute entité gérée ou exploitée
+(Dépôts, plateformes, ateliers en location ou autres,...) par l’un de ces sites. et les entreprises
+externes travaillant pour son compte, relatives à la circulation à savoir :
+Prévenir et maitriser les accidents et incidents liés à la circulation.
+Améliorer l'efficacité opérationnelle et la conformité réglementaire.
+Le présent standard ne s'applique pas aux :
+Véhicules et engins de tiers externes tels que les transporteurs occasionnels non régis par
+un contrat cadre avec le groupe SONASID (transporteurs de ferrailles, transporteurs
+produits finis, livreurs des matières premières, consommables et équipements).
+Véhicules des visiteurs ;
+Grues de levage (couvertes par le standard manutention mécanique).
+Or, ceux-ci doivent satisfaire aux exigences minimales définis par le site d’intervention, à
+savoir :
+Le respect de la signalisation routière et les règles internes (vitesse limite, téléphone,
+ceinture de sécurité,...).
+La conformité technique et réglementaire de leurs véhicules et engins (Visite technique,
+assurance...).
+La conformité légale relative aux conducteurs et chauffeurs (Carte professionnelle, permis
+de conduire et l’aptitude physique,...).
+1.3 Références 
+1.1 Objectif
+FPS ArcelorMittal AM Safety ST 006;
+Convention sur la signalisation routière 0.741.20 (ratifiée par le Maroc le 29/12/1982)
+Code de la route en vigueur au Maroc (loi n° 52-05).
+Le présent standard a pour objectif de :
+Le personnel SONASID ayant la charge de conduire, opérer ou manœuvrer tout
+véhicule léger ou engin appartenant à SONASID.
+Les entreprises externes et leurs sous-traitants qui interviennent dans les sites du
+groupe SONASID dans le cadre d'un contrat de service ou d'un marché.
+03/18
+Circulation
+Santé & Sécurité au Travail 
+Réf. doc : SSS-002-A
+SONASID SAFETY STANDARD
+1
+Risk
+2
+Culture
+3
+Gouvernance
+Chauffeur : Personne autorisée et habilitée pour conduire un véhicule.
+Conducteur: Personne autorisée et habilitée pour conduire un engin.
+Transporteur externe : Tout transporteur non contractualisé assurant une opération de
+transport de marchandise au sein des sites du groupe SONASID (transporteurs de
+ferrailles, transporteurs produits finis, livreurs des matières premières, consommables
+et équipements)
+Entreprise externe : Toute entreprise extérieure assurant pour le compte du groupe
+SONASID des prestations impliquant la circulation via des contrats cadres ou des bons de
+commandes dans le cadre d’un projet.
+Engin : Tout équipement mobile roulant sur pneus ou sur chenilles (chariot élevateur,
+camions de chantier, engins de terrassement, pelle hydraulique, chargeuse, Dumper…)
+Véhicule : Tout équipement mobile roulant sur pneus pouvant circuler de manière
+autonome sur la voie publique, à savoir : Voiture de service/fonction, Transport du
+personnel, pick-up.
+Conduite défensive: L’application proactive de comportements, combinée à une
+évaluation constante des risques et à l’utilisation de compétences spécifiques par le
+conducteur, dans le but de prévenir tout type d’accident ou de perte de contrôle lors de
+l’utilisation d’un véhicule motorisé.
+Inspection : Vérification visuelle et fonctionnelle rapide et régulière effectuée par le
+chauffeur/conducteur avant, pendant ou après l'utilisation d'un véhicule/engin et par
+l’équipe de maintenance préventive. Son but est d'identifier immédiatement les défauts
+apparents ou les dysfonctionnements susceptibles de compromettre la sécurité ou la
+performance.
+Contrôle réglementaire : Vérification périodique et formelle, menée par un organisme
+agréé, visant à s'assurer de la conformité du véhicule/engin avec les exigences des lois,
+décrets et règlements nationaux en vigueur. Ce contrôle donne lieu à un rapport de
+conformité.
+Maintenance : Ensemble des opérations techniques et administratives, y compris les
+actions de surveillance, de réparation et de remplacement, destinées à maintenir ou à
+rétablir un véhicule/engin dans un état spécifié ou en mesure d'assurer un service
+déterminé. La maintenance se divise généralement en :
+Maintenance préventive : Opérations planifiées (ex. : vidange, révision) visant à réduire
+la probabilité de défaillance techniques et sécuritaires d’un véhicule/engin.
+Maintenance corrective : Opérations effectuées après la défaillance d'un véhicule/engin
+pour le rétablir en état de fonctionnement technique et sécuritaire.
+Mise hors service: Le retrait temporaire d'un véhicule/engin pour des raisons légales,
+techniques ou sécuritaires en attendant les réparations nécessaires.
+Retrait: Déclassement définitif d'un véhicule/engin pour cause de vétusté, de non-
+conformité ou de dommages irréparables. Il est alors retiré de l'inventaire de
+l'entreprise.
+1.4 Définitions & Abréviations 
+1.4.1. Défintions
+04/18
+Circulation
+Santé & Sécurité au Travail 
+Réf. doc : SSS-002-A
+SONASID SAFETY STANDARD
+1
+Risk
+2
+Culture
+3
+Gouvernance
+1.4.2. Abréviations
+SST: Santé et Sécurité au Travail.
+FPS: Fatality Prevention Standard.
+ABS : Système de freinage antiblocage. 
+ESP : Contrôle électronique de stabilité. 
+GPS : Système de positionnement global.
+AM: ArcelorMittal.
+SSS: Sonasid Safety Standard.
+HIRA: Hazard Identification and Risk
+Assessment.
+SOP: Standard Operating Procedure.
+05/18
+Circulation
+Santé & Sécurité au Travail 
+Réf. doc : SSS-002-A
+SONASID SAFETY STANDARD
+1
+Risk
+2
+Culture
+3
+Gouvernance
+  2 )  R O L E S  &  R E S P O N S A B I L I T E S
+Direction Ressources Humaines
+Directeur Général
+Direction achats
+S'assurer que toutes les exigences en matière de Santé et Sécurité au Travail (SST) sont
+systématiquement intégrées dans les cahiers des charges pour l'acquisition ou la location
+de tout véhicule/engin.
+Veiller à ce que les fournisseurs et prestataires s'engagent formellement à respecter les
+exigences de sécurité et à fournir des services conformes au présent standard.
+Concevoir et formaliser les plans de formation nécessaires pour le personnel intervenant
+dans les opérations de conduite de véhicules/engins, en lien avec les exigences du standard
+et les besoins identifiés (par exemple : permis, habilitations, sécurité routière).
+Coordonner, superviser et s'assurer de la bonne exécution des plans de formation, incluant
+l'évaluation de leur efficacité et la tenue à jour des registres de formation et d’habilitation.
+Allouer les ressources nécessaires (financières, humaines, matérielles) pour l'application
+effective du standard;
+S'assurer que le présent standard est appliqué et respecté de manière effective dans
+l'ensemble de son périmètre de responsabilité.
+Direction Supply Chain
+Intégrer les exigences du présent standard en matière de Santé et Sécurité au Travail
+(SST) dans les cahiers des charges et contrats avec les prestataires de transport. 
+Assurer la conformité des prestations de service de transport et logistique conformément
+au présent standard.
+Direction SST
+Assurer la révision et la mise à jour régulières du présent standard pour intégrer les
+évolutions réglementaires, les meilleures pratiques et les retours d'expérience en matière
+de circulation.
+Fournir l'expertise et l'accompagnement nécessaire aux équipes SST et aux opérationnelles
+pour une meilleure application.
+S'assurer de l'application et du respect effectif de ce standard par l'ensemble des sites.
+Capitaliser et diffuser les leçons apprises et les bonnes pratiques issues des opérations de
+conduite pour renforcer la culture de sécurité.
+Directeur du site 
+S'assurer que les dispositions du présent standard et les exigences réglementaires
+applicables sont entièrement respectées sur son site.
+Approuver les titres d'habilitation nécessaires pour tout le personnel concerné par la
+conduite de véhicules/engins, afin de garantir leur aptitude et leur compétence à opérer
+en toute sécurité.
+06/18
+Circulation
+Santé & Sécurité au Travail 
+Réf. doc : SSS-002-A
+SONASID SAFETY STANDARD
+1
+Risk
+2
+Culture
+3
+Gouvernance
+Pilote FPS
+SST Site  
+Offrir un support technique et un accompagnement continu aux collaborateurs et aux
+autres acteurs sur tous les aspects SST liés à la circulation.
+Contrôler et surveiller l’adéquation des compétences et des habilitations des chauffeurs
+et conducteurs.
+Effectuer des audits réguliers pour évaluer la conformité au standard.
+Planifier les exercices de Situation d'Urgence (SU) spécifiques à la conduite et aux engins,
+et en assurer le suivi d'exécution et l'analyse des retours.
+Identifier les axes d'amélioration et remonter les propositions d’amélioration du
+standard.
+Définir, documenter et gérer la procédure d'accès pour les véhicules externes, incluant
+l'enregistrement et l'utilisation des badges, portails et barrières automatiques.
+Former et assurer la diffusion des connaissances en organisant et en dispensant les
+formations nécessaires au personnel concerné.
+Participer à l’élaboration et la mise à jour du présent standard.
+Garantir l’élaboration, l’actualisation et la communication du plan de circulation de son
+périmètre.
+Participer activement au développement et à la révision des analyses des risques (HIRA)
+spécifiques à la circulation.
+Organiser et réaliser les exercices de Situation d'Urgence (SU) liés à la conduite/engins, en
+étroite coordination avec le SST Site.
+Organiser et mener des évaluations de conformité de son périmètre par rapport au présent
+standard ,et suivre la mise en œuvre des actions d’amélioration.
+Conducteur / Chauffeur
+Respecter scrupuleusement le Code de la route et les règles de circulation internes du site.
+Effectuer une inspection quotidienne de son véhicule/engin avant chaque utilisation.
+Arrêter le véhicule/engin et signaler immédiatement toute anomalie, panne ou dommage à
+son supérieur hiérarchique.
+Maintenir son permis de conduire à jour (si applicale par la réglementation et posséder
+toutes les habilitations nécessaires à la conduite de son engin.
+Conducteur de Mini-Bus (Transport du Personnel)
+Garantir la sécurité absolue du personnel (ceintures de sécurité bouclées, capacité
+maximale respectée). Adopter une conduite défensive, sans distraction, et utiliser
+uniquement les arrêts désignés pour l'embarquement et le débarquement.
+Détenir le Permis de Conduire approprié (Catégorie D si nécessaire) et respecter
+strictement l'ensemble des règles du Standard de Circulation du site (vitesse, signalisation,
+etc.) et des législations routières en vigueur.
+Effectuer une inspection pré-opérationnelle complète du mini-bus selon  l’annexe SSS-002-
+04: (niveaux, pneus, éclairage, feux de détresse, équipements de sécurité) avant chaque
+prise de poste, et signaler immédiatement toute anomalie technique ou danger.
+07/18
+Circulation
+Santé & Sécurité au Travail 
+Réf. doc : SSS-002-A
+SONASID SAFETY STANDARD
+1
+Risk
+2
+Culture
+3
+Gouvernance
+  3 ) P R E S C R I P T I O N S  &  R E G L E S  D E  G E S T I O N
+3.1 Achat et Acquisition
+Tout achat de véhicules/engins ainsi que toute prestation de service impliquant des
+aspects liés à la circulation doivent respecter les exigences de l’annexe SSS-002-01.
+La responsabilité d’intégrer les exigences de l’annexe SSS-002-01 revient au demandeur
+qui doit les inclure dans son expression de besoin (Cahier des charges, appel d’offres, …).
+Néanmoins, la fonction achat a l’obligation de contrôler la bonne intégration des
+exigences de l’annexe SSS-002-01 dans l’expression de besoin.
+Le demandeur en collaboration avec l’équipe SST doivent vérifier à la réception la
+conformité des véhicules/Engins nouvellement achetés (achat) ou mis à la disposition du
+site (prestation). Cette vérification doit inclure la présentation obligatoire du certificat de
+conformité constructeur, attestant que l'équipement respecte les normes et
+spécifications de sécurité en vigueur.
+En cas de prestation par entreprise externe incluant des véhicules/engins avec
+conducteur, ces derniers doivent satisfaire aux exigences du paragraphe 4.5 Formation,
+qualification et habilitation.
+3.2. Formation et habilitation
+Aucune personne n'est autorisée à conduire ou à opérer un véhicule/engin sans habilitation
+portant sur le type d’engin/véhicule en question. La correspondance exacte entre la
+catégorie d'engin/véhicule (léger, lourd, spécifique) et les Permis de Conduire requis (B, C,
+D) est explicitée dans la matrice de l'Annexe SSS-002-05.
+L’habilitation délivrée doit être basée sur:
+Toute personne habilitée doit impérativement avoir son titre d'habilitation disponible à
+tout moment;
+La Direction RH doit établir un plan de formation rigoureux, basé sur le contenu détaillé en
+Annexe Réf SSS-002-06, et s'assurer de son strict respect;
+Un registre des titres d'habilitations doit être tenu à jour et conservé par l'équipe SST, et
+être disponible en permanence.
+Aptitude Physique délivrée par le Medecin de travail valide dans la durée fixée
+par le standard gestion des habilitations Réf SSS-014.
+Formation spécifique au domaine de l’habilitation en question réalisée en
+interne et/ou en externe selon la fréquence définie dans le cadre du standard
+gestion des habilitations Réf SSS-014.
+08/18
+Circulation
+Santé & Sécurité au Travail 
+Réf. doc : SSS-002-A
+SONASID SAFETY STANDARD
+1
+Risk
+2
+Culture
+3
+Gouvernance
+3.3. Accès des véhicules/engins
+Tout engin qui accède au site doit répondre aux exigences ci-après : 
+Avoir les documents réglementaires obligatoires avec un statut valide (Assurance,
+Visite technique, permis du conducteur).
+Permis du conducteur/chauffeur valide pour les transporteurs.
+Permis de conduire et Habilitations valides pour les chauffeurs/conducteurs internes
+et ceux des entreprises externes.
+Accueil SST détaillé pour les chauffeurs/conducteurs internes et ceux des
+entreprises externes.
+Check list d’accès engin/véhicule valide.
+Tout véhicule/engin présentant des dysfonctionnements ou des écarts légaux,
+techniques ou sécuritaires ne doivent pas accéder aux sites du Groupe Sonasid.
+L'accès et la circulation des trottinettes électriques sont strictement interdits sur
+l'ensemble du site, y compris les zones de parking et les voies de circulation.
+L'accès des véhicules de visiteurs est subordonné à la validation d'un formulaire d'accès
+spécifique quand la politique de sûreté du Site l’exige.
+Le port du casque de sécurité est obligatoire pour la circulation des motos et des vélos
+sur l'ensemble du site.
+3.4. Exploitation et utilisation   
+3.4.1. Identification et Inventaire des Véhicules/Engins
+Chaque engin doit porter un identifiant unique et visible des différents cotés possible.
+Chaque engin/véhicule (SONASID ou entreprise externe) entrant au site, doit être identifié
+et intégré au niveau de l’inventaire susmentionné.
+La méthode d’identification reste au choix du site (Exemple : Nom d’entreprise + chiffre :
+SONASID_01).
+Le Pilote FPS est responsable de l'établissement et de l'actualisation d'un inventaire
+exhaustif de tous les véhicules/engins relevant du champ d'application du présent standard
+dans son périmètre.
+Cet inventaire (Annexe SSS-002-02) doit inclure des informations essentielles telles que le
+type d'équipement, son numéro d'identification unique, sa localisation principale, et toute
+caractéristique pertinente pour son exploitation sécurisée et réglementaire.
+3.4.2. Plan de circulation
+Chaque site doit concevoir, mettre à jour, communiquer et afficher sur la base d’une
+analyse des risques HIRA approfondie, un plan de circulation clair, visible et lisible.
+Le plan doit être régulièrement révisé et mis à jour par le pilote FPS, à la suite de toute
+modification du trafic, des infrastructures ou des incidents/accidents. 
+De plus, le Plan de Circulation doit faire l'objet d'une revue systématique au moins
+annuellement et, de manière immédiate, après la survenue de tout incident majeur de
+circulation.
+a. Contenu Essentiel du Plan
+09/18
+Circulation
+Santé & Sécurité au Travail 
+Réf. doc : SSS-002-A
+SONASID SAFETY STANDARD
+1
+Risk
+2
+Culture
+3
+Gouvernance
+Le plan doit inclure au minimum :
+Signalisation routière : Vitesse limite, Interdit, Sens, ….etc.
+Règle des priorités : Trains --> Engins --> Véhicules légers --> Moto --> Piétons.
+Parkings engin/véhicule
+Parking & Accès Ambulance
+Passage et chemins des piétons
+Séparation des flux.
+b. Affichage et Communication
+Le plan doit être affiché visiblement à l'entrée du site et aux points critiques, il peut être
+dynamique ou statique.
+Il doit être communiqué et expliqué à tout le personnel, contractants et visiteurs dans le
+cadre du processus de leur intégration.
+Le plan de circulation doit être conçu et mis en place suivant les règles de l’art et les
+normes en vigueur par des entités compétentes en la matière.
+Les voies de circulation doivent être conçues et entretenues pour garantir la sécurité des
+déplacements. À ce titre, un contrôle d'état annuel systématique doit être réalisé, couvrant
+l'intégrité du revêtement, la conformité de la signalisation (horizontale et verticale) et
+l'efficacité de l'éclairage.
+Les parkings doivent être clairement délimités, signalés et suffisamment dimensionnés pour
+le type de véhicules qui y stationnent.
+Une attention particulière doit être portée à la séparation des flux entre piétons et
+véhicules, en créant des voies piétonnes dédiées et matérialisées chaque fois que cela est
+possible. De plus, il est exigé la mise en place d'une séparation physique (telle que des
+barrières ou des potelets) dans les zones où la circulation d'engins lourds se fait à proximité
+immédiate des voies piétonnes, afin de garantir une ségrégation efficace des flux.
+Tous les panneaux de signalisation verticaux doivent respecter les dimensions normalisées
+et être implantés à une hauteur minimale de 2,10 mètres au-dessus du sol. Cette hauteur
+est exigée pour garantir la visibilité et prévenir les obstacles pour les piétons.
+Le stationnement doit être effectué en position "prête au départ", c'est-à-dire en marche
+arrière, de manière à permettre au conducteur de quitter sa place en marche avant,
+augmentant ainsi la visibilité et la sécurité.
+Les parkings doivent être aménagés avec des zones distinctes et signalées pour les
+différents types de véhicules. Les voitures, les motos et les vélos doivent avoir des places de
+stationnement dédiées, clairement séparées les unes des autres.
+Il est strictement interdit de stationner en dehors des emplacements matérialisés, sur les
+passages piétons, les voies d'accès ou les voies de circulation.
+Chaque Responsable de zone doit réaliser des vérifications systématiques de l'état de
+l'infrastructure, de l'éclairage, de la signalisation et des miroirs panoramiques afin de
+garantir en permanence un environnement de travail sécurisé.
+3.4.3. Voies de circulation et parkings
+10/18
+Circulation
+Santé & Sécurité au Travail 
+Réf. doc : SSS-002-A
+SONASID SAFETY STANDARD
+1
+Risk
+2
+Culture
+3
+Gouvernance
+3.4.4. Passages piétons
+Les passages piétons sont des zones dédiées à la circulation sécurisée du personnel à pied et
+doivent être traités comme une priorité.
+Marquage et visibilité : 
+Le marquage standard des passages piétons doit être réalisé en Jaune Vif ou Jaune
+Fluorescent pour un contraste maximal et doit être entretenu régulièrement.
+La couleur Rouge est strictement réservée à la matérialisation des zones de danger
+extrême, notamment aux intersections où la circulation d'engins lourds est critique
+et exige une vigilance absolue de la part du piéton et de l'opérateur.
+Chaque passage piéton doit être signalé par des panneaux verticaux à une hauteur
+minimale de 2,10 mètres au-dessus du sol pour garantir la visibilité et éviter tout
+obstacle pour les piétons.
+L'installation de ralentisseurs est recommandée dans les zones à risque et à
+l'approche immédiate des traversées.
+Exigences de Sécurité :
+Un éclairage adéquat est crucial pour la sécurité.
+Chaque site doit définir ses exigences en fonction de la catégorie des voies. L'éclairage doit
+respecter les valeurs d'éclairement minimales (lux) documentées par zone, par exemple :
+                  -Voies principales : Minimum 20 Lux
+                  -Zones de chargement : Minimum 50 Lux
+                  -Parkings : Minimum 10 Lux
+3.4.5. Éclairage des voies et parkings
+Les exigences de dimensions suivantes doivent être appliquées dans la limite du
+possible selon les contraintes du site :
+Les bandes de marquage au sol doivent avoir une largeur de 0,50 mètre.
+La longueur minimale du passage est fixée à 2,5 mètres.
+L'espacement entre les bandes doit être compris entre 0,50 et 0,80 mètre.
+Dimensions : 
+L'éclairage doit couvrir les entrées/sorties, le voisinage des bâtiments, les parkings fixes,
+et tout point dangereux identifié. L'utilisation de sources d'énergie renouvelable est
+fortement recommandée.
+Il est fortement recommandé d'utiliser des sources d'énergie renouvelable, comme des
+panneaux solaires, pour l'éclairage extérieur.
+11/18
+Circulation
+Santé & Sécurité au Travail 
+Réf. doc : SSS-002-A
+SONASID SAFETY STANDARD
+Largeur bande : 0,5 m
+Longeur bande : 2,5 m
+Espace entre bandes :
+0,5 m - 0,8 m
+1
+Risk
+2
+Culture
+3
+Gouvernance
+3.4.6. Vérifications avant démarrage 
+Le véhicule/engin doit impérativement être apte à l'usage prévu et maintenu en parfait état
+de fonctionnement et de sécurité, conformément aux spécifications du fabricant et aux
+exigences légales applicables.
+Avant toute utilisation et à chaque début de poste, le conducteur doit vérifier et remplir la
+checklist de son engin (SSS-002-03).
+L’agent bureau de méthode (ou à défaut son équivalent) doit récupérer les check lists des
+engins/véhicules et consolider les retours associés sur le système de la GMAO (SAP, ou
+autre) alimentant ainsi le registre de vie pour chaque engin/véhicule.
+3.4.9. Ravitaillement en Carburant
+Toute opération de ravitaillement doit être couverte par un Mode Opératoire issu d'une
+Analyse des Risques (HIRA).
+Le ravitaillement ou le transfert de carburant par l'utilisation de bidons ou de récipients
+non certifiés et non conformes est strictement interdit sur le site.
+Le ravitaillement en carburant d'un véhicule exige l'arrêt impératif du moteur et le
+respect strict de toutes les signalisations d'avertissement affichées.
+Pour les engins qui reçoivent leur ravitaillement sur place, il doit y avoir un endroit
+sécurisé pour les alimenter.
+Durant les opérations de ravitaillement, le conducteur et l’agent en charge du
+ravitaillement doivent se trouver sur place dans une position assurant leur propre sécurité
+en premier lieu.
+3.4.8. Gonflage des pneux
+Le gonflage des pneus des engins représente un risque critique (éclatement) et nécessite le
+développement obligatoire d'un Mode Opératoire Opérationnel Sécuritaire basée sur une
+Analyse des Risques (HIRA) documentée par chaque site.
+L'opération doit être réalisée uniquement par du personnel qualifié et formé, utilisant des
+équipements appropriés, vérifiés périodiquement et munis de dispositifs de sécurité
+(système à distance ou cage anti-éclatement).
+3.4.7. Gestion des clés
+Un système rigoureux de gestion des clés (ex : tableau sécurisé avec registre ou attribution
+nominative) est obligatoire pour garantir la traçabilité totale de l'utilisateur. La délivrance
+des clés est strictement limitée au personnel titulaire de l'Autorisation de Conduite valide
+pour l'engin concerné.
+Il est formellement interdit de laisser les clés sur le contact d'un engin à l'arrêt ou sans
+surveillance.
+12/18
+Circulation
+Santé & Sécurité au Travail 
+Réf. doc : SSS-002-A
+SONASID SAFETY STANDARD
+1
+Risk
+2
+Culture
+3
+Gouvernance
+3.4.10. Port de la Ceinture de Sécurité
+Le port de la ceinture sécurité est obligatoire pour les conducteurs d'engins, les
+chauffeurs des véhicules et tout passager au sein de l’engin/véhicule ainsi que pour les
+transporteurs et visiteurs qui rentrent au site quel que soit la raison.
+L'utilisation de tout engin/véhicule doit être conditionnée par le bon fonctionnement d'un
+système d'alerte sonore (type "ceinture non bouclée"). Ce dispositif est obligatoire et doit
+dissuader toute utilisation sans port effectif de la ceinture de sécurité.
+Il doit y avoir des panneaux de signalisation « Port ceinture obligatoire » à l’entrée du site
+(par exemple dans le plan de circulation) et dans tous les autres périmètres du site.
+Si le port de la ceinture sécurité constitue un obstacle pour une évacuation ou une
+intervention d’urgence, l’engin doit disposer d’un dispositif spécifique et adapté dit «
+coupe ceinture » permettant le cisaillement de la ceinture en cas de besoin.
+Les conducteurs ne doivent pas démarrer le véhicule/engin tant que tous les passagers
+n’ont pas tous mis leur ceinture.
+3.4.12. Téléphones Mobiles et Communications
+Il est strictement interdit d’utiliser, d’initier ou d'engager des appels téléphoniques, des
+communications mobiles ou toute autre activités associées pendant la conduite. Cela
+inclut l'envoi de SMS, la consultation de la boîte email ou la consultation des réseaux
+sociaux et l’utilisation des écouteurs, casques.
+Le conducteur/chauffeur doit quitter la route en toute sécurité et immobiliser
+complètement le véhicule dans un endroit sûr avant d'initier ou de répondre à un appel
+ou un message (sms ; email, ….etc.).
+3.4.11. Limitations de Vitesse
+En aucun cas, la vitesse limite à l’intérieur des sites du groupe Sonasid ne doit dépasser 30
+Km/h pour les véhicules légers et 20 Km/h pour les engins.
+Tous les conducteurs et opérateurs doivent respecter scrupuleusement les limitations de
+vitesse spécifiques à chaque zone opérationnelle. Ces vitesses, déterminées en fonction
+des risques locaux, sont intégrées et documentées dans le Plan de Circulation du site.
+Le site doit mettre en place une signalisation claire et visible de la vitesse limite à
+l’intérieur du site et dans chaque zone de circulation répondant aux normes en vigueur de
+la signalisation routière.
+Les conducteurs/chauffeurs doivent impérativement respecter toutes les limitations de
+vitesse en vigueur, qu'elles soient légales, variables ou temporaires (zones de travaux
+routiers, limitations sur site, etc.).
+Les conducteurs/chauffeurs ont l’obligation d’adapter leur vitesse en fonction des
+conditions routières et environnementales (par exemple : routes sinueuses, inconnues,
+conditions météorologiques défavorables, visibilité réduite, forte activité des piétons ou
+présence animale).
+13/18
+Circulation
+Santé & Sécurité au Travail 
+Réf. doc : SSS-002-A
+SONASID SAFETY STANDARD
+1
+Risk
+2
+Culture
+3
+Gouvernance
+3.4.13. Alcool, drogue, stupéfiants et médicaments somnifères
+Il est strictement interdit de fumer à l’intérieur de tout véhicule ou engin de SONASID.
+Nul n'est autorisé à conduire un engin/véhicule, au sein ou pour le compte, du Groupe
+Sonasid sous l'influence de drogues, d'alcool, de stupéfiants ou de médicaments
+somnifères susceptibles d'altérer sa capacité à conduire en toute sécurité.
+« Tolérance Zéro » concernant les infractions, notamment celles liées aux drogues et à
+l'alcool. Toute violation de la politique de l'entreprise en matière d'alcool et de drogues
+entraînera des mesures disciplinaires.
+Des contrôles de dépistage des conducteurs/chauffeurs doivent être effectués de manière
+aléatoire, inopinée et à fréquence régulière dont le minimum est deux fois par ans à
+l’accès de chaque site. 
+Ce contrôle sous forme d'alcootest doit être réalisé par l’équipe de Médecine de Travail,
+avec une communication synthétique des résultats de chaque session de contrôle
+(Nombre de contrôles réalisés vs Nombre de contrôles positives par entreprise sans
+indication des noms) à la direction site, direction SST et SS Sites. La confidentialité des
+résultats doit être assurée. 
+Pour assurer la fiabilité des contrôles, l'étalonnage systématique des appareils de test et
+une procédure claire d'utilisation sont obligatoires.
+Toute personne testée positive ne doit pas rejoindre son poste de travail et doit
+bénéficier d'un accompagnement psychologique par l’équipe Médecine de Travail. En cas
+de récidive, le processus disciplinaire peut être enclenché conformément aux dispositions
+réglementaire en vigueur par l’entité RH. 
+Le site doit établir une procédure spécifique pour la gestion de ces contrôles (rôles,
+fréquence, cas positifs, enregistrement).
+3.5 Inspection, contrôle réglementaire et maintenance  
+Chaque engin doit être inspecté par son conducteur à chaque début de poste en
+utilisant la check list spécifique au type d’engin.
+Un registre (au moins double souches) des checklists d’inspection doit être présent en
+permanence dans chaque engin.
+Chaque engin doit être inspecté par l’entité bureau des méthodes (ou à défaut son
+équivalent) suivant les fréquences définies sur leur plans de maintenance.
+Les résultats de l’inspection faite par le conducteur et le visiteur bureau des méthodes
+(ou son équivalent) doivent être collectés, enregistrés, analysés et traités par l’entité
+bureau des méthodes (ou à défaut son équivalent).
+3.5.1. Inspestion
+14/18
+Circulation
+Santé & Sécurité au Travail 
+Réf. doc : SSS-002-A
+SONASID SAFETY STANDARD
+1
+Risk
+2
+Culture
+3
+Gouvernance
+Les engins/Véhicules sous la propriété de SONASID ainsi que ceux appartenant aux
+entreprises externes, doivent subir les contrôles réglementaires périodiques exigés par
+la réglementation en vigueur.
+L’entité bureau des méthodes (ou à défaut son équivalent), est chargée de la
+planification, du suivi et la conservation des preuves des contrôles réglementaires
+(internes et entreprises externes).
+Les chargés de travaux des entreprises externes doivent garantir et démontrer le respect
+des contrôles réglementaires applicables aux véhicules et engins qu'ils exploitent sur le
+site.
+Un nouveau contrôle est également requis après tout changement d'élément critique ou
+suite à un accident ayant pu impacter la sécurité de l'engin/véhicule.
+Les organismes de contrôle réglementaire doivent être agréés par l'État.
+3.5.2. Contrôle réglementaire
+Tout engin/véhicule doit faire l’objet d’un plan de maintenance auprès de l’entité
+bureau des méthodes (ou à défaut son équivalent).
+Ce plan de maintenance doit prendre en considération :
+Un historique de maintenance des engins détaillé doit être tenu pour chaque
+équipement au prêt des entités Maintenance et Bureau des méthodes.
+Les engins/véhicules objet des entretiens et réparations doivent répondre aux exigences
+du standard de consignation/déconsignation durant les opérations de leur entretien et
+maintenance.
+Le service de maintenance doit mettre en place et respecter, sur la base d’une analyse
+HIRA, un mode opératoire (SOP) pour l'entretien et la maintenance des roues et des
+pneus. Une installation solide et efficace doit être mise en place dans chaque atelier de
+maintenance engin/véhicule pour prévenir tout risque associé à ce type d'énergie.
+Les entreprises externes peuvent effectuer les opérations de maintenance de premiers
+niveau de leurs engins sur Site tout en prenant les dispositions de Sécurité nécessaires (
+On the Job, SOP, HIRA ...).
+Pour les opérations de maintenance autres que celles du premier niveau à effectuer par
+les entreprises externes à l’intérieur des Sites du Groupe de SONASID, une autorisation
+de Travail est obligatoire délivrée par le Chargé des Travaux et le Responsable de zone
+selon le Standard SSS-019.
+Le retour d’un véhicule ou engin après une maintenance externe est conditionné par la
+fourniture du rapport d’intervention détaillé et par sa validation par l’exploitant
+SONASID avant toute reprise d’activité sur le site.
+ Les recommandations du dossier technique ;
+ Les entretiens réguliers, les inspections approfondies périodiques et
+les remplacements préventifs des pièces d’usure.
+3.5.3. Maintenance 
+15/18
+Circulation
+Santé & Sécurité au Travail 
+Réf. doc : SSS-002-A
+SONASID SAFETY STANDARD
+1
+Risk
+2
+Culture
+3
+Gouvernance
+3.6. Mise hors Service et Retrait 
+Tout engin/véhicule doit être immédiatement mis à l'arrêt, consigné et signalé à la
+hiérarchie pour remise en conformité s'il présente un dysfonctionnement critique
+(identifié via la check-list), une non-conformité issue d'un contrôle réglementaire, ou un
+état de conformité détérioré justifiant son retrait. L'équipement retiré doit être isolé,
+consigné et impérativement signalé par la mention « À ne pas Utiliser ».
+La responsabilité de mise hors service et de retrait d’un engin/véhicule revient à l’entité
+qui l’exploite. L’entité maintenance et celle du Bureau des méthodes ont la
+responsabilité d’informer et de bloquer les mises en exploitation de tout engin/véhicule
+objet de non-conformité légale, technique et/ou sécuritaire.
+Le circuit d'information hiérarchique est obligatoire en cas de mise hors service
+immédiate pour non-conformité ou dangerosité avérée : Maintenance → SST →
+Direction.
+3.7. Situation d’urgence
+Pour une bonne gestion des situations d’urgences relatives à la circulation, Il doit y avoir au sein
+de chaque site : 
+Une liste de toutes les situations d’urgence relatives à la circulation sur la base d’une
+analyse des risques HIRA.
+Des scénarios d’urgence et d’intervention pour l’ensemble des situations d’urgence
+identifiées.
+Un planning de simulation des situations d'urgence relative à la circulation étalé sur un
+cycle de 3 ans.
+Rapports à l’issue de chaque exercice de simulation.
+Un suivi des actions et points d’amélioration issus des exercices de simulation. 
+3.8. Audit et amélioration continue 
+Un plan d'audit doit être établi en parfaite conformité avec les exigences du standard
+Audit et Amélioration Continue SSS.010;
+L'auditeur doit impérativement utiliser l'outil checklist SSSA-002-01, lequel constitue la
+référence officielle pour assurer la rigueur et l'exhaustivité de l'évaluation;
+Les écarts, les non-conformités et les retours d'expérience serviront de base pour une
+amélioration continue de la sécurité des opérations de manutention et une adaptation
+aux nouvelles exigences ou technologies.
+3.9. Conservation et archivage
+Une gestion rigoureuse des documents est essentielle pour la traçabilité, la conformité et
+l'amélioration continue du présent Standard;
+Tous les documents relatifs à ce standard doivent être conservés de manière à garantir leur
+intégrité, disponibilité et lisibilité. Cela inclut les rapports d'inspection, certificats, plans de
+maintenance, HIRA, registres d'habilitations, rapports d'audit et de simulation, ...;
+L'archivage sécurisé (physique ou numérique) doit permettre un accès aisé et rapide,
+contribuant à la maîtrise des risques et à l'amélioration constante de la sécurité.
+Le tableau suivant résume l'ensemble des documents clés à conserver, organisés par
+catégorie et par responsable:
+16/18
+Circulation
+Santé & Sécurité au Travail 
+Réf. doc : SSS-002-A
+SONASID SAFETY STANDARD
+1
+Risk
+2
+Culture
+3
+Gouvernance
+Documents clés
+Conservés par
+Enregistrements d'achat & d'acquisition d'engin/véhicule
+Matrice des exigences SST relatives à l'achat
+Descriptif d'achat engin/véhicule (cahier des charges)
+Direction des Achats
+Enregistrements relatifs à l'aptitude physique
+Liste de présence aux formations
+Supports de formation
+Tests de fin de formation
+Rapports de formation
+Registres de formation et d'habilitation (permis, CACES)
+Direction RH
+Rapports d'audits du standard
+Plan de circulation
+Registre des habilitations
+Rapports de réception de l'engin/véhicule
+Suivi du plan d’actions lié à la circulation (incident, simulation,...)
+Direction SST / SST Site
+Plan de circulation
+Liste d’inventaire véhicules/Engins du Site
+Enregistrements relatifs à la formation, à l'aptitude et à l'habilitation
+Registres de formation et d'habilitation (permis, CACES)
+Pilote FPS
+Rapports de maintenance préventive et corrective
+L’historique de maintenance des véhicules/engins
+Service de Maintenance
+Rapports des contrôles réglementaires 
+Certificats de conformité technique
+Check lists d'inspection 
+Dossier du constructeur
+Bureau des Méthodes
+La durée de conservation des documents doit être conforme à la réglementation en vigueur, et
+chaque site est tenu de développer sa propre procédure interne pour organiser la gestion et la
+sécurisation de son archivage.
+17/18
+Circulation
+Santé & Sécurité au Travail 
+Réf. doc : SSS-002-A
+SONASID SAFETY STANDARD
+1
+Risk
+2
+Culture
+3
+Gouvernance
+  4 ) I N D I C A T E U R S  D E  P E R F O R M A N C E
+  5 ) A N N E X E S
+Les indicateurs de performance ci-après sont à consolider au sein de chaque site au niveau
+du SST Site. 
+Chaque site peut établir et suivre d’autres indicateurs en plus de ceux fixés par le présent
+standard selon son contexte et ses particularités.
+Taux de conformité au standard.
+Nombre d’incidents relatifs à la circulation.
+Nombre de comportements dangereux relatifs à la circulation.
+Titre
+Codification
+Matrice des exigences SST relatives aux véhicules/engins
+SSS-002-01-A
+Inventaire véhicules/Engins du Site
+SSS-002-02-A
+Check list de contrôle des engins
+SSS-002-03-A
+Check list de contrôle du Transport de Personnel
+SSS-002-04-A
+Check list de contrôle des chariots élevateurs
+SSS-002-05-A
+Matrice de Correspondance Engin / Habilitation Requise
+SSS-002-06-A
+Contenu de formation
+SSS-002-07-A
+18/18
+Circulation
+Santé & Sécurité au Travail 
+Réf. doc : SSS-002-A
+SONASID SAFETY STANDARD
+1
+Risk
+2
+Culture
+3
+Gouvernance
+X : Recommandé
+XX : Obligatoire
+-  : Non applicable
+Matrice des exigences SST relatives
+aux véhicules/engins
+  Santé & Sécurité au Travail
+Réf : SSS-002-01-A
+STANDARD Circulation 
+1/1
+L'accès à la conduite de tout véhicule léger, véhicule industriel et engin au sein du site est strictement réservé aux personnels dûment habilités et munis d'une autorisation de conduite délivrée par le Directeur du Site.
+N.B.:
+Site (Entité)  :  ........................................................ 
+Date  :    ............ /.............../...............
+Pilote FPS  :    .......................................................
+Type
+Déscription
+Num d’identification
+Interne/Externe
+Véhicule léger
+Camion benne
+Chariot élevateur
+Camion nacelle
+Camion citerne
+Bus
+Camion
+Ambulance
+Propriétaire 
+Affectation
+Inventaire véhicules/Engins du Site
+  Santé & Sécurité au Travail
+Réf : Réf : SSS-002-02-A
+STANDARD Circulation
+1/1
+Check list de contrôle des engins 
+  Santé & Sécurité au Travail
+Réf : SSS-002-03-A
+STANDARDCirculation
+1/1
+Check list de contrôle du Transport
+de Personnel
+  Santé & Sécurité au Travail
+Réf : SSS-002-04-A
+STANDARD Circulation 
+1/1
+Check list de contrôle du Chariot
+élevateur
+  Santé & Sécurité au Travail
+Réf : SSS-002-05-A
+STANDARD Circulation 
+1/1
+Catégorie d'Engin /
+Véhicule
+Exemple d'Engin
+Permis de Conduire
+obligatoire (Code de la
+Route)
+Personnel Interne:
+Habilitation Obligatoire
+Personnel Externe:
+Autorsisation Obligatoire
+Poids Lourds (PL)
+Camion 8x4, Camion-Citerne,
+Camion de transport de
+ferraille, Bus de personnel
+Permis C (ou D pour transport de
+personnel)
+Aptitude Médicale par Médecin
+de Travail Interne Valide +
+Formation Conduite Défensive
+Valide
+Aptitude Médicale par Médecin de Travail
+Valide +
+Formation Conduite Défensive Valide +
+Habilitation de son Employeur Valide 
+Engins de Manutention
+Chariot élévateur (frontal,
+rétractable), Chariot
+télescopique
+Permis B (si l'engin est
+homologué route)
+Aptitude Médicale par Médecin
+de Travail Interne Valide +
+Formation CACES R489 (ou
+équivalent reconnu) Valide
+Aptitude Médicale par Médecin de Travail
+Valide +
+Formation CACES R489 (ou équivalent
+reconnu) Valide
+ + Habilitation de son Employeur Valide 
+Engins de Chantier
+Mobiles (Terres /
+Manutention / KRES)
+Pelle Hydraulique, Chargeuse
+sur pneus, Bobcat (Mini-
+Chargeuse), Kyrex
+Permis B ou C
+Aptitude Médicale par Médecin
+de Travail Interne Valide +
+Formation CACES R482 (ou
+équivalent reconnu) Valide
+Aptitude Médicale par Médecin de Travail
+Valide +
+Formation CACES R482 (ou équivalent
+reconnu) Valide
+ + Habilitation de son Employeur Valide 
+Véhicules Légers (VL)
+Véhicule de service, 4x4, pick-
+up
+Permis B
+Aptitude Médicale par Médecin
+de Travail Interne Valide +
+Formation Conduite Défensive
+Valide
+EE Permanent : Aptitude Médicale par
+Médecin de Travail  Valide +
+Formation Conduite Défensive Valide +
+Habilitation de son Employeur Valide 
+Matrice de Correspondance Engin /
+Habilitation Requise 
+  Santé & Sécurité au Travail
+Réf : SSS-002-06-A
+STANDARD Circulation 
+1/1
+Le contenu de la formation doit répondre au minimum aux exigences définies dans ce document, avec la possibilité d'y ajouter des modules complémentaires afin de
+renforcer les compétences des conducteurs/chauffeurs.
+N.B.:
+Cible
+Thème
+Contenue minimum exigé
+Test pratique
+Tout le
+personnel
+concerné (y
+compris sous-
+traitants)
+Sensibilisation
+générale SST et
+Standard de
+Circulation
+Principes du standard de circulation
+Présentation des enjeux SST et des objectifs
+de la politique de circulation.
+Rôles et responsabilités.
+Règles du site
+Plan de circulation : voies, zones à risque et
+règles spécifiques.
+Signalisation et marquage au sol.
+Procédures d'urgence en cas d'incident.
+ Règles de priorité (véhicule vs piéton).
+Sensibilisation sur la
+compréhension du plan de
+circulation et des règles de
+sécurité du site.
+Conducteur
+de véhicule
+léger
+Conduite
+défensive et
+préventive
+1. Inspection et entretien
+Réalisation de la check-list avant usage.
+Vérification des points clés : pneus, freins,
+feux, niveaux
+Conduite défensive
+Anticipation des dangers et des situations à
+risque.
+Espace de sécurité et distance de
+freinage.Adaptation aux conditions météo
+et de visibilité (nuit, brouillard).
+Communication avec les autres usagers.
+Parcours pratique sur le site pour
+évaluer:
+Le respect des règles de
+circulation.
+Le positionnement sur la
+voie.
+La manœuvre de
+stationnement en marche
+arrière.
+Conducteur
+d'engin mobile
+Maîtrise de l'engin
+et opérations de
+manutention
+Conduite et vérifications
+Prise en main et fonctionnement de l'engin
+(commandes, tableaux de bord).
+Inspections quotidiennes spécifiques
+(hydraulique, chaînes, fourches).
+Manutention
+Stabilité des charges et répartition du poids
+Procédures de chargement et
+déchargement.
+Utilisation des signaux sonores et lumineux.
+Manœuvres en environnement restreint.
+Parcours pratique simulant des
+situations de travail:
+Manœuvre avec une charge.
+Empilement et
+désempilement de palettes.
+Circulation en pente et en
+virage.
+Test de l'avertisseur sonore
+de recul.
+Conducteur
+de poids lourd
+(PL)
+Sécurité et
+Opérations de
+transport routier
+Conduite professionnelle
+Conduite défensive adaptée au gabarit et au
+poids du véhicule.
+Gestion des angles morts et des distances de
+freinage.
+Opérations de transport
+Procédures de sécurisation de la marchandise
+(arrimage, bâchage).
+Manœuvres de recul en toute sécurité (avec
+ou sans l'aide d'un signaleur).
+Parcours pratique pour évaluer :
+Le respect des règles de
+circulation sur le site.
+La manœuvre de recul et de
+mise à quai.
+La procédure d'arrimage
+d'une charge.
+Contenu de formation
+  Santé & Sécurité au Travail
+Réf : SSS-002-07-A
+STANDARD Circulation 
+1/1

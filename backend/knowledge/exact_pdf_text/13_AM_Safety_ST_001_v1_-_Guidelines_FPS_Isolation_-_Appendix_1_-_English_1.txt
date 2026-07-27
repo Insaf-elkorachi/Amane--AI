@@ -1,0 +1,491 @@
+The safe isolation of plant and equipment 
+Page 59 of 81
+Health and Safety 
+Executive
+Appendix 6: Example of a 
+selection tool to establish the 
+‘baseline standard’ for a final 
+isolation 
+Substance
+Pressure
+Isolation selection process 
+as described in Figure 5 
+(includes consideration of 
+additional factors)*
+Baseline isolation standard
+Line size
+*Factors may include, for example 
+(this is not intended as an exhaustive 
+list)
+Isolation duration
+ 
+■
+Storage conditions (eg temperature)
+ 
+■
+Whether operator is in attendance 
+ 
+■
+throughout isolation
+Environmental considerations  
+ 
+■
+(eco-toxicity)
+Potential for damage, 
+casualties
+Location factor
+Release factor
+Outcome factor
+Selection of most 
+appropriate final isolation 
+method
+Figure 11  Overview of use of the selection tool to select a final isolation method
+AM Safety ST 001 v1  
+Guidelines FPS Isolation - Appendix 1
+The safe isolation of plant and equipment 
+Page 60 of 81
+Health and Safety 
+Executive
+Application of the selection tool
+1 
+The tool is not intended to be used for:
+pipelines;
+ 
+■
+extended term isolations; or
+ 
+■
+‘high risk’ situations eg;
+ 
+■
+confined space entry;
+ –
+where the result of isolation failure could be catastrophic, or a situation from 
+ –
+which recovery would be very difficult.
+2 
+Before carrying out any isolation to enable intrusive work, ensure that you have 
+minimised the risk associated with the task. You may be able to:
+shut down the relevant plant to enable work to be carried out safely, or 
+ 
+■
+postpone the job until the next planned shutdown; 
+remove the need to break containment by using a different method to carry out 
+ 
+■
+the work; or
+minimise risk by other measures eg reduction of inventory and/or of the number 
+ 
+■
+of people exposed to risk.
+3 
+Remember that a selection tool can complement, but cannot replace, 
+competent technical judgement and common sense.
+4 
+The tool has been calibrated against industry good practice for work on live 
+plant. It gives a baseline isolation standard (provisionally the minimum acceptable 
+standard for final isolation). This baseline standard is an input to the isolation 
+selection process in Figure 5. 
+5 
+The tool is not designed to produce a final decision on the most appropriate 
+final isolation standard and must not be used in this way. Full consideration of 
+an individual isolation (including eg isolation duration, storage temperature, personal 
+injury hazards etc) will be required to enable selection of the most appropriate final 
+isolation standard. 
+Substance category
+6 
+Use the guidelines below to select the appropriate substance category, or 
+categories, from the list in Table C. These are primarily (but not exclusively) based 
+on the classifications given in the Chemicals (Hazard Information and Packaging for 
+Supply) Regulations 2005 (CHIP). CHIP substance classifications are given in the 
+current version of the Approved Supply List26 (ASL) to these regulations. For Table 
+C, note that some categories (eg steam) are not based on CHIP classification. 
+7 
+Ensure that you identify all of the relevant categories for the substance to be 
+isolated (eg flammable and toxic, or petroleum product and carcinogen). You 
+should then assess each category and select the highest of the indicated isolation 
+standards as your baseline standard.
+The safe isolation of plant and equipment 
+Page 61 of 81
+Health and Safety 
+Executive
+8 
+For mixtures and preparations (including solutions), use the CHIP classification 
+appropriate for the pure substance unless either:
+the substance entry in the ASL shows it to be:
+ 
+■
+within specified concentration limits such that an alternative classification 
+ –
+applies (eg hydrogen sulphide, methanol); or 
+below its lower limit of concentration; or
+ –
+the substance is present at a level below the lower limit of concentration for the 
+ 
+■
+relevant classification, as given in Schedule 3 to the CHIP Regulations.26
+9 
+Where substances are neither listed in Table C nor classified under CHIP, you 
+should obtain specialist advice.
+10 Remember that additional hazards may be associated with the storage 
+conditions of unclassified fluids, eg hot water subject to gas pressure or capable of 
+flashing to steam on release, cryogenic storage, gases stored under pressure. You 
+should then consider defaulting to category 2.
+11 Categories have been based on the potential for harm to humans. You may 
+also need to take into account the potential for environmental damage.
+12 If in doubt about the appropriate category to use, you should always err on the 
+side of caution.
+The safe isolation of plant and equipment 
+Page 62 of 81
+Health and Safety 
+Executive
+Category
+Description (CHIP classification, where appropriate)
+1
+Very toxic (T+)
+Toxic (T)
+Carcinogenic, mutagenic, toxic for reproduction
+Sensitising
+2
+Extremely flammable (F+)
+Highly flammable (F)
+Flammable gases (R10)
+Flammable liquids (R10)  
+- unless included in category 4 
+Petroleum products*  
+- unless included in category 4  
+ 
+- consider whether category 1 is appropriate
+Oxidising (O)
+Explosive (E) 
+Steam
+Pressurised gases >250 bar.l, 
+with pressure of 0.5 bar or higher
+Flashing fluids 
+Asphyxiants
+3
+Corrosive (C)
+Harmful (Xn)
+Irritant (Xi)
+4
+Flammable liquids stored below flashpoint, and below flash point following release 
+(R10)
+5
+Non-classified and not stored in a potentially harmful state
+Table C  Substance category
+Note: * Petroleum substances are specified individually within category 2 because, for these 
+substances, CHIP contains only a partial entry (ie classification for carcinogenicity only, not 
+for flammability), as explained in note H to the Approved Supply List.26 For the purposes of 
+this selection tool, both flammability and carcinogenicity should be considered.
+The safe isolation of plant and equipment 
+Page 63 of 81
+Health and Safety 
+Executive
+Release factor
+13 Combine line size and pressure to give a release factor (this reflects the 
+potential rate of release). The options are high (H), medium (M) and low (L), as 
+shown in Table D: 
+Location factor
+14 Consideration of the location should include the potential for casualties 
+(numbers at risk), escalation and damage if a release occurs. Take into account the 
+nature of the possible consequences if the isolation fails, eg vapour cloud explosion 
+(VCE), toxic gas cloud, jet fire with potential for escalation etc. The categories for 
+location factor are again high (H), medium (M) and low (L), as defined in Table E: 
+Outcome factor
+15 Combine the release factor and location factor to give an outcome factor, 
+in the range A-C, as shown in Table F:
+Pressure
+Line size
+ >50 barg
+I 50 but 
+ >10 barg
+<10 barg 
+J20cm
+H
+H
+M
+5cm< 
+line<20cm
+H
+M
+L
+I 5cm
+M
+L
+L
+Table D  Release factor
+Category
+Description
+H
+Any of:
+Numbers at risk >10; congested equipment; potential for escalation; large fires 
+with potential for damage and multiple fatalities
+M
+Typically:
+3-10 at risk; uncongested plant, storage area or small number of items in open 
+area; minor fire
+L
+Characterised by:
+1-2 at risk; remote single items; easily 
+contained minor fires
+Table E  Location factor
+Location factor
+Release factor
+H
+M
+L
+H
+A
+B
+B
+M
+B
+B
+C
+L
+B
+C
+C
+Table F  Outcome factor
+The safe isolation of plant and equipment 
+Page 64 of 81
+Health and Safety 
+Executive
+Determination of baseline isolation standar
+16 The substance category and outcome factor are then combined to indicate the 
+appropriate baseline standard for final isolation (Table G). 
+Where:
+R Consider whether the associated risk is acceptable or whether there is a 
+need to further reduce risk by eg risk reduction measures, extending the isolation 
+envelope, plant shutdown 
+I 
+Positive isolation
+II 
+Proved isolation
+III Non-proved isolation
+17 Having identified the appropriate baseline standard, full consideration 
+of an individual isolation will be required (see Figure 5) to enable selection of 
+an appropriate final isolation standard. The baseline standard is based on 
+consideration of major hazard risks – before selecting a final isolation method, 
+you need to consider all relevant risks (including those due to eg personal injury 
+hazards). You should document the basis for your selected final isolation standard 
+as part of your assessment record. 
+18 If you cannot achieve the baseline standard of isolation, you may need to alter 
+the method of work, postpone the job or implement additional measures. Where 
+an option is available which will further reduce risk, this should always be 
+used.
+Outcome factor
+A
+B
+C
+Substance 
+category
+1
+R
+I
+I
+2
+R
+I
+II
+3
+I
+II
+II
+4
+II
+II
+II
+5
+II
+III
+III
+Table G  Baseline standard of isolation
+The safe isolation of plant and equipment 
+Page 65 of 81
+Health and Safety 
+Executive
+ 
+Summary of considerations when using the selection tool
+It is not intended for use with:
+ 
+■
+pipelines;
+ –
+‘high risk’ situations (eg confined space entry);
+ –
+extended term isolations.
+ –
+You should 
+ 
+■
+always challenge whether the output is compatible with common 
+sense and professional judgement – particularly where input values lie close to 
+category boundaries.
+Substance categories do not allow for all additional hazards associated with 
+ 
+■
+storage conditions – you may decide to default to a more hazardous  
+substance category. 
+If in doubt about the appropriate category to use (especially for substance 
+ 
+■
+category or location factor), you should err on the side of caution.
+The selection tool gives the 
+ 
+■
+baseline standard (usually this will be the  
+minimum acceptable isolation standard). This is not always the most 
+appropriate final isolation standard. You will need to ensure consideration of  
+all relevant factors when selecting the final isolation.
+Use of a ‘variation’ (ie an isolation standard less than the baseline) may be 
+ 
+■
+acceptable in exceptional circumstances, eg for some short-term isolations.
+Record the basis for your decisions about isolation standards.
+ 
+■
+The objective is not to meet/exceed the baseline standard, but to ensure that 
+ 
+■
+the risk associated with your isolation activity is both:
+minimised to 
+ –
+ALARP;
+tolerable
+ –
+.
+Typical examples
+A pump in benzene (toxic/flammable) service has a maximum operating pressure 
+of 20 barg. The suction flange is 40 cm. If a release occurs there is significant 
+potential for escalation.  
+ 
+Substance = 1, 2 (CHIP categorisation: F, Carc Cat 1, T)
+Release factor  = H
+Location factor  = H
+Outcome factor  = A
+ 
+Appropriate isolation standard: 1A = R 
+ 
+ 
+ 
+ 
+ 
+2A = R 
+Need for further consideration/risk assessment indicated. Conclusion 
+may be eg that category I positive isolation is appropriate, or that it is not 
+appropriate to work on live plant.
+The safe isolation of plant and equipment 
+Page 66 of 81
+Health and Safety 
+Executive
+A pump in hydrocarbon/hydrofluoric acid (toxic/flammable) service has a 
+maximum operating pressure of 12 barg. The suction flange is 30 cm. The 
+numbers at risk are >10 and there is significant potential for escalation.
+    
+Substance  
+= 1 (CHIP categorisation T+, C), 2
+Release factor  = H
+Location factor  = H
+Outcome factor  = A
+Appropriate isolation standard: 1A = R
+ 
+ 
+ 
+ 
+ 
+2A = R
+Further consideration/risk assessment required. Conclusion likely to be 
+either positive isolation or do not carry out work on live plant.
+A very high pressure (>100 barg) steam boiler circulating pump is occasionally 
+isolated for maintenance. The suction flange is 30 cm. Congested equipment, 
+>10 at risk.
+   
+Substance  
+= 2
+Release factor  = H
+Location factor  = H
+Outcome factor  = A     
+ Appropriate isolation standard: 2A = R
+Need for further consideration/risk assessment indicated. In these 
+circumstances the risk to workers may be such that work on live plant is 
+inappropriate.
+A pump in liquid butane (LPG) service with a maximum operating pressure of 15 
+barg and suction line size of 10 cm is isolated for maintenance occasionally. 
+ 
+Substance  
+= 2 (CHIP categorisation F+)
+Release factor  = M
+Location factor  = H
+Outcome factor  = B 
+ 
+ 
+Appropriate isolation standard: 2B = I 
+ 
+ 
+Baseline isolation is category I, positive isolation.
+A section of 25 cm fire water main (3 barg ‘jockey’ pressure) in a tank farm area 
+(1-2 at risk) has to be isolated annually to change out some hydrant valves.
+Substance  
+= 5
+Release factor  = M
+Location factor  = L
+Outcome factor  = C      
+Appropriate isolation standard: 5C = III 
+ 
+ 
+Baseline isolation is category III, single or double valve, no bleed.
+The safe isolation of plant and equipment 
+Page 67 of 81
+Health and Safety 
+Executive
+A section of an 20 cm steam line carrying superheated steam at 15 barg and 
+300ºC requires isolating to permit a branch to be welded into the line.
+ 
+Substance 
+= 2
+Release factor 
+= M
+Location factor = M
+Outcome factor = B 
+ 
+Appropriate isolation standard: 2B = I
+ 
+Baseline isolation is category I, positive isolation. Risk assessment may 
+indicate that risk to workers is such that plant shutdown is appropriate.
+ 
+Isolation of a 10 cm gasoline line at 10 barg and 20ºC in a tank farm manifold 
+where one or two workers might be present. 
+ 
+Substance 
+= 2 (may also be category 1, depending on CHIP classification)
+Release factor 
+= L
+Location factor = M
+Outcome factor = C 
+ 
+Appropriate isolation standard: 2C = II
+ 
+ 
+ 
+ 
+ 
+1C = I
+ 
+Baseline isolation is category I, positive isolation, or category II, proved 
+isolation, depending on CHIP classification for carcinogenicity. 
+Isolation of a 30 cm methane line at >50 barg for the overhaul of regulator 
+equipment.  
+ 
+Substance 
+- 2 (CHIP classification)
+Release factor 
+- H
+Location factor - M
+Outcome factor - B 
+ 
+Appropriate isolation standard: 2B = I
+ 
+Baseline isolation standard is positive isolation. Risk assessment may 
+indicate that for short duration, manned operations it is appropriate to 
+use proved isolation, with appropriate procedural controls.

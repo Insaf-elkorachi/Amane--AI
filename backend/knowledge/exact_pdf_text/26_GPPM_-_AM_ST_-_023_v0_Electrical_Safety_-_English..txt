@@ -1,0 +1,524 @@
+Document information
+Short description:
+Instructions for electrical work.
+Scope:
+This Standard applies to all electrical systems and devices used by ArcelorMittal, or contractors. It
+defines minimum mandatory requirements, intending to prevent fatality or injury. 
+Business Owners:
+Writer (prepared by):
+Baluch Eduard
+Lunardi Diego
+Creation date:
+Review date:
+Implementation Date:
+13/07/2023
+29/08/2023
+01/08/2023
+Reference Documents
+Reference or date
+Title
+Validation
+Validated by
+Position
+Validation date
+PAULMIER ROBIN
+Group Health & Safety
+23/08/2023
+Approval
+Approved by
+Position
+Approval date
+DAVEY BRADLEY
+Head of Corporate Business Optimization
+25/08/2023
+AM_H&S_PR_021_01
+AM Safety ST 023 v0 - Electrical safety
+Health & Safety
+ArcelorMittal
+Health & Safety
+AM_H&S_PR_021
+ArcelorMittal
+AM Safety ST 023 v0 - Electrical safety
+Page 1 of 16
+1.
+Scope 
+Compliance with local legislation is mandatory. In case this standard and the local legislation differ 
+but are compatible, the strictest prevails. In case of conflict between this standard and the local 
+legislation, the local prevails. Similar national standards are accepted  as long as equivalent Ex: 
+NEMA in North America equivalent with IP code (IEC 60529).
+This Standard applies to all electrical systems and devices used by ArcelorMittal, or contractors. It 
+defines minimum mandatory requirements, intending to prevent fatality or injury due to:
+
+Arc flash exposure,
+
+Electric shock, either by direct contact with energized electrical conductors, or by indirect 
+contact due to normally earthed conductive parts becoming live under fault conditions.
+Practical examples: 
+
+The change of a motor, requiring manipulating, at one point in time, bare conductors, 
+previously de-energized, falls in the scope of this FPS. 
+
+Changing the coupling of that same motor ( e.g. with a roll or a pump), which also requires 
+the de-energization of the motor but do not require to touch at any time a bare conductor, is 
+not concerned by this FPS. 
+
+The cleaning activity of some electric transformer, previously de-energized, falls in the scope 
+of this FPS. 
+
+Any work that occurs inside an electric room or yard, or that implies the opening of an 
+electric cabinet, or that implies working close to bare conductors that can be accessed, even 
+if previously de-energized, falls in the scope of this FPS.
+it covers: 
+
+All interventions on electrical equipment / systems with voltage above 50 V AC (alternating 
+current) or 120 V DC (Direct Current). 
+
+Usage of electrical portable equipment.
+2.
+Definitions 
+Approach Boundaries - It is an approach distance to exposed, energized electrical components 
+within which a shock or arc flash hazard exists. 
+Shock protection boundaries are based on voltage level and whether the exposed energized 
+components are fixed or movable. NFPA 70E Table 130.2(C) defines these boundary distances for 
+nominal phase-to-phase system voltages from 50 Volts to 800kV (other national or international 
+norms are acceptable). 
+Limited Approach Boundary: to enter this boundary, unqualified persons must be accompanied by a 
+qualified person and use required PPEs.
+Restricted Approach Boundary: only qualified persons are allowed, and they must use PPEs.
+Arc Flash Boundary:  is a distance from a potential arc source within which a person could receive a 
+second degree burn if an electrical arc flash were to occur. It must be calculated or given by the 
+equipment supplier.
+Health & Safety
+AM_H&S_PR_021
+ArcelorMittal
+AM Safety ST 023 v0 - Electrical safety
+Page 2 of 16
+Figure 01 - Example of Identification Signaling with the indication of safety distance.
+Arc Blast - A release of mechanical, acoustical, thermal, and optical energy from an electric arc
+Arc Flash Hazard - Arc flash is defined as an electric arc event where current flows through the air 
+and thermal energy is dissipated as radiant, convective, and conductive heat.
+Authorized Person - A person approved or assigned by the employer to perform a specific type of 
+duty or duties or to be at a specific location at the jobsite.
+De-energized electrical work - Electrical work that is performed on equipment that has been 
+previously energized and is now free from any electrical connection.
+Electrical Work - A ny task that involves a shock or arc flash hazard or that could create potential 
+shock or arc flash hazards for future users.
+Electric Portable Devices -  Cord-and-plug equipment to any electrical utilization equipment that 
+uses a flexible cord and an attachment plug to connect to a source of hazardous energy.
+Electrical equipment - Any electrical installation, apparatus, appliance, cable, conductor, fitting, 
+insulator, material, meter, or wire that is used for controlling, generating, supplying, transforming, or 
+transmitting electricity at a voltage greater than extra-low voltage, is operated by electricity at a 
+voltage greater than extra-low voltage. 
+Energized - connected to a source of electrical supply or subject to hazardous induced or 
+capacitive voltages.
+Energized Electrical Work - Repair, maintenance, troubleshooting, or testing on electrical circuits, 
+components, or systems while energized/live.
+Exposed Electrical Parts - Energized parts that can be inadvertently touched or approached 
+nearer than a safe distance by a person. Parts not suitably guarded, isolated, or insulated. ( i.e. 
+terminal contacts/lugs, bare wiring, etc.).
+Extra Low Voltage -  an operating voltage not exceeding 50 Volt alternating current (AC) or 120 Volt 
+ripple free direct current (DC)
+Grounding - Grounding a tool or electrical system means intentionally creating a low-resistance 
+path that connects to the earth. This prevents the buildup of voltages that could cause and electrical 
+accident. 
+Guarding  - Guarding involves locating or enclosing electric equipment to make sure people don’t 
+accidentally come into contact with its live parts. 
+High voltage - A voltage source more than 1000V.
+Health & Safety
+AM_H&S_PR_021
+ArcelorMittal
+AM Safety ST 023 v0 - Electrical safety
+Page 3 of 16
+Isolated - disconnected from all sources of electricity supply and rendered incapable of being made 
+energized without premeditated and deliberate action. 
+Low voltage  - Means voltage that exceeds extra-low voltage and does not exceed 1000 volts 
+alternating current (1000 V AC) or 1500 volts direct current (1500 V DC). 
+Qualified person (NFPA70E definition) - who has demonstrated skills and knowledge related to the 
+construction and operation of electrical equipment and installations and has received safety training 
+to identify the hazards and reduce the associated risk. A qualified person is formally recognized by 
+the employer. Refer to your local legislation for additional requirements.
+Residual current device (RCD), (called Ground Fault Circuit Interrupter (GFCI) in North 
+America)  - A device intended to isolate supply to protected circuits, socket outlets or electrical 
+equipment in the event of a current flow to earth that exceeds a predetermined value. The RCD / 
+GFCI device may be fixed or portable.
+Shock Hazard  -  A dangerous condition associated with the release of energy caused by contact or 
+approach to liver parts. 
+Other definitions can be found in NFPA 70E (Standard for Electrical Safety in the Workplace) or IEC 
+(International Electrotechnical Commission).
+3.
+Electrical Equipment Circuit Design
+There must be a process for ensuring that new or modified equipment and infrastructure considers 
+methods to minimize the electrical hazards of arc flash and electrical shock. 
+New or upgraded electrical rooms, substations, cabinets, and panels must use equipment with a 
+protection rating of minimum IP2X or IPXXB (low voltage) or IP3X or IPXXC (high voltage) against 
+access to hazardous parts with the finger or tools (see the Appendix 3).
+There must be an arc flash and shock protection plan (procedure or standard) to determine and 
+reduce incident energies and to define the appropriate PPEs and associated procedures to mitigate 
+the hazard during operation, inspection and maintenance.
+Isolation strategies (isolation points, …) must be defined during the specification of the equipment.
+Overload protection must be installed on all final distribution circuits. The protection settings must 
+be established by qualified personnel.
+Earth leakage protection must be installed on all final sub-circuits supplying socket outlets. The 
+protection settings must be established by qualified personnel.
+4.
+Work Order, HIRA-lite and Work Permit
+Any electrical work requires a work order, a HIRA-lite and a formal work permit. 
+Any non- electrical work on or near electrical equipment (e.g., cleaning, painting, mechanical 
+activities … done inside an electrical room, or inside a de-energized electrical cabinet or in  close 
+proximity with an open de-energized cabinet) requires  a work order and either a SOP (detailing 
+safety controls) or a HIRA-lite.
+The  work order must describe unambiguously the work(s) to be done (nature, extent) and the 
+pieces of equipment concerned, which must be clearly and unambiguously identified, both on 
+documents and on site (presence of identification label on the shop floor).
+Elaboration of the  HIRA-lite must involve the active participation of a Qualified Person, and shall 
+include:
+Health & Safety
+AM_H&S_PR_021
+ArcelorMittal
+AM Safety ST 023 v0 - Electrical safety
+Page 4 of 16
+
+The identification of all devices that would potentially remain energized around the work 
+area, and corresponding control measures ( always prefer de-energization of all devices 
+around the work area whenever possible).
+
+The competences and trainings required for people to carry out the work.
+
+The mandatory requirement for a  last-minute absence of voltage test before 
+approaching/touching anything that is supposed to be de-energized (to be done 
+assuming voltage is present, so using appropriate PPEs). These tests are  additional to the 
+test(s) already performed during the LOTOTO process. 
+
+Delivering the work permit shall require the presence of the work order, the corresponding 
+HIRA-lite, checked for consistency by an ArcelorMittal qualified person, and signed  of by all 
+people who will perform the work, the evidence of completion of all isolations (LOTOTOs) 
+foreseen in the HIRA-lite and a written work procedure (describing how to perform the tasks).  
+5.
+High Voltage hazard requests working in pairs 
+When high-voltage electrical hazard exists, working alone is prohibited. In this case, activities must 
+be carried out in pairs. The second person should always minimize his/her exposure to the electrical 
+hazard, to be able to rescue the first one at any time, using engineered insulated hook during each 
+hazardous phase of the works. 
+6.
+Personal Protective Equipment - PPEs 
+Must be defined in the HIRA-lite and compatible with the shock hazard and arc flash hazard levels 
+of the work to be performed (notice: insulating gloves are usually not arc flash rated and must be 
+covered by arc-flash rated leather gloves).  In order to minimize clothing changes,  i t is 
+recommended that the people exposed to electrical risks are provided by default with PPEs which 
+are arc rated at least class 2 in NFPA70E (min 8  cal /cm2). Some comfortable PPEs exist up to 11  
+cal/cm2 in some regions (e.g., Brazil).
+One complete set of Arc Flash rated PPEs, corresponding to the highest incident energy level 
+present in the place, must be available in each substation / electric room (2 sets in case of 
+presence of high voltage).  In order to ease the inventories and logistics management, as well as to 
+minimize risks of confusions, we also recommend that these PPEs sets should be at least min 40  
+cal/cm2, or higher whenever needed.
+An insulated rescue hook must be present in each substation / electric room. 
+Underwear made from synthetic materials (Nylon, Polyester, …) are prohibited within Arc Flash 
+boundary (risk of melting on people’s skin in case of Arc Flash). 
+Conductive waistbands, rings, bracelets, keys, metal frame glasses are prohibited within restricted 
+approach boundary.
+Health & Safety
+AM_H&S_PR_021
+ArcelorMittal
+AM Safety ST 023 v0 - Electrical safety
+Page 5 of 16
+Figure 02 - Example of Arc Flash rated categories - Refer to your local legislation.
+7.
+Inspections and tests 
+PPEs (including the sets kept in each substation / electrical room mentioned in chapter 6), collective 
+protections, and tools must be inspected and tested periodically in compliance with manufacturers' 
+recommendations and local legislation. Examples: rubber gloves, insulating blankets, rubber mats, 
+temporary grounding, etc. 
+Measuring instruments must be inspected, calibrated, and tested in compliance with manufacturers' 
+recommendations and local legislation. 
+Electrical equipment, grounding continuity and electrical safety devices must be inspected and/or 
+tested upon installation, repair, or modification and thereafter on a defined schedule.
+Inspections and tests results must be duly recorded.
+There must be a process for removing equipment unfit or unsafe for purpose.
+8.
+Absence of voltage test 
+As long as the absence of voltage test has not been performed, the equipment must be considered 
+as live.
+Absence of voltage test must be performed with appropriate designed for purpose PPEs and tool. 
+For high voltage, a set of tools must be kept in each electrical room.
+Last minute absence of voltage test, before touching or approaching anything that is supposed to 
+be de-energized, is mandatory, independently, and additionally of the absence of voltage test 
+performed during the LOTOTO process. This last minute absence of voltage test shall be done by 
+the person(s) going to perform the work, or by another person but  at the express condition that the 
+person(s) going to perform the work see(s) the test live, and understand(s) the result, in particular 
+understands what conductor is tested and why it guarantees that the pieces of equipment s/he is 
+going to touch or might accidentally touch are de-energized. This last-minute test shall be repeated 
+at the beginning of each shift and each time there is a change in the person(s) performing the work. 
+There must be an appropriate absence of voltage tester, kept operational and in good order at any 
+time, in each substation / electrical room with presence of high voltage.
+9.
+Competency
+All personnel performing non- electrical work on or near electrical equipment ( e.g. cleaning, painting, 
+mechanical activities … done inside an electrical room, or inside a de-energized electrical cabinet 
+or in close proximity with an open de-energized cabinet) must receive electrical hazard training
+Health & Safety
+AM_H&S_PR_021
+ArcelorMittal
+AM Safety ST 023 v0 - Electrical safety
+Page 6 of 16
+relevant to their risks exposure, at the commencement of employment and at intervals not 
+exceeding three years, always based on updated standards and procedures. Additionally, 
+complementary training is recommended to maintain an appropriate level of awareness taking into 
+account the following: a) the worker is not complying with safety-related work practices, b) in case 
+of new technology, c) new types of equipment, d) when the worker needs to  perform  tasks that are 
+performed less often than once per year; e) the worker needs to  perform safety-related work 
+practices that are not normally used during his/her regular job duties; or, e) when the worker's job 
+duties change.
+Personnel performing electrical work must be qualified (see definitions).
+Contractors must be able to prove the qualification of their employees at the request of ArcelorMittal, 
+who shall regularly check for it through audits or during meetings.
+10. Electrical Documentation
+There must be a process for maintaining up-to-date documentation for:
+
+Single line diagrams,
+
+System fault levels,
+
+Arc flash incident energy levels,
+
+Equipment details
+11. LOTOTO to minimize work on live equipment - See also FPS 001 – Isolation
+LOTOTO operations shall be done according to an isolation written instruction (IWI). Any IWI, 
+permanent or temporary, including 1 shot ones, must be developed (discussed and validated) by at 
+least 2 qualified persons, of which the designated area expert. 
+LOTOTO process for electrical isolation must include the following 5 steps:
+1.
+Disconnection (physical separation of the conductors)
+2.
+Locking out the separation device(s) to physically prevent accidental re-connection, and 
+tagging out the separation device(s)
+3.
+Physical identification of the piece of equipment isolated (on the shop floor, at the place 
+where work is  actually going to be done, this is different from the tagging of the locked 
+separation device, which is usually located in an electric room or cabinet, far away from the 
+working place). For big maintenance shutdowns, with works on many different pieces of 
+equipment, using the same isolation point, this requirement is optional (if allowed by local 
+legislation)
+4.
+Absence of voltage test (equivalent to “Try-Out”, last TO of the LO-TO-TO).
+5.
+Grounding: mandatory for high voltage systems, or when a risk of re-energization exists 
+(presence of capacitors, induction risks …), Each conductor has to be grounded.
+Health & Safety
+AM_H&S_PR_021
+ArcelorMittal
+AM Safety ST 023 v0 - Electrical safety
+Page 7 of 16
+When the disconnecting point is located outside of ArcelorMittal site ( e.g. at a the power supplier 
+location), we still need to lock out and tag out, by going physically to the place of disconnection to 
+put  our own ArcelorMittal lock on the disconnecting device or on a lockbox. When it is physically 
+impossible, or when the supplier refuses to put our lock on their isolating device or on their lockbox, 
+another contractual solution must be negotiated. This solution must contractually guarantee that the 
+supplier won’t re-energize the conductors without our dated written authorization, signed by a 
+predefined ArcelorMittal employee.
+12. Access & guarding
+Equipment which is not IP2X/IPXXB (low voltage), or IP3X/IPXXC (high voltage), must be guarded 
+against accidental contact by being installed in engineered enclosures such as locked cabinets or 
+locked rooms, requesting keys or tools to be opened. 
+Switchyards, substations / electric rooms must be locked with the access controlled. 
+Measures for access and accidental contact with live parts must be foreseen. Ex: Materials or tools 
+fall, accidental movements during activity or cleaning, tools not suitable for the activity, closing of 
+panel doors, etc.
+There must be a process to protect from damage and mitigate the hazards associated with 
+approaching and working near overhead power lines, buried, concealed, surface mounted and 
+trailing cables
+Figure 04 - Examples of Polycarbonate to Cover Electrical parts
+Health & Safety
+AM_H&S_PR_021
+ArcelorMittal
+AM Safety ST 023 v0 - Electrical safety
+Page 8 of 16
+Figure 05 - Examples of Insulated material to cover electrical parts
+Health & Safety
+AM_H&S_PR_021
+ArcelorMittal
+AM Safety ST 023 v0 - Electrical safety
+Page 9 of 16
+Figure 06 - Examples of Clamps and Insulated Sheets
+Figure 07 - Examples of Signaling boards
+Figure 08 - Examples of physical barrier protection
+  
+13. Safety Distance and Approach Boundaries
+Arc Flash Boundary, Limited Approach Boundary, Restricted Approach Boundary, must be clearly 
+displayed locally on the equipment or near to the equipment.
+People working in electrical rooms must be trained about Approach Boundaries. 
+When a cabinet is open, physical temporary barriers must be put at the furthest approach boundary 
+(which is usually the Arc Flash Boundary).
+Health & Safety
+AM_H&S_PR_021
+ArcelorMittal
+AM Safety ST 023 v0 - Electrical safety
+Page 10 of 16
+Figure 09 - Examples of temporary barrier around open cabinet.
+ 
+14. Signaling and Labeling of Electrical Equipment and Circuits
+Minimum Labeling Requirements for Electrical cabinets, Service Panels and Electric Rooms Doors:
+a) Cabinet/Panel/Room identification
+b) Warning sign: Electric shock hazard and Arc Flash hazard, PPEs required
+c) Must have the Voltage or Voltages. (Example 4160V, 480V, 240V, 120V.ect.)
+d) Equipment must be marked with the following:
+
+Available incident energy at working distance (usually 450 mm) and/or Minimum arc 
+rating of PPEs to be used
+
+ Arc Flash Boundary distance
+Figure 10 - Example of Identification Signaling for electrical rooms or cabinets panels.
+ 
+15. Requirements for work in energized systems or in proximity to energized systems
+There must be a process to minimize work on live/energized equipment or in proximity with such 
+equipment.  Working on isolated equipment is the norm. Working on live/energized equipment 
+or in proximity with such equipment must remain the exception , it can only be accepted when 
+isolation is not feasible ( e.g. fault finding …) or would generate greater risks (must be attested by a 
+written preliminary study).
+It must be clearly mentioned and authorized in the work permit.
+Health & Safety
+AM_H&S_PR_021
+ArcelorMittal
+AM Safety ST 023 v0 - Electrical safety
+Page 11 of 16
+Appropriate voltage rated and arc-flash rated PPEs (gloves, garments, face shield, carpets, 
+shoes…), and insulated hand tools must be used.
+The risk of arc flash must be controlled.
+Collective protection measures must be installed (physical barriers preventing other people to enter 
+the dangerous area.)
+Where there is a potential to make inadvertent contact with energized parts, engineered electrical 
+covers/blankets must be installed to separate people from bare conductors, and prevent accident in 
+case of tool dropped.
+16. Residual Current Device - RCD & Ground Fault Circuit Interrupters - GFCI 
+The use of these devices is mandatory on all sockets located outdoor or in wet/humid environment. 
+It must be selected by a Qualified professional. Inspections and Periodic Tests must be planned and 
+executed to guarantee the proper functioning of the systems. 
+Figure 11 - Examples of RCDs / GFCIs devices
+17. Safety Portable Electric Devices
+Usage of electric portable tools is usually not concerned by chapters 3 to 15 included. 
+The following requirements apply to the use of cord-and-plug-connected equipment and flexible 
+cord sets (extension cords): 
+a) Extension cords may only be used to provide temporary power. 
+b) Home-made extension cords  is only authorized by qualified person and should be IP67 (IEC 
+60529).
+c)
+Portable cord-and-plug connected equipment and extension cords must be visually inspected 
+before each use for external defects such as loose parts, deformed and missing pins, or 
+damage to outer jacket or insulation, and for possible internal damage such as pinched or 
+crushed.
+d) Any defective equipment must be removed from service. 
+e) Flexible cords and cables must be protected from accidental damage, especially when they 
+pass through doorways or other pinch points.
+f)
+Flexible cords and cables must be covered by a cord protector or tape when they extend into a 
+walkway to avoid creating a trip hazard. 
+g) The repair of damaged electric cords and cables must use specific professional materials 
+(electric tape, electric sleeve, thermo-retractable electric sleeve, …), designed and 
+manufactured for that purpose and carried out by a qualified person.
+h) Wet or damp Conditions:
+Health & Safety
+AM_H&S_PR_021
+ArcelorMittal
+AM Safety ST 023 v0 - Electrical safety
+Page 12 of 16
+
+Work in dry areas without the presence of water or water puddle should be prioritized.
+
+Connect only to electrical circuits protected through RCD/GFCIs.
+
+Do not use electrical extension cords in wet or damp locations, unless it is waterproof, 
+including connector, plugs (IPX7 or better).
+
+Portable lighting used in wet or conductive locations, such as tanks or boilers, must be 
+operated at no more than 12 volts or must be protected by RCD/GFCI’s. 
+
+Ensure that workers use dry and isolated shoes and gloves.
+i)
+All electric portable equipment, including lamps, must be rated against IEC/EN 61140, with a 
+visible mark/logo:
+
+Class 0 - Is forbidden.
+
+Class I - Devices (where user protection from electric shock is achieved through a 
+combination of insulation and a protective earthing/ground) can be used only if  a 
+RCD/GFCI is present on the power supply.
+
+Class II - where user protection from electric shock is achieved through two levels of 
+insulation, without the need for earthing, are allowed.
+
+Class III - where the input is extra-low voltage (≤ 50 V AC) are allowed.
+Figure 11 - Example of Identification Signaling for electrical portable devices
+Figure 12 - Examples of GFCI devices, mandatory on the power supply to devices Class I:
+Health & Safety
+AM_H&S_PR_021
+ArcelorMittal
+AM Safety ST 023 v0 - Electrical safety
+Page 13 of 16
+Figure 13 - Example of IP67 or IP 68 sleeves for reparation of electric cords and cables:
+18. Hand tools
+Appropriate hand tools must be used.  In particular, it is forbidden to use knives for wire 
+stripping/peeling off. Professional electric wire strippers must be used.
+Health & Safety
+AM_H&S_PR_021
+ArcelorMittal
+AM Safety ST 023 v0 - Electrical safety
+Page 14 of 16
+Appendix 1 - Hierarchy of Electric Risk Control
+There is within NFPA 70E the concept of Hierarchy of Controls to reduce the risk of arc flash and 
+electric shock when working on energized equipment. This hierarchy must be strictly applied and 
+considered in ArcelorMittal new projects, maintenance, and ALL operations involving electricity: 
+1.
+The first technique is to eliminate hazard by simply  not working on energized equipment . If 
+equipment is de-energized, it is not possible to trigger an arc flash or electric shock event.
+2.
+The second concept,  Reducing/ S ubstituting Risk by Design , then takes priority. This concept 
+aims to design equipment in such a way that inspection tasks can be performed while keeping 
+the equipment in a “closed and guarded” condition. At this point, virtually every Original 
+Equipment Manufacturers has designs for their electrical equipment that includes the optional 
+addition of Infrared Windows, Ultrasound Ports, touch-proof voltage measurement ports and 
+other electrical maintenance safety devices. Arc Resistant Switchgear designs and Arc 
+Suppression systems also fall into this category. The selection of this type of equipment must be 
+prioritized.
+3.
+If equipment has not been deployed using the Reducing/ S ubstituting Risk by Design concept 
+allowing closed panel inspections, the third priority in the Hierarchy of Control is to apply  
+Engineering Controls such Safeguards to isolate the hazards from the personnel with 
+effective barriers and interlocks . This might include portable arc shields, insulating blankets, 
+mechanical and electrical interlocks, voltage measurement equipment, physical barriers to 
+prevent accidental touching of energized parts, electronic access Control to electrical rooms, 
+insulating sticks, etc.
+4.
+Administrative Controls are the fourth priority in the Hierarchy of Control and include policies, 
+procedures, work practices and training to help reduce the risk to personnel and to ensure that 
+only qualified personnel undertake tasks. 
+5.
+Finally, the use of  proper Personal Protective Equipment (PPE) is the option of last resort in 
+the Hierarchy. PPE, with the appropriate ratings for isolation and for potential Arc Flash incident 
+energy, should be worn for operations on energized equipment,  in  addition to other controls 
+upper in the Hierarchy: they should never be used as a unique control.
+The top 3 controls categories are designed to control the risk before it gets near the employee. The 
+last 2 categories assume that the employee is exposed to the electrical energy.
+Figure 14 - Hierarchy of Risk Controls.
+Health & Safety
+AM_H&S_PR_021
+ArcelorMittal
+AM Safety ST 023 v0 - Electrical safety
+Page 15 of 16
+Appendix 2 - Shock Protection Approach Boundaries to Exposed Energized Electrical 
+Conductors or Circuit Parts (Example of NFPA recommendations.
+Health & Safety
+AM_H&S_PR_021
+ArcelorMittal
+AM Safety ST 023 v0 - Electrical safety
+Page 16 of 16
+Appendix 3:  IP code or ingress protection code
+IP code indicates the device protection´s level against intrusion, dust, accidental contact, and water. 
+It is defined by the International Electrotechnical Commission (IEC) under the international standard 
+IEC 60529. 
+IP2X or IPXXB - Protection from the objects with diameter larger than 12 mm (ex. Contact with 
+fingers, or objects with a length of max. 80mm).
+Figure 15 – IP2X or IPXXB
+IP3X or IPXXC  - Protection from the objects with a diameter larger than 2.5 mm (ex. Contact with 
+wires larger/longer than 2.5mm).
+Figure 16 – IP3X or IPXXC
+---- End of Document ----

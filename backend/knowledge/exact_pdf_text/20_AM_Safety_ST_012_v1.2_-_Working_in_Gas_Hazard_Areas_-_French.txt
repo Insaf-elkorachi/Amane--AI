@@ -1,0 +1,237 @@
+ 
+ 
+ 
+Santé & Sécurité 
+STANDARDS 
+ 
+Réf. : Norme de sécurité AM 
+012 
+Travail dans des zones 
+dangereuses dues aux gaz 
+Émission : 21 février 2009 
+Version : v1.2 
+Révision : 8 Mai 2012 
+ 
+Travail dans des zones dangereuses dues aux gaz  
+ 
+Circuit de vérification : 
+Rédigé par : 
+Vérifié par : 
+Approuvé par : 
+Nom : 
+C_H&S 
+Comité Sante & Sécurité 
+Frank Haers 
+ 
+ 
+ 
+1. Champ d’application 
+ 
+1.1. Cette norme décrit les exigences minimales à l’égard du travail effectué dans un environnement 
+gazeux potentiellement dangereux (zones dangereuses dues aux gaz) afin de prévenir la formation de 
+mélanges explosifs ou la création de zones à atmosphères explosives, ainsi que l’accumulation de gaz 
+asphyxiants ou toxiques (dont des gaz qui se substituent au O2), ou encore de gérer les teneurs en 
+oxygène pour éviter la combustion extrêmement rapide ou la suffocation (atmosphères nocives). Elle 
+traite également des zones constamment dangereuses dues aux gaz comme les hauts fourneaux et les 
+cokeries, des zones comportant des gaz de combustion ou des gaz provenant de l’usine de réduction 
+directe, des traitements des sous-produits, des réservoirs de combustible ou de solvants et des moteurs 
+à essence dans des espaces partiellement clos ; elle ne porte toutefois pas sur les exigences reliées à 
+l’accès aux espaces clos, ce sujet faisant l’objet de procédures particulières énoncées dans une norme 
+distincte d’ArcelorMittal (norme de sécurité AM 002). Les deux normes doivent donc être prises en 
+compte ensemble. 
+ 
+1.2. Le respect de la réglementation locale est obligatoire. La présente norme doit également être 
+appliquée lorsqu’elle est plus exigeante que la réglementation locale. 
+ 
+1.3.  Cette norme ne s'applique pas à la partie souterraine des sites miniers. Pour cette partie des mines 
+des règlements spécifiques s’appliquent, selon les normes et le droit en vigueur dans les pays 
+concernés. Toutefois, cette norme s'applique pour les zones de danger dû aux gaz à la partie 
+superficielle de la mine. 
+ 
+2. Zones dangereuses dues aux gaz 
+ 
+2.1 Chaque site doit disposer d’une évaluation des risques documentée et à jour pour chaque zone et 
+tâche liée au travail dans des environnements gazeux potentiellement dangereux. 
+ 
+2.2 Chaque site doit avoir un plan d’implantation à jour où toutes les zones dangereuses dues aux gaz 
+sont mises en évidence, ainsi que des avertisseurs au pupitre de commande pour signaler notamment 
+les niveaux de CO. 
+ 
+2.3 Les procédures de purge et de travail sécuritaire doivent se fonder sur l’évaluation des risques et 
+spécifier les contrôles pertinents à tout genre de travail. Elles devraient à tout le moins aborder des 
+sujets comme le travail à chaud, l’équipement de protection individuelle, la purge et l’émission de 
+permis, la surveillance, l’isolement, le recours possible à un intervenant de sûreté ; l’intervention en 
+cas d’urgence devrait faire partie de la stratégie de réduction des risques. Les conditions locales 
+particulières doivent, à cette fin, être prises en compte. 
+ 
+Corporate : Santé & Sécurité 
+Page 1de 5
+ 
+2.4 Toutes les zones que l’évaluation des risques a mises en évidence doivent être pourvues des 
+panneaux d’avertissement appropriés, et un régime de permis ayant trait au contrôle d’accès des 
+employés et des entrepreneurs autorisés doit être en place. 
+ 
+2.5 Les travaux exécutés près de cheminées qui laissent échapper des gaz de combustion sont 
+considérés comme présentant des dangers dus aux gaz. 
+ 
+3. Compétence 
+ 
+3.1 Toute personne (dont les entrepreneurs) qui travaille dans des zones dangereuses dues aux gaz doit 
+avoir reçu la formation appropriée aux tâches à exécuter et connaître les procédures d’urgence. 
+ 
+3.2 Les programmes de formation et la liste des personnes formées doivent être documentés. Les 
+personnes formées doivent pouvoir s’identifier (certificat). Ce certificat est à durée limitée et est 
+renouvelable périodiquement. 
+ 
+4. Procédures et émission de permis 
+ 
+4.1. Une évaluation des risques doit servir à l’élaboration de la procédure de travail sécuritaire la plus 
+appropriée et intégrer une évaluation des zones (à l’intérieur comme à l’extérieur de l’usine) 
+susceptibles d’être affectées par des émissions de gaz. 
+ 
+4.2. Il doit exister un processus en vertu duquel un permis écrit (tâche ponctuelle) ou une procédure 
+écrite (tâches continues ou répétitives) sert à la planification et au contrôle du travail que nécessitent 
+l’isolement, la purge et la sécurisation de la zone en vue des travaux de maintenance et d’autres 
+activités. Tous les travaux d’isolement effectués pour sécuriser le travail doivent être d’ordres 
+matériels et conformes à la norme d’ArcelorMittal sur l’isolement (norme de sécurité AM 001). 
+ 
+4.3. Une surveillance efficace des gaz doit être effectuée avant, pendant et après le travail. Dans 
+certains cas, selon une évaluation des risques, la surveillance peut non seulement inclure l’indication, 
+mais aussi l’utilisation, par exemple, d’alarmes sonores, par vibration et témoin lumineux. 
+L’utilisation de plus d’un moniteur à la fois pour détecter la présence de gaz avant d’entrer dans un 
+espace clos offre plus de sécurité et doit donc être mise en pratique. La surveillance préalable au 
+travail peut nécessiter l’emploi d’un appareil respiratoire individuel ; ceci doit être mentionné dans la 
+description de poste à partir de l’analyse des risques. La surveillance doit être effectuée par des 
+personnes formées et accréditées. 
+ 
+4.4. Il doit exister une méthode pour assurer l’alimentation en air (voir également l’article 5). 
+ 
+4.5 Il est interdit de fumer ou d’allumer des flammes nues dans les zones dangereuses dues aux gaz. 
+ 
+4.6 Comme le travail à chaud (soudage, brasage, découpage, etc.) risque de provoquer des incendies, il 
+ne peut être exécuté dans une zone dangereuse due aux gaz qu’après émission d’un permis de travail à 
+chaud dûment autorisé. 
+ 
+5. Alimentation en air 
+ 
+5.1 L’alimentation en air doit avoir la qualité prescrite dans la réglementation locale en vigueur. 
+ 
+5.2 L’air comprimé respirable doit, à tout le moins, être conforme aux exigences suivantes : 
+- teneur en oxygène de 19,5 - 22,0 % ; 
+- teneur en hydrocarbure (condensé) inférieure à 5 milligrammes par mètre cube d’air ; 
+- teneur en monoxyde de carbone (CO) inférieure à 10 ppm ; 
+- teneur en dioxyde de carbone inférieure à 1000 ppm ; et 
+- absence d’odeur perceptible. 
+Corporate : Santé & Sécurité 
+Page 2de 5
+ 
+ 
+5.3 L’appareil respiratoire ne doit pas dépendre de compresseurs portatifs pour l’admission en air. 
+ 
+5.4 Il doit exister une méthode, documentée et agrémentée de données d’essai pour chaque appareil, 
+qui assure la fonctionnalité et l’état de tous les éléments de l’appareil respiratoire, tels que la jupe du 
+masque, l’oculaire, les soupapes de contrôle de la respiration, les robinets de réglage de la bouteille 
+d’air, le dispositif de mesure de la pression et les tuyaux souples. 
+ 
+6. Commentaires 
+ 
+6.1 Un plan systématique d’examen des fuites présentes dans les zones dangereuses dues aux gaz doit 
+être élaboré et mis en application. 
+ 
+6.2 Les tuyaux seront tous recouverts de peinture de couleurs normalisées, en particulier dans les 
+zones d’entretien. 
+ 
+6.3 La conception de tout projet de construction s’appuiera sur une application rigoureuse de la 
+réglementation sur les gaz et prévoira des espaces ouverts ou une ventilation suffisante. 
+ 
+6.4 Il faut éloigner toute source de O2 des matières combustibles dans les zones d’accès restreint, 
+notamment les graisses, huiles et autres lubrifiants. 
+ 
+6.5 Il serait préférable d’utiliser les outils à essence à l’extérieur pour éviter l’accumulation de gaz de 
+combustion dans le lieu de travail. Si le travail doit se faire à l’intérieur, prévoir obligatoirement une 
+bonne ventilation ainsi que l’évacuation adéquate des gaz de combustion vers l’extérieur de 
+l’immeuble. Il est recommandé de contrôler en continu la présence de gaz dangereux dans l’immeuble, 
+en prenant soin d’installer un système d’alarme à l’entrée. 
+ 
+6.6 Ne jamais utiliser du O2 au lieu d’air comprimé pour nettoyer. 
+ 
+7. Détecteurs 
+ 
+7.1. Utiliser de façon générale des détecteurs multi-gaz. 
+ 
+7.1.1. Exception : lorsque, selon une analyse des risques, le plan d’implantation des zones dangereuses 
+dues aux gaz mises en évidence permet l’utilisation de détecteurs adaptés spécifiés. 
+ 
+7.2 Lorsque l'évaluation des risques nécessite que des détecteurs de gaz portables doivent être utilisés 
+pour entrer dans une zone de danger du gaz, chaque travailleur (notre personnel aussi bien que nos 
+sous-traitants) doivent être équipé individuellement d'un détecteur individuel approprié. Chaque 
+utilisateur doit être formés à l'utilisation correcte du détecteur considéré et assumera la responsabilité 
+et sera discipliné pour le maintenir dans un bon état d'usage. L’utilisation d'un seul détecteur portable 
+pour plusieurs travailleurs n'est pas recommandé, même quand ils travaillent ensemble, car en fonction 
+de la densité du gaz, c'est la concentration dans l'atmosphère qui peut changer d’un lieu où le détecteur 
+est à un autre même seulement d’un mètre. 
+ 
+7.3 Un système d’inspection de tout le matériel et un système d’essai et d’étalonnage de tous les 
+détecteurs de gaz (fixes et personnels) doivent être en place. 
+ 
+7.4 Détecteurs de monoxyde de carbone (CO) 
+Les seuils ne doivent pas dépasser ce qui suit : 
+  30 ppm pour un niveau faible, autorisant une présence de 8 h ; 
+ 100 ppm pour un niveau élevé, autorisant une présence de 1 h. 
+Voir la courbe de danger du CO en annexe. 
+ 
+Corporate : Santé & Sécurité 
+Page 3de 5
+ 
+7.5 O2 
+Deux niveaux de détection à utiliser : les valeurs recommandées s’établissent comme suit : 
+ Faible 19,5 % 
+ Élevé 22,5 % 
+Rappel : La réaction du détecteur N’est PAS immédiate ; il faut de 10 à 20 s avant d’obtenir la bonne 
+mesure. Les procédures locales doivent en tenir compte. 
+Pour plus de clarté : Les détecteurs doivent être en mesure de déceler les deux seuils limites, étant 
+donné que les valeurs inférieures ou supérieures peuvent entraîner la mort. 
+ 
+7.6 Risque d’explosion 
+Le risque d’explosion est détecté par l’entremise des hydrocarbures (surtout le CH4) et exprimé en % 
+de la limite inférieure d’explosivité (LIE). 
+Il est recommandé de ne pas régler les deux niveaux à des valeurs supérieures à 10 % et à 20 % de la 
+LIE respectivement. 
+ 
+7.7 H2S 
+Cette mesure doit être prise lorsque les gaz contiennent du H2S (par ex., du COG), mais également si 
+le H2S provient de la décomposition de matières organiques (par ex., dans des puits d’eau). 
+Niveaux de détection recommandés : 
+ Faible 5 ppm 
+ Élevé 10 ppm 
+ 
+7.8 Étalonnage 
+Un système d’inspection de tout le matériel et un système d’essai et d’étalonnage de tous les 
+détecteurs de gaz (fixes et personnels) doivent être en place. 
+L’étalonnage doit être effectué en stricte conformité avec les consignes du fournisseur (fréquence et 
+méthode). 
+L’étalonnage doit être documenté pour chaque détecteur. Les détecteurs doivent donc tous être 
+numérotés. 
+L’étalonnage doit être fait par du personnel accrédité (employés du fournisseur ou employés dûment 
+formés de l’entreprise). 
+ 
+7.9 Procédures 
+Les procédures locales doivent décrire les mesures à prendre pour chaque niveau d’alarme relié à 
+chaque type de gaz dont la présence est décelée par les détecteurs. 
+ 
+8. Intervention d’urgence 
+ 
+8.1 Le rejet inattendu de gaz doit faire partie du plan global d’intervention d’urgence du site et doit 
+prendre en compte toutes les zones potentiellement touchées à l’intérieur comme à l’extérieur du site. 
+Le plan d’intervention doit faire état du type, de l’inspection et de l’emplacement du matériel de 
+sauvetage. 
+ 
+8.2 Les plans d’intervention d’urgence doivent faire l’objet d’exercices pratiques réguliers et doivent 
+être examinés en fonction de l’évaluation des risques. 
+ 
+Corporate : Santé & Sécurité 
+Page 4de 5
+ 
+Corporate : Santé & Sécurité 
+Page 5de 5
+Annexe

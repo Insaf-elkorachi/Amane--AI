@@ -1,0 +1,328 @@
+Document information
+Short description:
+Instructions for all elevated work where there is a risk of falling.   
+Scope:
+These instructions are applicable to all  people (ArcelorMittal employees  and contractors) involved in
+all elevated work where there is a risk of falling.  
+Business Owners:
+Writer (prepared by):
+Paulmier Robin
+Baluch Eduard
+Creation date:
+Review date:
+Implementation Date:
+10/12/2007
+16/01/2023
+10/12/2007
+Reference Documents
+Reference or date
+Title
+Validation
+Validated by
+Position
+Validation date
+PAULMIER ROBIN
+Group Health & Safety
+24/01/2023
+Approval
+Approved by
+Position
+Approval date
+DAVEY BRADLEY
+Head of Corporate Business Optimization
+31/01/2023
+AM_H&S_PR_004_03
+AM Safety ST 003 v7.1 - Working at Height
+Health & Safety
+ArcelorMittal
+Health & Safety
+AM_H&S_PR_004
+ArcelorMittal
+AM Safety ST 003 v7.1 - Working at Height
+Page 1 of 7
+Document Information
+Short description: Instructions for all elevated work where there is a risk of falling.
+Scope:  These instructions are applicable to all  people (ArcelorMittal employees  and contractors ) 
+involved in all elevated work where there is a risk of falling.
+Business Owners:
+Robin PAULMIER 
+Creation date (first version):
+10/12/2007
+Writer (prepared by):
+Robin PAULMIER 
+Eduard BALUCH
+Review date (new version):
+16/01/2023
+Reviewed by:
+Eduard BALUCH
+Implementation Date:
+10/12/2007
+Version History
+Version
+Date
+Person
+Description
+1
+10/12/2007
+David SADLER
+Creation
+2
+02/11/2010
+Frank HAERS
+Review
+3
+08/05/2012
+Frank HAERS
+Review
+4
+08/05/2017
+Robin PAULMIER
+Review
+5
+01/07/2019
+Robin PAULMIER
+Strengthening requirements for roofing activities, to integrate 
+some learning points about 3 fatalities in 2018.
+6
+01/06/2020
+Eduard BALUCH
+Integration of requirements for docks activities 
+7
+20/09/2022
+Eduard BALUCH
+Add Fix Ladder sentence, Add Fall protection requirements 
+7.1
+31/01/2023
+Eduard BALUCH
+Add scope definition, Add in 4.7 Floor construction or repair 
+activities requirements. Add requirements re immediate stop of 
+the work and evacuation in case of unclipped person.
+Health & Safety
+AM_H&S_PR_004
+ArcelorMittal
+AM Safety ST 003 v7.1 - Working at Height
+Page 2 of 7
+Reference Documents
+Reference or date
+Title
+/
+/
+Validation
+Validated by
+Position
+Validation Date
+Signature
+Robin PAULMIER
+Head Corporate Health and 
+Safety
+31/01/2023
+Approval
+Approved by
+Position
+Approval date
+Signature
+AM Health and Safety Council
+HSC Chairman
+31/01/2023
+Health & Safety
+AM_H&S_PR_004
+ArcelorMittal
+AM Safety ST 003 v7.1 - Working at Height
+Page 3 of 7
+1. Scope 
+1.1. Group Companies will, as a minimum, follow the prevailing local regulations for elevated 
+work where there is a risk of falling. Where this ArcelorMittal standard is more demanding, 
+then it will apply. 
+1.2. In any case, fall prevention or protection shall be used for elevated work above 1.8 meters 
+(6 feet). However, for any task where the risk assessment highlights a danger of falling, 
+proper actions must be taken, even if the distance one can fall is less than 1,8 m.
+2. Definitions 
+2.1.  Fall prevention. Wherever practical, a safe working area must be provided by means of  
+work platforms or scaffolds. Fall Prevention standards are set out below. 
+2.2.  Fall protection. In all other cases, Fall Protection must be used. This includes situations in 
+which work is being carried out from an elevated work pla tform or man-lift/cherry picker, 
+except work of mi nor extend on portable ladders.  Fall Protection standards are set out 
+below. 
+2.3. Ladders. 
+2.3.1. portable ladders: 
+see annex A1 to this standard.
+2.3.2. fix ladders: 
+see annex A2 to this standard
+
+NB:  following accidents that incl u de a fatality in 2022, r ope and cable  ladders ( two long ropes 
+or flexible cables,  connected by short crosspieces (rungs ) , typically made of wood or metal, used 
+as a ladder ) are banned. They cannot be used within our premises, nor by us nor by any 
+contractor or subcontractor.  For the exceptional cases where no alternative would be technically 
+possible, it is mandatory to use simultaneously and continuously a self-retracting lifeline.  
+2.4. Restricted access. Where overhead work is being conducted, there must be demarcation 
+to restrict access around the work area to protect ot hers below from falling objects and to 
+prevent the platforms / scaffolds or other to be hit by any form of “traffic”.
+2.5. Dock - a structure extending alongshore or out from the shore into a body of water, to 
+which ore boats, barges etc. may be moored.
+Health & Safety
+AM_H&S_PR_004
+ArcelorMittal
+AM Safety ST 003 v7.1 - Working at Height
+Page 4 of 7
+2.6. Gangway. a narrow passageway used to board or disembark ships
+3. Fall Prevention 
+3.1.  Work platforms and scaffolds must have complete floors, guardrails and toe-boards. Safe 
+access and egress must be provided. 
+3.2.  A person must be designated to control the work platform, scissor lift or man-lift (“the 
+basket”),  which is trained and competent to do so and qualified as required under local 
+regulations.
+3.3.  Every person in the ‘basket’ must be secured at all ti mes with proper Fall Protection  
+equipment. When exiting the basket, Fall Protection must be used during transition unless 
+otherwise protected. There must be systems in place to prevent tools and equipment from 
+falling. 
+3.4.  There shall be a system for ensuring the design, construction, certification, maintenance 
+and inspection of elevated work platforms (including scaffolds) and man-lifts. 
+4. 
+Fall Protection 
+4.1. Any person that is required to use fall protection must be trained and competent.
+4.2. A person will be subjected to Fall Protection if s/he is secured with an approved full body 
+harness, shock absorbing lanyard (where the potential to fall is greater than 4 meters) or 
+short restraining lanyards (where the potential to fall is less than 4 meters), self-locking 
+snap hooks (or carabineer type rings) and secure anchorage points. Safety belts are not 
+adequate fall protection mechanisms and do not comply with this standard. 
+Where fall protection equipment is required – before work begins ,  a pre-task H&S plan, 
+checklist or pre task HIRA, Job Safety Analysis or Toolbox Talk must:
+o
+Be completed with all workers involved in the Work at Height tasks (to ensure 
+awareness and alignment of the planned safety measures) 
+o
+Specifically state the fall protection / prevention equipment to be used for all tasks to 
+be performed 
+o
+Specify the anchoring system / points to be used 
+o
+Be reviewed and signed by all workers and their supervisor.
+4. 3 . Where movement beyond the reach of a single lanyard is required, a risk assessment must 
+be carried out to determine the need for  lifelines and double lanyards. Where double 
+lanyards are required, the person must ensure that at least one is attached all the time. 
+4.4. Anchorage points and lifelines
+Health & Safety
+AM_H&S_PR_004
+ArcelorMittal
+AM Safety ST 003 v7.1 - Working at Height
+Page 5 of 7
+Anchorage points  and lifelines  must, where practical, be above the head of the worker, and 
+must ensure that in the event of a fall the worker will neither swing into a hazard nor touch 
+the ground.  In any case, the fall factor must be estimated and taken into account to check 
+that the person is effectively protected:
+
+anchorage point(s) and lifeline will resist, 
+
+user will not hit the ground or another obstacle during the fall, and 
+
+user ‘s body will not be submitted to a dynamic force greater than 6 kN).
+4.4.1.  There must be a system for ensuring that anchorage  points  and lifelines  are 
+designed ,  approved , and regularly verified  by a competent person to ensure that 
+they are secure and can take the required load. In case of absence of detailed 
+specific requirements in the local legislation, EN 353 or equivalent should be 
+followed.  A competent person is one who has received appropriate training and is 
+suitably certified / qualified by local regulatory schemes. 
+4.4.2. Installation and maintenance/repairs of the anchorage points and lifelines must:
+only be conducted by a competent person, and strictly in accordance with the 
+equipment technical specifications.
+The HIRA and SOP for the installation of new anchorage points and lifelines must 
+provide means to protect the person(s) installing the device from fall from height 
+risks (e.g. cherry picker, mobile lifting platforms, man basket,  temporary lifelines, 
+ …).
+4.5. There must be a system for ensuring that Fall Protection equipment is: 
+4.5.1. Tested and certified for use.
+4.5.2. Inspected by the user before use and, 
+4.5.3.  Destroyed following a fall or where inspection has shown evidence of excessive 
+wear or mechanical malfunction. 
+4.6. There must be  an  emergency rescue procedure for fall victims for each job. Emergency 
+response plans must be regularly practiced. 
+4.7. Roofing activities  and floor construction/repair activities (installing, assembling or replacing 
+gratings or floor plates)
+All roofing activities (repairs, replacement, construction, cleaning, …),  and all activities 
+involving a floor construction or repair (when there is a risk of floor collapse or when there 
+is a floor opening),  including all movements associated with these activities between the 
+roof /  floor access point and the place of work (including the supply and removal of material 
+and tools) should be firstly secured by the mean of fall preventing collective solutions (e.g. 
+safe platforms and walkways fitted with handrails).
+In addition to the above, fall protecting collective solutions can include the use of safety 
+nets capable of arresting the fall of people and/or equipment when work is being carried
+Health & Safety
+AM_H&S_PR_004
+ArcelorMittal
+AM Safety ST 003 v7.1 - Working at Height
+Page 6 of 7
+out. In case of net(s), individual fall protection equipment (safety harnesses with adapted 
+anchorage solutions) has to be used additionally.
+For installing roof panels on new buildings (new constructions): the usage of safety nets is 
+mandatory.
+When roofing/ flooring activities involve the opening and/or replacement/repair of some 
+roof/ floor panels, including skylight panels, or when collective solutions are not fully 
+protecting the activities, they must be continuously monitored and controlled by an 
+individual competent person (often called “Red Scorpion”, can be internal or third party) not 
+involved  in the activity and having the authority to intervene in case of any deviation 
+observed. This permanent monitoring can be done through cameras or physical presence 
+at height. In 1 st   case, the monitoring person must have continuous verbal contact with 
+someone on the roof, so he can intervene if he observes an unsafe act or situation. The  
+Red Scorpion ’s  mission in not to supervise the job, but to provide continuous safety 
+auditing of the controls foreseen by the HIRA. He has to provide a daily written report 
+about his activity.  In case of a person unclipped, even temporarily, whereas the HIRA 
+states he should be clipped, the duty of the “Red Scorpion” person is to have  the  works
+stopped  immediately  and  all  concerned  people  evacuated  safely  without  delay. The 
+violator must have his/her work permit / access badge removed immediately (he/she is not 
+allowed to finish any work, except if this would lead to higher risks, which has to be formally 
+validated and authorized by the plant or project director) and be accompanied to the exit of 
+the premise. This must be very clear in the “Red Scorpion” person’s mission contract.
+Map detailing the movements on the roof/floor: for all activities, during the planning of 
+the work, a detailed map of the roof/floor must be drawn for each phase of the works.
+
+This map must show the exact detailed circulation walkways, around the working 
+place, and from access/egress points to the working place, for people, tools and 
+materials. 
+
+A color code should be used to explain where being clipped to a lifeline is 
+mandatory (and which lifeline) and where it is not mandatory (areas secured thanks
+to robust floor + railings). 
+
+The map will show the range accessible from each lifeline, taking into account the 
+length of the lanyards. 
+
+A check will be made to check that the movements necessary to perform the works,
+bring and evacuate tools and materials, are feasible. 
+
+Points where people have to change from on lifeline to another will be highlighted. 
+
+The map will also clearly identify the places where storing materials and tools is 
+allowed, and the maximum weight allowed. This maximum weight has to be 
+calculated by a competent person, after checking the actual condition of the 
+structure.
+
+This map will be part of the HIRA and will have to be signed each time there is a 
+change and at least once a day, before accessing the roof/floor, by each of the 
+person. When a shift change occurs, or when there is a work interruption, whereas 
+some roof panel or floor grating/plate have been positioned but have not yet been 
+secured/fixed, the map has to be updated with this information.
+Health & Safety
+AM_H&S_PR_004
+ArcelorMittal
+AM Safety ST 003 v7.1 - Working at Height
+Page 7 of 7
+4.8. Over, On, or Near Water along Docks.
+4.8.1. All individuals over, on or near water along docks and within 3 meters (10 feet)
+of the water, must wear “Approved life jackets” or “buoyant work vests”.
+4.8.2. This includes those individuals boarding or de-boarding a barge, ore boat, etc. 
+4.8.3. This includes those individuals operating mobile equipment.
+4.8.4. Unprotected boundaries of  3 meters (10 feet)  from the water dock edge must 
+be demarcated.
+4.8.5. Signs stating “Approved life jackets or buoyant work vests must be worn” must 
+be posted along the demarcated areas.
+4.8.6. Where activities that involve being over, on or near water are being carried out 
+during the hours of darkness, adequate lighting must be provided and 
+maintained.  ( Follow the national legal/official recommendations. As guidelines  
+value 50 Lux, can be considered as safe)  
+4.8.7. When ladders or gangways are used to board or disembark a motorized 
+vessel, safety nets must be installed under the ladder or gangway.
+4.8.8. A gangway with railings  or fixed ladder  must be utilized when accessing 
+barges.
+Attachments: A1: Portable ladders
+A2: Fix ladders
+---- End of Document ----

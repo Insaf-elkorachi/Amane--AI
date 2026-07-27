@@ -1,0 +1,467 @@
+ 
+Corporate : Santé & Sécurité 
+Page 1de 7
+ 
+ 
+ 
+Santé & Sécurité 
+STANDARDS 
+ 
+REF : AM Sécurité ST 013 
+Mesures d’urgence 
+Date de publication : 
+10/05/2010 
+Version : 1 
+Date de révision : 03/09/2010 
+ 
+MESURES D'URGENCE  
+ 
+Circuit de vérification : 
+Rédigé par : 
+Vérifié par : 
+Approuvé par : 
+Nom : 
+C_H&S 
+HSLT 
+Frank Haers 
+ 
+ 
+ 
+ 
+1. Champ d'application 
+  
+1.1. Cette norme s'applique à tout le personnel, les entrepreneurs, les fournisseurs de 
+services, aux visiteurs, ... etc, qui entrent sur les sites d'ArcelorMittal. 
+  
+1.2. Les Sociétés du Groupe, au minimum, respecteront les réglementations locales en 
+vigueur et exigences pour les mesures d’urgence et d’intervention. Lorsque le standard 
+ArcelorMittal est plus exigeant, il est applicable. 
+  
+1.3. Pour n'importe quel site, après une identification des dangers et l'évaluation des 
+risques pour détecter de possible cas d'urgence existant sur le site, un plan d'urgence 
+doit être préparé en vue de donner une réponse claire pour chaque cas. Il peut s'agir de 
+questions de santé et de sécurité ainsi que questions liées à l'environnement.  
+ 
+1.4. N'oubliez pas une intervention d'urgence est la dernière chance pour minimiser les 
+conséquences de l'événement et les mesures d’urgences sont la prévention avant 
+l'événement. 
+ 
+ 
+ 
+1.5. Les principales cibles de cette norme sont de définir ce qui doit être fait quand et par 
+qui. 
+ 
+1.6. Liste minimale des scénarios d'urgence à développer:  
+ 
+1.6.1. Incendie;  
+1.6.2. Explosion  
+1.6.3. La pollution (eau, sol, ...)  
+1.6.4. Transport de produits dangereux (hydrogène, le carburant, les acides, ...)  
+1.6.5. Contamination par des gaz  
+1.6.6. Contamination par  matières radioactives  
+1.6.7. Tremblement de terre)  
+1.6.8. Les inondations)  
+1.6.9. Ouragans) dans les régions où ces catastrophes naturelles sont à prévoir  
+1.6.10. Tornades)  
+1.6.11. D'autres, tel que détecté par le site  
+ 
+ 
+2. Mesures d'urgence (pré-événement)
+ 
+  
+2.1. Événements ayant conduit à une situation d'urgence peuvent inclure (mais ne sont 
+pas limités à):  
+- Des événements avec ou sans blessures ou des décès; ces incidents peuvent devenir 
+des catastrophes dans les installations sans causer de problèmes à la population  
+- Des événements qui peuvent être dues aux installations ou à de l'activité, due à des 
+produits ou en tant que conséquence de conditions externes (autres entreprises, le 
+climat, ...); une méthode de notification et rassemblement des premiers intervenants (les 
+personnes de premiers secours) est nécessaire - en particulier pour les très  grandes 
+unités des entreprises. 
+  
+2.2. Gestion du plan d'urgence 
+  
+En plus de faire un maximum d'efforts pour prévenir ou atténuer les situations d'urgence  
+sur la base les résultats de l’analyse des risques, ce qui suit sera fait:  
+ 
+2.2.1. Construire un plan d'urgence cohérent et approprié pour le type d’installation, les 
+conditions du site et les exigences légales locales 
+  
+2.2.2. Un diagramme de flux décrivant le scénario des risques majeurs (cf. 1.6) aussi 
+bien que les interventions d'urgence, et incluant le rôle de personnes seront faits 
+ 
+2.2.3. Plan de communication interne et externe : 
+- Créez une liste de numéros de téléphone de l'organisation des urgences interne et des 
+services de secours extérieurs (pompiers, ambulance, les services publics comme  
+les fournisseurs de gaz, eau, électricité, ... etc).  
+- Inclure dans cette liste également tous les organismes extérieurs qui doivent être 
+informé sans délai dans le temps: la police, médias, les autorités, etc ...;  
+- Être clair dans les descriptions fonctionnelles de l’équipe de crise, les membre de 
+l'équipe  d’urgence sont au contact avec des organes externes, services, etc  
+- Envisager de faire de ce point central le "Centre de Commande" (pompiers)  
+- Des équipes d'intervention, des numéros de téléphone de domicile ou de  téléphones 
+cellulaires /, etc afin de créer un fichier de référence  
+- Mettre en place un réseau de communication par site - quelqu'un pour faire face aux  
+médias - définir et formaliser une personne comme le porte-parole de l'entreprise.  
+ 
+2.2.4. Création de Points d’évacuation ou de rassemblement, c'est-à-dire  un lieu sûr où 
+les gens vont aller si un ordre d'évacuation est donné. Pour être en mesure de vérifier 
+que toutes les personnes ont (été évacués) un système doit être mis en place pour 
+savoir exactement combien de personnes sont présentes dans chaque zone. La 
+signalisation et les points de rassemblement seront construits de manière adéquate afin 
+qu'ils puissent être vus aussi dans les situations sombres. 
+  
+2.2.5. Puisque la liste des personnes présentes peut ne pas être exacte (tous les 
+entrepreneurs ou les visiteurs ne sont peut-être pas correctement dans la liste?) une liste 
+de contrôle pour vérifier si tout le monde est arrivé au Point de rassemblement ne suffit 
+pas. Il est nécessaire de bien former des personnes à la recherche des personnes 
+restant dans la zone de danger.  
+ 
+2.2.6. Existence d'au moins un permanent au point central où 24 / 7 tous les  
+appels d'urgence arrivent. 
+  
+Corporate : Santé & Sécurité 
+Page 2de 7
+ 
+2.2.7. Existence d'au moins un permanent au point central où 24 / 7 tous les  
+signaux d'urgence arrivent, ce qui peut ou peut ne pas être au même endroit que  
+décrit dans 2.2.5. 
+  
+2.2.8. Une équipe suffisante doit être formée pour ce genre de situations d'urgence, 
+assurer la présence d'un nombre suffisant de personnes en tout temps. «Suffisante» doit 
+être fondée sur le droit local, les exigences des compagnies d'assurance, ... mais ne 
+sera jamais inférieur de 10% de la population dans chaque zone, bien réparties des 
+quarts de travail. En temps de crise ils doivent être facilement reconnaissables.  
+ 
+2.2.9. Les personnes qui portent les premiers soins en nombre suffisant doivent être 
+formées, assurant la présence d’un nombre adéquat de personnes en tout temps. 
+«Suffisant» doit être fondé sur le droit local, les exigences des compagnies d'assurance, 
+... mais ne sera jamais inférieur à 10% de la population dans chaque zone, bien réparties 
+par équipe de travail. En temps de crise, ils doivent être facilement reconnaissables.  
+ 
+2.2.10.  La liste des produits chimiques et les fiches de données de sécurité doivent être 
+à jour, connues, facilement accessibles et distribuées aux unités d'intervention d'urgence 
+et pompiers et au centre médical. Puisque la quantité de documentation peut être 
+importantes, cela peut être impossible à transporter, il est donc bon d'avoir les infos 
+disponibles dans un ordinateur dédié, les systèmes spécialisés existent sur le marché 
+(par exemple Gorsap) 
+  
+2.2.11. Une liste avec toutes les informations et en particulier avec les noms des 
+personnes compétentes des premiers secours sera disponible dans la (les) salle(s) de 
+réunion de crise, les infirmeries et les points identifiés  dans les départements, comme 
+par exemple les salles de contrôle. 
+  
+2.2.12. Création d'au moins une salle de réunion de crise, c'est-à-dire un lieu où l’équipe 
+de crise locale peut se rencontrer. Avoir deux endroits possibles est fortement 
+recommandé afin d’assurer le fonctionnement de l'équipe locale de crise dans toutes les 
+conditions. Toutes informations nécessaires et du matériel pour gérer la crise doivent 
+être disponibles et mis à jour. Voir la norme de sécurité AM ST 016 pour plus de détails.  
+ 
+2.2.13. Création d'une Salle de presse, où les journalistes peuvent être regroupés, loin 
+du danger et loin de l'endroit où les décisions sont prises (afin d'éviter les mauvaises 
+surprises). Ils peuvent être officiellement informés s’il y a un communiqué qu’a décidé de 
+leur donner la direction. 
+  
+2.2.14. Création de l’équipe de gestion des crises qui peut être appelé ainsi très 
+rapidement à face à la situation (qui sera organisée dans la pratique par le site). Cette 
+équipe sera un coordonnateur, à savoir une personne qui dirige les actions nécessaires 
+pour prendre soin de la situation de crise, ainsi que des représentants de toutes les 
+principales fonctions nécessaires à une telle équipe (médicale, la sécurité, les pompiers, 
+l'environnement, les ressources humaines, communication, les opérations, la sécurité, 
+etc ...) Voir la norme de sécurité AM ST 016 pour plus de détails  
+ 
+2.2.15. Toutes les personnes impliquées dans la gestion de la crise doivent être formés 
+correctement 
+pour 
+remplir 
+leur 
+rôle 
+adéquatement. 
+ 
+ 
+2.2.16. Tout le personnel, les entrepreneurs, les fournisseurs de services, etc doivent 
+être informés afin de répondre correctement aux situations d'urgence. Les visiteurs 
+Corporate : Santé & Sécurité 
+Page 3de 7
+ 
+doivent recevoir un minimum d'informations aussi, mais doivent en tout temps être 
+accompagnés par une personne bien informée qui peut prendre soin d'eux et les mettre 
+en sécurité en cas d'urgence. 
+  
+2.3. Les installations médicales sur le site 
+  
+2.3.1. L’infirmerie doit être assez près de chaque zone de travail, clairement identifiée, 
+bien équipé et en bon ordre. Il y aura également un certain nombre d’endroits bien 
+signalés avec des kits de premiers secours et du matériel de sauvetage. Même 
+l'utilisation de trousses de premiers soins doit être signalée afin de s’assurer que tous les 
+incidents sont connus et que les trousses de premiers soins sont complètement 
+équipées en tout temps (recharge après utilisation). 
+  
+2.3.2. Pour les petits chantiers, où une infirmerie pourrait ne pas être nécessaire selon 
+les lois locales, il y aura un ou plusieurs endroits bien signalés où trouver des trousses 
+de premiers soins et du matériel de secours. Une quantité requise du personnel 
+d'exploitation aura reçu la formation aux premiers secours. 
+  
+2.3.3. Une assistance médicale doit répondre à l'analyse des besoins spécifiques pour 
+traiter les risques pour la santé sur le site. 
+  
+2.4. Brigade de pompiers et les pompiers 
+  
+2.4.1. Brigade de pompiers  
+ 
+a) Sur le site: 
+ Les pompiers doivent être formés et tous les sapeurs-pompiers doivent être suivis 
+médicalement chaque année. 
+ La présence d'un nombre suffisant de personnes en tout temps doit être assurée. Cela 
+doit tenir compte des exigences minimales par la législation locale et des 
+recommandations par les compagnies d'assurance. 
+ Pour les petits sites, où aucune brigade de pompiers site ne peut être disponible, les 
+employés bien formés doivent être disponibles (voir ci-dessous). Ils auront ensuite à faire 
+des exercices avec les pompiers extérieurs, si possible sur une base régulière (par 
+exemple une fois par an). 
+ La présence d'un nombre suffisant de personnes en tout temps doit être assurée  
+Chaque site (grand et petit) doit également s’assurer que suffisamment de personnes 
+ont reçu une formation sur l'extinction d'incendie pour les cas mineurs ou pour la 
+première intervention pour de plus vaste problèmes (sans prendre de risques inutiles!) 
+jusqu'à ce que les pompiers du site ou les pompiers extérieurs soient présents. Pour 
+décider d’un nombre suffisant de personnes aussi bien que pour la détermination de leur 
+niveau de formation nécessaire, le temps de réponse des services extérieurs services 
+doit être pris en compte.  
+ 
+b) de la brigade du feu extérieur: 
+ L'évaluation du temps de réponse pour assurer la sécurité sur le site, est de grande 
+importance pour les sites n'ayant pas leur propre brigade de pompiers.  
+Ils doivent également être invités à visiter régulièrement le site pour se familiariser avec 
+les situations, les installations, les risques, etc afin d'être en mesure de fournir l'aide 
+d’une 
+manière 
+efficace 
+chaque 
+fois 
+qu'ils 
+seraient 
+appelés 
+à 
+le 
+faire. 
+ 
+ 
+2.4.2. Sapeurs-pompiers interne: 
+Corporate : Santé & Sécurité 
+Page 4de 7
+ 
+ Un nombre suffisant de combattants du feu interne doivent être formés, assurant la 
+présence d’un nombre adéquat de personnes en tout temps. 
+  
+2.5. Les sites doivent entreprendre une évaluation des risques complète pour fixer les 
+besoins en matière d’intervention. Ces interventions devraient porter sur:  
+ 
+2.5.1. Toutes les situations d'urgence potentielles sur le site, incluant l'influence qu'ils 
+peuvent avoir en dehors du site 
+  
+2.5.2. Toutes les situations d'urgence potentielles passées à l'extérieur du site, mais 
+influant sur la santé et / ou la sécurité des personnes sur le site 
+  
+2.5.3. Un examen régulier des situations d'urgence possibles 
+  
+2.5.4. Il ne faut pas oublier que même les choses qui touchent le site en interne, peuvent 
+créer la nécessité de fournir des informations à la population autour du site (sens de 
+l'alarme,  sirènes, les tests des alarmes, des exercices, ...). Une réunion d'information du 
+public est un outil de droit pour informer et éviter une panique inutile ou des questions à 
+tout moment dans le temps. 
+  
+2.6. Une étude approfondie devrait être fait en matière de sécurité industrielle sur toutes 
+les installations en vue d’identifier le besoin de:  
+·  systèmes d'extinction,  
+· systèmes de protection contre les incendies, 
+ · Tuyaux d'eau à sec  
+· Mousse  
+· Extracteurs de fumées  
+· Dangers de détection et les alarmes associées,  
+· Protection environnementale,  
+· système diesel d’urgence pour alimenter en électricité les fonctions vitales  
+· système d'éclairage d’urgence,  
+· routes d'évacuation d'urgence  
+- sirène pour donner le signal d'évacuation, ainsi que pour signaler que la situation est à 
+nouveau en sécurité, avec la procédure associée  
+· Camion de pompier, ambulances et autres véhicules auxiliaires  
+· Moyens de prévenir les pollutions (par exemple, les barrages flottants et gonflables, ...)  
+· Autres systèmes spécifiques comme pour le sauvetage des espaces confinés, douches 
+oculaires pour produits chimiques, appareils respiratoires en cas de besoin, des 
+dispositifs de détection de gaz, ... 
+Le respect de ces normes, ainsi que la réglementation locale, devraient être examinées  
+sur une base régulière. 
+Les installations industrielles doivent se conformer ainsi au Guide de la gestion des 
+risques ArcelorMittal.  
+La vérification périodique, incluant les documents appropriés, de tous ces dispositifs est 
+à mettre en place. 
+Assurez-vous que dans tous les cas, même lorsque l'électricité ne permettrait pas, assez 
+d'eau est disponible pour l'extinction d'incendie. Les systèmes électriques d'urgence (par 
+exemple un réseau limité fonctionnant sur un moteur diesel dans un endroit bien 
+protégé) 
+sera 
+d'une 
+grande 
+aide 
+dans 
+de 
+nombreux 
+cas. 
+ 
+Lister tous les Eléments Importants pour la Sécurité (EIS), assurez-vous qu'ils sont 
+correctement identifiés et assurer vous de l'inspection et l'entretien réguliers pour qu'ils 
+Corporate : Santé & Sécurité 
+Page 5de 7
+ 
+Corporate : Santé & Sécurité 
+Page 6de 7
+ 
+sooient 
+effectivement 
+disponibles 
+dès 
+le 
+début 
+d'une 
+urgence 
+ 
+ 
+2.7. Toutes les sources d'énergie primaire devraient être identifiés en utilisant le codage 
+couleur et le bon étiquetage (ceci inclut les vannes, commandes central, commutateurs). 
+ Le personnel concerné doit être formé sur les principaux arrêts et les commutateurs et 
+les procédures connexes de toutes les principales sources (primaire) dans tous les 
+départements du site.  Des documents ainsi que tous les commutateurs doivent être 
+facilement accessibles en tout temps pour les personnes pertinentes. Ne pas oublier de 
+déverrouiller! 
+ 
+ 
+2.8. Régulièrement des exercices de simulation doivent être organisés. C'est une bonne 
+pratique pour avoir assez d’observateurs et expérimentés ou pour filmer  le manoeuvre 
+afin de faciliter les analyses après l'exercice de manoeuvre. Le plan d'action complet 
+devrait être discuté par la suite pour atténuer les défauts ou les faiblesses.  
+ 
+2.9. Une aide extérieure sur la base d'un accord commun pourrait être fournie de 
+l'extérieur au site. Signez des arrangements à cet égard avec les organismes 
+compétents (usines voisines, organismes officiels, ...) 
+  
+2.9.1. Cet accord mutuel avec des entités extérieures dans le quartier doit être  
+formalisé dans un document écrit. 
+  
+2.9.2. Si un accord externe est effectué, le site devra organiser des tests réguliers (au 
+moins une fois par an) et des exercices pour obtenir un entraînement efficace mutuel.  
+ 
+2.10. Le site doit avoir une communication d'urgence en retour en cas d'interruption de 
+du 
+système, 
+ce 
+qui 
+devrait 
+inclure 
+les 
+besoins 
+d'urgence 
+externes. 
+ 
+ 
+2.11. Toutes les situations d'urgence qui ont eu lieu doivent être consignées dans un 
+registre adéquat.   
+L'enquête doit suivre la même procédure que celle formulée pour les incidents /  
+accidents de la Norme de sécurité 011 "enquête sur les incidents", y compris le 
+développement d’un plan d'action approprié pour éviter toute répétition.  
+ 
+ 
+3. Après un évènement 
+ 
+ 
+3.1. La communication externe doit être effectuée par une personne dûment autorisée et 
+doit être organisée pour informer les parties prenantes telles que:  
+- Corporate  
+- Notre propre main d’oeuvre  
+- La famille de la main d’oeuvre 
+- Les centres d'urgence,  
+- Les autorités locales,  
+- Les partenaires sociaux  
+- Publique,  
+- Media  
+-  
+Le communicant site externe doivent travailler en étroite collaboration avec le corporate 
+et le département communication.  
+Le site devra veiller à l'organisation de l'évacuation du quartier et à
+ 
+Corporate : Santé & Sécurité 
+Page 7de 7
+ 
+ 
+ 
+ 
+la coordination avec les organisations locales concernées en toute nature de cause.  
+Le service juridique doit valider toutes les informations.  
+ 
+3.2. Le site devra organiser des réunions-bilan après les situations d'urgence réelles ou 
+exercices avec toutes les personnes impliquées, y compris la rédaction d'un REX afin 
+que 
+les 
+autres 
+puissent 
+tirer 
+profit 
+des 
+leçons 
+apprises. 
+ 
+Un système de suivi doit être mis en place pour agir après la réunion de débriefing afin 
+prendre 
+en 
+compte 
+les 
+actions 
+correctives 
+et 
+de 
+toutes 
+les 
+traiter. 
+ 
+ 
+3.3. Le site devra définir un plan de rétablissement après l'événement, au cas où une 
+partie ou la majeure partie de l’installation est perdue. Ce plan devra inclure des 
+marchés extérieurs de biens et services lorsque l'activité a été arrêtée en raison de 
+l'événement; 
+ 
+4. Les exigences de formation  
+ 
+Un minimum de formation sur la procédure d'urgence est nécessaire dans les conditions 
+suivantes: 
+- Lors du lancement de la procédure pour tout le personnel propre et sous-traitants sur le 
+site 
+- Quand un nouvel employé AM ou un nouvel employé d’un sous-traitant est admis 
+l’orientation sur la sécurité doit couvrir la formation des procédures d'urgence  
+- Lorsque le site identifie un nouveau risque par l’Identification des dangers et l’Analyse 
+des 
+risques. 
+- Après l'exercice de manoeuvre, quand une faute a été identifiée et corrigée  
+- 
+Répétition 
+au 
+moins 
+une 
+fois 
+par 
+an 
+pour 
+tous. 
+ 
+- C'est une bonne pratique pour s’assurer que les personnes de la brigade d'incendie 
+d'une façon ou d'une autre pratiquent également cette tâche en dehors de l'usine, pour 
+s'assurer qu'ils ont assez de pratique pour s’exposer aux  situations d'urgence  
+ 
+ 
+Commentaires  
+ 
+Lors de la construction de nouveaux équipements et installations ou modifications faites, 
+n'oubliez pas de prendre en compte des normes de santé et sécurité ainsi que celles de 
+la gestion de l’analyse des risques . 
+ A
+de la plus haute importance 
+ 
+voir de la surveillance filmée des zones critiques et faire des inspections régulières sont

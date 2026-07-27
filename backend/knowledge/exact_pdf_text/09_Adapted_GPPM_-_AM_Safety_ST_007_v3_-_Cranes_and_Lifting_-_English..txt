@@ -1,0 +1,473 @@
+Document information
+Short description:
+Instructions for all uses of cranes including vehicle-mounted cranes, equipment used as cranes, hoists, lifting and rigging
+equipment. The standard does not apply to hoisting operations in underground mines.   
+Scope:
+These instructions are applicable to all uses of cranes including vehicle-mounted cranes, equipment used as cranes,
+hoists, lifting and rigging equipment. The standard does not apply to hoisting operations in underground mines.  
+Business Owners:
+Writer (prepared by):
+Paulmier Robin
+Haers Frank 
+Creation date:
+Review date:
+Implementation Date:
+28/07/2008
+03/06/2013
+28/07/2008
+Reference Documents
+Reference or date
+Title
+Validation
+Validated by
+Position
+Validation date
+PAULMIER ROBIN
+Group Head Corporate H&S
+13/10/2020
+Approval
+Approved by
+Position
+Approval date
+ESCOBEDO ANA
+Head Government Affairs Corporate
+05/11/2020
+AM_H&S_PR_008_01
+AM Safety ST 007 v3 - Cranes and 
+Lifting.docx
+Health & Safety
+ArcelorMittal
+Health & Safety
+AM_H&S_PR_008
+ArcelorMittal
+AM Safety ST 007 v3 - Cranes and Lifting.docx
+Page 1 of 6
+1.0 SCOPE
+This standard applies to all cranes including vehicle-mounted cranes, equipment used as 
+cranes, hoists, lifting and rigging equipment. The standard does not apply to hoisting 
+operations in underground mines.
+2.0 CRANES 
+2.1 Planning 
+The level of planning required for lifting is determined by the category of the lift.
+Category of Lift
+Examples: 
+(but not limited to)
+Planning Required
+High Risk/Abnormal Lifts
+-
+Liquid steel
+-
+all multiple crane lifts; 
+-
+lifts over operating areas
+that may endanger 
+personnel 
+-
+lifts over power lines; 
+-
+lifts involving personnel 
+cages; 
+-
+lifts over or exceeding 
+maximum rated loads
+-
+Risk Assessment
+-
+Develop a Lift Plan that 
+addresses associated hazards
+-
+Incl. crane drivers and rigging 
+crews in the lift plan 
+development.  A record of this 
+involvement must be kept
+-
+See below for details on what 
+should be included in the lift plan
+Standard Lifts with SOP’s 
+-
+standard required lifts 
+throughout the plant
+-
+Risk Assessment 
+-
+Develop a Standard Operating 
+Procedure (SOP) 
+Low Risk Lifts 
+-
+Regular maintenance 
+lifts
+-
+On the Job Risk Assessment
+-
+Follow safe operating practices 
+2.2 
+The lift plan must include: 
+a) Lift data: equipment weight, rigging weight, total weight, height of lift, radius of lift and 
+equipment surface area, center of gravity. 
+b) Equipment data: manufacturer, model, size, boom length, jib length block, material 
+size.
+c)
+Rigging data: sling diameter, length, sling configuration, capacity, hook type, shackle 
+size and capacity. 
+d) Proximity to power lines, pipe racks and process areas. 
+e) Local hazards and their controls and agreed communication methods. 
+2.3 Operation 
+a) There must be a documented process that ensures all critical components are 
+inspected and in place prior to a crane being commissioned and put into service. 
+b) Crane operators must undertake a pre-operational safety check for each shift the 
+crane is  used and this should be kept with the crane. The detail required in the pre- 
+operational safety check must be based on a risk assessment for the crane. 
+c)
+A crane must not be operated with an inoperable or defective safety device. 
+d) Overhead travelling cranes must be fitted with an audible travel alarm or if not 
+practically implementable equipped with an equivalent warning device (e.g. visible 
+travel alarm). The alarm should be sounded / used at the beginning of the lift and to 
+warn people who are located in the operational range of the crane and make them 
+leave for a safe zone”.
+Health & Safety
+AM_H&S_PR_008
+ArcelorMittal
+AM Safety ST 007 v3 - Cranes and Lifting.docx
+Page 2 of 6
+3.0 MOBILE CRANES 
+3.1
+Planning 
+The level of planning required for lifting is determined by the category of the lift.
+ 
+Category of Lift
+Examples: 
+(but not limited to)
+Planning Required
+High Risk/Abnormal Lifts
+-
+Multiple mobile 
+crane lifts; 
+-
+Mobile crane lifts in 
+buildings with 
+overhead cranes;    
+-
+lifts over power 
+lines; 
+-
+lifts over or 
+exceeding 
+maximum rated 
+loads
+- Risk Assessment
+- Develop a Lift Plan that 
+addresses associated 
+hazards
+- Include crane drivers and
+rigging crews in the lift 
+plan development.  A 
+record of this involvement 
+must be kept
+- See below for details on 
+what should be included 
+in the lift plan
+Low Risk Lifts 
+-
+Regular 
+maintenance lifts
+- On the Job Risk 
+Assessment 
+- Follow safe operating 
+practices 
+3.2 The lift plan must include: 
+a)
+Lift data: equipment weight, rigging weight, total weight, height of lift, radius of lift and 
+equipment surface area, center of gravity.
+b)
+Equipment data: manufacturer, model, size, boom length, jib length block, material 
+size.
+c)
+Rigging data: sling diameter, length, sling configuration, capacity, hook type, shackle 
+size and capacity.
+d)
+Lift computation: boom length, radius of lift, equipment capacity, size of outrigger 
+footplates, and wind speed, including ground stability and slope.
+e)
+Proximity to power lines, pipe racks and process areas: mobile cranes working in 
+proximity to  energized power lines must operate under a proximity permit, which 
+must define exclusion zones and spotter duties. 
+f)
+Local hazards and their controls: including the route for the crane, ground stability, 
+proximity of people or equipment and agreed communication method. 
+g)
+Where practicable cranes should be fitted with a load measurement device with the 
+weight of the load displayed in the visual range of the operator.    
+3.3
+Operation: 
+a) Mobile Crane operators must undertake a pre-operational safety check for each shift 
+the crane is used and this should be kept with the crane
+b) Mobile cranes must have a rating capacity chart fixed in a position visible to the 
+crane operator or available in the crane cabin. 
+c)
+Operator control stations for vehicle-mounted cranes must be located in an area 
+protected from swinging loads and from the crane jib. 
+d) Slew pins must be secured in place in mobile cranes while traveling. 
+e) Operators must wear seat belts.
+Health & Safety
+AM_H&S_PR_008
+ArcelorMittal
+AM Safety ST 007 v3 - Cranes and Lifting.docx
+Page 3 of 6
+f)
+The use of outriggers is mandatory (down as minimum and extended as wide as 
+possible), unless a risk assessment has determined otherwise.
+g) Slewing to test the integrity of outriggers on mobile cranes must be conducted prior 
+to commencing lifts.
+h) Operator must not leave the crane controls with a load suspended.
+4.0
+Maintenance and Inspection 
+4.1  A record of cranes, hoists, rigging attachments and lifting slings (if required by local 
+legislation) must be established. 
+4.2.  Any mobile crane brought to site must have a current test certificate and a pre-use 
+safety inspection to ensure the crane is fit for purpose. As a minimum, this inspection 
+must satisfy regulatory and manufacturer requirements for frequency of inspection and 
+physical condition of the machine. 
+4.3.  There must be a system for the inspection, maintenance and approval of lifting 
+equipment, including a process that verifies the equipment is able to function to its 
+design specifications and the integrity of: 
+a) Mechanical and electrical components 
+b) Controls for critical pieces of lifting or rigging equipment 
+c)
+Crane cables and all lifting attachments 
+d) Structural components of the hoist, brakes, wheels, hooks, hook-blocks and rails 
+e) Load limiting devices, safety devices, limit switches and control systems required for 
+individual equipment e.g. independent fail-safe braking systems, a device to stop the 
+crane such as a “dead-persons” switch, and emergency shut-off switch. 
+4.4. Inspections and repairs to cranes, cables and lifting equipment must comply with the 
+manufacturer’s specifications and regulatory requirements as a minimum. 
+4.5. Records of  maintenance inspections and cable tests must be kept. Any defects must be 
+highlighted by the inspection, and defective items rectified.
+4.6. Equipment’s used to move material, tools, bottles of gas…. (see some examples below) 
+with cranes should be part of the inspection system and their capacity should be clearly 
+indicated
+Health & Safety
+AM_H&S_PR_008
+ArcelorMittal
+AM Safety ST 007 v3 - Cranes and Lifting.docx
+Page 4 of 6
+5.0 Training
+5.1 Personnel must be trained, competent and authorized if they operate cranes; set-up or 
+rig loads; provide signals for controlling lifts; or inspect, maintain or test cranes, hoists, 
+personnel cages, lifting or rigging equipment . A record of training and authorization must 
+be kept and there must be a method by which the competence of crane drivers is 
+monitored and maintained.
+5.2
+There must be a system for establishing minimum operating time, frequency of operation
+and testing to ensure competency for each class of crane
+5.3
+There must be a formal procedure for communication and signaling between the 
+operator and the signaler.
+6.0 Practical matters 
+6.1
+Assure that no slings, chains, hooks, … as part of a set hanging from the same crane 
+hook can move freely before starting any lift; free hanging chains etc must be avoided by
+attaching them to the crane hook or to the ring from which the slings or chains are 
+hanging from the crane hook. This is an absolute necessity to avoid that these parts may
+swing freely and badly injure or kill people.
+6.2. If a radio-controlled crane is used, the crane operator is only allowed to move himself 
+whilst making any crane movement, when (all conditions to be fulfilled at the same time): 
+- it is a standard transport
+- he has an even walkway free of obstacles, 
+- he has a good view on the crane and the load
+- he has a free view on the area where the load moves to
+- he can perfectly see any movement of persons or vehicles as soon as they would 
+come into the line of transport and he is be able to respond immediately and properly 
+to such a situation
+- a risk analysis has been done for the type of transport at hand to confirm this practice 
+is acceptable.
+(As a consequence, e.g. transport of liquid material and large weight loads would not 
+pass the risk analysis investigation and would thus not allow movement of crane and 
+operator at the same time.)
+In all other cases (i.e. as soon as at least one of the above conditions is not fulfilled) and 
+in the specific case when abnormal loads are lifted and transported with the crane, the 
+load and the crane driver are not allowed to move the same time i.e.
+- the crane driver stands still and moves the load
+- the crane driver only moves when the load is not making any movement.
+That way, uncontrolled load movements due to stumbling or falling crane drivers are 
+avoided.
+6.3
+Before any movements starts, assure the load is free to move!
+After the sling is properly attached to the load, there are a number of good lifting 
+techniques that are common to all slings: 
+
+Make sure that the load is not lagged, clamped, or bolted to the floor. 
+
+Be aware of clamped loads due to oxidation or scrap. First make the load free.
+Health & Safety
+AM_H&S_PR_008
+ArcelorMittal
+AM Safety ST 007 v3 - Cranes and Lifting.docx
+Page 5 of 6
+
+Guard against shock loading by taking up the slack in the sling slowly. Apply power 
+cautiously so as to prevent jerking at the beginning of the lift and accelerate or 
+decelerate slowly. 
+
+Check the tension on the sling. Raise the load a few inches, stop, and check for 
+proper balance and that all items are clear of the path of travel. Never allow anyone 
+to ride on the hood or load. 
+
+Keep all personnel clear while the load is being raised, moved, or lowered. Crane or 
+hoist operators should watch the load at all times when it is in motion. 
+
+Finally, obey the following "nevers":
+-
+Never allow more than one person to control a lift or give signals to a crane or 
+hoist operator except to warn of a hazardous situation. 
+-
+Never raise the load more than necessary. 
+-
+Never leave the load suspended in the air. 
+-
+Never work under a suspended load or allow anyone else to. In practice this 
+means that the minimum distance between any person and the load must at least
+be equal to the distance between the load and the floor on which the person is 
+standing.
+6.4. In order to determine the size and configuration of sling necessary to lift any given load, 
+users should appreciate the difference between working load limits and safe working 
+loads and how these important limits are arrived at.
+The Working Load Limit (WLL)
+The working load limit is the maximum load (mass) that an item of lifting equipment is 
+designed to raise, lower or suspend. In some standards and documents, WLL is referred
+to as ‘maximum safe working load’.
+The Safe Working Load (SWL)
+The safe working load is the maximum mass which may be raised, lowered or 
+suspended under specific service conditions. The onus is on the user to obtain a 
+competent person’s assessment of a SWL in the light of that person’s knowledge of the 
+particular conditions of service. Under normal service conditions the SWL will be the 
+same as the WLL. If service conditions are liable to be hazardous, for example, 
+extremes of temperature, possibility of severe shock loading, lifting loads across public 
+roads or footpaths, or if the load is inherently dangerous such as acid or molten metal, 
+lagged or clamped loads, the competent person must fix a SWL less than the WLL, the 
+degree of de-rating depending upon the degree of potential hazard
+Health & Safety
+AM_H&S_PR_008
+ArcelorMittal
+AM Safety ST 007 v3 - Cranes and Lifting.docx
+Page 6 of 6
+Appendix 1
+Chains
+Slings (Steel + Synthetic)
+Small Rigging Hardware
+Identification
+1. Recommended with ID tags
+2. When not required by local 
+law, only color tags can be 
+put on the chain to indicate 
+the date of the last periodic 
+inspection
+1.
+Recommended with ID 
+tags
+2.
+When not required by 
+local law, only color tags 
+can be put on the sling to 
+indicate the date of the 
+last periodic inspection
+1.
+Recommended with ID 
+or color tags
+2.
+No identification 
+required where local law
+doesn’t require 
+Pre-use 
+Inspection
+(Not 
+documented)
+Always required
+1. Criteria to remove a device 
+from service must be 
+defined
+2. Riggers and crane operators 
+must be trained
+Always required
+1.
+Criteria to remove a device
+from service must be 
+defined
+2.
+Riggers and crane 
+operators must be trained
+Always required
+1.
+Criteria to remove a 
+device from service must
+be defined
+2.
+Riggers and crane 
+operators must be 
+trained
+Periodic 
+Inspection
+Always required (minimum
+yearly)
+1. When the devices are 
+equipped with ID tags the 
+inspection has to be 
+documented on the basis of 
+the updated list of devices
+2. When local law doesn’t 
+require the devices to be 
+identified with ID numbers, 
+only color tags can be put 
+on the chain to indicate the 
+date of the last periodic 
+inspection
+3. Criteria to remove a device 
+from service must be 
+defined
+4. Inspectors must be trained
+Always required (minimum
+yearly)
+1.
+When the devices are 
+equipped with ID tags the 
+inspection has to be 
+documented on the basis 
+of the updated list of 
+devices
+2.
+When local law doesn’t 
+require the devices to be 
+identified with ID 
+numbers, only color tags 
+can be put on the sling to 
+indicate the date of the 
+last periodic inspection
+3.
+Criteria to remove a device
+from service must be 
+defined
+4.
+Inspectors must be trained
+Always required (minimum 
+yearly)
+1.
+When the devices are 
+equipped with ID tags 
+the inspection has to be 
+documented on the 
+basis of the updated list 
+of devices
+2.
+When according to local 
+law the equipment’s are 
+not identified the 
+periodic inspections 
+don’t have to be 
+documented
+3.
+Criteria to remove a 
+device from service must
+be defined
+4.
+Inspectors must be 
+trained
+---- End of Document ----

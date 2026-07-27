@@ -1,0 +1,171 @@
+Document information
+Short description:
+Instructions for all work in and around rail and rail equipment.   
+Scope:
+These instructions are applicable to all ArcelorMittal employees involved in all work in and around rail and rail equipment.  
+Business Owners:
+Writer (prepared by):
+Paulmier Robin
+Haers Frank 
+Creation date:
+Review date:
+Implementation Date:
+20/12/2007
+08/05/2012
+20/12/2007
+Reference Documents
+Reference or date
+Title
+Validation
+Validated by
+Position
+Validation date
+PAULMIER ROBIN
+Group Head Corporate H&S
+13/10/2020
+Approval
+Approved by
+Position
+Approval date
+ESCOBEDO ANA
+Head Government Affairs Corporate
+05/11/2020
+AM_H&S_PR_005_01
+AM Safety ST 004 v2 Rail Safety.doc
+Health & Safety
+ArcelorMittal
+Health & Safety
+AM_H&S_PR_005
+ArcelorMittal
+AM Safety ST 004 v2 Rail Safety.doc
+Page 1 of 3
+1. Scope
+1.1. Group Companies will, as a minimum, follow the prevailing local regulations for all work in and 
+around rail and rail equipment. Where this AM standard is more demanding, then it will apply.
+1.2. This standard applies to all work on or near railway equipment and lines. 
+2. Operations
+2.1.A documented risk assessment (HIRA) must be carried out to identify all hazards and risks 
+associated with rail operations and rolling stock taking, particularly linked to and not limited to:
+-
+maximum safe speeds
+-
+shunting operations
+-
+coupling and uncoupling operations
+-
+rolling stock parking
+-
+loading and unloading 
+(especially dangerous goods as hot liquid substances, scrap, …)
+-
+access into or from vehicles (locomotive and wagons)
+-
+entering buildings
+-
+close clearance
+-
+work in/at rail tracks
+-
+……………………….etc.
+On these topics, clear safety rules must be written.
+2.2.All people involved in the operation of rail operations and rolling stock must be trained competent.
+Only authorized person are allowed to ride on cars/wagons or locomotives, or to perform rail 
+operations. All tasks, responsibilities and trainings must be properly documented. 
+2.3.The risk assessment must also identify any close clearances around the track. These must be 
+identified and post signaled.
+ 
+2.4.Adequate clearance (structure gauge, also called the minimum clearance outline), either vertical 
+or horizontal, is necessary to ensure safe rail operations and is an integral part of any rail system 
+engineering. Where adequate clearance is not given, we talk about close clearance.
+2.5.There must be a procedure for inspections to establish that equipment is in safe working order 
+before operating. This inspection must encompass all equipment highlighted in a risk assessment, 
+especially all safety devices. Records must be kept (rails, rail crossings, signaling and rolling stock)
+and detected anomalies removed quickly in a formalized system.
+2.6.Locomotives must be fitted with head lights and audible devices such as a train horn. The audible 
+device must be sounded prior to moving the locomotive and when entering a building, crossing 
+roads and pedestrian walkways. Head lights must be kept on while the locomotive is moving. 
+2.7.Prior to entering a building, brakes must be tested, warning must be given and speed must be 
+adapted.
+2.8. Procedures for getting on and off trains must include the use of engineered sill steps, handles and 
+ladders/steps placed so to prevent injury to legs, feet and hands. It is never permissible to mount, 
+dismount, or cross over moving equipment. When not practical a HIRA must be conducted to define
+the best possible practice. Getting on and getting off rail equipment, three-point contact must be 
+utilized at all times.
+Health & Safety
+AM_H&S_PR_005
+ArcelorMittal
+AM Safety ST 004 v2 Rail Safety.doc
+Page 2 of 3
+2.9.Emergency response plans must integrate rail issues
+2.10.All terminal tracks must have appropriate designed buffer stops, arresting devices or end impact 
+walls.
+2.11.Wedges must be used to prevent parked rolling stock against moving
+3. Work on rail and tracks
+3.1. Every one that is required to work on or within 3 meters / 10 feet of a railway track must be 
+protected from rail movements by track isolation using derail or switch locks. This must be 
+described in a procedure.
+3.2. For any work on or within 3 meters/10 feet (distance to the nearest head of a rail) of a railway 
+track, a written permission of the designee of rail operations, based on a HIRA and associated 
+mitigation plan, is needed before the work starts.
+3.3. Prior to beginning work where railroad track isolation is necessary, the supervisor, or designee,
+must notify those responsible for rail operations to alert them of the work to be performed. 
+Records must be written and kept.
+3.4. People working on these areas must wear adequate PPE based of the HIRA.
+3.5. When an approved safety barrier is installed during works, everyone must stay more than 1,50 
+meters (5 feet) (distance to the nearest head of a rail) from a railway track. If a safety barrier is 
+being used as part of the safe system of work, one must not lean against it or rest tools or 
+equipment against it.
+3.6. When isolation of the track is not practical possible, Train Approaching Warning (TAW) may be used
+as track protection. A HIRA must be performed to define the specific conditions when TAW is 
+authorized (e.g. production can’t be stopped or slowed down, transport of hot metal must go on 
+between blast furnace and the steel shop, emergency reasons,..)  and it must include the following
+conditions;
+•
+All works on rail tracks need written permission of the designee of rail operations. 
+•
+Person has been qualified as a watchman/lookout or stand-by person by successfully completing
+this training and has knowledge of the area’s physical characteristics and train operations.
+•
+Roadway/ track workers are performing routine inspections or minor repairs that do not affect 
+the safe movement of trains. 
+•
+Track must be free of any equipment. 
+•
+The watchman/lookout or stand-by person is able to see the approach of a train, engine, or 
+other railroad equipment approaching at maximum speed authorized and all persons present 
+(watchman and workers) can move to and be in predetermined place of safety not less than 15 
+seconds before the train, engine, or other railroad equipment would arrive.
+•
+This may require, depending on rail geometry, limiting the train, engine, … speed, 
+accompanied by proper information to the drivers and proper signaling of local maximum speed
+•
+Provide sufficient visual and acoustic warnings to employees that a train or other moving 
+equipment is approaching 
+•
+Employees must commit to react without any delay to all signals given by the watchman / 
+lookout or stand-by person.
+Health & Safety
+AM_H&S_PR_005
+ArcelorMittal
+AM Safety ST 004 v2 Rail Safety.doc
+Page 3 of 3
+4. Pedestrians and vehicles
+4.1. Rolling stock must have right of way at all times. Vehicles must come to a complete stop prior to 
+crossing any rail track. Appropriate induction training and signage, notably at the entrances of the 
+plant, must be available to ensure that all employees, contractors and visitors are aware of this 
+rule.
+4.2. A plan/map for rail traffic (with all the tracks for traffic, parking and marshalling, road and 
+pedestrian ways crossings and line equipments) must be defined and signed.
+4.3. Only approved crossings may be used. These designated crossings must be signaled, adequately 
+illuminated and clear of obstacles which could decrease visibility of the tracks.
+4.4. When crossing any track (unless the track is isolated); one must have a min. distance of 3 meter 
+(10 feet) from standing locomotives, cars/wagons and bumpers or other fixed objects on the track.
+4.5. Trespassing on railway tracks is prohibited. During railroad operations no person is allowed on 
+railroad tracks.
+4.6. No person or vehicle is allowed in close clearance areas unless the track is isolated. 
+“Close-clearance” and in many cases “no-clearance” are those situations where clearance cause a 
+safety concern or whenever there is little or no room for a person to pass between the rail car and 
+the obstruction safely. Any access to close clearance areas can only be made using a documented 
+procedure developed from a risk assessment and people entering these close clearances must be 
+authorized. 
+---- End of Document ----

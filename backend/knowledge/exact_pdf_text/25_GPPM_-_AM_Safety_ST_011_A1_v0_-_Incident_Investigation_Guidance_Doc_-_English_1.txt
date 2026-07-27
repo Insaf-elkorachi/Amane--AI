@@ -1,0 +1,364 @@
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 011 A1 v0 
+Incident Investigation 
+Guidance document 
+Incident Investigation 
+GUIDANCE DOCUMENT 
+ 
+ 
+ 
+< Page 1 of 5 >
+  
+ 
+ 
+Document Information 
+Short description: INCIDENT INVESTIGATION: GUIDANCE DOCUMENT 
+ 
+ 
+Scope: The purpose of this guidance document is to assist users in the development of a consistent and 
+effective incident investigation process with the goal to prevent incident recurrence. 
+ 
+Business Owners: 
+Frank HAERS 
+Creation date (first version): 
+11.11.2008 
+Writer (prepared by): 
+Frank HAERS 
+Review date (new version): 
+26.07.2012 
+Unchanged  
+Reviewed by : 
+Frank HAERS 
+Implementation Date: 
+11.11.2008 
+ 
+Version History 
+ 
+Version 
+Date 
+Person 
+Description 
+0 
+11.11.2008 
+Frank HAERS 
+Creation 
+ 
+ 
+ 
+ 
+ 
+Reference Documents 
+ 
+Reference or date 
+Title 
+/ 
+/ 
+ 
+Validation 
+Validated by 
+Position 
+Validation Date 
+Signature 
+Health and Safety Committee 
+ 
+11.11.2008 
+ 
+ 
+Approval 
+Approved by 
+Position 
+Approval date 
+Signature 
+Frank HAERS 
+VP, Head Corporate Health 
+and Safety 
+26.07.2012
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 011 A1 v0 
+Incident Investigation 
+Guidance document 
+Incident Investigation 
+GUIDANCE DOCUMENT 
+ 
+ 
+ 
+< Page 2 of 5 >
+  
+ 
+ 
+1. Introduction 
+ 
+Incident investigation is a key element of a Health and Safety Program. The purpose of this guidance 
+document is to assist users in the development of a consistent and effective incident investigation process 
+with the goal to prevent incident recurrence. The incident investigation process involves the following four 
+interrelated activities: collect incident data, describe incident sequence, determine causal factors, and 
+develop preventive and corrective actions. 
+ 
+2. What Is An Incident? 
+ 
+An incident is an unplanned event that may or may not result in an injury or damage. Incidents include 
+near misses. 
+ 
+An incident without injury or a near miss are opportunities to fix something before someone is injured, or 
+further damage or loss is experienced.  
+ 
+Incidents don't just happen “by accident”. They may occur when: 
+ 
+People work in an unsafe manner; and/or, 
+ 
+Unsafe work conditions exist. 
+ 
+When an incident happens, it must be reported immediately so that an investigation can be directly 
+undertaken. 
+ 
+3. Why Do We Investigate Incidents? 
+ 
+No incident should ever be treated as “acceptable”. Therefore, all incidents must be investigated. 
+ 
+A thorough investigation leads to a better understanding of the causal factors. The causal factors are used 
+to identify work-related problems and deficiencies, and provide the bases for effective solutions that will 
+prevent further incidents and injuries. Incident prevention involves helping people work safely and 
+maintaining safe working conditions at all times.  
+ 
+4. How Do We Investigate? 
+ 
+The incident investigation process involves four interrelated activities: collect incident data, describe 
+incident sequence, determine causal factors, and develop preventive and corrective actions. Although each 
+activity provides an important foundation for the activities which follow, the investigation efforts can often 
+go back and forth in an iterative fashion, eg., in describing the incident sequence, more questions may 
+arise therefore requiring the collection of additional incident data.  
+ 
+ 
+Collect Incident Data 
+ 
+The first step in the investigative process is the collection of work-related data pertaining to the relevant 
+events and circumstances involved in the incident. This may include information on personnel, tasks, 
+equipment and environmental conditions. This data collection is important as it provides the foundation for 
+the following investigative activities. 
+ 
+Acting as the lead investigator, incident investigations are normally organized and conducted by the 
+Immediate Supervisor of where the incident occurred. 
+ 
+For fatality and significant incidents, site should involved senior managers from other ArcelorMittal 
+sites to support the investigation process.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 011 A1 v0 
+Incident Investigation 
+Guidance document 
+Incident Investigation 
+GUIDANCE DOCUMENT 
+ 
+ 
+ 
+< Page 3 of 5 >
+  
+ 
+ 
+ 
+The incident investigation should start as soon as possible with a visit to the incident site: 
+ 
+as memories are still fresh; 
+ 
+while the site has not been disturbed; and, 
+ 
+before another similar incident can occur.  
+However, the investigation should begin only after the incident scene is safe and any injured persons have 
+been attended to. If the incident scene could potentially pose a further danger, immediate action must be 
+taken to limit further impact by isolating the scene of the incident while ensuring anything that might be 
+considered evidence or information is not damaged, disturbed, or removed from the scene.  
+ 
+The following information, as a minimum, should be collected: 
+ 
+Date and Time of Incident – including date and time when reported (if different) 
+ 
+Location: Business Unit/Department, Sub-department plus the specific location within that 
+department (e.g., building, line, furnace, column number, roadway, aisle, name of equipment) 
+ 
+Employee Information (if injury): Name, employee number, regular job code, job code at time of 
+incident (if different), job start dates 
+ 
+Supervisor Information: Name, employee number, job title 
+ 
+Injury Information: Type of injury and body part injured 
+ 
+Details of any equipment involved including types, model numbers, ID numbers, size, weight and 
+other measurements. In some cases, photographs, video, etc may be required to preserve the 
+evidence.  
+ 
+Pertinent records – training records, written job procedures (SOPs), work instructions, job safe 
+practices, H&S meeting minutes, H&S communications, contractor documentation. 
+ 
+All significant information and findings should be validated with supporting fact-based evidence.  
+ 
+Depending on the incident, the following people should be considered for interviews, as their input could 
+provide valuable information to the investigation: 
+ 
+Injured employee, if available 
+ 
+Witnesses 
+ 
+Area Supervision 
+ 
+Other Employees currently performing the same work or located in the same work area; 
+ 
+Persons who can contribute because of their knowledge of equipment, procedures or past 
+experience (e.g., Trainers, Maintenance, Engineering, Security) 
+ 
+Health and Safety Department staff 
+ 
+Health and Safety Committee Representatives – as required 
+ 
+People should be interviewed separately to avoid one person being influenced by another. It is advisable to 
+take written statements, especially in an investigation dealing with serious injury (or serious potential). In 
+these cases, the injured employee and other key witnesses should be asked to provide written statements 
+concerning the sequence of events which led to the incident. These statements can be hand written by the 
+employee or written by another employee.  
+ 
+Consideration should also be given to holding the investigation, and especially interviews, in a quiet and 
+controlled location. In order to gather as much information and detail as possible, it is recommended that 
+other people be assigned to support the lead investigator in the investigation process (eg., providing 
+assistance in taking notes).
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 011 A1 v0 
+Incident Investigation 
+Guidance document 
+Incident Investigation 
+GUIDANCE DOCUMENT 
+ 
+ 
+ 
+< Page 4 of 5 >
+  
+ 
+ 
+For employee statements, in addition to ensuring a full description and explanation of all events leading to 
+the incident is provided, the following types of questions should be considered for the injured/affected 
+employee(s): 
+ 
+Was this the normal job? 
+ 
+What task was being completed at the time of the incident? 
+ 
+What was the plan for the work (job and/or task)? 
+ 
+Had anything changed in the job or itself? 
+ 
+Had there been any change in the work process, or any of the inputs or outputs? 
+ 
+Since incidents do not always result from a specific or single event, were there significant physical, 
+cognitive and/or environmental job demands over time? 
+ 
+Were concerns raised to others?  
+ 
+ 
+Describe Incident Sequence 
+ 
+A re-construction of the incident sequence can be described by arranging the relevant events and 
+circumstances into a time-based sequence. This can be a complicated and time demanding activity, 
+especially if the data collection is less than adequate or overwhelming. As well, the data may appear at 
+times to be conflicting or even contradictory. Convening a group to review the incident data and the 
+relative timings of events can help in defining the most probable reconstruction of the incident sequence.  
+ 
+ 
+Determine Causal Factors 
+ 
+Incidents involve a sequence of events or circumstances that occur during the course of work activity, or 
+prior to its initiation, and culminate in the unplanned event. Within the sequence of events and 
+circumstances are unsafe conditions or actions that are considered to be causative factors. 
+ 
+A key to analyzing the causes of the incident is to work backwards through the sequence of events and 
+keep asking the question “Why?” until all causes are identified. 
+ 
+Causal analysis is not about assigning blame for the incident. Blame tends to focus on a single cause; 
+whereas prevention recognizes that there are multiple causes. For the vast majority of incidents the causes 
+tend to be management system failures. It is important to determine the exact causes, or at least most 
+probable ones, so that effective preventive and correct actions can be developed. 
+ 
+4.3.1 
+Root Cause Analysis and Critical Decision Analysis (RCA/CDA) 
+ 
+Root cause analysis involves the charting of the events and causal factors in an incident sequence. For 
+every effect there are causes. Getting to the root of an issue is the process of identifying these causes. 
+There is usually not one cause, but rather a system of causes.  Taking the root cause analysis technique 
+further, a “Critical Decision Analysis” allows us to understand the motivation or reasoning behind any 
+‘decisions’ or actions that were made that contributed to the incident (effect).  
+ 
+Whenever the root cause analysis indicates that a ‘critical decision’ was made by someone, it is important 
+to ask the question “What was the person planning to do?” This helps to create an   understanding of the 
+type of decision or action that caused the effect, and lead to a further analysis of the underlying 
+behavioural antecedent factors. 
+ 
+For further information on the RCA/CDA approach, refer to the Root Cause Analysis/Critical Decision 
+Analysis: Guidance Document.
+ 
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 011 A1 v0 
+Incident Investigation 
+Guidance document 
+Incident Investigation 
+GUIDANCE DOCUMENT 
+ 
+ 
+ 
+< Page 5 of 5 >
+  
+ 
+ 
+4.4 Developing Preventive and Corrective Actions 
+ 
+The decision regarding what action should be taken to prevent similar incidents from happening again and 
+correct any problems must be based on the causal factors. It may not be effective to just address an 
+individual problem or concern (eg., by ‘reinstructing’ one employee). It may be necessary to consider all 
+situations where a similar incident could occur and apply preventive actions to those situations as well. 
+ 
+A specific action plan should be developed in order to ensure:  
+ 
+Both immediate and longer-term solutions are considered 
+ 
+“Who” is responsible for a given action is clearly identified and understood 
+ 
+Expectations for completion dates are understood 
+ 
+Actions are completed 
+ 
+Follow-up occurs to determine that the solutions are working properly and maintained as intended 
+If persons conducting the investigation do not have the authority to initiate some actions, senior 
+supervision should be contacted as soon as reasonably possible so they can decide on appropriate action. 
+ 
+5. Documentation of Incident Investigation 
+ 
+The findings of the incident investigation, including the relevant incident data, the incident sequence, the 
+root causal factors and the preventive and corrective actions, should be documented. Records of these 
+investigations should be maintained in a way to permit easy access to this information for use in: 
+ 
+Comparative assessments with other incidents 
+ 
+Trend and statistical analyses 
+ 
+Audits of the effective application and closure of the incident investigation process 
+ 
+If the incident and the actions being taken have any application to other Business Areas/departments or 
+areas and they have not been involved in the investigation to-date, a copy of the investigation should be 
+shared with the other Business Areas/departments/areas as soon as possible.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+---- End of Document ----

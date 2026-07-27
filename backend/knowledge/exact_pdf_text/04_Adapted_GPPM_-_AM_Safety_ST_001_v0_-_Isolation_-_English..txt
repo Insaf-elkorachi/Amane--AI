@@ -1,0 +1,87 @@
+Document information
+Short description:
+This standard applies to all sources of hazardous energy and hazardous substances
+Scope:
+Group Companies will, as a minimum, follow the prevailing local regulations for all work requiring the isolation of sources of
+energy. Where this ArcelorMittal standard is more demanding, then it will apply.
+Business Owners:
+Writer (prepared by):
+Paulmier Robin
+Haers Frank 
+Creation date:
+Review date:
+Implementation Date:
+10/12/2007
+10/12/2007
+24/12/2007
+Reference Documents
+Reference or date
+Title
+Validation
+Validated by
+Position
+Validation date
+PAULMIER ROBIN
+Group Head Corporate H&S
+13/10/2020
+Approval
+Approved by
+Position
+Approval date
+ESCOBEDO ANA
+Head Government Affairs Corporate
+04/11/2020
+AM_H&S_PR_002_01
+ AM_Safety_ST_001.v0 - Isolation (FPS)
+Health & Safety
+ArcelorMittal
+Health & Safety
+AM_H&S_PR_002
+ArcelorMittal
+AM_Safety_ST_001.v0 - Isolation (FPS)
+Page 1 of 1
+1.
+Scope 
+1.1. Group Companies will, as a minimum, follow the prevailing local regulations for all work 
+requiring the isolation of sources of energy. Where this ArcelorMittal standard is more 
+demanding, then it will apply.
+1.2. This standard applies to all sources of hazardous energy and hazardous substances. 
+2.
+Definitions.
+2.1. Hazardous energy: 
+2.1.1. Electrical, Pneumatic, Hydraulic, Stored (springs, batteries), Potential (by virtue of 
+position), Heat (hot water, steam), Radiation. 
+2.2. Hazardous substances: 
+2.2.1. Gases, Vapours, Liquids, Dusts with the potential to cause injury or illness, e.g. toxic,
+corrosive, flammable. 
+2.3. Competent person: 
+2.3.1. Whenever a piece of equipment is to be isolated, there must be at least one person 
+coordinating the Isolation Procedure. No person may coordinate the isolation for a 
+piece of equipment unless s/he is competent to carry out the Isolation Procedure. 
+Where one person is isolating, then this person must be competent. 
+3.
+Isolation Procedure:
+3.1. All equipment must have written procedures for isolation developed from a risk assessment.
+These procedures will set out how the equipment is to be made safe and kept safe. It will 
+include, for example: decontamination; venting of stored energy; securing of rotors or fan 
+blades; chocking of vehicles, disconnecting, blocking or bleeding of equipment, cables, 
+pipes and vessels. It will also show the isolation points for lockout and test procedures as 
+well as the procedure to remove another person’s lock/tag.
+3.2. No isolation procedure is deemed as meeting the requirements of this standard that relies 
+on shutting off emergency stops or control power; isolation of electrical sources shall be at 
+the primary power source or through the use of a control reliable isolation device.
+3.3. Before any work is begun on equipment, a competent person must first ensure that it is 
+made safe in accordance with the Isolation Procedure. 
+3.3.1. The competent person must first Lock out the energy source(s) and apply his/her 
+Identification Tag. This will always be the first on and last off.
+3.3.2. Where isolation involves only one person, that person must be competent.
+3.3.3. Where there is a need for work to extend over multiple shifts or where there are two 
+or more people involved in the work, each person must ensure the system is locked 
+and apply his/her identification tag. There must be a system where the equipment 
+cannot be restarted without the removal of each person’s lock/tag. 
+3.4. After locking and tagging, the area must be cleared of personnel before a trial step to 
+ensure that the equipment has been isolated. 
+3.5. Personal locks/tags may never be removed except by the person to whom they belong, 
+other than in the presence of and under the supervision of the Department or Area Manager
+or his/her appointed nominee, and in accordance with a written procedure. 
+---- End of Document ----

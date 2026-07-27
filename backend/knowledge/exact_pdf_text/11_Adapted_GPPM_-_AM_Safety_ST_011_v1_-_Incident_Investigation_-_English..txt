@@ -1,0 +1,116 @@
+Document information
+Short description:
+ Instructions for all follow the prevailing local regulations for the establishment of an incident investigation process.  
+Scope:
+Group Companies will, as a minimum, follow the prevailing local regulations for the establishment of an incident
+investigation process. Where this AM standard is more demanding, then it will apply.
+Business Owners:
+Writer (prepared by):
+Paulmier Robin
+Haers Frank 
+Creation date:
+Review date:
+Implementation Date:
+24/09/2008
+26/07/2012
+24/09/2008
+Reference Documents
+Reference or date
+Title
+Validation
+Validated by
+Position
+Validation date
+PAULMIER ROBIN
+Group Head Corporate H&S
+13/10/2020
+Approval
+Approved by
+Position
+Approval date
+ESCOBEDO ANA
+Head Government Affairs Corporate
+05/11/2020
+AM_H&S_PR_011_01
+AM Safety ST 011 v1 - Incident 
+Investigation.doc
+Health & Safety
+ArcelorMittal
+Health & Safety
+AM_H&S_PR_011
+ArcelorMittal
+AM Safety ST 011 v1 - Incident Investigation.doc
+Page 1 of 2
+1. Scope
+1.1. Group Companies will,  as  a  minimum, follow the prevailing local regulations for the establishment of 
+an incident investigation process. Where this AM standard is more demanding, then it will apply.
+2. Definitions
+2.1. Incident .  An incident is an unplanned event that may or may not result in an injury or damage. 
+Incidents include near misses. 
+2.2. Incident Investigation Process . The incident investigation process involves the following four 
+interrelated activities with the goal to prevent recurrence of the incident: collect incident data, 
+describe incident sequence, determine causal factors, and develop preventive and corrective actions.
+2.2.1. Collect Incident Data . The first step in the investigative process is the collection of work- 
+related data pertaining to the relevant events and circumstances involved in the incident. This 
+may include information on personnel, tasks, equipment and environmental conditions. 
+2.2.2. Describe Incident Sequence . The incident sequence is described or re-created by arranging 
+the relevant incident events and circumstances into a time-based sequence.
+2.2.3. Determine Causal Factors . Within the incident sequence of events and circumstances are 
+unsafe conditions and actions (or decisions) that are considered to be causal factors and 
+ultimately led to the unplanned event. 
+2.2.3.1. Root Cause Analysis/Critical Decision Analysis . Root cause analysis is a 
+systematic method to identify  “ root cause s ” , i.e., those causes where solutions can 
+be applied to prevent or reduce the occurrence of a problem. This analysis involves a 
+cause and effect charting technique using elements of the incident sequence. Critical 
+decision analysis compliments the root cause analysis by providing a way to better 
+understand the motivations and reasons underlying the causal decisions (and actions) 
+that led to the incident. 
+2.2.4. Develop Preventive and Corrective Actions . The causal factors are used to identify 
+work- related problems and  deficiencies and provide the bases for effective preventive and 
+corrective actions. Follow-up will be required to ensure the effectiveness of these actions.
+3. Incident Investigation
+3.1. The organization shall establish, implement, and maintain an incident investigation process to 
+investigate all work-related incidents and prevent their recurrence.
+3.2. The organization shall use the root cause analysis and critical decision analysis methods, or 
+equivalent analyses, as part of the incident investigation activity to determine causal factors. As a 
+minimum, these analyses must be formally documented for investigations involving:
+3.2.1. W ork related incidents which have resulted in one or more fatalities or where one or more 
+people  suffered life threatening injuries in an ArcelorMittal plant (includes employees, 
+contractors, customers, visitors etc.) 
+3.2.2. S ignificant  incidents that could have caused a fatality in an ArcelorMittal plant (includes 
+employee, contractors, customers, visitors etc.)
+3.2.3. Incidents that result in a lost time injury. 
+3.3. The incident investigation process and its application shall be incorporated into other organizational 
+processes, including but not limited to:
+3.3.1. Work planning;
+3.3.2. Design;
+3.3.3. Procurement.
+3.4. The organization shall ensure:
+3.4.1. employees conducting incident investigations are adequately trained in the incident 
+investigation process, including the root cause analysis and critical decision analysis methods 
+or their equivalencies;
+Health & Safety
+AM_H&S_PR_011
+ArcelorMittal
+AM Safety ST 011 v1 - Incident Investigation.doc
+Page 2 of 2
+3.4.2. employees participating in an incident investigation are provided with adequate time and 
+resources to participate effectively in the incident investigation process; and, 
+3.4.3. Employees are informed and consulted on the findings of an incident investigation associated 
+with their work or workplace, as required.
+3.5. The organization shall:
+3.5.1. document the findings of the incident investigations, including the relevant incident data, the 
+incident sequence, the root causal factors, and the preventive and corrective actions; and,
+3.5.2.maintain records of the incident investigations to provide evidence of the effective application 
+and closure of the incident investigation process
+3.6. If the investigation  comes to the conclusion that human factor has contributed to the incident 
+happening, it is necessary to investigate why this occurred. In order to do this in a systematic 
+way the approach as described in attachment 3 has to be followed strictly.
+3.7. The organization should continually improve the effectiveness of the incident investigation process. 
+A senior management review shall include an assessment of opportunities for continual improvement 
+based on sections 3.1 to 3.6.
+Attachments:
+AM Safety ST 011 - A1 - Guidance Doc - AM Global Incident Investigation
+AM Safety ST 011 - A2 - Guidance Doc for RCA-CDA as part of AM Global Incident Investigation
+AM Safety ST 011 - A3 - Investigation of human factor
+---- End of Document ----

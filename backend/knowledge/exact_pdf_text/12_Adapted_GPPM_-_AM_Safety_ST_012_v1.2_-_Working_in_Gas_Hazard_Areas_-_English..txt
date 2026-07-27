@@ -1,0 +1,240 @@
+Document information
+Short description:
+This standard describes minimum requirements for working in a potentially hazardous gaseous environment (Gas Hazard
+Areas), to prevent the formation of explosive mixtures or zones of explosive atmospheres.  
+Scope:
+ These instructions are applicable to all ArcelorMittal employees involved in work in gas hazard areas.
+Business Owners:
+Writer (prepared by):
+Paulmier Robin
+Hears Frank 
+Creation date:
+Review date:
+Implementation Date:
+21/02/2009
+08/05/2012
+21/02/2009
+Reference Documents
+Reference or date
+Title
+Validation
+Validated by
+Position
+Validation date
+PAULMIER ROBIN
+Group Head Corporate H&S
+13/10/2020
+Approval
+Approved by
+Position
+Approval date
+ESCOBEDO ANA
+Head Government Affairs Corporate
+05/11/2020
+AM_H&S_PR_012_01
+AM Safety ST 012 v1.2 - Working in Gas 
+Hazard Areas.doc
+Health & Safety
+ArcelorMittal
+Health & Safety
+AM_H&S_PR_012
+ArcelorMittal
+AM Safety ST 012 v1.2 - Working in Gas Hazard
+Areas.doc
+Page 1 of 4
+1.  
+Scope 
+1.1.
+This standard describes minimum requirements for working in a potentially hazardous 
+gaseous environment (Gas Hazard Areas), to prevent the formation of explosive  mixtures or 
+zones of explosive atmospheres, a build up of asphyxiate or toxic gas (incl. gases taking the 
+place of O 2 ), or to manage the oxygen levels to prevent either extremely rapid combustion or 
+suffocation (harmful atmospheres). It covers permanent Gas Hazard Areas are areas such as 
+blast furnaces and coke plants, areas with  combustion gases or gases coming from DRI plant, 
+by-products treatments, combustible and / or solvents tanks, gasoline powered engines in 
+partially enclosed areas but does not in clude confined space entry requirements which are 
+covered separately in ArcelorMittal Confined Space Standard (AM Safety ST 002) with specific 
+procedures. So both standards must be considered together.
+1.2.
+It is mandatory to comply with local regulations. In addition, this standard must be applied 
+when it is more demanding than local regulations. 
+1.3.
+This standard does not apply to the underground part of the mine site. For that part of the 
+mine specific regulations apply, according to the standards and law in the relevant countries. 
+However, this standard does apply for the gas hazardous areas at the surface part of the mine.
+2. 
+Gas Hazard Areas 
+2.1.  Each site must have a documented and up to date risk assessment for each area and task 
+associated with working in potentially hazardous gaseous environments. 
+2.2.  Each site must have an up to date layout plan in which all Gas Hazard Areas are highlighted 
+and in the operative pulpit a system of alarms particularly for levels CO.
+2.3.  Safe work and purge procedures shall refer to the risk assessment and specify appropriate 
+controls for all work. These should include at least items such as the required hot work, PPE, 
+purging and permitting, monitoring, isolation, consideration for using a safety stand-by person; 
+the emergency response should be included in the risk reduction strategy. This is to be 
+completed with any relevant specific local condition.
+2.4. All such areas highlighted by the risk assessment shall have appropriate warning signs posted 
+and a permit system for controlled access to authorized employees and contractors must exist. 
+2.5.  Working in the area of chimneys, where combustion gases are leaving, is considered as a gas 
+hazard area.
+3. 
+Competencies 
+3.1.  Each person (including contractors) working in Gas Hazard Areas must be appropriately  trained 
+in the specific tasks as well as the emergency procedures. 
+3.2. Training contents and list of people trained must be documented. Trained people must be able 
+to identify themselves (certificate). This certificate is limited in time and renewable 
+periodically.
+4. 
+Procedures and Permitting 
+4.1.
+A risk assessment must be used to develop the most appropriate safe work procedure and shall 
+include an assessment of areas (inside as well as outside the plant) that may be affected by 
+any release of gas. 
+4.2.
+There must be a process where a written permit ( one-time task) or a written procedure 
+(repetitive or continuous jobs) is used to plan and control the work involved in isolating, 
+purging and making the area safe for maintenance and other activities. All isolations made to
+Health & Safety
+AM_H&S_PR_012
+ArcelorMittal
+AM Safety ST 012 v1.2 - Working in Gas Hazard
+Areas.doc
+Page 2 of 4
+render the work safe must be physical isolations and follow the ArcelorMittal Isolation 
+Standard (AM Safety ST 001). 
+4.3.
+Appropriate gas monitoring must be done before, during and after work has been completed. 
+In some cases, defined by a risk assessment, monitoring may not only include displaying, but 
+also include e.g. audible, vibration and warning lights alarms.  Use of more than 1 monitor at 
+the same time to measure before entering provides extra security and is thus to be practiced. 
+Monitoring before the job may require use of individual respiratory equipment; this has to be 
+included in the task description based on the risk analysis. This monitoring must be done by 
+trained and certified people.
+4.4.
+There must be a method to ensure supply of air (see also 5).
+4.5    Prohibition of smoking or open flames in gas hazard areas. 
+4.6. 
+Hot work (welding, soldering, braising, cutting, …) carries the risk of fire; as such, in a gas 
+hazard area, these tasks may only be carried out after a duly authorized ‘permit for hot work' has 
+been issued. 
+5. 
+Air supply 
+5.1. Any supply of air is to be according the quality specified in prevailing local regulations. 
+5.2.
+As a minimum Compressed breathing air shall meet at least the following requirements: 
+-
+Oxygen content of 19.5-22.0 %; 
+-
+Hydrocarbon (condensed) content of less than 5 milligrams per cubic meter of air; 
+-
+Carbon monoxide (CO) content of less than 10 ppm; 
+-
+Carbon dioxide content of less than 1000 ppm; and 
+-
+Lack of noticeable odour. 
+5.3. Breathing apparatus must not be supported by the use of portable compressors for air intake. 
+5.4.  There must be a method, incl. documentation and testing information per apparatus, for 
+assuring the functionality and condition of all components of breathing apparatus such as mask 
+seals, mask visibility, valves for control of breathing, cylinder regulation, pressure 
+measurement and hoses. 
+6.
+Comments
+6.1
+A systematic plan for revision of leakages in gas hazardous areas must be drawn up and put in 
+practice.
+6.2.
+All pipes will be painted using normalized colours, especially in maintenance zones. 
+6.3. Gases regulations will strictly be applied during design of any construction, taking into account 
+open spaces or enough ventilation. 
+6.4. Avoid O 2  close to any combustible in restricted zones, particularly for grease, oil, and other 
+lubricant products.
+6.5. Gasoline-powered tools should best be used outdoors to avoid combustion gases inside the 
+workplace. If in a building, proper evacuation of the combustion gases to the outside of the 
+building is needed, as well as ventilation. Continuous measurement of the presence of 
+dangerous gases, with alarm at the entry of the building, is considered best practice
+6.6.
+Never use O2 instead of compressed air for cleaning purposes.
+Health & Safety
+AM_H&S_PR_012
+ArcelorMittal
+AM Safety ST 012 v1.2 - Working in Gas Hazard
+Areas.doc
+Page 3 of 4
+7. 
+Detectors
+7.1.
+Generally, use multi-gas detectors. 
+7.1.1.
+Exception: when the  highlighted  Gas Hazard Areas layout plan, based on a risk analysis, 
+permits adapted specified detectors 
+7.2 
+When the risk assessment requires some portable gas detectors must be used to enter into a 
+gas hazard area, each worker (own people as well as contractors) must be individually 
+equipped with an appropriate individual detector. Each user must be trained to the proper use 
+of the considered detector and will assume the responsibility and discipline to maintain it in a 
+good state of use. The use of a single portable detector for several workers is not 
+recommended even when they work together because depending of the gas density, i t ’ s 
+concentration in the atmosphere can change from the location where the detector is to 
+another one only 1meter away.
+7.3. There must be a system in place to inspect all equipment and to test and calibrate all gas 
+monitoring devices (fixed and personal)
+7.4.
+CO-detectors
+Thresholds to be used must not be higher than:
+  30ppm for low level, enabling 8h time of presence
+100ppm for high level, enabling 1h time of presence 
+See CO hazard curve in attachment.
+7.5.
+O2
+Two levels of detection to be used; recommended values are:
+Low 
+19,5 %
+High 
+22,5 %
+Do not  forget:  the detector reaction time is NOT immediate; it takes  10 to 20 sec to establish 
+the proper measurement. This must be taken into account in the local procedures.  
+To be  clear: the detectors used must be able to detect both limits since having lower or higher 
+values may both lead to fatalities.
+7.6.
+Explosion Risk
+Explosion risk is detected through hydrocarbons (mainly CH4) and expressed in % of Low 
+Explosion Limit (LEL); 
+The 2 levels are recommended not to be set higher than 10% resp. 20% of LEL.
+7.7.
+H2S
+This measurement is required if H2S is contained in gases (for ex COG) but also created by 
+decomposition of organic matters (for ex in water pits) 
+Recommended detection levels:
+Low 
+5 ppm
+High 
+10 ppm
+7.8.
+Calibration
+ 
+There must be a system in place to inspect all equipment and to test and calibrate all gas 
+monitoring devices (fixed and personal).
+Health & Safety
+AM_H&S_PR_012
+ArcelorMittal
+AM Safety ST 012 v1.2 - Working in Gas Hazard
+Areas.doc
+Page 4 of 4
+Calibration has to be done strictly according to the prescriptions of the supplier (frequency 
+and method).
+Calibration has to be documented per detector. So, all detectors have to be numbered
+Calibration is to be done by certified personnel (supplier or properly trained own people).
+7.9.
+Procedures
+ 
+Local procedures must describe actions to be taken for each alarm level for each type of gas 
+alarmed by the detectors. 
+8. 
+Emergency Response 
+8.1.  Unexpected release of gas must be included in the sit e ’ s overall emergency response plan and 
+must consider all potentially affected areas on and off the site. The emergency response plan 
+must include the type, inspection and location of appropriate emergency rescue equipment. 
+8.2. Emergency response plans must be regularly practiced and evaluated according to the risk 
+assessment. 
+Attachment
+---- End of Document ----

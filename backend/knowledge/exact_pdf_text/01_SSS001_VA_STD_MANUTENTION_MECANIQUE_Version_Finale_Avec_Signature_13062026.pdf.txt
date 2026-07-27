@@ -1,0 +1,1742 @@
+Manutention Mécanique
+SSS-001-A
+Sonasid Safety Standard
+A
+Version
+Date 
+31/03/2026
+Motif de la révision 
+Création du standard et ses annexes
+Manutention Mécanique
+SSS-001-A
+Sonasid Safety Standard
+Nom & Prénom
+Site
+Sokaina Elbouaazaoui
+SONASID GROUPE
+Wijdane Nouioura
+LONGOMETAL AFRIQUE
+Rachid El Kord
+Kamal El Azhari
+Ayoub Saber
+Hamza Jadoual
+Ali El Hachimi
+Yassine Jaafari
+Hamid El Ghandaji
+Youssef Slile
+Mohammed Zahraoui
+SONASID NADOR
+Toufik Abdelilah
+Dounia ElAmine
+Yazid EL Jaouhari
+Driss Khairi
+LONGOMETAL
+ARMATURES
+Mustapha Bechat
+Nom & Prénom
+Site
+Youssef Maklaa
+SONASID JORF
+Nabil Yousfi
+Abdelaziz Chenougui
+Khalid Faide
+Kamal Aziz
+Zakaria Sbitti
+Abdelkarim Omari
+Lahcen Benharouga
+Adnane Amraoui
+Faysal Nadori
+Imane Mtibat
+Mohamed Amine Bazar
+SONASID PFC & 
+SIEGE
+Abdelghani Bouabdalli
+Mohamed Jouaoudi
+Mousab El Boustani
+Youssef Chraibi
+Résumé Exécutif: 
+« Nous exprimons notre gratitude aux contributeurs cités ci-dessous pour leur expertise et leur
+engagement dans l'élaboration de ce standard : »
+01/20
+Ce standard établit les exigences obligatoires pour toutes les opérations de manutention
+mécanique et leur matériel (grues, ponts roulants, accessoires, etc.) sur l'ensemble des sites. Il
+encadre le cycle de vie complet des équipements (acquisition, exploitation, maintenance,
+contrôle) et clarifie les rôles et responsabilités. Son objectif principal est de garantir la sécurité des
+personnes, la conformité et la fiabilité du matériel.
+Manutention Mécanique 
+Santé & Sécurité au Travail 
+Réf. doc : SSS-001-A
+SONASID SAFETY STANDARD
+1
+Risk
+2
+Culture
+3
+Gouvernance
+1. 
+Généralité 
+1.1
+1.2 
+1.3
+1.4
+Objectif  
+Domaine d’application
+Références
+Définitions et abréviations
+3. 
+Prescriptions et règles de gestion
+3.1
+3.2
+3.3.
+3.3.1.
+3.3.2.
+3.3.3.
+3.3.4.
+3.4.
+3.5.
+3.6.
+3.7. 
+3.8.
+3.9.
+Acquisition du matériel / Prestation de manutention
+Formation et habilitation 
+Exploitation et utilisation
+        Identification et inventaire des équipements et accessoires de levage
+        Classification des opérations de manutention
+        Evaluation des risques & plan de manutention
+                    a. HIRA On The JOB
+                    b. HIRA principale
+                    c. Plan de manutention
+        Prescriptions d’exploitation
+Entreposage et stockage
+Inspection, maintenance et contrôle réglementaire
+Retrait et mise hors service
+Situation d’urgence
+Audit et amélioration continue 
+Conservation et archivage
+2. 
+Rôles et responsabilités
+4. 
+Indicateurs de performance
+5. 
+Annexes
+Sommaire 
+......................................................................
+......................................................................
+......................................................................
+......................................................................
+...................................................................
+..........................................................................
+...................................................................
+............................................
+......................................................................
+......................................................................
+............
+................................................
+................................................
+......................................................................
+......................................................................
+......................................................................
+............................................................................
+............................................................................
+.....................................................
+......................................................................................
+......................................................................................
+......................................................................................
+......................................................................................
+...................................................................
+...................................................................
+3
+02/20
+3
+3
+3
+4
+7
+11
+11
+12
+12
+12
+12
+13
+13
+13
+14
+14
+15
+16
+17
+17
+17
+18
+19
+20
+Manutention Mécanique 
+Santé & Sécurité au Travail 
+Réf. doc : SSS-001-A
+SONASID SAFETY STANDARD
+1
+Risk
+2
+Culture
+3
+Gouvernance
+1 )  G E N E R A L I T E S
+1.1 Objectif
+L'objectif principal de ce standard est d'éliminer les risques d'accidents corporels et les dégâts
+matériels liés à l'utilisation des équipements et installations de manutention mécanique. Pour
+y parvenir, il instaure des mesures de prévention rigoureuses visant à garantir un
+environnement de travail sûr et conforme aux exigences de santé et sécurité.
+Ce document établit les exigences minimales de sécurité à respecter pour garantir que ces
+opérations sont effectuées en toute sécurité. 
+1.2 Domaine d’application 
+Les exigences de ce standard s’appliquent à toutes les entités du Groupe Sonasid, y compris
+Nador, Jorf, le Port de Jorf, la PFC, le Siège, LMAr, LMAf et toute entité gérée ou exploitée
+par l’un de ces sites.
+Il s’applique, également, sur les entreprises externes directes et leurs sous-traitants
+intervenants dans l’ensemble des sites mentionnés ci-avant, garantissant ainsi une
+application uniforme et une couverture plus large de toutes les opérations sous le contrôle
+du groupe Sonasid.
+Il est important de noter que les chariots élévateurs ne font pas partie du domaine
+d'application de ce standard ; ils sont traités spécifiquement dans le standard de circulation. 
+1.3 Références 
+FPS ArcelorMittal AM Safety ST 007;
+ARRÊTÉ VIZIRIEL DU 9 SEPTEMBRE 1953 Déterminant les mesures particulières de sécurité
+relatives aux appareils de levage autres que les ascenseurs et monte-charge, (B. O, n° 2142,
+du 13 novembre 1953) modifié par l’arrêté du 28 septembre 1955, (B.O, n° 2247, du 18
+novembre 1955, p.1712); 
+ARRÊTÉ DU 3 NOVEMBRE 1953 Du directeur du travail et des questions sociales fixant les
+conditions de vérification des appareils de levage autre que les ascenseurs et monte- charge,
+(B.O, n°2142, du 13 novembre 1953, p. 1628); 
+Décret n° 2-12-236 du 21 moharrem 1435 (25 novembre 2013) fixant les conditions
+d’utilisation d’appareils ou de machines susceptibles de porter atteinte à la santé des salariés
+ou de compromettre leur sécurité; 
+Code du travail Marocain: Articles sur la sécurité des travailleurs, la formation obligatoire des
+opérateurs, et les obligations d’affichage des consignes; 
+03/20
+Manutention Mécanique 
+Réf. doc : SSS-001-A
+Santé & Sécurité au Travail 
+SONASID SAFETY STANDARD
+3
+2
+1
+Risk
+Culture
+Gouvernance
+1.4 Définitions & Abréviations 
+1.4.1. Défintions
+Manutention : Opération mécanique de chargement, de déchargement ou de
+deplacement de charges.
+Levage mécanique : Déplacement d'une charge assistée par une source d'énergie
+(électrique, thermique, hydraulique, pneumatique, etc).
+Entretien : Action de maintenir le matériel en bon état de fonctionnement.
+Essai : Opération consistant à s'assurer du bon fonctionnement d'un système ou d'un
+appareil.
+Inspection : Action permettant d'élaborer un avis ou une conclusion motivée sur l'état
+d'un objet, basée sur des examens ou des contrôles.
+Maintenance : Combinaison de toutes les actions techniques, administratives et de
+management durant le cycle de vie d'un bien, destinée à le maintenir ou à le rétablir dans
+un état dans lequel il peut accomplir la fonction requise.
+Vérification : Action de s'assurer du respect des règles établies (réglementaires,
+normatives, professionnelles) via un ensemble d'examens et d'épreuves.
+Épreuves de charges: Tests de résistance en surcharge validant l'aptitude à l'emploi et la
+sécurité des équipements — doivent être impérativement réalisées et certifiées par un
+organisme externe agréé lors d'une nouvelle acquisition avant sa première mise en
+service, suite à des modifications structurelles ou réparations lourdes, après un accident
+ou une surcharge critique, ainsi que lors des vérifications périodiques réglementaires.
+Chef de manœuvre : Personne chargée d'organiser et de planifier les opérations de levage
+en considérant les risques du chantier.
+Élingueurs : Personnes habilitées utilisant les élingues pour attacher les charges aux
+appareils de levage. 
+Grutier : Professionnel formé à la conduite des grues mobiles, disposant d'une
+autorisation de conduite écrite délivrée par le Directeur de site ou son employeur.
+Opérateur : Le collaborateur chargé de l'utilisation des appareils ou des machines.
+Pontier : Opérateur habilité qui conduit un pont roulant.
+Conducteur de Potence / Opérateur de Potence : Travailleur qui utilise une potence
+(appareil de levage fixe ou mobile). L'utilisation de cet équipement est soumise à
+l'obligation, pour l'employeur, de s'assurer que le conducteur a reçu une formation
+adéquate et détient une Habilitation valide.
+Signaleur : Personne chargée de guider un opérateur d'engin de levage (grue, pont
+roulant, etc.) à l'aide de signaux convenus. Doit être formé et désigné pour assurer une
+communication claire et sûre avec le conducteur de l'engin.
+Appareil de levage : Équipement de travail soumis à vérification lorsqu'il permet le
+déplacement d'une charge ou de personnes en hauteur, et qu'il est contrôlé par
+l'opérateur sur les mouvements.
+Engin : Équipements de Travail Mobiles Automoteurs (chariots, engins de chantier, etc.)
+dont la conduite nécessite une autorisation de conduite 
+04/20
+Manutention Mécanique 
+Réf. doc : SSS-001-A
+Santé & Sécurité au Travail 
+SONASID SAFETY STANDARD
+3
+2
+1
+Risk
+Culture
+Gouvernance
+1.4 Définitions & Abréviations 
+1.4.1. Défintions
+04/20
+Manutention Mécanique 
+Réf. doc : SSS-001-A
+Santé & Sécurité au Travail 
+SONASID SAFETY STANDARD
+3
+2
+1
+Risk
+Culture
+Gouvernance
+Manutention : Opération mécanique de chargement, de déchargement ou de
+deplacement de charges.
+Levage mécanique : Déplacement d'une charge assistée par une source d'énergie
+(électrique, thermique, hydraulique, pneumatique, etc).
+Entretien : Action de maintenir le matériel en bon état de fonctionnement.
+Essai : Opération consistant à s'assurer du bon fonctionnement d'un système ou d'un
+appareil.
+Inspection : Action permettant d'élaborer un avis ou une conclusion motivée sur l'état
+d'un objet, basée sur des examens ou des contrôles.
+Maintenance : Combinaison de toutes les actions techniques, administratives et de
+management durant le cycle de vie d'un bien, destinée à le maintenir ou à le rétablir
+dans un état dans lequel il peut accomplir la fonction requise.
+Vérification : Action de s'assurer du respect des règles établies (réglementaires,
+normatives, professionnelles) via un ensemble d'examens et d'épreuves.
+Épreuves de charges: Tests de résistance en surcharge validant l'aptitude à l'emploi et
+la sécurité des équipements — doivent être impérativement réalisées et certifiées par
+un organisme externe agréé lors d'une nouvelle acquisition avant sa première mise en
+service, suite à des modifications structurelles ou réparations lourdes, après un
+accident ou une surcharge critique, ainsi que lors des vérifications périodiques
+réglementaires. 
+Chef de manœuvre : Personne chargée d'organiser et de planifier les opérations de
+levage en considérant les risques du chantier.
+Élingueurs : Personnes habilitées utilisant les élingues pour attacher les charges aux
+appareils de levage. 
+Grutier : Professionnel formé à la conduite des grues mobiles, disposant d'une
+autorisation de conduite écrite délivrée par le Directeur de site ou son employeur.
+Opérateur : Le collaborateur chargé de l'utilisation des appareils ou des machines.
+Pontier : Opérateur habilité qui conduit un pont roulant.
+Conducteur de Potence / Opérateur de Potence : Travailleur qui utilise une potence
+(appareil de levage fixe ou mobile). L'utilisation de cet équipement est soumise à
+l'obligation, pour l'employeur, de s'assurer que le conducteur a reçu une formation
+adéquate et détient une Habilitation valide.
+Signaleur : Personne chargée de guider un opérateur d'engin de levage (grue, pont
+roulant, etc.) à l'aide de signaux convenus. Doit être formé et désigné pour assurer
+une communication claire et sûre avec le conducteur de l'engin.
+Appareil de levage : Équipement de travail soumis à vérification lorsqu'il permet le
+déplacement d'une charge ou de personnes en hauteur, et qu'il est contrôlé par
+l'opérateur sur les mouvements.
+Engin : Équipements de Travail Mobiles Automoteurs (chariots, engins de chantier,
+etc.) dont la conduite nécessite une autorisation de conduite
+Grue à tour : Grue fixe ou sur rails, à flèche horizontale et contre-flèche d'équilibrage,
+utilisée sur les chantiers de construction d'infrastructures et de bâtiments.
+Grue mobile : Grue automotrice à flèche capable de se déplacer, avec ou sans charge,
+sans besoin de voie de roulement fixe, et stable sous l'influence de la gravité.
+Grues auxiliaires (ou de chargement) : Appareils de levage motorisés à charge
+suspendue, généralement montés sur un véhicule industriel (y compris une remorque),
+conçus pour le chargement/déchargement du véhicule et d'autres travaux spécifiés par
+le fabricant.
+Palan manuel : Palan qui permet, grâce à un mode de démultiplication approprié, de
+déplacer verticalement, sur une course limitée, une charge au moyen d'une force
+manuelle appliquée généralement à une chaîne de manœuvre.
+Palan : Appareil de levage généralement suspendu, utilisé à poste fixe ou mobile, pour
+déplacer verticalement une charge.
+Palan à levier : Palan à commande manuelle par levier, dont le mouvement de va-et-
+vient actionne l'engrenage. Il est muni d'un dispositif d'irréversibilité qui assure le
+freinage de la charge et peut exercer un effort de traction dans toutes les directions.
+Ponts roulants : Appareil de manutention permettant le levage et le transfert de
+charges lourdes (avec déplacement horizontal et vertical sur rails).
+wGerbeur : Engin de manutention motorisé ou manuel, conçu pour soulever et
+transporter des charges palettisées sur des distances courtes et les gerber (empiler) à
+différentes hauteurs.
+Transpalette : Engin de manutention équipé de deux fourches, utilisé pour le
+déplacement horizontal de charges palettisées. Il peut être manuel ou électrique.
+Transpalette électrique : Version motorisée du transpalette, qui facilite le déplacement
+de charges lourdes sur de plus grandes distances.
+Plate-forme de levage : Dispositif fixe ou mobile, motorisé, utilisé pour lever des
+personnes, des charges ou les deux, à une hauteur définie.
+Cric mécanique / hydraulique : Les crics sont souvent considérés comme des
+accessoires de levage s'ils sont amovibles ou des appareils de levage s'ils sont intégrés.
+Ils sont soumis à l'obligation de s'assurer de leur bon état de fonctionnement
+(maintenance et vérifications si inclus dans l'équipement principal).
+Vérin de levage : Composant de levage qui utilise la pression hydraulique ou
+pneumatique pour générer une force et soulever des charges.
+Girafe : Engin de manutention mobile, souvent sur roues, doté d'un long bras
+télescopique ou articulé, utilisé pour le levage de charges ou d'outils.
+Polift : Appareil de levage mobile ou semi-mobile, souvent à commande manuelle,
+utilisé pour le levage et le déplacement de charges légères à moyennes sur de courtes
+distances et à faible hauteur.
+Matériels de Manutention: Désignent tous les équipements et accessoires utilisés pour
+le levage, le déplacement ou la suspension de charges (incluant grues, ponts roulants,
+élingues, crochets, etc.).
+05/20
+Manutention Mécanique 
+Réf. doc : SSS-001-A
+Santé & Sécurité au Travail 
+SONASID SAFETY STANDARD
+3
+2
+1
+Risk
+Culture
+Gouvernance
+Équipements de Manutention: Désignent l'ensemble des engins motorisés ou des
+installations mécaniques utilisés principalement pour le levage, le déplacement ou la mise
+en place de charges.
+Accessoires de Manutention : Composants ou équipements non liés en permanence à la
+machine, placés entre la machine et la charge ou sur la charge pour permettre sa
+préhension (ex: élingues, manilles, anneaux de levage, pinces).
+Charge : Tout élément suspendu à un équipement de levage.
+Charge nominale : Souvent appelée Charge Maximale d'Utilisation (CMU). C'est la charge
+maximale que l'équipement (ou l'accessoire) peut supporter dans des conditions normales
+d'utilisation, établie par le fabricant.
+L’élingage : Toutes les opérations de mise en œuvre d'une liaison entre une charge et un
+appareil de levage. Le dispositif de liaison est généralement constitué d'une élingue
+(câble, chaîne ou textile) mais peut aussi comprendre des éléments rigides (palonnier, clé
+de levage, pinces).
+Élingues : Accessoires de levage souples en cordage ou en sangle, en câble métallique ou
+en chaîne, généralement terminés par des composants métalliques tels que mailles,
+crochets, manilles.
+Manille : Accessoire d'assemblage d'éléments de levage ayant la forme d'un anneau
+allongé ouvert à l'une de ses extrémités, fermable par un axe (encastré, vissé ou lisse)
+passant à travers les deux têtes symétriques.
+Plan de Manutention : Ce document est souvent une obligation réglementaire pour les
+opérations de levage complexes, à risques ou non habituelles. Ce Document de
+planification détaille les opérations de levage ou de manutention, notamment complexes,
+visant à garantir la sécurité en spécifiant les charges, moyens, méthodes et mesures de
+prévention associées.
+Habilitation : Attestation délivrée par le Directeur de site ou l'employeur, par laquelle il
+atteste que le conducteur satisfait aux conditions d'aptitude à la conduite en toute
+sécurité.
+Organisme agréé : Organisme public ou privé agréé par le ministère du Travail, chargé de
+procéder à la vérification de l'état de conformité des équipements de travail sur demande
+de l'inspection du travail.
+1.4.2. Abréviations
+06/20
+Manutention Mécanique 
+Réf. doc : SSS-001-A
+Santé & Sécurité au Travail 
+SONASID SAFETY STANDARD
+3
+2
+1
+Risk
+Culture
+Gouvernance
+SST: Santé et Sécurité au Travail.
+FPS: Fatality Prevention Standard.
+FPA: Fatality Prevention Audit.
+AM: ArcelorMittal.
+SSS: Sonasid Safety Standard.
+HIRA: Hazard Identification and Risk
+Assessment
+SOP: Standard Operating Procedure.
+MO: Mode Opératoire
+LCT : Load Chart Table (Tableau des charges)
+CTS 
+: 
+Crane 
+Technical 
+Specifications
+(Spécifications techniques de la grue)
+2 )
+R O L E S
+&
+R E S P O N S A B I L I T E S
+Directeur Général
+Allouer les ressources nécessaires (financières, humaines, matérielles) pour l'application
+effective du présent standard;
+S'assurer que le présent standard est appliqué et respecté de manière effective dans
+l'ensemble de son périmètre de responsabilité.
+Direction achats
+S'assurer que toutes les exigences SST du présent standard sont systématiquement incluses
+dans les cahiers des charges relatifs au matériel et aux prestations de manutention;
+Veiller à ce que le fournisseur prenne en compte les exigences liées au présent standard et
+s'engage formellement sur leur prise en charge dans ses offres et exécutions.
+Direction RH
+Concevoir et formaliser les plans de formation nécessaires pour le personnel intervenant
+dans les opérations de manutention, en lien avec les exigences du standard et les besoins
+identifiés (ex: habilitations, CACES, sécurité);
+Coordonner, superviser et s'assurer de la bonne exécution des plans de formation,
+incluant l'évaluation de leur efficacité et la tenue à jour des registres de formation et
+d'habilitations.
+Direction SST
+Assurer la révision et la mise à jour régulières du présent standard de manutention pour
+intégrer les évolutions réglementaires, les meilleures pratiques et les retours d'expérience;
+S'assurer de l'application et du respect effectif du standard de manutention par l'ensemble
+des sites;
+Fournir l'expertise et l'accompagnement nécessaire aux équipes SST et opérationnelles sur
+les sites concernant l'application du standard;
+Capitaliser et diffuser les leçons apprises et les bonnes pratiques issues des opérations de
+manutention pour renforcer la culture de sécurité.
+Directeur du site 
+S'assurer que les dispositions de ce standard et les exigences réglementaires applicables
+sont entièrement respectées dans son site ; 
+Délivrer les titres d'habilitation nécessaires pour tout le personnel concerné par ce
+standard, incluant les pontiers, grutiers, élingueurs, et autres opérateurs, afin de garantir
+leur aptitude et leur compétence à travailler en toute sécurité. 
+07/20
+Manutention Mécanique 
+Réf. doc : SSS-001-A
+Santé & Sécurité au Travail 
+SONASID SAFETY STANDARD
+3
+2
+1
+Risk
+Culture
+Gouvernance
+SST Site 
+Veiller à ce que le site applique et respecte l'ensemble des exigences du standard de
+manutention;
+Offrir un support technique et un accompagnement continu aux opérateurs et aux
+autres acteurs sur tous les aspects SST des opérations de manutention;
+Confirmer que tout le personnel impliqué dans les opérations de levage et de
+manutention possède les compétences et les habilitations requises;
+Effectuer des audits réguliers pour évaluer la conformité au standard, identifier les
+axes d'amélioration et initier les revues périodiques du standard au niveau du site.
+Pilote FPS
+Assurer les formations de recyclage en interne. 
+Établir et mettre à jour la liste des accessoires et équipements de levage (ponts, grues,
+élingues, chaînes, …) du site Réf SSS-001-03.
+Réaliser des contrôles / audits des accessoires et équipements de levage pour vérifier leur
+conformité et leur état.
+Classer les opérations de levage selon les trois niveaux de risque (Niveau 1, 2 ou 3).
+Responsable d’exploitation 
+Réaliser et mettre à jour de l’analyse des risques (HIRA) de l’ensemble des opérations de
+manutention relevant de son activité ; 
+Etablir et mettre à jour les modes opératoires des opérations de manutention relevant de
+son activité et assurer la formation des intervenants sur ces modes opératoires, y compris
+les entreprises extérieures ; 
+S’assurer que les personnes, relevant de son autorité, impliquées dans les opérations de
+manutention sont formées, compétentes et aptes physiquement pour travailler en toute
+sécurité, y compris les entreprises extérieures. 
+Responsable bureaux des méthodes 
+Gérer les fiches de vie des matériels de levage, incluant l'enregistrement de l'historique de
+maintenance et des VGP (Vérifications Générales Périodiques).
+Veiller à la planification et à la réalisation des contrôles réglementaires obligatoires pour
+tous les équipements de levage.
+Identifier 
+et 
+communiquer 
+les 
+besoins 
+de 
+réparation 
+et 
+de 
+maintenance
+(préventive/corrective) à l'équipe de maintenance via le système d'information.
+Consolider et analyser les rapports journaliers/checklists d'inspection pour assurer un suivi
+et une traçabilité robustes des équipements.
+Responsable maintenance
+Organiser et réaliser les opérations de maintenance préventive, corrective et prédictive sur
+l'ensemble des équipements et accessoires de manutention;
+Maintenir à jour l'historique et les dossiers de maintenance pour chaque équipement de
+levage;
+Travailler en étroite collaboration avec le Bureau des Méthodes pour les besoins identifiés
+et rendre compte de l'état des équipements aux équipes opérationnelles.
+08/20
+Manutention Mécanique 
+Réf. doc : SSS-001-A
+Santé & Sécurité au Travail 
+SONASID SAFETY STANDARD
+3
+2
+1
+Risk
+Culture
+Gouvernance
+Chargé des travaux 
+Vérifier l’état de conformité de l’appareil et accessoire de levage avant utilisation sur
+site; 
+Vérifier que l'appareil ou l'accessoire de levage est approprié aux travaux à effectuer
+et que les opérations prévues sont compatibles avec les conditions d'utilisation de
+l'appareil définies par le fabricant; 
+S’assurer que les conducteurs des appareils de levage possèdent les qualifications et
+les compétences requises. 
+Magasinier 
+Contrôler le matériel de manutention à la réception;
+Signaler toute non-conformité du matériel de manutention au Demandeur et au Pilote
+FPS et isoler ce dernier selon les procédures internes;
+Assurer le stockage du matériel de manutention (équipements et accessoires) dans de
+bonnes conditions;
+Tenir un registre de traçabilité des entrées et sorties du matériel de manutention
+Signaleur
+Guider l'opérateur à l'aide de signaux manuels standardisés, tout en restant visible et
+facilement repérable (vêtements haute visibilité);
+Interdire l'accès à la zone de levage à toute personne non impliquée et s'assurer qu'aucun
+travailleur ne se trouve sous une charge;
+Arrêter immédiatement toute manœuvre jugée non sécuritaire;
+Participer à la rencontre pré-levage 
+Chef de manœuvre 
+Participer aux inspections préalables, vérifier l'état et l'adéquation des grues et accessoires
+aux travaux, et prendre en compte les conditions météorologiques et environnementales;
+Superviser le choix et la mise en œuvre des accessoires d'élingage (CMU, angles, protection)
+et gérer le balisage de la zone de levage, en s'assurant qu'elle reste dégagée et sécurisée;
+Veiller à la sécurité des élingueurs en s'assurant de leur accord avant tout levage, et
+s'assurer qu'aucun travailleur ne se trouve sous la charge;
+Briefer le grutier sur les règles de sécurité, les risques d'interférence et les documents du
+chantier, et lui signaler le début et la fin de l'opération de levage.
+Grutier
+S'assurer du parfait état de marche de l'engin et des accessoires (contrôles réglementaires,
+levées de réserves effectuées) et valider les moyens de communication avec le chef de
+manœuvre;
+Assister à l'établissement du plan de manutention et piloter la grue en toute sécurité, selon
+les instructions du fabricant et les directives du chef de manœuvre;
+Contrôler visuellement les accessoires restitués (signalant toute détérioration) et assurer la
+mise en sécurité de la grue et l'évacuation de l'aire de levage.
+09/20
+Manutention Mécanique 
+Réf. doc : SSS-001-A
+Santé & Sécurité au Travail 
+SONASID SAFETY STANDARD
+3
+2
+1
+Risk
+Culture
+Gouvernance
+Pontier 
+Manœuvrer le pont roulant de manière sécurisée et précise, en respectant les procédures
+établies et les règles de l'art;
+Contrôler l'état de l'équipement (pont, palan, câbles, crochets, commandes) avant chaque
+utilisation, signaler toute anomalie, et s'assurer que la charge est correctement élinguée et
+stable;
+Maintenir une zone de travail sécurisée en veillant à ce que personne ne se trouve sous la
+charge ou dans la trajectoire du pont roulant;
+Mettre le pont roulant en sécurité en fin d'opération (stationnement, coupure
+d'alimentation, rangement des accessoires). 
+Elingueur 
+S'assurer que les zones de levage et de pose sont dégagées, et déterminer le poids et le
+centre de gravité de la charge pour sa stabilité;
+Sélectionner les accessoires de levage appropriés (type, CMU, mode d'élingage)
+conformément aux instructions du fabricant, et vérifier leur bon état avant chaque mise
+en œuvre;
+Rendre les éléments de la charge solidaires, mettre en place les moyens de guidage
+(cordes) pour maîtriser sa rotation, et procéder au retrait de l'élingage en hauteur via
+des moyens d'accès sécurisés.
+Editeur du plan de manutention
+Rédiger les plans de levage ou de manutention en se basant sur les informations recueillies
+(nature de la charge, équipements, conditions de site, etc.) et en respectant le standard
+interne et les réglementations.
+Veiller à ce que le plan soit conforme aux règles de l'art, aux notices des fabricants et aux
+réglementations en vigueur. Le plan doit être validé par le Pilote FPS Manutention et les
+parties prenantes avant toute opération.
+Tenir à jour les versions des plans, en assurer leur bonne diffusion aux équipes concernées
+et veiller à leur archivage systématique.
+10/20
+Manutention Mécanique 
+Réf. doc : SSS-001-A
+Santé & Sécurité au Travail 
+SONASID SAFETY STANDARD
+3
+2
+1
+Risk
+Culture
+Gouvernance
+3 ) P R E S C R I P T I O N S
+&
+R E G L E S  D E  G E S T I O N
+3.1 Acquisition du matériel / Prestation de manutention
+Ce chapitre établit les exigences SST et techniques essentielles pour l'acquisition de tout
+matériel (équipements et accessoires) et prestations de manutention sur les sites et
+entités, garantissant ainsi sécurité et conformité.
+Toute acquisition d’équipement ou d’accessoires de manutention doit faire l’objet d’un
+cahier des charges comportant une description exhaustive et claire des exigences de
+sécurité et techniques minimales ci-après :
+-Certificat de conformité
+-Manuels d’utilisation
+-Plan de maintenance
+-Identification unique pour la traçabilité
+-Charge Maximale d'Utilisation (CMU)
+-Année de fabrication
+-Dispositifs de sécurité (limiteurs, arrêts d'urgence, alarmes audiovisuelles, etc.)
+La traçabilité et la gestion des accessoires de levage seront assurées par une fiche de vie,
+qui suivra chaque câble de son acquisition à sa mise au rebut, conformément à l’annexe
+SSS-001-01.
+Concernant le recours aux prestations de manutention par une entreprise externe, la
+sélection des prestataires doit impérativement se baser sur :
+-La qualification et l’habilitation de leur personnel
+-L'utilisation de méthodologies de travail sécurisées (HIRA & Modes opératoires)
+-La conformité réglementaire du matériel utilisé
+-L’historique des prestations réalisées
+Il est important de distinguer deux types de situations, car les méthodologies de travail
+sécurisées varient selon le cas :
+Prestation de location de grue : Intervention réalisée par l'équipe interne
+(SONASID) à l'aide d'une grue louée. La méthodologie de travail sécurisée est le plan
+de manutention établi par l'équipe manutention et le grutier dans le chantier de
+travail.
+Prestation externe complète : Intervention confiée à un prestataire qui fournit et
+opère la grue. La méthodologie de travail sécurisée est basée sur le HIRA, le mode
+opératoire et le plan de manutention fournis par le prestataire.
+Tout accès de matériel et/ou de prestation de manutention au site doit faire l’objet
+d’une réception préalable par le demandeur/personne compétente en se référant à
+l’annexe SSS-001-02.
+11/20
+Manutention Mécanique 
+Réf. doc : SSS-001-A
+Santé & Sécurité au Travail 
+SONASID SAFETY STANDARD
+3
+2
+1
+Risk
+Culture
+Gouvernance
+3.2. Formation et habilitation 
+Toute les personnes impliquées dans les opérations de manutention mécanique à savoir:
+pontier, grutier, éllingueur, signaleur, inspecteur et chef de manoeuvre doivent disposer
+d’une habilitation valide approuvée par l’employeur, le cas échéant par le Directeur de Site;
+L’habilitation délivrée doit être basée sur:
+Aptitude Physique délivrée par le Medecin de travail valide dans la durée fixée
+par le standard gestion des habilitations Réf SSS-014
+Formation spécifique au domaine de l’habilitation en question réalisée en
+interne et/ou en externe selon la fréquence définie dans le cadre du standard
+gestion des habilitations Réf SSS-014
+Toute personne habilitée doit impérativement avoir son titre d'habilitation disponible à
+tout moment;
+La Direction RH doit établir un plan de formation rigoureux, basé sur le contenu détaillé en
+Annexe Réf SSS-001-14, et s'assurer de son strict respect;
+Un registre des titres d'habilitations doit être tenu à jour et conservé par l'équipe SST, et
+être disponible en permanence.
+3.3 Exploitation et utilisation 
+3.3.1. Identification et inventaire des équipements et accessoires de levage
+Il est obligatoire que chaque équipement de levage (pont, potence, girafe, grue, …) soit
+pourvu d'un numéro d'identification unique et sa charge maximale d'utilisation (CMU)
+doit être affichée de manière visible et permanente sur ses deux côtés. 
+Tous les accessoires de levage (élingues, chaînes, à l'exception des petits accessoires
+comme manilles, œillets et anneaux) portent à la fois un marquage attestant d'une
+inspection annuelle (étiquette de couleur, par exemple) et un numéro d'identification
+unique. 
+Chaque site doit définir son propre processus d'identification et réaliser un inventaire
+précis de ces appareils et accessoires de levage selon l’annexe Réf SSS-001-03. 
+Chaque site doit diffuser les codes couleurs permettant de distinguer les accessoires de
+manutention ayant passés les contrôles réglementaires nécessaire selon l’annexe Réf
+SSS- 001-15 . 
+3.3.2. Classification des opérations de manutention
+Toutes les opérations de manutention doivent être classées par le pilote FPS, avec la
+participation des 
+l'équipe SST, ... etc);
+Cette classification doit être établie en se basant sur la fréquence de l'opération de
+manutention ainsi que sur le niveau de risque associé. 
+Le tableau ci-dessus illustre des exemples d'opérations de manutention, les classant selon
+leur niveau de risque et indiquant par conséquent les niveaux de planification et d'exigences
+requis.
+autres partes prenantes concernées (responsables d'exploitations,
+12/20
+Manutention Mécanique 
+Réf. doc : SSS-001-A
+Santé & Sécurité au Travail 
+SONASID SAFETY STANDARD
+3
+2
+1
+Risk
+Culture
+Gouvernance
+3.3.3. Evaluation des risques & plan de manutention
+Avant de démarrer toute opération, il est essentiel de déterminer le type d'évaluation des
+risques requise. Cette section précise les scénarios pour lesquels une HIRA On The Job, une
+analyse HIRA principale ou un plan de manutention détaillés sont obligatoires.
+13/20
+Manutention Mécanique 
+Réf. doc : SSS-001-A
+Santé & Sécurité au Travail 
+SONASID SAFETY STANDARD
+3
+2
+1
+Risk
+Culture
+Gouvernance
+Niveau
+Catégorie de man
+Fréquence 
+Niveau de risque
+3
+Manutentions
+critiques 
+Opérations
+particulières et non
+fréquentes
+Risque élevé ou
+moyen et
+opérations
+complexes
+2
+Manutentions
+standards
+Opérations
+routinères et
+fréquentes
+Risques élevés ou
+moyens
+1
+Manutentions
+non-critiques
+Opérations
+fréquentes ou non
+fréquentes
+Risques faibles
+Exigences
+plan de levage
++
+HIRA Détaillée
++
+Mode
+opératoire
+HIRA Principale
++
+Mode
+opératoire
+On the Job
++
+Bonnes
+pratiques
+Exemples (non-exhaustifs)
+Manutention impliquant plus d’une grue/ pont
+Manutention au-dessus des zones de travail et
+d'installations existantes 
+Levage à proximité ou au-dessus des lignes à
+haute tension
+Levages de nacelle avec du personnel
+Charge dont le poids et / ou le centre de gravité
+sont inconnus / difficiles à estimer 
+La charge totale dépasse 85% de la capacité
+nominale des équipements 
+Levages de grues mobiles à l’intérieur de
+bâtiments contenant des ponts roulants
+ Opérations combinées (levage/travaux en
+hauteur
+Levage des charges de plus de 50T 
+Manutentions fréquentes de chargement et de
+déchargement de matériaux à l'intérieur de
+l'usine
+Opérations de levage intégrées dans des
+processus de production où l'interaction avec
+d'autres équipements ou le personnel est
+fréquente
+Opérations standardisées pour lesquelles une
+méthodologie de travail sécurisée est
+primordiale
+Levages pour la maintenance régulière
+Levages simples de charges légères à l'aide
+d'équipements de manutention à faibles
+charges
+a. HIRA On the JOB 
+L'Analyse HIRA On-the-Job est obligatoire pour les opérations de manutention de Niveau 1 (non
+critiques), caractérisées par des tâches routinières aux dangers connus et maîtrisables par des
+mesures standard. 
+Elle doit être menée par le conducteur de l'équipement (pontier, conducteur de potence, ...etc.)
+ou son responsable hiérarchique, en groupe avec toutes les personnes impliquées dans
+l'opération.
+b. HIRA principale
+L'Analyse HIRA principale est obligatoire pour toutes les opérations de manutention de Niveau
+2 (standards), nécessitant une analyse approfondie en raison de leur fréquence et impact
+potentiel.
+Bien que standards, ces opérations peuvent présenter des risques significatifs si les mesures de
+contrôle ne sont pas rigoureusement définies. 
+L'objectif est d'identifier systématiquement les dangers, puis de développer des modes
+opératoires sécuritaires conformes au standard HIRA. 
+Cette analyse doit être réalisée et mise à jour par le responsable d'exploitation, avec la
+participation des parties prenantes concernées (pontier, grutier, élingueur, ...etc.).
+c. Plan de manutention
+Les opérations de manutention de Niveau 3 (critiques) sont des tâches non routinières exigeant
+une planification et une coordination minutieuses. Pour ces opérations complexes (liées à la
+nature des charges, l'environnement ou les méthodes), un plan de manutention spécifique,
+dont le modèle se trouve en Annexe Réf SSS-001-04 doit impérativement être utilisé.
+3.3.4. Prescriptions d’exploitation
+Communication et Signalisation
+Il doit exister une procédure formelle pour la communication et la signalisation entre
+l'opérateur et le signaleur, voire annexe Réf SSS-001-13;
+Ne jamais autoriser plus d'une personne à contrôler un levage ou à donner des signaux à un
+opérateur de grue ou de palan, sauf pour signaler une situation dangereuse.
+Préparation de la Charge et des Accessoires
+S'assurer qu'aucune élingue, chaîne ou crochet faisant partie d'un ensemble suspendu au
+même crochet de grue ne puisse se déplacer librement avant de commencer tout levage.
+Les chaînes pendantes, etc., doivent être évitées en les fixant ;
+Avant tout mouvement, s'assurer que la charge est libre de se déplacer !
+S'assurer que la charge n'est pas fixée, serrée ou boulonnée au sol. Être attentif aux
+charges collées (oxydation, ferraille). Libérer d'abord la charge;
+Afin de déterminer la taille et la configuration de l'élingue nécessaires, les utilisateurs
+doivent comprendre la différence entre LCT et CTS, ainsi que la manière dont ces limites
+sont établies;
+Bonnes Pratiques de Levage et Maîtrise de la Charge
+Appliquer la puissance avec précaution afin d'éviter les secousses au début du levage et
+accélérer ou décélérer lentement.
+Vérifier la tension de l'élingue.
+Soulever la charge de quelques centimètres, s'arrêter et vérifier son bon équilibre et que
+tous les éléments sont dégagés de la trajectoire.
+Les opérateurs de grue ou de palan doivent surveiller la charge à tout moment lorsqu'elle
+est en mouvement.
+Ne jamais lever la charge plus que nécessaire.
+Règles de Sécurité Fondamentales et Interdictions
+Ne jamais permettre à quiconque de monter sur le crochet ou la charge.
+14/20
+Manutention Mécanique 
+Réf. doc : SSS-001-A
+Santé & Sécurité au Travail 
+SONASID SAFETY STANDARD
+3
+2
+1
+Risk
+Culture
+Gouvernance
+Les grues et ponts roulants passant au-dessus des postes de travail doivent être équipés
+d'une sirène audible et/ou d'un avertisseur lumineux (spot bleu) pour signaler les
+déplacements de charge. Cette signalisation doit être utilisée dès le début de l'opération.
+Maintenir le personnel à une distance de sécurité pendant le levage, le déplacement ou
+l'abaissement d'une charge.
+Ne jamais laisser une charge suspendue dans les airs sans surveillance.
+Ne jamais travailler sous une charge suspendue ni permettre à quiconque de le faire. La
+distance minimale de sécurité doit être au moins égale à la hauteur entre la charge et le
+sol (voir annexe Réf SSS-001-11).
+Il est strictement interdit de soulever des personnes à l'aide des équipements de
+levage/manutention, à moins d'utiliser un dispositif spécifique et certifié, tel qu'une
+nacelle.
+Il faut interrompre immédiatement les opérations en cas de conditions météorologiques
+extrêmes (vent fort, orage, visibilité réduite)
+Règles Spécifiques aux Grues Radiocommandées
+Lorsqu'une grue radiocommandée est utilisée, l'opérateur n'est autorisé à se déplacer tout en
+effectuant un mouvement de la grue que lorsque toutes les conditions suivantes sont remplies
+simultanément :
+Le transport est standard et l'analyse des risques (HIRA) a confirmé que cette pratique est
+acceptable.
+L'allée est plane, dégagée et exempte d'obstacles.
+L'opérateur a une bonne visibilité sur la grue, la charge et la zone de déplacement.
+L'opérateur peut voir et réagir immédiatement à tout mouvement de personnes ou de
+véhicules dans la zone de transport.
+Dans tous les autres cas (c'est-à-dire dès qu'au moins une des conditions ci-dessus n'est pas
+remplie) et dans le cas spécifique où des charges anormales sont levées et transportées, la
+charge et le grutier ne sont pas autorisés à se déplacer en même temps :
+Le grutier doit rester immobile et déplacer la charge;
+Le grutier ne se déplace que lorsque la charge n'effectue aucun mouvement, ce qui évite les
+mouvements de charge incontrôlés dus à des trébuchements ou des chutes de grutiers.
+3.4. Entreposage et stockage
+Pour garantir leur sécurité et prolonger leur durée de vie, les élingues et accessoires de
+levage doivent être entreposés dans des emplacements dédiés;
+Un rangement vertical est recommandé pour éviter les dommages liés aux torsions ou
+au contact avec le sol;
+ Ces zones doivent protéger les équipements des intempéries et des contaminants
+(poussière, produits chimiques, graisses) susceptibles d'altérer leur performance et leur
+résistance; 
+Un environnement propre et sec est crucial pour maintenir leurs propriétés intactes.
+Toute de sortie de matériel de manutention depuis le magasin doit être validée
+obligatoirement par le pilote FPS (signature du bon de sortie magasin).
+15/20
+Manutention Mécanique 
+Réf. doc : SSS-001-A
+Santé & Sécurité au Travail 
+SONASID SAFETY STANDARD
+3
+2
+1
+Risk
+Culture
+Gouvernance
+3.5. Inspection, contrôle réglementaire et maintenance 
+1.La conformité avec les exigences légales marocaines doit être atteinte. Les moyens de
+levage et les accessoires de levage doivent être examinés une fois par an par des
+techniciens qualifiés appartenant à des organismes de contrôles agréés;
+2.Un plan d’action doit être détaillé par les chefs d’exploitation et utilisé comme un
+instrument permettant de suivre la mise en application des actions et recommandations des
+bureaux de contrôle;
+3.Toute grue mobile amenée sur le site doit avoir un certificat de contrôle valide et avoir
+subi une inspection de sécurité avant son utilisation, afin de s’assurer que la grue est
+conforme. Cette inspection doit satisfaire au minimum à la réglementation et aux
+exigences du fabricant en ce qui concerne la fréquence d’inspection et l’état mécanique
+de la machine , voire annexe Réf SSS-001-06;
+4.Des inspections et réparations des ponts roulants, grues et autres appareils de levage, y
+compris leurs câbles et accessoires, doivent impérativement respecter les exigences des
+fabricants ainsi que la législation locale en vigueur;
+5.Les enregistrements des inspections de maintenance et des contrôles des câbles doivent
+être archivés;
+6.Tout défaut par l'inspection doit être signalé, et les éléments défectueux doivent être
+corrigés; 
+7.Une inspection visuelle avant utilisation doit être complétée par le grutier / pontier , etc
+pour chacun des équipements et accessoires de levage utilisés, voire les annexe Réf SSS-
+001-05 à Réf SSS-001-09;
+8.Une inspection trimestrielle doit être réalisée pour tous les élingues et accessoires de
+levage (chaînes, crochets, manilles, etc.). Cette vérification pourra être complétée par
+une personne possédant les compétences requises dans l’évaluation et l’inspection des
+accessoires de levage. Lorsqu’un accessoire de levage présente une ou des défaillances à
+la vérification ou à l’inspection, il doit être retiré du chantier, voire annexe Réf SSS-001-
+10;
+9.Chaque site doit mettre en place un système de maintenance assurant le fonctionnement
+conforme des équipements de levage à leur cahier des charges de conception et
+garantissant l'intégrité de leurs composantes critiques. Ce processus doit vérifier les
+éléments mécaniques, électriques, les câbles (grues, ponts roulants), les crochets, les
+composants structuraux des palans (freins, galets, blocs-crochets, rails), ainsi que les
+limiteurs de charge, dispositifs de sécurité, fins de course et systèmes de contrôle
+spécifiques (par exemple, freinage indépendant, interrupteur "homme mort", arrêt
+d'urgence);
+10.Tous les équipements et accessoires de manutention utilisés avec les grues (par exemple,
+pour déplacer du matériel, des outils, ou des bouteilles de gaz) doivent être intégrés au
+système d'inspection et leur capacité de charge doit être clairement indiquée.
+16/20
+Manutention Mécanique 
+Réf. doc : SSS-001-A
+Santé & Sécurité au Travail 
+SONASID SAFETY STANDARD
+3
+2
+1
+Risk
+Culture
+Gouvernance
+3.6. Retrait et mise hors service
+Pour garantir la sécurité et prévenir l'utilisation de matériels défectueux, des procédures claires
+sont établies pour le retrait des accessoires et la mise hors service des équipements.
+Retrait des accessoires
+Tout accessoire de levage (comme les élingues, chaînes ou crochets) jugé non conforme,
+endommagé ou excessivement usé doit être immédiatement retiré du service. Ce retrait implique
+son isolement physique et la création d'une fiche de destruction dédiée (annexe SSS- 001-16),
+assurant qu'il ne puisse plus être utilisé et qu'il soit éliminé de manière appropriée.
+Mise hors service des équipements
+Lorsqu'un équipement de levage (grue, pont roulant, etc.) est déclaré non conforme suite à une
+inspection, il doit être immédiatement mis hors service. Cette décision est formalisée par une
+consignation détaillée, qui enregistre les raisons de la non-conformité. L'équipement reste hors
+service jusqu'à ce que les réparations nécessaires soient effectuées et que sa conformité et sa
+sécurité soient pleinement rétablies et vérifiées.
+3.7. Situation d’urgence
+La gestion proactive des situations d'urgence est essentielle pour minimiser les risques et
+protéger le personnel lors des opérations de manutention mécanique. Pour y parvenir, des
+exigences précises doivent être respectées.
+Identifier les situations d’urgences : Déterminez clairement les situations d'urgence
+potentielles via une analyse des risques approfondie.
+Élaborer des scénarios : Développez des scénarios d'urgence détaillés pour chaque
+simulation.
+Planifier les simulations : Établissez un planning triennal pour simuler ces situations
+d'urgence identifiées.
+Mener les simulations : Réalisez les exercices conformément au planning préétabli.
+Analyser et capitaliser : Rédigez des rapports post-simulation et tirez des leçons du retour
+d'expérience.
+Mettre en œuvre les actions : Établissez et suivez des plans d'actions concrets basés sur les
+résultats de ces simulations.
+Pour des informations plus détaillées sur la gestion des situations d'urgence, veuillez vous
+référer au standard Emergency Ref SSS-07
+3.8. Audit et amélioration continue 
+Un plan d'audit doit être établi en parfaite conformité avec les exigences du standard
+Audit et Amélioration Continue SSS.010;
+L'auditeur doit impérativement utiliser l'outil checklist SSSA-001-01, lequel constitue
+la référence officielle pour assurer la rigueur et l'exhaustivité de l'évaluation;
+Les écarts, les non-conformités et les retours d'expérience serviront de base pour une
+amélioration continue de la sécurité des opérations de manutention et une adaptation
+aux nouvelles exigences ou technologies.
+17/20
+Manutention Mécanique 
+Réf. doc : SSS-001-A
+Santé & Sécurité au Travail 
+SONASID SAFETY STANDARD
+3
+2
+1
+Risk
+Culture
+Gouvernance
+3.9. Conservation et archivage
+Une gestion rigoureuse des documents est essentielle pour la traçabilité, la conformité et
+l'amélioration continue du présent Standard;
+Tous les documents relatifs à ce standard doivent être conservés de manière à garantir
+leur intégrité, disponibilité et lisibilité. Cela inclut les rapports d'inspection, certificats,
+plans de maintenance, HIRA, registres d'habilitations, rapports d'audit et de simulation;
+L'archivage sécurisé (physique ou numérique) doit permettre un accès aisé et rapide,
+contribuant à la maîtrise des risques et à l'amélioration constante de la sécurité.
+Le tableau suivant résume l'ensemble des documents clés à conserver, organisés par
+catégorie et par responsable:
+Plans de Manutention (Niveau 3)
+Documents clés
+Registres de Formation et d'Habilitations
+Plans, rapports et retours d’expérience d'Audit
+Scénarios, rapports de Simulation d'Urgence et plans
+d’actions 
+Analyses HIRA (On-the-Job et Principales)
+Check-liste de réception de matériels de manutention
+Fiche de Vie des accessoires de Levage
+Liste des Accessoires et Équipements de Levage (inventaire
+du site)
+Liste des titres d'Habilitation individuels
+Certificats de Conformité des équipements
+Manuels d'Utilisation des équipements
+Plans de Maintenance des équipements
+Historique et Dossiers de Maintenance des équipements
+Fiches de Destruction des Accessoires
+Registres de Consignation des Équipements mis hors service
+Conservés par
+Pilote du Standard FPS
+SST Site / Direction SST
+Responsable Maintenance /
+Responsable Bureau des
+Méthodes
+Direction RH / Équipe SST Site
+Éditeur du Plan de Manutention
+Responsable d'Exploitation / SST
+Site
+18/20
+Manutention Mécanique 
+Réf. doc : SSS-001-A
+Santé & Sécurité au Travail 
+SONASID SAFETY STANDARD
+3
+2
+1
+Risk
+Culture
+Gouvernance
+4 ) I N D I C A T E U R S  D E  P E R F O R M A N C E
+La mise en œuvre et le maintien efficaces de ce standard de manutention mécanqiue
+nécessitent un suivi rigoureux par des indicateurs de performance clés (KPIs). Ces indicateurs
+permettent au pilote FPS et à la direction du site d'évaluer l'efficacité des processus établis,
+d'identifier les domaines nécessitant des améliorations et d'assurer une démarche
+d'amélioration continue.
+Taux de conformité au standard.
+Taux de conformité réglementaire du matériel de manutentions.
+Nombre d’incidents relatifs à la manutention mécanique.
+19/20
+Manutention Mécanique 
+Réf. doc : SSS-001-A
+Santé & Sécurité au Travail 
+SONASID SAFETY STANDARD
+3
+2
+1
+Risk
+Culture
+Gouvernance
+5 ) A N N E X E S
+Titre
+Codification
+Fiche de Vie des accessoires de Levage
+Check-liste de réception de matériels de levage
+Inventaire équipements et accessoires de levage
+Plan de manutention
+Check-Liste de vérification du pont roulant
+Check-Liste de vérification de la grue
+Check-Liste de vérification de la potence
+Check-Liste de vérification du palan
+Check-Liste de vérification de la girafe
+Check-Liste de vérification des élingues
+Règle Manutention à proximité d’une charge suspendue
+Règle d’éllinguage
+Règle de geste de commandement
+Contenu de formation
+Règle de gestion des TAG pour contrôle réglementaire
+Fiche de destruction des accessoires de levage
+SSS-001-01-A
+SSS-001-02-A
+SSS-001-03-A
+SSS-001-04-A
+SSS-001-05-A
+SSS-001-06-A
+SSS-001-07-A
+SSS-001-08-A
+SSS-001-09-A
+SSS-001-10-A
+SSS-001-11-A
+SSS-001-12-A
+SSS-001-13-A
+SSS-001-14-A
+SSS-001-15-A
+SSS-001-16-A
+20/20
+Manutention Mécanique 
+Réf. doc : SSS-001-A
+Santé & Sécurité au Travail 
+SONASID SAFETY STANDARD
+3
+2
+1
+Risk
+Culture
+Gouvernance
+Fiche de Vie des accessoires de Levage
+  Santé & Sécurité au Travail
+Réf : SSS-001-01-A
+Historique
+Identification de
+l’accessoire
+Utilisation et Suivi
+Statut de l’accessoire
+Information Clé
+Conditions de Stockage
+Opérations de Maintenance
+Longueur (m) :
+Diamètre (mm) :
+Type de l’accessoire:
+Date de réception sur site :
+Element
+Emplacement de stockage :
+Date du contrôle périodique :
+Numéro du bon ed commande :
+Date de la première mise en service :
+Charge maximale d'utilisation (CMU) :
+Numéro d'identification unique (interne) :
+Date de fabrication:
+Référence fabricant (externe) :
+Date de contrôle
+Type de contrôle (visuel, par magnétoscopie,
+etc.) :
+Résultat du contrôle :
+Nom et signature de l'inspecteur :
+Date de l'opération de maintenance :
+Date de l'opération :
+Type d'intervention (graissage, réparation):
+Nom de l'opérateur de maintenance :
+Date de mise au rebut :
+Raison du retrait :
+Détails
+Manutention Mécanique
+1/1
+Check-liste de réception de matériels de
+levage 
+Manutention Mécanique
+VISA: 
+  Santé & Sécurité au Travail
+Site
+........................................................ 
+Grue
+Pont roulant
+Palan
+Potence
+Magasinier :
+Girafe
+Transpalette
+.......................................................
+Elingue
+Chaine
+Date de réception:
+Manille
+Autre ( à préciser) .......................................
+............ /.............../...............
+ : 
+Type du matériel :
+Identifiant unique du matériel 
+Année de fabrication indiquée
+Manuel d’utilisation ( Si applicable ) ?
+Plan de maintenance ( Si applicable ) ?
+Charge Maximale d'Utilisation indiquée - CMU
+Dispositifs de sécurité existent : limiteurs, arrêts d'urgence,
+alarmes audiovisuels etc.
+Certificat de Conformité du matériel de manutention valide ?
+Num: ..................................................
+Année: .................................................
+CMU (Kg): ............................................
+Oui
+Oui
+Oui
+Oui
+Oui
+Oui
+Oui
+Non
+Non
+Non
+Non
+Non
+Non
+Non
+Réf : SSS-001-02-A
+1/1
+ Il est obligatoire que chaque équipement de levage (pont, potence, girafe, grue, …) soit pourvu d'un numéro d'identification unique et affiché sur l’équipement;
+Sur chaqué équipement de levage, sa charge maximale d'utilisation (CMU) doit être affichée de manière visible et permanente sur ses deux côtés;
+Tous les accessoires de levage (élingues, chaînes, à l'exception des petits accessoires comme manilles, œillets et anneaux) portent à la fois un TAG attestant d'une inspection annuelle (étiquette de couleur, par exemple) et un numéro d'identification unique.
+N.B.:
+Type
+Pont Roulant
+Grue mobile
+Girafe
+Potence
+Transpalette
+Ellingue
+Chaine
+Manille
+Déscription
+Num d’identification
+CMU (T)
+Emplacement
+CMU affichée ?
+NA
+TAG affiché ?
+  Santé & Sécurité au Travail
+STATUT
+Site (Entité)
+........................................................ 
+Pilote FPS:
+.......................................................
+Oui
+Oui
+Oui
+Oui
+Oui
+Oui
+Oui
+Oui
+Non
+Non
+Non
+Non
+Non
+Non
+Non
+Non
+Date de dernière mise à jour:
+Oui
+Oui
+Oui
+Oui
+Oui
+Oui
+Oui
+Non
+Non
+Non
+Non
+Non
+Non
+Non
+............ /.............../...............
+Réf : SSS-001-03-A
+Inventaire équipements et accéssoires de
+levage 
+Manutention Mécanique
+ : 
+1/1
+B. Les informations sur l’opération de Manutention 
+Total contre-poids: 
+Nbr des brins du mouﬂe : 
+Engin de levage (Grue) : 
+Engin de levage (Pont roulant ou autres) : 
+ 
+Entreprise :                                                       Date de la demande:
+Description de l’opération : 
+Lieu de l’opération : 
+Date prévue de l’opération : 
+N° : ………….. 
+Type du point d’ancrage utilisé : 
+A. Les informations sur l’équipement de Manutention
+Déterminé par qui ? : 
+Déterminées par qui ? : 
+Capacité nominale de l’engin : 
+Méthode de calcul : 
+Méthode du calcul : 
+Capacité d’engin 
+Type d’engin de levage 
+Poids total au crochet 
+Marque 
+Modèle 
+Capacité (CMU) 
+Autre point 
+Sur roues
+Sur chenilles
+Fixe 
+Anneau soudé
+Anneau ancré
+Sur la structure 
+Anneau avectige 
+Anneau boulonné 
+Autre : ………………………..
+Poids de la charge
+Nom : 
+Fonction : 
+Entreprise : 
+Total charge au crochet x 100 
+Les installations sous-terraines nécessitent une attention particulière                 □ Oui □ Non
+Si OUI, les quelles ? ........................................................       Action: 
+………………………………………….. 
+Les conditions du sol sont-elles défavorables ? 
+□ Oui □ Non 
+Action : 
+Action : 
+Action : 
+Présence du danger de feu ou d’explosion à proximité ?                 □ Oui □ Non
+Présence du danger électrique dans le rayon d’action ?                  □ Oui □ Non 
+Autre danger à préciser : ......................................................................... Action : ........................................................................... 
+ 
+Capacité nominale de l’équipement 
+Le mode opératoire de l’opération est validé  
+Le plan d’urgence a été revu et communiqué 
+□ Oui □ Non           Action : 
+□ Oui □ Non           Action :
+Les exécutants de l’opération sont sensibilisés sur leurs tâches                            □ Oui □ Non           Action : 
+L’équipe est familiarisée avec ce type d’opération                                                     □ Oui □ Non           Action : 
+La charge totale dépasse  85% de la capacité nominale des équipements         □ Oui □ Non           Action : 
+Les conditions météorologiques sont favorables à l’opération                                □ Oui □ Non           Action : 
+Etat du ciel :           T° :                    Vitesse du vent :                       Direction du vent :          Heure :
+ Fiche du fournisseur
+ 
+Catalogue du fabriquant 
+Note de calcul (int. / Ext.) Par 
+qui ? : 
+…………………………………………………. 
+…………………………………………. 
+Utilisation d’une extension ou ﬂéchette: 
+Oui 
+Non 
+=
+=
+………..
+………..
+………..
+………..
+………..
+………..
+………..
+………..................
+……….............
+……….............
+Poids des accessoires de levage 
+………..
+………..
+……….
+……….......
+………..........
+1/3
+Plan de Manutention
+  Santé & Sécurité au Travail
+Réf : SSS-001-04-A
+Manutention Mécanique
+…………................
+…………....................................................................................................................
+…………...........................................................
+………….. 
+………….....................
+………….. 
+…... 
+…….. 
+………….. 
+..…….. 
+ Pont roulant monopoutre
+ Pont roulant bipoutre
+ Portique / Semi-portique
+ Potence murale / colonne
+Type de commande:
+Cabine
+Boîtier
+………….. 
+………….. 
+Nbr des brins du mouﬂe : ………….. 
+Portée levage (cas grue)/Travée (cas pont)
+Hauteur tête ﬂèche (cas grue)
+Angle minimal du levage (cas grue)
+Hauteur du levage 
+Rayon max de l’opération (cas grue)
+Capacité des élingues 
+Capacité des manilles
+Etape du levage
+Risques Identifiés
+Moyens de maîtrise
+Pilote
+C / NC
+D. HIRA Détaillée de l’opération de Manutention
+C. Crocquis simplifié de l’opération de Manutention
+2/3
+E. Points à vérifier
+Habilitation du conducteur de l’équipement
+Rapport de contrôle réglementaire 
+Abaque de l’équipement aﬃchée
+Check-list de l’équipement renseignée
+Chef de manœuvre désigné 
+Accessoires de levage 
+Elingage correctement contrôlé 
+La stabilité de la charge 
+Balisage de la zone de manœuvre 
+Moyen de communication 
+Autre à préciser : 
+Conforme
+Non Conforme
+Commentaires
+Plan de Manutention
+  Santé & Sécurité au Travail
+Réf : SSS-001-04-A
+Manutention Mécanique
+Poste
+Nom
+Signature
+Date
+Renouvelement
+Editeur du Plan de
+Manutention
+Chargé de Travaux Entreprise
+Extérieure
+Chargé de Travaux
+SONASID/LONGOMETAL
+Chef de Manoeuvre
+Grutier/Pontier/ Conducteur
+Appareil de Levage
+Elingueur (s)
+F. Validation du Plan de Manutention
+3/3
+N.B.
+En cas de non-conformité de l’un des points à vérifier, l’opération de levage est strictement interdite.
+Une copie de l’abaque du ou des engins de manutention (Cas grue) doit impérativement être jointe à ce
+plan de manutention. Des documents complémentaires peuvent être demandés avant la validation finale
+du plan.
+La durée de validité du plan de manutention est limitée à la durée d'un poste. En cas de dépassement, les
+points de contrôle doivent impérativement être revus et le plan doit être prolongé.
+Plan de Manutention
+  Santé & Sécurité au Travail
+Réf : SSS-001-04-A
+Manutention Mécanique
+Check-Liste de vérification du pont roulant
+Manutention Mécanique
+  Santé & Sécurité au Travail
+Réf : SSS-001-05-A
+N.B.:
+Avant la conduite du pont, je dois impérativement disposer d'une habilitation valide, signée par le Directeur du site ou le Directeur de mon entreprise.
+Je dois obligatoirement remplir cette check-list avant chaque utilisation de l'équipement.
+En cas de non-visibilité sur le rayon d'action de la charge et de risque pour les opérateurs présents dans la zone, je dois arrêter immédiatement l'opération de levage.
+En cas de non-conformité sur l'un des points marqués du signe de danger ⚠, je dois impérativement arrêter l'opération, sécuriser la zone immédiatement et informer mon
+supérieur hiérarchique.
+En cas de non-conformité sur un point ne comportant pas le signe de danger, je dois impérativement informer mon supérieur hiérarchique et les réparations doivent être
+effectuées dans la journée.
+1/1
+N.B.:
+Avant la conduite de la grue, je dois impérativement disposer d'une habilitation valide, signée par le Directeur du site ou le Directeur de mon entreprise.
+Je dois obligatoirement remplir cette check-list avant chaque utilisation de l'équipement.
+En cas de non-visibilité sur le rayon d'action de la charge et de risque pour les opérateurs présents dans la zone, je dois arrêter immédiatement l'opération de levage.
+En cas de non-conformité sur l'un des points marqués du signe de danger ⚠, je dois impérativement arrêter l'opération, sécuriser la zone immédiatement et informer mon
+supérieur hiérarchique.
+En cas de non-conformité sur un point ne comportant pas le signe de danger, je dois impérativement informer mon supérieur hiérarchique et les réparations doivent être
+effectuées dans la journée.
+Check-Liste de vérification de la grue
+Manutention Mécanique
+  Santé & Sécurité au Travail
+Réf : SSS-001-06-A
+1/1
+Check-Liste de vérification de la potence
+Manutention Mécanique
+  Santé & Sécurité au Travail
+Réf : SSS-001-07-A
+N.B.:
+Avant la conduite de la potence, je dois impérativement disposer d'une habilitation valide, signée par le Directeur du site ou le Directeur de mon entreprise.
+Je dois obligatoirement remplir cette check-list avant chaque utilisation de l'équipement.
+En cas de non-visibilité sur le rayon d'action de la charge et de risque pour les opérateurs présents dans la zone, je dois arrêter immédiatement l'opération de levage.
+En cas de non-conformité sur l'un des points marqués du signe de danger ⚠, je dois impérativement arrêter l'opération, sécuriser la zone immédiatement et informer mon
+supérieur hiérarchique.
+En cas de non-conformité sur un point ne comportant pas le signe de danger, je dois impérativement informer mon supérieur hiérarchique et les réparations doivent être
+effectuées dans la journée.
+1/1
+  Santé & Sécurité au Travail
+Réf : SSS-001-08-A
+Manutention Mécanique
+Check-Liste de vérification du palan
+N.B.:
+Avant la conduite du palan, je dois impérativement disposer d'une habilitation valide, signée par le Directeur du site ou le Directeur de mon entreprise.
+Je dois obligatoirement remplir cette check-list avant chaque utilisation de l'équipement.
+En cas de non-visibilité sur le rayon d'action de la charge et de risque pour les opérateurs présents dans la zone, je dois arrêter immédiatement l'opération de levage.
+En cas de non-conformité sur l'un des points marqués du signe de danger ⚠, je dois impérativement arrêter l'opération, sécuriser la zone immédiatement et nformer mon
+supérieur hiérarchique.
+1/1
+Check-Liste de vérification de la girafe
+Manutention Mécanique
+  Santé & Sécurité au Travail
+Réf : SSS-001-09-A
+N.B.:
+Avant la conduite de la girafe, je dois impérativement disposer d'une habilitation valide, signée par le Directeur du site ou le Directeur de mon entreprise.
+Je dois obligatoirement remplir cette check-list avant chaque utilisation de l'équipement.
+En cas de non-visibilité sur le rayon d'action de la charge et de risque pour les opérateurs présents dans la zone, je dois arrêter immédiatement l'opération de levage.
+En cas de non-conformité sur l'un des points marqués du signe de danger ⚠, je dois impérativement arrêter l'opération, sécuriser la zone immédiatement et nformer mon
+supérieur hiérarchique.
+En cas de non-conformité sur un point ne comportant pas le signe de danger, je dois impérativement informer mon supérieur hiérarchique et les réparations doivent être
+effectuées dans la journée.
+1/1
+Check-Liste de vérification des élingues
+Manutention Mécanique
+  Santé & Sécurité au Travail
+Réf : SSS-001-10-A
+N.B.:
+Avant la conduite de l'équipement de manutention, je dois impérativement disposer d'une habilitation valide, signée par le Directeur du site ou le Directeur de mon
+entreprise.
+Je dois obligatoirement remplir cette check-list avant chaque utilisation de l'équipement.
+En cas de non-visibilité sur le rayon d'action de la charge et de risque pour les opérateurs présents dans la zone, je dois arrêter immédiatement l'opération de levage.
+En cas de non-conformité sur l'un des points marqués du signe de danger ⚠, je dois impérativement arrêter l'opération, sécuriser la zone immédiatement et informer m
+supérieur hiérarchique.
+1/1
+Règle Manutention à proximité d’une charge
+suspendue 
+Manutention Mécanique
+  Santé & Sécurité au Travail
+X m 
+X m 
+Interdiction d’être en dessous ou à coté d’une charge suspendue 
+En cas de besoin d’intervention à proximité il faut une analyse des risquesp réalable
+avec mode opératoire sécuritaire validé 
+Il ne faut pas passer à
+côté d’une charge
+suspendue 
+Réf : SSS-001-11-A
+1/1
+Protéger les
+élingues des
+arrêtes
+tranchantes et
+des anglesvifs.
+Pensez au bon élingage avant
+la manutention 
+Soignez l’équilibrage et la
+stabilité de la charge 
+Règles d’OR : 
+Je suishabilité pour les opérations d’élingage.
+Je contrôle mes moyens d’élingage avant usage ainsi queletypeapproprié à utiliser.
+Je contrôle la charge maximale d’utilisation.
+ne jamais se positionner entre la charge et un point fixe.
+Je respecte le cône de sécurité.
+ Je range mes moyens d’élingage dans leurs endroits destockageaprèsusage. 
+Règle d’éllinguage 
+Manutention Mécanique
+  Santé & Sécurité au Travail
+Réf : SSS-001-12-A
+1/1
+Règles d’ors 
+  Le déroulement de l’opération 
+de manutention via les gestes
+de commandement doit se
+faire Uniquement entre deux
+personnes (le
+Manutentionnaire et le Chargé
+de commandement). 
+  La visibilité est obligatoire 
+entre le manutentionnaire et le
+chargé de commandement. 
+  Le chargé de 
+commandement doit être
+formellement habilité 
+Règle de geste de commandement
+Manutention Mécanique
+  Santé & Sécurité au Travail
+Réf : SSS-001-13-A
+1/1
+Le contenu de la formation doit répondre au minimum aux exigences définies dans ce document, avec la possibilité d'y ajouter des modules complémentaires afin de
+renforcer les compétences des opérateurs.
+N.B.:
+Cible
+Général 
+( pour tout
+le monde)
+Thème
+Théorique
+Contenue minimum exigé
+Test pratique
+Elingueur
+Chef de
+manoeuvre
+pontiers et
+grutiers
+Conducteur
+de grue
+mobile
+CACES R484 
+CACES R483
+Supervision
+et
+coordination
+.
+Formation
+spécifique à
+l'élingage et
+au gréage
+- stabilité
+- installation de la grue
+- opérations de levage impliquant plusieurs grues
+- montage et démontage de la grue
+- patins de stabilisation
+- sélection des accessoires et du matériel adaptés à la
+charge
+- dangers liés à l'environnement et en particulier aux
+conditions météorologiques
+- contrôles et essais
+- estimation du poids de la charge
+- sélection du matériel de gréage
+- signalisation par gestes
+- maintenance/rangement des élingues et des
+accessoires de gréage
+- bonnes pratiques pour les opérations d'accrochage-
+décrochage
+- appareils d'indication du poids de la charge
+- EPI
+- savoir utiliser les signaux manuels pour le levage
+- être capable de diriger une grue ainsi que sa charge
+afin d'assurer que l'opération se passe de manière
+efficace et en toute sécurité
+Exigences Légales et Réglementaires
+Retour d'Expérience (REX) et Amélioration
+Continue
+Culture Sécurité et Facteurs Humains
+Principes de Prévention des Risques
+Simulation et Exercices d'Urgence
+respecter et appliquer chaque procédure
+particulière de levage
+dangers liés à l'environnement et en particulier aux
+conditions météorologiques
+les tests et inspections avant utilisation de
+l'équipement de levage
+L'estimation du poids de la charge
+les procédures d'urgence
+Maîtrrise du déplacement des charges
+Elinguage
+Signaux par gestes
+La dynamique des charges
+Les fins de courses
+Les signaux d'alerte 
+Test de connaissance
+Recyclage
+Test de connaissance
+Recyclage
+pratique dispensée sur
+l'équipement de levage
+temps minimum de conduite
+fréquence des opérations à
+effectuer 
+Test
+Recyclage (min chaque 3 ans)
+pratique dispensée sur
+l'équipement de levage
+temps minimum de conduite
+fréquence des opérations à
+effectuer 
+Test
+Recyclage (min chaque 3 ans)
+Contenu de formation 
+Manutention Mécanique
+  Santé & Sécurité au Travail
+Réf : SSS-001-14-A
+1/1
+2027
+2028
+2030
+2026
+2029
+Année
+Blanc
+TAG Couleur ( à définir ) 
+NB : Pour la traçabilité des contrôles réglementaires annuels, un code couleur spécifique à chaque an née est apposé sur le TAG de l'élingue.
+et/ou de la chaine. Cette couleur atteste que l'élingue a bien passé son contrôle..
+  Santé & Sécurité au Travail
+Règle de gestion des TAG pour contrôle
+réglementaire 
+Manutention Mécanique
+Réf : SSS-001-15-A
+1/1
+Fiche de destruction des accessoires de levage
+Manutention Mécanique
+Identification de l’accessoire de manutention: .......................................Date de destruction: .......................................
+Motifs de destruction: ...........................................................................................................................................................................................................................
+...................................................................................................................................................................................................................................................................
+...................................................................................................................................................................................................................................................................
+...................................................................................................................................................................................................................................................................
+...................................................................................................................................................................................................................................................................
+  Santé & Sécurité au Travail
+Réf : SSS-001-16-A
+Pilote FPS : 
+Signature 
+La procédure de destruction des accessoires de levage est autorisée par les parties prenantes suivantes :
+Animateur SST : 
+Signature 
+Responsable Zone : 
+Signature 
+1/1

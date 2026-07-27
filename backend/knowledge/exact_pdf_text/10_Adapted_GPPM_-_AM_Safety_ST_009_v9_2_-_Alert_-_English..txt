@@ -1,0 +1,148 @@
+Document information
+Short description:
+ Procedure to notify senior management in ArcelorMittal about significant incidences as soon as they occur.
+Scope:
+The procedure applies:  
+To all ArcelorMittal sites worldwide and  to work related incidences which have resulted in  one or
+more fatalities or where one or more people are suffering life threatening injuries.
+Business Owners:
+Writer (prepared by):
+Paulmier Robin
+Paulmier Robin
+Creation date:
+Review date:
+Implementation Date:
+01/10/2007
+02/11/2020
+01/10/2007
+Reference Documents
+Reference or date
+Title
+Validation
+Validated by
+Position
+Validation date
+BALUCH EDUARD
+Expert Health & Safety Group
+02/11/2020
+Approval
+Approved by
+Position
+Approval date
+ESCOBEDO ANA
+Head Government Affairs Corporate
+06/11/2020
+AM_H&S_PR_017_01
+AM Safety ST 009 v9_2 - Alert.doc
+Health & Safety
+ArcelorMittal
+Health & Safety
+AM_H&S_PR_017
+ArcelorMittal
+AM Safety ST 009 v9_2 - Alert.doc
+Page 1 of 4
+1.
+Purpose:
+1.1. The purpose of the procedure is to notify senior management in ArcelorMittal about
+significant incidences as soon as they occur.
+2.
+Scope:
+2.1. The procedure applies:
+
+To all ArcelorMittal sites worldwide,
+
+To work related incidences which have resulted in  one or more fatalities or where one
+or more people are suffering life threatening injuries.
+2.2. Involving:
+
+Any ArcelorMittal employees,
+
+All other persons present in an ArcelorMittal plant (service p roviders, customers,
+visitors…)
+2.3. The procedure complements the current site and business-related procedures.
+3.
+Notification 
+3.1. The CEO of the business is responsible for ensuring that the procedure is followed. 
+
+Email Notification 
+è as soon as possible, at latest 4 hours after the event 
+
+AM H&S Alert:
+è max 24 hours after the event
+
+“Closed loop” report to full hierarchy up to CEO office:
+è maximum 4 weeks after the event 
+“Closed loop” report = full detailed report with root causes analysis, actions plan with 
+deadlines and persons in charge, and learning points)
+3.2.The notification documents must be transmitted mandatory by E-mail to:
+alert@arcelormittal.com
+3.3.In addition, the information must also be sent (by the CEO or his/her nominee) to all relevant
+Business Unit management and regional company Officers and Directors.
+3.4.The Business Unit Health and Safety professional is responsible for sending out to the 
+regional H&S organization. Where appropriate, they will also be responsible for ensuring 
+that information is disseminated in the regional language.
+4.
+Accountabilities:
+4.1. The CEO is responsible for ensuring adherence to this procedure.
+4.2. The Business  Unit  Health and Safety professional is responsible for keeping the  B usiness
+Unit procedures updated with any changes to this procedure.
+4.3. Corporate Health and Safety are accountable for ensuring the procedure is updated to
+account for any changes that may occur from time to time and for reviewing the procedure
+on a regular basis.
+Health & Safety
+AM_H&S_PR_017
+ArcelorMittal
+AM Safety ST 009 v9_2 - Alert.doc
+Page 2 of 4
+5. Distribution list 
+Alert notification has to be sent to alert@arcelormittal.com (cf. above). 
+Corporate H&S will automatically forward to the distribution  defined in document
+AM_Safety_ST009_Alert_Appendix1_Distribution List.
+6. Notification templates:
+6.1. Email Notification: as soon as possible (at latest 0-4 hours after the event) 
+The e-mail must be written in English and must include the following elements:
+
+Date:   
+
+Time: 
+
+Personnel: (own / contractor)
+Short description: (max 5 lines)
+Photographs are not requested at this 
+stage.
+
+Contact person: (mandatory)
+
+Name:
+Email:
+
+Phone:
+
+Mobile:
+6.2. AM Health & Safety Alert: max 24 hours after the event
+The email would be followed up on within 24 hours and a Health and Safety Alert would be
+issued using the form attached.
+The Alert is to include a picture or drawing of the incident to allow for better understanding,
+(the pictures or drawings must be downsized to a reasonable volume (< 500 KB) in order to
+facilitate downloading by devices such as Qtek, Blackberry
+The alert document is published by H&S Corporate in the REX & Alert database
+Health & Safety
+AM_H&S_PR_017
+ArcelorMittal
+AM Safety ST 009 v9_2 - Alert.doc
+Page 3 of 4
+7.3. Presentation to full hierarchy up to CEO office: maximum 4 weeks after the event 
+A full root cause analysis will be carried out for these incidences to form the basis of the
+presentation to senior management. All fatalities will be discussed with the full hierarchy up
+to CEO office. 
+Other serious incidences will be presented to the appropriate G roup  M anagement
+Committee member and the Regional H&S person.  
+The PowerPoint format attached will be used for the presentations. One slide on the
+‘Remaining Legal Risks’ (for company and persons) must be added to each presentation.
+Health & Safety
+AM_H&S_PR_017
+ArcelorMittal
+AM Safety ST 009 v9_2 - Alert.doc
+Page 4 of 4
+                 
+---- End of Document ----

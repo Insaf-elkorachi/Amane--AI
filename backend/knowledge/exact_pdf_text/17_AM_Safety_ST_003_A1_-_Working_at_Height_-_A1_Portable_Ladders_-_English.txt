@@ -1,0 +1,302 @@
+ 
+1
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Scope:  
+ 
+Execution of works at heights by means of portable ladders is inherently hazardous and can jeopardize 
+their users. Inappropriate use is a major source of injuries or even fatalities among own and contractor 
+workers, and many of the injuries are serious enough to require time off the job.  
+This document applies to all portable ladders used by ArcelorMittal employees or contractors in 
+industrial areas, constructions or demolitions, repairs and maintenances, painting of worksites etc 
+where the working at height activities requires to climbing in elevated positions. 
+ 
+2. Definitions:  
+ 
+- 
+Portable ladders – A tool temporarily used in order to transpose people between floors with level 
+difference or to achieve an elevated position of the user. 
+- 
+Work of short-term and of minor extent - following activities as 
+example: 
+ 
+ Service and inspection, 
+ Measuring and calibration 
+ Changing of lights  
+ Attaching / detaching of slings 
+ Setting anchor screws 
+ 
+3. General principle 
+ 
+To achieve an elevated work position, use of portable ladders has to be 
+strictly limited to circumstances where the application of other more safe equipments is not appropriate 
+due to minor risks, a short term work of minor extent or due to locally narrowed conditions. 
+Prior starting a short-term and minor extent on a portable ladder a risk assessment must always be 
+performed. The risk assessment has to consider, besides the duration and severity of the work, the 
+physical load as well as the tools and materials to be carried. This risk assessment is mandatory in order 
+to check whether other alternative tools (e.g. scaffolds, mobile platforms) in stead of a ladder are 
+available and more appropriate to carry out the task safely, and to determine countermeasures on risk 
+elimination when using a portable ladder 
+ 
+ 
+Health & Safety 
+OPERATION 
+STANDARD 
+Ref.:  
+AM Safety ST 003  
+ 
+A1 Portable  ladders 
+Issued:  07.05.2012 
+Vers.:  
+1 
+Rev.:  
+07.05.2012 
+Use of portable ladders  
+Controlled Circulation  
+Elaborated by:  
+Checked by:  
+Approved by:  
+Name :  
+Sylvio de Menezes Filho 
+Wolfram Weiss 
+Lisa Williamson 
+HSLT 
+ 
+Frank Haers
+ 
+2
+ 
+ 
+4. Safety Rules for all Portable Ladders 
+ 
+If the risk assessment concludes that the use of a ladder is the most appropriate tool, the following 
+rules must be applied for all portable ladders: 
+ 
+Preparation: 
+ 
+ The portable ladder has to be checked before use on their orderly 
+condition. Any failure has to be reported, defective portable ladders 
+have to be replaced immediately, i.e. not to be used at all and to be 
+disposed of. 
+ The portable ladder has to be kept free of oil, grease and other 
+slipping hazards.  
+ 
+Positioning: 
+ 
+ The portable ladder has to be put only on stable and level surfaces 
+and to be secured, preferably at the top, or be held by someone to 
+avoid the portable ladder from slipping or falling over. 
+ Keep areas clear around the top and bottom of the portable ladder 
+ When the portable ladder is used for access to an upper landing surface, the side 
+rails must extend at least 1 m (3 feet) above the upper landing surface. 
+ A portable ladder can not be used to bridge a height difference of > 5 meters (17 
+feet) unless risk assessment supports such special use. 
+ The portable ladder has to be docked in an angle of 65° to 75°. This means that 
+the base should be set out one-fourth of the ladder's height to its top support point (with the elbow 
+method the correct angle can be identified).  
+ Portable ladders which are placed in areas such as passageways, 
+doorways or driveways, or where they can be hit by workplace 
+activities or traffic, have to be properly secured and the area 
+must be marked to prevent accidental movement.  In any case 
+barricades have to be placed immediately adjacent to keep 
+traffic or activity away from the portable ladder; for urgent 
+situations a safety person supervising the area as his sole task, 
+can be considered as an alternative. 
+ 
+Usage: 
+ 
+ Use portable ladders only for their designed purpose 
+ Make sure the ladder has the proper duty rating to carry your weight 
+and the material you are going to use on it.  
+ When working above 1.8 m (6 feet), the portable ladder user has to 
+wear fall protection with a suitable tie off point, except shot-term work of minor 
+extent (see Annex 1: ladder use flow chart) on portable ladders. When executing work 
+of minor extent without fall protection, choose wherever possible as alternative 
+platform ladders (see example in pictures below) with side protection which are more 
+convenient and appropriate to do the work safely). 
+< 5 m
+ 
+3
+ 
+ 
+ Face the portable ladder when moving up or down. 
+ Do not use a portable ladder by 2 or more persons at the same time 
+unless designed for more than one person. 
+ Use at least one hand to grasp the portable ladder (assure 3 points 
+contact) when moving up or down. 
+ Do not move, shift or extend portable ladders while in use. 
+ Do not lean out while standing on the portable ladder  
+ Do not use the 3 last steps (topside) due to missing possibility to hold tight and the risk of ladder 
+slippage 
+ Use portable ladders equipped with nonconductive side rails if the worker or the ladder could 
+contact exposed energized electrical equipment.  Even aluminum and wet or dirty wood of 
+fiberglass ladders can conduct electricity so keep all ladders and tools at least 10 feet / 3 m away 
+from live overhead power lines and other overhead obstructions. 
+ 
+ 
+ 
+ 
+Special rules on portable step ladders/ladder stand: 
+ 
+ Step portable ladders must be positioned with 
+tensioned safety struts.   
+ Step portable ladders without support bar can only 
+be acceded till the 4rdhighest step (the 3 upper 
+steps enable to lean on), unless designed for that 
+purpose. 
+ Step portable ladders are not to be used as leaning portable ladders  
+ 
+Restrictions: 
+ 
+ Don’t use homemade portable ladders (this includes portable ladders built at the jobsite by 
+contractors or own personnel)  
+ Don’t repair of portable ladders (except changing feet and then it has to be inspected before being 
+used again) 
+ Don’t modify or improvise portable ladders
+ 
+4
+ 
+ Don’t extend portable ladders by tiding or fastening two or more 
+portable ladders together to create longer sections. 
+ Don’t use portable ladders as part of a platform construction. 
+ 
+ 
+5. Inventory & regular inspections: 
+ 
+ 
+An inventory and identification of all portable ladders in use must be carried out including the 
+determination of the ladder owner as well as the inspection status; all portable ladders must be labeled 
+accordingly so that the user can detect or find out the ladder is checked and OK for use. 
+A competent person must inspect portable ladders for visible defects annually and after any incident 
+that could affect their safe use. Anyhow there must be a pre-use inspection of each portable ladder 
+before every single use. 
+Portable ladders with structural defects, such as broken or missing rungs, cleats or steps, broken or split 
+rails, corroded components or other faulty or defective components—must be removed from the 
+workplace immediately and must be destroyed before disposal. 
+All contractors need to maintain and provide as evidence their inventory list, inspection list and all 
+documents related to their portable ladders and they must keep the documentation available so it can 
+be checked. 
+Inspection check lists or specific documents need to be recorded and kept at minimum over 2 inspection 
+periods.  Required Checklist for Inspection – see Annex 2. 
+ 
+6. Training Requirements 
+ 
+ 
+Own employees as well as employees from service providers regularly involved in working at height jobs 
+have to be trained on the hazards/risks related to work on portable ladders and the appropriate use. 
+Regular retraining must be considered.
+ 
+5
+ 
+Task requires you to use a ladder
+Choose the proper type of ladder 
+for the task (straight or step)
+• Use alternate way of doing job
+• Use elevated work platform
+• Use scaffolding 
+• Install permanent platform
+• Use Rolling Ladder
+Is the work:
+- *short term of minor 
+extent?
+- you can perform it facing 
+the ladder, remain centered 
+and leaning into the ladder?
+Complete the work following safe 
+ladder practices (i.e. **secure, 
+level ground, non slip feet, stay 
+between the side rails etc.)  
+**Secure = tie off, someone 
+holding, cleats, mud sill etc.
+Yes
+Yes
+No
+No
+Annex 1
+Safe Ladder Use Planning
+Can you wear fall 
+protection equipment and 
+attach to an appropriate 
+anchor point?
+*Short-term work of minor 
+extent:
+- Service and inspection
+- Measuring/calibration
+- Changing of lights 
+-Attaching/detaching of slings
+- Setting anchor screws
+ 
+6
+ 
+Annex 2 - Checklist for inspection 
+ 
+Criteria 
+1st inspection 
+2nd inspection 
+3rd inspection 
+Side rails: 
+ Deformation 
+ Damages (e.g. cracks) 
+ Wearing 
+ Sharp edges, splitter 
+ 
+ 
+ 
+Steps: 
+ Deformation 
+ Damages  
+ Wearing tread 
+ Sharp edges, splitter 
+ Connection to side rails 
+ 
+ 
+ 
+Safety struts (step portable 
+ladders): 
+ Completeness / fixation 
+ Functioning 
+ Damages 
+ 
+ 
+ 
+Fitting parts: 
+ Completeness / fixation 
+ Damages / corrosion 
+ Functioning 
+ Wearing 
+ Lubrication (mech. parts) 
+ 
+ 
+ 
+Accessories: 
+ Completeness / fixation 
+ No conductivity of side rails  
+ 
+ 
+ 
+Indication: 
+ Label 
+ 
+ 
+ 
+Inspection result: 
+ Ladder OK for use 
+ Repair necessary 
+ Remove immediately 
+ 
+ 
+ 
+Next inspection (Month/year) 
+ 
+ 
+ 
+Inspection done by (date signature)

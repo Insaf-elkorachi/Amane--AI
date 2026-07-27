@@ -1,0 +1,492 @@
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A1 v2 
+Discharging of scrap 
+Appendix 1 
+Discharging of Scrap 
+Instruction 
+ 
+ 
+ 
+ 
+< Page 1 of 11 > 
+  
+ 
+ 
+Document Information 
+Short description: Instructions for all operations with scrap within the premises of the plants of 
+ArcelorMittal. 
+ 
+ 
+Scope: These instructions are applicable to all ArcelorMittal employees involved in operations with 
+scrap within the premises of the plants of ArcelorMittal. 
+ 
+Business Owners: 
+Robin PAULMIER 
+Creation date (first version): 
+10/05/2010 
+Writer (prepared by): 
+Frank HAERS 
+Review date (new version): 
+26/06/2023 
+Reviewed by: 
+Eduard BALUCH 
+Implementation Date: 
+10/05/2010 
+ 
+Version History 
+Version 
+Date 
+Person 
+Description 
+0 
+10/05/2010 
+Frank HAERS 
+Creation 
+1 
+21/01/2016 
+Olivier DUQUESNOY 
+Update references 
+2 
+26/06/2023 
+Eduard BALUCH 
+Modification and update of chapter linked to Minimum safety 
+requirements 
+5.1.General and 6. Inspection scrap before and after discharging 
+ 
+Reference Documents 
+ 
+Reference or date 
+Title 
+AM Safety ST 006 
+(GPPM procedure) Vehicles and Driving 
+ 
+Validation 
+Validated by 
+Position 
+Validation date 
+Signature 
+Robin PAULMIER 
+Head Corporate H&S  
+26/06/2023 
+ 
+ 
+Approval 
+Approved by 
+Position 
+Approval date 
+Signature 
+Brad DAVEY  
+Head of Corporate Business 
+Optimization  
+26/06/2023
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A1 v2 
+Discharging of scrap 
+Appendix 1 
+Discharging of Scrap 
+Instruction 
+ 
+ 
+ 
+ 
+< Page 2 of 11 > 
+  
+ 
+ 
+1.  
+Scope 
+The scope of these standards applies to all operations with scrap within the premises of the 
+plants of AM. 
+ 
+These basic standards must be enforced and affect subcontractors, truck drivers, vendors, as 
+well as those who represent them.     
+ 
+These rules must be adapted in the plants taking into account the specificity of the facilities, 
+environment and organization, and they can raise the level of requirements in case of 
+necessity.  
+ 
+The staff of the plants (weighing scales, scrap yards) must fulfil and enforce these 
+requirements. 
+ 
+Wherever local law would be more severe than this standard, local law has to be taken into 
+account. In other cases, this standard is to be adhered to strictly. 
+ 
+2.  
+Other relevant documents to be respected  
+This standard has to be applied taking into account as well: 
+- AM Safety ST 006 
+Vehicles and Driving 
+- AM Safety ST 008 
+Contractors 
+ 
+3.  
+Flow of trucks around the scrap yards 
+ 
+ A clearly designated flow (traffic plan, including limited heights particularly electrical network, 
+pipes …) of incoming and outgoing trucks must be organized to keep the traffic under control 
+and assure safe operations. This plan must be known by all involved. This plan involves placing 
+of appropriate signaling to guide the traffic. 
+As part of this traffic plan, a waiting area for scrap trucks is required. Since the area around the 
+scrap yard may not be very spacious, the plant has to organize a safe parking area, from where 
+the scrap yard receptionist can call the trucks to unload. 
+Roads will be kept clean of remaining scrap to avoid tire and dust problems.
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A1 v2 
+Discharging of scrap 
+Appendix 1 
+Discharging of Scrap 
+Instruction 
+ 
+ 
+ 
+ 
+< Page 3 of 11 > 
+  
+ 
+ 
+Trailer covers will be used when: 
+- 
+there is a risk of loss of material (light thin scrap)  
+- 
+to avoid inclusion of water in pressed metallic scrap barrels due to weather 
+conditions 
+- 
+legal requirements so prescribe 
+ 
+4.  
+Hazards in and around Scrap Yards 
+- Collision and crashes with moving equipments, cranes and vehicles, electrical cables, … 
+- Falls from heights, in the pits, stairs, etc. 
+- Crushing: truck tipped over, scrap fallen when opening the truck doors and dropping of 
+piled storage scraps. 
+- Bruises and contusions, by scrap metal pieces projected during the manipulation of scrap 
+in the yards. 
+- Cuts when manually handling scrap. 
+- Metallic pieces piercing through the boots or gloves. 
+- Risk of tripping and falling during walking (uneven floors, scrap metal pieces and wells, bad 
+weather conditions …) 
+- Powdery atmosphere. 
+- Noise damage. 
+- Lateral turning over of the truck. 
+- Falling of truck in scrap pit. 
+- Contact with radioactive material. 
+- Run over by truck or other equipment. 
+- Risk of other equipment in the scrap yard (to be defined locally) 
+ 
+Any specific local risks to be detected based on HIRA and actions to be taken for proper 
+mitigation.
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A1 v2 
+Discharging of scrap 
+Appendix 1 
+Discharging of Scrap 
+Instruction 
+ 
+ 
+ 
+ 
+< Page 4 of 11 > 
+  
+ 
+ 
+5.  
+Minimum safety requirements 
+5.1. General 
+- It is strictly forbidden to drive and turn the truck with the dump lifted, as well as with the 
+loader crane lifted (in case of trucks fitted with it). Driving will not be started before the 
+dumper (and crane) is down. However, exception can be made for stepwise forward 
+movement with truck and trailer in line to ease the unloading of the scrap. While moving 
+stepwise the driver must ensure the area is totally free of all obstacles. As soon as the 
+trailer is emptied, the truck has to stop to put dump (and crane) in the lowest possible 
+position before moving on. 
+- To open the rear door of dumper in a safe way, all trucks must be equipped with : 
+▪ or an automatic system 
+▪ or have a system that allows opening the rear doors of the truck whilst standing next 
+to it, instead of in front of the unloading doors 
+(see pictures of good examples in attachment). 
+Any truck not fulfilling one of the two criteria described above (piston opening or as a 
+temporary solution a long lever for manual opening from the side of the truck) will not be 
+unloading and sent back to the supplier at his expense. 
+- These truck requirements as well as the consequences of not complying, have to be 
+integrated immediately in all scrap buying contracts. 
+- The trucks with aluminum dumper and / or one hydraulic piston show an additional risk of 
+overturning. They will only be accepted at the site entrance if they transport scrap which 
+can not be jammed during unloading. 
+- Areas to store scrap will have bumpers to ensure the position of trucks without risk 
+particularly in case of pits. 
+- Assure the truck is stopped on a stable floor area before starting any discharging 
+operation, to avoid sideward falling of the truck during the unloading operation. 
+- 
+It is strictly forbidden that ArcelorMittal organize a transport of scrap without a contract 
+which included a safety transport protocol (included in the contract or signed at the 
+entrance of the site). Truck entrance will be refused in case of any incompliance with the 
+Safety protocol. 
+- 
+The preparation of truck/trailer, as well as tarping/untarping can be done either:  
+o on our property: only under full control of ArcelorMittal employee with the 
+dedicated materiel (ladder are forbidden) on the dedicated areas  
+o or outside our property: in a safe area, large enough and well located close to our 
+plant entry gate, available for drivers to do so safely.
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A1 v2 
+Discharging of scrap 
+Appendix 1 
+Discharging of Scrap 
+Instruction 
+ 
+ 
+ 
+ 
+< Page 5 of 11 > 
+  
+ 
+ 
+- 
+It is strictly forbidden to be in the trailer when the trailer contains scrap. 
+ 
+5.2.  Drivers  
+- An HIRA has to be realized to decide if the driver has to stay inside or outside its truck 
+during scrap discharging; if he has to stay outside it has to be at a safe distance as defined 
+locally? 
+- Three-point contact is to be used when mounting and dismounting truck cabs. 
+- Seat belts which are supplied by the equipment manufacturer shall be worn at all times 
+when in the driver cabin, including when the truck is being unloaded. 
+- Wear when accessing the scrap reception office near the scrap yard: high ankle safety 
+shoes, helmet, ear plugs, dust mask (if needed), safety glasses, safety clothes with 
+sleeves fully down, gloves and fluorescent jacket with reflection bands. 
+- When opening the load doors (see also 5.1), the driver will not pass behind the truck, but 
+will walk around the front of the truck to open the second door (if existing) 
+- When putting down scrap containers, the truck must be fully stopped and the truck’s 
+hydraulic side supports must be extended, when available, on a stable place to give proper 
+support. 
+- Beware of the risks mentioned in paragraph 4. 
+ 
+5.3.  Scrap receptionist 
+- Never come closer than 20 m to any unloading truck. 
+- Wear the following PPE: helm, high ankle safety shoes, ear plugs, dust mask (if needed), 
+safety glasses, safety clothes with sleeves fully down, gloves and fluorescent jacket with 
+reflection bands. 
+- Beware of the risks mentioned in paragraph 4. 
+- The Scrap receptionist must have the authority for stopping the unloading scrap process in 
+case of unsafe condition being detected. In case of storm or lightning risks the unloading 
+process should be stopped by Scrap receptionist. 
+- Must check if the load is properly distributed on the truck to avoid the truck falling sideways 
+during tipping. 
+ 
+5.4.  Driver of bulldozers scrap grabs, magnet or spider, etc. for scrap manipulation in the yard 
+- Stop manipulation if a truck or person is in a vicinity of less than 20 m.
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A1 v2 
+Discharging of scrap 
+Appendix 1 
+Discharging of Scrap 
+Instruction 
+ 
+ 
+ 
+ 
+< Page 6 of 11 > 
+  
+ 
+ 
+- Scrap receptionist to inform such drivers by radio of any movement (truck or person) in the 
+scrap yard. 
+- Wear the following PPE: helmet, high ankle safety shoes, ear plugs, dust mask (if needed), 
+safety glasses, safety clothes with sleeves fully down, gloves and fluorescent jacket with 
+reflection bands. 
+- Beware of the risks mentioned in paragraph 4. 
+- The Scrap receptionist should follow the entire unloading scrap process, truck by truck. 
+ 
+6.  
+Inspection scrap before and after discharging 
+-  Assure that the truck passes through the radioactivity detection before any unloading can 
+take place (exception can be made for internal scrap if absolutely sure of the origin) 
+- Specific safety areas will be designed for pre-inspection. 
+-  If for all contents inspections of the truck a ladder is needed, put it against the dumper of 
+the truck; assure it is placed in a stable way (i.e. according to the site rules of use of 
+ladders)  
+-   Assure the truck is stopped, motor turned of and brake applied, and driver must stand 
+beside the inspector. 
+-  if content inspection of the truck is needed, this must be done on the safety specific areas 
+designed for pre-inspection with a fix or mobile platforms (ladder are forbidden) which 
+allows to reach all the contents of the dumper without walking on the scrap. 
+ 
+7.  
+Discharging procedure 
+- The scrap yard receptionist will guide the trucks to the exact place where unloading has to 
+be done. 
+- Before entering or discharging, roof warning lights of the truck must be on. 
+- Positioning of the truck must be done in a soft and correct way against the bumper. Before 
+positioning the truck, the truck driver will have to assure that the area is free of persons. 
+- If the truck’s hydraulic side supports are used, assure they are positioned on solid ground. 
+- Receptionist to check if the truck driver abides by the above described ‘Minimum Safety 
+Requirements’ and that the truck load doors can be opened safely. If not conform, doors 
+will not be opened, scrap will not be discharged, and truck will be sent away. 
+- Opening of load doors: STRICTLY APPLY ABOVE-DESCRIBED WAY OF WORKING. 
+- Check that the unloading dumper is fully in downward position before closing its doors.
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A1 v2 
+Discharging of scrap 
+Appendix 1 
+Discharging of Scrap 
+Instruction 
+ 
+ 
+ 
+ 
+< Page 7 of 11 > 
+  
+ 
+ 
+- Always assure a way to bring yourself in safety (escape route) before moving towards the 
+truck. 
+- If the discharging takes place in a scrap yard where cranes are moving on higher levels a 
+HIRA has to be done. It can be necessary to have, warning lamps on the roof of the trucks, 
+traffic lights for entry, a sound system, etc. 
+- Never place a truck beside the other one (closer than 20 m) before the other one has 
+completed the unloading. 
+- Distance between the bumpers of 2 trucks that are waiting to discharge must be at least 3 
+m. 
+- No movement of persons between trucks if less than 3 meters between them. 
+ 
+8.  
+In case of discharging problems 
+- Truck driver must immediately lower the dumper. 
+- Signal the problem to the scrap yard receptionist. 
+- Wait for the orders of this scrap yard receptionist before taking any further actions. 
+- Scrap yard driver to inform supplier / transport company that further unloading will be done 
+by crane (magnet or spider) 
+- If this unloading by crane is not accepted by supplier / transport company, the truck will be 
+sent back to the supplier with any remaining load. 
+- If unloading is not possible by lifting the dumper, the truck has to stop unloading, put 
+dumper down and then drive the truck to the waiting area. 
+- In no case it is allowed to make backwards and forward movements against the border of 
+the scrap pit to help starting the unloading of scrap.
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A1 v2 
+Discharging of scrap 
+Appendix 1 
+Discharging of Scrap 
+Instruction 
+ 
+ 
+ 
+ 
+< Page 8 of 11 > 
+  
+ 
+ 
+Attachments: Pictures on Construction of Trucks 
+ 
+ 
+Solution 1 ( NOT GOOD ENOUGH ) 
+ 
+ 
+ 
+Although there is a safety lock centrally, the levers are too short to open the doors, so the person 
+will stand behind the doors and this is what we want to avoid… see below pictures… 
+ 
+ 
+ 
+This is the most common door 
+seal for containers. Some 
+containers have a mechanical 
+safety hook, but they are still 
+not common (25%).
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A1 v2 
+Discharging of scrap 
+Appendix 1 
+Discharging of Scrap 
+Instruction 
+ 
+ 
+ 
+ 
+< Page 9 of 11 > 
+  
+ 
+ 
+Solution 2 ( GOOD ) 
+ 
+ 
+ 
+ 
+ 
+Solution 3 ( GOOD ) 
+ 
+ 
+ 
+This is a door closing system with safety hooks.  
+The driver unlocks the simple mechanical hooks (3) and 
+afterward he can command the control lever (1) at the 
+side of his trailer to remove the security hooks (2) and to 
+open the doors
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A1 v2 
+Discharging of scrap 
+Appendix 1 
+Discharging of Scrap 
+Instruction 
+ 
+ 
+ 
+ 
+< Page 10 of 11 > 
+  
+ 
+ 
+ 
+ 
+Solution 4 ( GOOD )
+ArcelorMittal          
+Health & Safety 
+ 
+AM Safety ST 006 A1 v2 
+Discharging of scrap 
+Appendix 1 
+Discharging of Scrap 
+Instruction 
+ 
+ 
+ 
+ 
+< Page 11 of 11 > 
+  
+ 
+ 
+Solution 5 ( GOOD ) Self Dumping System 
+ 
+ 
+ 
+ 
+ 
+ 
+---- End of Document ---- 
+ 
+ 
+This is the hydraulic valves 
+system. These trucks are 
+used for internal scrap 
+transport, from the stock to 
+the scrap yard.

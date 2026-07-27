@@ -1,0 +1,641 @@
+Document information
+Short description:
+The purpose of this procedure is to define the ArcelorMittal Safety Key Performance Indicators (KPIs). It does not prevent
+ArcelorMittal companies and plants from tracking, on top of the ArcelorMittal official KPIs, other local performance
+indicators in accordance with local laws.
+Scope:
+The procedure applies to all companies within the ArcelorMittal Group and to permanent or temporary employees as well
+as Contractors (direct or indirect) who perform work on ArcelorMittal sites.
+For external reporting, the scope is the one of legal entities structure (BPM consolidation structure), used for financial
+consolidation purpose.
+Business Owners:
+Writer (prepared by):
+Paulmier Robin
+Baluch Eduard
+Creation date:
+Review date:
+Implementation Date:
+09/09/2024
+05/09/2024
+10/09/2024
+Reference Documents
+Reference or date
+Title
+Validation
+Validated by
+Position
+Validation date
+PAULMIER ROBIN
+Group Health & Safety
+10/09/2024
+Approval
+Approved by
+Position
+Approval date
+DAVEY BRADLEY
+Head of Corporate Business Optimization
+10/09/2024
+AM_H&S_PR_010_04
+AM Safety ST 010 v 10_7 - Safety 
+Metrics.docx
+Health & Safety
+ArcelorMittal
+Health & Safety
+AM_H&S_PR_010
+ArcelorMittal
+AM Safety ST 010 v 10_7 - Safety Metrics.docx
+< Page 1 of 12 >
+ 
+Page 1 of 12
+1. Purpose
+The purpose of this procedure is to define the ArcelorMittal Safety Key Performance Indicators (KPIs).
+It does not prevent ArcelorMittal companies and plants from tracking, on top of the ArcelorMittal official 
+KPIs, other local performance indicators in accordance with local laws.
+2. Scope
+The KPIs are computed for  own  personnel  “ OP ”  as well as  service providers  “SP”  ( companies contracted 
+directly or indirectly by ArcelorMittal  to perform work on a site owned or controlled by ArcelorMittal ) .  T his 
+also includes the transporting companies, for the part of their activities occurring on ArcelorMittal sites (i.e., 
+loading, unloading and transport within ArcelorMittal sites).
+A t this time  “ Value Chain Workers ” (CSRD  future requirement)  are not in the scope  of reporting , p ending  
+precision from CSRD on definition. 
+L ocal HR policies will dictate whether a person  is  own personnel “OP” or service provider “SP” .   If you have 
+any questions on this topic, please contact your local HR department for clarification.
+NB:  when a contract ing company  is  contractually  renting  or  leasing  from  ArcelorMittal a  ringfenced  area,  in 
+which it  perfor ms its own  activities ( e.g., repair shop),  with  no  ArcelorMittal  activity  in  this  area, then an 
+accident happening inside this area is considered as outside of ArcelorMittal site, and therefore not 
+consolidated in ArcelorMittal statistics, except if legal authorities conclude that ArcelorMittal responsibility is 
+involved in this accident.  Presence of a pre-existing formal renting or leasing land contract, as well as the 
+fencing of the area is mandatory.
+The KPIs  concern  all employees  without distinction,  permanent  or  temporary  ( e.g.,  contract limited in time, 
+temporary job, holiday job, student job, trainee purpose, etc.)
+To be taken into account, an injury must be simultaneously:
+
+Caused by a sudden, single instantaneous event. 
+
+Caused by the work and not the result of any pre-existing underlying medical conditions with a  history of  
+symptoms – this is to be determined only by medical professional.
+
+Reported on a timely basis – is there connection between the symptoms and the injury date – this is to be 
+determined only by a medical professional.
+
+Classified as work related by local authorities
+For external reporting, the scope is the one of legal entities structure (BPM consolidation structure), used for
+financial consolidation purpose.
+Health & Safety
+AM_H&S_PR_010
+ArcelorMittal
+AM Safety ST 010 v 10_7 - Safety Metrics.docx
+< Page 2 of 12 >
+ 
+Page 2 of 12
+3. Definitions
+3.1. Categories
+The work-related events or situations are categorized as (definitions are given further below):
+
+Fatality
+
+Lost Time Injury
+
+Adapted Work
+
+Medical Aid
+
+First Aid
+
+Near Hits
+
+Unsafe Acts and Unsafe Situations
+The decision in which category an injury belongs is easily taken based on below scheme:
+Fatality?
+YES 
+à 
+FATALITY
+No 
+à 
+person absent from work for at least one day, apart from the day of the occurrence
+of the incident?
+Yes 
+à LTI
+No
+à person did adapted work as prescribed by the medical professional.
+Yes 
+à ADAPTED WORK
+No
+à specialized Medical Aid?
+Yes
+à MEDICAL AID
+No
+à FIRST AID
+Below is given some complementary explanation on each of the categories;  however, the above decision 
+table is to be followed strictly in categorizing the injuries.
+3.2. Fatality
+Is a n  incident caused by  work that occurs on company property or while travelling  for company business  and  
+which results in a fatality.
+3.3. Lost Time Injury (LTI)
+Is a work-related  injury that results in the loss of at least one full working day (beyond the da y of the injury).  
+So, if there is any absence beyond the day of the injury occurring, the consequence of the incident is 
+automatically an LTI. This is independent  of the fact that the Physician  prescribed staying at home or doing 
+adapted work: reality is to be used for accounting.
+The treating Physician will judge whether the injured employee is able to do adapted work or whether a 
+work stoppage is needed. 
+If, in the opinion of the Company’s Physician, the injured employee is able to perform restricted work 
+without undue hardship or compromising the recovery process and the injured employee consents to this, it 
+is the responsibility of the Company’s Physician to liaise with the treating Physician regarding suitable duties . 
+If the treating Physician is in agreement, he may then issue an amended sick note.
+Important comments
+Events with injury
+Events or acts or situations without injury
+Health & Safety
+AM_H&S_PR_010
+ArcelorMittal
+AM Safety ST 010 v 10_7 - Safety Metrics.docx
+< Page 3 of 12 >
+ 
+Page 3 of 12
+
+If a site does not agree that an absence is really due to an accident, the accident that has been reported 
+will however be included in the statistics; it will only be taken out if the appeal to an official organisation 
+in the country confirms in writing that the injury is not related to a work accident
+
+An incident with lost time which spans over several months is not counted as a new LTI the beginning of  
+each month; it is only counted once, being in the month of start of the absence
+3.4. Commuting to/from home incidents
+Any  inci dent on the public road during trip from home to the workplace or from the workplace back home 
+with any type of vehicle or on foot. They are not considered as work related. 
+They do not include i ncidents  occurring  inside the site or during business travel  (business travel covers all the 
+time from leaving home or normal working place, wherever the business trip is starting, till getting back 
+home or to normal place of work), which are considered workplace accidents.
+3.5. Reoccurring Injury (Relapse)
+A relapse of an earlier injury ( i.e., person is absent a second, third, … time due to the same event) is not 
+counted as a new LTI (so not included in frequency rate a second, third, … time) but all days are counted as 
+lost days (so ALL lost days of EACH absence to be included in severity rate). 
+However, if the initial incident was a Medical Aid or First Aid and thus did not result in the loss of time at 
+start and the reoccurrence does result in days lost then the injury is to be counted as a lost time injury (i.e. 
+put in the LTI category and take out of the Medical Aid or First Aid category, thus avoiding the same incident 
+would be counted twice) and the lost days are to be counted in the severity metric.
+3.6. Restricted Work Injury (also called ‘Adapted Work’) (RW) 
+An injury  which results in no time lost but the employee is not able to perform  ALL of his/her normal pre- 
+injury work functions or is assigned to suitable other modified work until he/she can perform all his/her pre- 
+injury work tasks without restrictions.  Restrictions and the ability to return to pre-injury tasks are to be 
+determined by a Physician.
+To be clear: 
+
+The task the person is doing must be a MEANINGFUL task.
+
+I f restricted work is offered, but the injured stays at home, the inju ry is to be counted as an LTI, t here is no 
+room for interpretation: if the person is not at work, it is an LTI in all cases. 
+3.7. Medical Aid Injury
+A work injury  which is  requiring treatment by a  Physician, and which is beyond the scope of first aid. 
+(Physician’s Assistants (PA) and Nurse Practitioners (NP) are to be considered Physicians for this document 
+since they practice under the license and direction of a Physician.) 
+Some examples include, but are not limited to: 
+a) Application of Sutures 
+b) Removal of Foreign Bodies Embedded in Eye (invasive procedure) 
+c) Positive X-Ray Diagnosis (fractures, dislocation, disc injury etc) 
+d) Loss of Consciousness due to an injury or exposure in the work environment 
+e) Use of prescription medicine. 
+However, the consequences are such that normal work is done, without any loss of working day after the day 
+of the occurrence.
+From 01.01.2014 the reporting of Medical Aid Injuries and the upload in SaRA is mandatory.
+Health & Safety
+AM_H&S_PR_010
+ArcelorMittal
+AM Safety ST 010 v 10_7 - Safety Metrics.docx
+< Page 4 of 12 >
+ 
+Page 4 of 12
+3.8. First Aid (i.e., not to be declared to local authorities) 
+An injury  which do es not require trea tment by a medical professional and the consequences are such that 
+normal work is done, without any loss of working day after the day of the occurrence. 
+3.9. Near Hits
+Any  event  which effectively occurred, but  which (fortunately) did not create any harm to  people but may do 
+in any subsequent occurrence. 
+Example:
+
+A piece of equipment or a load fell from a crane but did not hit anybody.
+
+A car drove through a red light and a pedestrian could jump away just in time to avoid being hit.
+
+B ecause a lock out was not properly done, the control room operator started a pump that was being 
+maintained, but fortunately the maintenance man had just left to find an appropriate tool to do the job.
+3.10.
+Unsafe situation
+Any situation  which , sooner or later, may lead to an incident inflicting harm to one or more persons or 
+leading to material damage. 
+Example:
+
+A lifting cable found damaged but still in use.
+
+A traffic light has a defective red light.
+
+Part of a hand railing is missing or broken and as a consequence a fall from height is possible.
+
+Material dragging around on the floor, leading to a risk of trips and falls.
+3.11.
+Unsafe acts
+Any action which does endanger the person him/herself and/or the people working around.
+Example:
+
+W orking at heights ( e.g.,  on a roof) without  respect of the appropriate  controls  (to be  defined by  the 
+related HIRA (Hazard Identification and Risks Assessment)).
+
+Although the traffic light is red, someone still quickly crosses the street.
+
+Someone enters a confined space without gas detection equipment.
+
+Starting a job without proper lock out being in place nor testing it before starting the job.
+Unsafe acts and unsafe situations are latent conditions for accidents. 
+3.12.
+Potential Serious Injury and Fatality (PSIF)
+It’s an event, act or situation for which consequences or  worst  potential consequences  are  or could have 
+been a fatality or a permanent  severe  disability such  as: loss of a hand, loss of a limb, loss of an eye, 
+paraplegia, tetraplegia. 
+Examples:
+
+Someone got crushed between a fix point and a mobile equipment or load (event)
+
+Someone fell from > 1.8 m (event)
+
+Something heavy fell in an area where people are used to work (event)
+
+Someone entering an area or putting part of his body inside a machine, without isolation or, if 
+isolation not possible, without strong controls deeply thought in a specific HIRA-lite (unsafe act)
+Health & Safety
+AM_H&S_PR_010
+ArcelorMittal
+AM Safety ST 010 v 10_7 - Safety Metrics.docx
+< Page 5 of 12 >
+ 
+Page 5 of 12
+
+Someone working at height without collective protection, or without being attached, or being 
+attached on a loose lifeline or too low … (unsafe act / situation)
+
+Someone not respecting the walkway in an area where trucks or forklifts or machinery are 
+moving around. (Unsafe act)
+
+A fatal risk or severe injury risk not properly identified and controlled by a HIRA or HIRA-lite 
+(unsafe situation)
+Reactive SO/PSIF-s are: 
+
+Fatality 
+FAT
+
+Lost Time Injury
+LTI
+
+Restricted work injury (or adapted work) 
+RWI
+-
+Any Reactive PSIF occurring in month M must be recorded and validated in the REX system, at least 
+in preliminary status, by the 11th of the following month, M+1. 
+Proactive SO/PSIF-s are: 
+
+Medical Aid injury
+MAI
+
+First Aid 
+FA
+
+Near Hit 
+NH
+
+Unsafe Act or Unsafe Situation
+UA/US
+-
+When entering the LTIs and RWs reports in REX, both actual consequence and worst potential 
+consequences must be specified. 
+3.13.
+Worked hours
+The number of hours actually worked or an estimation if the actual figure not available (Contractor’s 
+activities, …). The hours actually worked and those regarded as such include the time spent for training or 
+other work required activities but does not take into account holidays or other days off.
+3.14.
+Days lost (Severity Rate, Sr)
+These are all days lost following an injury; in other words, one week’s absence is equivalent to 7 days lost 
+(i.e., including scheduled working days and weekends or equivalent planned resting and recuperation days).
+In the case of an immediate fatality no days are to be counted. If a fatality is not instantaneous, but death 
+occurs a number of days or months after the incident, then the days lost between the occurrence of the 
+injury and the day the person passes away, are to be counted in the normal #Lost Days field.  No additional 
+tracking of the lost days, up until the fatality, will be reported. Country specific legislation requiring a 
+calculation of additional days lost due to a fatality are NOT included in SaRA but must be recorded and 
+reported locally.
+The maximum days lost for each injury is limited to 12 months (365 days). However, if a person leaves the 
+company before the end of this period, only the days from the event to the leaving date (due to job finished, 
+retirement, …) are to be counted. 
+(Example, a person is injured 1 week before retirement, and dies 8 months after retirement, the lost days 
+counted would be 7, the days until retirement.) It is not expected to have any information on a person who 
+has left the company for any reason.
+A relapse of an earlier Lost Time injury is not counted as a new LTI, but the days lost are counted (i.e., one-
+time count for Fr but ALL lost days to be counted in Sr), independent of when the relapse is taken place.
+Health & Safety
+AM_H&S_PR_010
+ArcelorMittal
+AM Safety ST 010 v 10_7 - Safety Metrics.docx
+< Page 6 of 12 >
+ 
+Page 6 of 12
+3.15.
+Performance indicators for injuries:
+The definitions of the different indicators are as follows:
+Lost Time Injury rate (Fr):
+ Fr =  
+Number of Fatalities + Number of Lost Time Injuries
+Worked hours 
+x 1.000.000
+
+Severity rate of incidents (Sr):
+Sr = Number of days lost for LTI 
+Worked hours
+ x 1.000
+
+Lost Time Injury + Restricted Work Frequency rate (Fr’):
+Fr’ = Number of Fatalities +  Number of Lost Time Injuries +  Restricted work cases
+Worked hours
+ x 1.000.000 
+
+Severity rate of incidents and restricted work (Sr’):
+Sr’ = Number of days lost for LTI +  number of days lost for RWI 
+Worked hours
+ x 1.000
+
+Fatality rate (Fr+): 
+Fr+ = Number of Fatalities
+Worked hours
+ x 1.000.000 
+
+Recordable Injury rate (RIR):
+RIR = Number of Fatalities +  Lost Time Injuries +  Resticted work +  Medical Aid
+Worked hours
+ x 1.000.000 
+
+Total Injury rate (TIR):
+TIR = Number of Fatalities +  Lost Time Injuries +  Resticted work +  Medical Aid +  First Aid
+Worked hours
+ x 1.000.000 
+To be clear: 
+
+in TIR all accidents are only counted once; they have to be put in the ‘highest category’ that is 
+applicable according to the decision chart given above. 
+
+If an event includes multiple people, for Fr calculation every person hurt needs to be counted and 
+not the event, i.e., in case 3 people are hurt in 1 event, the number to be used in the calculation of 
+all frequency indices is 3, not 1!
+The below table gives guidance on when an injury has to be counted as LTI or as adapted work as well as on 
+which days are to be counted for Sr calculation.
+Health & Safety
+AM_H&S_PR_010
+ArcelorMittal
+AM Safety ST 010 v 10_7 - Safety Metrics.docx
+< Page 7 of 12 >
+ 
+Page 7 of 12
+Case 13 till 16: 
+Since we do want to be sure all injuries are properly registered, the following applies:
+-
+despite victim may have planned holidays, the injury has to be counted in LTI or RW and all days he/she 
+would have been absent (i.e., the already planned holidays + absence days after the holiday) have ALL to be 
+counted in the proper Sr (for LTI resp. RW)) – case 15 & 16
+-
+if the person does not do any adapted work or is not absent after the (normal) holidays, the injury still has to 
+be counted in LTI resp. RW, whilst the absence days (x) to be taken are those given by the Physician based on 
+the best estimate made at the time of examination of the injured person – case 13 and 14
+-
+in case the injured is working for a contractor on the site and the contract would finish before the person can 
+return to work, absence days have to be counted from the day following the injury until and including the last
+working day of the company on the site.
+4. Performance tracking table
+The H&S metrics are to be inputted directly into the corporate data base (SaRA) on a month basis by 
+personnel from all the company sites, no later than the 11th day of each month for the previous month’s 
+performance.
+Each site must designate 2 people for data entry and 2 for validation of recorded data. There’s a possibility 
+that record and validation could be done at level above as a Sub-Division, Division or Segment. Mandatory 
+way of doing:   one person is recording the data and another one must validate the data recorded.
+Health & Safety
+AM_H&S_PR_010
+ArcelorMittal
+AM Safety ST 010 v 10_7 - Safety Metrics.docx
+< Page 8 of 12 >
+ 
+Page 8 of 12
+5. Reporting process of ISO 45001 H&S certification:
+Production sites certified ISO 45001 are required to upload the most recent ISO 45 001 certificate to the 
+“Certificates application” site: 
+(https://appcenter1.myarcelormittal.com/Certificates/Pages/All/CertificatesSearch.aspx). 
+Each concerned site/sub-Division/Division/Segment should designate a person to upload the required 
+certificate. Frequency of update: at least every 3 years or on availability of a new certificate. 
+Contact Corp H&S dept (gary.schmelzer@arcelormittal.com or eduard.baluch@arcelormittal.com) in case 
+assistance or doubt. 
+6. Risk Definitions as used in REX and correspondence with WSA (World Steel Association) “Causes of 
+incidents” definitions (source = WSA report 2021, used in 2022)
+Burnt by fire (term used in REX) / Fire (WSA)
+Any incident resulting from the combustion of materials and propagation of the flames causing damage 
+to people, installation and the environment.
+Burnt by hot substance (other than liquid metal) / Hot Substances (WSA)
+Incident caused by exposure to any type of hot material, equipment, surface, steam or water. If the injury 
+is caused by hot metal, the injury is categorized into that cause.
+e.g., burns caused by hot equipment in contact with skin
+Burnt by liquid metal or slag / Hot Metal (WSA)
+Incidents caused by hot or liquid metal. Main risks are heat radiation, splashing, scalding from hot metal
+e.g., projection of hot metal on a person; burn by radiation of hot metal
+Burnt or injured by explosion or blast / Explosion (WSA)
+A release of energy that causes a pressure discontinuity or blast wave (e.g., detonations, deflagrations, 
+and rapid releases of high pressure caused by rupture of equipment or piping).
+e.g., water in liquid steel, leak of oxygen, generation and leak of hydrogen or leak of CO or blast furnace 
+gas can drive to an explosion
+Burnt or intoxicated by chemical or ionizing radiations / Exposure to Chemicals (WSA)
+Incident caused by contact or exposure to hazardous chemical substance.
+If the injury is caused by breathing toxic gas, the injury is categorized into cause gassing / asphyxiation.
+e.g., acid burn, chemical spill, allergic reaction
+Crushed by collapsing structure or building / Structural Failure (WSA)
+Any incident resulting from a failure of the structure of a building, machinery or equipment
+e.g., deficient scaffolding, roof or wall panels or structural frames, weather conditions or lack of 
+maintenance may deteriorate surface, constructive defect of machinery
+Crushed by moving machinery / Moving Machinery (WSA)
+Incident caused by any component of machinery or equipment that can move by any energy source 
+(electrical, steam, hydraulic, pneumatic, heat, wind, product such as strip being pulled by other 
+equipment), by remote control or by gravity.
+e.g., crushed by the movement of a shaft rotated by an operator in a remote cabin, unexpected start of 
+an un-isolated motor or engine, unexpected start of a conveyor, trapped between the belt and the roll of 
+a conveyor, crushed by the movement of a cover or table of a machine operated by hydraulic or 
+pneumatic cylinder. 
+ 
+Clarification on the WSA definition: “Moving machinery” has to be understood here as a machine that is 
+fixed to the ground, but that has movable parts/components. 
+Crushed by other mobile equipment or material
+Health & Safety
+AM_H&S_PR_010
+ArcelorMittal
+AM Safety ST 010 v 10_7 - Safety Metrics.docx
+< Page 9 of 12 >
+ 
+Page 9 of 12
+It include the following WSA categories:
+
+Other Mobile Equipment (WSA)
+o
+Incidents whose main cause is the use of equipment other than moving machinery and 
+vehicle.
+o
+e.g., hurt by a stepladder on wheels pushed by an operator, hurt while using an aerial 
+work platform (cherry picker, boom lift, man lift, basket crane)
+
+Rail 
+o
+Incident with a train inside the site or while handling railcars
+o
+e.g., collision by anything with a train, pedestrians crushed between the bumpers of 
+railcars while hooking up railcars, person falling from or struck by a locomotive or railway 
+cars
+Clarification and deviation from WSA definition: other mobile equipment do include rail equipment 
+(wagons, locomotives, trains, transfer carts on rails, overhead cranes). The difference with “moving 
+machinery” is that the full equipment itself is moving.
+Collision of 2 overhead cranes running on the same tracks or overlapping track falls in this REX risk 
+category, contrary to WSA, which would classify such incident in “Overhead Crane”.
+Crushed by suspended load / Overhead Crane (WSA)
+Any incident whose main cause is a crane holding component such as C hook or coil grab, chains or 
+slings, or its load.
+e.g., people injured due the swing of the load lifted by a crane, 
+Clarification and deviation from WSA definition: this include all sorts of cranes, not just overhead cranes. 
+It is limited to the incidents involving the suspended load of the crane.
+Health & Safety
+AM_H&S_PR_010
+ArcelorMittal
+AM Safety ST 010 v 10_7 - Safety Metrics.docx
+< Page 10 of 12 >
+ 
+Page 10 of 12
+Crushed or rolled over by vehicle - on-site road vehicle accident
+It include the following WSA categories:
+
+Forklift (WSA):
+o
+Any incident resulting from the use of or contact with a forklift truck, a powered industrial 
+truck used to lift and move materials. Incidents with forklifts can occur due to the load 
+handled, the environment in which the forklift is moving, the state of the vehicle or the 
+skills of the driver.
+o
+e.g., collision between a forklift and any other vehicle, person hurt by a forklift, reversal of
+the forklift, forklifts tend to swing around in a large radius and can run over pedestrians
+
+On-site Road/Vehicle (WSA)
+o
+Incident with a vehicle inside the site including private cars and industrial vehicles except 
+forklifts.
+o
+e.g., a pedestrian hurt by a truck, collision between a car and a truck
+Electrical / Electrical (WSA)
+Incident caused by exposure to electrical energy directly or indirectly.
+e.g., part of the body of a person in direct contact with bare wires, live busbars providing energy to an 
+overhead crane; part of the body of a person in indirect contact with electrical energy by touching the 
+switch gear or high voltage cabling or wires.
+Ergonomics risks & musculoskeletal disorders / Other (WSA)
+Injury caused either poor posture or by situations preventing comfortable access. Repetitive task injuries.
+Fall from height / Fall from Height (WSA)
+Fall from a level above the level of where the person is positioned after the fall. Depending on the 
+country, companies may define a height level where a fall prevention or restraint must be worn and used.
+The level is usually anywhere there is a risk of falling of 1.8 meters or 6 feet, but proper preventive fall 
+practices should be used also as the fall from a lower distance can lead to serious injuries.
+e.g., fall from a ladder, fall from a platform, fall from a roof, fall into a shaft, a pit or a hole in the ground
+Health & Safety
+AM_H&S_PR_010
+ArcelorMittal
+AM Safety ST 010 v 10_7 - Safety Metrics.docx
+< Page 11 of 12 >
+ 
+Page 11 of 12
+Gassed asphyxiated / Gassing/Asphyxiation (WSA)
+Incident in any area where gas can accumulate or be trapped, and the air does not sustain or support 
+life.
+- “gassing” when the breathing air contents a toxic gas.
+e.g., gassing due to a rate of carbon monoxide (CO) in the breathing air above the threshold limit 
+depending on the duration of the exposition to the CO
+- “asphyxiation” occurs when the oxygen rate in the breathing air decreases below 19.5%
+e.g., asphyxiation due to the presence of carbon dioxide (CO2), nitrogen (N2), argon (Ar) or any other 
+gas taking the place of the oxygen in the breathing air
+Hit by projected substance or object (other than in eye) / no equivalent category in WSA
+Injury caused by a substance or object that has been thrown or projected. Examples would include 
+objects breaking under tension or pressure, 
+e.g., hoist straps or hooks, supports under load, etc.
+Hit by projected substance or object in eye / Object in the Eye (WSA)
+Incident caused by something that enters the eye from outside the body.
+e.g., steel sliver in the eye, dust in the eye
+Hit/crushed by falling object or material / Falling Object (WSA)
+An object falling on a person for any reason, also objects that can be released sideways or upwards are 
+considered.
+e.g., tool falling from a scaffold, load falling from a crane, product falling due the collapse of a pile of 
+products, something stored vertically falling or sliding down, building components broken during storm, 
+or broken by snow, ice, or even hail, snow or ice blocks.
+Offsite road / Off site road/vehicle (WSA)
+Incident on the public road with any type of vehicle or on foot to and from the workplace. Includes 
+business travel.
+e.g., sales or marketing people injured on the road during the working time, employees driving to an 
+externally organized training session
+Others / Other (WSA)
+Incident is caused by a reason which is not listed. In case there are several reasons behind the incident, 
+the most suitable is chosen.
+Pinched, cut / no equivalent category in WSA
+Small injuries resulting in a pinch or cut not covered under one of the other more descriptive categories. 
+This could perhaps fall under the Manual Tasks and Tools WSA category, but for the moment, we make 
+no such connection.
+Health & Safety
+AM_H&S_PR_010
+ArcelorMittal
+AM Safety ST 010 v 10_7 - Safety Metrics.docx
+< Page 12 of 12 >
+ 
+Page 12 of 12
+Slip, trip, fall / Slip, Trip, Fall Same Level (WSA)
+Incident caused by falling on same level, not from elevation. Slips happen when there is too little friction 
+or traction between the footwear and the walking surface. A trip is the result of a foot s or colliding with 
+an object, which causes a loss in balance.
+e.g., winter slipperiness fall, twisted ankle while walking, stumble on uneven surface
+7. CSRD Definitions and correspondence with SARA 
+CSRD/ESG Reporting KPIs
+Required in
+2025 (for data
+recorded in
+2024)
+SaRA KPI
+Number of fatalities for employees as a 
+result of work-related injuries;
+x
+Fatalities Own Staff
+Number of fatalities for non-employees as 
+a result of work-related injuries;
+x
+Fatalities Contractors
+Number of cases of recordable work-
+related accidents for employees;
+x
+#LTI (>=1day), #RWI, #Acc with medical 
+aid Own Staff
+Number of cases of recordable work-
+related accidents for non-employees;
+x
+#LTI (>=1day), #RWI, #Acc with medical 
+aid Contractors
+Total hours worked by employees in the 
+workforce;
+x
+Worked hours Own Staff
+Total hours worked by non-employees in 
+the workforce;
+x
+Worked hours Contractors
+Number of days lost to work-related 
+injuries from work-related accidents for 
+employees;
+x
+#Lost days
+Number of days lost to work-related 
+fatalities from work-related accidents for 
+employees.
+?
+According to our definition, any lost 
+days would be recorded in the #Lost 
+Days field, not separately.  If a value is 
+required for separate reporting, we 
+suggest reporting 0.
+ 
+---- End of Document ----
