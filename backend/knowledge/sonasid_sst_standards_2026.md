@@ -1,11 +1,19 @@
-﻿# Standards SST SONASID 2026 - Manutention mécanique, circulation et gestion des incidents
+# Standards SST SONASID 2026 - Manutention mécanique, circulation et gestion des incidents
 
 Sources documentaires fournies par l'utilisateur :
-- SSS001_VA_STD MANUTENTION MECANIQUE Version Finale (Avec Signature) 13062026.pdf.pdf
-- SSS002_VA_STD CIRCULATION Version Finale (Avec Signature) 13062026.pdf
+- SSS001_VA_STD MANUTENTION MECANIQUE Version Finale (Avec Signature)  13062026.pdf.pdf
+- SSS002_VA_STD CIRCULATION Version Finale (Avec Signature)  13062026.pdf
 - SSS011_VA_STD GESTION DES INCIDENTS Version Finale.pdf
 
 Ces notes servent de base RAG opérationnelle pour AMANE. Elles complètent les règles SST existantes et doivent être utilisées pour orienter les réponses, les analyses photo HSE, les déclarations de situations dangereuses et les recommandations immédiates.
+
+## Index RAG prioritaire standards 2026
+
+- SSS001 Manutention mecanique : manutention mecanique, levage, pont roulant, palan, grue, chariot, engin, accessoire de levage, elingage, crochet, CMU, signaleur, gestes de commandement, chargement, dechargement, billettes, couronnes, bobines, charges metalliques, zone de manutention, charge suspendue uniquement si visible, risque de deplacement ou de roulement des couronnes lors de la manutention.
+- SSS002 Circulation : circulation interne, pietons, engins, camions, vehicules, chariots, angle mort, marche arriere, voie pietonne, voie engin, separation des flux, signalisation, vitesse, visibilite, zone de manoeuvre, coactivite.
+- SSS011 Gestion des incidents : incident, presque accident, near miss, accident, situation dangereuse, acte dangereux, securisation immediate, alerte HSE, hierarchie, faits, causes immediates, causes profondes, actions correctives, responsable, delai, retour d experience.
+
+Regle importante AMANE : ces standards 2026 doivent completer les anciennes regles SST. Pour les couronnes ou bobines au sol, ne pas choisir N3 Charge suspendue si aucune charge suspendue n'est visible; utiliser SSS001 avec N13 Manutention et/ou N23 5S selon les faits observes.
 
 ## SSS001 - Standard SST Manutention mécanique
 
