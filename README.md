@@ -91,6 +91,49 @@ curl http://127.0.0.1:8010/health
 curl -X POST http://127.0.0.1:8010/api/tts/speak -H "Content-Type: application/json" -d "{\"text\":\"Bonjour, je suis AMANE.\",\"lang\":\"fr-FR\"}" --output amane-test.mp3
 ```
 
+## Deploiement Render
+
+Le projet est pret pour Render avec `render.yaml`.
+
+Render cree :
+
+- un service web FastAPI `amane-ai` ;
+- une base PostgreSQL `amane-ai-db` ;
+- les variables non secretes necessaires au backend ;
+- la route de sante `/health`.
+
+Etapes :
+
+1. Pousser le depot sur GitHub.
+2. Aller sur Render.
+3. Choisir `New` puis `Blueprint`.
+4. Connecter le depot GitHub `Amane--AI`.
+5. Laisser Render lire `render.yaml`.
+6. Ajouter les variables secretes demandees :
+   - `OPENAI_API_KEY`
+   - `PUBLIC_APP_URL`, apres le premier deploiement, avec l'URL publique Render.
+7. Lancer le deploiement.
+
+La commande de demarrage utilise automatiquement le port Render :
+
+```bash
+cd backend && python -m uvicorn main:app --host 0.0.0.0 --port $PORT
+```
+
+Apres deploiement, ouvrir :
+
+```text
+https://votre-service-render.onrender.com/app/
+```
+
+Pour verifier l'API :
+
+```text
+https://votre-service-render.onrender.com/health
+```
+
+Important : Ollama ne doit pas etre utilise sur Render pour cette version. L'analyse photo, la transcription et la voix utilisent OpenAI, car Render ne fournit pas localement le modele Llama Vision.
+
 ## 4. Exemple qui fonctionne deja
 
 Dans un deuxieme terminal, depuis le dossier `backend` :

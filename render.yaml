@@ -1,0 +1,44 @@
+services:
+  - type: web
+    name: amane-ai
+    runtime: python
+    buildCommand: cd backend && pip install -r requirements.txt
+    startCommand: cd backend && python -m uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.6
+      - key: LLM_ENABLED
+        value: "true"
+      - key: LLM_PROVIDER
+        value: openai
+      - key: OPENAI_MODEL
+        value: gpt-4.1-mini
+      - key: OPENAI_VISION_MODEL
+        value: gpt-4.1-mini
+      - key: OPENAI_VISION_IMAGE_DETAIL
+        value: high
+      - key: TTS_ENABLED
+        value: "true"
+      - key: TTS_PROVIDER
+        value: openai
+      - key: OPENAI_TTS_MODEL
+        value: gpt-4o-mini-tts
+      - key: OPENAI_TTS_VOICE
+        value: nova
+      - key: OPENAI_STT_MODEL
+        value: gpt-4o-mini-transcribe
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: DATABASE_URL
+        fromDatabase:
+          name: amane-ai-db
+          property: connectionString
+      - key: PUBLIC_APP_URL
+        sync: false
+
+databases:
+  - name: amane-ai-db
+    databaseName: amane
+    user: amane
