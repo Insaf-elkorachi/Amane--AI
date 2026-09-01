@@ -1,4 +1,4 @@
-﻿from datetime import datetime
+﻿from datetime import date, datetime
 import unicodedata
 import re
 from typing import Any
@@ -323,10 +323,46 @@ class ReportService:
         return normalize_status(status) not in {"Traité", "Annulé"}
 
     @staticmethod
-    def dashboard_data(db: Session) -> dict[str, Any]:
-        reports = ReportService.get_all(db)
-        total = len(reports)
+    def _parse_dashboard_date(value: str | date | None) -> date | None:
+        if value is None or value == "":
+            return None
+        if isinstance(value, date):
+            return value
+        try:
+            return datetime.strptime(str(value), "%Y-%m-%d").date()
+        except ValueError:
+            return None
+
+    @staticmethod
+    def _report_created_date(report: Report) -> date | None:
+        created_at = getattr(report, "created_at", None)
+        if not created_at:
+            return None
+        return created_at.date()
+
+    @staticmethod
+    def dashboard_data(
+        db: Session,
+        date_from: str | date | None = None,
+        date_to: str | date | None = None,
+    ) -> dict[str, Any]:
+        all_reports = ReportService.get_all(db)
         today = datetime.now().date()
+        start_date = ReportService._parse_dashboard_date(date_from)
+        end_date = ReportService._parse_dashboard_date(date_to)
+        if start_date and end_date and start_date > end_date:
+            start_date, end_date = end_date, start_date
+
+        reports: list[Report] = []
+        for report in all_reports:
+            created_date = ReportService._report_created_date(report)
+            if start_date and (created_date is None or created_date < start_date):
+                continue
+            if end_date and (created_date is None or created_date > end_date):
+                continue
+            reports.append(report)
+
+        total = len(reports)
 
         dashboard_reports: list[dict[str, Any]] = []
         for report in reports:
@@ -375,6 +411,7 @@ class ReportService:
         by_location: dict[str, int] = {}
         by_source: dict[str, int] = {}
         by_danger_type: dict[str, int] = {}
+        by_day: dict[str, int] = {}
 
         for report in dashboard_reports:
             by_status[report["status"]] = by_status.get(report["status"], 0) + 1
@@ -383,8 +420,13 @@ class ReportService:
             by_location[report["location_label"]] = by_location.get(report["location_label"], 0) + 1
             by_source[report["source"]] = by_source.get(report["source"], 0) + 1
             by_danger_type[report["danger_type"]] = by_danger_type.get(report["danger_type"], 0) + 1
+            day_key = str(report["created_at"] or "")[:10] or "Non date"
+            by_day[day_key] = by_day.get(day_key, 0) + 1
 
         by_classification = {key: value for key, value in by_classification.items() if value > 0}
+        by_location = dict(sorted(by_location.items(), key=lambda item: item[1], reverse=True))
+        by_day = dict(sorted(by_day.items()))
+        top_zone = next(iter(by_location.items()), ("Aucune zone", 0))
         latest = dashboard_reports[:100]
         priority_queue = sorted(
             [report for report in dashboard_reports if report["priority_score"] > 0],
@@ -401,6 +443,13 @@ class ReportService:
                 "created_today": created_today,
                 "high_priority": high_priority,
                 "waiting_sap": waiting_sap,
+                "top_zone": top_zone[0],
+                "top_zone_count": top_zone[1],
+                "all_time_total": len(all_reports),
+            },
+            "date_range": {
+                "from": start_date.isoformat() if start_date else None,
+                "to": end_date.isoformat() if end_date else None,
             },
             "charts": {
                 "by_status": by_status,
@@ -409,6 +458,7 @@ class ReportService:
                 "by_location": by_location,
                 "by_source": by_source,
                 "by_danger_type": by_danger_type,
+                "by_day": by_day,
             },
             "latest": latest,
             "priority_queue": priority_queue,

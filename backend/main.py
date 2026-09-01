@@ -14,6 +14,7 @@ from models.report import Report
 from routers.chat import router as chat_router
 from routers.reports import router as reports_router
 from routers.rag import router as rag_router
+from routers.stt import router as stt_router
 from routers.tts import router as tts_router
 from routers.voice import router as voice_router
 from routers.vision import router as vision_router
@@ -57,6 +58,7 @@ app.include_router(voice_router)
 app.include_router(vision_router)
 app.include_router(reports_router)
 app.include_router(rag_router)
+app.include_router(stt_router)
 app.include_router(tts_router)
 
 if FRONTEND_DIR.exists():

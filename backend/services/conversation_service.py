@@ -37,87 +37,87 @@ class ConversationStep(str, Enum):
 QUESTIONS_FR = {
     ConversationStep.EMERGENCY_CHECK: (
         "Cette situation prÃ©sente-t-elle un danger immÃ©diat pour vous "
-        "ou pour les personnes autour de vous ?"
+        "ou pour les personnes autour de vous "
     ),
     ConversationStep.CLASSIFICATION: (
-        "S'agit-il d'un acte dangereux ou d'une situation dangereuse ?"
+        "S'agit-il d'un acte dangereux ou d'une situation dangereuse "
     ),
     ConversationStep.DESCRIPTION: (
-        "Pouvez-vous dÃ©crire prÃ©cisÃ©ment ce qui s'est passÃ© ?"
+        "Pouvez-vous dÃ©crire prÃ©cisÃ©ment ce qui s'est passÃ© "
     ),
     ConversationStep.EVENT_DATETIME: (
-        "Quelle est la date et l'heure de l'Ã©vÃ©nement ?"
+        "Quelle est la date et l'heure de l'Ã©vÃ©nement "
     ),
     ConversationStep.LOCATION: (
-        "Sur quel site cela s'est-il produit ? "
+        "Sur quel site cela s'est-il produit  "
         "PrÃ©cisez l'atelier, la zone et l'emplacement exact."
     ),
     ConversationStep.OBSERVED_PERSON: (
-        "Une personne a-t-elle Ã©tÃ© observÃ©e en situation dangereuse ?"
+        "Une personne a-t-elle Ã©tÃ© observÃ©e en situation dangereuse "
     ),
-    ConversationStep.DECLARANT: "Quel est votre nom ou votre matricule ?",
+    ConversationStep.DECLARANT: "Quel est votre nom ou votre matricule ",
     ConversationStep.IMMEDIATE_ACTION: (
         "Quelle action immÃ©diate a Ã©tÃ© rÃ©alisÃ©e ou doit Ãªtre rÃ©alisÃ©e "
-        "pour sÃ©curiser la situation ?"
+        "pour sÃ©curiser la situation "
     ),
     ConversationStep.RISK_ANALYSIS: (
-        "Quel risque cette situation pourrait-elle provoquer dans le futur ?"
+        "Quel risque cette situation pourrait-elle provoquer dans le futur "
     ),
 }
 
 
 QUESTIONS_DARIJA = {
     ConversationStep.EMERGENCY_CHECK: (
-        "Wach kayne chi khatar daba aalik oula aala nass li maak?"
+        "\u0648\u0627\u0634 \u0643\u0627\u064a\u0646 \u0634\u064a \u062e\u0637\u0631 \u062f\u0627\u0628\u0627 \u0639\u0644\u064a\u0643 \u0648\u0644\u0627 \u0639\u0644\u0649 \u0627\u0644\u0646\u0627\u0633 \u0644\u064a \u0645\u0639\u0627\u0643\u061f"
     ),
     ConversationStep.CLASSIFICATION: (
-        "Wach hadchi acte dangereux oula situation dangereuse?"
+        "\u0648\u0627\u0634 \u0647\u0627\u062f\u0634\u064a \u0641\u0639\u0644 \u062e\u0637\u064a\u0631 \u0648\u0644\u0627 \u0648\u0636\u0639\u064a\u0629 \u062e\u0637\u064a\u0631\u0629\u061f"
     ),
     ConversationStep.DESCRIPTION: (
-        "Afak chraah lia b tafsil chnou oukaa."
+        "\u0639\u0627\u0641\u0627\u0643 \u0634\u0631\u062d \u0644\u064a\u0627 \u0645\u0632\u064a\u0627\u0646 \u0634\u0646\u0648 \u0648\u0642\u0639."
     ),
     ConversationStep.EVENT_DATETIME: (
-        "Fach oukaa had lhadath? Aatini tarikh ou l waqt."
+        "\u0625\u0645\u062a\u0649 \u0648\u0642\u0639 \u0647\u0627\u062f \u0627\u0644\u062d\u0627\u062f\u062b\u061f \u0639\u0637\u064a\u0646\u064a \u0627\u0644\u062a\u0627\u0631\u064a\u062e \u0648\u0627\u0644\u0648\u0642\u062a."
     ),
     ConversationStep.LOCATION: (
-        "Fin oukaa hadchi? Aatini site, atelier, ou zone b dabt."
+        "\u0641\u064a\u0646 \u0648\u0642\u0639 \u0647\u0627\u062f\u0634\u064a\u061f \u0639\u0637\u064a\u0646\u064a \u0627\u0644\u0645\u0648\u0642\u0639\u060c \u0627\u0644\u0648\u0631\u0634\u0629\u060c \u0648\u0627\u0644\u0632\u0648\u0646 \u0628\u0627\u0644\u0636\u0628\u0637."
     ),
     ConversationStep.OBSERVED_PERSON: (
-        "Wach kayne chi wahed oula chi wahda kan f wadiya khatira?"
+        "\u0648\u0627\u0634 \u0643\u0627\u064a\u0646 \u0634\u064a \u0648\u0627\u062d\u062f \u0628\u0627\u0646 \u0641\u0648\u0636\u0639\u064a\u0629 \u062e\u0637\u064a\u0631\u0629\u061f"
     ),
-    ConversationStep.DECLARANT: "Chnou smitak oula matricule dyalek?",
+    ConversationStep.DECLARANT: "\u0634\u0646\u0648 \u0633\u0645\u064a\u062a\u0643 \u0648\u0644\u0627 \u0627\u0644\u0645\u0627\u062a\u0631\u064a\u0643\u0648\u0644 \u062f\u064a\u0627\u0644\u0643\u061f",
     ConversationStep.IMMEDIATE_ACTION: (
-        "Chnou l action li derto daba bach tseddo l khatar?"
+        "\u0634\u0646\u0648 \u0627\u0644\u0625\u062c\u0631\u0627\u0621 \u0644\u064a \u062f\u0631\u062a\u0648 \u062f\u0627\u0628\u0627 \u0628\u0627\u0634 \u062a\u0623\u0645\u0646\u0648 \u0627\u0644\u0648\u0636\u0639\u064a\u0629\u061f"
     ),
     ConversationStep.RISK_ANALYSIS: (
-        "Chnou l khatar li momkin youkaa mn baad ila bqat had l wadiya?"
+        "\u0625\u0644\u0627 \u0628\u0642\u0627\u062a \u0647\u0627\u062f \u0627\u0644\u0648\u0636\u0639\u064a\u0629\u060c \u0634\u0646\u0648 \u0627\u0644\u062e\u0637\u0631 \u0644\u064a \u0645\u0645\u0643\u0646 \u064a\u0648\u0642\u0639\u061f"
     ),
 }
 QUESTIONS_EN = {
     ConversationStep.EMERGENCY_CHECK: (
-        "Does this situation present an immediate danger to you or to people around you?"
+        "Does this situation present an immediate danger to you or to people around you"
     ),
     ConversationStep.CLASSIFICATION: (
-        "Is this an unsafe act or an unsafe condition?"
+        "Is this an unsafe act or an unsafe condition"
     ),
     ConversationStep.DESCRIPTION: (
         "Please describe precisely what happened."
     ),
     ConversationStep.EVENT_DATETIME: (
-        "What is the date and time of the event?"
+        "What is the date and time of the event"
     ),
     ConversationStep.LOCATION: (
-        "Where did it happen? Please specify the site, workshop, area, and exact location."
+        "Where did it happen Please specify the site, workshop, area, and exact location."
     ),
     ConversationStep.OBSERVED_PERSON: (
-        "Was anyone observed in an unsafe situation?"
+        "Was anyone observed in an unsafe situation"
     ),
-    ConversationStep.DECLARANT: "What is your name or employee ID?",
+    ConversationStep.DECLARANT: "What is your name or employee ID",
     ConversationStep.IMMEDIATE_ACTION: (
-        "What immediate action was taken or should be taken to secure the situation?"
+        "What immediate action was taken or should be taken to secure the situation"
     ),
     ConversationStep.RISK_ANALYSIS: (
-        "What risk could this situation cause in the future?"
+        "What risk could this situation cause in the future"
     ),
 }
 
@@ -222,8 +222,8 @@ class ConversationService:
         return {}
 
     def _save_user_correction(self, wrong: str, right: str) -> None:
-        wrong = wrong.strip(" .,:;!?\"'â€œâ€â€˜â€™")
-        right = right.strip(" .,:;!?\"'â€œâ€â€˜â€™")
+        wrong = wrong.strip(" .,:;!\"'â€œâ€â€˜â€™")
+        right = right.strip(" .,:;!\"'â€œâ€â€˜â€™")
         if not wrong or not right:
             return
         self.user_corrections[wrong] = right
@@ -235,15 +235,15 @@ class ConversationService:
 
     @staticmethod
     def _clean_correction_part(value: str) -> str:
-        return re.sub(r"^(que|quand|si|je dis|tu comprends|comprends|ecris|Ã©cris)\s+", "", value.strip(), flags=re.IGNORECASE).strip(" .,:;!?\"'â€œâ€â€˜â€™")
+        return re.sub(r"^(que|quand|si|je dis|tu comprends|comprends|ecris|Ã©cris)\s+", "", value.strip(), flags=re.IGNORECASE).strip(" .,:;!\"'â€œâ€â€˜â€™")
 
     @classmethod
     def _extract_user_correction(cls, message: str) -> tuple[str, str] | None:
         text = (message or "").strip()
         patterns = [
-            r"(?:corrige|correction)\s+(.+?)\s+(?:par|en|avec)\s+(.+)$",
-            r"(?:quand|si)\s+je\s+dis\s+(.+?)\s*(?:,|;)?\s*(?:tu\s+comprends|comprends|ca\s+veut\s+dire|Ã§a\s+veut\s+dire|ecris|Ã©cris)\s+(.+)$",
-            r"(?:ce\s+n['â€™]?est\s+pas|c['â€™]?est\s+pas)\s+(.+?)\s*(?:,|;)?\s*(?:c['â€™]?est|mais|corrige\s+par)\s+(.+)$",
+            r"(?:corrige|correction)\s+(.+)\s+(?:par|en|avec)\s+(.+)$",
+            r"(?:quand|si)\s+je\s+dis\s+(.+)\s*(?:,|;)\s*(?:tu\s+comprends|comprends|ca\s+veut\s+dire|Ã§a\s+veut\s+dire|ecris|Ã©cris)\s+(.+)$",
+            r"(?:ce\s+n['â€™]est\s+pas|c['â€™]est\s+pas)\s+(.+)\s*(?:,|;)\s*(:c['â€™]est|mais|corrige\s+par)\s+(.+)$",
         ]
         for pattern in patterns:
             match = re.search(pattern, text, flags=re.IGNORECASE)
@@ -293,11 +293,11 @@ class ConversationService:
         if "classification" not in session["data"]:
             unsafe_act_markers = {
                 "acte", "comportement", "sans casque", "sans epi",
-                "unsafe act", "fØ¹Ù„", "ØªØµØ±Ù",
+                "unsafe act", "\u0641\u0639\u0644", "\u062a\u0635\u0631\u0641",
             }
             unsafe_condition_markers = {
                 "situation", "condition", "fuite", "huile", "cable", "cÃ¢ble",
-                "flaque", "convoyeur", "zone", "unsafe condition", "ÙˆØ¶Ø¹ÙŠØ©",
+                "flaque", "convoyeur", "zone", "unsafe condition", "\u0648\u0636\u0639\u064a\u0629",
             }
             if any(marker in normalized for marker in unsafe_act_markers):
                 session["data"]["classification"] = "Acte dangereux"
@@ -344,9 +344,9 @@ class ConversationService:
             "bonjour", "bonsoir", "salut", "je", "j", "tu", "il", "elle", "nous",
             "vous", "ils", "elles", "mon", "ma", "mes", "notre", "votre", "le", "la",
             "les", "un", "une", "des", "du", "de", "dans", "sur", "avec", "pour",
-            "pres", "pr?s", "au", "aux", "est", "suis", "sommes", "etes", "?tes",
+            "pres", "prs", "au", "aux", "est", "suis", "sommes", "tes", "tes",
             "sont", "veux", "voudrais", "peux", "peut", "pouvez", "signaler",
-            "declarer", "d?clarer", "remonter", "confirmer", "merci", "risque",
+            "declarer", "dclarer", "remonter", "confirmer", "merci", "risque",
             "danger", "situation", "acte", "atelier", "zone", "photo", "analyse",
         }
         darija_strong_markers = {
@@ -415,7 +415,7 @@ class ConversationService:
         hse_short_answers = {
             "situation", "dangereuse", "acte", "danger", "risque", "zone", "maintenance",
             "convoyeur", "nador", "sonasid", "casque", "epi", "fuite", "huile", "glissade",
-            "responsable", "service", "hse", "atelier", "laminoir", "acierie", "aci?rie",
+            "responsable", "service", "hse", "atelier", "laminoir", "acierie", "acirie",
         }
 
         if len(tokens) <= 4 and tokens.intersection(hse_short_answers):
@@ -435,8 +435,8 @@ class ConversationService:
             "salem",
             "salaam",
             "slm",
-            "Ø§Ù„Ø³Ù„Ø§Ù…",
-            "Ø³Ù„Ø§Ù…",
+            "\u0627\u0644\u0633\u0644\u0627\u0645",
+            "\u0633\u0644\u0627\u0645",
             "ahlan",
             "hello",
             "amane",
@@ -461,15 +461,15 @@ class ConversationService:
             "mouchkil",
             "mochkil",
             "khatar",
-            "Ø¨ØºÙŠØª",
-            "Ù…Ø´ÙƒÙ„",
-            "Ø®Ø·Ø±",
+            "\u0628\u063a\u064a\u062a",
+            "\u0645\u0634\u0643\u0644",
+            "\u062e\u0637\u0631",
         }
 
         if any(word in normalized or word in raw for word in intent_words):
             return False
 
-        if cls._contains_arabic(raw) and any(word in raw for word in {"Ø³Ù„Ø§Ù…", "Ø§Ù„Ø³Ù„Ø§Ù…"}):
+        if cls._contains_arabic(raw) and any(word in raw for word in {"\u0633\u0644\u0627\u0645", "\u0627\u0644\u0633\u0644\u0627\u0645"}):
             return True
 
         tokens = [
@@ -516,11 +516,11 @@ class ConversationService:
             "c est bon",
             "c'est bon",
             "tout est correct",
-            "Ø§ÙŠÙ‡",
-            "Ù†Ø¹Ù…",
-            "ÙˆØ§Ø®Ø§",
-            "ØµØ§ÙÙŠ",
-            "Ø§Ù‡",
+            "\u0625\u064a\u0647",
+            "\u0646\u0639\u0645",
+            "\u0648\u0627\u062e\u0627",
+            "\u0635\u0627\u0641\u064a",
+            "\u0622\u0647",
         }
 
         return (
@@ -560,10 +560,10 @@ class ConversationService:
             "il n y a pas",
             "ma kaynch",
             "ma kaynach",
-            "Ù„Ø§",
-            "Ù…Ø§ÙƒØ§ÙŠÙ†Ø´",
-            "Ù…Ø§ ÙƒØ§ÙŠÙ†Ø´",
-            "ÙˆØ§Ù„Ùˆ",
+            "\u0644\u0627",
+            "\u0645\u0627\u0643\u0627\u064a\u0646\u0634",
+            "\u0645\u0627 \u0643\u0627\u064a\u0646\u0634",
+            "\u0648\u0627\u0644\u0648",
         }
 
         return (
@@ -666,9 +666,9 @@ class ConversationService:
             return datetime.now().strftime("%d/%m/%Y")
 
         cleaned = re.sub(r"\b(\d{1,2})\s*h\s*(\d{2})\b", r"\1h\2", cleaned, flags=re.IGNORECASE)
-        cleaned = re.sub(r"\b(?:a|\u00e0)\s+(\d{1,2}h(?:\d{2})?)\b", "\u00e0 " + r"\1", cleaned, flags=re.IGNORECASE)
-        cleaned = re.sub(r"\b(\d{1,2}/\d{1,2}/\d{4})\s+(\d{1,2}h(?:\d{2})?)\b", r"\1 " + "\u00e0" + r" \2", cleaned)
-        cleaned = re.sub(r"\b(\d{1,2}\s+[a-zA-Z]+\s+\d{4})\s+(\d{1,2}h(?:\d{2})?)\b", r"\1 " + "\u00e0" + r" \2", cleaned)
+        cleaned = re.sub(r"\b(:a|\u00e0)\s+(\d{1,2}h(:\d{2}))\b", "\u00e0 " + r"\1", cleaned, flags=re.IGNORECASE)
+        cleaned = re.sub(r"\b(\d{1,2}/\d{1,2}/\d{4})\s+(\d{1,2}h(:\d{2}))\b", r"\1 " + "\u00e0" + r" \2", cleaned)
+        cleaned = re.sub(r"\b(\d{1,2}\s+[a-zA-Z]+\s+\d{4})\s+(\d{1,2}h(:\d{2}))\b", r"\1 " + "\u00e0" + r" \2", cleaned)
         return cleaned
 
     @classmethod
@@ -733,8 +733,7 @@ class ConversationService:
     def _intro(language: str) -> str:
         if language == "darija":
             return (
-                "Salam, ana AMANE, l assistant vocal dyal HSE. "
-                "Ila bghiti tsajli chi khatar oula anomalie, goul lia chnou oukaa."
+                'سلام، أنا أمان، المساعد الصوتي ديال السلامة. إلا بغيتي تسجل خطر ولا ملاحظة، قول ليا شنو وقع.'
             )
 
         if language == "en":
@@ -753,18 +752,18 @@ class ConversationService:
         newline = chr(10)
         if language == "darija":
             lines = [
-                "Ù‡Ø§Ø¯Ø§ Ù‡Ùˆ Ù…Ù„Ø®Øµ Ø§Ù„ØªØµØ±ÙŠØ­:",
+                "\u0647\u0627\u062f\u0627 \u0647\u0648 \u0645\u0644\u062e\u0635 \u0627\u0644\u062a\u0635\u0631\u064a\u062d \u062f\u064a\u0627\u0644\u0643:",
                 "",
-                f"- Classification : {data.get('classification', 'Ma t3amratch')}",
-                f"- Description : {data.get('description', 'Ma t3amratch')}",
-                f"- Date w l'heure : {data.get('event_datetime', 'Ma t3amratch')}",
-                f"- Localisation : {data.get('location', 'Ma t3amratch')}",
-                f"- Personne observee : {data.get('observed_person', 'Ma t3amratch')}",
-                f"- DÃ©clarant : {data.get('declarant', 'Ma t3amratch')}",
-                f"- Action immÃ©diate : {data.get('immediate_action', 'Ma t3amratch')}",
-                f"- Analyse du risque : {data.get('risk_analysis', 'Ma t3amratch')}",
+                f"- \u0627\u0644\u0646\u0648\u0639: {data.get('classification', '\u0645\u0627 \u062a\u0639\u0645\u0631\u0634')}",
+                f"- \u0627\u0644\u0648\u0635\u0641: {data.get('description', '\u0645\u0627 \u062a\u0639\u0645\u0631\u0634')}",
+                f"- \u0627\u0644\u062a\u0627\u0631\u064a\u062e \u0648\u0627\u0644\u0648\u0642\u062a: {data.get('event_datetime', '\u0645\u0627 \u062a\u0639\u0645\u0631\u0634')}",
+                f"- \u0627\u0644\u0645\u0643\u0627\u0646: {data.get('location', '\u0645\u0627 \u062a\u0639\u0645\u0631\u0634')}",
+                f"- \u0627\u0644\u0634\u062e\u0635 \u0627\u0644\u0645\u0644\u0627\u062d\u0638: {data.get('observed_person', '\u0645\u0627 \u062a\u0639\u0645\u0631\u0634')}",
+                f"- \u0627\u0644\u0645\u0635\u0631\u062d: {data.get('declarant', '\u0645\u0627 \u062a\u0639\u0645\u0631\u0634')}",
+                f"- \u0627\u0644\u0625\u062c\u0631\u0627\u0621 \u0627\u0644\u0641\u0648\u0631\u064a: {data.get('immediate_action', '\u0645\u0627 \u062a\u0639\u0645\u0631\u0634')}",
+                f"- \u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u062e\u0637\u0631: {data.get('risk_analysis', '\u0645\u0627 \u062a\u0639\u0645\u0631\u0634')}",
                 "",
-                "ÙˆØ§Ø´ Ù‡Ø§Ø¯ Ø§Ù„Ù…Ø¹Ù„ÙˆÙ…Ø§Øª ØµØ­ÙŠØ­Ø©ØŸ",
+                "\u0648\u0627\u0634 \u0643\u062a\u0623\u0643\u062f \u0628\u0644\u064a \u0647\u0627\u062f \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0635\u062d\u064a\u062d\u0629\u061f",
             ]
             return newline.join(lines)
 
@@ -781,7 +780,7 @@ class ConversationService:
                 f"- Immediate action: {data.get('immediate_action', 'Not provided')}",
                 f"- Risk analysis: {data.get('risk_analysis', 'Not provided')}",
                 "",
-                "Do you confirm that this information is correct?",
+                "Do you confirm that this information is correct",
             ]
             return newline.join(lines)
 
@@ -792,12 +791,12 @@ class ConversationService:
             f"- Description : {data.get('description', 'Non renseignÃ©e')}",
             f"- Date et heure : {data.get('event_datetime', 'Non renseignÃ©es')}",
             f"- Localisation : {data.get('location', 'Non renseignÃ©e')}",
-            f"- Personne observee : {data.get('observed_person', 'Non renseignÃ©e')}",
+            f"- Personne observ?e : {data.get('observed_person', 'Non renseignÃ©e')}",
             f"- DÃ©clarant : {data.get('declarant', 'Non renseignÃ©')}",
             f"- Action immÃ©diate : {data.get('immediate_action', 'Non renseignÃ©e')}",
             f"- Analyse du risque : {data.get('risk_analysis', 'Non renseignÃ©e')}",
             "",
-            "Ces informations sont-elles correctes ?",
+            "Ces informations sont-elles correctes ",
         ]
         return newline.join(lines)
     @staticmethod
@@ -874,6 +873,9 @@ class ConversationService:
             "reclamation", "rapport", "incident", "accident", "situation dangereuse",
             "acte dangereux", "danger immediat", "photo risque", "enregistrer",
             "bghit nsajel", "tsajel", "remontee hse",
+            "بغيت نصرح", "بغيت نسجل", "نصرح بوضعية", "نسجل خطر",
+            "تصريح ديال السلامة", "وضعية خطيرة", "فعل خطير",
+            "خطر", "حادث", "ملاحظة السلامة",
         }
         return any(marker in text for marker in report_markers)
 
@@ -888,6 +890,7 @@ class ConversationService:
             "aide moi", "aide", "regle", "consignation", "isolation", "epi", "balisage",
             "pont roulant", "laminoir", "zone", "sonasid", "hse", "salam", "bonjour", "hello",
             "chno", "wach", "3lach", "kifach", "bghit nfhem",
+            "شنو", "واش", "علاش", "كيفاش", "شرح", "سؤال", "قاعدة",
         }
         return any(marker in text for marker in general_markers)
 
@@ -900,15 +903,216 @@ class ConversationService:
             "chute", "feu", "incendie", "brulure", "electrique", "soudure", "maintenance",
             "sans casque", "sans epi", "charge suspendue", "pont roulant", "consignation",
             "khatar", "mouchkil", "mochkil", "wa9a3", "oukaa",
+            "خطر", "وضعية خطيرة", "فعل خطير", "حادث", "تسرب", "زيت",
+            "كابل", "تعثر", "سقوط", "حريق", "آلة", "اصابة", "إصابة",
         }
         return any(marker in text for marker in hazard_markers)
+    @classmethod
+    def _is_knowledge_question(cls, message: str) -> bool:
+        text = cls._norm_text(message)
+        question_markers = {
+            "question", "explique", "expliquer", "parle moi", "dis moi", "donne moi",
+            "c est quoi", "c'est quoi", "que dit", "quelle est", "quelles sont",
+            "comment faire", "je veux savoir", "bghit nfhem", "chrah", "chno", "wach",
+        }
+        knowledge_markers = {
+            "regle", "rule", "sst", "standard", "sss", "gppm", "zone", "laminoir",
+            "sonasid", "nador", "consignation", "isolation", "epi", "balisage",
+            "pont roulant", "manutention", "circulation", "incident", "poi", "urgence",
+        }
+        if any(marker in text for marker in question_markers) and any(marker in text for marker in knowledge_markers):
+            return True
+        if re.search(r"\bregle\s*(?:sst)?\s*(?:n|no|numero|num[eé]ro)?\s*\d{1,2}\b", text):
+            return True
+        if re.search(r"\b(?:standard|sss|st)\s*\d{1,3}\b", text):
+            return True
+        if re.search(r"\b(?:zone|laminoir)\s*\d{1,2}\b", text) and not cls._looks_like_hse_report_detail(message):
+            return True
+        return False
+
+    @staticmethod
+    def _clean_knowledge_text(text: str) -> str:
+        value = re.sub(r"Page\s+\d+\s*:", "", text)
+        value = re.sub(r"^#{1,6}\s+.*$", "", value, flags=re.MULTILINE)
+        value = re.sub(r"Source documentaire:\s*`?[^`\n]+`?", "", value)
+        value = re.sub(r"Source:\s*`?[^`\n]+`?", "", value)
+        value = re.sub(r"SAS006A?|SAS001A?", "", value)
+        value = re.sub(r"Folio\s*:\s*\d+/\d+", "", value, flags=re.IGNORECASE)
+        value = re.sub(r"R[Ãèe]gle\s+N[Â°o]*\s*\d+\s*:?", "", value, flags=re.IGNORECASE)
+        value = value.replace("â€™", "'").replace("â€¦", "...").replace("â€¢", "-").replace("âž¢", "-")
+        value = value.replace("Ã¨", "è").replace("Ã©", "é").replace("Ãª", "ê").replace("Ã ", "à")
+        value = value.replace("Ã´", "ô").replace("Ã»", "û").replace("Ã§", "ç").replace("Å“", "œ")
+        value = re.sub(r"(charge suspendue)\s+(Pour utiliser)", r"\1. \2", value)
+        value = re.sub(r"\s+", " ", value).strip(" -")
+        return value
+
+    @classmethod
+    def _extract_rule_number(cls, message: str) -> int | None:
+        text = cls._norm_text(message)
+        patterns = [
+            r"\bregle\s*(?:sst)?\s*(?:n|no|numero|num[eé]ro)?\s*(\d{1,2})\b",
+            r"\bn\s*(\d{1,2})\b",
+        ]
+        for pattern in patterns:
+            match = re.search(pattern, text)
+            if match:
+                return int(match.group(1))
+        return None
+
+    @classmethod
+    def _find_sonasid_rule_section(cls, rule_number: int) -> tuple[str, str] | None:
+        path = Path(__file__).resolve().parent.parent / "knowledge" / "sonasid_sst_rules_extracted.md"
+        if not path.exists():
+            return None
+        text = path.read_text(encoding="utf-8", errors="ignore")
+        sections = re.split(r"\n(?=##\s+)", text)
+        rule_patterns = [
+            rf"R(?:Ã¨|è|e)gle\s+(?:SST\s+)?N(?:Â°|°|o)?\s*0?{rule_number}\b",
+            rf"R(?:Ã¨|è|e)gle\s+N(?:Â°|°|o)?\s*0?{rule_number}\b",
+            rf"\bN(?:Â°|°|o)?\s*0?{rule_number}\b",
+        ]
+        for section in sections:
+            header = section.splitlines()[0].strip("# ").strip() if section.splitlines() else f"Règle {rule_number}"
+            if any(re.search(pattern, section, flags=re.IGNORECASE) for pattern in rule_patterns):
+                return header, cls._clean_knowledge_text(section)
+        return None
+
+    @classmethod
+    def _summarize_rule_section(cls, rule_number: int, title: str, text: str, language: str) -> str:
+        clean_title = re.sub(r"^\d+_", "", title).strip()
+        clean_title = cls._clean_knowledge_text(clean_title) or f"Règle {rule_number}"
+        sentences = [
+            item.strip(" -•")
+            for item in re.split(r"(?<=[.!?])\s+|\s+(?=\d+\s*[-:]\s*)|\s+-\s+", text)
+            if item.strip()
+        ]
+        useful: list[str] = []
+        skip_markers = {"ce fichier alimente", "consigne assistant", "documents_sonasid"}
+        for sentence in sentences:
+            lowered = cls._norm_text(sentence)
+            if any(marker in lowered for marker in skip_markers):
+                continue
+            sentence = re.sub(r"\b\d{1,2}\s+(janvier|fevrier|février|mars|avril|mai|juin|juillet|aout|ao[uû]t|septembre|octobre|novembre|decembre|décembre)\s+\d{4}\b", "", sentence, flags=re.IGNORECASE)
+            lowered = cls._norm_text(sentence)
+            if lowered in {"utilisation pont roulant", "utilisation pont roulant v csc", "utilisation pont roulant a vide"}:
+                continue
+            if "utilisation pont roulant" in lowered and "avant mise en route" in lowered:
+                continue
+            if (
+                "pendant l" in lowered and "utilisation" in lowered and len(lowered) < 35
+            ) or (
+                "fin de poste" in lowered and len(lowered) < 45
+            ) or (
+                "avant mise en route" in lowered and len(lowered) < 45
+            ):
+                continue
+            sentence = re.sub(r"^\d+\s*[-:]\s*", "", sentence).strip()
+            sentence = re.sub(r"^avant mise en route\s*:?", "Avant mise en route :", sentence, flags=re.IGNORECASE)
+            sentence = re.sub(r"^pendant l[’']utilisation\s*:?", "Pendant l’utilisation :", sentence, flags=re.IGNORECASE)
+            sentence = re.sub(r"^fin de poste ou de l[’']op[ée]ration\s*:?", "Fin de poste :", sentence, flags=re.IGNORECASE)
+            if len(sentence) < 12:
+                continue
+            useful.append(sentence)
+            if len(useful) >= 7:
+                break
+
+        source_line = f"Source : {clean_title}"
+        if language == "en":
+            intro = f"SONASID rule {rule_number} concerns {clean_title}."
+            bullets = "\n".join(f"- {item}" for item in useful[:6])
+            return f"{intro}\n\nWhat to remember:\n{bullets}\n\nIn practice: apply the checks before starting, keep the operation controlled, and stop if one condition is not safe.\n\n{source_line}"
+        if language == "darija":
+            bullets = "\n".join(f"- {item}" for item in useful[:6])
+            return (
+                f"القاعدة رقم {rule_number} ديال سوناسيد كتهم: {clean_title}.\n\n"
+                f"المهم فيها:\n{bullets}\n\n"
+                "الخلاصة: قبل ما تبدا الخدمة، خاصك دير المراقبة، تخلي العملية تحت السيطرة، وتوقف إلا بان شي خطر.\n\n"
+                f"{source_line}"
+            )
+
+        bullets = "\n".join(f"- {item}" for item in useful[:6])
+        return (
+            f"La règle {rule_number} de SONASID concerne : {clean_title}.\n\n"
+            f"À retenir :\n{bullets}\n\n"
+            "En pratique : avant de commencer, il faut vérifier les points de sécurité, garder la maîtrise de l’opération, "
+            "et arrêter l’activité si une condition n’est pas sûre.\n\n"
+            f"{source_line}"
+        )
+
+    @classmethod
+    def _zone_catalog_answer(cls, message: str, language: str) -> str | None:
+        text = cls._norm_text(message)
+        match = re.search(r"\b(?:zone|zonne|zon|laminoir)\s*(\d{1,2})\b", text)
+        if not match:
+            return None
+        zone_number = int(match.group(1))
+        wants_laminoir = any(marker in text for marker in {"laminoir", "train", "rolling", "mill"})
+        wants_general = any(marker in text for marker in {"site", "general", "complexe", "complex"})
+
+        entries: list[str] = []
+        if (wants_laminoir or not wants_general) and zone_number in LAMINOIR_ZONES:
+            entries.append(f"Laminoir {zone_number} - {LAMINOIR_ZONES[zone_number]}")
+        if (wants_general or not wants_laminoir) and zone_number in GENERAL_SITE_ZONES:
+            entries.append(f"Zone generale {zone_number} - {GENERAL_SITE_ZONES[zone_number]}")
+        if not entries:
+            return None
+
+        if language == "en":
+            intro = "I found this SONASID Nador zone reference:"
+            note = "If you want a more precise answer, specify whether it is the general site map or the rolling mill map."
+        elif language == "darija":
+            intro = "لقيت هاد المرجع ديال الزون فـ SONASID Nador:"
+            note = "إلا بغيتي جواب أدق، قول واش كتهضر على plan general ديال site ولا على laminoir."
+        else:
+            intro = "J'ai trouve cette reference de zone SONASID Nador :"
+            note = "Pour une reponse plus precise, indiquez s'il s'agit du plan general du site ou du laminoir."
+        return intro + "\n- " + "\n- ".join(entries) + "\n" + note
+
+    @classmethod
+    def _rag_snippet_fallback(cls, message: str, language: str) -> str | None:
+        rule_number = cls._extract_rule_number(message)
+        if rule_number is not None:
+            rule_section = cls._find_sonasid_rule_section(rule_number)
+            if rule_section:
+                title, section_text = rule_section
+                return cls._summarize_rule_section(rule_number, title, section_text, language)
+
+        chunks = rag_service.retrieve(message, top_k=3)
+        if not chunks:
+            return None
+        best_text = cls._clean_knowledge_text(str(chunks[0].get("text") or ""))
+        sentences = [item.strip(" -•") for item in re.split(r"(?<=[.!?])\s+|\s+-\s+", best_text) if item.strip()]
+        useful = [sentence for sentence in sentences if len(sentence) > 18][:5]
+        if useful:
+            if language == "en":
+                return "Here is the clear answer from AMANE knowledge base:\n\n" + "\n".join(f"- {item}" for item in useful)
+            if language == "darija":
+                return "هادي خلاصة واضحة من قاعدة المعرفة ديال أمان:\n\n" + "\n".join(f"- {item}" for item in useful)
+            return "Voici l’explication claire depuis la base de connaissances AMANE :\n\n" + "\n".join(f"- {item}" for item in useful)
+
+        lines: list[str] = []
+        if language == "en":
+            lines.append("I found these elements in AMANE knowledge base:")
+        elif language == "darija":
+            lines.append("لقيت هاد العناصر فـ قاعدة المعرفة ديال AMANE:")
+        else:
+            lines.append("J'ai trouve ces elements dans la base de connaissances AMANE :")
+        for chunk in chunks:
+            source = str(chunk.get("source") or "source inconnue")
+            snippet = re.sub(r"\s+", " ", str(chunk.get("text") or "")).strip()
+            if len(snippet) > 520:
+                snippet = snippet[:520].rstrip() + "..."
+            lines.append(f"- Source: {source}\n  {snippet}")
+        return "\n".join(lines)
+
     @staticmethod
     def _general_fallback(message: str, language: str) -> str:
         if language == "darija":
             return (
-                "Ana AMANE. Nqder ndwi m3ak b tariqa 3adiya, njawb 3la ay soual, "
-                "w n3awnek f HSE, règles SONASID, consignation, EPI, zones Nador, "
-                "ou simulation. Ila bghiti tsajel remontee HSE, goul: je veux declarer une situation."
+                'سلام، أنا أمان. نقدر نهضر معاك بطريقة عادية، '
+                'نجاوبك على الأسئلة، ونعاونك فـ السلامة وقواعد سوناسيد، '
+                'والعزل، ومعدات الوقاية، ومناطق الناظور. '
+                'إلا بغيتي تسجل تصريح ديال السلامة، قول: بغيت نصرح بوضعية خطيرة.'
             )
         if language == "en":
             return (
@@ -924,14 +1128,18 @@ class ConversationService:
         )
     @classmethod
     def _general_chat_response(cls, message: str, language: str) -> str:
-        fallback = cls._general_fallback(message, language)
-        if not llm_service.available:
-            return fallback
+        catalog_answer = cls._zone_catalog_answer(message, language)
+        rag_answer = cls._rag_snippet_fallback(message, language) if cls._is_knowledge_question(message) else None
+        fallback = catalog_answer or rag_answer or cls._general_fallback(message, language)
+        # Keep the voice assistant responsive: normal chat and RAG snippets answer locally.
+        # Full LLM reasoning is reserved for flows that explicitly need it, such as photo analysis.
+        return fallback
 
         try:
-            context = rag_service.format_context(rag_service.retrieve(message, top_k=5))
+            retrieved_chunks = rag_service.retrieve(message, top_k=6) if cls._is_knowledge_question(message) else []
+            context = rag_service.format_context(retrieved_chunks)
             if language == "darija":
-                lang_rule = "Reponds en darija marocaine simple, avec les termes techniques HSE en francais si necessaire."
+                lang_rule = "Reponds en darija marocaine simple ecrite en alphabet arabe. Evite la darija en lettres latines. Evite les mots anglais inutiles. Utilise des equivalents arabes/darija quand c est possible pour HSE, EPI, consignation et zones Nador. Garde seulement les noms officiels SONASID et AMANE."
             elif language == "en":
                 lang_rule = "Answer in clear professional English."
             else:
@@ -945,6 +1153,9 @@ class ConversationService:
                         "content": (
                             "Tu es AMANE, assistant conversationnel general et formateur HSE pour SONASID Nador. "
                             "Tu peux discuter normalement, expliquer, entrainer, simuler et repondre aux questions generales ou HSE. "
+                            "Pour une question sur une regle, une zone, un standard, une consignation ou une procedure, reponds uniquement avec le contexte SONASID/RAG fourni. "
+                            "Si le contexte ne contient pas l'information demandee, dis clairement que l'information n'est pas retrouvee dans la base AMANE. "
+                            "Quand une zone numerique est ambigue, distingue plan general du site et laminoir. "
                             "Ne cree pas de rapport tant que l'utilisateur ne demande pas explicitement de declarer/signaler une situation. "
                             "Pose au maximum une question courte si tu as besoin de precision. "
                             + lang_rule
@@ -989,6 +1200,16 @@ class ConversationService:
         message = self._apply_corrections(message, session.get("corrections", self.user_corrections))
 
         if current_step == ConversationStep.START:
+            if self._is_knowledge_question(message) or (
+                self._is_general_chat(message) and not self._looks_like_hse_report_detail(message)
+            ):
+                session["step"] = ConversationStep.START
+                return self._response(
+                    step=ConversationStep.START,
+                    response=self._general_chat_response(message, session["language"]),
+                    data=session["data"],
+                )
+
             if self._wants_hse_report(message) or self._looks_like_hse_report_detail(message):
                 self._prefill_opening_statement(session, message)
                 session["step"] = ConversationStep.EMERGENCY_CHECK
@@ -1005,6 +1226,13 @@ class ConversationService:
                 data=session["data"],
             )
 
+        if current_step not in {ConversationStep.CONFIRMATION, ConversationStep.COMPLETED} and self._is_knowledge_question(message):
+            return self._response(
+                step=current_step,
+                response=self._general_chat_response(message, session["language"]),
+                data=session["data"],
+            )
+
         if current_step == ConversationStep.EMERGENCY_CHECK:
             if self._is_yes(message):
                 session["data"]["immediate_danger"] = True
@@ -1012,9 +1240,9 @@ class ConversationService:
                 session["step"] = next_step
                 if session["language"] == "darija":
                     response = (
-                        "Hadchi kayban fih khatar. Afak ammen zone daba, "
-                        "baad nass aala l khatar, ou ayet l responsable ou service HSE. "
-                        "Mnin tkon situation sÃ©curisÃ©e, nkemlo. "
+                        "\u0647\u0627\u062f\u0634\u064a \u0643\u0627\u064a\u0628\u0627\u0646 \u0641\u064a\u0647 \u062e\u0637\u0631. \u0639\u0627\u0641\u0627\u0643 \u0623\u0645\u0651\u0646 \u0627\u0644\u0632\u0648\u0646 \u062f\u0627\u0628\u0627\u060c "
+                        "\u0628\u0639\u0651\u062f \u0627\u0644\u0646\u0627\u0633 \u0639\u0644\u0649 \u0627\u0644\u062e\u0637\u0631\u060c \u0648\u0639\u064a\u0637 \u0644\u0644\u0645\u0633\u0624\u0648\u0644 \u0623\u0648 \u0644\u0641\u0631\u064a\u0642 \u0627\u0644\u0633\u0644\u0627\u0645\u0629. "
+                        "\u0645\u0646 \u0628\u0639\u062f \u0645\u0627 \u062a\u062a\u0623\u0645\u0646 \u0627\u0644\u0648\u0636\u0639\u064a\u0629\u060c \u0646\u0643\u0645\u0644\u0648. "
                         + self._question(session, next_step)
                     )
                 elif session["language"] == "en":
@@ -1043,11 +1271,11 @@ class ConversationService:
 
             if not self._is_no(message):
                 if session["language"] == "darija":
-                    response = "Ø¬Ø§ÙˆØ¨Ù†ÙŠ Ø¨ Ø¢Ù‡ ÙˆÙ„Ø§ Ù„Ø§. ÙˆØ§Ø´ ÙƒØ§ÙŠÙ† Ø®Ø·Ø± Ø¯Ø§Ø¨Ø§ØŸ"
+                    response = "\u062c\u0627\u0648\u0628\u0646\u064a \u0628\u0622\u0647 \u0648\u0644\u0627 \u0644\u0627. \u0648\u0627\u0634 \u0643\u0627\u064a\u0646 \u062e\u0637\u0631 \u062f\u0627\u0628\u0627\u061f"
                 elif session["language"] == "en":
-                    response = "Please answer yes or no. Is there an immediate danger?"
+                    response = "Please answer yes or no. Is there an immediate danger"
                 else:
-                    response = "Veuillez rÃ©pondre par oui ou non. La situation prÃ©sente-t-elle un danger immÃ©diat ?"
+                    response = "Veuillez rÃ©pondre par oui ou non. La situation prÃ©sente-t-elle un danger immÃ©diat "
                 return self._response(
                     step=ConversationStep.EMERGENCY_CHECK,
                     response=response,
@@ -1096,7 +1324,7 @@ class ConversationService:
                 session["data"]["report_id"] = report.id
                 session["data"]["report_number"] = report.report_number
                 if session["language"] == "darija":
-                    response = f"Safy, signalement tsajel b succÃ¨s sous numÃ©ro {report.report_number}."
+                    response = f"\u0635\u0627\u0641\u064a\u060c \u062a\u0633\u062c\u0644 \u0627\u0644\u062a\u0635\u0631\u064a\u062d \u0628\u0646\u062c\u0627\u062d \u062a\u062d\u062a \u0627\u0644\u0631\u0642\u0645 {report.report_number}."
                 elif session["language"] == "en":
                     response = f"Your HSE report has been successfully saved under number {report.report_number}."
                 else:
@@ -1114,7 +1342,7 @@ class ConversationService:
                 session["data"] = {}
                 if session["language"] == "darija":
                     response = (
-                        "Ma confirmitinach signalement. Ghadi n3awdo mn classification. "
+                        "\u0645\u0627 \u062a\u0623\u0643\u062f\u0634 \u0627\u0644\u062a\u0635\u0631\u064a\u062d. \u063a\u0627\u062f\u064a \u0646\u0639\u0627\u0648\u062f\u0648 \u0645\u0646 \u0627\u0644\u062a\u0635\u0646\u064a\u0641. "
                         + self._question(session, next_step)
                     )
                 elif session["language"] == "en":
@@ -1124,7 +1352,7 @@ class ConversationService:
                     )
                 else:
                     response = (
-                        "La remontÃ©e n'a pas ete confirmÃ©e. Reprenons les informations. "
+                        "La remontÃ©e n'a pas ?t? confirmÃ©e. Reprenons les informations. "
                         + self._question(session, next_step)
                     )
                 return self._response(
@@ -1134,11 +1362,11 @@ class ConversationService:
                 )
 
             if session["language"] == "darija":
-                response = "Ø¬Ø§ÙˆØ¨Ù†ÙŠ Ø¨ Ø¢Ù‡ ÙˆÙ„Ø§ Ù„Ø§. ÙˆØ§Ø´ ÙƒØªØ£ÙƒØ¯ÙŠ Ù‡Ø§Ø¯ Ø§Ù„Ù…Ø¹Ù„ÙˆÙ…Ø§ØªØŸ"
+                response = "\u062c\u0627\u0648\u0628\u0646\u064a \u0628\u0622\u0647 \u0648\u0644\u0627 \u0644\u0627. \u0648\u0627\u0634 \u0643\u062a\u0623\u0643\u062f \u0647\u0627\u062f \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a\u061f"
             elif session["language"] == "en":
-                response = "Please answer yes or no. Do you confirm the report information?"
+                response = "Please answer yes or no. Do you confirm the report information"
             else:
-                response = "Veuillez rÃ©pondre par oui ou non. Confirmez-vous les informations de la remontÃ©e ?"
+                response = "Veuillez rÃ©pondre par oui ou non. Confirmez-vous les informations de la remontÃ©e "
             return self._response(
                 step=ConversationStep.CONFIRMATION,
                 response=response,
@@ -1147,11 +1375,11 @@ class ConversationService:
 
         if current_step == ConversationStep.COMPLETED:
             if session["language"] == "darija":
-                response = "Ù‡Ø§Ø¯ Ø§Ù„ØªØµØ±ÙŠØ­ Ø³Ø§Ù„Ø§ Ù…Ù† Ù‚Ø¨Ù„."
+                response = "\u0647\u0627\u062f \u0627\u0644\u062a\u0635\u0631\u064a\u062d \u0633\u0627\u0644\u0627 \u0645\u0646 \u0642\u0628\u0644."
             elif session["language"] == "en":
                 response = "This HSE report is already completed."
             else:
-                response = "Cette remontÃ©e est deja terminÃ©e."
+                response = "Cette remontÃ©e est d?j? terminÃ©e."
             return self._response(
                 step=ConversationStep.COMPLETED,
                 response=response,
@@ -1164,11 +1392,11 @@ class ConversationService:
             value = message.strip()
             if field_name == "risk_analysis" and self._is_uncertain_answer(value):
                 if session["language"] == "darija":
-                    response = "Ma kayn mochkil. Goul lia chnou momkin youkaa: glissade, blessure, electrocution, chute, ou arret production?"
+                    response = "\u0645\u0627 \u0643\u0627\u064a\u0646 \u0645\u0634\u0643\u0644. \u0642\u0648\u0644 \u0644\u064a\u0627 \u0634\u0646\u0648 \u0645\u0645\u0643\u0646 \u064a\u0648\u0642\u0639: \u0627\u0646\u0632\u0644\u0627\u0642\u060c \u0625\u0635\u0627\u0628\u0629\u060c \u0643\u0647\u0631\u0628\u0629\u060c \u0637\u064a\u062d\u0629\u060c \u0648\u0644\u0627 \u062a\u0648\u0642\u0641 \u0627\u0644\u0625\u0646\u062a\u0627\u062c\u061f"
                 elif session["language"] == "en":
-                    response = "No problem. What could happen if the situation remains: slip, injury, electric shock, fall, or production stop?"
+                    response = "No problem. What could happen if the situation remains: slip, injury, electric shock, fall, or production stop"
                 else:
-                    response = "Pas de souci. Quel risque possible voyez-vous : glissade, blessure, electrocution, chute ou arret de production ?"
+                    response = "Pas de souci. Quel risque possible voyez-vous : glissade, blessure, electrocution, chute ou arret de production "
                 return self._response(
                     step=ConversationStep.RISK_ANALYSIS,
                     response=response,

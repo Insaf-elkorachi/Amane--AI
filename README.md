@@ -37,13 +37,13 @@ pip install -r requirements.txt
 Depuis le dossier `backend` :
 
 ```powershell
-uvicorn main:app --reload
+.\.venv\Scripts\python.exe -m uvicorn main:app --reload --host 127.0.0.1 --port 8010
 ```
 
 Verification rapide :
 
 ```powershell
-curl http://127.0.0.1:8000/health
+curl http://127.0.0.1:8010/health
 ```
 
 Reponse attendue :
@@ -59,7 +59,36 @@ Reponse attendue :
 Ouvre ensuite l'application dans le navigateur :
 
 ```text
-http://127.0.0.1:8000/app/
+http://127.0.0.1:8010/app/
+```
+
+## Configuration OpenAI
+
+AMANE utilise OpenAI pour le texte, l'analyse photo, la transcription vocale et la voix.
+
+Dans `.env`, garder ces variables :
+
+```env
+OPENAI_API_KEY=your_openai_api_key_here
+LLM_ENABLED=true
+LLM_PROVIDER=openai
+OPENAI_MODEL=gpt-4.1-mini
+OPENAI_VISION_MODEL=gpt-4.1-mini
+OPENAI_VISION_IMAGE_DETAIL=high
+TTS_ENABLED=true
+TTS_PROVIDER=openai
+OPENAI_TTS_MODEL=gpt-4o-mini-tts
+OPENAI_TTS_VOICE=nova
+OPENAI_STT_MODEL=gpt-4o-mini-transcribe
+```
+
+Ne jamais publier `.env` sur GitHub, Render logs ou captures d'ecran.
+
+Tests rapides :
+
+```powershell
+curl http://127.0.0.1:8010/health
+curl -X POST http://127.0.0.1:8010/api/tts/speak -H "Content-Type: application/json" -d "{\"text\":\"Bonjour, je suis AMANE.\",\"lang\":\"fr-FR\"}" --output amane-test.mp3
 ```
 
 ## 4. Exemple qui fonctionne deja
@@ -306,3 +335,28 @@ https://ton-domaine-permanent.com/qr
 ```
 
 Le QR affiche pointera vers l'assistant permanent. C'est ce QR qu'il faut imprimer ou afficher dans l'usine.
+
+## Voix et micro OpenAI
+
+AMANE utilise `/api/tts/speak` pour lire les reponses avec OpenAI TTS et `/api/stt/transcribe` pour convertir le micro en texte. Cette approche evite la reconnaissance vocale navigateur, qui est instable avec l'arabe et la darija.
+
+### Tester la voix
+
+Depuis le dossier `backend` :
+
+```powershell
+.\.venv\Scripts\python.exe -m uvicorn main:app --reload --host 127.0.0.1 --port 8010
+```
+
+Puis depuis un autre terminal :
+
+```powershell
+curl -X POST http://127.0.0.1:8010/api/tts/speak -H "Content-Type: application/json" -d "{\"text\":\"سلام، أنا أمان. نقدر نعاونك في السلامة والصحة المهنية.\",\"lang\":\"ar-MA\"}" --output amane-arabe.mp3
+```
+
+### Desactiver la voix serveur
+
+```env
+TTS_ENABLED=false
+TTS_PROVIDER=browser
+```

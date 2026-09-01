@@ -105,15 +105,9 @@ class RagService:
 
     @lru_cache(maxsize=1)
     def chunks(self) -> tuple[RagChunk, ...]:
-        chunks = self._load_chunks()
-        if llm_service.available and chunks:
-            try:
-                embeddings = llm_service.embed([chunk.text for chunk in chunks])
-                for chunk, embedding in zip(chunks, embeddings):
-                    chunk.embedding = embedding
-            except Exception:
-                pass
-        return tuple(chunks)
+        # Keep AMANE responsive during voice use: load local knowledge only.
+        # Embedding the whole corpus on the first question is too slow for a live assistant.
+        return tuple(self._load_chunks())
 
     def retrieve(self, query: str, top_k: int | None = None) -> list[dict[str, str | float]]:
         top_k = top_k or settings.RAG_TOP_K
@@ -123,13 +117,6 @@ class RagService:
 
         scored: list[tuple[float, RagChunk]] = []
         query_embedding: list[float] | None = None
-
-        if llm_service.available and any(chunk.embedding for chunk in chunks):
-            try:
-                embeddings = llm_service.embed([query])
-                query_embedding = embeddings[0] if embeddings else None
-            except Exception:
-                query_embedding = None
 
         query_tokens = _tokenize(query)
         for chunk in chunks:

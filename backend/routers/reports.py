@@ -1,6 +1,6 @@
 ﻿from html import escape
 
-from fastapi import APIRouter, Depends, HTTPException, Request
+from fastapi import APIRouter, Depends, HTTPException, Query, Request
 from fastapi.responses import HTMLResponse, RedirectResponse
 from sqlalchemy.orm import Session
 
@@ -271,7 +271,7 @@ def render_report_pdf_html(report: Report) -> str:
         ("Type de danger IA", report.danger_type),
         ("Statut", report.status),
     ]
-    optional_ai_labels = {"Action recommand?e IA", "Urgence", "Type de danger IA"}
+    optional_ai_labels = {"Action recommande IA", "Urgence", "Type de danger IA"}
     visible_fields = [
         (label, value)
         for label, value in fields
@@ -385,11 +385,21 @@ def dashboard_page():
 
 
 @router.get("/dashboard/pdf", response_class=HTMLResponse)
-def dashboard_pdf(db: Session = Depends(get_db)):
-    return HTMLResponse(render_dashboard_pdf_html(ReportService.dashboard_data(db)))
+def dashboard_pdf(
+    date_from: str | None = Query(default=None),
+    date_to: str | None = Query(default=None),
+    db: Session = Depends(get_db),
+):
+    return HTMLResponse(render_dashboard_pdf_html(ReportService.dashboard_data(db, date_from=date_from, date_to=date_to)))
+
+
 @router.get("/dashboard/data")
-def dashboard_data(db: Session = Depends(get_db)):
-    return ReportService.dashboard_data(db)
+def dashboard_data(
+    date_from: str | None = Query(default=None),
+    date_to: str | None = Query(default=None),
+    db: Session = Depends(get_db),
+):
+    return ReportService.dashboard_data(db, date_from=date_from, date_to=date_to)
 
 @router.get("/{report_id}/pdf", response_class=HTMLResponse)
 def download_report_pdf_page(

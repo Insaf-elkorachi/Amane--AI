@@ -48,6 +48,19 @@ async def classify_risk_photo(
     image_path.write_bytes(data)
 
     vision_result = vision_risk_agent.classify(image_path, content_type=content_type, analysis_language=analysis_language)
+    response = vision_risk_agent.format_detailed_response(vision_result, language=analysis_language)
+
+    if vision_result.get("analysis_available") is False:
+        return {
+            "session_id": session_id,
+            "vision": vision_result,
+            "step": "start",
+            "response": response,
+            "completed": False,
+            "emergency": False,
+            "collected_data": {"photo_analysis": vision_result},
+        }
+
     normalized_analysis_language = (analysis_language or "ar").strip().lower()
     photo_conversation_language = {"fr": "fr", "en": "en"}.get(normalized_analysis_language)
     transcript = vision_risk_agent.to_conversation_message(vision_result)
@@ -58,7 +71,6 @@ async def classify_risk_photo(
         preferred_language=photo_conversation_language,
     )
 
-    response = vision_risk_agent.format_detailed_response(vision_result, language=analysis_language)
     conversation_result["response"] = response
     conversation_result["data"]["photo_analysis"] = vision_result
 

@@ -84,6 +84,10 @@
       textarea:focus { border-color: var(--brand); box-shadow: 0 0 0 3px rgba(245,130,32,.15); }
       .form-footer { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
       .form-message { color: var(--muted); font-size: 13px; font-weight: 800; }
+      .period-tools { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: end; margin-bottom: 12px; padding: 12px; border: 1px solid var(--line); border-radius: 8px; background: linear-gradient(135deg, rgba(255,244,232,.7), rgba(255,255,255,.82)); }
+      .date-fields { display: grid; grid-template-columns: repeat(2, minmax(150px, 1fr)); gap: 10px; }
+      .quick-periods { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+      .quick-periods .button.is-active { border-color: var(--brand); background: var(--brand); color: white; }
       .filters { display: grid; grid-template-columns: minmax(220px, 1fr) 170px 160px 170px; gap: 10px; margin-bottom: 12px; }
       input, select { min-height: 42px; border: 1px solid var(--line); border-radius: 8px; padding: 0 12px; background: white; color: var(--ink); outline: none; }
       input:focus, select:focus { border-color: var(--brand); box-shadow: 0 0 0 3px rgba(245,130,32,.15); }
@@ -104,6 +108,10 @@
       .bar-label strong { color: var(--ink); }
       .bar-track { height: 11px; border-radius: 999px; background: #e8efeb; overflow: hidden; }
       .bar-fill { height: 100%; width: 0; background: linear-gradient(90deg, var(--brand), #ffad5f); border-radius: 999px; transition: width 0.25s ease; }
+      .bar-fill.zone-hot { background: linear-gradient(90deg, #d94f2b, #f58220); }
+      .insight { display: grid; gap: 6px; padding: 12px; border: 1px solid var(--line); border-radius: 8px; background: white; }
+      .insight span { color: var(--muted); font-size: 12px; font-weight: 900; text-transform: uppercase; }
+      .insight strong { color: var(--brand-dark); font-size: 18px; line-height: 1.2; }
       .live { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); font-size: 13px; }
       .pulse { width: 9px; height: 9px; border-radius: 50%; background: #f58220; box-shadow: 0 0 0 0 rgba(245, 130, 32, 0.35); animation: pulse 1.8s infinite; }
 
@@ -121,7 +129,7 @@
       .export-actions { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
 
 @keyframes pulse { 70% { box-shadow: 0 0 0 10px rgba(245, 130, 32, 0); } 100% { box-shadow: 0 0 0 0 rgba(245, 130, 32, 0); } }
-      @media (max-width: 960px) { .kpis, .layout, header.hero, .form-grid { grid-template-columns: 1fr; } .filters { grid-template-columns: 1fr; } .field.full { grid-column: auto; } .table-wrap { overflow-x: auto; } table { min-width: 1080px; } .actions { justify-content: flex-start; } }
+      @media (max-width: 960px) { .kpis, .layout, header.hero, .form-grid, .period-tools, .date-fields { grid-template-columns: 1fr; } .filters { grid-template-columns: 1fr; } .quick-periods { justify-content: flex-start; } .field.full { grid-column: auto; } .table-wrap { overflow-x: auto; } table { min-width: 1080px; } .actions { justify-content: flex-start; } }
     </style>
   </head>
   <body>
@@ -227,6 +235,18 @@
                 <span class="table-count" id="tableCount">0 r&eacute;clamation</span>
                 <div class="export-actions"><button class="button" id="csvBtn" type="button">Exporter CSV</button><a class="button" id="pdfExportBtn" href="/reports/dashboard/pdf" target="_blank" rel="noreferrer">Exporter PDF</a></div>
               </div>
+              <div class="period-tools">
+                <div class="date-fields">
+                  <div class="field"><label for="dateFrom">Du</label><input id="dateFrom" type="date" /></div>
+                  <div class="field"><label for="dateTo">Au</label><input id="dateTo" type="date" /></div>
+                </div>
+                <div class="quick-periods" aria-label="Filtres p&eacute;riode">
+                  <button class="button" type="button" data-period="today">Aujourd'hui</button>
+                  <button class="button" type="button" data-period="7">7 jours</button>
+                  <button class="button" type="button" data-period="30">30 jours</button>
+                  <button class="button" type="button" data-period="all">Tout</button>
+                </div>
+              </div>
               <div class="filters">
                 <input id="searchInput" type="search" placeholder="Rechercher num&eacute;ro, r&eacute;clamant, zone, action..." />
                 <select id="dangerFilter">
@@ -257,13 +277,17 @@
             <div class="card-head"><h2>R&eacute;partition par type</h2></div>
             <div class="card-body"><div class="bars" id="charts"></div></div>
           </article>
+          <article class="card">
+            <div class="card-head"><h2>Evolution journali&egrave;re</h2></div>
+            <div class="card-body"><div class="bars" id="dailyChart"></div></div>
+          </article>
         </div>
         <aside class="grid">
           <article class="card"><div class="card-head"><h2>Priorit&eacute;s HSE</h2></div><div class="card-body"><div class="priority-list" id="priorityList"></div></div></article>
           <article class="card"><div class="card-head"><h2>Types de danger</h2></div><div class="card-body"><div class="bars" id="dangerTypes"></div></div></article>
           <article class="card"><div class="card-head"><h2>Urgences</h2></div><div class="card-body"><div class="bars" id="urgencies"></div></div></article>
           <article class="card"><div class="card-head"><h2>Statuts</h2></div><div class="card-body"><div class="bars" id="statuses"></div></div></article>
-          <article class="card"><div class="card-head"><h2>Zones</h2></div><div class="card-body"><div class="bars" id="locations"></div></div></article>
+          <article class="card"><div class="card-head"><h2>Zones les plus signal&eacute;es</h2></div><div class="card-body"><div class="insight" id="zoneInsight"><span>Zone active</span><strong>Aucune donn&eacute;e</strong></div><div class="bars" id="locations"></div></div></article>
         </aside>
       </section>
     </main>
@@ -273,6 +297,8 @@
       const bodyEl = document.querySelector("#reportsBody");
       const chartsEl = document.querySelector("#charts");
       const locationsEl = document.querySelector("#locations");
+      const dailyChartEl = document.querySelector("#dailyChart");
+      const zoneInsightEl = document.querySelector("#zoneInsight");
       const urgenciesEl = document.querySelector("#urgencies");
       const statusesEl = document.querySelector("#statuses");
       const dangerTypesEl = document.querySelector("#dangerTypes");
@@ -283,6 +309,10 @@
       const dangerFilter = document.querySelector("#dangerFilter");
       const urgencyFilter = document.querySelector("#urgencyFilter");
       const statusFilter = document.querySelector("#statusFilter");
+      const dateFromInput = document.querySelector("#dateFrom");
+      const dateToInput = document.querySelector("#dateTo");
+      const periodButtons = Array.from(document.querySelectorAll("[data-period]"));
+      const pdfExportBtn = document.querySelector("#pdfExportBtn");
       const csvBtn = document.querySelector("#csvBtn");
       const manualToggle = document.querySelector("#manualToggle");
       const manualCard = document.querySelector("#manualCard");
@@ -296,12 +326,13 @@
       const urgencyClass = (value) => String(value || "").toLowerCase();
 
       function renderKpis(kpis) {
+        const zoneHint = kpis.top_zone_count ? fmt(kpis.top_zone) : "Aucune zone dominante";
         const items = [
-          ["Total", kpis.total, "total", "Toutes les r\u00e9clamations"],
+          ["Total p\u00e9riode", kpis.total, "total", `${kpis.all_time_total || 0} au total`],
           ["Aujourd'hui", kpis.created_today, "sap", "Cr\u00e9\u00e9es ce jour"],
           ["Ouvertes", kpis.open_reports, "open", "\u00c0 traiter / suivre"],
           ["Priorit\u00e9", kpis.high_priority, "danger", "HIGH / CRITICAL"],
-          ["Danger imm\u00e9diat", kpis.immediate_danger, "danger", "Priorit\u00e9 HSE"],
+          ["Zone active", kpis.top_zone_count, "danger", zoneHint],
         ];
         kpisEl.innerHTML = items.map(([label, value, tone, hint]) => `<article class="card kpi ${tone}"><span>${label}</span><strong>${value || 0}</strong><small>${hint}</small></article>`).join("");
       }
@@ -332,14 +363,57 @@
           </tr>`).join("") : '<tr><td colspan="8">Aucune r\u00e9clamation trouv\u00e9e.</td></tr>';
       }
 
-      function renderBars(data, target) {
-        const entries = Object.entries(data || {}).sort((a, b) => b[1] - a[1]);
+      function renderBars(data, target, options = {}) {
+        const entries = Object.entries(data || {})
+          .sort((a, b) => options.keepOrder ? 0 : b[1] - a[1])
+          .slice(0, options.limit || 12);
         const max = Math.max(1, ...entries.map(([, value]) => value));
-        target.innerHTML = entries.length ? entries.map(([label, value]) => `
+        target.innerHTML = entries.length ? entries.map(([label, value], index) => `
           <div class="bar-row">
             <div class="bar-label"><strong>${fmt(label)}</strong><span>${value}</span></div>
-            <div class="bar-track"><div class="bar-fill" style="width:${Math.round(value / max * 100)}%"></div></div>
+            <div class="bar-track"><div class="bar-fill ${options.hot && index === 0 ? "zone-hot" : ""}" style="width:${Math.round(value / max * 100)}%"></div></div>
           </div>`).join("") : "<p>Aucune donn\u00e9e.</p>";
+      }
+
+      function renderZoneInsight(kpis = {}) {
+        if (!zoneInsightEl) return;
+        const count = kpis.top_zone_count || 0;
+        zoneInsightEl.innerHTML = `<span>Zone avec le plus de remont\u00e9es</span><strong>${fmt(kpis.top_zone)}</strong><div class="muted-line">${count} r\u00e9clamation${count > 1 ? "s" : ""} sur la p\u00e9riode</div>`;
+      }
+
+      function isoDate(date) {
+        return date.toISOString().slice(0, 10);
+      }
+
+      function setPeriod(period) {
+        const today = new Date();
+        let from = "";
+        let to = "";
+        if (period === "today") {
+          from = isoDate(today);
+          to = isoDate(today);
+        } else if (period === "7" || period === "30") {
+          const start = new Date(today);
+          start.setDate(today.getDate() - Number(period) + 1);
+          from = isoDate(start);
+          to = isoDate(today);
+        }
+        dateFromInput.value = from;
+        dateToInput.value = to;
+        periodButtons.forEach((button) => button.classList.toggle("is-active", button.dataset.period === period));
+        loadDashboard();
+      }
+
+      function dashboardParams() {
+        const params = new URLSearchParams();
+        if (dateFromInput.value) params.set("date_from", dateFromInput.value);
+        if (dateToInput.value) params.set("date_to", dateToInput.value);
+        return params;
+      }
+
+      function updateExportLinks() {
+        const params = dashboardParams().toString();
+        if (pdfExportBtn) pdfExportBtn.href = `/reports/dashboard/pdf${params ? `?${params}` : ""}`;
       }
 
       function renderPriorityQueue(items = []) {
@@ -425,7 +499,8 @@
       async function loadDashboard() {
         let data;
         try {
-          const response = await fetch("/reports/dashboard/data");
+          const params = dashboardParams().toString();
+          const response = await fetch(`/reports/dashboard/data${params ? `?${params}` : ""}`);
           if (!response.ok) throw new Error("API dashboard indisponible");
           data = await response.json();
         } catch (error) {
@@ -435,13 +510,16 @@
         }
         latest = data.latest || [];
         renderKpis(data.kpis || {});
+        renderZoneInsight(data.kpis || {});
+        updateExportLinks();
         updateStatusOptions(data.charts?.by_status || {});
         renderRows();
         renderBars(data.charts?.by_classification, chartsEl);
         renderBars(data.charts?.by_urgency, urgenciesEl);
         renderBars(data.charts?.by_status, statusesEl);
         renderBars(data.charts?.by_danger_type, dangerTypesEl);
-        renderBars(data.charts?.by_location, locationsEl);
+        renderBars(data.charts?.by_location, locationsEl, { hot: true, limit: 10 });
+        renderBars(data.charts?.by_day, dailyChartEl, { keepOrder: true, limit: 14 });
         renderPriorityQueue(data.priority_queue || []);
         updatedEl.textContent = "Mis \u00e0 jour " + new Date(data.updated_at).toLocaleTimeString();
       }
@@ -450,6 +528,9 @@
       dangerFilter.addEventListener("change", renderRows);
       urgencyFilter.addEventListener("change", renderRows);
       statusFilter.addEventListener("change", renderRows);
+      dateFromInput.addEventListener("change", () => { periodButtons.forEach((button) => button.classList.remove("is-active")); loadDashboard(); });
+      dateToInput.addEventListener("change", () => { periodButtons.forEach((button) => button.classList.remove("is-active")); loadDashboard(); });
+      periodButtons.forEach((button) => button.addEventListener("click", () => setPeriod(button.dataset.period)));
       csvBtn.addEventListener("click", exportCsv);
       document.querySelector("#refreshBtn").addEventListener("click", loadDashboard);
       manualToggle.addEventListener("click", () => manualCard.classList.toggle("is-open"));

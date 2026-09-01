@@ -85,14 +85,11 @@ class VoicePipelineService:
             }
         )
 
-        agent_result["response"] = text_to_speech_adapter.prepare_speech_text(
-            agent_result["response"]
-        )
         pipeline.append(
             {
                 "name": "text_to_speech",
                 "status": "ready",
-                "detail": "Assistant response prepared for browser voice synthesis.",
+                "detail": "Assistant response ready; TTS route prepares speech separately.",
             }
         )
 

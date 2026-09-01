@@ -17,7 +17,19 @@ router = APIRouter(prefix="/api/tts", tags=["AMANE Text To Speech"])
 
 @router.post("/speak")
 def speak(payload: TTSRequest) -> Response:
-    if not settings.TTS_ENABLED or not llm_service.client:
+    if not payload.text or not payload.text.strip():
+        raise HTTPException(status_code=400, detail="Texte vocal vide")
+
+    provider = (settings.TTS_PROVIDER or "openai").lower()
+    requested_lang = (payload.lang or "").lower()
+
+    if provider == "browser" or not settings.TTS_ENABLED:
+        raise HTTPException(status_code=503, detail="TTS serveur desactive; fallback navigateur")
+
+    if provider != "openai":
+        raise HTTPException(status_code=503, detail="TTS OpenAI uniquement active")
+
+    if not llm_service.client:
         raise HTTPException(status_code=503, detail="TTS IA non disponible")
 
     speech_text = text_to_speech_adapter.prepare_speech_text(payload.text, payload.lang)
@@ -31,7 +43,6 @@ def speak(payload: TTSRequest) -> Response:
             "input": speech_text,
             "response_format": "mp3",
         }
-        requested_lang = (payload.lang or "").lower()
         if requested_lang.startswith("fr"):
             kwargs["instructions"] = (
                 "Lis le texte en francais clair et professionnel. "
@@ -49,10 +60,10 @@ def speak(payload: TTSRequest) -> Response:
             )
         elif requested_lang.startswith("ar") or text_to_speech_adapter.is_arabic_text(payload.text):
             kwargs["instructions"] = (
-                "Lis le texte en arabe clair et naturel. "
-                "Ne melange pas avec la darija ni avec le francais, sauf les sigles et noms officiels. "
-                "Prononce \u0623\u0645\u0627\u0646 comme un nom court, sans r final. "
-                "Prononce \u0625\u062a\u0634 \u0625\u0633 \u0625\u064a lettre par lettre. Ne traduis pas et ne reformule pas."
+                "Lis ce texte avec une voix arabe claire, naturelle et professionnelle. "
+                "Garde le sens exactement. Ne traduis pas. Ne reformule pas. "
+                "Si le texte est en darija marocaine, prononce-le comme une darija marocaine naturelle. "
+                "Prononce \u0623\u0645\u0627\u0646 comme un nom court."
             )
         elif text_to_speech_adapter.is_darija(payload.text):
             kwargs["instructions"] = (
@@ -88,5 +99,8 @@ def speak(payload: TTSRequest) -> Response:
             raise HTTPException(status_code=500, detail="R?ponse audio vide")
         return Response(content=content, media_type="audio/mpeg")
     except Exception as exc:
+        error_text = str(exc).lower()
+        if "insufficient_quota" in error_text or "exceeded your current quota" in error_text:
+            raise HTTPException(status_code=503, detail="Quota TTS OpenAI insuffisant; fallback navigateur") from exc
         raise HTTPException(status_code=500, detail=f"Erreur TTS IA: {exc}") from exc
 

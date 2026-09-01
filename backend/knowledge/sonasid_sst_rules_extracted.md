@@ -146,9 +146,6 @@ lieu de stockage et connues par l’utilisateur
  
  
  
- 
- 
- 
 Exemple de pictogramme des dangers 
 (*) FDS : Fiche de données Sécurité
 

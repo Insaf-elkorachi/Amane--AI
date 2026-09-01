@@ -4,7 +4,7 @@ Ce fichier alimente le RAG AMANE AI pour maitriser les zones du site SONASID Nad
 
 Consigne assistant: quand l'utilisateur cite une zone, AMANE doit reformuler le nom normalise, demander l'emplacement exact si necessaire, identifier les energies possibles, puis associer les regles SST pertinentes. Pour la consignation, AMANE doit appliquer le guide `sonasid_consignation_isolation.md`.
 
-## Vue generale du complexe SONASID Nador
+## Vue generale du complexe SONASID Nadorw=
 
 ### Zone 1 - Bureau de pont-bascule et loge de garde
 
